@@ -1,56 +1,51 @@
 ---
 repo: "Tencent/teamai-cli"
 first_seen: 2026-09-10
-last_seen: 2026-09-10
-recommend_score: 9.5
-trending_count: 1
-stars_today: 563
-category:
-  - "AI"
-  - "Agent"
-  - "Skills"
-  - "Developer Tools"
-tags:
-  - "github/agent"
-  - "github/skills"
-  - "github/team"
-  - "github/mcp"
-  - "github/knowledge"
-  - "github/cli"
+last_seen: 2026-09-11
+recommend_score: 9.6
+trending_count: 2
+stars_today: 556
+category: ["AI", "Agent", "Skills", "Developer Tools"]
+tags: ["github/agent", "github/skills", "github/team", "github/mcp", "github/knowledge", "github/cli"]
 ---
 
 # Tencent/teamai-cli
 
 ## 项目定位
-团队级 AI Harness 管理 CLI，统一分发 Skills、Rules、MCP、Agents、Hooks 与团队知识。
+团队级 AI Harness 管理 CLI，统一分发 Skills、Rules、MCP、Agents、Hooks，并逐步覆盖团队知识和代码库知识治理。
 
 ## 核心功能 / 实现特点
-- TypeScript/npm CLI；Git 驱动的 push→评审→pull 分发；SessionStart/Stop hooks 参与自动同步与经验沉淀。
+- TypeScript/npm CLI；Git 驱动团队资产分发与评审。
+- 支持多 Coding Agent/Harness。
+- 最近新增 `teamai codebase --deep-enrich`、Wiki/graph reconcile、`status --all` 等代码库知识与状态治理能力。
 
 ## 主要优点
-- 同时覆盖 Claude Code、Codex、Cursor、OpenCode、Hermes 等多种 Agent
-- 用 Git 仓库作为团队经验与 Harness 的分发中心
-- 具有 Team Context / Team Improvement：经验沉淀、知识召回、会话与 usage 数据
+- 团队 Agent 资产 Git 化、可审查、可版本化。
+- 跨 Agent 复用能力强。
+- 从资源分发继续向持续学习、codebase Wiki 与知识召回演进。
 
 ## 局限 / 注意点
-- Context/Improvement 仍标记 beta
-- 功能面较宽，团队落地需要治理资源仓库、权限与升级策略
+- Context/Improvement 仍快速演进。
+- 团队落地需要额外定义权限、版本、回滚和升级策略。
 
 ## 最近变化
-- 首次上榜。
-- 今日 +563 stars；9 月 9 日仍合并 ZCode 一等支持，Issue 持续讨论多 Agent MCP inventory、skill 清理、Recall 子 Agent 等。
+- 评分 9.5→9.6。
+- 今日 +556 stars，较昨日 +563 基本持平。
+- 新增 deep-enrich，并修复 learning cache、metrics、MCP 路径和 Wiki 图 reconcile 等真实工程问题。
 
 ## Trending 历史
-
 | 日期 | 当日新增 Star | 评分 |
 |---|---:|---:|
 | 2026-09-10 | +563 | 9.5 |
+| 2026-09-11 | +556 | 9.6 |
 
 ## 相关主题
 - [[AI]]
 - [[Agent]]
 - [[Skills]]
 - [[Developer-Tools]]
+- [[Context-Engineering]]
 
 ## 相关日报
 - [[2026-09-10]]
+- [[2026-09-11]]
