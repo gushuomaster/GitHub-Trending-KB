@@ -1,10 +1,10 @@
 ---
 repo: "alsk1992/CloddsBot"
 first_seen: 2026-09-11
-last_seen: 2026-09-12
-recommend_score: 9.0
-trending_count: 2
-stars_today: 277
+last_seen: 2026-09-13
+recommend_score: 8.8
+trending_count: 3
+stars_today: 377
 category: ["AI", "Agent", "Quant"]
 tags: ["github/quant", "github/trading", "github/agent", "github/risk", "github/execution", "github/mcp"]
 ---
@@ -23,17 +23,18 @@ tags: ["github/quant", "github/trading", "github/agent", "github/risk", "github/
 - MIT、自托管，便于审计和二次开发
 
 ## 局限 / 注意点
-- 交易密钥和执行面风险高，必须独立验证风控与权限隔离
-- 37 个 open issues；近期仍有 Provider/配置类缺陷，不能把“100+ 策略”理解为已验证 Alpha
+- 最新 Issue 指出 MARKET notional cap 可被调用者价格绕过，部分交易入口仍绕过 breaker，Jupiter dry-run 无效，stop monitor 也存在未成交误判/取消后触发等风险
+- 交易密钥和执行面风险高，必须独立验证风控与权限隔离；策略数量不能视为已验证 Alpha
 
 ## 最近变化
-- 昨日 +299，今日 +277，热度小幅回落；仓库最近 push 在 9 月 10 日，维护仍活跃但没有出现足以抬高评分的新架构变化。
+- 热度从 +299 → +277 → 今日 +377，重新回升。9 月 12 日继续修 CLI 发布和嵌套测试发现，但 #125/#126/#127 暴露的是核心执行安全缺口，因此推荐分由 9.0 下调到 8.8。
 
 ## Trending 历史
 | 日期 | 当日新增 Star | 评分 |
 |---|---:|---:|
 | 2026-09-11 | +299 | 9.0 |
 | 2026-09-12 | +277 | 9.0 |
+| 2026-09-13 | +377 | 8.8 |
 
 ## 相关主题
 - [[AI]]
@@ -43,3 +44,4 @@ tags: ["github/quant", "github/trading", "github/agent", "github/risk", "github/
 ## 相关日报
 - [[2026-09-11]]
 - [[2026-09-12]]
+- [[2026-09-13]]
