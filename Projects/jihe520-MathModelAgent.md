@@ -1,10 +1,10 @@
 ---
 repo: "jihe520/MathModelAgent"
 first_seen: 2026-09-12
-last_seen: 2026-09-12
-recommend_score: 8.7
-trending_count: 1
-stars_today: 132
+last_seen: 2026-09-13
+recommend_score: 8.6
+trending_count: 2
+stars_today: 264
 category: ["AI", "Agent", "Skills", "Math Modeling"]
 tags: ["github/agent", "github/skills", "github/math-modeling", "github/python", "github/paper"]
 ---
@@ -16,6 +16,7 @@ tags: ["github/agent", "github/skills", "github/math-modeling", "github/python",
 
 ## 核心功能 / 实现特点
 - Python 为主，仓库同时提供 Agent 与 Skills；已有独立 Web 服务/沙箱相关组件，面向完整建模任务而非单轮问答。
+- 7 月代码更新补过模型配置预校验、JSON 重试上限、绘图字体和进度跟踪。
 
 ## 主要优点
 - 场景垂直且任务链完整
@@ -23,16 +24,18 @@ tags: ["github/agent", "github/skills", "github/math-modeling", "github/python",
 - 对数学建模竞赛、研究报告生成有较强即用性
 
 ## 局限 / 注意点
-- open issues 42，历史上出现过不安全 CORS、任务产物/日志缺少鉴权、sandbox 连接失败等问题
+- 历史上出现过不安全 CORS、任务产物/日志鉴权和 sandbox 连接等边界问题
 - 自动生成论文不能替代模型假设、数据处理和结果合理性的人工审查
+- 最近代码级更新偏少，当前热度与维护活跃度不同步
 
 ## 最近变化
-- 首次上榜；今日 +132 stars，9 月 10 日仍有 push，说明项目当前仍在维护。
+- 昨日 +132 → 今日 +264 stars，热度翻倍；但最近提交主要是 8 月 17 日文档更新，代码维护没有同步回升，因此推荐分由 8.7 调整为 8.6。
 
 ## Trending 历史
 | 日期 | 当日新增 Star | 评分 |
 |---|---:|---:|
 | 2026-09-12 | +132 | 8.7 |
+| 2026-09-13 | +264 | 8.6 |
 
 ## 相关主题
 - [[AI]]
@@ -41,3 +44,4 @@ tags: ["github/agent", "github/skills", "github/math-modeling", "github/python",
 
 ## 相关日报
 - [[2026-09-12]]
+- [[2026-09-13]]
