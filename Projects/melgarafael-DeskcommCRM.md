@@ -1,10 +1,10 @@
 ---
 repo: "melgarafael/DeskcommCRM"
 first_seen: 2026-09-13
-last_seen: 2026-09-13
-recommend_score: 9.0
-trending_count: 1
-stars_today: 505
+last_seen: 2026-09-14
+recommend_score: 8.7
+trending_count: 2
+stars_today: 444
 category: ["AI", "Agent", "Automation", "RAG"]
 tags: ["github/agent", "github/crm", "github/automation", "github/rag", "github/whatsapp", "github/typescript"]
 ---
@@ -15,25 +15,26 @@ tags: ["github/agent", "github/crm", "github/automation", "github/rag", "github/
 自托管 AI Sales OS/CRM，把 WhatsApp、AI Agents、follow-up、RAG、多租户与销售自动化整合进完整业务系统。
 
 ## 核心功能 / 实现特点
-- TypeScript/React/Node/Supabase 等全栈体系，包含 CRM、消息、Agent、知识库、自动 follow-up、审计与多租户部署。
-- 仓库具有 `.agents/.claude/.codex/.cursor/.specs` 等 Agent 工程与规格资产。
+- TypeScript/React/Node/Supabase 全栈，包含 CRM、消息、Agent、知识库、follow-up、审计、多租户和 `.agents/.claude/.codex/.cursor/.specs`。
+- 1.20.0 于 9 月 12 日发布；随后 Issue 更集中暴露知识源编辑/归档、RAG 一致性、事件消费和删除事务等真实生产边界。
 
 ## 主要优点
 - 能观察 Agent/RAG 如何进入真实销售业务流程，而非单点 Demo
-- 产品链路完整，版本和社区 Issue 活跃
-- 自托管、多租户、自动化与 AI 结合具有较强架构参考价值
+- 自托管、多租户、CRM、WhatsApp、知识库和自动化链路完整
+- Issue 通常带代码路径、复现和数据证据，适合研究生产级 Agent 产品治理
 
 ## 局限 / 注意点
-- 最新 Issue 暴露 RAG 原子性、联系人删除缺事务、event_log 积压等生产级缺陷
-- 部分 WhatsApp 语音能力依赖非官方链路，有账户风险，应默认谨慎启用
+- RAG 部分 chunk 写入失败仍可能激活不完整版本；归档知识源可让 Agent 配置进入不可编辑状态
+- 联系人删除存在先删消息/会话、再删联系人失败后历史已丢失的事务风险；event_log 也有长期未消费类型
 
 ## 最近变化
-- 首次上榜；今日 +505 stars。9 月 12 日继续合并 1.20.0 发布提交，但真实用户也集中暴露一致性和可靠性问题，因此评分没有因功能丰富度继续上调。
+- 连续第 2 天上榜：+505 → +444 stars，热度略降。1.20.0 后没有同等强度的新代码提交，而多条生产一致性 Issue 继续出现，因此评分 **9.0 → 8.7**。
 
 ## Trending 历史
 | 日期 | 当日新增 Star | 评分 |
 |---|---:|---:|
 | 2026-09-13 | +505 | 9.0 |
+| 2026-09-14 | +444 | 8.7 |
 
 ## 相关主题
 - [[AI]]
@@ -42,3 +43,4 @@ tags: ["github/agent", "github/crm", "github/automation", "github/rag", "github/
 
 ## 相关日报
 - [[2026-09-13]]
+- [[2026-09-14]]
