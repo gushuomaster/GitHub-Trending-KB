@@ -1,7 +1,7 @@
 ---
 type: github-trending-dashboard
-last_updated: 2026-09-15
-latest_daily: "[[2026-09-15]]"
+last_updated: 2026-09-17
+latest_daily: "[[2026-09-17]]"
 top_score: 9.7
 ---
 
