@@ -1,10 +1,10 @@
 ---
 repo: "JustVugg/colibri"
 first_seen: 2026-09-14
-last_seen: 2026-09-17
+last_seen: 2026-09-18
 recommend_score: 9.5
-trending_count: 4
-stars_today: 2026
+trending_count: 5
+stars_today: 872
 category: ["AI","Developer Tools","Local LLM"]
 tags: ["github/local-llm","github/inference","github/c","github/moe"]
 ---
@@ -12,8 +12,9 @@ tags: ["github/local-llm","github/inference","github/c","github/moe"]
 ## 项目定位
 纯 C、零依赖的 MoE 本地推理引擎，通过磁盘流式加载专家，把 NVMe/RAM/VRAM 组合成可运行超大模型的异构内存层。
 ## 最近变化
-- 2026-09-17：约 +2026 stars，连续两天维持 2k 级增长；总星约 35k。
-- 最近代码推送停在 9 月 15 日，热度继续增长但实现更新暂未同步加速；社区仍在验证 prefix reuse、GPU/Vulkan 与量化正确性。
+- 2026-09-18：约 +872 stars，较昨日 +2026 明显回落，但仍保持 Trending 高位。
+- 技术关注点仍集中在 prefix reuse、GPU/Vulkan、量化正确性和真实 I/O 吞吐。
+- 推荐分维持 9.5：底层路线有价值，但不能用 Star 热度替代真实性能基准。
 ## 局限 / 注意点
 磁盘带宽、随机 I/O 与专家命中率直接影响吞吐；不能把“能运行”误解为高并发高性能推理。
 ## Trending 历史
@@ -23,6 +24,7 @@ tags: ["github/local-llm","github/inference","github/c","github/moe"]
 | 2026-09-15 | +652 | 9.5 |
 | 2026-09-16 | +2035 | 9.5 |
 | 2026-09-17 | +2026 | 9.5 |
+| 2026-09-18 | +872 | 9.5 |
 ## 相关主题
 [[Developer-Tools]] · [[Context-Engineering]]
 ## 相关日报
@@ -30,3 +32,4 @@ tags: ["github/local-llm","github/inference","github/c","github/moe"]
 - [[2026-09-15]]
 - [[2026-09-16]]
 - [[2026-09-17]]
+- [[2026-09-18]]
