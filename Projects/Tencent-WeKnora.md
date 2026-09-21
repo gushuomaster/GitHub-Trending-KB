@@ -1,10 +1,10 @@
 ---
 repo: "Tencent/WeKnora"
 first_seen: 2026-09-17
-last_seen: 2026-09-18
+last_seen: 2026-09-21
 recommend_score: 9.7
-trending_count: 2
-stars_today: 1123
+trending_count: 3
+stars_today: 858
 category: ["AI","RAG","Agent","Knowledge Base"]
 tags: ["github/rag","github/agent","github/knowledge-base","github/go","github/wiki"]
 ---
@@ -14,9 +14,9 @@ tags: ["github/rag","github/agent","github/knowledge-base","github/go","github/w
 ## 核心功能 / 实现特点
 Go 主体；覆盖 embeddings、reranking、semantic/vector search、multi-tenant、Ollama/OpenAI 接入，并把 RAG 与 Wiki/Agent 合并为长期知识系统。
 ## 最近变化
-- 2026-09-18：约 +1123 stars，较昨日 +696 明显加速。
-- 9 月 17 日仍连续合并知识删除恢复、KB 计数一致性、任务存活探测和前端统一治理，热度与工程维护同步。
-- 推荐分 9.5→9.7：增长来自产品热度和真实一致性/恢复机制同时推进，而非单纯 Star。
+- 2026-09-18：约 +1123 stars，较前日 +696 明显加速。
+- 2026-09-21：最近可验证日榜仍约 +858/day，热度从峰值回落但保持高位；知识状态一致性、任务恢复与服务治理仍是近期工程重点。
+- 推荐分维持 9.7：长期 Context 架构价值没有下降。
 ## 局限 / 注意点
 系统面较宽，部署、多租户、任务队列和知识状态一致性增加运维复杂度；企业使用前仍应核对许可与数据治理边界。
 ## Trending 历史
@@ -24,8 +24,12 @@ Go 主体；覆盖 embeddings、reranking、semantic/vector search、multi-tenan
 |---|---:|---:|
 | 2026-09-17 | +696 | 9.5 |
 | 2026-09-18 | +1123 | 9.7 |
+| 2026-09-21 | +858* | 9.7 |
+
+\* 运行时采用最近可验证 Trending 快照。
 ## 相关主题
 [[RAG]] · [[Agent]] · [[Context-Engineering]]
 ## 相关日报
 - [[2026-09-17]]
 - [[2026-09-18]]
+- [[2026-09-21]]
