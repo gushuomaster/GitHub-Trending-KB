@@ -1,30 +1,41 @@
 ---
 type: github-trending-dashboard
-last_updated: 2026-09-21
-latest_daily: "[[2026-09-21]]"
-top_score: 9.7
+last_updated: 2026-09-22
+latest_daily: "[[2026-09-22]]"
+latest_scan_count: 12
+latest_new_count: 9
+latest_changed_count: 2
+latest_repeat_count: 1
 ---
-
-# GitHub Trending Dashboard
-
-> 下面查询需要安装 Obsidian 社区插件 **Dataview**。
-
-## 高评分项目
+# GitHub 项目发现知识图谱 Dashboard
+> 需要 Obsidian Dataview。
+## 今日新发现
 ```dataview
-TABLE recommend_score AS "评分", first_seen AS "首次发现", last_seen AS "最近发现", trending_count AS "上榜次数", stars_today AS "今日新增"
+TABLE repo, github_rank, stars_today, total_stars, category, topics
 FROM "Projects"
-WHERE recommend_score >= 9
-SORT recommend_score DESC
+WHERE first_seen = date(2026-09-22)
+SORT github_rank ASC
 ```
-
-## Agent 项目
+## 最近发生变化
 ```dataview
-TABLE recommend_score AS "评分", last_seen AS "最近发现", stars_today AS "今日新增"
+TABLE repo, last_seen, github_rank, stars_today, trending_count, status
 FROM "Projects"
-WHERE contains(category, "Agent")
-SORT last_seen DESC, recommend_score DESC
+WHERE last_seen >= date(today) - dur(7 days)
+SORT last_seen DESC, github_rank ASC
 ```
-
+## 按 Topic / Category 浏览
+```dataview
+TABLE repo, category, topics, first_seen, last_seen
+FROM "Projects"
+SORT category ASC, last_seen DESC
+```
+## 重复上榜
+```dataview
+TABLE repo, trending_count, first_seen, last_seen, stars_today
+FROM "Projects"
+WHERE trending_count > 1
+SORT trending_count DESC, last_seen DESC
+```
 ## 最近日报
 ```dataview
 LIST
