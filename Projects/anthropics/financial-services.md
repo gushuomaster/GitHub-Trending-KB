@@ -2,12 +2,12 @@
 repo: "anthropics/financial-services"
 url: "https://github.com/anthropics/financial-services"
 first_seen: 2026-09-22
-last_seen: 2026-09-24
-trending_count: 3
-github_rank: 1
-stars_today: 665
-total_stars: 36881
-forks: 5371
+last_seen: 2026-09-25
+trending_count: 4
+github_rank: 7
+stars_today: 510
+total_stars: 37309
+forks: 5416
 language: Python
 category: ["AI","Finance","Skills"]
 tags: ["ai","finance","financial-services","python"]
@@ -43,6 +43,7 @@ Anthropic 面向金融服务场景提供的 Agent、Skills 与数据连接器集
 | 2026-09-23 | 1 | +436 | 36309 |
 | 2026-09-24 | 1 | +665 | 36881 |
 
+| 2026-09-25 | 7 | +510 | 37309 |
 ## 相关主题
 [[Topics/Skills|Skills]] · [[Topics/Quant|Quant]]
 
@@ -50,3 +51,4 @@ Anthropic 面向金融服务场景提供的 Agent、Skills 与数据连接器集
 - [[Daily/2026/09/2026-09-22|2026-09-22]]
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]
