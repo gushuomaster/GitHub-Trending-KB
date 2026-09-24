@@ -2,12 +2,12 @@
 repo: "google/ax"
 url: "https://github.com/google/ax"
 first_seen: 2026-09-23
-last_seen: 2026-09-24
-trending_count: 2
-github_rank: 2
-stars_today: 1542
-total_stars: 8917
-forks: 419
+last_seen: 2026-09-25
+trending_count: 3
+github_rank: 4
+stars_today: 1376
+total_stars: 10186
+forks: 494
 language: Go
 category: ["AI","Agent","Orchestration"]
 tags: ["agent","orchestration","runtime","google","go"]
@@ -42,8 +42,10 @@ Agent 平台开发者、需要批量运行 Coding Agent 的工程团队。
 | 2026-09-23 | 5 | +2324 | 7553 |
 | 2026-09-24 | 2 | +1542 | 8917 |
 
+| 2026-09-25 | 4 | +1376 | 10186 |
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Infrastructure|Infrastructure]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]
