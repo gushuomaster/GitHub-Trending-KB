@@ -2,12 +2,12 @@
 repo: "mvt-project/mvt"
 url: "https://github.com/mvt-project/mvt"
 first_seen: 2026-09-22
-last_seen: 2026-09-24
-trending_count: 3
-github_rank: 13
-stars_today: 546
-total_stars: 14439
-forks: 1379
+last_seen: 2026-09-25
+trending_count: 4
+github_rank: 9
+stars_today: 275
+total_stars: 14681
+forks: 1392
 language: Python
 category: ["Security","Forensics"]
 tags: ["mobile","forensics","security","ios","android","python"]
@@ -42,9 +42,11 @@ Mobile Verification Toolkit，用于在设备所有者授权下分析 iOS/Androi
 | 2026-09-22 | 8 | +177 | 13526 |
 | 2026-09-23 | 6 | +441 | 14085 |
 | 2026-09-24 | 13 | +546 | 14439 |
+| 2026-09-25 | 9 | +275 | 14681 |
 ## 相关主题
 [[Topics/Security|Security]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-22|2026-09-22]]
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]
