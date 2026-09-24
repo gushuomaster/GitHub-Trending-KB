@@ -2,12 +2,12 @@
 repo: "dream-num/univer"
 url: "https://github.com/dream-num/univer"
 first_seen: 2026-09-23
-last_seen: 2026-09-24
-trending_count: 2
-github_rank: 6
-stars_today: 1140
-total_stars: 16261
-forks: 1432
+last_seen: 2026-09-25
+trending_count: 3
+github_rank: 3
+stars_today: 1060
+total_stars: 17449
+forks: 1510
 language: TypeScript
 category: ["Developer Tools","Office","AI"]
 tags: ["office","spreadsheet","docs","slides","pdf","typescript","agent"]
@@ -41,8 +41,10 @@ Office 格式兼容、复杂公式/版式和协作功能需按实际需求验证
 |---|---:|---:|---:|
 | 2026-09-23 | 3 | +202 | 15375 |
 | 2026-09-24 | 6 | +1140 | 16261 |
+| 2026-09-25 | 3 | +1060 | 17449 |
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Agent|Agent]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]
