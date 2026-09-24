@@ -2,12 +2,12 @@
 repo: "HKUDS/CLI-Anything"
 url: "https://github.com/HKUDS/CLI-Anything"
 first_seen: 2026-09-24
-last_seen: 2026-09-24
-trending_count: 1
-github_rank: 10
-stars_today: 41
-total_stars: 49876
-forks: 4599
+last_seen: 2026-09-25
+trending_count: 2
+github_rank: 8
+stars_today: 415
+total_stars: 50267
+forks: 4614
 language: Python
 category: ["AI","Agent","Developer Tools"]
 tags: ["cli","agent-native","automation","python"]
@@ -41,7 +41,9 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-09-24 | 10 | +41 | 49876 |
+| 2026-09-25 | 8 | +415 | 50267 |
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Automation|Automation]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]
