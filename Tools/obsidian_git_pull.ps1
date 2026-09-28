@@ -31,6 +31,26 @@ function Invoke-Git([string[]]$GitArgs) {
     return $output.Trim()
 }
 
+function Get-WindowsSystemProxy {
+    try {
+        $settings = Get-ItemProperty -Path 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings' -ErrorAction Stop
+        if ($settings.ProxyEnable -ne 1 -or -not $settings.ProxyServer) { return $null }
+        $raw = [string]$settings.ProxyServer
+        $scheme = 'http://'
+        if ($raw -match '(?i)(?:^|;)https=([^;]+)') { $target = $Matches[1] }
+        elseif ($raw -match '(?i)(?:^|;)http=([^;]+)') { $target = $Matches[1] }
+        elseif ($raw -match '(?i)(?:^|;)socks=([^;]+)') {
+            $target = $Matches[1]
+            $scheme = 'socks5h://'
+        }
+        elseif ($raw -notmatch '=') { $target = $raw }
+        else { return $null }
+        if ($target -match '^[a-z]+://') { return $target }
+        return "$scheme$target"
+    }
+    catch { return $null }
+}
+
 try {
     if (-not (Test-Path -LiteralPath (Join-Path $VaultPath ".git"))) {
         throw "Vault is not a Git repository: $VaultPath"
@@ -42,7 +62,29 @@ try {
     }
 
     Write-Log "Starting sync for $VaultPath"
-    $null = Invoke-Git -GitArgs @("fetch", "origin", $Branch)
+    try {
+        $null = Invoke-Git -GitArgs @("fetch", "origin", $Branch)
+    }
+    catch {
+        $connected = $false
+        $systemProxy = Get-WindowsSystemProxy
+        if ($systemProxy) {
+            Write-Log "Configured connection failed; trying current Windows system proxy"
+            try {
+                $null = Invoke-Git -GitArgs @("-c", "remote.origin.proxy=$systemProxy", "fetch", "origin", $Branch)
+                $null = Invoke-Git -GitArgs @("config", "--local", "remote.origin.proxy", $systemProxy)
+                Write-Log "OK: origin now follows the verified Windows system proxy"
+                $connected = $true
+            }
+            catch { Write-Log "Current Windows system proxy did not connect" }
+        }
+        if (-not $connected) {
+            Write-Log "Trying origin without a proxy (also supports Clash TUN mode)"
+            $null = Invoke-Git -GitArgs @("-c", "remote.origin.proxy=", "fetch", "origin", $Branch)
+            $null = Invoke-Git -GitArgs @("config", "--local", "remote.origin.proxy", "")
+            Write-Log "OK: origin connected without an explicit Git proxy"
+        }
+    }
     # The vault is read-only; GitHub main is the single source of truth.
     $null = Invoke-Git -GitArgs @("reset", "--hard", "origin/$Branch")
     $head = Invoke-Git -GitArgs @("rev-parse", "--short", "HEAD")
