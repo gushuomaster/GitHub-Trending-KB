@@ -1,5 +1,5 @@
 param(
-    [string]$VaultPath = "D:\GitHub-Trending-KB",
+    [string]$VaultPath = "D:\gs\GitHub-Trending-KB",
     [int]$EveryMinutes = 30,
     [string]$TaskName = "GitHub-Trending-KB Local Sync"
 )
@@ -15,6 +15,12 @@ $Installed = Join-Path $AppDir "obsidian_git_pull.ps1"
 Copy-Item -LiteralPath $Source -Destination $Installed -Force
 
 $PowerShell = Join-Path $PSHOME "powershell.exe"
+$ImmediateArgs = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $Installed, '-VaultPath', $VaultPath)
+& $PowerShell @ImmediateArgs
+if ($LASTEXITCODE -ne 0) {
+    throw "Immediate sync failed; task was not registered. Inspect $AppDir\sync.log"
+}
+
 $Arguments = '-NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File "{0}" -VaultPath "{1}"' -f $Installed, $VaultPath
 $Action = New-ScheduledTaskAction -Execute $PowerShell -Argument $Arguments
 $LogonTrigger = New-ScheduledTaskTrigger -AtLogOn
@@ -41,8 +47,4 @@ Register-ScheduledTask -TaskName $TaskName -Action $Action `
 }
 
 Write-Host "Scheduled task installed: $TaskName (every $EveryMinutes minutes and at logon)"
-& $PowerShell -NoProfile -ExecutionPolicy Bypass -File $Installed -VaultPath $VaultPath
-if ($LASTEXITCODE -ne 0) {
-    throw "Immediate sync failed. Inspect $AppDir\sync.log"
-}
 Write-Host "Local vault is synced. Log: $AppDir\sync.log"
