@@ -16,7 +16,7 @@ Vault 默认位于此前识别出的 `D:\gs\GitHub-Trending-KB`，GitHub `origin
 powershell -NoProfile -ExecutionPolicy Bypass -File "D:\gs\GitHub-Trending-KB\Tools\install_obsidian_git_pull_task.ps1"
 ```
 
-安装器会先执行即时同步；成功后才建立 `GitHub-Trending-KB Local Sync` 任务并移除历史任务。可传入 `-VaultPath` 和 `-EveryMinutes`，最小间隔为 5 分钟。
+安装器会先执行即时同步；成功后尝试建立 `GitHub-Trending-KB Local Sync` 计划任务。若当前用户没有任务计划程序权限，则自动使用当前用户的登录启动项和隐藏的定时同步进程，立即开始运行，登录后自动恢复；不需要管理员权限。可传入 `-VaultPath` 和 `-EveryMinutes`，最小间隔为 5 分钟。
 
 ## 手动同步
 
