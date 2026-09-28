@@ -72,7 +72,7 @@ try {
             Write-Log "Configured connection failed; trying current Windows system proxy"
             try {
                 $null = Invoke-Git -GitArgs @("-c", "remote.origin.proxy=$systemProxy", "fetch", "origin", $Branch)
-                $null = Invoke-Git -GitArgs @("config", "--local", "remote.origin.proxy", $systemProxy)
+                $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "remote.origin.proxy", $systemProxy)
                 Write-Log "OK: origin now follows the verified Windows system proxy"
                 $connected = $true
             }
@@ -81,7 +81,6 @@ try {
         if (-not $connected) {
             Write-Log "Trying origin without a proxy (also supports Clash TUN mode)"
             $null = Invoke-Git -GitArgs @("-c", "remote.origin.proxy=", "fetch", "origin", $Branch)
-            $null = Invoke-Git -GitArgs @("config", "--local", "remote.origin.proxy", "")
             Write-Log "OK: origin connected without an explicit Git proxy"
         }
     }
