@@ -7,7 +7,7 @@ $ErrorActionPreference = "Stop"
 if ($EveryMinutes -lt 5) { exit 2 }
 $SyncScript = Join-Path $PSScriptRoot "obsidian_git_pull.ps1"
 $PowerShell = Join-Path $PSHOME "powershell.exe"
-$Mutex = New-Object System.Threading.Mutex($false, 'Local\GitHubTrendingKBLocalSync')
+$Mutex = [System.Threading.Mutex]::new($false, 'Local\GitHubTrendingKBLocalSync')
 
 if (-not $Mutex.WaitOne(0)) {
     $Mutex.Dispose()
