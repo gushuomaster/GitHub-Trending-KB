@@ -25,3 +25,5 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "D:\gs\GitHub-Trending-KB\To
 ```
 
 计划任务以当前 Windows 用户身份运行，并复用该用户保存的 GitHub Git 凭据。若 `git fetch` 返回认证错误，需在该用户会话内完成一次 GitHub Git 登录。
+
+若 Git 遗留的 `127.0.0.1` 代理端口失效，脚本会先读取当前 Windows 系统代理（例如 Clash 的 HTTP/mixed port），实际连接成功后更新本仓库 `origin` 的代理配置。系统代理不可用时再尝试不显式设置 Git 代理（可用于 Clash TUN 模式）。这些操作不修改全局 Git 代理；若两条连接都失败，则需先恢复 Clash 的代理服务或网络连接。
