@@ -51,6 +51,23 @@ function Get-WindowsSystemProxy {
     catch { return $null }
 }
 
+function Get-ClashProxyCandidates {
+    try {
+        $clashProcessIds = @(Get-Process -ErrorAction SilentlyContinue |
+            Where-Object { $_.ProcessName -match '(?i)clash|mihomo' } |
+            Select-Object -ExpandProperty Id)
+        if ($clashProcessIds.Count -eq 0) { return }
+        $ports = @(Get-NetTCPConnection -State Listen -ErrorAction SilentlyContinue |
+            Where-Object { $clashProcessIds -contains $_.OwningProcess -and $_.LocalPort -gt 1024 } |
+            Select-Object -ExpandProperty LocalPort -Unique | Select-Object -First 10)
+        foreach ($port in $ports) {
+            "http://127.0.0.1:$port"
+            "socks5h://127.0.0.1:$port"
+        }
+    }
+    catch { return }
+}
+
 try {
     if (-not (Test-Path -LiteralPath (Join-Path $VaultPath ".git"))) {
         throw "Vault is not a Git repository: $VaultPath"
@@ -77,6 +94,20 @@ try {
                 $connected = $true
             }
             catch { Write-Log "Current Windows system proxy did not connect" }
+        }
+        if (-not $connected) {
+            $clashCandidates = @(Get-ClashProxyCandidates | Where-Object { $_ })
+            foreach ($candidate in $clashCandidates) {
+                if ($candidate -eq $systemProxy) { continue }
+                try {
+                    $null = Invoke-Git -GitArgs @("-c", "remote.origin.proxy=$candidate", "fetch", "origin", $Branch)
+                    $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "remote.origin.proxy", $candidate)
+                    Write-Log "OK: origin now uses a verified local Clash listener"
+                    $connected = $true
+                    break
+                }
+                catch { }
+            }
         }
         if (-not $connected) {
             Write-Log "Trying origin without a proxy (also supports Clash TUN mode)"
