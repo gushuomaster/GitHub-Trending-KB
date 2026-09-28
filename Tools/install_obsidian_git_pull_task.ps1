@@ -1,31 +1,48 @@
 param(
     [string]$VaultPath = "D:\GitHub-Trending-KB",
     [int]$EveryMinutes = 30,
-    [string]$TaskName = "Obsidian GitHub-Trending-KB Auto Pull"
+    [string]$TaskName = "GitHub-Trending-KB Local Sync"
 )
 
 $ErrorActionPreference = "Stop"
-if ($EveryMinutes -lt 5) { throw "定时间隔至少 5 分钟。" }
+if ($EveryMinutes -lt 5) { throw "Sync interval must be at least 5 minutes." }
 
-$PullScript = Join-Path $VaultPath "Tools\obsidian_git_pull.ps1"
-if (-not (Test-Path $PullScript)) { throw "未找到同步脚本: $PullScript" }
+$Source = Join-Path $PSScriptRoot "obsidian_git_pull.ps1"
+if (-not (Test-Path -LiteralPath $Source)) { throw "Sync script not found: $Source" }
+$AppDir = Join-Path $env:LOCALAPPDATA "GitHub-Trending-KB"
+New-Item -ItemType Directory -Path $AppDir -Force | Out-Null
+$Installed = Join-Path $AppDir "obsidian_git_pull.ps1"
+Copy-Item -LiteralPath $Source -Destination $Installed -Force
 
-$PowerShell = "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe"
-$Action = New-ScheduledTaskAction -Execute $PowerShell `
-    -Argument "-NoProfile -WindowStyle Hidden -ExecutionPolicy Bypass -File `"$PullScript`" -VaultPath `"$VaultPath`""
-
+$PowerShell = Join-Path $PSHOME "powershell.exe"
+$Arguments = '-NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy Bypass -File "{0}" -VaultPath "{1}"' -f $Installed, $VaultPath
+$Action = New-ScheduledTaskAction -Execute $PowerShell -Argument $Arguments
 $LogonTrigger = New-ScheduledTaskTrigger -AtLogOn
-$Start = (Get-Date).AddMinutes(2)
-$RepeatTrigger = New-ScheduledTaskTrigger -Once -At $Start `
+$RepeatTrigger = New-ScheduledTaskTrigger -Once -At (Get-Date).AddMinutes(2) `
     -RepetitionInterval (New-TimeSpan -Minutes $EveryMinutes)
-
-$Settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries `
-    -DontStopIfGoingOnBatteries -StartWhenAvailable
+$Settings = New-ScheduledTaskSettingsSet -StartWhenAvailable `
+    -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries
+$Principal = New-ScheduledTaskPrincipal `
+    -UserId ([Security.Principal.WindowsIdentity]::GetCurrent().Name) `
+    -LogonType Interactive -RunLevel Limited
 
 Register-ScheduledTask -TaskName $TaskName -Action $Action `
     -Trigger @($LogonTrigger, $RepeatTrigger) -Settings $Settings `
-    -Description "自动同步 Obsidian Vault 的 GitHub-Trending-KB 仓库" -Force | Out-Null
+    -Principal $Principal -Description "Sync GitHub-Trending-KB origin/main to the read-only Obsidian vault" `
+    -Force | Out-Null
 
-Write-Host "已创建计划任务: $TaskName"
-Write-Host "Vault: $VaultPath"
-Write-Host "间隔: 每 $EveryMinutes 分钟"
+@(
+    "Obsidian GitHub-Trending-KB Auto Pull",
+    "GitHub-Trending-KB Auto Sync",
+    "GitHub 热门项目日报 - Obsidian 本地同步",
+    "GitHub-Trending-KB Daily Sync"
+) | Where-Object { $_ -ne $TaskName } | ForEach-Object {
+    Unregister-ScheduledTask -TaskName $_ -Confirm:$false -ErrorAction SilentlyContinue
+}
+
+Write-Host "Scheduled task installed: $TaskName (every $EveryMinutes minutes and at logon)"
+& $PowerShell -NoProfile -ExecutionPolicy Bypass -File $Installed -VaultPath $VaultPath
+if ($LASTEXITCODE -ne 0) {
+    throw "Immediate sync failed. Inspect $AppDir\sync.log"
+}
+Write-Host "Local vault is synced. Log: $AppDir\sync.log"
