@@ -34,3 +34,9 @@ Rust + GPUI + HID++/UVC；支持按键/手势、DPI、SmartShift、应用 profil
 
 ## 相关日报
 - [[2026-09-15]]
+
+## 怎么利用
+把 OpenLogi 作为本机外设配置层，识别 Logitech 鼠标/键盘后设置按键、滚轮或设备参数，并在 Linux、macOS、Windows 上本地保存配置。
+
+## 实际例子
+**可推导用法：** 场景 → 在 Linux 上配置 MX Master。输入 → 已连接鼠标和期望的侧键动作。操作 → 在 OpenLogi 中识别设备并绑定“后退/前进”和滚轮参数。输出 → 无需 Options+ 云端账户的本地外设配置。

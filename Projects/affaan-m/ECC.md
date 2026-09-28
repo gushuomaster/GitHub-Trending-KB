@@ -30,3 +30,9 @@ JavaScript/Node + skills/rules/hooks/commands；提供安全门、memory、harne
 [[Agent]] · [[Skills]] · [[Developer-Tools]] · [[Context-Engineering]]
 ## 相关日报
 - [[2026-09-19]]
+
+## 怎么利用
+从体系中按需挑选 memory、安全、测试或编排模块，在隔离分支验证 hooks 和命令，再逐步加入团队 Agent 工作流。
+
+## 实际例子
+**可推导用法：** 场景 → 给长任务 Coding Agent 增加可恢复记忆。输入 → 项目上下文和会话摘要。操作 → 只启用 ECC 的 memory 组件并做中断恢复测试。输出 → 重启后能继续任务的受控记忆链路。

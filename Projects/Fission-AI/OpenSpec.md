@@ -25,3 +25,9 @@ TypeScript；仓库含 `.agents`、changesets、SECURITY、长 CHANGELOG 与发�
 [[Agent]] · [[Developer-Tools]] · [[Context-Engineering]]
 ## 相关日报
 - [[2026-09-19]]
+
+## 怎么利用
+在仓库内先创建规格、变更与任务文件，让 Coding Agent 按审阅后的 spec 分阶段实施；需求变化时更新变更记录，而不是只在聊天中修改口头指令。
+
+## 实际例子
+**可推导用法：** 场景 → 给 HyperCode 增加 Provider fallback。输入 → 行为要求、兼容约束和验收条件。操作 → 生成 spec/change/tasks，评审后交给 Agent 实现。输出 → 可追踪的规格、任务、代码和验证证据。

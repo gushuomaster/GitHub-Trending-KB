@@ -25,3 +25,9 @@ JavaScript；复用 TradingView Desktop 的现有图表环境，让 Agent 参与
 [[Agent]] · [[Quant]] · [[Developer-Tools]]
 ## 相关日报
 - [[2026-09-19]]
+
+## 怎么利用
+在 TradingView Desktop 已打开目标图表时，通过 MCP让 Agent读取指标和图表上下文，生成分析草稿；任何交易动作保持人工决定。
+
+## 实际例子
+**可推导用法：** 场景 → 复盘 BTC 日线。输入 → 当前图表、均线和成交量。操作 → Agent读取并总结趋势与关键价位。输出 → 带图表依据的复盘笔记，而非自动下单。

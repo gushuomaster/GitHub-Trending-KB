@@ -36,3 +36,9 @@ tags: ["github/agent", "github/skills", "github/yagni", "github/coding", "github
 
 ## 相关日报
 - [[2026-09-15]]
+
+## 怎么利用
+把该 Skill 安装到 Coding Agent，在实现前按 YAGNI ladder 先检查能否复用、删减或用更小改动解决，再保留必要的安全、验证和错误处理。
+
+## 实际例子
+**可推导用法：** 场景 → Agent 为一个布尔配置新增完整抽象层。输入 → 需求与当前 diff。操作 → 让 ponytail 按七级 ladder 复核设计。输出 → 可能收敛为一个配置字段和两处判断的最小实现。

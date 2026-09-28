@@ -42,3 +42,9 @@ Codex 官方插件示例与 marketplace 仓库，定义 plugin manifest 及 Skil
 ## 相关日报
 - [[2026-09-10]]
 - [[2026-09-15]]
+
+## 怎么利用
+参考官方 manifest 和示例目录组织自己的 Codex 插件，把 Skill、MCP、Agent、Command 或 Hook 打包并在隔离项目中测试。
+
+## 实际例子
+**可推导用法：** 场景 → 发布团队代码审查插件。输入 → review Skill、MCP 配置和 plugin manifest。操作 → 按官方结构打包并验证发现/调用。输出 → 可安装的统一插件。

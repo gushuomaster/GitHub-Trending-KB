@@ -28,3 +28,9 @@ Python；围绕 continual learning、LLM training/inference、reinforcement lear
 [[Agent]] · [[Context-Engineering]] · [[Developer-Tools]]
 ## 相关日报
 - [[2026-09-17]]
+
+## 怎么利用
+把 Agent 的成功/失败轨迹送入独立学习层，通过经验回放产生候选更新，并先在受控评估或小流量环境验证，再逐步 rollout。
+
+## 实际例子
+**可推导用法：** 场景 → 客服 Agent 经常漏问订单号。输入 → 近期失败对话与人工纠正。操作 → 回放经验、生成策略候选并做离线评估。输出 → 通过门槛后逐步上线的新策略版本。

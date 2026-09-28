@@ -34,3 +34,9 @@ Rust；Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理�
 [[Developer-Tools]] · [[Skills]]
 ## 相关日报
 - [[2026-09-22]]
+
+## 怎么利用
+通过 GUI管理 Codex Provider、模型、会话、Skills/MCP 与 TOML 配置；切换 Provider 前备份配置并确认密钥不会泄露。
+
+## 实际例子
+**可推导用法：** 场景 → 在官方账号与自定义 API 间切换。输入 → 两组 Provider 配置。操作 → 在 Codex-X 选择配置并验证模型/Skills。输出 → 可视化切换后的 Codex 会话环境。

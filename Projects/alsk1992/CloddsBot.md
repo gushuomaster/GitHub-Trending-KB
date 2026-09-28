@@ -45,3 +45,9 @@ tags: ["github/quant", "github/trading", "github/agent", "github/risk", "github/
 - [[2026-09-11]]
 - [[2026-09-12]]
 - [[2026-09-13]]
+
+## 怎么利用
+先连接只读市场数据和模拟账户，配置 notional、breaker、kill switch 与审计账本；验证所有交易入口都受风控后再决定是否扩大权限。
+
+## 实际例子
+**可推导用法：** 场景 → 模拟预测市场策略。输入 → 市场数据、最大仓位和策略规则。操作 → Agent 研究并生成订单，Risk Engine 拦截超限交易。输出 → 模拟成交、风险指标和完整 ledger。

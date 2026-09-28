@@ -45,3 +45,9 @@ tags: ["github/gateway", "github/models", "github/codex", "github/mcp", "github/
 
 ## 相关日报
 - [[2026-09-11]]
+
+## 怎么利用
+把多个 LLM Provider 接到统一兼容端点，配置配额、健康检查、fallback 和敏感信息处理；Agent 只调用一个网关地址。
+
+## 实际例子
+**可推导用法：** 场景 → 主模型额度耗尽自动切换。输入 → OpenAI、Gemini 与本地端点。操作 → 配置优先级和 quota-aware fallback。输出 → 对客户端透明的连续模型服务与路由日志。

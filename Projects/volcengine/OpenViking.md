@@ -36,3 +36,9 @@ tags: ["github/agent", "github/rag", "github/memory", "github/context", "github/
 
 ## 相关日报
 - [[2026-09-15]]
+
+## 怎么利用
+把文档、对话记忆和 Skills统一写入 Context Database，让 Agent按任务检索并在使用后更新上下文；建立版本与来源治理。
+
+## 实际例子
+**可推导用法：** 场景 → 为长期研发 Agent提供统一上下文。输入 → 仓库文档、历史决策和 Skills。操作 → 入库并按任务召回。输出 → 同时包含知识、记忆和能力说明的上下文包。

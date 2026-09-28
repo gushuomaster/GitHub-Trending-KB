@@ -34,3 +34,9 @@ JavaScript；findings 分 confirmed/needs_validation/rejected；coverage ledger�
 - [[2026-09-19]]
 - [[2026-09-20]]
 - [[2026-09-21]]
+
+## 怎么利用
+对授权代码库运行分阶段审计，维护 coverage ledger，并让独立 verifier 复核 findings；再把 confirmed 问题送入修复队列。
+
+## 实际例子
+**可推导用法：** 场景 → 审计一个 Node API。输入 → 仓库和十类安全域。操作 → 扫描鉴权、注入、秘密与依赖，再独立验证。输出 → confirmed/needs_validation/rejected 的结构化报告。

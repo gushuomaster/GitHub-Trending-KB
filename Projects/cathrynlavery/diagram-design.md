@@ -48,3 +48,9 @@ tags: ["github/agent", "github/diagram", "github/svg", "github/architecture", "g
 ## 相关日报
 - [[2026-09-10]]
 - [[2026-09-11]]
+
+## 怎么利用
+让 Coding Agent 根据系统说明生成 HTML+SVG 图，再运行自检检查几何、资源和兼容性；人工复核语义和视觉层级。
+
+## 实际例子
+**可推导用法：** 场景 → 绘制 RAG 服务架构图。输入 → API、解析、向量库和 LLM 的关系。操作 → 生成 SVG 并通过 validator。输出 → 可嵌入技术文档的清晰架构图。

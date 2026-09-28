@@ -29,3 +29,9 @@ SKILL.md 工作流 + validator/evals + 多宿主适配；覆盖 spec、plan、bu
 ## 相关日报
 - [[2026-09-19]]
 - [[2026-09-20]]
+
+## 怎么利用
+按软件生命周期选择少量 Skills，让 Agent 依次完成规格、计划、实现、测试、评审和简化，并用 validator/eval 检查每一步是否真实执行。
+
+## 实际例子
+**可推导用法：** 场景 → 修复 API 分页 bug。输入 → Issue、复现测试和仓库。操作 → 依次启用 debugging、testing、review Skills。输出 → 通过测试且带评审证据的最小修复。

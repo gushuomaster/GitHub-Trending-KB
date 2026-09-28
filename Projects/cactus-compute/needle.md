@@ -26,3 +26,9 @@ tags: ["github/edge-ai","github/local-llm","github/tool-calling","github/python"
 [[Agent]] · [[Edge-AI]] · [[Developer-Tools]]
 ## 相关日报
 - [[2026-09-20]]
+
+## 怎么利用
+把小模型部署到手机或边缘设备，给它有限工具 schema 和结构化抽取任务；先在目标 runtime 上验证量化、延迟和调用正确率。
+
+## 实际例子
+**可推导用法：** 场景 → 手表离线识别“开始 20 分钟计时”。输入 → 文本指令和 timer 工具 schema。操作 → Needle 输出工具名与参数。输出 → 本地触发计时器，无需上传云端。

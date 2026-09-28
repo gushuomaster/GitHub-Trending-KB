@@ -41,3 +41,9 @@ tags: ["github/agent", "github/git", "github/worktree", "github/rust", "github/d
 
 ## 相关日报
 - [[2026-09-13]]
+
+## 怎么利用
+为每个并行 Agent创建独立 worktree 和分支，用统一命令切换、合并和清理；合并前运行测试并解决冲突。
+
+## 实际例子
+**可推导用法：** 场景 → 三个 Agent并行修复不同 Issue。输入 → 同一仓库和三个任务。操作 → 创建三个 worktree 分派任务。输出 → 相互隔离的分支和可控合并队列。

@@ -44,3 +44,9 @@ tags: ["github/agent", "github/crm", "github/automation", "github/rag", "github/
 ## 相关日报
 - [[2026-09-13]]
 - [[2026-09-14]]
+
+## 怎么利用
+自托管 CRM 后连接授权的 WhatsApp 渠道、知识库和 follow-up Agent；先在测试租户验证 RAG 版本、删除事务和事件消费。
+
+## 实际例子
+**可推导用法：** 场景 → 跟进电商潜在客户。输入 → 产品资料、联系人和消息授权。操作 → Agent回答咨询并按规则创建跟进。输出 → CRM 记录、对话历史和待办。

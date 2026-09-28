@@ -49,3 +49,9 @@ tags: ["github/agent", "github/skills", "github/team", "github/mcp", "github/kno
 ## 相关日报
 - [[2026-09-10]]
 - [[2026-09-11]]
+
+## 怎么利用
+把团队 Skills、Rules、MCP、Hooks 和知识说明放入版本库，通过 CLI 安装到成员使用的不同 Coding Agent，并用升级与审查流程统一维护。
+
+## 实际例子
+**可推导用法：** 场景 → 让团队的 Codex 和 Claude Code遵守同一发布规范。输入 → release Skill、代码规范和 MCP 配置。操作 → 用 teamai-cli 分发并锁定版本。输出 → 各宿主一致可发现的团队能力包。

@@ -34,3 +34,9 @@ Agent Memory 正从模型特性转为独立基础设施。
 [[Agent]] · [[Context-Engineering]]
 ## 相关日报
 - [[2026-09-22]]
+
+## 怎么利用
+在 Coding Agent 完成阶段性任务时保存决策、约束和未完成项；切换到另一 Agent 时读取同一记忆包继续，而不是重新粘贴全部历史。
+
+## 实际例子
+**可推导用法：** 场景 → 从 Claude Code 切换到 Codex 接手重构。输入 → 架构决策、已改文件和剩余任务。操作 → 写入 ai-memory 后由 Codex 加载。输出 → 带上下文的跨厂商 handoff。
