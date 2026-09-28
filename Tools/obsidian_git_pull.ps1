@@ -1,5 +1,5 @@
 param(
-    [string]$VaultPath = "D:\GitHub-Trending-KB",
+    [string]$VaultPath = "D:\gs\GitHub-Trending-KB",
     [string]$Branch = "main"
 )
 
