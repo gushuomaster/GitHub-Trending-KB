@@ -1,6 +1,6 @@
 # Windows 自动同步 Obsidian Vault
 
-Vault 默认位于 `D:\GitHub-Trending-KB`，GitHub `origin/main` 是唯一真源。
+Vault 默认位于此前识别出的 `D:\gs\GitHub-Trending-KB`，GitHub `origin/main` 是唯一真源。若你移动了 Vault，安装时传入 `-VaultPath`。
 
 - 登录 Windows 时和登录后的每 30 分钟同步一次。
 - 使用 `git fetch origin main` 和 `git reset --hard origin/main`。
@@ -13,15 +13,15 @@ Vault 默认位于 `D:\GitHub-Trending-KB`，GitHub `origin/main` 是唯一真�
 仓库文件已更新到本地后，在 PowerShell 中运行：
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File "D:\GitHub-Trending-KB\Tools\install_obsidian_git_pull_task.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "D:\gs\GitHub-Trending-KB\Tools\install_obsidian_git_pull_task.ps1"
 ```
 
-安装器会安装稳定副本、移除历史任务、建立 `GitHub-Trending-KB Local Sync` 任务，并立即同步一次。可传入 `-VaultPath` 和 `-EveryMinutes`，最小间隔为 5 分钟。
+安装器会先执行即时同步；成功后才建立 `GitHub-Trending-KB Local Sync` 任务并移除历史任务。可传入 `-VaultPath` 和 `-EveryMinutes`，最小间隔为 5 分钟。
 
 ## 手动同步
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File "D:\GitHub-Trending-KB\Tools\obsidian_git_pull.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "D:\gs\GitHub-Trending-KB\Tools\obsidian_git_pull.ps1"
 ```
 
 计划任务以当前 Windows 用户身份运行，并复用该用户保存的 GitHub Git 凭据。若 `git fetch` 返回认证错误，需在该用户会话内完成一次 GitHub Git 登录。
