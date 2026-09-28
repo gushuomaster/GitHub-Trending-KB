@@ -1,9 +1,9 @@
 ---
 repo: "vectorize-io/hindsight"
 url: "https://github.com/vectorize-io/hindsight"
-first_seen: 2026-09-28
+first_seen: 2026-09-25
 last_seen: 2026-09-28
-trending_count: 1
+trending_count: 4
 github_rank: 2
 stars_today: 4520
 total_stars: 38619
@@ -48,8 +48,17 @@ pip install hindsight-client -U
 |---|---:|---:|---:|
 | 2026-09-28 | 2 | +4520 | 38619 |
 
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #2；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-26：GitHub Trending #3；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-27：GitHub Trending #2；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/RAG|RAG]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]
+- [[Daily/2026/09/2026-09-26|2026-09-26]]
+- [[Daily/2026/09/2026-09-27|2026-09-27]]

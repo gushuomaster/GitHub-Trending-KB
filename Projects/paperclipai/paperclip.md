@@ -1,9 +1,9 @@
 ---
 repo: "paperclipai/paperclip"
 url: "https://github.com/paperclipai/paperclip"
-first_seen: 2026-09-28
+first_seen: 2026-09-26
 last_seen: 2026-09-28
-trending_count: 1
+trending_count: 3
 github_rank: 1
 stars_today: 2401
 total_stars: 90900
@@ -48,8 +48,15 @@ bash install.sh
 |---|---:|---:|---:|
 | 2026-09-28 | 1 | +2401 | 90900 |
 
+
+## 历史归档补记
+- 2026-09-26：GitHub Trending #1；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-27：GitHub Trending #1；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
+- [[Daily/2026/09/2026-09-26|2026-09-26]]
+- [[Daily/2026/09/2026-09-27|2026-09-27]]

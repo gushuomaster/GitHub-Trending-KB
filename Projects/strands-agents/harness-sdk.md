@@ -2,8 +2,8 @@
 repo: "strands-agents/harness-sdk"
 url: "https://github.com/strands-agents/harness-sdk"
 first_seen: 2026-09-24
-last_seen: 2026-09-24
-trending_count: 1
+last_seen: 2026-09-25
+trending_count: 2
 github_rank: 9
 stars_today: 96
 total_stars: 7791
@@ -41,7 +41,12 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-09-24 | 9 | +96 | 7791 |
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #11；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]

@@ -2,8 +2,8 @@
 repo: "superdesigndev/treg"
 url: "https://github.com/superdesigndev/treg"
 first_seen: 2026-09-23
-last_seen: 2026-09-24
-trending_count: 2
+last_seen: 2026-09-25
+trending_count: 3
 github_rank: 11
 stars_today: 502
 total_stars: 2648
@@ -41,8 +41,13 @@ Agent 先搜索任务所需工具，再通过 Treg 调用；团队把 Stripe、G
 |---|---:|---:|---:|
 | 2026-09-23 | 7 | +197 | 2203 |
 | 2026-09-24 | 11 | +502 | 2648 |
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #13；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]

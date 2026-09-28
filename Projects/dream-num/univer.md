@@ -3,7 +3,7 @@ repo: "dream-num/univer"
 url: "https://github.com/dream-num/univer"
 first_seen: 2026-09-23
 last_seen: 2026-09-28
-trending_count: 4
+trending_count: 6
 github_rank: 8
 stars_today: 895
 total_stars: 20812
@@ -50,6 +50,12 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 | 2026-09-25 | 3 | +1060 | 17449 |
 | 2026-09-28 | 8 | +895 | 20812 |
 
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #3；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-26：GitHub Trending #6；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-27：GitHub Trending #4；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Agent|Agent]]
 
@@ -58,3 +64,5 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
+- [[Daily/2026/09/2026-09-26|2026-09-26]]
+- [[Daily/2026/09/2026-09-27|2026-09-27]]

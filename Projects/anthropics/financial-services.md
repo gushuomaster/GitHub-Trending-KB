@@ -44,6 +44,10 @@ Anthropic 面向金融服务场景提供的 Agent、Skills 与数据连接器集
 | 2026-09-24 | 1 | +665 | 36881 |
 
 | 2026-09-25 | 7 | +510 | 37309 |
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #7；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Skills|Skills]] · [[Topics/Quant|Quant]]
 

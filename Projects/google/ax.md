@@ -2,8 +2,8 @@
 repo: "google/ax"
 url: "https://github.com/google/ax"
 first_seen: 2026-09-23
-last_seen: 2026-09-25
-trending_count: 3
+last_seen: 2026-09-26
+trending_count: 4
 github_rank: 4
 stars_today: 1376
 total_stars: 10186
@@ -43,9 +43,15 @@ Agent 平台开发者、需要批量运行 Coding Agent 的工程团队。
 | 2026-09-24 | 2 | +1542 | 8917 |
 
 | 2026-09-25 | 4 | +1376 | 10186 |
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #4；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-26：GitHub Trending #13；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Infrastructure|Infrastructure]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
+- [[Daily/2026/09/2026-09-26|2026-09-26]]

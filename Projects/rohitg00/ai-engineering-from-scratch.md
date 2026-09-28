@@ -3,7 +3,7 @@ repo: "rohitg00/ai-engineering-from-scratch"
 url: "https://github.com/rohitg00/ai-engineering-from-scratch"
 first_seen: 2026-09-25
 last_seen: 2026-09-28
-trending_count: 2
+trending_count: 4
 github_rank: 4
 stars_today: 790
 total_stars: 59792
@@ -50,9 +50,17 @@ python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route be
 | 2026-09-25 | 1 | +310 | 56384 |
 | 2026-09-28 | 4 | +790 | 59792 |
 
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #1；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-26：GitHub Trending #11；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-27：GitHub Trending #6；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
+- [[Daily/2026/09/2026-09-26|2026-09-26]]
+- [[Daily/2026/09/2026-09-27|2026-09-27]]

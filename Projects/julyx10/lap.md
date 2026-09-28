@@ -38,6 +38,10 @@ Collection/Tag/Rating 等组织信息保存在 Lap 本地数据库而非 EXIF/XM
 |---|---:|---:|---:|
 | 2026-09-25 | 12 | +151 | 2807 |
 
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #12；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Local-First|Local-First]] · [[Topics/Photo-Management|Photo-Management]]
 

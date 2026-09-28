@@ -43,6 +43,10 @@ Mobile Verification Toolkit，用于在设备所有者授权下分析 iOS/Androi
 | 2026-09-23 | 6 | +441 | 14085 |
 | 2026-09-24 | 13 | +546 | 14439 |
 | 2026-09-25 | 9 | +275 | 14681 |
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #9；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Security|Security]]
 ## 相关日报

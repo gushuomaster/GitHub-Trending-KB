@@ -2,8 +2,8 @@
 repo: "obra/superpowers"
 url: "https://github.com/obra/superpowers"
 first_seen: 2026-09-24
-last_seen: 2026-09-24
-trending_count: 1
+last_seen: 2026-09-26
+trending_count: 3
 github_rank: 5
 stars_today: 485
 total_stars: 290633
@@ -41,7 +41,14 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-09-24 | 5 | +485 | 290633 |
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #10；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+- 2026-09-26：GitHub Trending #4；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+- [[Daily/2026/09/2026-09-25|2026-09-25]]
+- [[Daily/2026/09/2026-09-26|2026-09-26]]

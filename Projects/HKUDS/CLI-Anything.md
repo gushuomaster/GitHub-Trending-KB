@@ -42,6 +42,10 @@ status: active
 |---|---:|---:|---:|
 | 2026-09-24 | 10 | +41 | 49876 |
 | 2026-09-25 | 8 | +415 | 50267 |
+
+## 历史归档补记
+- 2026-09-25：GitHub Trending #8；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Automation|Automation]]
 ## 相关日报
