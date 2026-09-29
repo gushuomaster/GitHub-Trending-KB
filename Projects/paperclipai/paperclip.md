@@ -2,14 +2,14 @@
 repo: "paperclipai/paperclip"
 url: "https://github.com/paperclipai/paperclip"
 first_seen: 2026-09-26
-last_seen: 2026-09-28
-trending_count: 3
-github_rank: 1
-stars_today: 2401
-total_stars: 90900
-forks: 15741
+last_seen: 2026-09-29
+trending_count: 4
+github_rank: 2
+stars_today: 3197
+total_stars: 92744
+forks: 15883
 language: TypeScript
-fetched_at: "2026-09-28T15:37:13+08:00"
+fetched_at: "2026-09-29T08:05:00+08:00"
 category: ["AI", "Agent", "Orchestration"]
 tags: ["agent", "orchestration", "governance", "budget", "multi-agent"]
 topics: ["AI", "Agent"]
@@ -47,6 +47,7 @@ bash install.sh
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-09-28 | 1 | +2401 | 90900 |
+| 2026-09-29 | 2 | +3197 | 92744 |
 
 
 ## 历史归档补记
@@ -60,3 +61,4 @@ bash install.sh
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
+- [[Daily/2026/09/2026-09-29|2026-09-29]]

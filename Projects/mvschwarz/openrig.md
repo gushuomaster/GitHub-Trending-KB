@@ -2,14 +2,14 @@
 repo: "mvschwarz/openrig"
 url: "https://github.com/mvschwarz/openrig"
 first_seen: 2026-09-28
-last_seen: 2026-09-28
-trending_count: 1
+last_seen: 2026-09-29
+trending_count: 2
 github_rank: 7
-stars_today: 114
-total_stars: 1212
-forks: 112
+stars_today: 734
+total_stars: 1701
+forks: 135
 language: TypeScript
-fetched_at: "2026-09-28T15:37:13+08:00"
+fetched_at: "2026-09-29T08:05:00+08:00"
 category: ["AI", "Agent", "Developer Tools"]
 tags: ["multi-agent", "codex", "claude-code", "tmux", "orchestration"]
 topics: ["AI", "Agent", "Developer-Tools"]
@@ -48,9 +48,11 @@ rig up first-project --cwd . --plan
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-09-28 | 7 | +114 | 1212 |
+| 2026-09-29 | 7 | +734 | 1701 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
+- [[Daily/2026/09/2026-09-29|2026-09-29]]

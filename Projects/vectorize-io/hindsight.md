@@ -2,14 +2,14 @@
 repo: "vectorize-io/hindsight"
 url: "https://github.com/vectorize-io/hindsight"
 first_seen: 2026-09-25
-last_seen: 2026-09-28
-trending_count: 4
-github_rank: 2
-stars_today: 4520
-total_stars: 38619
-forks: 5062
+last_seen: 2026-09-29
+trending_count: 5
+github_rank: 3
+stars_today: 4561
+total_stars: 40936
+forks: 5532
 language: Python
-fetched_at: "2026-09-28T15:37:13+08:00"
+fetched_at: "2026-09-29T08:05:00+08:00"
 category: ["AI", "Agent", "Memory"]
 tags: ["agent", "memory", "rag", "long-term-memory", "python"]
 topics: ["AI", "Agent", "RAG"]
@@ -47,6 +47,7 @@ pip install hindsight-client -U
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-09-28 | 2 | +4520 | 38619 |
+| 2026-09-29 | 3 | +4561 | 40936 |
 
 
 ## 历史归档补记
@@ -62,3 +63,4 @@ pip install hindsight-client -U
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
+- [[Daily/2026/09/2026-09-29|2026-09-29]]
