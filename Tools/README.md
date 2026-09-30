@@ -2,11 +2,11 @@
 
 Vault 默认位于此前识别出的 `D:\gs\GitHub-Trending-KB`，GitHub `origin/main` 是唯一真源。若你移动了 Vault，安装时传入 `-VaultPath`。
 
-- 登录 Windows 时和登录后的每 30 分钟同步一次。
+- 登录 Windows 时和登录后的每 30 分钟同步一次；Windows 从睡眠恢复时会立即触发一次同步。
 - 使用 `git fetch origin main` 和 `git reset --hard origin/main`。
 - 不等待某个固定日期的日报；只要云端有新提交，本地就会获取。
 - 本地已跟踪文件的修改会被覆盖；未跟踪文件不会被删除。
-- 日志：`%LOCALAPPDATA%\GitHub-Trending-KB\sync.log`。
+- 日志：`%LOCALAPPDATA%\GitHub-Trending-KB\sync.log`；循环和睡眠恢复事件记录在同目录的 `loop.log`。
 
 ## 安装或修复
 
