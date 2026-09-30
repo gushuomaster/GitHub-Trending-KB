@@ -1,21 +1,21 @@
 ---
 type: github-trending-dashboard
-last_updated: 2026-09-29
-latest_daily: "[[Daily/2026/09/2026-09-29|2026-09-29]]"
-latest_scan_count: 8
+last_updated: 2026-09-30
+latest_daily: "[[Daily/2026/09/2026-09-30|2026-09-30]]"
+latest_scan_count: 13
 ---
 # GitHub Trending 知识库 Dashboard
 
 > 需要 Obsidian Dataview。收录以 GitHub Trending Today 原始页面为准，不做兴趣筛选或二次排序。
 
 ## 最新日报
-[[Daily/2026/09/2026-09-29|打开 2026-09-29 日报]]
+[[Daily/2026/09/2026-09-30|打开 2026-09-30 日报]]
 
 ## 今日 Trending 全部项目
 ```dataview
 TABLE repo, github_rank, stars_today, total_stars, language, trending_count
 FROM "Projects"
-WHERE last_seen = date(2026-09-29)
+WHERE last_seen = date(2026-09-30)
 SORT github_rank ASC
 ```
 

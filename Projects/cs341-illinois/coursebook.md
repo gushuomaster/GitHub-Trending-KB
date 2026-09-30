@@ -2,14 +2,14 @@
 repo: "cs341-illinois/coursebook"
 url: "https://github.com/cs341-illinois/coursebook"
 first_seen: 2026-09-29
-last_seen: 2026-09-29
-trending_count: 1
-github_rank: 5
-stars_today: 195
-total_stars: 2495
-forks: 236
+last_seen: 2026-09-30
+trending_count: 2
+github_rank: 9
+stars_today: 572
+total_stars: 3089
+forks: 275
 language: TeX
-fetched_at: "2026-09-29T08:05:00+08:00"
+fetched_at: "2026-09-30T08:04:00+08:00"
 category: ["Education", "Systems Programming"]
 tags: ["textbook", "systems-programming", "c", "linux", "latex"]
 topics: ["Education", "Systems-Programming"]
@@ -45,10 +45,12 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-09-29 | 5 | +195 | 2495 |
+| 2026-09-30 | 9 | +572 | 3089 |
 
 ## 相关主题
 [[Topics/Education|Education]] · [[Topics/Systems-Programming|Systems-Programming]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
+- [[Daily/2026/09/2026-09-30|2026-09-30]]
 

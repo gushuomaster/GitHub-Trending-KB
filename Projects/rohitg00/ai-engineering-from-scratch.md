@@ -2,14 +2,14 @@
 repo: "rohitg00/ai-engineering-from-scratch"
 url: "https://github.com/rohitg00/ai-engineering-from-scratch"
 first_seen: 2026-09-25
-last_seen: 2026-09-28
-trending_count: 4
-github_rank: 4
-stars_today: 790
-total_stars: 59792
-forks: 10284
+last_seen: 2026-09-30
+trending_count: 5
+github_rank: 10
+stars_today: 786
+total_stars: 61329
+forks: 10528
 language: Python
-fetched_at: "2026-09-28T15:37:13+08:00"
+fetched_at: "2026-09-30T08:04:00+08:00"
 category: ["AI", "Education", "Developer Tools"]
 tags: ["ai-engineering", "llm", "agent", "mcp", "skills"]
 topics: ["AI", "Agent", "Skills"]
@@ -49,6 +49,7 @@ python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route be
 |---|---:|---:|---:|
 | 2026-09-25 | 1 | +310 | 56384 |
 | 2026-09-28 | 4 | +790 | 59792 |
+| 2026-09-30 | 10 | +786 | 61329 |
 
 
 ## 历史归档补记
@@ -64,3 +65,4 @@ python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route be
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
+- [[Daily/2026/09/2026-09-30|2026-09-30]]

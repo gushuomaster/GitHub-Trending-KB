@@ -2,14 +2,14 @@
 repo: "dream-num/univer"
 url: "https://github.com/dream-num/univer"
 first_seen: 2026-09-23
-last_seen: 2026-09-29
-trending_count: 7
-github_rank: 8
-stars_today: 1099
-total_stars: 21235
-forks: 1801
+last_seen: 2026-09-30
+trending_count: 8
+github_rank: 13
+stars_today: 696
+total_stars: 21840
+forks: 1842
 language: TypeScript
-fetched_at: "2026-09-29T08:05:00+08:00"
+fetched_at: "2026-09-30T08:04:00+08:00"
 category: ["Developer Tools", "Office", "AI"]
 tags: ["office", "spreadsheet", "docs", "slides", "pdf", "typescript", "agent"]
 topics: ["Developer-Tools", "Agent"]
@@ -50,6 +50,7 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 | 2026-09-25 | 3 | +1060 | 17449 |
 | 2026-09-28 | 8 | +895 | 20812 |
 | 2026-09-29 | 8 | +1099 | 21235 |
+| 2026-09-30 | 13 | +696 | 21840 |
 
 
 ## 历史归档补记
@@ -68,3 +69,4 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
+- [[Daily/2026/09/2026-09-30|2026-09-30]]

@@ -2,14 +2,14 @@
 repo: "willfaust/Madeira"
 url: "https://github.com/willfaust/Madeira"
 first_seen: 2026-09-28
-last_seen: 2026-09-28
-trending_count: 1
-github_rank: 9
-stars_today: 83
-total_stars: 889
-forks: 155
+last_seen: 2026-09-30
+trending_count: 2
+github_rank: 12
+stars_today: 81
+total_stars: 1089
+forks: 188
 language: C
-fetched_at: "2026-09-28T15:37:13+08:00"
+fetched_at: "2026-09-30T08:04:00+08:00"
 category: ["Emulation", "iOS", "Gaming"]
 tags: ["ios", "wine", "fex", "dxmt", "emulation"]
 topics: ["Developer-Tools"]
@@ -46,9 +46,11 @@ git clone --recurse-submodules https://github.com/willfaust/Madeira.git
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-09-28 | 9 | +83 | 889 |
+| 2026-09-30 | 12 | +81 | 1089 |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
+- [[Daily/2026/09/2026-09-30|2026-09-30]]
