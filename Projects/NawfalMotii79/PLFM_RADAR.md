@@ -2,14 +2,14 @@
 repo: "NawfalMotii79/PLFM_RADAR"
 url: "https://github.com/NawfalMotii79/PLFM_RADAR"
 first_seen: 2026-09-29
-last_seen: 2026-09-29
-trending_count: 1
-github_rank: 4
+last_seen: 2026-10-01
+trending_count: 2
+github_rank: 16
 stars_today: 158
 total_stars: 25751
 forks: 5885
 language: PLSQL
-fetched_at: "2026-09-29T08:05:00+08:00"
+fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["Hardware", "Radar", "Signal Processing"]
 tags: ["phased-array", "radar", "fpga", "stm32", "rf"]
 topics: ["Hardware", "Signal-Processing"]
@@ -43,9 +43,12 @@ status: active
 |---|---:|---:|---:|
 | 2026-09-29 | 4 | +158 | 25751 |
 
+| 2026-10-01 | 16 | +263 | 26412 |
+
 ## 相关主题
 [[Topics/Hardware|Hardware]] · [[Topics/Signal-Processing|Signal-Processing]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
+- [[Daily/2026/10/2026-10-01|2026-10-01]]
 

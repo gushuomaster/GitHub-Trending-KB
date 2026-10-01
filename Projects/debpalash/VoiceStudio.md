@@ -2,14 +2,14 @@
 repo: "debpalash/VoiceStudio"
 url: "https://github.com/debpalash/VoiceStudio"
 first_seen: 2026-09-28
-last_seen: 2026-09-30
-trending_count: 3
-github_rank: 1
+last_seen: 2026-10-01
+trending_count: 4
+github_rank: 2
 stars_today: 4758
 total_stars: 48048
 forks: 5388
 language: Python
-fetched_at: "2026-09-30T08:04:00+08:00"
+fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["AI", "Audio", "Video"]
 tags: ["voice-cloning", "dubbing", "tts", "transcription", "local-ai"]
 topics: ["AI", "Video-AI"]
@@ -50,6 +50,8 @@ cd VoiceStudio && bun install && bun run setup:api && bun run dev
 | 2026-09-29 | 1 | +3221 | 43987 |
 | 2026-09-30 | 1 | +4758 | 48048 |
 
+| 2026-10-01 | 2 | +3483 | 50401 |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Video-AI|Video-AI]]
 
@@ -57,3 +59,5 @@ cd VoiceStudio && bun install && bun run setup:api && bun run dev
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
+- [[Daily/2026/10/2026-10-01|2026-10-01]]
+

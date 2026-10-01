@@ -2,14 +2,14 @@
 repo: "t8y2/dbx"
 url: "https://github.com/t8y2/dbx"
 first_seen: 2026-09-30
-last_seen: 2026-09-30
-trending_count: 1
-github_rank: 5
+last_seen: 2026-10-01
+trending_count: 2
+github_rank: 15
 stars_today: 232
 total_stars: 21968
 forks: 2086
 language: Rust
-fetched_at: "2026-09-30T08:04:00+08:00"
+fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["Database", "Developer Tools", "AI"]
 tags: ["database-client", "sql", "mcp", "docker", "rust"]
 topics: ["Developer-Tools", "AI"]
@@ -46,9 +46,12 @@ status: active
 |---|---:|---:|---:|
 | 2026-09-30 | 5 | +232 | 21968 |
 
+| 2026-10-01 | 15 | +1138 | 23161 |
+
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/AI|AI]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
+- [[Daily/2026/10/2026-10-01|2026-10-01]]
 

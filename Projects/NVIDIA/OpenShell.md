@@ -2,14 +2,14 @@
 repo: "NVIDIA/OpenShell"
 url: "https://github.com/NVIDIA/OpenShell"
 first_seen: 2026-09-30
-last_seen: 2026-09-30
-trending_count: 1
-github_rank: 2
+last_seen: 2026-10-01
+trending_count: 2
+github_rank: 1
 stars_today: 990
 total_stars: 10565
 forks: 1419
 language: Rust
-fetched_at: "2026-09-30T08:04:00+08:00"
+fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["AI", "Security", "Agent Infrastructure"]
 tags: ["agent", "sandbox", "policy", "isolation", "credentials"]
 topics: ["AI", "Security", "Agent"]
@@ -46,9 +46,12 @@ status: active
 |---|---:|---:|---:|
 | 2026-09-30 | 2 | +990 | 10565 |
 
+| 2026-10-01 | 1 | +1281 | 12602 |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Security|Security]] · [[Topics/Agent|Agent]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
+- [[Daily/2026/10/2026-10-01|2026-10-01]]
 

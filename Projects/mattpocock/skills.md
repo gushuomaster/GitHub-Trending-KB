@@ -2,13 +2,13 @@
 repo: "mattpocock/skills"
 url: "https://github.com/mattpocock/skills"
 first_seen: 2026-09-26
-last_seen: 2026-09-26
-trending_count: 1
-github_rank: 5
-stars_today: null
+last_seen: 2026-10-01
+trending_count: 2
+github_rank: 9
+stars_today: 876
 total_stars: 270912
 forks: 22811
-language: "Shell"
+language: Shell
 metadata_checked_at: "2026-09-28T16:09:06+08:00"
 snapshot_status: archived_backfill
 topics: ["Agent", "Skills", "Developer-Tools"]
@@ -45,8 +45,12 @@ status: active
 
 > 上表只保留归档可证明的日期与原始顺序；当前 Stars/Forks 仅记录在 frontmatter 的 `metadata_checked_at` 快照，不冒充历史数值。
 
+| 2026-10-01 | 9 | +876 | 272981 | 22960 | live |
+
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
+- [[Daily/2026/10/2026-10-01|2026-10-01]]
+

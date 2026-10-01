@@ -2,14 +2,14 @@
 repo: "VectifyAI/PageIndex"
 url: "https://github.com/VectifyAI/PageIndex"
 first_seen: 2026-09-30
-last_seen: 2026-09-30
-trending_count: 1
-github_rank: 11
+last_seen: 2026-10-01
+trending_count: 2
+github_rank: 17
 stars_today: 835
 total_stars: 37330
 forks: 3262
 language: Python
-fetched_at: "2026-09-30T08:04:00+08:00"
+fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["AI", "RAG", "Document Processing"]
 tags: ["rag", "pdf", "tree-index", "retrieval", "document-ai"]
 topics: ["AI", "RAG"]
@@ -45,9 +45,12 @@ status: active
 |---|---:|---:|---:|
 | 2026-09-30 | 11 | +835 | 37330 |
 
+| 2026-10-01 | 17 | +1097 | 38110 |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/RAG|RAG]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
+- [[Daily/2026/10/2026-10-01|2026-10-01]]
 

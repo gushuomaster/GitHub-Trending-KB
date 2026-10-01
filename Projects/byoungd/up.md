@@ -2,14 +2,14 @@
 repo: "byoungd/up"
 url: "https://github.com/byoungd/up"
 first_seen: 2026-09-29
-last_seen: 2026-09-29
-trending_count: 1
-github_rank: 6
+last_seen: 2026-10-01
+trending_count: 2
+github_rank: 13
 stars_today: 327
 total_stars: 64640
 forks: 6510
 language: JavaScript
-fetched_at: "2026-09-29T08:05:00+08:00"
+fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["Education", "Personal Development", "AI"]
 tags: ["lifelong-learning", "ai-learning", "english", "career", "reflection"]
 topics: ["Education", "AI"]
@@ -43,9 +43,12 @@ status: active
 |---|---:|---:|---:|
 | 2026-09-29 | 6 | +327 | 64640 |
 
+| 2026-10-01 | 13 | +743 | 66382 |
+
 ## 相关主题
 [[Topics/Education|Education]] · [[Topics/AI|AI]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
+- [[Daily/2026/10/2026-10-01|2026-10-01]]
 
