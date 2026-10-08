@@ -1,56 +1,44 @@
 ---
+type: github-project
 repo: "cathrynlavery/diagram-design"
-first_seen: 2026-09-09
-last_seen: 2026-09-11
-recommend_score: 9.4
-trending_count: 3
-stars_today: 2249
-category: ["AI", "Developer Tools", "Diagram"]
-tags: ["github/agent", "github/diagram", "github/svg", "github/architecture", "github/docs"]
+first_seen: 2026-10-08
+last_seen: 2026-10-08
+language: "HTML"
+total_stars: 45039
+forks: 2894
+stars_today: null
 ---
-
 # cathrynlavery/diagram-design
 
-## 项目定位
-为 Coding Agent 提供专业图表/架构图设计 Skill，并用验证器把视觉规则工程化。
+## 一句话说明
+Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi.
 
-## 核心功能 / 实现特点
-- HTML+SVG + Python/self-check。
-- 支持 Mermaid/draw.io/Excalidraw 导入重绘。
-- CI 检查资源、安全、几何和兼容问题。
-
-## 主要优点
-- 不止是提示模板，而是可测试的视觉语法。
-- 适合架构设计、技术文档和 Agent 自动制图。
-- 对生成稳定性有明确验证层。
-
-## 局限 / 注意点
-- 不是完整交互式设计软件。
-- 视觉质量仍取决于布局规则执行和验证覆盖率。
-
-## 最近变化
-- 今日 +2249 stars，昨日 +2286，高位稳定。
-- 发布 2.6.22；加入 GitHub Copilot marketplace 安装并修复 Cowork 插件描述限制。
-- 推荐分维持 9.4。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-09 | +710 | 9.2 |
-| 2026-09-10 | +2286 | 9.4 |
-| 2026-09-11 | +2249 | 9.4 |
-
-## 相关主题
-- [[AI]]
-- [[Developer-Tools]]
-- [[Skills]]
-
-## 相关日报
-- [[2026-09-10]]
-- [[2026-09-11]]
+## 它能做什么
+- 让 Coding Agent 生成更专业的 HTML+SVG 技术图、架构图和流程图，而不是只给默认 Mermaid 风格。
+- 可作为实际工作流中的独立工具或 Agent 能力使用。
 
 ## 怎么利用
-让 Coding Agent 根据系统说明生成 HTML+SVG 图，再运行自检检查几何、资源和兼容性；人工复核语义和视觉层级。
+让 Coding Agent 生成更专业的 HTML+SVG 技术图、架构图和流程图，而不是只给默认 Mermaid 风格。
 
 ## 实际例子
-**可推导用法：** 场景 → 绘制 RAG 服务架构图。输入 → API、解析、向量库和 LLM 的关系。操作 → 生成 SVG 并通过 validator。输出 → 可嵌入技术文档的清晰架构图。
+场景：写系统设计文档 → 输入组件、数据流和视觉要求 → Agent 按 diagram-design 规则选择图型并生成自包含 HTML+SVG → 输出可直接放入文档或继续编辑的架构图。
+
+> 资料核对日期：2026-10-08。以上优先依据仓库 README/官方描述；若涉及工作流组合，则按项目已声明能力进行具体化，不视为额外官方承诺。
+
+## 适合谁
+需要解决上述问题的开发者、工程团队或自托管用户。
+
+## 局限 / 注意点
+属于设计 Skill/规则集，最终布局质量仍取决于输入信息和宿主 Agent 执行；不是完整 GUI 设计软件。
+
+## Trending 历史
+- 2026-10-08：#5
+
+## 相关主题
+- [[Topics/AI]]
+
+## 相关日报
+- [[Daily/2026/10/2026-10-08|2026-10-08]]
+
+## GitHub
+https://github.com/cathrynlavery/diagram-design
