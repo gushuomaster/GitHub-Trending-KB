@@ -1,38 +1,73 @@
 ---
+type: github-project
 repo: "affaan-m/ECC"
+url: "https://github.com/affaan-m/ECC"
 first_seen: 2026-09-09
-last_seen: 2026-09-19
-recommend_score: 9.4
-trending_count: 5
+last_seen: 2026-10-04
+trending_count: 7
+language: "JavaScript"
 stars_today: 965
-category: ["AI","Agent","Developer Tools","Skills"]
-tags: ["github/agent","github/skills","github/memory","github/security"]
+category: ["AI", "Agent", "Skills", "Developer-Tools"]
+tags: ["ai", "agent", "skills", "developer-tools"]
+topics: ["AI", "Agent", "Skills", "Developer-Tools"]
 ---
 # affaan-m/ECC
-## 项目定位
-跨 Coding Agent 的大型 Harness 工程体系，覆盖 Skills、Memory、Security、Orchestration、Testing 与持续学习。
-## 核心功能 / 实现特点
-JavaScript/Node + skills/rules/hooks/commands；提供安全门、memory、harness audit 与多宿主复用。
-## 最近变化
-- 2026-09-19 +965 stars，较昨日 +1173 小幅回落但仍处高位。
-- 评分维持 9.4：能力面强，但规模、兼容矩阵和第三方能力供应链风险继续形成复杂度税。
-## 局限 / 注意点
-不建议整包无差别启用；应按工作流选择模块，并对 hooks、命令执行和第三方 Skills 独立审计。
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-09 | +1427 | 9.4 |
-| 2026-09-10 | +1151 | 9.5 |
-| 2026-09-17 | +1046 | 9.4 |
-| 2026-09-18 | +1173 | 9.4 |
-| 2026-09-19 | +965 | 9.4 |
-## 相关主题
-[[Agent]] · [[Skills]] · [[Developer-Tools]] · [[Context-Engineering]]
-## 相关日报
-- [[2026-09-19]]
+
+## 一句话说明
+为多种 Coding Agent 提供可组合的工程工作流，覆盖计划、测试、实现、评审、记忆、安全和持续改进。
+
+**当前官方描述：** The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
+
+## 它能做什么
+- 提供 Skills、Rules、Hooks、Commands 和专用 Agent 组成的工作流。
+- 支持计划→测试→实现→评审→验证→记忆的工程循环。
+- 提供安装状态、doctor、repair 与 uninstall 管理，支持多种 Agent 宿主。
 
 ## 怎么利用
-从体系中按需挑选 memory、安全、测试或编排模块，在隔离分支验证 hooks 和命令，再逐步加入团队 Agent 工作流。
+用引导安装器选择所需组件，先在隔离项目运行 doctor；从计划或 TDD 等单一工作流开始，验证 hooks 和命令后再逐步扩大启用范围。
 
 ## 实际例子
-**可推导用法：** 场景 → 给长任务 Coding Agent 增加可恢复记忆。输入 → 项目上下文和会话摘要。操作 → 只启用 ECC 的 memory 组件并做中断恢复测试。输出 → 重启后能继续任务的受控记忆链路。
+**官方 Start Using ECC →** 开发功能时先运行 `/ecc:plan "功能描述"`，再进入 `tdd-workflow`；输出实施计划、失败测试、最小实现和验证结果。
+
+## 关键命令
+```text
+npx ecc-universal@2.2.3 setup
+```
+
+## 适合谁
+需要在 Claude Code、Codex 等宿主中建立统一工程流程、记忆和质量检查的个人或团队。
+
+## 局限 / 注意点
+能力面很宽，整包启用会增加复杂度和上下文开销；不同平台的 hooks、Bash/Python 能力并不完全一致，第三方技能需单独审计。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-09 | 4 | 1427 | 未保存 | 归档顺序；统计来自原有快照或未保存 |
+| 2026-09-10 | 未保存 | 1151 | 未保存 | 仓库索引 |
+| 2026-09-17 | 未保存 | 1046 | 未保存 | 仓库索引 |
+| 2026-09-18 | 未保存 | 1173 | 未保存 | 仓库索引 |
+| 2026-09-19 | 5 | 965 | 未保存 | 仓库索引 |
+| 2026-09-21 | 4 | 1018 | 未保存 | 仓库索引 |
+| 2026-10-04 | 3 | 未保存 | 未保存 | 仓库索引 |
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-09|2026-09-09]]
+- [[Daily/2026/09/2026-09-10|2026-09-10]]
+- [[Daily/2026/09/2026-09-17|2026-09-17]]
+- [[Daily/2026/09/2026-09-18|2026-09-18]]
+- [[Daily/2026/09/2026-09-19|2026-09-19]]
+- [[Daily/2026/09/2026-09-21|2026-09-21]]
+- [[Daily/2026/10/2026-10-04|2026-10-04]]
+
+## GitHub 原始链接
+https://github.com/affaan-m/ECC
+
+## 官方资料核对
+- 核对日期：2026-10-08
+- README：https://github.com/affaan-m/ECC/blob/main/README.md
+- README blob SHA：95673de4bb5a8471507fc2c396243cd20395ee58
+- 说明：项目卡反映核对日的当前官方资料；不声称这些能力与 2026-09-09 的历史版本完全相同。
