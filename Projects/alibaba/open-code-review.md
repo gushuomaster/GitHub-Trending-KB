@@ -35,7 +35,7 @@ topics: ["Code Review","AI Agent","Developer Tools"]
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-14 | 14 | 438 | 未保存 | 日期匹配来源 |
-| 2026-09-15 | 未保存 | 264 | 未保存 | 仓库快照 |
+| 2026-09-15 | 2 | 未保存 | 未保存 | 日期匹配来源 |
 | 2026-09-16 | 未保存 | 2751 | 未保存 | 仓库快照 |
 | 2026-09-17 | 未保存 | 2756 | 未保存 | 仓库快照 |
 | 2026-09-19 | 1 | 2724 | 未保存 | 仓库快照 |
@@ -57,3 +57,10 @@ https://github.com/alibaba/open-code-review
 - 核对日期：2026-10-09
 - README：https://github.com/alibaba/open-code-review/blob/HEAD/README.md
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+
+## 2026-09-15 历史核验
+- GitHub Trending 原始排名：#2
+- Language / Total Stars / Forks / Stars Today：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/6f044aff9e480bacdd8f247c44429e626361a26a/archive/repository/2026/2026-09-15/(null).json)
+- 归档提交时间：2026-09-15T04:26:32Z；该时间不是页面抓取时间。

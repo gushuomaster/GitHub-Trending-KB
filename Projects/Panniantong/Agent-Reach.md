@@ -1,36 +1,64 @@
 ---
 type: github-project
 repo: "Panniantong/Agent-Reach"
-first_seen: 2026-10-03
-last_seen: 2026-10-03
+url: "https://github.com/Panniantong/Agent-Reach"
+first_seen: 2026-09-15
+last_seen: 2026-10-06
+trending_count: 5
+category: ["AI Agent","Web Research","CLI"]
+topics: ["AI Agent","Web Research","CLI"]
 ---
 # Panniantong/Agent-Reach
 
 ## 一句话说明
-让 Agent 通过一个 CLI 读取和搜索 Twitter、Reddit、YouTube、GitHub 等互联网来源。
+用一个 CLI 为命令行 Agent 配置网页、搜索、GitHub、Twitter、Reddit、YouTube、B站和小红书等网络读取能力。
 
 ## 它能做什么
-- 以官方仓库声明的能力为准。
+- 读取普通网页、RSS、公开视频字幕和公开仓库内容
+- 为多个社交与视频平台提供搜索或内容提取后端
+- 用首选/备用路由应对平台接口变化
+- 通过 `agent-reach doctor` 检查各渠道可用性和修复建议
 
 ## 怎么利用
-**可推导用法**：将该项目的核心能力放入对应开发/内容/基础设施工作流；先按官方 README 安装或运行，再把真实任务输入给它，最终得到官方描述所对应的结果。
+官方安装方式：把 `docs/install.md` 链接交给能执行命令的 Agent；安装后运行 `agent-reach doctor`，再让 Agent 搜索 Reddit 讨论或提取 YouTube/B站字幕进行总结。
 
 ## 实际例子
-**可推导用法**：场景 → 需要“让 Agent 通过一个 CLI 读取和搜索 Twitter、Reddit、YouTube、GitHub 等互联网来源。”对应能力；输入 → 实际项目/任务；操作 → 按官方仓库说明运行；输出 → 对应工具或工作流结果。
+**官方材料中的工作流：** 官方安装方式：把 `docs/install.md` 链接交给能执行命令的 Agent；安装后运行 `agent-reach doctor`，再让 Agent 搜索 Reddit 讨论或提取 YouTube/B站字幕进行总结。
 
-> 当前资料核对日期：2026-10-08；“可推导用法”不是官方案例。
+## 关键命令
+```bash
+agent-reach doctor
+```
 
 ## 适合谁
-需要该仓库所声明能力的开发者或团队。
+需要让命令行 Agent 读取多平台公开内容的研究者和开发者。
 
 ## 局限 / 注意点
-- 历史归档只保存榜单顺序；项目能力、版本和限制需以当前官方仓库为准。
+- 部分平台仍需本地 Cookie、登录或代理，接口随平台风控变化；自动化读取必须遵守服务条款、访问频率、版权和个人数据边界。
 
 ## Trending 历史
-- 2026-10-03：#1
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-15 | 6 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-03 | 1 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-04 | 6 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-05 | 6 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-06 | 6 | 未保存 | 未保存 | 日期匹配来源 |
+
+## 相关主题
+[[Topics/AI Agent|AI Agent]] · [[Topics/Web Research|Web Research]] · [[Topics/CLI|CLI]]
 
 ## 相关日报
+- [[Daily/2026/09/2026-09-15|2026-09-15]]
 - [[Daily/2026/10/2026-10-03|2026-10-03]]
+- [[Daily/2026/10/2026-10-04|2026-10-04]]
+- [[Daily/2026/10/2026-10-05|2026-10-05]]
+- [[Daily/2026/10/2026-10-06|2026-10-06]]
 
-## GitHub
+## GitHub 原始链接
 https://github.com/Panniantong/Agent-Reach
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/Panniantong/Agent-Reach/blob/HEAD/README.md
+- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。

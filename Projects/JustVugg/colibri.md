@@ -35,7 +35,7 @@ topics: ["AI","Local-LLM"]
 |---|---:|---:|---:|---|
 | 2026-09-11 | 12 | 未保存 | 未保存 | 日期匹配来源 |
 | 2026-09-14 | 1 | 960 | 未保存 | 日期匹配来源 |
-| 2026-09-15 | 未保存 | 652 | 未保存 | 仓库快照 |
+| 2026-09-15 | 1 | 未保存 | 未保存 | 日期匹配来源 |
 | 2026-09-16 | 未保存 | 2035 | 未保存 | 仓库快照 |
 | 2026-09-17 | 未保存 | 2026 | 未保存 | 仓库快照 |
 | 2026-09-18 | 未保存 | 872 | 未保存 | 仓库快照 |
@@ -66,3 +66,10 @@ https://github.com/JustVugg/colibri
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7f52444fb280229de8751e204240886016f5c56f/archive/repository/2026/2026-09-14/(null).json)
 - 归档提交时间：2026-09-14T00:00:43Z；该时间不是页面抓取时间。
+
+
+## 2026-09-15 历史核验
+- GitHub Trending 原始排名：#1
+- Language / Total Stars / Forks / Stars Today：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/6f044aff9e480bacdd8f247c44429e626361a26a/archive/repository/2026/2026-09-15/(null).json)
+- 归档提交时间：2026-09-15T04:26:32Z；该时间不是页面抓取时间。
