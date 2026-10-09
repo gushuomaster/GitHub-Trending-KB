@@ -87,3 +87,10 @@ https://github.com/ayghri/i-have-adhd
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/1920ac964597c62bab2a311888de53a13e8798ad/archive/repository/2026/2026-09-11/(null).json)
 - 相关日报：[[Daily/2026/09/2026-09-11|2026-09-11]]
+
+## 2026-09-12 历史核验
+- GitHub Trending 原始排名：#1
+- Stars Today：3882（原日报保存的当日值）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c2d25fb872c661b5329c0e3eb95abe065543a251/archive/repository/2026/2026-09-12/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-12|2026-09-12]]

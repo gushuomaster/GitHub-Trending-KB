@@ -59,3 +59,10 @@ https://github.com/alsk1992/CloddsBot
 - 核对日期：2026-10-09
 - README：https://github.com/alsk1992/CloddsBot/blob/main/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与 2026-09-11 的历史版本完全相同。
+
+## 2026-09-12 历史核验
+- GitHub Trending 原始排名：#7
+- Stars Today：277（原日报保存的当日值）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c2d25fb872c661b5329c0e3eb95abe065543a251/archive/repository/2026/2026-09-12/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-12|2026-09-12]]

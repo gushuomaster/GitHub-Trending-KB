@@ -1,54 +1,60 @@
 ---
+type: github-project
 repo: "jihe520/MathModelAgent"
+url: "https://github.com/jihe520/MathModelAgent"
 first_seen: 2026-09-12
 last_seen: 2026-09-14
-recommend_score: 8.5
 trending_count: 3
-stars_today: 268
-category: ["AI", "Agent", "Skills", "Math Modeling"]
-tags: ["github/agent", "github/skills", "github/math-modeling", "github/python", "github/paper"]
+category: ["AI","Education","Agent"]
+topics: ["AI","Agent","Education"]
 ---
-
 # jihe520/MathModelAgent
 
-## 项目定位
-面向数学建模竞赛/课程的 Agent + Skills 系统，从题目分析、模型选择、代码计算、绘图到论文生成形成完整链路。
+## 一句话说明
+面向数学建模竞赛的多 Agent 与 Skills 工作流，自动完成问题分析、建模、代码实验和论文草稿。
 
-## 核心功能 / 实现特点
-- Python 为主，同时提供 Agent、Skills、Web/桌面与执行/沙箱组件；桌面版把 Claude Code 与完整 Skills 打包，用户主要配置模型 API Key。
-- 近期可见更新仍以 8 月文档/桌面发布为主，代码维护节奏没有跟随 Trending 热度同步上升。
-
-## 主要优点
-- 垂直任务链完整，Agent/Skill 分阶段拆分清晰
-- 对数学建模竞赛、科研辅助和垂直工作流 Skill 化有较强参考价值
-- 连续三日 Trending，场景需求和传播力较稳定
-
-## 局限 / 注意点
-- 历史存在 CORS、鉴权、sandbox 等边界问题；Windows 桌面包未签名会触发 SmartScreen
-- 自动生成模型、代码和论文不能替代假设检查、数据合理性、统计验证与人工复核
-
-## 最近变化
-- 连续第 3 天上榜：+132 → +264 → +268 stars，热度基本持平；代码级维护仍偏慢，因此评分 **8.6 → 8.5**。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-12 | +132 | 8.7 |
-| 2026-09-13 | +264 | 8.6 |
-| 2026-09-14 | +268 | 8.5 |
-
-## 相关主题
-- [[AI]]
-- [[Agent]]
-- [[Skills]]
-
-## 相关日报
-- [[2026-09-12]]
-- [[2026-09-13]]
-- [[2026-09-14]]
+## 它能做什么
+- 由建模、代码和论文等角色分阶段协作
+- 用本地 Jupyter 或 E2B/Daytona 执行与修正代码
+- 结合 Web Search 和 RAG 查找数据与建模方法
+- 在关键节点提供人工确认、编辑、重生成或终止
 
 ## 怎么利用
-导入题目与数据，让分析、建模、计算、绘图和论文 Skills 分阶段工作；每一步保留假设、代码和结果供人工核验。
+官方 Skill 工作流：安装全部 Skills 后输入赛题、数据和格式要求；依次生成问题分析、模型、Notebook 实验和 LaTeX 论文，用户在关键节点审核后输出可编辑源码和 PDF 草稿。
 
 ## 实际例子
-**可推导用法：** 场景 → 完成交通流预测题。输入 → 题目 PDF 和 CSV。操作 → 选择模型、训练、画图并生成论文草稿。输出 → 可运行代码、图表和带假设说明的报告。
+**官方材料中的工作流：** 官方 Skill 工作流：安装全部 Skills 后输入赛题、数据和格式要求；依次生成问题分析、模型、Notebook 实验和 LaTeX 论文，用户在关键节点审核后输出可编辑源码和 PDF 草稿。
+
+## 关键命令
+```bash
+npx skills add jihe520/MathModelAgent --all
+```
+
+## 适合谁
+参加数学建模竞赛、需要把建模、代码实验和论文写作组织成可审核流程的学生与指导教师。
+
+## 局限 / 注意点
+- 生成论文必须人工核对数据、模型假设、代码结果和引用，不能直接提交；联网搜索、云解释器和多模型调用会带来成本与资料泄露风险。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-12 | 11 | 132 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-09-13 | 未保存 | 264 | 未保存 | 历史归档或原日报 |
+| 2026-09-14 | 未保存 | 268 | 未保存 | 历史归档或原日报 |
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Education|Education]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-12|2026-09-12]]
+- [[Daily/2026/09/2026-09-13|2026-09-13]]
+- [[Daily/2026/09/2026-09-14|2026-09-14]]
+
+## GitHub 原始链接
+https://github.com/jihe520/MathModelAgent
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/jihe520/MathModelAgent/blob/main/README.md
+- 说明：当前资料不代表 2026-09-12 当时的功能版本。

@@ -1,49 +1,57 @@
 ---
+type: github-project
 repo: "github/spec-kit"
+url: "https://github.com/github/spec-kit"
 first_seen: 2026-09-12
 last_seen: 2026-09-12
-recommend_score: 9.4
 trending_count: 1
-stars_today: 985
-category: ["AI", "Developer Tools", "Spec-Driven Development"]
-tags: ["github/spec", "github/sdd", "github/developer-tools", "github/ai", "github/workflow"]
+category: ["AI","Developer-Tools","SDD"]
+topics: ["AI","Developer-Tools","Skills"]
 ---
-
 # github/spec-kit
 
-## 项目定位
-GitHub 官方的 Spec-Driven Development 工具包，用规格说明把 AI 辅助开发从“直接写代码”改造成可审阅、可分阶段执行的工程流程。
+## 一句话说明
+GitHub 官方的结构化 Agent 开发工具包，把需求、技术计划、任务、实现和收敛检查保存为可审阅产物。
 
-## 核心功能 / 实现特点
-- Python 为主，围绕 spec/plan/tasks 等阶段组织开发资产；仓库由 GitHub 官方维护，带页面文档、CI/安全策略和较大的社区协作面。
-
-## 主要优点
-- 把 PRD/spec 变成 AI 开发的第一等输入
-- 官方维护、生态和文档成熟度高
-- 适合与 Coding Agent 结合做需求→设计→任务→实现的可追踪链路
-
-## 局限 / 注意点
-- 306 个 open issues，规模大也意味着使用边界和兼容问题多
-- SDD 会增加前置文档成本，小修小补未必值得完整套流程
-
-## 最近变化
-- 首次进入本知识库；今日 +985 stars，仓库在 9 月 11 日仍有 push，135k+ stars 下依然保持高活跃。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-12 | +985 | 9.4 |
-
-## 相关主题
-- [[AI]]
-- [[Developer-Tools]]
-- [[Context-Engineering]]
-
-## 相关日报
-- [[2026-09-12]]
+## 它能做什么
+- 用 constitution、specify、plan、tasks、implement、converge 串联 SDD
+- 提供独立的 bug assess→fix→test 工作流
+- 用 idea assessment 形成 go、needs-clarification 或 kill 决策
+- 支持扩展、preset、workflow 和项目级模板覆盖
 
 ## 怎么利用
-先生成 constitution/spec/plan/tasks，再让 Agent按任务实现；每个阶段由人审阅，避免需求只存在聊天记录中。
+官方 SDD 示例：运行 `specify init my-project --integration <agent>` 后，在 Agent 中依次执行 `/speckit-specify`、`/speckit-plan`、`/speckit-tasks`、`/speckit-implement` 与 `/speckit-converge`，输出规格、计划、任务和验证结果。
 
 ## 实际例子
-**可推导用法：** 场景 → 新增团队登录功能。输入 → 用户故事、安全约束和验收条件。操作 → 生成规格与实施计划后逐任务开发。输出 → 可审阅的 spec、tasks、代码和验证结果。
+**官方材料中的工作流：** 官方 SDD 示例：运行 `specify init my-project --integration <agent>` 后，在 Agent 中依次执行 `/speckit-specify`、`/speckit-plan`、`/speckit-tasks`、`/speckit-implement` 与 `/speckit-converge`，输出规格、计划、任务和验证结果。
+
+## 关键命令
+```bash
+uv tool install specify-cli
+specify init my-project --integration codex
+```
+
+## 适合谁
+希望 Coding Agent 按可审阅规格、计划、任务和验证产物工作的开发团队。
+
+## 局限 / 注意点
+- 完整流程会增加文件和步骤，小修复应选择独立 bug 工作流；模板不能替代需求判断，未得到 verified/converged 的结果不能视为完成。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-12 | 15 | 985 | 未保存 | 语言不限归档；统计见说明 |
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-12|2026-09-12]]
+
+## GitHub 原始链接
+https://github.com/github/spec-kit
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/github/spec-kit/blob/main/README.md
+- 说明：当前资料不代表 2026-09-12 当时的功能版本。

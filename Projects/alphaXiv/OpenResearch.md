@@ -1,39 +1,65 @@
 ---
+type: github-project
 repo: "alphaXiv/OpenResearch"
-first_seen: 2026-09-14
+url: "https://github.com/alphaXiv/OpenResearch"
+first_seen: 2026-09-12
 last_seen: 2026-09-18
-recommend_score: 9.6
-trending_count: 4
-stars_today: 940
-category: ["AI","Agent","Research","Developer Tools"]
-tags: ["github/agent","github/research","github/coding-agent","github/rust"]
+trending_count: 5
+category: ["AI","Research","Agent"]
+topics: ["AI","Research","Agent"]
 ---
 # alphaXiv/OpenResearch
-## 项目定位
-把 Coding Agent 转成结构化研究 Agent 的 local-first 工作台，覆盖假设、文献检索、实验设计与结果综合。
-## 最近变化
-- 2026-09-18：约 +940 stars，较昨日 +531 大幅回升，连续上榜。
-- 跨 Claude Code/Codex/OpenCode/Cursor 的会话与历史兼容仍是核心工程难点。
-- 推荐分维持 9.6：产品方向清晰且热度恢复，但研究可信度仍必须依赖 provenance 和复现。
-## 局限 / 注意点
-研究流程自动化不等于结论可信；来源质量、实验可复现性和模型幻觉必须独立校验。
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-14 | +304 | 9.4 |
-| 2026-09-16 | +593 | 9.6 |
-| 2026-09-17 | +531 | 9.6 |
-| 2026-09-18 | +940 | 9.6 |
-## 相关主题
-[[Agent]] · [[Context-Engineering]] · [[Developer-Tools]]
-## 相关日报
-- [[2026-09-14]]
-- [[2026-09-16]]
-- [[2026-09-17]]
-- [[2026-09-18]]
+
+## 一句话说明
+本地优先的研究 Agent 工作区，让 Coding Agent 检索论文、提出假设、运行实验并保存研究产物。
+
+## 它能做什么
+- 连接学术检索源，帮助 Agent 查找相关论文并形成假设
+- 在本地、SSH、Slurm、Kubernetes 或云计算环境运行实验
+- 统一展示研究对话、实验日志和生成的研究产物
+- 兼容常见 Coding Agent，并提供桌面应用与本地 Dashboard
 
 ## 怎么利用
-把研究问题拆成假设、文献检索、实验与综合步骤，在本地项目中保存来源、笔记和结果，让 Agent 多轮推进而非一次性回答。
+官方入门：安装桌面应用或运行 `orx up` 打开本地 Dashboard，选择 Coding Agent 和计算后端；输入研究问题后让 Agent检索文献、记录假设并运行实验，输出日志和研究文件。
 
 ## 实际例子
-**可推导用法：** 场景 → 比较两种 RAG 重排方法。输入 → 研究问题、论文来源和评测数据。操作 → 检索文献、设计实验并记录结果。输出 → 可追踪来源和实验的研究项目。
+**官方材料中的工作流：** 官方入门：安装桌面应用或运行 `orx up` 打开本地 Dashboard，选择 Coding Agent 和计算后端；输入研究问题后让 Agent检索文献、记录假设并运行实验，输出日志和研究文件。
+
+## 关键命令
+```bash
+curl -LsSf https://openresearch.sh/install.sh | sh
+orx up
+```
+
+## 适合谁
+希望让 Agent 辅助文献综述、假设形成和计算实验，同时保留本地研究记录的科研人员。
+
+## 局限 / 注意点
+- Windows 客户端仍标记 beta，Linux 需要 glibc 2.35+；Agent 生成的假设与实验结论必须人工验证，远程计算还需要单独管理凭据和费用。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-12 | 14 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-09-14 | 未保存 | 304 | 未保存 | 历史归档或原日报 |
+| 2026-09-16 | 未保存 | 593 | 未保存 | 历史归档或原日报 |
+| 2026-09-17 | 未保存 | 531 | 未保存 | 历史归档或原日报 |
+| 2026-09-18 | 未保存 | 940 | 未保存 | 历史归档或原日报 |
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Research|Research]] · [[Topics/Agent|Agent]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-12|2026-09-12]]
+- [[Daily/2026/09/2026-09-14|2026-09-14]]
+- [[Daily/2026/09/2026-09-16|2026-09-16]]
+- [[Daily/2026/09/2026-09-17|2026-09-17]]
+- [[Daily/2026/09/2026-09-18|2026-09-18]]
+
+## GitHub 原始链接
+https://github.com/alphaXiv/OpenResearch
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/alphaXiv/OpenResearch/blob/main/README.md
+- 说明：当前资料不代表 2026-09-12 当时的功能版本。

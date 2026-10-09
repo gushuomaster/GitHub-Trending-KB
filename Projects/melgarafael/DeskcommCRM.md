@@ -1,52 +1,55 @@
 ---
+type: github-project
 repo: "melgarafael/DeskcommCRM"
-first_seen: 2026-09-13
+url: "https://github.com/melgarafael/DeskcommCRM"
+first_seen: 2026-09-12
 last_seen: 2026-09-14
-recommend_score: 8.7
-trending_count: 2
-stars_today: 444
-category: ["AI", "Agent", "Automation", "RAG"]
-tags: ["github/agent", "github/crm", "github/automation", "github/rag", "github/whatsapp", "github/typescript"]
+trending_count: 3
+category: ["CRM","AI","Sales"]
+topics: ["AI","CRM"]
 ---
-
 # melgarafael/DeskcommCRM
 
-## 项目定位
-自托管 AI Sales OS/CRM，把 WhatsApp、AI Agents、follow-up、RAG、多租户与销售自动化整合进完整业务系统。
+## 一句话说明
+面向 WhatsApp 销售的自托管 CRM，把客户会话、销售漏斗、人工坐席和可执行 CRM 操作的 AI Agent 放在一起。
 
-## 核心功能 / 实现特点
-- TypeScript/React/Node/Supabase 全栈，包含 CRM、消息、Agent、知识库、follow-up、审计、多租户和 `.agents/.claude/.codex/.cursor/.specs`。
-- 1.20.0 于 9 月 12 日发布；随后 Issue 更集中暴露知识源编辑/归档、RAG 一致性、事件消费和删除事务等真实生产边界。
-
-## 主要优点
-- 能观察 Agent/RAG 如何进入真实销售业务流程，而非单点 Demo
-- 自托管、多租户、CRM、WhatsApp、知识库和自动化链路完整
-- Issue 通常带代码路径、复现和数据证据，适合研究生产级 Agent 产品治理
-
-## 局限 / 注意点
-- RAG 部分 chunk 写入失败仍可能激活不完整版本；归档知识源可让 Agent 配置进入不可编辑状态
-- 联系人删除存在先删消息/会话、再删联系人失败后历史已丢失的事务风险；event_log 也有长期未消费类型
-
-## 最近变化
-- 连续第 2 天上榜：+505 → +444 stars，热度略降。1.20.0 后没有同等强度的新代码提交，而多条生产一致性 Issue 继续出现，因此评分 **9.0 → 8.7**。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-13 | +505 | 9.0 |
-| 2026-09-14 | +444 | 8.7 |
-
-## 相关主题
-- [[AI]]
-- [[Agent]]
-- [[RAG]]
-
-## 相关日报
-- [[2026-09-13]]
-- [[2026-09-14]]
+## 它能做什么
+- 通过 WAHA 接入 WhatsApp 会话并管理销售管道
+- 用按租户隔离的 RAG、Skills 和记忆驱动 AI 销售 Agent
+- 支持 AI 到人工的可审计 handoff、情绪分析和组织花费上限
+- 提供多租户、自托管部署和 MCP 接入
 
 ## 怎么利用
-自托管 CRM 后连接授权的 WhatsApp 渠道、知识库和 follow-up Agent；先在测试租户验证 RAG 版本、删除事务和事件消费。
+官方 VPS 流程：克隆仓库，在安装向导中填写域名、模型密钥和管理员密码；登录后连接 WhatsApp，把新线索交给 AI Agent 资格筛选，再由人工接管高价值会话。
 
 ## 实际例子
-**可推导用法：** 场景 → 跟进电商潜在客户。输入 → 产品资料、联系人和消息授权。操作 → Agent回答咨询并按规则创建跟进。输出 → CRM 记录、对话历史和待办。
+**官方材料中的工作流：** 官方 VPS 流程：克隆仓库，在安装向导中填写域名、模型密钥和管理员密码；登录后连接 WhatsApp，把新线索交给 AI Agent 资格筛选，再由人工接管高价值会话。
+
+## 适合谁
+通过 WhatsApp 销售、需要自托管 CRM 和人机协作客服流程的中小企业与服务商。
+
+## 局限 / 注意点
+- 部署者必须维护 Docker、域名、备份和更新；WhatsApp 条款、个人数据合规与模型密钥成本需要单独治理，AI 不应未经审核自动承诺价格或合同。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-12 | 4 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-09-13 | 未保存 | 505 | 未保存 | 历史归档或原日报 |
+| 2026-09-14 | 未保存 | 444 | 未保存 | 历史归档或原日报 |
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/CRM|CRM]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-12|2026-09-12]]
+- [[Daily/2026/09/2026-09-13|2026-09-13]]
+- [[Daily/2026/09/2026-09-14|2026-09-14]]
+
+## GitHub 原始链接
+https://github.com/melgarafael/DeskcommCRM
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/melgarafael/DeskcommCRM/blob/main/README.md
+- 说明：当前资料不代表 2026-09-12 当时的功能版本。
