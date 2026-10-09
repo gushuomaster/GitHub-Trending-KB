@@ -1,50 +1,55 @@
 ---
+type: github-project
 repo: "bilawalsidhu/gods-eye-view"
-first_seen: 2026-09-13
+url: "https://github.com/bilawalsidhu/gods-eye-view"
+first_seen: 2026-09-11
 last_seen: 2026-09-14
-recommend_score: 9.5
-trending_count: 2
-stars_today: 2898
-category: ["Data", "Developer Tools", "OSINT"]
-tags: ["github/data", "github/osint", "github/geospatial", "github/visualization", "github/javascript", "github/security"]
+trending_count: 3
+category: ["OSINT","Visualization","Geospatial"]
+topics: ["OSINT","Visualization","Geospatial"]
 ---
-
 # bilawalsidhu/gods-eye-view
 
-## 项目定位
-浏览器里的 3D 空间情报/地理数据工作台，把多种真实开放数据源叠加到交互式地球上。
+## 一句话说明
+把公开的飞机、船舶、卫星、地震、天气和摄像头等信号叠加到可探索的写实 3D 地球上。
 
-## 核心功能 / 实现特点
-- JavaScript/Web 为主，整合地点、CCTV、地形、交通、共享出行、航空/船舶/卫星等多种 provider。
-- 9 月 13 日密集拆分 CCTV、交通、卫星、火灾、地震、船舶、航班等 layer，并修复 GeoJSON toggle-off 只隐藏不释放的问题；实测 11,537 个实体释放后渲染和堆内存显著恢复。
-
-## 主要优点
-- 真实多源数据而非静态 Demo，provider 和数据生命周期治理参考价值高
-- 近期不仅加功能，还持续做性能、内存、校验和组件所有权 hardening
-- 今日热度继续上升且代码活跃度同步
-
-## 局限 / 注意点
-- 多数据源带来 API 稳定性、配额、延迟、数据质量和缓存策略复杂度
-- 地理位置/CCTV 等数据涉及隐私与合规边界，必须按授权和当地法规使用
-
-## 最近变化
-- 连续第 2 天上榜：+2265 → +2898 stars。维护重点从 provider hardening 深入到 layer 生命周期、组件拆分和内存/渲染性能；评分 **9.3 → 9.5**。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-13 | +2265 | 9.3 |
-| 2026-09-14 | +2898 | 9.5 |
-
-## 相关主题
-- [[Developer-Tools]]
-
-## 相关日报
-- [[2026-09-13]]
-- [[2026-09-14]]
+## 它能做什么
+- 在 3D 地球上实时显示并追踪飞机、船舶、卫星、火灾和地震
+- 提供座舱视角、轨迹、附近目标清单和多种传感器视觉效果
+- 通过语音 Agent 查询、筛选和标注当前空间态势
+- 把相机、图层和跟踪目标序列化为可分享链接
 
 ## 怎么利用
-按任务启用少量地理数据 layer，把航班、船舶、火灾或交通等开放数据叠加到 3D 地球；记录来源、更新时间和使用权限。
+官方场景：搜索一架航班并切换到 Cockpit view，系统持续将目标保持在画面中心，同时显示轨迹与元数据；用户可再用语音询问附近目标或保存分享链接。
 
 ## 实际例子
-**可推导用法：** 场景 → 观察台风附近交通态势。输入 → 风暴区域、航班与船舶开放数据。操作 → 叠加对应 layer 并过滤时间窗口。输出 → 可交互的空间态势视图。
+**官方材料中的工作流：** 官方场景：搜索一架航班并切换到 Cockpit view，系统持续将目标保持在画面中心，同时显示轨迹与元数据；用户可再用语音询问附近目标或保存分享链接。
+
+## 适合谁
+需要把多个公开空间数据源放在同一视图中探索的地理可视化开发者、研究人员和应急演练团队。
+
+## 局限 / 注意点
+- 依赖多个公开数据源，更新延迟、覆盖范围和 fallback 会影响结论；公开位置数据也涉及隐私、授权和使用边界，不能当作权威情报系统。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-11 | 2 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-09-13 | 未保存 | 2265 | 未保存 | 历史归档或原日报 |
+| 2026-09-14 | 未保存 | 2898 | 未保存 | 历史归档或原日报 |
+
+## 相关主题
+[[Topics/OSINT|OSINT]] · [[Topics/Visualization|Visualization]] · [[Topics/Geospatial|Geospatial]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-11|2026-09-11]]
+- [[Daily/2026/09/2026-09-13|2026-09-13]]
+- [[Daily/2026/09/2026-09-14|2026-09-14]]
+
+## GitHub 原始链接
+https://github.com/bilawalsidhu/gods-eye-view
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md
+- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与 2026-09-11 的历史版本完全相同。

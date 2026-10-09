@@ -1,51 +1,53 @@
 ---
+type: github-project
 repo: "nashsu/llm_wiki"
+url: "https://github.com/nashsu/llm_wiki"
 first_seen: 2026-09-11
 last_seen: 2026-09-12
-recommend_score: 8.8
 trending_count: 2
-stars_today: 142
-category: ["AI", "RAG", "Knowledge Base"]
-tags: ["github/rag", "github/wiki", "github/knowledge-graph", "github/memory", "github/lancedb"]
+category: ["AI","Knowledge-Base","RAG"]
+topics: ["AI","RAG","Knowledge-Graph"]
 ---
-
 # nashsu/llm_wiki
 
-## 项目定位
-把文档增量转化成持久、互链 Wiki/知识图谱，强调长期知识维护而不是查询时临时 RAG。
+## 一句话说明
+把 PDF、Office、网页和文件夹持续转成带来源追踪的互链 Wiki，并用知识图谱和检索保持长期可用。
 
-## 核心功能 / 实现特点
-- TypeScript 桌面应用；两阶段 ingest、来源追溯、多模态、知识图谱、Louvain 社区、可选 LanceDB、文件夹监听、Deep Research、本地 API/MCP/Agent Skill。
-
-## 主要优点
-- 长期知识资产导向强
-- 知识图谱、增量更新和来源追溯设计完整
-- 很适合 Agent Memory、项目知识库与个人知识管理
-
-## 局限 / 注意点
-- 自动图谱质量依赖抽取模型，合并/去重/更新复杂度高
-- 代码最近 push 仍停在 8 月 25 日附近，Trending 热度高于维护活跃度
-
-## 最近变化
-- 昨日 +94，今日 +142，热度回升，但代码活跃度没有同步回升，因此评分仍维持 8.8。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-11 | +94 | 8.8 |
-| 2026-09-12 | +142 | 8.8 |
-
-## 相关主题
-- [[AI]]
-- [[RAG]]
-- [[Context-Engineering]]
-
-## 相关日报
-- [[2026-09-11]]
-- [[2026-09-12]]
+## 它能做什么
+- 两阶段摄取先分析来源，再增量生成带引用的 Wiki 页面
+- 解析 PDF、Office、EPUB、图片和网页，并支持图像说明
+- 用链接、来源重叠和图算法构建知识图谱与主题社区
+- 提供向量搜索、Deep Research、本地 API、MCP 和 Agent Skill
 
 ## 怎么利用
-持续监听文档目录，把新增或变更内容分阶段抽取成互链 Wiki 和知识图谱，并通过来源追溯检查合并结果。
+官方工作流：创建项目并导入资料文件夹，等待持久化队列解析；在 Wiki 中核对来源与页面关系，再用 Read Sources Only 模式提问，输出只依据原文的答案。
 
 ## 实际例子
-**可推导用法：** 场景 → 维护项目知识库。输入 → docs、设计稿和会议纪要目录。操作 → 增量 ingest、实体合并并生成主题页。输出 → 可搜索、互链且能追溯原文的 Wiki。
+**官方材料中的工作流：** 官方工作流：创建项目并导入资料文件夹，等待持久化队列解析；在 Wiki 中核对来源与页面关系，再用 Read Sources Only 模式提问，输出只依据原文的答案。
+
+## 适合谁
+希望把个人或团队文档持续整理成可追溯知识库，而不只做一次性问答的知识管理用户。
+
+## 局限 / 注意点
+- 解析和页面合并会受模型质量影响，重复、冲突与错误引用需要人工复核；私密文档使用云模型或外部搜索前必须评估数据发送范围。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-11 | 14 | 94 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-09-12 | 未保存 | 142 | 未保存 | 历史归档或原日报 |
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/RAG|RAG]] · [[Topics/Knowledge-Graph|Knowledge-Graph]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-11|2026-09-11]]
+- [[Daily/2026/09/2026-09-12|2026-09-12]]
+
+## GitHub 原始链接
+https://github.com/nashsu/llm_wiki
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/nashsu/llm_wiki/blob/main/README.md
+- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与 2026-09-11 的历史版本完全相同。

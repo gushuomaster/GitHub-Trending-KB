@@ -3,8 +3,8 @@ type: github-project
 repo: "freestylefly/awesome-gpt-image-2"
 url: "https://github.com/freestylefly/awesome-gpt-image-2"
 first_seen: 2026-09-10
-last_seen: 2026-09-10
-trending_count: 1
+last_seen: 2026-09-11
+trending_count: 2
 category: ["AI","Image","Prompt-Engineering"]
 topics: ["AI","Image","Skills"]
 ---
@@ -55,3 +55,10 @@ https://github.com/freestylefly/awesome-gpt-image-2
 - 核对日期：2026-10-09
 - README：https://github.com/freestylefly/awesome-gpt-image-2/blob/main/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与 2026-09-10 的历史版本完全相同。
+
+## 2026-09-11 历史核验
+- GitHub Trending 原始排名：#9
+- Stars Today：未保存（历史归档与原日报均未保存）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/1920ac964597c62bab2a311888de53a13e8798ad/archive/repository/2026/2026-09-11/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-11|2026-09-11]]

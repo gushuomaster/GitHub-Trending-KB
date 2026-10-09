@@ -1,53 +1,56 @@
 ---
+type: github-project
 repo: "diegosouzapw/OmniRoute"
+url: "https://github.com/diegosouzapw/OmniRoute"
 first_seen: 2026-09-11
 last_seen: 2026-09-11
-recommend_score: 9.5
 trending_count: 1
-stars_today: 591
-category: ["AI", "Developer Tools", "Model Gateway"]
-tags: ["github/gateway", "github/models", "github/codex", "github/mcp", "github/a2a", "github/routing"]
+category: ["AI","Gateway","Developer-Tools"]
+topics: ["AI","Gateway","Developer-Tools"]
 ---
-
 # diegosouzapw/OmniRoute
 
-## 项目定位
-统一 LLM 模型网关与路由层，为 Agent/Coding 工具提供多 Provider、配额、容错、压缩与安全治理。
+## 一句话说明
+把多家免费和付费模型供应商统一成一个 OpenAI 兼容端点，并按额度、健康状态和策略自动路由。
 
-## 核心功能 / 实现特点
-- TypeScript/Node，OpenAI-compatible 接口。
-- 多 Provider/模型、quota-aware fallback、health/resilience、MCP/A2A、Dashboard/Desktop/PWA。
-- 最近密集修复 tool_result 安全扫描、PII masking、跨租户 batch delete、流式 buffer 和配额队列。
-
-## 主要优点
-- Provider 覆盖广，适配多 Coding Agent。
-- 免费额度/故障切换/模型兼容工程化程度高。
-- 活跃维护安全、流式、配额和 Provider 变化。
-
-## 局限 / 注意点
-- 位于 API Key 和请求内容的集中安全边界。
-- Provider 越多，兼容、ToS、配额和上游变化维护成本越大。
-
-## 最近变化
-- 首次上榜，今日 +591 stars。
-- 同日新增 EURouter/GreenPT，并有多项安全与稳定性提交。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-11 | +591 | 9.5 |
-
-## 相关主题
-- [[AI]]
-- [[Agent]]
-- [[Developer-Tools]]
-- [[Context-Engineering]]
-
-## 相关日报
-- [[2026-09-11]]
+## 它能做什么
+- 通过单一 API 连接大量模型与供应商
+- 按配额、成本、延迟或可用性选择路由并自动 fallback
+- 兼容 Claude Code、Codex、Cursor、OpenCode 等客户端
+- 提供上下文压缩、MCP/A2A 接入和本地 Dashboard
 
 ## 怎么利用
-把多个 LLM Provider 接到统一兼容端点，配置配额、健康检查、fallback 和敏感信息处理；Agent 只调用一个网关地址。
+官方零配置示例：安装并启动后向 `http://localhost:20128/v1/chat/completions` 发送 OpenAI 格式请求，模型写 `auto`，网关选择当前可用的免费后端并在失败时切换。
 
 ## 实际例子
-**可推导用法：** 场景 → 主模型额度耗尽自动切换。输入 → OpenAI、Gemini 与本地端点。操作 → 配置优先级和 quota-aware fallback。输出 → 对客户端透明的连续模型服务与路由日志。
+**官方材料中的工作流：** 官方零配置示例：安装并启动后向 `http://localhost:20128/v1/chat/completions` 发送 OpenAI 格式请求，模型写 `auto`，网关选择当前可用的免费后端并在失败时切换。
+
+## 关键命令
+```bash
+curl http://localhost:20128/v1/chat/completions -H "Content-Type: application/json" -d '{"model":"auto","messages":[{"role":"user","content":"hello"}]}'
+```
+
+## 适合谁
+需要把多个模型供应商接入同一客户端、并管理额度与故障切换的 AI 应用开发者。
+
+## 局限 / 注意点
+- 集中保存多家 API key 会扩大凭据风险；免费额度、模型名称和上游协议随时可能变化，自动路由也不能保证输出一致性或服务连续性。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-11 | 11 | 591 | 未保存 | 语言不限归档；统计见说明 |
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Gateway|Gateway]] · [[Topics/Developer-Tools|Developer-Tools]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-11|2026-09-11]]
+
+## GitHub 原始链接
+https://github.com/diegosouzapw/OmniRoute
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/diegosouzapw/OmniRoute/blob/main/README.md
+- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与 2026-09-11 的历史版本完全相同。

@@ -4,7 +4,7 @@ repo: "liquidslr/system-design-notes"
 url: "https://github.com/liquidslr/system-design-notes"
 first_seen: 2026-09-10
 last_seen: 2026-10-09
-trending_count: 2
+trending_count: 3
 language: "未声明"
 total_stars: 24595
 forks: 4600
@@ -61,3 +61,10 @@ https://github.com/liquidslr/system-design-notes
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json)
 - 相关日报：[[Daily/2026/09/2026-09-10|2026-09-10]]
+
+## 2026-09-11 历史核验
+- GitHub Trending 原始排名：#7
+- Stars Today：未保存（历史归档与原日报均未保存）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/1920ac964597c62bab2a311888de53a13e8798ad/archive/repository/2026/2026-09-11/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-11|2026-09-11]]
