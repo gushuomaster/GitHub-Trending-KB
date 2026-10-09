@@ -7,6 +7,8 @@ trending_count: 2
 stars_today: 624
 category: ["AI", "Agent", "Developer Tools"]
 tags: ["github/agent", "github/desktop", "github/local-first", "github/mcp", "github/plugins", "github/subagents"]
+type: github-project
+url: "https://github.com/vastsa/PI-Desktop"
 ---
 
 # vastsa/PI-Desktop
@@ -49,3 +51,31 @@ Local-first AI Coding Agent 桌面工作区，把模型、项目、会话、权�
 
 ## 实际例子
 **可推导用法：** 场景 → 在独立桌面端维护 Python 项目。输入 → 本地仓库和 bug。操作 → Agent修改并运行测试，用户在 Review 中批准。输出 → 本地可审查改动与会话记录。
+
+## 规范化资料补充（2026-10-09）
+
+### 一句话说明
+本地优先、模型无关的 AI Agent 桌面工作区，把项目、会话、插件、权限、审查与长任务放进一个客户端。
+
+### 怎么利用与实例
+**可推导用法：** 把本地 Python 仓库加入工作区，选择模型和 Plan 模式；Agent 先提交修复计划，经确认后修改并运行测试，用户在 Review 面板检查 diff 与命令输出。
+
+### 适合谁
+需要跨模型维护长会话、审查 Agent 改动或用插件组织多个 Agent 工作流的开发者。
+
+### 局限补充
+项目仍快速迭代，插件权限、远程连接和扩展 API 兼容性需要持续观察；本地优先不自动消除模型供应商的数据风险。
+
+### GitHub 原始链接
+https://github.com/vastsa/PI-Desktop
+
+### 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/vastsa/PI-Desktop/blob/main/README.md
+
+## 2026-09-10 历史核验
+- GitHub Trending 原始排名：#12
+- Stars Today：393（原日报保存的当日值）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-10|2026-09-10]]

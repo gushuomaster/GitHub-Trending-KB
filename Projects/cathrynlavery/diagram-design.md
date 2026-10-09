@@ -74,3 +74,9 @@ https://github.com/cathrynlavery/diagram-design
 - README：https://github.com/cathrynlavery/diagram-design/blob/main/README.md
 - README blob SHA：a1fe31b32cec9ecf19ded94871c064681b4f6b5a
 
+## 2026-09-10 历史核验
+- GitHub Trending 原始排名：#6
+- Stars Today：2286（原日报保存的当日值）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-10|2026-09-10]]

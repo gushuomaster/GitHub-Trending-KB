@@ -1,9 +1,9 @@
 ---
 repo: "rohitg00/ai-engineering-from-scratch"
 url: "https://github.com/rohitg00/ai-engineering-from-scratch"
-first_seen: 2026-09-25
+first_seen: 2026-09-10
 last_seen: 2026-09-30
-trending_count: 5
+trending_count: 6
 github_rank: 10
 stars_today: 786
 total_stars: 61329
@@ -14,6 +14,7 @@ category: ["AI", "Education", "Developer Tools"]
 tags: ["ai-engineering", "llm", "agent", "mcp", "skills"]
 topics: ["AI", "Agent", "Skills"]
 status: active
+type: github-project
 ---
 # rohitg00/ai-engineering-from-scratch
 
@@ -66,3 +67,10 @@ python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route be
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
+
+## 2026-09-10 历史核验
+- GitHub Trending 原始排名：#11
+- Stars Today：未保存（历史归档与原日报均未保存）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-10|2026-09-10]]

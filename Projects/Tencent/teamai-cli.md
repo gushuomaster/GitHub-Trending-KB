@@ -7,6 +7,8 @@ trending_count: 2
 stars_today: 556
 category: ["AI", "Agent", "Skills", "Developer Tools"]
 tags: ["github/agent", "github/skills", "github/team", "github/mcp", "github/knowledge", "github/cli"]
+type: github-project
+url: "https://github.com/Tencent/teamai-cli"
 ---
 
 # Tencent/teamai-cli
@@ -55,3 +57,31 @@ tags: ["github/agent", "github/skills", "github/team", "github/mcp", "github/kno
 
 ## 实际例子
 **可推导用法：** 场景 → 让团队的 Codex 和 Claude Code遵守同一发布规范。输入 → release Skill、代码规范和 MCP 配置。操作 → 用 teamai-cli 分发并锁定版本。输出 → 各宿主一致可发现的团队能力包。
+
+## 规范化资料补充（2026-10-09）
+
+### 一句话说明
+团队级 AI Harness 管理 CLI，用 Git 仓库统一分发 Skills、Rules、MCP、Agents、Hooks 和团队知识。
+
+### 怎么利用与实例
+**官方工作流：** 管理员创建共享 Git 仓库并运行 `teamai init <repo-url>`；成员加入同一仓库后，每次 Agent 会话自动拉取最新团队资源，发布者可通过 `/teamai` 分享 Skill 或规则。
+
+### 适合谁
+需要让多种 Coding Agent 使用统一规范、工具和知识资产的研发平台团队与工程负责人。
+
+### 局限补充
+Team Context 和 Team Improvement 仍标记为 beta；私有仓库权限、版本升级和回滚策略需要团队自行制定。
+
+### GitHub 原始链接
+https://github.com/Tencent/teamai-cli
+
+### 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/Tencent/teamai-cli/blob/main/README.md
+
+## 2026-09-10 历史核验
+- GitHub Trending 原始排名：#2
+- Stars Today：563（原日报保存的当日值）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-10|2026-09-10]]

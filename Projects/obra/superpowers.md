@@ -81,3 +81,10 @@ https://github.com/obra/superpowers
 - README：https://github.com/obra/superpowers/blob/main/README.md
 - README blob SHA：cf80400690849b37861f39d396d231ea89ac693b
 - 说明：项目卡反映核对日的当前官方资料；不声称这些能力与 2026-09-09 的历史版本完全相同。
+
+## 2026-09-10 历史核验
+- GitHub Trending 原始排名：#3
+- Stars Today：690（原日报保存的当日值）
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json)
+- 相关日报：[[Daily/2026/09/2026-09-10|2026-09-10]]
