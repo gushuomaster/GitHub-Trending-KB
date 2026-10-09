@@ -1,48 +1,51 @@
 ---
+type: github-project
 repo: "multimodal-art-projection/YuE"
+url: "https://github.com/multimodal-art-projection/YuE"
 first_seen: 2026-09-13
 last_seen: 2026-09-13
-recommend_score: 9.1
 trending_count: 1
-stars_today: 193
-category: ["AI", "Generative AI", "Audio"]
-tags: ["github/generative-ai", "github/music", "github/audio", "github/multimodal", "github/python", "github/benchmark"]
+category: ["Music Generation","Audio","AI"]
+topics: ["Music Generation","Audio","AI"]
 ---
-
 # multimodal-art-projection/YuE
 
-## 项目定位
-开源音乐生成模型 YuE2，覆盖完整歌曲生成、zero-shot cover、符号规划与 agentic 音乐编辑。
+## 一句话说明
+开源歌曲生成模型 YuE2 先生成可读的旋律与和弦计划，再渲染带人声和伴奏的完整音频，并支持翻唱和对话式编辑。
 
-## 核心功能 / 实现特点
-- Python/深度学习为主，提供推理、checkpoint、benchmark 和音频处理链路。
-- 用 WildSongBench 等基准持续比较前沿音乐生成系统。
-
-## 主要优点
-- 开源音乐生成能力与研究价值高
-- 生成、翻唱、编辑统一在一个模型体系
-- 近期同步 Suno v6 对比，benchmark 信息较完整
-
-## 局限 / 注意点
-- 用户仍反馈纯器乐/无 vocals 控制问题
-- YuE2 微调所需 semantic audio tokenizer 尚缺完整公开路径，训练可复现性弱于推理侧
-
-## 最近变化
-- 首次上榜；今日 +193 stars。9 月 11 日更新 Suno v6/WildSongBench 对比和 frontier figure，模型推理代码本身没有同等幅度变化。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-13 | +193 | 9.1 |
-
-## 相关主题
-- [[AI]]
-
-## 相关日报
-- [[2026-09-13]]
+## 它能做什么
+- 把歌词与风格提示转换为符号乐谱和完整歌曲
+- 在渲染前检查和修改旋律、和弦、编曲与歌词
+- 基于参考录音做 zero-shot cover，并用同一模型继续编辑
+- 提供模型权重、在线 Demo、Agent Skill 与 WildSongBench 评测
 
 ## 怎么利用
-准备歌词、参考风格或音频条件，在受支持的推理流程生成完整歌曲、翻唱或局部编辑；记录模型版本和生成参数。
+官方工作流：输入歌词和风格描述，YuE2 先生成可编辑的 melody/chord score；修改不合适的段落后再渲染为带人声与伴奏的歌曲，也可输入参考录音生成新风格翻唱。
 
 ## 实际例子
-**可推导用法：** 场景 → 制作一首原创中文 demo。输入 → 歌词、曲风和段落结构。操作 → 用 YuE2生成并按需要做 agentic 编辑。输出 → 完整音频草案与可复现实验参数。
+**官方材料中的工作流：** 官方工作流：输入歌词和风格描述，YuE2 先生成可编辑的 melody/chord score；修改不合适的段落后再渲染为带人声与伴奏的歌曲，也可输入参考录音生成新风格翻唱。
+
+## 适合谁
+研究音乐生成、制作歌曲原型或评估符号规划与音频生成的创作者和研究人员。
+
+## 局限 / 注意点
+- 本地高质量生成需要较强 GPU、模型下载和较长推理时间；翻唱、声音相似性、歌词与训练数据涉及版权和人格权，生成结果也仍需听感与事实审查。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-13 | 14 | 193 | 未保存 | 日期匹配来源 |
+
+## 相关主题
+[[Topics/Music Generation|Music Generation]] · [[Topics/Audio|Audio]] · [[Topics/AI|AI]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-13|2026-09-13]]
+
+## GitHub 原始链接
+https://github.com/multimodal-art-projection/YuE
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/multimodal-art-projection/YuE/blob/HEAD/README.md
+- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。

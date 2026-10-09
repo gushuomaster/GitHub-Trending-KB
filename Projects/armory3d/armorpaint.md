@@ -3,8 +3,8 @@ type: github-project
 repo: "armory3d/armorpaint"
 url: "https://github.com/armory3d/armorpaint"
 first_seen: 2026-09-11
-last_seen: 2026-09-12
-trending_count: 2
+last_seen: 2026-09-13
+trending_count: 3
 category: ["3D","Graphics","Developer-Tools"]
 topics: ["3D","Graphics"]
 ---
@@ -40,13 +40,17 @@ cd armorpaint/paint
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-11 | 10 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-09-11 | 10 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-12 | 6 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-13 | 12 | 未保存 | 未保存 | 日期匹配来源 |
 
 ## 相关主题
 [[Topics/3D|3D]] · [[Topics/Graphics|Graphics]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-11|2026-09-11]]
+- [[Daily/2026/09/2026-09-12|2026-09-12]]
+- [[Daily/2026/09/2026-09-13|2026-09-13]]
 
 ## GitHub 原始链接
 https://github.com/armory3d/armorpaint
@@ -62,3 +66,11 @@ https://github.com/armory3d/armorpaint
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c2d25fb872c661b5329c0e3eb95abe065543a251/archive/repository/2026/2026-09-12/(null).json)
 - 相关日报：[[Daily/2026/09/2026-09-12|2026-09-12]]
+
+
+## 2026-09-13 历史核验
+- GitHub Trending 原始排名：#12
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/4f38c941f1dd2f3f0496d34f2ded3f321463aaf0/archive/repository/2026/2026-09-13/(null).json)
+- 归档提交时间：2026-09-13T00:45:11Z；该时间不是页面抓取时间。

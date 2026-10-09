@@ -1,51 +1,50 @@
 ---
+type: github-project
 repo: "Shubhamsaboo/awesome-llm-apps"
+url: "https://github.com/Shubhamsaboo/awesome-llm-apps"
 first_seen: 2026-09-13
 last_seen: 2026-09-13
-recommend_score: 8.9
 trending_count: 1
-stars_today: 237
-category: ["AI", "Agent", "Skills", "RAG"]
-tags: ["github/agent", "github/skills", "github/rag", "github/examples", "github/python", "github/learning"]
+category: ["AI Agent","RAG","Examples"]
+topics: ["AI Agent","RAG","Examples"]
 ---
-
 # Shubhamsaboo/awesome-llm-apps
 
-## 项目定位
-100+ AI Agents、Agent Skills、RAG 与多 Agent 应用的开源示例集合，面向学习和快速原型。
+## 一句话说明
+收集 100 多个可运行的 LLM 应用示例，覆盖单 Agent、多 Agent、RAG、语音、多模态与各种模型后端。
 
-## 核心功能 / 实现特点
-- Python 为主，包含大量相互独立的 Agent/RAG/记忆/工具调用/多模态示例。
-- 通过不同模型、向量库和 Agent 框架组合展示应用模式。
-
-## 主要优点
-- 覆盖面非常广，适合快速寻找可运行参考
-- 可以横向比较多种 Agent/RAG 组合
-- 社区仍持续提交代码级修复，而不是只维护 README
-
-## 局限 / 注意点
-- 示例质量不完全一致，不应直接视为生产实现
-- 近期仍发现 HTML 转义漏洞和 FAISS L2 相似度映射错误，使用具体示例前需要代码审查
-
-## 最近变化
-- 首次上榜；今日 +237 stars。9 月 12 日合并 Agent verdict HTML 转义修复，说明仓库对具体示例的安全问题仍在持续维护。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-13 | +237 | 8.9 |
-
-## 相关主题
-- [[AI]]
-- [[Agent]]
-- [[Skills]]
-- [[RAG]]
-
-## 相关日报
-- [[2026-09-13]]
+## 它能做什么
+- 按单 Agent、多 Agent、RAG 和高级 Agent 架构分类示例
+- 组合 OpenAI、Anthropic、Gemini 等模型与多种向量库和工具
+- 为独立示例提供源码、依赖与启动说明，便于快速做 PoC
 
 ## 怎么利用
-按任务类别挑选一个最接近的示例，在隔离环境运行并替换为自己的模型、数据和密钥；把示例当原型起点，而不是未经审计直接生产部署。
+官方常见流程：克隆仓库，进入目标示例目录，安装该目录依赖并填写 `.env` 中的模型或搜索密钥，再运行对应 Python/Streamlit 应用观察 Agent 的工具调用与输出。
 
 ## 实际例子
-**可推导用法：** 场景 → 快速验证“PDF 问答 Agent”。输入 → 示例项目、测试 PDF 和模型 API。操作 → 运行对应 RAG 示例并替换数据。输出 → 可演示的原型及需要生产化补强的清单。
+**官方材料中的工作流：** 官方常见流程：克隆仓库，进入目标示例目录，安装该目录依赖并填写 `.env` 中的模型或搜索密钥，再运行对应 Python/Streamlit 应用观察 Agent 的工具调用与输出。
+
+## 适合谁
+学习 Agent/RAG、需要快速选择可运行原型的开发者和教学人员。
+
+## 局限 / 注意点
+- 这是学习示例合集，各目录的维护度、安全边界和依赖版本并不一致；复制到生产前必须审查密钥处理、检索正确性、HTML 输出与成本上限。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-13 | 10 | 237 | 未保存 | 日期匹配来源 |
+
+## 相关主题
+[[Topics/AI Agent|AI Agent]] · [[Topics/RAG|RAG]] · [[Topics/Examples|Examples]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-13|2026-09-13]]
+
+## GitHub 原始链接
+https://github.com/Shubhamsaboo/awesome-llm-apps
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/Shubhamsaboo/awesome-llm-apps/blob/HEAD/README.md
+- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。

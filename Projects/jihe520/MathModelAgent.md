@@ -39,9 +39,9 @@ npx skills add jihe520/MathModelAgent --all
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-12 | 11 | 132 | 未保存 | 语言不限归档；统计见说明 |
-| 2026-09-13 | 未保存 | 264 | 未保存 | 历史归档或原日报 |
-| 2026-09-14 | 未保存 | 268 | 未保存 | 历史归档或原日报 |
+| 2026-09-12 | 11 | 132 | 未保存 | 日期匹配来源 |
+| 2026-09-13 | 6 | 264 | 未保存 | 日期匹配来源 |
+| 2026-09-14 | 未保存 | 268 | 未保存 | 仓库快照 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Education|Education]]
@@ -58,3 +58,11 @@ https://github.com/jihe520/MathModelAgent
 - 核对日期：2026-10-09
 - README：https://github.com/jihe520/MathModelAgent/blob/main/README.md
 - 说明：当前资料不代表 2026-09-12 当时的功能版本。
+
+
+## 2026-09-13 历史核验
+- GitHub Trending 原始排名：#6
+- Stars Today：264
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/4f38c941f1dd2f3f0496d34f2ded3f321463aaf0/archive/repository/2026/2026-09-13/(null).json)
+- 归档提交时间：2026-09-13T00:45:11Z；该时间不是页面抓取时间。

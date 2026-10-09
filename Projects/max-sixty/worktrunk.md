@@ -1,49 +1,57 @@
 ---
+type: github-project
 repo: "max-sixty/worktrunk"
+url: "https://github.com/max-sixty/worktrunk"
 first_seen: 2026-09-13
 last_seen: 2026-09-13
-recommend_score: 9.4
 trending_count: 1
-stars_today: 137
-category: ["AI", "Agent", "Developer Tools"]
-tags: ["github/agent", "github/git", "github/worktree", "github/rust", "github/developer-tools", "github/parallel"]
+category: ["Git","Developer Tools","AI Agent"]
+topics: ["Git","Developer Tools","AI Agent"]
 ---
-
 # max-sixty/worktrunk
 
-## 项目定位
-面向并行 AI Agent 开发的 Git worktree 管理 CLI，把隔离工作树、分支生命周期和 Agent 工作流工程化。
+## 一句话说明
+把 Git worktree 包装成按分支操作的 CLI，让多个 Coding Agent 能在互不覆盖的目录中并行工作。
 
-## 核心功能 / 实现特点
-- Rust/Cargo 核心，包含 `.claude-plugin`、`.codex`、`.agents`、hooks、配置和大量集成测试。
-- 统一创建、切换、合并、prune/cleanup 等 worktree 操作，并面向自动化/Agent 提供稳定接口。
-
-## 主要优点
-- 直接解决多个 Coding Agent 并行修改同一仓库时的隔离问题
-- Rust CLI 工程质量和测试密度高
-- 对 Claude Code、Codex 等 Agent 工作流有第一方适配思路
-
-## 局限 / 注意点
-- detached HEAD、删除/清理等 Git 边界仍有历史 Issue
-- 并行 worktree 会增加磁盘、分支和合并治理成本
-
-## 最近变化
-- 首次上榜；今日 +137 stars。9 月 12 日晚仍有连续提交，修复 `wt step prune` 分支年龄判断并继续增强文档/测试，维护活跃度很高。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-13 | +137 | 9.4 |
-
-## 相关主题
-- [[Agent]]
-- [[Developer-Tools]]
-
-## 相关日报
-- [[2026-09-13]]
+## 它能做什么
+- 用 `wt switch`、`wt list` 和 `wt remove` 创建、查看和清理 worktree
+- 通过 hooks 自动运行初始化、合并前检查和清理流程
+- 共享构建缓存，并在列表中展示 diff、日志、CI 和 PR 状态
+- 可在新 worktree 中直接启动 Claude Code、Codex 等 Agent
 
 ## 怎么利用
-为每个并行 Agent创建独立 worktree 和分支，用统一命令切换、合并和清理；合并前运行测试并解决冲突。
+官方示例：运行 `wt switch -c -x claude feat` 创建 `feat` 分支及 worktree 并启动 Claude；完成后用合并工作流整合改动，再由 `wt remove` 清理目录和分支。
 
 ## 实际例子
-**可推导用法：** 场景 → 三个 Agent并行修复不同 Issue。输入 → 同一仓库和三个任务。操作 → 创建三个 worktree 分派任务。输出 → 相互隔离的分支和可控合并队列。
+**官方材料中的工作流：** 官方示例：运行 `wt switch -c -x claude feat` 创建 `feat` 分支及 worktree 并启动 Claude；完成后用合并工作流整合改动，再由 `wt remove` 清理目录和分支。
+
+## 关键命令
+```bash
+wt switch -c -x claude feat
+wt list --full
+```
+
+## 适合谁
+同时运行多个 Coding Agent、需要隔离分支和工作目录的软件团队。
+
+## 局限 / 注意点
+- 它简化但不会消除 Git 分支、合并冲突和磁盘占用；删除或 prune 前仍要确认未提交改动，hooks 也会执行本地命令，需先审查配置。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-13 | 15 | 137 | 未保存 | 日期匹配来源 |
+
+## 相关主题
+[[Topics/Git|Git]] · [[Topics/Developer Tools|Developer Tools]] · [[Topics/AI Agent|AI Agent]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-13|2026-09-13]]
+
+## GitHub 原始链接
+https://github.com/max-sixty/worktrunk
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/max-sixty/worktrunk/blob/HEAD/README.md
+- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。

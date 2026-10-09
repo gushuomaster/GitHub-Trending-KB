@@ -1,50 +1,56 @@
 ---
+type: github-project
 repo: "vxcontrol/pentagi"
+url: "https://github.com/vxcontrol/pentagi"
 first_seen: 2026-09-13
 last_seen: 2026-09-13
-recommend_score: 8.7
 trending_count: 1
-stars_today: 193
-category: ["AI", "Agent", "Security"]
-tags: ["github/agent", "github/security", "github/pentest", "github/go", "github/automation", "github/llm"]
+category: ["Security","AI Agent","Self-hosted"]
+topics: ["Security","AI Agent","Self-hosted"]
 ---
-
 # vxcontrol/pentagi
 
-## 项目定位
-面向明确授权环境的多 Agent 自动化安全测试系统，用 Agent 规划、执行和汇总复杂渗透测试任务。
+## 一句话说明
+自托管的多 Agent 自动化渗透测试系统，在隔离容器中规划任务、调用安全工具并整理证据与报告。
 
-## 核心功能 / 实现特点
-- Go 为主，结合 LangChainGo、多模型 Provider、任务编排和安全工具链。
-- 提供 Provider 配置、Agent 测试报告与任务执行体系。
-
-## 主要优点
-- 安全测试是 Agent 工具调用、规划与长任务编排的高复杂度样本
-- Go 服务端工程化程度较高
-- 多模型 Provider 配置和测试报告对 Agent 系统评估有参考价值
-
-## 局限 / 注意点
-- 仅适用于有明确授权的测试环境，必须有强权限边界、隔离和审计
-- 最近代码提交主要停留在 8 月初，维护活跃度低于今日 Trending 热度
-
-## 最近变化
-- 首次上榜；今日 +193 stars。最近主要更新是 OpenCode Provider 配置/测试报告与依赖升级，当前 Trending 回升尚未伴随同等强度的代码更新。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-13 | +193 | 8.7 |
-
-## 相关主题
-- [[AI]]
-- [[Agent]]
-- [[Developer-Tools]]
-
-## 相关日报
-- [[2026-09-13]]
+## 它能做什么
+- 在 Docker 沙箱中编排研究、开发和基础设施等专用 Agent
+- 内置 nmap、Metasploit、sqlmap 等 20 多种安全工具
+- 用 PostgreSQL/pgvector、可选 Graphiti 知识图谱保存命令、输出与长期记忆
+- 提供 Web UI、REST/GraphQL API、监控和漏洞报告
 
 ## 怎么利用
-只在书面授权的靶场或资产范围内配置目标和工具，让多 Agent规划、执行并汇总测试；所有网络边界和凭据严格隔离。
+官方工作流：在实验室或书面授权目标上部署 Docker Compose，配置模型与搜索服务后创建测试任务；监督 Agent 的规划和命令，最后人工复核保存的证据与漏洞报告。
 
 ## 实际例子
-**可推导用法：** 场景 → 测试自有 Web 靶场。输入 → 授权范围、测试账号和目标 URL。操作 → Agent枚举、验证漏洞并保存证据。输出 → 可复核的 finding 与修复建议。
+**官方材料中的工作流：** 官方工作流：在实验室或书面授权目标上部署 Docker Compose，配置模型与搜索服务后创建测试任务；监督 Agent 的规划和命令，最后人工复核保存的证据与漏洞报告。
+
+## 关键命令
+```bash
+docker compose up -d
+```
+
+## 适合谁
+在自有实验室或客户授权范围内自动化安全评估的渗透测试与安全研究团队。
+
+## 局限 / 注意点
+- 只允许用于明确授权的测试范围；LLM 可能误判、执行破坏性命令或生成不可靠利用步骤，容器隔离也不能替代网络分段、最小权限和人工审批。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-13 | 16 | 193 | 未保存 | 日期匹配来源 |
+
+## 相关主题
+[[Topics/Security|Security]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Self-hosted|Self-hosted]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-13|2026-09-13]]
+
+## GitHub 原始链接
+https://github.com/vxcontrol/pentagi
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/vxcontrol/pentagi/blob/HEAD/README.md
+- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。
