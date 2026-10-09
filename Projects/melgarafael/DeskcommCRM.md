@@ -2,11 +2,11 @@
 type: github-project
 repo: "melgarafael/DeskcommCRM"
 url: "https://github.com/melgarafael/DeskcommCRM"
-first_seen: 2026-09-12
-last_seen: 2026-09-14
-trending_count: 3
 category: ["CRM","AI","Sales"]
 topics: ["AI","CRM"]
+first_seen: 2026-09-12
+last_seen: 2026-09-16
+trending_count: 4
 ---
 # melgarafael/DeskcommCRM
 
@@ -34,9 +34,10 @@ topics: ["AI","CRM"]
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-12 | 4 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-13 | 2 | 505 | 未保存 | 日期匹配来源 |
-| 2026-09-14 | 5 | 444 | 未保存 | 日期匹配来源 |
+| 2026-09-12 | 4 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-13 | 2 | 505 | 未保存 | 仓库已存快照 |
+| 2026-09-14 | 5 | 444 | 未保存 | 仓库已存快照 |
+| 2026-09-16 | 6 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/CRM|CRM]]
@@ -45,6 +46,7 @@ topics: ["AI","CRM"]
 - [[Daily/2026/09/2026-09-12|2026-09-12]]
 - [[Daily/2026/09/2026-09-13|2026-09-13]]
 - [[Daily/2026/09/2026-09-14|2026-09-14]]
+- [[Daily/2026/09/2026-09-16|2026-09-16]]
 
 ## GitHub 原始链接
 https://github.com/melgarafael/DeskcommCRM
@@ -69,3 +71,10 @@ https://github.com/melgarafael/DeskcommCRM
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7f52444fb280229de8751e204240886016f5c56f/archive/repository/2026/2026-09-14/(null).json)
 - 归档提交时间：2026-09-14T00:00:43Z；该时间不是页面抓取时间。
+
+## 2026-09-16 历史核验
+- GitHub Trending 原始排名：#6
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/01abc33224d0523ab2a25bced4e1258b69fc6015/archive/repository/2026/2026-09-16/(null).json)
+- 归档提交时间：2026-09-16T01:13:23Z；该时间不是页面抓取时间。

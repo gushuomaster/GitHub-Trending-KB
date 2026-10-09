@@ -1,65 +1,54 @@
 ---
 type: github-project
 repo: "addyosmani/agent-skills"
-first_seen: 2026-10-08
-last_seen: 2026-10-08
-language: "JavaScript"
-total_stars: 102870
-forks: 10776
-stars_today: 677
-github_rank: 6
-trending_count: 7
-fetched_at: "2026-10-08T10:41:00+08:00"
 url: "https://github.com/addyosmani/agent-skills"
+first_seen: 2026-09-16
+last_seen: 2026-10-08
+trending_count: 7
+category: ["AI Agent", "Agent Skills", "Software Engineering"]
+topics: ["AI Agent", "Agent Skills", "Software Engineering"]
 ---
 # addyosmani/agent-skills
 
 ## 一句话说明
-把软件开发中的规格、计划、实现、测试、评审和发布流程包装成技能，帮助 Agent 按阶段验证改动。
-
-**官方描述：** Production-grade engineering skills for AI coding agents.
+把规格、计划、实现、测试、评审和发布流程封装成可安装技能，帮助 Coding Agent 按工程门槛交付改动。
 
 ## 它能做什么
-- 通过 spec、plan、build、test、review、ship 等入口组织开发生命周期。
-- 用 TDD、约束检查和代码质量评审验证实现。
-- 提供 API 设计、前端工程和性能测量等任务技能。
-
-此前能力说明：把规格、API 设计、TDD、代码审查、性能、发布等工程流程拆成可组合 Agent Skills。
+- 提供 spec、plan、build、test、constraints、review、webperf、code-simplify 和 ship 九类生命周期命令
+- 以二十五项技能覆盖 API、前端、测试、调试、性能和发布任务
+- 把 TDD、质量门槛和增量提交写入 Agent 工作流程
+- 通过 Skills CLI 安装到数十种兼容的 Coding Agent 宿主
 
 ## 怎么利用
-输入需求与现有仓库，先澄清规格和质量约束，再拆成可验证任务；Agent 逐项实现、测试和评审，输出代码变更及验证证据。宿主原生命令与技能调用方式须按其安装文档选择。
-
-此前工作流说明：把规格、API 设计、TDD、代码审查、性能、发布等工程流程拆成可组合 Agent Skills。
+官方 Quick Start：先运行 `npx skills add addyosmani/agent-skills --list` 查看技能，再安装需要的集合；在仓库中依次调用 `/spec`、`/plan`、`/build` 和 `/test`，输出规格、计划、代码变更与验证证据。
 
 ## 实际例子
-**官方 Quick Start → 场景：** 先给 Agent 增加单项代码评审能力。**输入：** 已有候选 diff 和仓库。**操作：** 安装 code-review-and-quality，再请求合并前评审。**输出：** 依据技能维度给出的代码健康检查结果；不自动保证可发布。
+**资料中的具体工作流：** 官方 Quick Start：先运行 `npx skills add addyosmani/agent-skills --list` 查看技能，再安装需要的集合；在仓库中依次调用 `/spec`、`/plan`、`/build` 和 `/test`，输出规格、计划、代码变更与验证证据。
 
-```sh
-npx skills add addyosmani/agent-skills --skill code-review-and-quality
+## 关键命令
+```bash
+npx skills add addyosmani/agent-skills --list
 ```
 
-**已有场景（可推导用法；具体命令及兼容性以本次核对为准）：**
-场景：从需求到上线实现一个 API → 先用 interview/spec 类 skill 对齐要求，再用 plan/build/test/review/ship 串起实现与验证 → 输出分阶段代码变更和测试证据。安装：`npx skills add addyosmani/agent-skills`。
-
-> 资料核对日期：2026-10-08。以上优先依据仓库 README/官方描述；若涉及工作流组合，则按项目已声明能力进行具体化，不视为额外官方承诺。
-
 ## 适合谁
-希望用规格和验证门槛管理 Coding Agent 的软件团队。
+希望用规格、测试和发布门槛约束 Coding Agent 的软件团队。
 
 ## 局限 / 注意点
-技能数量多，需要按任务选择；单独安装某个 skill 时共享 references 可能不会一并复制。
+- 单独安装某一技能时，共享 `references` 可能不会一并复制；技能较多会增加选择和上下文成本，不同宿主对命令、路由与权限的支持也不完全一致。
 
 ## Trending 历史
-- 2026-09-16：#undefined · Stars Today：386
-- 2026-09-17：#undefined · Stars Today：307
-- 2026-09-19：#4 · Stars Today：677
-- 2026-09-20：#3 · Stars Today：547
-- 2026-10-04：#10 · Stars Today：未保存
-- 2026-10-05：#12 · Stars Today：未保存
-- 2026-10-08：#6 · Stars Today：677 · Total Stars：102870 · Forks：10776
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-16 | 12 | 386 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-17 | 未保存 | 307 | 未保存 | 仓库已存快照 |
+| 2026-09-19 | 4 | 677 | 未保存 | 仓库已存快照 |
+| 2026-09-20 | 3 | 547 | 未保存 | 仓库已存快照 |
+| 2026-10-04 | 10 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-10-05 | 12 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-10-08 | 6 | 677 | 102870 | 当日实时快照 |
 
 ## 相关主题
-- [[Topics/AI]]
+[[Topics/AI Agent|AI Agent]] · [[Topics/Agent Skills|Agent Skills]] · [[Topics/Software Engineering|Software Engineering]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-16|2026-09-16]]
@@ -70,10 +59,17 @@ npx skills add addyosmani/agent-skills --skill code-review-and-quality
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 - [[Daily/2026/10/2026-10-08|2026-10-08]]
 
-## GitHub
+## GitHub 原始链接
 https://github.com/addyosmani/agent-skills
 
 ## 官方资料核对
-- 核对日期：2026-10-08
-- README：https://github.com/addyosmani/agent-skills/blob/main/README.md
-- README blob SHA：c6039f4d64f900f75303ecfa8d67a527eebad851
+- 核对日期：2026-10-09
+- README / 官方文档：https://github.com/addyosmani/agent-skills/blob/main/README.md
+- 时间说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+## 2026-09-16 历史核验
+- GitHub Trending 原始排名：#12
+- Stars Today：386
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/01abc33224d0523ab2a25bced4e1258b69fc6015/archive/repository/2026/2026-09-16/(null).json)
+- 归档提交时间：2026-09-16T01:13:23Z；该时间不是页面抓取时间。

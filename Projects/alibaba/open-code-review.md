@@ -2,11 +2,11 @@
 type: github-project
 repo: "alibaba/open-code-review"
 url: "https://github.com/alibaba/open-code-review"
+category: ["Code Review","AI Agent","Developer Tools"]
+topics: ["Code Review","AI Agent","Developer Tools"]
 first_seen: 2026-09-14
 last_seen: 2026-09-19
 trending_count: 5
-category: ["Code Review","AI Agent","Developer Tools"]
-topics: ["Code Review","AI Agent","Developer Tools"]
 ---
 # alibaba/open-code-review
 
@@ -34,11 +34,11 @@ topics: ["Code Review","AI Agent","Developer Tools"]
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-14 | 14 | 438 | 未保存 | 日期匹配来源 |
-| 2026-09-15 | 2 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-16 | 未保存 | 2751 | 未保存 | 仓库快照 |
-| 2026-09-17 | 未保存 | 2756 | 未保存 | 仓库快照 |
-| 2026-09-19 | 1 | 2724 | 未保存 | 仓库快照 |
+| 2026-09-14 | 14 | 438 | 未保存 | 仓库已存快照 |
+| 2026-09-15 | 2 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-16 | 1 | 2751 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-17 | 未保存 | 2756 | 未保存 | 仓库已存快照 |
+| 2026-09-19 | 1 | 2724 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/Code Review|Code Review]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Developer Tools|Developer Tools]]
@@ -64,3 +64,10 @@ https://github.com/alibaba/open-code-review
 - Language / Total Stars / Forks / Stars Today：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/6f044aff9e480bacdd8f247c44429e626361a26a/archive/repository/2026/2026-09-15/(null).json)
 - 归档提交时间：2026-09-15T04:26:32Z；该时间不是页面抓取时间。
+
+## 2026-09-16 历史核验
+- GitHub Trending 原始排名：#1
+- Stars Today：2751
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/01abc33224d0523ab2a25bced4e1258b69fc6015/archive/repository/2026/2026-09-16/(null).json)
+- 归档提交时间：2026-09-16T01:13:23Z；该时间不是页面抓取时间。

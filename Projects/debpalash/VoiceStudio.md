@@ -2,11 +2,11 @@
 type: github-project
 repo: "debpalash/VoiceStudio"
 url: "https://github.com/debpalash/VoiceStudio"
+category: ["Audio","Voice","Local AI"]
+topics: ["Audio","Voice","Local AI"]
 first_seen: 2026-09-14
 last_seen: 2026-10-01
 trending_count: 7
-category: ["Audio","Voice","Local AI"]
-topics: ["Audio","Voice","Local AI"]
 ---
 # debpalash/VoiceStudio
 
@@ -34,13 +34,13 @@ topics: ["Audio","Voice","Local AI"]
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-14 | 12 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-15 | 4 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-16 | 未保存 | 2081 | 未保存 | 仓库快照 |
-| 2026-09-28 | 3 | 3086 | 40985 | 仓库快照 |
-| 2026-09-29 | 1 | 3221 | 43987 | 仓库快照 |
-| 2026-09-30 | 1 | 4758 | 48048 | 仓库快照 |
-| 2026-10-01 | 2 | 3483 | 50401 | 仓库快照 |
+| 2026-09-14 | 12 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-15 | 4 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-16 | 4 | 2081 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-28 | 3 | 3086 | 40985 | 仓库已存快照 |
+| 2026-09-29 | 1 | 3221 | 43987 | 仓库已存快照 |
+| 2026-09-30 | 1 | 4758 | 48048 | 仓库已存快照 |
+| 2026-10-01 | 2 | 3483 | 50401 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/Audio|Audio]] · [[Topics/Voice|Voice]] · [[Topics/Local AI|Local AI]]
@@ -68,3 +68,10 @@ https://github.com/debpalash/VoiceStudio
 - Language / Total Stars / Forks / Stars Today：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/6f044aff9e480bacdd8f247c44429e626361a26a/archive/repository/2026/2026-09-15/(null).json)
 - 归档提交时间：2026-09-15T04:26:32Z；该时间不是页面抓取时间。
+
+## 2026-09-16 历史核验
+- GitHub Trending 原始排名：#4
+- Stars Today：2081
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/01abc33224d0523ab2a25bced4e1258b69fc6015/archive/repository/2026/2026-09-16/(null).json)
+- 归档提交时间：2026-09-16T01:13:23Z；该时间不是页面抓取时间。

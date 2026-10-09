@@ -2,11 +2,11 @@
 type: github-project
 repo: "JustVugg/colibri"
 url: "https://github.com/JustVugg/colibri"
+category: ["AI","Local-LLM","Inference"]
+topics: ["AI","Local-LLM"]
 first_seen: 2026-09-11
 last_seen: 2026-09-18
 trending_count: 6
-category: ["AI","Local-LLM","Inference"]
-topics: ["AI","Local-LLM"]
 ---
 # JustVugg/colibri
 
@@ -33,12 +33,12 @@ topics: ["AI","Local-LLM"]
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-11 | 12 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-14 | 1 | 960 | 未保存 | 日期匹配来源 |
-| 2026-09-15 | 1 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-16 | 未保存 | 2035 | 未保存 | 仓库快照 |
-| 2026-09-17 | 未保存 | 2026 | 未保存 | 仓库快照 |
-| 2026-09-18 | 未保存 | 872 | 未保存 | 仓库快照 |
+| 2026-09-11 | 12 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-14 | 1 | 960 | 未保存 | 仓库已存快照 |
+| 2026-09-15 | 1 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-16 | 2 | 2035 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-17 | 未保存 | 2026 | 未保存 | 仓库已存快照 |
+| 2026-09-18 | 未保存 | 872 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Local-LLM|Local-LLM]]
@@ -73,3 +73,10 @@ https://github.com/JustVugg/colibri
 - Language / Total Stars / Forks / Stars Today：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/6f044aff9e480bacdd8f247c44429e626361a26a/archive/repository/2026/2026-09-15/(null).json)
 - 归档提交时间：2026-09-15T04:26:32Z；该时间不是页面抓取时间。
+
+## 2026-09-16 历史核验
+- GitHub Trending 原始排名：#2
+- Stars Today：2035
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/01abc33224d0523ab2a25bced4e1258b69fc6015/archive/repository/2026/2026-09-16/(null).json)
+- 归档提交时间：2026-09-16T01:13:23Z；该时间不是页面抓取时间。
