@@ -47,8 +47,8 @@ claude plugin install finance@knowledge-work-plugins
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-17 | 7 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-18 | 未保存 | 287 | 未保存 | 仓库已存快照 |
+| 2026-09-17 | 7 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-18 | 8 | 287 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-20 | 7 | 280 | 未保存 | 仓库已存快照 |
 | 2026-10-09 | 7 | 392 | 27526 | 当日实时快照 |
 
@@ -75,3 +75,10 @@ https://github.com/anthropics/knowledge-work-plugins
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
 - 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
+
+## 2026-09-18 历史核验
+- GitHub Trending 原始排名：#8
+- Stars Today：287
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
+- 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。

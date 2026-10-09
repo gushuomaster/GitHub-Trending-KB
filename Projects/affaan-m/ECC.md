@@ -45,8 +45,8 @@ npx ecc-universal@2.2.3 setup
 |---|---:|---:|---:|---|
 | 2026-09-09 | 4 | 1427 | 未保存 | 仓库已存快照 |
 | 2026-09-10 | 13 | 1151 | 未保存 | 仓库已存快照 |
-| 2026-09-17 | 21 | 1046 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-18 | 未保存 | 1173 | 未保存 | 仓库已存快照 |
+| 2026-09-17 | 21 | 1046 | 未保存 | 仓库已存快照 |
+| 2026-09-18 | 13 | 1173 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 5 | 965 | 未保存 | 仓库已存快照 |
 | 2026-09-21 | 4 | 1018 | 未保存 | 仓库已存快照 |
 | 2026-10-04 | 3 | 未保存 | 未保存 | 仓库已存快照 |
@@ -85,3 +85,10 @@ https://github.com/affaan-m/ECC
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
 - 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
+
+## 2026-09-18 历史核验
+- GitHub Trending 原始排名：#13
+- Stars Today：1173
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
+- 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。

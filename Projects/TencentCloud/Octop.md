@@ -1,33 +1,60 @@
 ---
+type: github-project
 repo: "TencentCloud/Octop"
-first_seen: 2026-09-19
+url: "https://github.com/TencentCloud/Octop"
+first_seen: 2026-09-18
 last_seen: 2026-09-19
-recommend_score: 9.2
-trending_count: 1
-stars_today: 571
-category: ["AI","Agent","Self-hosted"]
-tags: ["github/agent","github/self-hosted","github/python","github/multi-agent"]
+trending_count: 2
+category: ["Self-hosted", "Multi-Agent", "AI Assistant"]
+topics: ["Self-hosted", "Multi-Agent", "AI Assistant"]
 ---
 # TencentCloud/Octop
-## 项目定位
-多用户、多 Agent 的自托管 AI 助手平台。
-## 核心功能 / 实现特点
-Python；多用户工作区、多 Agent、自托管部署。9 月 18 日合并 release 1.0.1，进入正式版本迭代。
-## 主要优点
-适合希望把 Agent 平台部署在自有环境、统一多人使用的团队。
-## 局限 / 注意点
-项目仍年轻；多用户权限、模型凭据、Agent 工具权限与升级迁移都会增加平台治理成本。
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-19 | +571 | 9.2 |
-## 相关主题
-[[Agent]] · [[Developer-Tools]]
-## 相关日报
-- [[2026-09-19]]
+
+## 一句话说明
+自托管的多用户、多 Agent AI 助手平台，把专家库、知识库、消息渠道、连接器和受控工具执行集中到一个环境。
+
+## 它能做什么
+- 为多个用户配置专家 Agent、共享技能和协作型 AgentTeams
+- 通过 Web、CLI、飞书、钉钉、微信、Telegram、Discord 等渠道交互
+- 用 OAuth、MCP、知识库和 ACP 连接外部资源与 IDE
+- 提供 JWT 隔离、工具审批、shell 防护、PII 脱敏和多种工作区后端
 
 ## 怎么利用
-自托管 Octop，为不同用户或团队创建隔离空间和多个 Agent，把聊天、工具与任务入口集中到统一平台。
+官方流程：安装 Python 3.12+ 的 Octop，初始化配置后启动 Web Dashboard；管理员配置模型与用户，为团队创建专家并只开放所需工具，也可用 Docker 部署生产实例。
 
 ## 实际例子
-**可推导用法：** 场景 → 为内部研发搭建多用户 AI 助手。输入 → 用户账号、模型 Provider 和三个专用 Agent。操作 → 配置空间与权限后发布入口。输出 → 每位成员可在权限范围内调用的自托管助手。
+**资料中的具体工作流：** 官方流程：安装 Python 3.12+ 的 Octop，初始化配置后启动 Web Dashboard；管理员配置模型与用户，为团队创建专家并只开放所需工具，也可用 Docker 部署生产实例。
+
+## 适合谁
+希望在自有环境统一提供多用户专业 Agent、知识库与消息入口的平台团队。
+
+## 局限 / 注意点
+- 多用户、模型凭据、消息渠道、浏览器、MCP 和 shell 工具形成较大的权限面；项目快速迭代，生产部署需审查版本、插件、数据库迁移、备份和网络隔离。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-18 | 16 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-19 | 7 | 571 | 未保存 | 仓库已存快照 |
+
+## 相关主题
+[[Topics/Self-hosted|Self-hosted]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/AI Assistant|AI Assistant]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-18|2026-09-18]]
+- [[Daily/2026/09/2026-09-19|2026-09-19]]
+
+## GitHub 原始链接
+https://github.com/TencentCloud/Octop
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/TencentCloud/Octop/blob/main/README.md
+- 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+## 2026-09-18 历史核验
+- GitHub Trending 原始排名：#16
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
+- 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。

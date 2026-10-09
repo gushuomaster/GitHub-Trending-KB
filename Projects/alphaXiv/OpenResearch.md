@@ -43,8 +43,8 @@ orx up
 | 2026-09-12 | 14 | 未保存 | 未保存 | 仓库已存快照 |
 | 2026-09-14 | 11 | 304 | 未保存 | 仓库已存快照 |
 | 2026-09-16 | 7 | 593 | 未保存 | 仓库已存快照 |
-| 2026-09-17 | 13 | 531 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-18 | 未保存 | 940 | 未保存 | 仓库已存快照 |
+| 2026-09-17 | 13 | 531 | 未保存 | 仓库已存快照 |
+| 2026-09-18 | 5 | 940 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Research|Research]] · [[Topics/Agent|Agent]]
@@ -85,3 +85,10 @@ https://github.com/alphaXiv/OpenResearch
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
 - 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
+
+## 2026-09-18 历史核验
+- GitHub Trending 原始排名：#5
+- Stars Today：940
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
+- 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。

@@ -6,7 +6,7 @@ category: ["Code Review","AI Agent","Developer Tools"]
 topics: ["Code Review","AI Agent","Developer Tools"]
 first_seen: 2026-09-14
 last_seen: 2026-09-19
-trending_count: 5
+trending_count: 6
 ---
 # alibaba/open-code-review
 
@@ -37,7 +37,8 @@ trending_count: 5
 | 2026-09-14 | 14 | 438 | 未保存 | 仓库已存快照 |
 | 2026-09-15 | 2 | 未保存 | 未保存 | 仓库已存快照 |
 | 2026-09-16 | 1 | 2751 | 未保存 | 仓库已存快照 |
-| 2026-09-17 | 1 | 2756 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-17 | 1 | 2756 | 未保存 | 仓库已存快照 |
+| 2026-09-18 | 1 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 1 | 2724 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
@@ -48,6 +49,7 @@ trending_count: 5
 - [[Daily/2026/09/2026-09-15|2026-09-15]]
 - [[Daily/2026/09/2026-09-16|2026-09-16]]
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
+- [[Daily/2026/09/2026-09-18|2026-09-18]]
 - [[Daily/2026/09/2026-09-19|2026-09-19]]
 
 ## GitHub 原始链接
@@ -78,3 +80,10 @@ https://github.com/alibaba/open-code-review
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
 - 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
+
+## 2026-09-18 历史核验
+- GitHub Trending 原始排名：#1
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
+- 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。

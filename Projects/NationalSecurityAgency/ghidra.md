@@ -5,8 +5,8 @@ url: "https://github.com/NationalSecurityAgency/ghidra"
 category: ["Reverse Engineering", "Security", "Decompiler"]
 topics: ["Reverse Engineering", "Security", "Decompiler"]
 first_seen: 2026-09-16
-last_seen: 2026-09-17
-trending_count: 2
+last_seen: 2026-09-18
+trending_count: 3
 ---
 # NationalSecurityAgency/ghidra
 
@@ -40,7 +40,8 @@ trending_count: 2
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-16 | 8 | 未保存 | 未保存 | 仓库已存快照 |
-| 2026-09-17 | 10 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-17 | 10 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-18 | 7 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 
 ## 相关主题
 [[Topics/Reverse Engineering|Reverse Engineering]] · [[Topics/Security|Security]] · [[Topics/Decompiler|Decompiler]]
@@ -48,6 +49,7 @@ trending_count: 2
 ## 相关日报
 - [[Daily/2026/09/2026-09-16|2026-09-16]]
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
+- [[Daily/2026/09/2026-09-18|2026-09-18]]
 
 ## GitHub 原始链接
 https://github.com/NationalSecurityAgency/ghidra
@@ -70,3 +72,10 @@ https://github.com/NationalSecurityAgency/ghidra
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
 - 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
+
+## 2026-09-18 历史核验
+- GitHub Trending 原始排名：#7
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
+- 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。

@@ -1,43 +1,68 @@
 ---
+type: github-project
 repo: "coder/coder"
 url: "https://github.com/coder/coder"
 first_seen: 2026-09-18
 last_seen: 2026-09-22
 trending_count: 3
-github_rank: 5
-stars_today: 461
-total_stars: 16382
-language: Go
-category: ["AI","Agent","Developer Tools","Infrastructure"]
-tags: ["agent","workspace","security","go"]
-topics: ["Agent","Developer-Tools","Infrastructure"]
-status: active
+category: ["Cloud Development", "Coding Agent", "Infrastructure"]
+topics: ["Cloud Development", "Coding Agent", "Infrastructure"]
 ---
 # coder/coder
-## 项目定位
-为开发者和 Coding Agent 提供安全、集中管理的远程开发环境。
-## 核心功能 / 实现特点
-Go；Workspace、身份/权限、远程 IDE/Agent 环境、Agent Relay。近期版本持续强化服务器稳定性和 Agent Relay。
-## Evolution
-- 2026-09-20 +406 stars，较 9/18 的 +204 翻倍。
-- 2026-09-22 GitHub Trending #5，+461 stars，总星 16,382；继续高热但未观察到足以重写定位的实质变化，记为 REPEAT。
-## 局限 / 注意点
-企业部署复杂度、基础设施成本和权限模型配置门槛较高；Agent 安全最终仍取决于凭据和隔离策略。
-## Trending History
-| 日期 | GitHub Rank | Stars Today | Total Stars | Event |
-|---|---:|---:|---:|---|
-| 2026-09-18 | - | +204 | - | NEW |
-| 2026-09-20 | - | +406 | - | CHANGED |
-| 2026-09-22 | 5 | +461 | 16382 | REPEAT |
-## 相关主题
-[[Agent]] · [[Developer-Tools]] · [[Infrastructure]]
-## 相关日报
-- [[2026-09-18]]
-- [[2026-09-20]]
-- [[2026-09-22]]
+
+## 一句话说明
+自托管的云开发环境与 AI Coding Agent 平台，用 Terraform 模板、身份治理和集中审计创建可重复的远程工作区。
+
+## 它能做什么
+- 用 Terraform 定义 EC2、Kubernetes Pod 或容器等开发工作区
+- 通过安全隧道连接 IDE，并自动关闭闲置资源控制成本
+- 让 Coding Agent 在自有基础设施中执行任务，模型凭据留在控制平面
+- 集中管理模型提供商、用户身份、费用与审计日志
 
 ## 怎么利用
-在集中平台创建隔离开发 workspace，为开发者或 Agent分配镜像、资源、网络和凭据策略，并通过模板重复创建。
+官方 Quickstart：运行安装脚本后启动 `coder server`，在 Web 界面创建用户和 Docker/Terraform 模板，再为开发者或 Agent 按任务创建可销毁工作区。
 
 ## 实际例子
-**可推导用法：** 场景 → 为 20 个 Coding Agent 提供一致环境。输入 → 仓库、Docker 模板和权限策略。操作 → 每个任务创建独立 workspace。输出 → 可审计、可销毁且环境一致的远程开发空间。
+**资料中的具体工作流：** 官方 Quickstart：运行安装脚本后启动 `coder server`，在 Web 界面创建用户和 Docker/Terraform 模板，再为开发者或 Agent 按任务创建可销毁工作区。
+
+## 关键命令
+```bash
+curl -fsSL https://coder.com/install.sh | sh
+coder server
+```
+
+## 适合谁
+需要集中供应隔离开发环境，并在自有基础设施上治理 Coding Agent 的平台工程团队。
+
+## 局限 / 注意点
+- 生产部署需要 PostgreSQL、外部访问地址、容量与高可用设计；模板、网络、凭据和 Agent 工具权限配置错误仍可能造成越权或资源浪费。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-18 | 19 | 204 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-20 | 4 | 406 | 未保存 | 仓库已存快照 |
+| 2026-09-22 | 5 | 461 | 未保存 | 仓库已存快照 |
+
+## 相关主题
+[[Topics/Cloud Development|Cloud Development]] · [[Topics/Coding Agent|Coding Agent]] · [[Topics/Infrastructure|Infrastructure]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-18|2026-09-18]]
+- [[Daily/2026/09/2026-09-20|2026-09-20]]
+- [[Daily/2026/09/2026-09-22|2026-09-22]]
+
+## GitHub 原始链接
+https://github.com/coder/coder
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/coder/coder/blob/main/README.md
+- 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+## 2026-09-18 历史核验
+- GitHub Trending 原始排名：#19
+- Stars Today：204
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
+- 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。
