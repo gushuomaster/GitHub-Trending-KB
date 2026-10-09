@@ -1,50 +1,51 @@
 ---
+type: github-project
 repo: "tech-leads-club/agent-skills"
+url: "https://github.com/tech-leads-club/agent-skills"
 first_seen: 2026-09-14
 last_seen: 2026-09-14
-recommend_score: 9.1
 trending_count: 1
-stars_today: 215
-category: ["AI", "Agent", "Skills", "Developer Tools"]
-tags: ["github/agent", "github/skills", "github/catalog", "github/typescript", "github/developer-tools", "github/quality"]
+category: ["Agent Skills","Security","Developer Tools"]
+topics: ["Agent Skills","Security","Developer Tools"]
 ---
-
 # tech-leads-club/agent-skills
 
-## 项目定位
-面向多种 Coding Agent 的可搜索、可安装 Skills 目录与 CLI，解决 Skill 发现、分发、质量和跨宿主适配。
+## 一句话说明
+为多种 Coding Agent 提供经过校验、可搜索和可追踪完整性的 Skills 注册表与安装 CLI。
 
-## 核心功能 / 实现特点
-- TypeScript monorepo，含 `libs/core`、`packages`、`.claude-plugin`、`.cursor-plugin`、校验和生成目录。
-- 近期发布 skills-catalog 0.17.8 并修复搜索；社区正讨论 live Vercel preview QA 与 durable project memory 等 Skill。
-
-## 主要优点
-- 把零散 SKILL.md 推向目录、检索、安装与质量治理
-- 跨 Agent 适配，对团队 Skill 分发有直接参考价值
-- 新提案越来越强调证据型 QA、持久记忆与恢复能力
-
-## 局限 / 注意点
-- 跨宿主兼容是长期成本；当前 Antigravity 全局安装路径存在安装成功但宿主不发现的问题
-- 目录增长后仍需更强的重复治理、质量分层、权限和供应链安全机制
-
-## 最近变化
-- 首次上榜；今日 +215 stars。0.17.8 发布后继续修搜索，生态关注点正从“更多 Skill”转向可验证和可恢复的 Skill。
-
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-14 | +215 | 9.1 |
-
-## 相关主题
-- [[Agent]]
-- [[Skills]]
-- [[Developer-Tools]]
-
-## 相关日报
-- [[2026-09-14]]
+## 它能做什么
+- 按类别分发带 SKILL.md、模板和参考资料的技能包
+- 支持 Claude Code、Codex、Cursor、Copilot 等多种 Agent 宿主
+- 在发布前执行静态分析、路径隔离、symlink 防护和内容哈希
+- 通过 CLI 和 MCP 发现、安装、更新并审计 Skills
 
 ## 怎么利用
-用目录或 CLI 搜索任务相关 Skill，审查来源、权限和兼容性后安装到指定宿主；为团队锁定版本并保留评测记录。
+官方工作流：用 npm CLI 搜索所需 Skill，选择目标 Agent 后安装；CLI 将文件放入宿主约定路径并记录 lockfile，后续可校验内容哈希和升级来源。
 
 ## 实际例子
-**可推导用法：** 场景 → 寻找数据库迁移 Skill。输入 → 任务关键词和 Codex 宿主。操作 → 搜索候选、审计脚本后项目级安装。输出 → 可发现的 Skill 与安装/验证记录。
+**资料中的工作流：** 官方工作流：用 npm CLI 搜索所需 Skill，选择目标 Agent 后安装；CLI 将文件放入宿主约定路径并记录 lockfile，后续可校验内容哈希和升级来源。
+
+## 适合谁
+希望集中分发、审计和升级 Coding Agent Skills 的研发平台团队。
+
+## 局限 / 注意点
+- 扫描和人工策展不能证明 Skill 无恶意或无逻辑错误；不同宿主的发现路径与指令语义会变化，安装后仍要审阅权限、脚本和引用文件。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-14 | 4 | 215 | 未保存 | 日期匹配来源 |
+
+## 相关主题
+[[Topics/Agent Skills|Agent Skills]] · [[Topics/Security|Security]] · [[Topics/Developer Tools|Developer Tools]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-14|2026-09-14]]
+
+## GitHub 原始链接
+https://github.com/tech-leads-club/agent-skills
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/tech-leads-club/agent-skills/blob/HEAD/README.md
+- 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
