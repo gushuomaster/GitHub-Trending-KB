@@ -36,8 +36,8 @@ trending_count: 5
 |---|---:|---:|---:|---|
 | 2026-09-14 | 14 | 438 | 未保存 | 仓库已存快照 |
 | 2026-09-15 | 2 | 未保存 | 未保存 | 仓库已存快照 |
-| 2026-09-16 | 1 | 2751 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-17 | 未保存 | 2756 | 未保存 | 仓库已存快照 |
+| 2026-09-16 | 1 | 2751 | 未保存 | 仓库已存快照 |
+| 2026-09-17 | 1 | 2756 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 1 | 2724 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
@@ -71,3 +71,10 @@ https://github.com/alibaba/open-code-review
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/01abc33224d0523ab2a25bced4e1258b69fc6015/archive/repository/2026/2026-09-16/(null).json)
 - 归档提交时间：2026-09-16T01:13:23Z；该时间不是页面抓取时间。
+
+## 2026-09-17 历史核验
+- GitHub Trending 原始排名：#1
+- Stars Today：2756
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
+- 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。

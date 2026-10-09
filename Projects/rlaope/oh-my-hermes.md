@@ -2,11 +2,11 @@
 type: github-project
 repo: "rlaope/oh-my-hermes"
 url: "https://github.com/rlaope/oh-my-hermes"
-first_seen: 2026-09-15
-last_seen: 2026-09-15
-trending_count: 1
 category: ["Hermes Agent","Workflow","Memory"]
 topics: ["Hermes Agent","Workflow","Memory"]
+first_seen: 2026-09-15
+last_seen: 2026-09-17
+trending_count: 2
 ---
 # rlaope/oh-my-hermes
 
@@ -34,13 +34,15 @@ topics: ["Hermes Agent","Workflow","Memory"]
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-15 | 8 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-15 | 8 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-17 | 15 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 
 ## 相关主题
 [[Topics/Hermes Agent|Hermes Agent]] · [[Topics/Workflow|Workflow]] · [[Topics/Memory|Memory]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-15|2026-09-15]]
+- [[Daily/2026/09/2026-09-17|2026-09-17]]
 
 ## GitHub 原始链接
 https://github.com/rlaope/oh-my-hermes
@@ -49,3 +51,10 @@ https://github.com/rlaope/oh-my-hermes
 - 核对日期：2026-10-09
 - README：https://github.com/rlaope/oh-my-hermes/blob/HEAD/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+## 2026-09-17 历史核验
+- GitHub Trending 原始排名：#15
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
+- 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。

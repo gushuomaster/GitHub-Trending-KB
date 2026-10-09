@@ -1,34 +1,65 @@
 ---
+type: github-project
 repo: "cline/cline"
-first_seen: 2026-09-18
+url: "https://github.com/cline/cline"
+first_seen: 2026-09-17
 last_seen: 2026-09-18
-recommend_score: 9.3
-trending_count: 1
-stars_today: 381
-category: ["AI","Agent","Developer Tools"]
-tags: ["github/agent","github/coding-agent","github/typescript","github/sdk","github/ide"]
+trending_count: 2
+category: ["Coding Agent", "IDE", "Developer Tools"]
+topics: ["Coding Agent", "IDE", "Developer Tools"]
 ---
 # cline/cline
-## 项目定位
-可作为 SDK、IDE 扩展或 CLI 使用的自主 Coding Agent。
-## 核心功能 / 实现特点
-TypeScript；统一代码编辑、终端执行和工具调用，并提供 IDE/CLI/SDK 多种集成形态。
-## 最近变化
-- 2026-09-18：首次纳入日报，约 +381 stars，总星约 68.5k。
-- 多形态产品路线说明 Coding Agent 正从单一 IDE 插件向可嵌入 Agent 平台扩展。
-## 局限 / 注意点
-自主执行需要严格权限控制；IDE/CLI/SDK 多形态扩大兼容矩阵与回归测试成本。
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-18 | +381 | 9.3 |
-## 相关主题
-[[Agent]] · [[Developer-Tools]]
-## 相关日报
-- [[2026-09-18]]
+
+## 一句话说明
+可在 IDE、终端和桌面运行的开源 Coding Agent，能跨文件编辑代码、执行命令并通过检查点与审批保持可控。
+
+## 它能做什么
+- 理解项目结构并协调跨文件修改，同时监看编译器与 lint 错误
+- 在终端运行构建、测试、数据库和部署命令并读取实时输出
+- 用 Plan/Act 模式、diff、检查点与逐步批准控制执行
+- 支持多模型、MCP、插件、SDK 和多 Agent 团队
 
 ## 怎么利用
-把 Cline 作为 IDE、CLI 或 SDK 中的 Coding Agent，为单个任务配置模型、工具与审批；让它修改代码并运行验证。
+官方 CLI 流程：执行 `npm i -g cline`，在仓库启动交互会话；先用 Plan 模式确认策略，再切到 Act 模式审阅每次文件修改和命令，最终输出代码 diff 与测试结果。
 
 ## 实际例子
-**可推导用法：** 场景 → 在 VS Code 新增登录表单校验。输入 → 仓库和验收规则。操作 → Cline 查找组件、修改代码并跑测试。输出 → 可审查的 diff 与测试记录。
+**资料中的具体工作流：** 官方 CLI 流程：执行 `npm i -g cline`，在仓库启动交互会话；先用 Plan 模式确认策略，再切到 Act 模式审阅每次文件修改和命令，最终输出代码 diff 与测试结果。
+
+## 关键命令
+```bash
+npm i -g cline
+```
+
+## 适合谁
+需要在 IDE 或终端中让 Agent 规划、修改、测试和自动化代码任务的软件开发者。
+
+## 局限 / 注意点
+- 终端、文件、网络与外部 MCP 权限可能影响真实系统；auto-approve 会放大误操作风险，多模型和多宿主也增加兼容性与费用管理负担。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-17 | 20 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-18 | 未保存 | 381 | 未保存 | 仓库已存快照 |
+
+## 相关主题
+[[Topics/Coding Agent|Coding Agent]] · [[Topics/IDE|IDE]] · [[Topics/Developer Tools|Developer Tools]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-17|2026-09-17]]
+- [[Daily/2026/09/2026-09-18|2026-09-18]]
+
+## GitHub 原始链接
+https://github.com/cline/cline
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/cline/cline/blob/HEAD/README.md
+- 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+## 2026-09-17 历史核验
+- GitHub Trending 原始排名：#20
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
+- 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。

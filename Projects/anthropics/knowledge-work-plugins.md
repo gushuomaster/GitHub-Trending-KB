@@ -2,9 +2,6 @@
 type: github-project
 repo: "anthropics/knowledge-work-plugins"
 url: "https://github.com/anthropics/knowledge-work-plugins"
-first_seen: 2026-09-18
-last_seen: 2026-10-09
-trending_count: 3
 language: "Python"
 total_stars: 27526
 forks: 3197
@@ -13,6 +10,9 @@ github_rank: 7
 fetched_at: "2026-10-09T08:09:00+08:00"
 category: ["AI", "Agent", "Skills", "Knowledge Work"]
 tags: ["github/agent", "github/skills", "github/plugins", "github/python", "github/knowledge-work"]
+first_seen: 2026-09-17
+last_seen: 2026-10-09
+trending_count: 4
 ---
 # anthropics/knowledge-work-plugins
 
@@ -47,18 +47,16 @@ claude plugin install finance@knowledge-work-plugins
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-18 | 未保存 | 287 | 未保存 | 仓库原有索引 |
-| 2026-09-20 | 未保存 | 280 | 未保存 | 仓库原有索引 |
-| 2026-10-09 | 7 | 392 | 27526 | GitHub Today live snapshot |
-
-## 最近变化
-- 2026-10-09：官方 README 列出 11 个岗位插件，并说明可在 Claude Code 添加 marketplace 后安装具体插件。
-- 2026-09-20：仓库原卡记录当日 +280 stars。
+| 2026-09-17 | 7 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-18 | 未保存 | 287 | 未保存 | 仓库已存快照 |
+| 2026-09-20 | 7 | 280 | 未保存 | 仓库已存快照 |
+| 2026-10-09 | 7 | 392 | 27526 | 当日实时快照 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
+- [[Daily/2026/09/2026-09-17|2026-09-17]]
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
 - [[Daily/2026/09/2026-09-20|2026-09-20]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
@@ -71,3 +69,9 @@ https://github.com/anthropics/knowledge-work-plugins
 - README：https://github.com/anthropics/knowledge-work-plugins/blob/main/README.md
 - README blob SHA：261e2f47e2b1701258e4bd3ec18620dc5d7c28ad
 
+## 2026-09-17 历史核验
+- GitHub Trending 原始排名：#7
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
+- 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。

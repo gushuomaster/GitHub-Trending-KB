@@ -1,34 +1,68 @@
 ---
+type: github-project
 repo: "anthropics/claude-code"
-first_seen: 2026-09-18
-last_seen: 2026-09-18
-recommend_score: 9.5
-trending_count: 1
-stars_today: 538
-category: ["AI","Agent","Developer Tools"]
-tags: ["github/agent","github/coding-agent","github/typescript","github/cli"]
+url: "https://github.com/anthropics/claude-code"
+first_seen: 2026-09-17
+last_seen: 2026-10-04
+trending_count: 3
+category: ["Coding Agent", "CLI", "Developer Tools"]
+topics: ["Coding Agent", "CLI", "Developer Tools"]
 ---
 # anthropics/claude-code
-## 项目定位
-Anthropic 官方终端 Coding Agent，面向真实代码库执行理解、修改、Git 与自动化开发任务。
-## 核心功能 / 实现特点
-TypeScript；终端原生 Agent，围绕代码库上下文、工具执行和 Git 工作流构建。
-## 最近变化
-- 2026-09-18：首次纳入日报，约 +538 stars，总星约 145.8k。
-- 作为成熟 Coding Agent，今天的价值更多是作为 Harness/Skills/权限治理的基准，而非“新项目”效应。
-## 局限 / 注意点
-文件、终端和网络工具带来较高执行权限；生产使用应配套 sandbox、审批、凭据隔离和审计。
-## Trending 历史
-| 日期 | 当日新增 Star | 评分 |
-|---|---:|---:|
-| 2026-09-18 | +538 | 9.5 |
-## 相关主题
-[[Agent]] · [[Developer-Tools]] · [[Context-Engineering]]
-## 相关日报
-- [[2026-09-18]]
+
+## 一句话说明
+运行在终端、IDE 与 GitHub 工作流中的 Agentic Coding 工具，可理解代码库并通过自然语言执行修改、解释和 Git 任务。
+
+## 它能做什么
+- 读取代码库并解释跨文件结构与复杂实现
+- 编辑文件、运行命令和测试，完成日常开发任务
+- 处理分支、提交和其他 Git 工作流
+- 通过插件、自定义命令与 Agent 扩展团队流程
 
 ## 怎么利用
-在代码仓库中给 Claude Code 一个边界清晰的任务，允许其读取、修改和运行测试；敏感命令、网络和发布动作保持审批。
+官方入门：使用安装脚本安装后进入目标仓库运行 `claude`，描述边界清晰的任务；先让它分析与规划，再审阅文件改动和测试结果，敏感命令保持人工批准。
 
 ## 实际例子
-**可推导用法：** 场景 → 修复单元测试失败。输入 → 失败日志和仓库。操作 → 让 Agent 定位原因、修改代码并重跑目标测试。输出 → 本地 diff、测试结果和变更说明。
+**资料中的具体工作流：** 官方入门：使用安装脚本安装后进入目标仓库运行 `claude`，描述边界清晰的任务；先让它分析与规划，再审阅文件改动和测试结果，敏感命令保持人工批准。
+
+## 关键命令
+```bash
+curl -fsSL https://claude.ai/install.sh | bash
+claude
+```
+
+## 适合谁
+希望在终端或 IDE 中让 Agent 完成代码理解、修改、测试和 Git 工作流的软件开发者。
+
+## 局限 / 注意点
+- 文件、终端、网络和 Git 权限会带来较高执行风险；模型调用有费用与数据策略要求，生产仓库应配套沙箱、凭据隔离、审批和审计。
+
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-17 | 11 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-18 | 未保存 | 538 | 未保存 | 仓库已存快照 |
+| 2026-10-04 | 16 | 未保存 | 未保存 | 仓库已存快照 |
+
+## 相关主题
+[[Topics/Coding Agent|Coding Agent]] · [[Topics/CLI|CLI]] · [[Topics/Developer Tools|Developer Tools]]
+
+## 相关日报
+- [[Daily/2026/09/2026-09-17|2026-09-17]]
+- [[Daily/2026/09/2026-09-18|2026-09-18]]
+- [[Daily/2026/10/2026-10-04|2026-10-04]]
+
+## GitHub 原始链接
+https://github.com/anthropics/claude-code
+
+## 官方资料核对
+- 核对日期：2026-10-09
+- README：https://github.com/anthropics/claude-code/blob/HEAD/README.md
+- 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+## 2026-09-17 历史核验
+- GitHub Trending 原始排名：#11
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
+- 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。

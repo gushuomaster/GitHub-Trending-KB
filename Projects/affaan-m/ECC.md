@@ -2,14 +2,14 @@
 type: github-project
 repo: "affaan-m/ECC"
 url: "https://github.com/affaan-m/ECC"
-first_seen: 2026-09-09
-last_seen: 2026-10-04
-trending_count: 7
 language: "JavaScript"
 stars_today: 965
 category: ["AI", "Agent", "Skills", "Developer-Tools"]
 tags: ["ai", "agent", "skills", "developer-tools"]
 topics: ["AI", "Agent", "Skills", "Developer-Tools"]
+first_seen: 2026-09-09
+last_seen: 2026-10-04
+trending_count: 7
 ---
 # affaan-m/ECC
 
@@ -43,13 +43,13 @@ npx ecc-universal@2.2.3 setup
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-09 | 4 | 1427 | 未保存 | 归档顺序；统计来自原有快照或未保存 |
-| 2026-09-10 | 未保存 | 1151 | 未保存 | 仓库索引 |
-| 2026-09-17 | 未保存 | 1046 | 未保存 | 仓库索引 |
-| 2026-09-18 | 未保存 | 1173 | 未保存 | 仓库索引 |
-| 2026-09-19 | 5 | 965 | 未保存 | 仓库索引 |
-| 2026-09-21 | 4 | 1018 | 未保存 | 仓库索引 |
-| 2026-10-04 | 3 | 未保存 | 未保存 | 仓库索引 |
+| 2026-09-09 | 4 | 1427 | 未保存 | 仓库已存快照 |
+| 2026-09-10 | 13 | 1151 | 未保存 | 仓库已存快照 |
+| 2026-09-17 | 21 | 1046 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-18 | 未保存 | 1173 | 未保存 | 仓库已存快照 |
+| 2026-09-19 | 5 | 965 | 未保存 | 仓库已存快照 |
+| 2026-09-21 | 4 | 1018 | 未保存 | 仓库已存快照 |
+| 2026-10-04 | 3 | 未保存 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -78,3 +78,10 @@ https://github.com/affaan-m/ECC
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json)
 - 相关日报：[[Daily/2026/09/2026-09-10|2026-09-10]]
+
+## 2026-09-17 历史核验
+- GitHub Trending 原始排名：#21
+- Stars Today：1046
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
+- 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
