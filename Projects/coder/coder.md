@@ -4,7 +4,7 @@ repo: "coder/coder"
 url: "https://github.com/coder/coder"
 first_seen: 2026-09-18
 last_seen: 2026-09-22
-trending_count: 4
+trending_count: 5
 category: ["Cloud Development", "Coding Agent", "Infrastructure"]
 topics: ["Cloud Development", "Coding Agent", "Infrastructure"]
 ---
@@ -43,6 +43,7 @@ coder server
 | 2026-09-18 | 19 | 204 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 15 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
 | 2026-09-20 | 4 | 406 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
+| 2026-09-21 | 11 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
 | 2026-09-22 | 5 | 461 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
@@ -52,6 +53,7 @@ coder server
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
 - [[Daily/2026/09/2026-09-19|2026-09-19]]
 - [[Daily/2026/09/2026-09-20|2026-09-20]]
+- [[Daily/2026/09/2026-09-21|2026-09-21]]
 - [[Daily/2026/09/2026-09-22|2026-09-22]]
 
 ## GitHub 原始链接
@@ -84,3 +86,10 @@ https://github.com/coder/coder
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
 - 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。
+
+
+## 2026-09-21 历史核验
+- GitHub Trending 原始排名：#11
+- Language / Total Stars / Forks / Stars Today：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json)
+- 归档提交时间：2026-09-21T00:01:57Z；该时间不是页面抓取时间。

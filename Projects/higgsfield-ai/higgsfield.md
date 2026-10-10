@@ -3,8 +3,8 @@ type: github-project
 repo: "higgsfield-ai/higgsfield"
 url: "https://github.com/higgsfield-ai/higgsfield"
 first_seen: 2026-09-20
-last_seen: 2026-09-20
-trending_count: 1
+last_seen: 2026-09-21
+trending_count: 2
 github_rank: 7
 stars_today: null
 category: ["Distributed Training", "GPU Orchestration", "Machine Learning"]
@@ -37,12 +37,14 @@ topics: ["Distributed Training", "GPU Orchestration", "Machine Learning"]
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-20 | 7 | 未保存 | 未保存 | 日期匹配归档；原日报未保存该项目统计 |
+| 2026-09-21 | 9 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
 
 ## 相关主题
 [[Topics/Distributed Training|Distributed Training]] · [[Topics/GPU Orchestration|GPU Orchestration]] · [[Topics/Machine Learning|Machine Learning]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-20|2026-09-20]]
+- [[Daily/2026/09/2026-09-21|2026-09-21]]
 
 ## GitHub 原始链接
 https://github.com/higgsfield-ai/higgsfield
@@ -58,3 +60,10 @@ https://github.com/higgsfield-ai/higgsfield
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
 - 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。
+
+
+## 2026-09-21 历史核验
+- GitHub Trending 原始排名：#9
+- Language / Total Stars / Forks / Stars Today：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json)
+- 归档提交时间：2026-09-21T00:01:57Z；该时间不是页面抓取时间。

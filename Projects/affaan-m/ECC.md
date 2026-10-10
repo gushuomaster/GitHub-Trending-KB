@@ -48,7 +48,7 @@ npx ecc-universal@2.2.3 setup
 | 2026-09-17 | 21 | 1046 | 未保存 | 仓库已存快照 |
 | 2026-09-18 | 13 | 1173 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 4 | 965 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
-| 2026-09-21 | 4 | 1018 | 未保存 | 仓库已存快照 |
+| 2026-09-21 | 1 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
 | 2026-10-04 | 3 | 未保存 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
@@ -100,3 +100,10 @@ https://github.com/affaan-m/ECC
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json)
 - 归档提交时间：2026-09-19T00:04:06Z；该时间不是页面抓取时间。
+
+
+## 2026-09-21 历史核验
+- GitHub Trending 原始排名：#1
+- Language / Total Stars / Forks / Stars Today：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json)
+- 归档提交时间：2026-09-21T00:01:57Z；该时间不是页面抓取时间。

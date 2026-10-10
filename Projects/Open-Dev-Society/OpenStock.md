@@ -4,7 +4,7 @@ repo: "Open-Dev-Society/OpenStock"
 url: "https://github.com/Open-Dev-Society/OpenStock"
 first_seen: 2026-09-20
 last_seen: 2026-09-24
-trending_count: 3
+trending_count: 4
 language: "TypeScript"
 total_stars: 18756
 forks: 2283
@@ -40,6 +40,7 @@ topics: ["Finance", "Market Data", "Web Application"]
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-20 | 6 | 477 | 未保存 | 日期匹配归档；Stars Today 来自原日报 |
+| 2026-09-21 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
 | 2026-09-22 | 3 | 843 | 17591 | 仓库已存快照 |
 | 2026-09-24 | 7 | 379 | 18756 | 仓库已存快照 |
 
@@ -48,6 +49,7 @@ topics: ["Finance", "Market Data", "Web Application"]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-20|2026-09-20]]
+- [[Daily/2026/09/2026-09-21|2026-09-21]]
 - [[Daily/2026/09/2026-09-22|2026-09-22]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
 
@@ -65,3 +67,10 @@ https://github.com/Open-Dev-Society/OpenStock
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
 - 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。
+
+
+## 2026-09-21 历史核验
+- GitHub Trending 原始排名：#10
+- Language / Total Stars / Forks / Stars Today：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json)
+- 归档提交时间：2026-09-21T00:01:57Z；该时间不是页面抓取时间。
