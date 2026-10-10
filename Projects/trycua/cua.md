@@ -1,7 +1,7 @@
 ---
 type: github-project
 repo: "trycua/cua"
-first_seen: 2026-10-08
+first_seen: 2026-09-20
 last_seen: 2026-10-08
 language: "Rust"
 total_stars: 28790
@@ -64,6 +64,14 @@ url: "https://github.com/trycua/cua"
 https://github.com/trycua/cua
 
 ## 官方资料核对
-- 核对日期：2026-10-08
+- 核对日期：2026-10-10
 - README：https://github.com/trycua/cua/blob/main/README.md
 - README blob SHA：b41015a8ae7a04205b25aec3ee432d8bf743e4e1
+
+
+## 2026-09-20 历史核验
+- GitHub Trending 原始排名：#2
+- Stars Today：383
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
+- 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。

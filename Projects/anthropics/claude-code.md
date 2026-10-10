@@ -6,7 +6,7 @@ category: ["Coding Agent", "CLI", "Developer Tools"]
 topics: ["Coding Agent", "CLI", "Developer Tools"]
 first_seen: 2026-09-17
 last_seen: 2026-10-04
-trending_count: 4
+trending_count: 5
 ---
 # anthropics/claude-code
 
@@ -42,9 +42,9 @@ claude
 |---|---:|---:|---:|---|
 | 2026-09-17 | 11 | 未保存 | 未保存 | 仓库已存快照 |
 | 2026-09-18 | 6 | 538 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-10-04 | 16 | 未保存 | 未保存 | 仓库已存快照 |
-
 | 2026-09-19 | 2 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+| 2026-09-20 | 5 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+| 2026-10-04 | 16 | 未保存 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/Coding Agent|Coding Agent]] · [[Topics/CLI|CLI]] · [[Topics/Developer Tools|Developer Tools]]
@@ -52,9 +52,9 @@ claude
 ## 相关日报
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
-- [[Daily/2026/10/2026-10-04|2026-10-04]]
-
 - [[Daily/2026/09/2026-09-19|2026-09-19]]
+- [[Daily/2026/09/2026-09-20|2026-09-20]]
+- [[Daily/2026/10/2026-10-04|2026-10-04]]
 
 ## GitHub 原始链接
 https://github.com/anthropics/claude-code
@@ -85,3 +85,11 @@ https://github.com/anthropics/claude-code
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json)
 - 归档提交时间：2026-09-19T00:04:06Z；该时间不是页面抓取时间。
+
+
+## 2026-09-20 历史核验
+- GitHub Trending 原始排名：#5
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
+- 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。

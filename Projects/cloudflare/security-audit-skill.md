@@ -37,7 +37,7 @@ trending_count: 6
 | 2026-09-17 | 2 | 1434 | 未保存 | 仓库已存快照 |
 | 2026-09-18 | 2 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 1 | 3019 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
-| 2026-09-20 | 1 | 3162 | 未保存 | 仓库已存快照 |
+| 2026-09-20 | 1 | 3162 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
 | 2026-09-21 | 1 | 3162 | 未保存 | 仓库已存快照 |
 | 2026-10-08 | 11 | 576 | 26105 | 当日实时快照 |
 
@@ -81,3 +81,11 @@ https://github.com/cloudflare/security-audit-skill
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json)
 - 归档提交时间：2026-09-19T00:04:06Z；该时间不是页面抓取时间。
+
+
+## 2026-09-20 历史核验
+- GitHub Trending 原始排名：#1
+- Stars Today：3162
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
+- 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。

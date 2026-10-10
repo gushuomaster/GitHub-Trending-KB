@@ -49,11 +49,10 @@ claude plugin install finance@knowledge-work-plugins
 |---|---:|---:|---:|---|
 | 2026-09-17 | 7 | 未保存 | 未保存 | 仓库已存快照 |
 | 2026-09-18 | 8 | 287 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-20 | 7 | 280 | 未保存 | 仓库已存快照 |
+| 2026-09-19 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+| 2026-09-20 | 13 | 280 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
 | 2026-10-09 | 7 | 392 | 27526 | 当日实时快照 |
 | 2026-10-10 | 6 | 709 | 28239 | GitHub Today live snapshot |
-
-| 2026-09-19 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -61,11 +60,10 @@ claude plugin install finance@knowledge-work-plugins
 ## 相关日报
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
+- [[Daily/2026/09/2026-09-19|2026-09-19]]
 - [[Daily/2026/09/2026-09-20|2026-09-20]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
 - [[Daily/2026/10/2026-10-10|2026-10-10]]
-
-- [[Daily/2026/09/2026-09-19|2026-09-19]]
 
 ## GitHub 原始链接
 https://github.com/anthropics/knowledge-work-plugins
@@ -96,3 +94,11 @@ https://github.com/anthropics/knowledge-work-plugins
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json)
 - 归档提交时间：2026-09-19T00:04:06Z；该时间不是页面抓取时间。
+
+
+## 2026-09-20 历史核验
+- GitHub Trending 原始排名：#13
+- Stars Today：280
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
+- 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。

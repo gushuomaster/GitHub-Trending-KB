@@ -3,8 +3,8 @@ type: github-project
 repo: "asciimoo/hister"
 url: "https://github.com/asciimoo/hister"
 first_seen: 2026-09-19
-last_seen: 2026-09-19
-trending_count: 1
+last_seen: 2026-09-20
+trending_count: 2
 github_rank: 17
 stars_today: null
 category: ["Local First", "Search", "Knowledge Management"]
@@ -42,12 +42,14 @@ hister listen
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-19 | 17 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+| 2026-09-20 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
 
 ## 相关主题
 [[Topics/Local First|Local First]] · [[Topics/Search|Search]] · [[Topics/Knowledge Management|Knowledge Management]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-19|2026-09-19]]
+- [[Daily/2026/09/2026-09-20|2026-09-20]]
 
 ## GitHub 原始链接
 https://github.com/asciimoo/hister
@@ -63,3 +65,11 @@ https://github.com/asciimoo/hister
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json)
 - 归档提交时间：2026-09-19T00:04:06Z；该时间不是页面抓取时间。
+
+
+## 2026-09-20 历史核验
+- GitHub Trending 原始排名：#10
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
+- 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。
