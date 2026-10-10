@@ -12,7 +12,7 @@ category: ["AI", "Agent", "Skills", "Knowledge Work"]
 tags: ["github/agent", "github/skills", "github/plugins", "github/python", "github/knowledge-work"]
 first_seen: 2026-09-17
 last_seen: 2026-10-10
-trending_count: 5
+trending_count: 6
 ---
 # anthropics/knowledge-work-plugins
 
@@ -53,6 +53,8 @@ claude plugin install finance@knowledge-work-plugins
 | 2026-10-09 | 7 | 392 | 27526 | 当日实时快照 |
 | 2026-10-10 | 6 | 709 | 28239 | GitHub Today live snapshot |
 
+| 2026-09-19 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -62,6 +64,8 @@ claude plugin install finance@knowledge-work-plugins
 - [[Daily/2026/09/2026-09-20|2026-09-20]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
 - [[Daily/2026/10/2026-10-10|2026-10-10]]
+
+- [[Daily/2026/09/2026-09-19|2026-09-19]]
 
 ## GitHub 原始链接
 https://github.com/anthropics/knowledge-work-plugins
@@ -84,3 +88,11 @@ https://github.com/anthropics/knowledge-work-plugins
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
 - 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。
+
+
+## 2026-09-19 历史核验
+- GitHub Trending 原始排名：#10
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json)
+- 归档提交时间：2026-09-19T00:04:06Z；该时间不是页面抓取时间。

@@ -3,8 +3,8 @@ type: github-project
 repo: "ankitects/anki"
 url: "https://github.com/ankitects/anki"
 first_seen: 2026-09-17
-last_seen: 2026-09-17
-trending_count: 1
+last_seen: 2026-09-19
+trending_count: 2
 category: ["Learning", "Spaced Repetition", "Flashcards"]
 topics: ["Learning", "Spaced Repetition", "Flashcards"]
 ---
@@ -36,17 +36,21 @@ topics: ["Learning", "Spaced Repetition", "Flashcards"]
 |---|---:|---:|---:|---|
 | 2026-09-17 | 9 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 
+| 2026-09-19 | 9 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+
 ## 相关主题
 [[Topics/Learning|Learning]] · [[Topics/Spaced Repetition|Spaced Repetition]] · [[Topics/Flashcards|Flashcards]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 
+- [[Daily/2026/09/2026-09-19|2026-09-19]]
+
 ## GitHub 原始链接
 https://github.com/ankitects/anki
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-10
 - README：https://github.com/ankitects/anki/blob/HEAD/README.md
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
 
@@ -56,3 +60,11 @@ https://github.com/ankitects/anki
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
 - 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
+
+
+## 2026-09-19 历史核验
+- GitHub Trending 原始排名：#9
+- Stars Today：未保存
+- Language / Total Stars / Forks：未保存
+- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json)
+- 归档提交时间：2026-09-19T00:04:06Z；该时间不是页面抓取时间。
