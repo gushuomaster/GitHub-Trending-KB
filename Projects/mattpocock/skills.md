@@ -2,14 +2,14 @@
 type: github-project
 repo: "mattpocock/skills"
 first_seen: 2026-09-26
-last_seen: 2026-10-09
+last_seen: 2026-10-10
 language: "Shell"
-total_stars: 281047
-forks: 23557
-stars_today: 1774
-github_rank: 4
-trending_count: 8
-fetched_at: "2026-10-09T08:09:00+08:00"
+total_stars: 282648
+forks: 23679
+stars_today: 1687
+github_rank: 3
+trending_count: 9
+fetched_at: "2026-10-10T08:02:00+08:00"
 url: "https://github.com/mattpocock/skills"
 ---
 # mattpocock/skills
@@ -39,7 +39,7 @@ npx skills@latest add mattpocock/skills
 **已有场景（可推导用法；具体命令及兼容性以本次核对为准）：**
 场景：准备让 Codex 改一个复杂功能 → 安装 skills 后先用 grill-with-docs 澄清需求和术语，再进入实现/测试技能 → 输出更明确的设计决策、任务和验证结果。安装：`npx skills@latest add mattpocock/skills`。
 
-> 资料核对日期：2026-10-09。以上优先依据仓库 README/官方描述；若涉及工作流组合，则按项目已声明能力进行具体化，不视为额外官方承诺。
+> 资料核对日期：2026-10-10。以上优先依据仓库 README/官方描述；若涉及工作流组合，则按项目已声明能力进行具体化，不视为额外官方承诺。
 
 ## 适合谁
 希望逐项选择和定制 Agent 工作流的软件工程师。
@@ -56,6 +56,7 @@ npx skills@latest add mattpocock/skills
 - 2026-10-07：#2 · Stars Today：未保存
 - 2026-10-08：#2 · Stars Today：1403 · Total Stars：279738 · Forks：23449
 - 2026-10-09：#4 · Stars Today：1774 · Total Stars：281047 · Forks：23557
+- 2026-10-10：#3 · Stars Today：1687 · Total Stars：282648 · Forks：23679
 
 ## 相关主题
 - [[Topics/AI]]
@@ -69,12 +70,12 @@ npx skills@latest add mattpocock/skills
 - [[Daily/2026/10/2026-10-07|2026-10-07]]
 - [[Daily/2026/10/2026-10-08|2026-10-08]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
+- [[Daily/2026/10/2026-10-10|2026-10-10]]
 
 ## GitHub
 https://github.com/mattpocock/skills
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-10
 - README：https://github.com/mattpocock/skills/blob/main/README.md
 - README blob SHA：f7038f139299985eea6c3e18398dbafb379a0010
-

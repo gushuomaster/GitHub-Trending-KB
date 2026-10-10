@@ -3,16 +3,16 @@ type: github-project
 repo: "anthropics/knowledge-work-plugins"
 url: "https://github.com/anthropics/knowledge-work-plugins"
 language: "Python"
-total_stars: 27526
-forks: 3197
-stars_today: 392
-github_rank: 7
-fetched_at: "2026-10-09T08:09:00+08:00"
+total_stars: 28239
+forks: 3243
+stars_today: 709
+github_rank: 6
+fetched_at: "2026-10-10T08:02:00+08:00"
 category: ["AI", "Agent", "Skills", "Knowledge Work"]
 tags: ["github/agent", "github/skills", "github/plugins", "github/python", "github/knowledge-work"]
 first_seen: 2026-09-17
-last_seen: 2026-10-09
-trending_count: 4
+last_seen: 2026-10-10
+trending_count: 5
 ---
 # anthropics/knowledge-work-plugins
 
@@ -51,6 +51,7 @@ claude plugin install finance@knowledge-work-plugins
 | 2026-09-18 | 8 | 287 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-20 | 7 | 280 | 未保存 | 仓库已存快照 |
 | 2026-10-09 | 7 | 392 | 27526 | 当日实时快照 |
+| 2026-10-10 | 6 | 709 | 28239 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -60,12 +61,13 @@ claude plugin install finance@knowledge-work-plugins
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
 - [[Daily/2026/09/2026-09-20|2026-09-20]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
+- [[Daily/2026/10/2026-10-10|2026-10-10]]
 
 ## GitHub 原始链接
 https://github.com/anthropics/knowledge-work-plugins
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-10
 - README：https://github.com/anthropics/knowledge-work-plugins/blob/main/README.md
 - README blob SHA：261e2f47e2b1701258e4bd3ec18620dc5d7c28ad
 

@@ -2,14 +2,14 @@
 type: github-project
 repo: "morluto/rea"
 first_seen: 2026-10-07
-last_seen: 2026-10-09
+last_seen: 2026-10-10
 language: "TypeScript"
-total_stars: 25948
-forks: 2915
-stars_today: 7738
-github_rank: 3
-trending_count: 3
-fetched_at: "2026-10-09T08:09:00+08:00"
+total_stars: 45391
+forks: 7197
+stars_today: 14927
+github_rank: 1
+trending_count: 4
+fetched_at: "2026-10-10T08:02:00+08:00"
 url: "https://github.com/morluto/rea"
 ---
 # morluto/rea
@@ -39,7 +39,7 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 **已有场景（可推导用法；具体命令及兼容性以本次核对为准）：**
 场景：想复现一个闭源应用功能 → 输入应用或提取后的 Electron 目录 → 用 REA 的 MCP/CLI 分析行为、调用图和二进制证据 → 输出实现机制、证据与限制；静态 JS 可直接运行 `npx -y rea-agents@latest analyze-javascript-application <path> --json`。
 
-> 资料核对日期：2026-10-09。以上优先依据仓库 README/官方描述；若涉及工作流组合，则按项目已声明能力进行具体化，不视为额外官方承诺。
+> 资料核对日期：2026-10-10。以上优先依据仓库 README/官方描述；若涉及工作流组合，则按项目已声明能力进行具体化，不视为额外官方承诺。
 
 ## 适合谁
 研究桌面应用兼容性、排查无源码行为或分析二进制的逆向工程师。
@@ -51,6 +51,7 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 - 2026-10-07：#8 · Stars Today：未保存
 - 2026-10-08：#1 · Stars Today：4655 · Total Stars：15841 · Forks：1662
 - 2026-10-09：#3 · Stars Today：7738 · Total Stars：25948 · Forks：2915
+- 2026-10-10：#1 · Stars Today：14927 · Total Stars：45391 · Forks：7197
 
 ## 相关主题
 - [[Topics/AI]]
@@ -59,12 +60,12 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 - [[Daily/2026/10/2026-10-07|2026-10-07]]
 - [[Daily/2026/10/2026-10-08|2026-10-08]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
+- [[Daily/2026/10/2026-10-10|2026-10-10]]
 
 ## GitHub
 https://github.com/morluto/rea
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-10
 - README：https://github.com/morluto/rea/blob/main/README.md
-- README blob SHA：8a38c7cfbfb26c415a186b730dbd072dac156665
-
+- README blob SHA：7509d81ea7dff1858c00a48e0a87ef0142b352e5

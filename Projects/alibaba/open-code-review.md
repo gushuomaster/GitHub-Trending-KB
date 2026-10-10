@@ -5,8 +5,14 @@ url: "https://github.com/alibaba/open-code-review"
 category: ["Code Review","AI Agent","Developer Tools"]
 topics: ["Code Review","AI Agent","Developer Tools"]
 first_seen: 2026-09-14
-last_seen: 2026-09-19
-trending_count: 6
+last_seen: 2026-10-10
+trending_count: 7
+language: "Go"
+total_stars: 45185
+forks: 3260
+stars_today: 326
+github_rank: 5
+fetched_at: "2026-10-10T08:02:00+08:00"
 ---
 # alibaba/open-code-review
 
@@ -40,6 +46,7 @@ trending_count: 6
 | 2026-09-17 | 1 | 2756 | 未保存 | 仓库已存快照 |
 | 2026-09-18 | 1 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 1 | 2724 | 未保存 | 仓库已存快照 |
+| 2026-10-10 | 5 | 326 | 45185 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Code Review|Code Review]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Developer Tools|Developer Tools]]
@@ -51,12 +58,13 @@ trending_count: 6
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
 - [[Daily/2026/09/2026-09-19|2026-09-19]]
+- [[Daily/2026/10/2026-10-10|2026-10-10]]
 
 ## GitHub 原始链接
 https://github.com/alibaba/open-code-review
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-10
 - README：https://github.com/alibaba/open-code-review/blob/HEAD/README.md
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
 

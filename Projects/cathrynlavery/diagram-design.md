@@ -3,14 +3,14 @@ type: github-project
 repo: "cathrynlavery/diagram-design"
 url: "https://github.com/cathrynlavery/diagram-design"
 first_seen: 2026-09-09
-last_seen: 2026-10-09
-trending_count: 6
+last_seen: 2026-10-10
+trending_count: 7
 language: "HTML"
-total_stars: 46302
-forks: 2947
-stars_today: 1160
-github_rank: 2
-fetched_at: "2026-10-09T08:09:00+08:00"
+total_stars: 47837
+forks: 3033
+stars_today: 1739
+github_rank: 4
+fetched_at: "2026-10-10T08:02:00+08:00"
 category: ["AI", "Developer-Tools"]
 tags: ["ai", "developer-tools"]
 topics: ["AI", "Developer-Tools"]
@@ -54,6 +54,7 @@ codex plugin add diagram-design@diagram-design
 | 2026-10-07 | 12 | 未保存 | 未保存 | 仓库索引 |
 | 2026-10-08 | 5 | 825 | 45073 | 仓库索引 |
 | 2026-10-09 | 2 | 1160 | 46302 | GitHub Today live snapshot |
+| 2026-10-10 | 4 | 1739 | 47837 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -65,14 +66,15 @@ codex plugin add diagram-design@diagram-design
 - [[Daily/2026/10/2026-10-07|2026-10-07]]
 - [[Daily/2026/10/2026-10-08|2026-10-08]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
+- [[Daily/2026/10/2026-10-10|2026-10-10]]
 
 ## GitHub 原始链接
 https://github.com/cathrynlavery/diagram-design
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-10
 - README：https://github.com/cathrynlavery/diagram-design/blob/main/README.md
-- README blob SHA：a1fe31b32cec9ecf19ded94871c064681b4f6b5a
+- README blob SHA：ff56260d16583df163478cea608a68a19fc22d93
 
 ## 2026-09-10 历史核验
 - GitHub Trending 原始排名：#6
