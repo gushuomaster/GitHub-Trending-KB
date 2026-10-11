@@ -1,14 +1,19 @@
 ---
-type: github-project
+type: "github-project"
 repo: "multica-ai/andrej-karpathy-skills"
 url: "https://github.com/multica-ai/andrej-karpathy-skills"
-first_seen: 2026-09-09
-last_seen: 2026-09-09
-trending_count: 1
+first_seen: "2026-09-09"
+last_seen: "2026-10-11"
+trending_count: 2
 language: "未声明"
 category: ["AI", "Skills", "Developer-Tools"]
 tags: ["ai", "skills", "developer-tools"]
 topics: ["AI", "Skills", "Developer-Tools"]
+total_stars: 218256
+forks: 21980
+stars_today: 278
+github_rank: 13
+fetched_at: "2026-10-11T08:02:00+08:00"
 ---
 # multica-ai/andrej-karpathy-skills
 
@@ -43,18 +48,20 @@ curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-09 | 8 | 未保存 | 未保存 | 归档顺序；统计来自原有快照或未保存 |
-
+| 2026-10-11 | 13 | 278 | 218256 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-09|2026-09-09]]
 
+- [[Daily/2026/10/2026-10-11|2026-10-11]]
 ## GitHub 原始链接
 https://github.com/multica-ai/andrej-karpathy-skills
 
 ## 官方资料核对
-- 核对日期：2026-10-08
+- 核对日期：2026-10-11
 - README：https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md
 - README blob SHA：7cf07a786532bebe01c65179c8e2c3a98cc0a09b
 - 说明：项目卡反映核对日的当前官方资料；不声称这些能力与 2026-09-09 的历史版本完全相同。
+

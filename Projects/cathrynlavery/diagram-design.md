@@ -1,16 +1,16 @@
 ---
-type: github-project
+type: "github-project"
 repo: "cathrynlavery/diagram-design"
 url: "https://github.com/cathrynlavery/diagram-design"
-first_seen: 2026-09-09
-last_seen: 2026-10-10
-trending_count: 7
+first_seen: "2026-09-09"
+last_seen: "2026-10-11"
+trending_count: 8
 language: "HTML"
-total_stars: 47837
-forks: 3033
-stars_today: 1739
+total_stars: 48924
+forks: 3091
+stars_today: 1190
 github_rank: 4
-fetched_at: "2026-10-10T08:02:00+08:00"
+fetched_at: "2026-10-11T08:02:00+08:00"
 category: ["AI", "Developer-Tools"]
 tags: ["ai", "developer-tools"]
 topics: ["AI", "Developer-Tools"]
@@ -20,10 +20,10 @@ topics: ["AI", "Developer-Tools"]
 ## 一句话说明
 让 Coding Agent 把系统关系、流程和数据结构绘成可直接打开的 HTML＋SVG 图，并按品牌样式控制版式。
 
-**当前官方描述：** Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
+**当前官方描述：** Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
 
 ## 它能做什么
-- 提供架构、流程、时序、状态、ER、Sankey、甘特等多种图型。
+- 提供架构、流程、时序、状态、ER、Sankey、甘特、轴测拆解等 44 种图型。
 - 每种图型提供浅色、深色和完整编辑风格的静态变体。
 - 可重绘 Mermaid、draw.io 或 Excalidraw，并按尺寸和细节要求输出。
 
@@ -55,7 +55,7 @@ codex plugin add diagram-design@diagram-design
 | 2026-10-08 | 5 | 825 | 45073 | 仓库索引 |
 | 2026-10-09 | 2 | 1160 | 46302 | GitHub Today live snapshot |
 | 2026-10-10 | 4 | 1739 | 47837 | GitHub Today live snapshot |
-
+| 2026-10-11 | 4 | 1190 | 48924 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -68,13 +68,14 @@ codex plugin add diagram-design@diagram-design
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
 - [[Daily/2026/10/2026-10-10|2026-10-10]]
 
+- [[Daily/2026/10/2026-10-11|2026-10-11]]
 ## GitHub 原始链接
 https://github.com/cathrynlavery/diagram-design
 
 ## 官方资料核对
-- 核对日期：2026-10-10
+- 核对日期：2026-10-11
 - README：https://github.com/cathrynlavery/diagram-design/blob/main/README.md
-- README blob SHA：ff56260d16583df163478cea608a68a19fc22d93
+- README blob SHA：9f1b34dcdc5cef384df273519211ccda9330a95d
 
 ## 2026-09-10 历史核验
 - GitHub Trending 原始排名：#6
@@ -89,3 +90,4 @@ https://github.com/cathrynlavery/diagram-design
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/1920ac964597c62bab2a311888de53a13e8798ad/archive/repository/2026/2026-09-11/(null).json)
 - 相关日报：[[Daily/2026/09/2026-09-11|2026-09-11]]
+

@@ -1,15 +1,15 @@
 ---
-type: github-project
+type: "github-project"
 repo: "mattpocock/skills"
-first_seen: 2026-09-26
-last_seen: 2026-10-10
+first_seen: "2026-09-26"
+last_seen: "2026-10-11"
 language: "Shell"
-total_stars: 282648
-forks: 23679
-stars_today: 1687
-github_rank: 3
-trending_count: 9
-fetched_at: "2026-10-10T08:02:00+08:00"
+total_stars: 284457
+forks: 23808
+stars_today: 1736
+github_rank: 6
+trending_count: 10
+fetched_at: "2026-10-11T08:02:00+08:00"
 url: "https://github.com/mattpocock/skills"
 ---
 # mattpocock/skills
@@ -57,7 +57,7 @@ npx skills@latest add mattpocock/skills
 - 2026-10-08：#2 · Stars Today：1403 · Total Stars：279738 · Forks：23449
 - 2026-10-09：#4 · Stars Today：1774 · Total Stars：281047 · Forks：23557
 - 2026-10-10：#3 · Stars Today：1687 · Total Stars：282648 · Forks：23679
-
+- 2026-10-11：#6 · Stars Today：1736 · Total Stars：284457 · Forks：23808
 ## 相关主题
 - [[Topics/AI]]
 
@@ -72,10 +72,12 @@ npx skills@latest add mattpocock/skills
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
 - [[Daily/2026/10/2026-10-10|2026-10-10]]
 
+- [[Daily/2026/10/2026-10-11|2026-10-11]]
 ## GitHub
 https://github.com/mattpocock/skills
 
 ## 官方资料核对
-- 核对日期：2026-10-10
+- 核对日期：2026-10-11
 - README：https://github.com/mattpocock/skills/blob/main/README.md
 - README blob SHA：f7038f139299985eea6c3e18398dbafb379a0010
+

@@ -1,18 +1,20 @@
 ---
 repo: "tensorflow/tensorflow"
 url: "https://github.com/tensorflow/tensorflow"
-first_seen: 2026-09-27
-last_seen: 2026-09-27
-trending_count: 1
-github_rank: 5
-stars_today: null
-total_stars: 200577
-forks: 77811
+first_seen: "2026-09-27"
+last_seen: "2026-10-11"
+trending_count: 2
+github_rank: 8
+stars_today: 26
+total_stars: 200721
+forks: 78963
 language: "C++"
 metadata_checked_at: "2026-09-28T16:09:06+08:00"
-snapshot_status: archived_backfill
+snapshot_status: "live"
 topics: ["AI", "Machine-Learning", "Framework"]
 status: active
+type: "github-project"
+fetched_at: "2026-10-11T08:02:00+08:00"
 ---
 # tensorflow/tensorflow
 
@@ -42,11 +44,23 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-09-27 | 5 | 未保存 | 未保存 | 未保存 | archived_backfill |
+| 2026-10-11 | 8 | 26 | 200721 | 78963 | live |
 
-> 上表只保留归档可证明的日期与原始顺序；当前 Stars/Forks 仅记录在 frontmatter 的 `metadata_checked_at` 快照，不冒充历史数值。
+> 2026-09-27 行只保留归档可证明的顺序；2026-10-11 行为同一时刻的 GitHub Today 实时快照，不用当前值回填历史。
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Machine-Learning|Machine-Learning]] · [[Topics/Framework|Framework]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
+
+- [[Daily/2026/10/2026-10-11|2026-10-11]]
+## GitHub 原始链接
+https://github.com/tensorflow/tensorflow
+
+
+## 官方资料核对
+- 核对日期：2026-10-11
+- README：https://github.com/tensorflow/tensorflow/blob/HEAD/README.md
+- README blob SHA：2ada91b134b2bc6daa60ca6265f1290f38a748c1
+
