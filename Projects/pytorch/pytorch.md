@@ -3,14 +3,14 @@ type: github-project
 repo: "pytorch/pytorch"
 url: "https://github.com/pytorch/pytorch"
 first_seen: 2026-10-11
-last_seen: 2026-10-11
-trending_count: 1
+last_seen: "2026-10-12"
+trending_count: 2
 language: "Python"
-total_stars: 104137
-forks: 31955
-stars_today: 84
-github_rank: 10
-fetched_at: "2026-10-11T08:02:00+08:00"
+total_stars: 104474
+forks: 32112
+stars_today: 315
+github_rank: 6
+fetched_at: "2026-10-12T08:12:00+08:00"
 category: ["AI"]
 topics: ["AI"]
 ---
@@ -41,18 +41,20 @@ topics: ["AI"]
 
 ## Trending 历史
 - 2026-10-11：#10 · Stars Today：84 · Total Stars：104137 · Forks：31955
+- 2026-10-12：#6 · Stars Today：315 · Total Stars：104474 · Forks：32112
 
 ## 相关主题
 [[Topics/AI|AI]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-11|2026-10-11]]
+- [[Daily/2026/10/2026-10-12|2026-10-12]]
 
 ## GitHub 原始链接
 https://github.com/pytorch/pytorch
 
 ## 官方资料核对
-- 核对日期：2026-10-11
+- 核对日期：2026-10-12
 - README：https://github.com/pytorch/pytorch/blob/HEAD/README.md
 - README blob SHA：0f276463a0e0f33b8b07b6633a325566f357c61f
 

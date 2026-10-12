@@ -2,14 +2,14 @@
 type: "github-project"
 repo: "boykopovar/AnyPS5"
 first_seen: "2026-10-06"
-last_seen: "2026-10-11"
+last_seen: "2026-10-12"
 language: "C++"
-total_stars: 26766
-forks: 2241
-stars_today: 5805
+total_stars: 30057
+forks: 2581
+stars_today: 3952
 github_rank: 2
-trending_count: 6
-fetched_at: "2026-10-11T08:02:00+08:00"
+trending_count: 7
+fetched_at: "2026-10-12T08:12:00+08:00"
 url: "https://github.com/boykopovar/AnyPS5"
 ---
 # boykopovar/AnyPS5
@@ -54,6 +54,8 @@ relinker --windows source/input.elf app.exe
 - 2026-10-09：#1 · Stars Today：4669 · Total Stars：15634 · Forks：1234
 - 2026-10-10：#2 · Stars Today：5868 · Total Stars：22226 · Forks：1811
 - 2026-10-11：#2 · Stars Today：5805 · Total Stars：26766 · Forks：2241
+- 2026-10-12：#2 · Stars Today：3952 · Total Stars：30057 · Forks：2581
+
 ## 相关主题
 - [[Topics/AI]]
 
@@ -65,11 +67,13 @@ relinker --windows source/input.elf app.exe
 - [[Daily/2026/10/2026-10-10|2026-10-10]]
 
 - [[Daily/2026/10/2026-10-11|2026-10-11]]
+- [[Daily/2026/10/2026-10-12|2026-10-12]]
+
 ## GitHub
 https://github.com/boykopovar/AnyPS5
 
 ## 官方资料核对
-- 核对日期：2026-10-11
+- 核对日期：2026-10-12
 - README：https://github.com/boykopovar/AnyPS5/blob/main/README.md
 - README blob SHA：5e57cb94ff24c133317861bad76ac6b8dd83a55b
 
