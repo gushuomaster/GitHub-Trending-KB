@@ -1,19 +1,22 @@
 ---
 repo: "colbymchenry/codegraph"
 url: "https://github.com/colbymchenry/codegraph"
-first_seen: 2026-10-01
-last_seen: 2026-10-01
-trending_count: 1
-github_rank: 14
+first_seen: "2026-10-01"
+last_seen: "2026-10-03"
+trending_count: 2
+github_rank: 13
 stars_today: 118
 total_stars: 72584
 forks: 4664
-language: C
+language: "C"
 fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["Developer Tools", "Code Intelligence", "AI"]
 tags: ["knowledge-graph", "tree-sitter", "mcp", "sqlite", "code-search"]
 topics: ["AI", "Developer-Tools"]
 status: active
+type: "github-project"
+stats_as_of: "2026-10-01"
+documentation_checked_at: "2026-10-13"
 ---
 # colbymchenry/codegraph
 
@@ -45,10 +48,22 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-10-01 | 14 | +118 | 72584 |
+| 2026-10-03 | 13 | 未保存 | 未保存 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
+- [[Daily/2026/10/2026-10-03|2026-10-03]]
 
+
+
+## GitHub 原始链接
+https://github.com/colbymchenry/codegraph
+
+## 官方资料核对
+- 核对日期：2026-10-13
+- README：https://github.com/colbymchenry/codegraph/blob/main/README.md
+- README blob SHA：ae3750c3ba7c4bd7af7da7410b3b2a766351e170
+- 说明：项目卡反映核对日的当前资料，不声称等同于历史上榜日版本。
