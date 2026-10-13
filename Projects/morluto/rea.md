@@ -2,14 +2,14 @@
 type: "github-project"
 repo: "morluto/rea"
 first_seen: "2026-10-07"
-last_seen: "2026-10-12"
+last_seen: "2026-10-13"
 language: "TypeScript"
-total_stars: 103465
-forks: 22680
-stars_today: 25599
+total_stars: 155789
+forks: 35890
+stars_today: 45327
 github_rank: 1
-trending_count: 6
-fetched_at: "2026-10-12T08:12:00+08:00"
+trending_count: 7
+fetched_at: "2026-10-13T08:05:00+08:00"
 url: "https://github.com/morluto/rea"
 ---
 # morluto/rea
@@ -55,6 +55,8 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 - 2026-10-11：#1 · Stars Today：25793 · Total Stars：71944 · Forks：15101
 - 2026-10-12：#1 · Stars Today：25599 · Total Stars：103465 · Forks：22680
 
+- 2026-10-13：#1 · Stars Today：45327 · Total Stars：155789 · Forks：35890
+
 ## 相关主题
 - [[Topics/AI]]
 
@@ -67,11 +69,14 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 - [[Daily/2026/10/2026-10-11|2026-10-11]]
 - [[Daily/2026/10/2026-10-12|2026-10-12]]
 
+- [[Daily/2026/10/2026-10-13|2026-10-13]]
+
 ## GitHub
 https://github.com/morluto/rea
 
 ## 官方资料核对
-- 核对日期：2026-10-12
+- 核对日期：2026-10-13
 - README：https://github.com/morluto/rea/blob/main/README.md
 - README blob SHA：8bdfb2739ed6436d07c9be25132a670940fcadce
+
 

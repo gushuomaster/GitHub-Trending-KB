@@ -3,14 +3,14 @@ type: "github-project"
 repo: "mksglu/context-mode"
 url: "https://github.com/mksglu/context-mode"
 first_seen: "2026-09-09"
-last_seen: "2026-10-11"
-trending_count: 6
+last_seen: "2026-10-13"
+trending_count: 7
 language: "TypeScript"
-total_stars: 26306
-forks: 1891
-stars_today: 178
-github_rank: 5
-fetched_at: "2026-10-11T08:02:00+08:00"
+total_stars: 27272
+forks: 1942
+stars_today: 246
+github_rank: 3
+fetched_at: "2026-10-13T08:05:00+08:00"
 category: ["AI", "Agent", "Context-Engineering", "Developer-Tools"]
 tags: ["ai", "agent", "context-engineering", "developer-tools"]
 topics: ["AI", "Agent", "Context-Engineering", "Developer-Tools"]
@@ -54,6 +54,8 @@ ctx doctor
 | 2026-10-03 | 10 | 未保存 | 未保存 | 仓库索引 |
 | 2026-10-04 | 13 | 未保存 | 未保存 | 仓库索引 |
 | 2026-10-11 | 5 | 178 | 26306 | GitHub Today live snapshot |
+| 2026-10-13 | 3 | 246 | 27272 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Context-Engineering|Context-Engineering]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -65,12 +67,15 @@ ctx doctor
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 
 - [[Daily/2026/10/2026-10-11|2026-10-11]]
+- [[Daily/2026/10/2026-10-13|2026-10-13]]
+
 ## GitHub 原始链接
 https://github.com/mksglu/context-mode
 
 ## 官方资料核对
-- 核对日期：2026-10-11
+- 核对日期：2026-10-13
 - README：https://github.com/mksglu/context-mode/blob/main/README.md
 - README blob SHA：b796169524473691594af24995d21ca94027f7c7
 - 说明：项目卡反映核对日的当前官方资料；不声称这些能力与 2026-09-09 的历史版本完全相同。
+
 
