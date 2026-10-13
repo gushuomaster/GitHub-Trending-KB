@@ -1,19 +1,22 @@
 ---
 repo: "mvschwarz/openrig"
 url: "https://github.com/mvschwarz/openrig"
-first_seen: 2026-09-28
-last_seen: 2026-10-01
-trending_count: 4
-github_rank: 3
-stars_today: 737
-total_stars: 2421
-forks: 176
-language: TypeScript
+first_seen: "2026-09-28"
+last_seen: "2026-10-03"
+trending_count: 6
+github_rank: 15
+stars_today: 624
+total_stars: 3005
+forks: 210
+language: "TypeScript"
 fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["AI", "Agent", "Developer Tools"]
 tags: ["multi-agent", "codex", "claude-code", "tmux", "orchestration"]
 topics: ["AI", "Agent", "Developer-Tools"]
 status: active
+type: "github-project"
+stats_as_of: "2026-10-01"
+documentation_checked_at: "2026-10-13"
 ---
 # mvschwarz/openrig
 
@@ -52,6 +55,8 @@ rig up first-project --cwd . --plan
 | 2026-09-30 | 6 | +737 | 2421 |
 
 | 2026-10-01 | 3 | +624 | 3005 |
+| 2026-10-02 | 5 | 未保存 | 未保存 |
+| 2026-10-03 | 15 | 未保存 | 未保存 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -61,4 +66,16 @@ rig up first-project --cwd . --plan
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
+- [[Daily/2026/10/2026-10-02|2026-10-02]]
+- [[Daily/2026/10/2026-10-03|2026-10-03]]
 
+
+
+## GitHub 原始链接
+https://github.com/mvschwarz/openrig
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/mvschwarz/openrig/blob/main/README.md
+- README blob SHA：15dfd8e8500082f2b18f7175c09aa4eced2c490e
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

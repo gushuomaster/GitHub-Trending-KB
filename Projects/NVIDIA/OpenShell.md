@@ -1,19 +1,22 @@
 ---
 repo: "NVIDIA/OpenShell"
 url: "https://github.com/NVIDIA/OpenShell"
-first_seen: 2026-09-30
-last_seen: 2026-10-01
-trending_count: 2
-github_rank: 1
-stars_today: 990
-total_stars: 10565
-forks: 1419
-language: Rust
+first_seen: "2026-09-30"
+last_seen: "2026-10-03"
+trending_count: 4
+github_rank: 7
+stars_today: 1281
+total_stars: 12602
+forks: 1542
+language: "Rust"
 fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["AI", "Security", "Agent Infrastructure"]
 tags: ["agent", "sandbox", "policy", "isolation", "credentials"]
 topics: ["AI", "Security", "Agent"]
 status: active
+type: "github-project"
+stats_as_of: "2026-10-01"
+documentation_checked_at: "2026-10-13"
 ---
 # NVIDIA/OpenShell
 
@@ -47,6 +50,8 @@ status: active
 | 2026-09-30 | 2 | +990 | 10565 |
 
 | 2026-10-01 | 1 | +1281 | 12602 |
+| 2026-10-02 | 3 | 未保存 | 未保存 |
+| 2026-10-03 | 7 | 未保存 | 未保存 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Security|Security]] · [[Topics/Agent|Agent]]
@@ -54,4 +59,16 @@ status: active
 ## 相关日报
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
+- [[Daily/2026/10/2026-10-02|2026-10-02]]
+- [[Daily/2026/10/2026-10-03|2026-10-03]]
 
+
+
+## GitHub 原始链接
+https://github.com/NVIDIA/OpenShell
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/NVIDIA/OpenShell/blob/main/README.md
+- README blob SHA：43f887bb95b3b3a1846033d0d10ce89b839ea7d7
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

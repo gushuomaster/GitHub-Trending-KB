@@ -1,18 +1,21 @@
 ---
 repo: "pbakaus/impeccable"
 url: "https://github.com/pbakaus/impeccable"
-first_seen: 2026-09-24
-last_seen: 2026-09-26
-trending_count: 2
-github_rank: 12
+first_seen: "2026-09-24"
+last_seen: "2026-10-07"
+trending_count: 7
+github_rank: 5
 stars_today: 287
 total_stars: 70270
 forks: 4268
-language: JavaScript
+language: "JavaScript"
 category: ["AI","Design","Skills"]
 tags: ["design","skill","ui","ai"]
 topics: ["Skills","Developer-Tools","Design"]
 status: active
+type: "github-project"
+stats_as_of: "2026-09-24"
+documentation_checked_at: "2026-10-13"
 ---
 # pbakaus/impeccable
 
@@ -36,16 +39,34 @@ status: active
 ## 局限 / 注意点
 设计判断仍带主观性；命令会生成 `.impeccable/` 工作文件，团队需决定是否忽略这些本地状态文件。
 
-## Trending History
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-24 | 12 | +287 | 70270 |
-
-## 历史归档补记
-- 2026-09-26：GitHub Trending #15；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+## Trending 历史
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-09-24 | 12 | 287 | 70270 | 原实时快照 |
+| 2026-09-26 | 15 | 未保存 | 未保存 | 日期匹配语言不限归档 |
+| 2026-10-02 | 14 | 未保存 | 未保存 | 日期匹配语言不限归档 |
+| 2026-10-03 | 5 | 未保存 | 未保存 | 仓库已存日期匹配快照 |
+| 2026-10-04 | 2 | 未保存 | 未保存 | 仓库已存日期匹配快照 |
+| 2026-10-05 | 2 | 未保存 | 未保存 | 仓库已存日期匹配快照 |
+| 2026-10-07 | 5 | 未保存 | 未保存 | 仓库已存日期匹配快照 |
 
 ## 相关主题
 [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Design|Design]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
+- [[Daily/2026/10/2026-10-02|2026-10-02]]
+- [[Daily/2026/10/2026-10-03|2026-10-03]]
+- [[Daily/2026/10/2026-10-04|2026-10-04]]
+- [[Daily/2026/10/2026-10-05|2026-10-05]]
+- [[Daily/2026/10/2026-10-07|2026-10-07]]
+
+
+## GitHub 原始链接
+https://github.com/pbakaus/impeccable
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/pbakaus/impeccable/blob/main/README.md
+- README blob SHA：0d6c0ec686eaaafc3c1917ecbbd5bb5107771564
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

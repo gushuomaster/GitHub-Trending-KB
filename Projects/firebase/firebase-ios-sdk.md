@@ -1,19 +1,22 @@
 ---
 repo: "firebase/firebase-ios-sdk"
 url: "https://github.com/firebase/firebase-ios-sdk"
-first_seen: 2026-10-01
-last_seen: 2026-10-01
-trending_count: 1
-github_rank: 11
+first_seen: "2026-10-01"
+last_seen: "2026-10-02"
+trending_count: 2
+github_rank: 4
 stars_today: 8
 total_stars: 6761
 forks: 1800
-language: C++
+language: "C++"
 fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["Mobile", "Apple", "Backend SDK"]
 tags: ["firebase", "ios", "swift", "firestore", "authentication"]
 topics: ["Developer-Tools"]
 status: active
+type: "github-project"
+stats_as_of: "2026-10-01"
+documentation_checked_at: "2026-10-13"
 ---
 # firebase/firebase-ios-sdk
 
@@ -41,10 +44,22 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-10-01 | 11 | +8 | 6761 |
+| 2026-10-02 | 4 | 未保存 | 未保存 |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
+- [[Daily/2026/10/2026-10-02|2026-10-02]]
 
+
+
+## GitHub 原始链接
+https://github.com/firebase/firebase-ios-sdk
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/firebase/firebase-ios-sdk/blob/main/README.md
+- README blob SHA：c16f9f52c826f85795035b32dad7f7659b98aed0
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

@@ -1,19 +1,21 @@
 ---
-type: github-project
+type: "github-project"
 repo: "heygen-com/hyperframes"
 url: "https://github.com/heygen-com/hyperframes"
-first_seen: 2026-09-09
-last_seen: 2026-10-03
+first_seen: "2026-09-09"
+last_seen: "2026-10-03"
 trending_count: 4
 language: "TypeScript"
 total_stars: 54712
 forks: 4973
 stars_today: 349
-github_rank: 10
+github_rank: 9
 fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["AI", "Agent", "Video-AI", "Skills"]
 tags: ["ai", "agent", "video-ai", "skills"]
 topics: ["AI", "Agent", "Video-AI", "Skills"]
+stats_as_of: "2026-10-01"
+documentation_checked_at: "2026-10-13"
 ---
 # heygen-com/hyperframes
 
@@ -69,3 +71,9 @@ https://github.com/heygen-com/hyperframes
 - README：https://github.com/heygen-com/hyperframes/blob/main/README.md
 - README blob SHA：4529ffdda7076e54a94d380009d3cd5be6cff30d
 - 说明：项目卡反映核对日的当前官方资料；不声称这些能力与 2026-09-09 的历史版本完全相同。
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/heygen-com/hyperframes/blob/main/README.md
+- README blob SHA：4529ffdda7076e54a94d380009d3cd5be6cff30d
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

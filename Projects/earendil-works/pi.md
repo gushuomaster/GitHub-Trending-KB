@@ -1,12 +1,14 @@
 ---
-type: github-project
+type: "github-project"
 repo: "earendil-works/pi"
 url: "https://github.com/earendil-works/pi"
-first_seen: 2026-09-16
-last_seen: 2026-10-04
+first_seen: "2026-09-16"
+last_seen: "2026-10-04"
 trending_count: 3
 category: ["AI Agent", "CLI", "SDK"]
 topics: ["AI Agent", "CLI", "SDK"]
+github_rank: 14
+documentation_checked_at: "2026-10-13"
 ---
 # earendil-works/pi
 
@@ -66,3 +68,9 @@ https://github.com/earendil-works/pi
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/01abc33224d0523ab2a25bced4e1258b69fc6015/archive/repository/2026/2026-09-16/(null).json)
 - 归档提交时间：2026-09-16T01:13:23Z；该时间不是页面抓取时间。
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/earendil-works/pi/blob/main/README.md
+- README blob SHA：93184c10ff45b8b4ecc8c2e0f8e239501f3880e6
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

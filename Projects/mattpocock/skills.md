@@ -11,6 +11,7 @@ github_rank: 6
 trending_count: 10
 fetched_at: "2026-10-11T08:02:00+08:00"
 url: "https://github.com/mattpocock/skills"
+documentation_checked_at: "2026-10-13"
 ---
 # mattpocock/skills
 
@@ -81,3 +82,13 @@ https://github.com/mattpocock/skills
 - README：https://github.com/mattpocock/skills/blob/main/README.md
 - README blob SHA：f7038f139299985eea6c3e18398dbafb379a0010
 
+
+
+## GitHub 原始链接
+https://github.com/mattpocock/skills
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/mattpocock/skills/blob/main/README.md
+- README blob SHA：f7038f139299985eea6c3e18398dbafb379a0010
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

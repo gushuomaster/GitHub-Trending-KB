@@ -1,18 +1,20 @@
 ---
-type: github-project
+type: "github-project"
 repo: "obra/superpowers"
 url: "https://github.com/obra/superpowers"
-first_seen: 2026-09-09
-last_seen: 2026-10-04
+first_seen: "2026-09-09"
+last_seen: "2026-10-04"
 trending_count: 10
 language: "Shell"
 total_stars: 290633
 forks: 26006
 stars_today: 485
-github_rank: 5
+github_rank: 11
 category: ["AI", "Skills", "Developer-Tools"]
 tags: ["ai", "skills", "developer-tools"]
 topics: ["AI", "Skills", "Developer-Tools"]
+stats_as_of: "2026-09-24"
+documentation_checked_at: "2026-10-13"
 ---
 # obra/superpowers
 
@@ -102,3 +104,9 @@ https://github.com/obra/superpowers
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c2d25fb872c661b5329c0e3eb95abe065543a251/archive/repository/2026/2026-09-12/(null).json)
 - 相关日报：[[Daily/2026/09/2026-09-12|2026-09-12]]
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/obra/superpowers/blob/main/README.md
+- README blob SHA：e40ddfa8f87a374e1b9a3663b80c1aa954cf8eec
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

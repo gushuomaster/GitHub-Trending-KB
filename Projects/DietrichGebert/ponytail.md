@@ -1,19 +1,22 @@
 ---
 repo: "DietrichGebert/ponytail"
 url: "https://github.com/DietrichGebert/ponytail"
-first_seen: 2026-09-15
-last_seen: 2026-10-01
-trending_count: 2
-github_rank: 5
+first_seen: "2026-09-15"
+last_seen: "2026-10-05"
+trending_count: 6
+github_rank: 4
 stars_today: 743
 total_stars: 149154
 forks: 8018
-language: JavaScript
+language: "JavaScript"
 fetched_at: "2026-10-01T07:59:50+08:00"
 category: ["AI", "Agent", "Skills", "Developer Tools"]
 tags: ["coding-agent", "yagni", "review", "hooks", "skills"]
 topics: ["Agent", "Skills", "Developer-Tools"]
 status: active
+type: "github-project"
+stats_as_of: "2026-10-01"
+documentation_checked_at: "2026-10-13"
 ---
 # DietrichGebert/ponytail
 
@@ -45,6 +48,10 @@ status: active
 |---|---:|---:|---:|
 | 2026-09-15 | 未保存 | +1539 | 未保存 |
 | 2026-10-01 | 5 | +743 | 149154 |
+| 2026-10-02 | 1 | 未保存 | 未保存 |
+| 2026-10-03 | 4 | 未保存 | 未保存 |
+| 2026-10-04 | 1 | 未保存 | 未保存 |
+| 2026-10-05 | 4 | 未保存 | 未保存 |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -52,4 +59,18 @@ status: active
 ## 相关日报
 - [[Daily/2026/09/2026-09-15|2026-09-15]]
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
+- [[Daily/2026/10/2026-10-02|2026-10-02]]
+- [[Daily/2026/10/2026-10-03|2026-10-03]]
+- [[Daily/2026/10/2026-10-04|2026-10-04]]
+- [[Daily/2026/10/2026-10-05|2026-10-05]]
 
+
+
+## GitHub 原始链接
+https://github.com/DietrichGebert/ponytail
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/DietrichGebert/ponytail/blob/main/README.md
+- README blob SHA：a9508bc7f464402bd028aab1f58cee9cf3f36603
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。

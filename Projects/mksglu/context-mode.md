@@ -14,6 +14,7 @@ fetched_at: "2026-10-13T08:05:00+08:00"
 category: ["AI", "Agent", "Context-Engineering", "Developer-Tools"]
 tags: ["ai", "agent", "context-engineering", "developer-tools"]
 topics: ["AI", "Agent", "Context-Engineering", "Developer-Tools"]
+documentation_checked_at: "2026-10-13"
 ---
 # mksglu/context-mode
 
@@ -79,3 +80,9 @@ https://github.com/mksglu/context-mode
 - 说明：项目卡反映核对日的当前官方资料；不声称这些能力与 2026-09-09 的历史版本完全相同。
 
 
+
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/mksglu/context-mode/blob/main/README.md
+- README blob SHA：b796169524473691594af24995d21ca94027f7c7
+- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。
