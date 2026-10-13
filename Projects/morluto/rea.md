@@ -1,33 +1,34 @@
 ---
-type: "github-project"
-repo: "morluto/rea"
-first_seen: "2026-10-07"
-last_seen: "2026-10-13"
-language: "TypeScript"
+type: github-project
+repo: morluto/rea
+first_seen: '2026-10-07'
+last_seen: '2026-10-13'
+language: TypeScript
 total_stars: 155789
 forks: 35890
 stars_today: 45327
 github_rank: 1
 trending_count: 7
-fetched_at: "2026-10-13T08:05:00+08:00"
-url: "https://github.com/morluto/rea"
+fetched_at: '2026-10-13T08:05:00+08:00'
+url: https://github.com/morluto/rea
+documentation_checked_at: '2026-10-13'
+stats_as_of: '2026-10-13'
 ---
+
 # morluto/rea
+
+> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 让 Coding Agent 调查无源码应用、Electron 程序和原生二进制，给出功能实现机制、证据与分析边界。
-
-**官方描述：** Reverse engineer anything with agents, from app behavior down to native binaries.
 
 ## 它能做什么
 - 静态分析 JavaScript/Electron 目录或 ASAR，返回调用图、证据和未知项。
 - 通过 Hopper、Ghidra 等已配置引擎检查原生函数、内存和反编译结果。
 - 通过 MCP 或 CLI 将应用行为调查接入 Coding Agent。
 
-
 ## 怎么利用
 在兼容性研究中输入已取得授权的应用目录，先做静态分析，再按需要选择原生分析引擎；Agent 根据证据解释目标功能，输出调查结果和未覆盖部分。
-
 
 ## 实际例子
 **官方终端入门 → 场景：** 检查提取后的 Electron 应用。**输入：** 应用目录或 ASAR。**操作：** 运行下面的静态分析命令。**输出：** JSON 中的 Evidence、恢复图、limitations 和 unknowns；无需执行目标应用。
@@ -36,11 +37,6 @@ url: "https://github.com/morluto/rea"
 npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --json
 ```
 
-**已有场景（可推导用法；具体命令及兼容性以本次核对为准）：**
-场景：想复现一个闭源应用功能 → 输入应用或提取后的 Electron 目录 → 用 REA 的 MCP/CLI 分析行为、调用图和二进制证据 → 输出实现机制、证据与限制；静态 JS 可直接运行 `npx -y rea-agents@latest analyze-javascript-application <path> --json`。
-
-> 资料核对日期：2026-10-10。以上优先依据仓库 README/官方描述；若涉及工作流组合，则按项目已声明能力进行具体化，不视为额外官方承诺。
-
 ## 适合谁
 研究桌面应用兼容性、排查无源码行为或分析二进制的逆向工程师。
 
@@ -48,14 +44,15 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 需要合法获得分析目标；原生分析可能依赖 Hopper/Ghidra，结论仍需结合证据验证。
 
 ## Trending 历史
-- 2026-10-07：#8 · Stars Today：未保存
-- 2026-10-08：#1 · Stars Today：4655 · Total Stars：15841 · Forks：1662
-- 2026-10-09：#3 · Stars Today：7738 · Total Stars：25948 · Forks：2915
-- 2026-10-10：#1 · Stars Today：14927 · Total Stars：45391 · Forks：7197
-- 2026-10-11：#1 · Stars Today：25793 · Total Stars：71944 · Forks：15101
-- 2026-10-12：#1 · Stars Today：25599 · Total Stars：103465 · Forks：22680
-
-- 2026-10-13：#1 · Stars Today：45327 · Total Stars：155789 · Forks：35890
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-10-07 | 8 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-08 | 1 | 4655 | 15841 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-09 | 3 | 7738 | 25948 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-10 | 1 | 14927 | 45391 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-11 | 1 | 25793 | 71944 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-12 | 1 | 25599 | 103465 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-13 | 1 | 45327 | 155789 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 
 ## 相关主题
 - [[Topics/AI]]
@@ -65,18 +62,14 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 - [[Daily/2026/10/2026-10-08|2026-10-08]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
 - [[Daily/2026/10/2026-10-10|2026-10-10]]
-
 - [[Daily/2026/10/2026-10-11|2026-10-11]]
 - [[Daily/2026/10/2026-10-12|2026-10-12]]
-
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
 
-## GitHub
+## GitHub 原始链接
 https://github.com/morluto/rea
 
-## 官方资料核对
-- 核对日期：2026-10-13
+## 官方资料复核（2026-10-13）
 - README：https://github.com/morluto/rea/blob/main/README.md
-- README blob SHA：8bdfb2739ed6436d07c9be25132a670940fcadce
-
-
+- README blob SHA：`c4a89bceee4b0f0bde03bc7719088f4a7fc6b632`
+- 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。

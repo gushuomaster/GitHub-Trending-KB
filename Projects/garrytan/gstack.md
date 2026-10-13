@@ -1,36 +1,55 @@
 ---
 type: github-project
-repo: "garrytan/gstack"
-first_seen: 2026-10-05
-last_seen: 2026-10-05
+repo: garrytan/gstack
+first_seen: '2026-10-05'
+last_seen: '2026-10-05'
+url: https://github.com/garrytan/gstack
+trending_count: 1
+github_rank: 14
+documentation_checked_at: '2026-10-13'
+stats_as_of: null
+stars_today: null
+total_stars: null
+forks: null
+language: null
 ---
+
 # garrytan/gstack
 
+> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+
 ## 一句话说明
-一组面向 Claude Code 的角色化工程工具，覆盖 CEO、设计、工程管理、发布、文档和 QA。
+为 Claude Code 提供产品、架构、设计、评审、QA 和发布等角色技能及配套工具，组织单人开发流程。
 
 ## 它能做什么
-- 以官方仓库声明的能力为准。
+- 用 `/office-hours`、`/plan-ceo-review` 讨论需求及产品取舍。
+- 通过 `/review` 检查改动，用 `/qa` 验证站点或隔离的 API、CLI、任务和 webhook。
+- 提供浏览器及其他工具，支撑设计检查、质量验证和 PR 工作流。
 
 ## 怎么利用
-**可推导用法**：将该项目的核心能力放入对应开发/内容/基础设施工作流；先按官方 README 安装或运行，再把真实任务输入给它，最终得到官方描述所对应的结果。
+按 README 克隆和运行 setup，确认 Claude Code、Git 和 Bun 等依赖；先用 `/office-hours` 描述目标，对已有改动运行 `/review`，在测试地址或隔离环境用 `/qa` 核验。
 
 ## 实际例子
-**可推导用法**：场景 → 需要“一组面向 Claude Code 的角色化工程工具，覆盖 CEO、设计、工程管理、发布、文档和 QA。”对应能力；输入 → 实际项目/任务；操作 → 按官方仓库说明运行；输出 → 对应工具或工作流结果。
-
-> 当前资料核对日期：2026-10-08；“可推导用法”不是官方案例。
+**可推导用法 → 场景：** 为新结账流程做上线前检查。**输入：** 功能目标、待审分支和测试站点。**操作：** 先做计划评审，再对 diff 运行 `/review`，最后让 `/qa` 在测试环境执行结账流程。**输出：** 设计取舍、代码问题及可追踪的验证结果。
 
 ## 适合谁
-需要该仓库所声明能力的开发者或团队。
+使用 Claude Code 开发产品，需要补齐评审和 QA 流程的个人开发者与技术团队。
 
 ## 局限 / 注意点
-- 历史归档只保存榜单顺序；项目能力、版本和限制需以当前官方仓库为准。
+需要配套运行时，部分安全工具还需本机编译工具链；角色技能和作者生产力数据不能保证任意项目效果。浏览器、发布与真实账户操作需按实际环境配置权限。
 
 ## Trending 历史
-- 2026-10-05：#14
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-10-05 | 14 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 
-## GitHub
+## GitHub 原始链接
 https://github.com/garrytan/gstack
+
+## 官方资料复核（2026-10-13）
+- README：https://github.com/garrytan/gstack/blob/main/README.md
+- README blob SHA：`fadbffd525886adc9a898bf47b06cef1d73a4f38`
+- 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。

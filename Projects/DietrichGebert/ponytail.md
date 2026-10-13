@@ -1,24 +1,39 @@
 ---
-repo: "DietrichGebert/ponytail"
-url: "https://github.com/DietrichGebert/ponytail"
-first_seen: "2026-09-15"
-last_seen: "2026-10-05"
-trending_count: 6
+repo: DietrichGebert/ponytail
+url: https://github.com/DietrichGebert/ponytail
+first_seen: '2026-10-01'
+last_seen: '2026-10-05'
+trending_count: 5
 github_rank: 4
 stars_today: 743
 total_stars: 149154
 forks: 8018
-language: "JavaScript"
-fetched_at: "2026-10-01T07:59:50+08:00"
-category: ["AI", "Agent", "Skills", "Developer Tools"]
-tags: ["coding-agent", "yagni", "review", "hooks", "skills"]
-topics: ["Agent", "Skills", "Developer-Tools"]
+language: JavaScript
+fetched_at: '2026-10-01T07:59:50+08:00'
+category:
+- AI
+- Agent
+- Skills
+- Developer Tools
+tags:
+- coding-agent
+- yagni
+- review
+- hooks
+- skills
+topics:
+- Agent
+- Skills
+- Developer-Tools
 status: active
-type: "github-project"
-stats_as_of: "2026-10-01"
-documentation_checked_at: "2026-10-13"
+type: github-project
+stats_as_of: '2026-10-01'
+documentation_checked_at: '2026-10-13'
 ---
+
 # DietrichGebert/ponytail
+
+> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 给 Coding Agent 加一套“先复用、再删减、最后才新增抽象”的工程约束，减少过度设计和无必要代码。
@@ -32,10 +47,7 @@ documentation_checked_at: "2026-10-13"
 安装插件并信任两个生命周期 hooks；在开始实现和审查 diff 时启用 ponytail，让 Agent 先搜索现有能力、删除冗余方案，再保留满足需求与安全性的最小改动。
 
 ## 实际例子
-**可推导用法：** 场景 → Agent 准备用新框架实现一个布尔配置。 **输入 →** 需求、现有代码和候选 diff。 **操作 →** 启用 `/ponytail:ponytail-review`，逐项检查复用点和不必要抽象。 **输出 →** 收敛为一个配置字段、必要判断和对应测试的最小补丁。
-
-    codex plugin marketplace add DietrichGebert/ponytail
-    codex plugin add ponytail@ponytail
+**可推导用法 → 场景：** Agent 准备用新框架实现一个布尔配置。**输入：** 需求、现有代码和候选 diff。**操作：** 启用 `/ponytail-review`，检查现有组件复用、不必要抽象及变更影响。**输出：** 满足需求的最小补丁与需要保留的测试、验证和错误处理。
 
 ## 适合谁
 希望 Coding Agent 少写样板、少造抽象，同时保留测试和错误处理的个人与工程团队。
@@ -44,33 +56,28 @@ documentation_checked_at: "2026-10-13"
 它是行为约束而非静态证明，不能保证所有简化都正确；严格等级可能压制确有价值的扩展性设计，仍需人类结合长期需求审查。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-15 | 未保存 | +1539 | 未保存 |
-| 2026-10-01 | 5 | +743 | 149154 |
-| 2026-10-02 | 1 | 未保存 | 未保存 |
-| 2026-10-03 | 4 | 未保存 | 未保存 |
-| 2026-10-04 | 1 | 未保存 | 未保存 |
-| 2026-10-05 | 4 | 未保存 | 未保存 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
+|---|---:|---:|---:|---|
+| 2026-10-01 | 5 | 743 | 149154 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-02 | 1 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
+| 2026-10-03 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
+| 2026-10-04 | 1 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-05 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
-- [[Daily/2026/09/2026-09-15|2026-09-15]]
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
 - [[Daily/2026/10/2026-10-02|2026-10-02]]
 - [[Daily/2026/10/2026-10-03|2026-10-03]]
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 
-
-
 ## GitHub 原始链接
 https://github.com/DietrichGebert/ponytail
 
-
 ## 官方资料复核（2026-10-13）
 - README：https://github.com/DietrichGebert/ponytail/blob/main/README.md
-- README blob SHA：a9508bc7f464402bd028aab1f58cee9cf3f36603
-- 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。
+- README blob SHA：`a9508bc7f464402bd028aab1f58cee9cf3f36603`
+- 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。

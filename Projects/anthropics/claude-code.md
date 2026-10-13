@@ -1,14 +1,30 @@
 ---
 type: github-project
-repo: "anthropics/claude-code"
-url: "https://github.com/anthropics/claude-code"
-category: ["Coding Agent", "CLI", "Developer Tools"]
-topics: ["Coding Agent", "CLI", "Developer Tools"]
-first_seen: 2026-09-17
-last_seen: 2026-10-04
+repo: anthropics/claude-code
+url: https://github.com/anthropics/claude-code
+category:
+- Coding Agent
+- CLI
+- Developer Tools
+topics:
+- Coding Agent
+- CLI
+- Developer Tools
+first_seen: '2026-09-17'
+last_seen: '2026-10-04'
 trending_count: 6
+github_rank: 16
+documentation_checked_at: '2026-10-13'
+stats_as_of: '2026-09-18'
+stars_today: 538
+total_stars: null
+forks: null
+language: null
 ---
+
 # anthropics/claude-code
+
+> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 运行在终端、IDE 与 GitHub 工作流中的 Agentic Coding 工具，可理解代码库并通过自然语言执行修改、解释和 Git 任务。
@@ -23,7 +39,13 @@ trending_count: 6
 官方入门：使用安装脚本安装后进入目标仓库运行 `claude`，描述边界清晰的任务；先让它分析与规划，再审阅文件改动和测试结果，敏感命令保持人工批准。
 
 ## 实际例子
-**资料中的具体工作流：** 官方入门：使用安装脚本安装后进入目标仓库运行 `claude`，描述边界清晰的任务；先让它分析与规划，再审阅文件改动和测试结果，敏感命令保持人工批准。
+**可推导用法 → 场景：** 修复跨文件的登录校验 bug。**输入：** 仓库、复现步骤和预期登录行为。**操作：** 在仓库启动 `claude`，要求定位调用链、修改代码并重跑登录测试。**输出：** 可审查的 diff、测试结果和未解决事项。
+
+## 适合谁
+希望在终端或 IDE 中让 Agent 完成代码理解、修改、测试和 Git 工作流的软件开发者。
+
+## 局限 / 注意点
+文件、终端、网络和 Git 权限会带来较高执行风险；模型调用有费用与数据策略要求，生产仓库应配套沙箱、凭据隔离、审批和审计。
 
 ## 关键命令
 ```bash
@@ -31,21 +53,15 @@ curl -fsSL https://claude.ai/install.sh | bash
 claude
 ```
 
-## 适合谁
-希望在终端或 IDE 中让 Agent 完成代码理解、修改、测试和 Git 工作流的软件开发者。
-
-## 局限 / 注意点
-- 文件、终端、网络和 Git 权限会带来较高执行风险；模型调用有费用与数据策略要求，生产仓库应配套沙箱、凭据隔离、审批和审计。
-
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-17 | 11 | 未保存 | 未保存 | 仓库已存快照 |
-| 2026-09-18 | 6 | 538 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-19 | 2 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
-| 2026-09-20 | 5 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
-| 2026-09-21 | 7 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
-| 2026-10-04 | 16 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-17 | 11 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json) |
+| 2026-09-18 | 6 | 538 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json) |
+| 2026-09-19 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json) |
+| 2026-09-20 | 5 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json) |
+| 2026-09-21 | 7 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json) |
+| 2026-10-04 | 16 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 
 ## 相关主题
 [[Topics/Coding Agent|Coding Agent]] · [[Topics/CLI|CLI]] · [[Topics/Developer Tools|Developer Tools]]
@@ -61,44 +77,7 @@ claude
 ## GitHub 原始链接
 https://github.com/anthropics/claude-code
 
-## 官方资料核对
-- 核对日期：2026-10-10
-- README：https://github.com/anthropics/claude-code/blob/HEAD/README.md
-- 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
-
-## 2026-09-17 历史核验
-- GitHub Trending 原始排名：#11
-- Stars Today：未保存
-- Language / Total Stars / Forks：未保存
-- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
-- 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
-
-## 2026-09-18 历史核验
-- GitHub Trending 原始排名：#6
-- Stars Today：538
-- Language / Total Stars / Forks：未保存
-- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
-- 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。
-
-
-## 2026-09-19 历史核验
-- GitHub Trending 原始排名：#2
-- Stars Today：未保存
-- Language / Total Stars / Forks：未保存
-- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json)
-- 归档提交时间：2026-09-19T00:04:06Z；该时间不是页面抓取时间。
-
-
-## 2026-09-20 历史核验
-- GitHub Trending 原始排名：#5
-- Stars Today：未保存
-- Language / Total Stars / Forks：未保存
-- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
-- 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。
-
-
-## 2026-09-21 历史核验
-- GitHub Trending 原始排名：#7
-- Language / Total Stars / Forks / Stars Today：未保存
-- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json)
-- 归档提交时间：2026-09-21T00:01:57Z；该时间不是页面抓取时间。
+## 官方资料复核（2026-10-13）
+- README：https://github.com/anthropics/claude-code/blob/main/README.md
+- README blob SHA：`80aa75edf74a5f9e1269811b4e8b5852be91e66e`
+- 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
