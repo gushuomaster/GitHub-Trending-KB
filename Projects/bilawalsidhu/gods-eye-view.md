@@ -3,14 +3,14 @@ type: github-project
 repo: "bilawalsidhu/gods-eye-view"
 url: "https://github.com/bilawalsidhu/gods-eye-view"
 first_seen: 2026-09-11
-last_seen: "2026-10-13"
-trending_count: 6
-language: "JavaScript"
-total_stars: 53623
-forks: 10601
-stars_today: 1895
+last_seen: '2026-10-14'
+trending_count: 7
+language: JavaScript
+total_stars: 55341
+forks: 10823
+stars_today: 1961
 github_rank: 2
-fetched_at: "2026-10-13T08:05:00+08:00"
+fetched_at: '2026-10-14T08:03:30+08:00'
 category: ["OSINT","Visualization","Geospatial"]
 topics: ["OSINT","Visualization","Geospatial"]
 ---
@@ -48,6 +48,8 @@ topics: ["OSINT","Visualization","Geospatial"]
 
 | 2026-10-13 | 2 | 1895 | 53623 | GitHub Today live snapshot |
 
+| 2026-10-14 | 2 | 1961 | 55341 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/OSINT|OSINT]] · [[Topics/Visualization|Visualization]] · [[Topics/Geospatial|Geospatial]]
 
@@ -60,11 +62,13 @@ topics: ["OSINT","Visualization","Geospatial"]
 
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
 
+- [[Daily/2026/10/2026-10-14|2026-10-14]]
+
 ## GitHub 原始链接
 https://github.com/bilawalsidhu/gods-eye-view
 
 ## 官方资料核对
-- 核对日期：2026-10-13
+- 核对日期：2026-10-14
 - README：https://github.com/bilawalsidhu/gods-eye-view/blob/main/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与 2026-09-11 的历史版本完全相同。
 
@@ -90,5 +94,6 @@ https://github.com/bilawalsidhu/gods-eye-view
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7f52444fb280229de8751e204240886016f5c56f/archive/repository/2026/2026-09-14/(null).json)
 - 归档提交时间：2026-09-14T00:00:43Z；该时间不是页面抓取时间。
+
 
 

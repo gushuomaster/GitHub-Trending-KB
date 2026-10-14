@@ -3,10 +3,16 @@ type: github-project
 repo: "vercel-labs/skills"
 url: "https://github.com/vercel-labs/skills"
 first_seen: 2026-09-11
-last_seen: 2026-09-11
-trending_count: 1
+last_seen: '2026-10-14'
+trending_count: 2
 category: ["AI","Skills","Developer-Tools"]
 topics: ["AI","Skills","Developer-Tools"]
+language: TypeScript
+total_stars: 34481
+forks: 2952
+stars_today: 190
+github_rank: 6
+fetched_at: '2026-10-14T08:03:30+08:00'
 ---
 # vercel-labs/skills
 
@@ -41,16 +47,21 @@ npx skills add vercel-labs/agent-skills --skill web-design-guidelines -g -a code
 |---|---:|---:|---:|---|
 | 2026-09-11 | 15 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
 
+| 2026-10-14 | 6 | 190 | 34481 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-11|2026-09-11]]
 
+- [[Daily/2026/10/2026-10-14|2026-10-14]]
+
 ## GitHub 原始链接
 https://github.com/vercel-labs/skills
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-14
 - README：https://github.com/vercel-labs/skills/blob/main/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与 2026-09-11 的历史版本完全相同。
+

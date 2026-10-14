@@ -3,14 +3,14 @@ type: github-project
 repo: mksglu/context-mode
 url: https://github.com/mksglu/context-mode
 first_seen: '2026-09-09'
-last_seen: '2026-10-13'
-trending_count: 7
+last_seen: '2026-10-14'
+trending_count: 8
 language: TypeScript
-total_stars: 27272
-forks: 1942
-stars_today: 246
-github_rank: 3
-fetched_at: '2026-10-13T08:05:00+08:00'
+total_stars: 28215
+forks: 1991
+stars_today: 969
+github_rank: 4
+fetched_at: '2026-10-14T08:03:30+08:00'
 category:
 - AI
 - Agent
@@ -26,13 +26,13 @@ topics:
 - Agent
 - Context-Engineering
 - Developer-Tools
-documentation_checked_at: '2026-10-13'
-stats_as_of: '2026-10-13'
+documentation_checked_at: '2026-10-14'
+stats_as_of: '2026-10-14'
 ---
 
 # mksglu/context-mode
 
-> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-14 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 把大型工具输出留在本地沙箱和可检索存储中，只向 Agent 返回摘要与命中片段，从而延长长任务的有效上下文。
@@ -72,6 +72,8 @@ stats_as_of: '2026-10-13'
 | 2026-10-11 | 5 | 178 | 26306 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-13 | 3 | 246 | 27272 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 
+| 2026-10-14 | 4 | 969 | 28215 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Context-Engineering|Context-Engineering]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -84,10 +86,13 @@ stats_as_of: '2026-10-13'
 - [[Daily/2026/10/2026-10-11|2026-10-11]]
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
 
+- [[Daily/2026/10/2026-10-14|2026-10-14]]
+
 ## GitHub 原始链接
 https://github.com/mksglu/context-mode
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-14）
 - README：https://github.com/mksglu/context-mode/blob/main/README.md
 - README blob SHA：`b796169524473691594af24995d21ca94027f7c7`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+

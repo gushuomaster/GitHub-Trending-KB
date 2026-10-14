@@ -3,14 +3,14 @@ type: github-project
 repo: "lyogavin/airllm"
 url: "https://github.com/lyogavin/airllm"
 first_seen: "2026-10-12"
-last_seen: "2026-10-13"
-trending_count: 2
-language: "Jupyter Notebook"
-total_stars: 37505
-forks: 3870
-stars_today: 879
+last_seen: '2026-10-14'
+trending_count: 3
+language: 'Jupyter Notebook'
+total_stars: 38309
+forks: 3916
+stars_today: 1001
 github_rank: 7
-fetched_at: "2026-10-13T08:05:00+08:00"
+fetched_at: '2026-10-14T08:03:30+08:00'
 category: ["AI", "Inference"]
 tags: ["github/ai", "github/llm", "github/inference"]
 ---
@@ -49,6 +49,8 @@ model = AutoModel.from_pretrained("Qwen/Qwen3-32B")
 
 - 2026-10-13：#7 · Stars Today：879 · Total Stars：37505 · Forks：3870
 
+- 2026-10-14：#7 · Stars Today：1001 · Total Stars：38309 · Forks：3916
+
 ## 相关主题
 - [[Topics/AI]]
 
@@ -57,11 +59,14 @@ model = AutoModel.from_pretrained("Qwen/Qwen3-32B")
 
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
 
+- [[Daily/2026/10/2026-10-14|2026-10-14]]
+
 ## GitHub 原始链接
 https://github.com/lyogavin/airllm
 
 ## 官方资料核对
-- 核对日期：2026-10-13
+- 核对日期：2026-10-14
 - README：https://github.com/lyogavin/airllm/blob/main/README.md
+
 
 

@@ -3,14 +3,14 @@ type: "github-project"
 repo: "storytold/artcraft"
 url: "https://github.com/storytold/artcraft"
 first_seen: "2026-10-09"
-last_seen: "2026-10-13"
-trending_count: 5
-language: "Rust"
-total_stars: 21922
-forks: 3543
-stars_today: 4095
-github_rank: 4
-fetched_at: "2026-10-13T08:05:00+08:00"
+last_seen: '2026-10-14'
+trending_count: 6
+language: Rust
+total_stars: 25606
+forks: 4022
+stars_today: 4081
+github_rank: 8
+fetched_at: '2026-10-14T08:03:30+08:00'
 category: ["AI", "Creative-Tools"]
 tags: ["github/ai", "github/image", "github/video", "github/rust"]
 ---
@@ -47,6 +47,8 @@ tags: ["github/ai", "github/image", "github/video", "github/rust"]
 
 - 2026-10-13：#4 · Stars Today：4095 · Total Stars：21922 · Forks：3543
 
+- 2026-10-14：#8 · Stars Today：4081 · Total Stars：25606 · Forks：4022
+
 ## 相关主题
 - [[Topics/AI]]
 
@@ -59,12 +61,15 @@ tags: ["github/ai", "github/image", "github/video", "github/rust"]
 
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
 
+- [[Daily/2026/10/2026-10-14|2026-10-14]]
+
 ## GitHub 原始链接
 https://github.com/storytold/artcraft
 
 ## 官方资料核对
-- 核对日期：2026-10-13
+- 核对日期：2026-10-14
 - README：https://github.com/storytold/artcraft/blob/main/README.md
 - README blob SHA：26fe9590761d4bf763efd25b9daf3918c8dd12dc
+
 
 

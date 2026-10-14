@@ -5,8 +5,14 @@ url: "https://github.com/debpalash/VoiceStudio"
 category: ["Audio","Voice","Local AI"]
 topics: ["Audio","Voice","Local AI"]
 first_seen: 2026-09-14
-last_seen: 2026-10-01
-trending_count: 7
+last_seen: '2026-10-14'
+trending_count: 8
+language: Python
+total_stars: 63197
+forks: 7032
+stars_today: 1748
+github_rank: 3
+fetched_at: '2026-10-14T08:03:30+08:00'
 ---
 # debpalash/VoiceStudio
 
@@ -42,6 +48,8 @@ trending_count: 7
 | 2026-09-30 | 1 | 4758 | 48048 | 仓库已存快照 |
 | 2026-10-01 | 2 | 3483 | 50401 | 仓库已存快照 |
 
+| 2026-10-14 | 3 | 1748 | 63197 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Audio|Audio]] · [[Topics/Voice|Voice]] · [[Topics/Local AI|Local AI]]
 
@@ -54,11 +62,13 @@ trending_count: 7
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
 
+- [[Daily/2026/10/2026-10-14|2026-10-14]]
+
 ## GitHub 原始链接
 https://github.com/debpalash/VoiceStudio
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-14
 - README：https://github.com/debpalash/VoiceStudio/blob/HEAD/README.md
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
 
@@ -75,3 +85,4 @@ https://github.com/debpalash/VoiceStudio
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/01abc33224d0523ab2a25bced4e1258b69fc6015/archive/repository/2026/2026-09-16/(null).json)
 - 归档提交时间：2026-09-16T01:13:23Z；该时间不是页面抓取时间。
+

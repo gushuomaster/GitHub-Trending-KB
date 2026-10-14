@@ -3,14 +3,14 @@ type: github-project
 repo: cathrynlavery/diagram-design
 url: https://github.com/cathrynlavery/diagram-design
 first_seen: '2026-09-09'
-last_seen: '2026-10-13'
-trending_count: 10
+last_seen: '2026-10-14'
+trending_count: 11
 language: HTML
-total_stars: 52558
-forks: 3323
-stars_today: 2081
-github_rank: 6
-fetched_at: '2026-10-13T08:05:00+08:00'
+total_stars: 54075
+forks: 3430
+stars_today: 1815
+github_rank: 5
+fetched_at: '2026-10-14T08:03:30+08:00'
 category:
 - AI
 - Developer-Tools
@@ -20,13 +20,13 @@ tags:
 topics:
 - AI
 - Developer-Tools
-documentation_checked_at: '2026-10-13'
-stats_as_of: '2026-10-13'
+documentation_checked_at: '2026-10-14'
+stats_as_of: '2026-10-14'
 ---
 
 # cathrynlavery/diagram-design
 
-> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-14 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 让 Coding Agent 把系统关系、流程和数据结构绘成可直接打开的 HTML＋SVG 图，并按品牌样式控制版式。
@@ -68,6 +68,8 @@ codex plugin add diagram-design@diagram-design
 | 2026-10-12 | 4 | 1083 | 50304 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-13 | 6 | 2081 | 52558 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 
+| 2026-10-14 | 5 | 1815 | 54075 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -83,10 +85,13 @@ codex plugin add diagram-design@diagram-design
 - [[Daily/2026/10/2026-10-12|2026-10-12]]
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
 
+- [[Daily/2026/10/2026-10-14|2026-10-14]]
+
 ## GitHub 原始链接
 https://github.com/cathrynlavery/diagram-design
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-14）
 - README：https://github.com/cathrynlavery/diagram-design/blob/main/README.md
 - README blob SHA：`f0ee83e95267aec143a3304f6d31d4416c8678af`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+

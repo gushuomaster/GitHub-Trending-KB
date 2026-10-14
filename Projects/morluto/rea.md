@@ -2,22 +2,22 @@
 type: github-project
 repo: morluto/rea
 first_seen: '2026-10-07'
-last_seen: '2026-10-13'
+last_seen: '2026-10-14'
 language: TypeScript
-total_stars: 155789
-forks: 35890
-stars_today: 45327
+total_stars: 206380
+forks: 50280
+stars_today: 54679
 github_rank: 1
-trending_count: 7
-fetched_at: '2026-10-13T08:05:00+08:00'
+trending_count: 8
+fetched_at: '2026-10-14T08:03:30+08:00'
 url: https://github.com/morluto/rea
-documentation_checked_at: '2026-10-13'
-stats_as_of: '2026-10-13'
+documentation_checked_at: '2026-10-14'
+stats_as_of: '2026-10-14'
 ---
 
 # morluto/rea
 
-> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-14 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 让 Coding Agent 调查无源码应用、Electron 程序和原生二进制，给出功能实现机制、证据与分析边界。
@@ -54,6 +54,8 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 | 2026-10-12 | 1 | 25599 | 103465 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-13 | 1 | 45327 | 155789 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 
+| 2026-10-14 | 1 | 54679 | 206380 | GitHub Today live snapshot |
+
 ## 相关主题
 - [[Topics/AI]]
 
@@ -66,10 +68,13 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 - [[Daily/2026/10/2026-10-12|2026-10-12]]
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
 
+- [[Daily/2026/10/2026-10-14|2026-10-14]]
+
 ## GitHub 原始链接
 https://github.com/morluto/rea
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-14）
 - README：https://github.com/morluto/rea/blob/main/README.md
 - README blob SHA：`c4a89bceee4b0f0bde03bc7719088f4a7fc6b632`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
