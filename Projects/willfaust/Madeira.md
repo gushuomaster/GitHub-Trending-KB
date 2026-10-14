@@ -54,3 +54,6 @@ git clone --recurse-submodules https://github.com/willfaust/Madeira.git
 ## 相关日报
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
+
+## GitHub 原始链接
+https://github.com/willfaust/Madeira

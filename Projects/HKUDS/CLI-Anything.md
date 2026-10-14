@@ -51,3 +51,6 @@ status: active
 ## 相关日报
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
+
+## GitHub 原始链接
+https://github.com/HKUDS/CLI-Anything

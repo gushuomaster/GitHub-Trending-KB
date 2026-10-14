@@ -46,3 +46,6 @@ Claude Code 的 Agent、Commands、Hooks、MCP、Skills 和配置模板集合，
 ## 相关日报
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+
+## GitHub 原始链接
+https://github.com/davila7/claude-code-templates

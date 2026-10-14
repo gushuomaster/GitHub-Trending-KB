@@ -54,3 +54,6 @@ status: active
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
+
+## GitHub 原始链接
+https://github.com/NVIDIA/Model-Optimizer

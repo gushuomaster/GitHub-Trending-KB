@@ -54,3 +54,6 @@ https://github.com/jamwithai/production-agentic-rag-course
 - README：https://github.com/jamwithai/production-agentic-rag-course/blob/main/README.md
 - README blob SHA：`eb92e0fb2153a78f2b235d0597ff9128e9c43229`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/RAG|RAG]] · [[Topics/Course|Course]]

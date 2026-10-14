@@ -50,3 +50,6 @@ status: active
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
+
+## GitHub 原始链接
+https://github.com/leejet/stable-diffusion.cpp

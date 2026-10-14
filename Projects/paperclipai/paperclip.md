@@ -64,3 +64,6 @@ bash install.sh
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
+
+## GitHub 原始链接
+https://github.com/paperclipai/paperclip

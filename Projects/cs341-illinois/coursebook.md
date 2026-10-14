@@ -54,3 +54,5 @@ status: active
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
 
+## GitHub 原始链接
+https://github.com/cs341-illinois/coursebook

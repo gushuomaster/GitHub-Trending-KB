@@ -57,3 +57,6 @@ https://github.com/pingdotgg/t3code
 - README：https://github.com/pingdotgg/t3code/blob/main/README.md
 - README blob SHA：`8aa78f81b9ad72753cde7a8d3106ef8c7a8f0697`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer Tools]]

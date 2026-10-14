@@ -46,3 +46,6 @@ status: active
 ## 相关日报
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+
+## GitHub 原始链接
+https://github.com/browser-use/video-use

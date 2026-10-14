@@ -45,3 +45,6 @@ status: active
 [[Topics/Visualization|Visualization]] · [[Topics/Developer-Tools|Developer-Tools]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+
+## GitHub 原始链接
+https://github.com/harry7557558/spirula-studio

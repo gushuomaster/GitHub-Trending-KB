@@ -65,3 +65,6 @@ https://github.com/manaflow-ai/cmux
 - 核对日期：2026-10-08
 - README：https://github.com/manaflow-ai/cmux/blob/main/README.md
 - README blob SHA：6a55ca4cf3e938d77c679712d83d8f229bc490aa
+
+## GitHub 原始链接
+https://github.com/manaflow-ai/cmux

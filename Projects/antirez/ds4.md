@@ -53,3 +53,6 @@ https://github.com/antirez/ds4
 - README：https://github.com/antirez/ds4/blob/main/README.md
 - README blob SHA：`5c3dbf923ec9ebc444f53b3b95fc18a409a8cf5a`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Inference|Inference]] · [[Topics/Local-AI|Local AI]]

@@ -45,3 +45,6 @@ AI 分析不是投资建议；真实交易前需独立验证数据延迟、策�
 [[Topics/Quant|Quant]] · [[Topics/Agent|Agent]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+
+## GitHub 原始链接
+https://github.com/TNT-Likely/PanWatch

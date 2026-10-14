@@ -45,3 +45,6 @@ status: active
 [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Context-Engineering|Context-Engineering]]
 ## 相关日报
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
+
+## GitHub 原始链接
+https://github.com/DeusData/codebase-memory-mcp

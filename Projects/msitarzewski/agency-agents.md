@@ -55,3 +55,6 @@ https://github.com/msitarzewski/agency-agents
 - README：https://github.com/msitarzewski/agency-agents/blob/main/README.md
 - README blob SHA：`89f77d994487257faa0f6066ee68af2d4a596fe6`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]]

@@ -50,3 +50,6 @@ CI 遇到环境差异时先查对应镜像软件清单和公告；需要固定�
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
+
+## GitHub 原始链接
+https://github.com/actions/runner-images

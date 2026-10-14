@@ -5,8 +5,8 @@ url: "https://github.com/Tencent/WeKnora"
 category: ["RAG", "Knowledge Base", "AI Agent"]
 topics: ["RAG", "Knowledge Base", "AI Agent"]
 first_seen: 2026-09-17
-last_seen: 2026-09-21
-trending_count: 3
+last_seen: 2026-09-18
+trending_count: 2
 ---
 # Tencent/WeKnora
 
@@ -42,7 +42,6 @@ docker compose up -d
 |---|---:|---:|---:|---|
 | 2026-09-17 | 16 | 696 | 未保存 | 仓库已存快照 |
 | 2026-09-18 | 9 | 1123 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-21 | 2 | 未保存 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/RAG|RAG]] · [[Topics/Knowledge Base|Knowledge Base]] · [[Topics/AI Agent|AI Agent]]
@@ -50,7 +49,6 @@ docker compose up -d
 ## 相关日报
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
-- [[Daily/2026/09/2026-09-21|2026-09-21]]
 
 ## GitHub 原始链接
 https://github.com/Tencent/WeKnora

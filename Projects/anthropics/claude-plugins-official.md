@@ -50,3 +50,6 @@ Anthropic 管理的 Claude Code 插件目录，集中提供可安装的命令、
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
+
+## GitHub 原始链接
+https://github.com/anthropics/claude-plugins-official

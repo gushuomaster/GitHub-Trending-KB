@@ -82,3 +82,6 @@ https://github.com/trycua/cua
 - Language / Total Stars / Forks / Stars Today：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json)
 - 归档提交时间：2026-09-21T00:01:57Z；该时间不是页面抓取时间。
+
+## GitHub 原始链接
+https://github.com/trycua/cua

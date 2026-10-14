@@ -3,10 +3,10 @@ type: github-project
 repo: "openai/plugins"
 url: "https://github.com/openai/plugins"
 first_seen: 2026-09-09
-last_seen: 2026-09-15
-trending_count: 3
+last_seen: 2026-09-10
+trending_count: 2
 language: "JavaScript"
-stars_today: 105
+stars_today: 505
 category: ["AI", "Agent", "Skills", "Developer-Tools"]
 tags: ["ai", "agent", "skills", "developer-tools"]
 topics: ["AI", "Agent", "Skills", "Developer-Tools"]
@@ -45,7 +45,6 @@ OpenAI 维护的 Codex 插件示例目录，展示如何把 Skills、MCP、Agent
 |---|---:|---:|---:|---|
 | 2026-09-09 | 16 | 未保存 | 未保存 | 归档顺序；统计来自原有快照或未保存 |
 | 2026-09-10 | 未保存 | 505 | 未保存 | 仓库索引 |
-| 2026-09-15 | 未保存 | 105 | 未保存 | 仓库索引 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -53,7 +52,6 @@ OpenAI 维护的 Codex 插件示例目录，展示如何把 Skills、MCP、Agent
 ## 相关日报
 - [[Daily/2026/09/2026-09-09|2026-09-09]]
 - [[Daily/2026/09/2026-09-10|2026-09-10]]
-- [[Daily/2026/09/2026-09-15|2026-09-15]]
 
 ## GitHub 原始链接
 https://github.com/openai/plugins

@@ -54,3 +54,6 @@ Mobile Verification Toolkit，用于在设备所有者授权下分析 iOS/Androi
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
+
+## GitHub 原始链接
+https://github.com/mvt-project/mvt

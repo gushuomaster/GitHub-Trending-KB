@@ -53,3 +53,6 @@ https://github.com/michael-denyer/pstack-claude
 - README：https://github.com/michael-denyer/pstack-claude/blob/main/README.md
 - README blob SHA：`5e39261f518d4eb4b658fe4b1544166add230ef6`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]]

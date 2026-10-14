@@ -50,3 +50,6 @@ README 明确结果不适合生产；版本与基础设施要求会变化，学�
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
+
+## GitHub 原始链接
+https://github.com/kelseyhightower/kubernetes-the-hard-way

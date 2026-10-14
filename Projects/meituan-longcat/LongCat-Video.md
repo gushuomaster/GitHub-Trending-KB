@@ -53,3 +53,6 @@ https://github.com/meituan-longcat/LongCat-Video
 - README：https://github.com/meituan-longcat/LongCat-Video/blob/main/README.md
 - README blob SHA：`9d6e54ad0c5ad07e66840f23349efca828f5b86f`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Video-Generation|Video Generation]] · [[Topics/Multimodal|Multimodal]]

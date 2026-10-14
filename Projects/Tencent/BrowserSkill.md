@@ -3,8 +3,8 @@ type: github-project
 repo: "Tencent/BrowserSkill"
 url: "https://github.com/Tencent/BrowserSkill"
 first_seen: 2026-09-18
-last_seen: 2026-09-21
-trending_count: 3
+last_seen: 2026-09-19
+trending_count: 2
 category: ["Browser Automation", "AI Agent", "Developer Tools"]
 topics: ["Browser Automation", "AI Agent", "Developer Tools"]
 ---
@@ -41,7 +41,6 @@ bsk --version
 |---|---:|---:|---:|---|
 | 2026-09-18 | 4 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 5 | 1319 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
-| 2026-09-21 | 3 | 744 | 未保存 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/Browser Automation|Browser Automation]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Developer Tools|Developer Tools]]
@@ -49,7 +48,6 @@ bsk --version
 ## 相关日报
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
 - [[Daily/2026/09/2026-09-19|2026-09-19]]
-- [[Daily/2026/09/2026-09-21|2026-09-21]]
 
 ## GitHub 原始链接
 https://github.com/Tencent/BrowserSkill

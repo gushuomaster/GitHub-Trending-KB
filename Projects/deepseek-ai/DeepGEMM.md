@@ -53,3 +53,6 @@ https://github.com/deepseek-ai/DeepGEMM
 - README：https://github.com/deepseek-ai/DeepGEMM/blob/main/README.md
 - README blob SHA：`d1f793f450cb502d0129732c178bcda69b6bf69b`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/CUDA|CUDA]] · [[Topics/Inference|Inference]]

@@ -54,3 +54,6 @@ scriptc build hello.ts -o hello
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-28|2026-09-28]]
+
+## GitHub 原始链接
+https://github.com/vercel-labs/scriptc

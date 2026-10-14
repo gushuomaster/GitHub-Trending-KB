@@ -51,3 +51,5 @@ status: active
 ## 相关日报
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
 
+## GitHub 原始链接
+https://github.com/ComposioHQ/awesome-claude-skills

@@ -50,3 +50,6 @@ Code‑OSS 不等同于微软分发版 VS Code；大型仓库构建成本高，A
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
+
+## GitHub 原始链接
+https://github.com/microsoft/vscode

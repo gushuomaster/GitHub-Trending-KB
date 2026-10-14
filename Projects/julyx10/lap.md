@@ -47,3 +47,6 @@ Collection/Tag/Rating 等组织信息保存在 Lap 本地数据库而非 EXIF/XM
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
+
+## GitHub 原始链接
+https://github.com/julyx10/lap

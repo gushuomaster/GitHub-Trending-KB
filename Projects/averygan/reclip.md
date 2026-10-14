@@ -52,3 +52,5 @@ status: active
 ## 相关日报
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
 
+## GitHub 原始链接
+https://github.com/averygan/reclip

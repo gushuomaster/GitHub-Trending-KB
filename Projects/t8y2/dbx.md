@@ -55,3 +55,5 @@ status: active
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
 
+## GitHub 原始链接
+https://github.com/t8y2/dbx

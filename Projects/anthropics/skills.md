@@ -50,3 +50,6 @@ Anthropic 发布的 Agent Skills 示例与生产级文档技能参考库。
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
+
+## GitHub 原始链接
+https://github.com/anthropics/skills

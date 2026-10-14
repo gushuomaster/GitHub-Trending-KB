@@ -53,3 +53,6 @@ https://github.com/garrytan/gstack
 - README：https://github.com/garrytan/gstack/blob/main/README.md
 - README blob SHA：`fadbffd525886adc9a898bf47b06cef1d73a4f38`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 相关主题
+[[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]]
