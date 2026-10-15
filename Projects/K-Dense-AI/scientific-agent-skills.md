@@ -2,9 +2,9 @@
 type: github-project
 repo: K-Dense-AI/scientific-agent-skills
 url: https://github.com/K-Dense-AI/scientific-agent-skills
-first_seen: '2026-09-15'
+first_seen: '2026-10-15'
 last_seen: '2026-10-15'
-trending_count: 2
+trending_count: 1
 language: Python
 total_stars: 49308
 forks: 4420
@@ -53,14 +53,12 @@ gh skill install K-Dense-AI/scientific-agent-skills --skill scanpy
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
-| 2026-09-15 | 未保存 | 912 | 未保存 | 旧项目卡保留的当日记录 |
 | 2026-10-15 | 5 | 163 | 49308 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Scientific Computing|Scientific Computing]]
 
 ## 相关日报
-- [[Daily/2026/09/2026-09-15|2026-09-15]]
 - [[Daily/2026/10/2026-10-15|2026-10-15]]
 
 ## GitHub 原始链接
@@ -68,4 +66,3 @@ https://github.com/K-Dense-AI/scientific-agent-skills
 
 ## 官方资料复核（2026-10-15）
 - README：https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/README.md
-
