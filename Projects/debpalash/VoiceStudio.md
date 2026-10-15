@@ -5,14 +5,14 @@ url: "https://github.com/debpalash/VoiceStudio"
 category: ["Audio","Voice","Local AI"]
 topics: ["Audio","Voice","Local AI"]
 first_seen: 2026-09-14
-last_seen: '2026-10-14'
-trending_count: 8
+last_seen: '2026-10-15'
+trending_count: 9
 language: Python
-total_stars: 63197
-forks: 7032
-stars_today: 1748
-github_rank: 3
-fetched_at: '2026-10-14T08:03:30+08:00'
+total_stars: 66275
+forks: 7312
+stars_today: 3538
+github_rank: 2
+fetched_at: '2026-10-15T08:02:04+08:00'
 ---
 # debpalash/VoiceStudio
 
@@ -49,6 +49,7 @@ fetched_at: '2026-10-14T08:03:30+08:00'
 | 2026-10-01 | 2 | 3483 | 50401 | 仓库已存快照 |
 
 | 2026-10-14 | 3 | 1748 | 63197 | GitHub Today live snapshot |
+| 2026-10-15 | 2 | 3538 | 66275 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Audio|Audio]] · [[Topics/Voice|Voice]] · [[Topics/Local AI|Local AI]]
@@ -63,12 +64,13 @@ fetched_at: '2026-10-14T08:03:30+08:00'
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
 
 - [[Daily/2026/10/2026-10-14|2026-10-14]]
+- [[Daily/2026/10/2026-10-15|2026-10-15]]
 
 ## GitHub 原始链接
 https://github.com/debpalash/VoiceStudio
 
 ## 官方资料核对
-- 核对日期：2026-10-14
+- 核对日期：2026-10-15
 - README：https://github.com/debpalash/VoiceStudio/blob/HEAD/README.md
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
 

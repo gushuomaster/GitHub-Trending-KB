@@ -3,19 +3,19 @@ type: github-project
 repo: "xtool-org/xtool"
 url: "https://github.com/xtool-org/xtool"
 first_seen: "2026-10-14"
-last_seen: "2026-10-14"
-trending_count: 1
+last_seen: "2026-10-15"
+trending_count: 2
 language: "Swift"
-total_stars: 9324
-forks: 396
-stars_today: 1198
-github_rank: 9
-fetched_at: "2026-10-14T08:03:30+08:00"
+total_stars: 10773
+forks: 485
+stars_today: 1502
+github_rank: 10
+fetched_at: "2026-10-15T08:02:04+08:00"
 category: ["iOS", "Developer-Tools", "Cross-Platform"]
 tags: ["github/ios", "github/swift", "github/developer-tools"]
 topics: ["iOS", "Developer-Tools", "Cross-Platform"]
-documentation_checked_at: "2026-10-14"
-stats_as_of: "2026-10-14"
+documentation_checked_at: "2026-10-15"
+stats_as_of: "2026-10-15"
 ---
 # xtool-org/xtool
 
@@ -51,17 +51,19 @@ Windows 通过 WSL 路径使用，README 的支持范围是 Linux/WSL/macOS，�
 
 ## Trending 历史
 - 2026-10-14：#9 · Stars Today：1198 · Total Stars：9324 · Forks：396
+- 2026-10-15：#10 · Stars Today：1502 · Total Stars：10773 · Forks：485
 
 ## 相关主题
 [[Topics/iOS|iOS]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Cross-Platform|Cross-Platform]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-14|2026-10-14]]
+- [[Daily/2026/10/2026-10-15|2026-10-15]]
 
 ## GitHub 原始链接
 https://github.com/xtool-org/xtool
 
-## 官方资料复核（2026-10-14）
+## 官方资料复核（2026-10-15）
 - README：https://github.com/xtool-org/xtool/blob/main/README.md
 - 官方文档：https://xtool.sh/documentation/xtooldocs/
 

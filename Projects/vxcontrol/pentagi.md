@@ -1,46 +1,58 @@
 ---
 type: github-project
-repo: "vxcontrol/pentagi"
-url: "https://github.com/vxcontrol/pentagi"
-first_seen: 2026-09-13
-last_seen: 2026-09-14
-trending_count: 2
-category: ["Security","AI Agent","Self-hosted"]
-topics: ["Security","AI Agent","Self-hosted"]
+repo: vxcontrol/pentagi
+url: https://github.com/vxcontrol/pentagi
+first_seen: '2026-09-13'
+last_seen: '2026-10-15'
+trending_count: 3
+language: Go
+total_stars: 29410
+forks: 4419
+stars_today: 1025
+github_rank: 8
+fetched_at: '2026-10-15T08:02:04+08:00'
+category: [Security, AI Agent, Self-hosted]
+topics: [Security, AI Agent, Self-hosted]
+documentation_checked_at: '2026-10-15'
+stats_as_of: '2026-10-15'
 ---
+
 # vxcontrol/pentagi
 
 ## 一句话说明
-自托管的多 Agent 自动化渗透测试系统，在隔离容器中规划任务、调用安全工具并整理证据与报告。
+在自托管环境中编排多个 AI Agent 和安全工具，对明确授权的目标执行端到端渗透测试并整理证据与报告。
 
 ## 它能做什么
-- 在 Docker 沙箱中编排研究、开发和基础设施等专用 Agent
-- 内置 nmap、Metasploit、sqlmap 等 20 多种安全工具
-- 用 PostgreSQL/pgvector、可选 Graphiti 知识图谱保存命令、输出与长期记忆
-- 提供 Web UI、REST/GraphQL API、监控和漏洞报告
+- 在隔离 Docker 沙箱中编排研究、开发、渗透测试和基础设施 Agent。
+- 调用 nmap、Metasploit、sqlmap 等 20 多种安全工具并保存命令输出。
+- 用 PostgreSQL/pgvector 和可选 Graphiti 维护任务记忆与知识关联。
+- 提供 Web UI、REST/GraphQL API、监控及漏洞报告。
 
 ## 怎么利用
-官方工作流：在实验室或书面授权目标上部署 Docker Compose，配置模型与搜索服务后创建测试任务；监督 Agent 的规划和命令，最后人工复核保存的证据与漏洞报告。
+在隔离实验室或书面授权网络中部署服务，配置模型与搜索提供商，然后给出资产范围、禁止动作和测试目标。PentAGI 规划任务、在容器内调用工具并归档证据，最终输出待人工复核的发现与报告。
 
 ## 实际例子
-**官方材料中的工作流：** 官方工作流：在实验室或书面授权目标上部署 Docker Compose，配置模型与搜索服务后创建测试任务；监督 Agent 的规划和命令，最后人工复核保存的证据与漏洞报告。
+**官方工作流 → 场景：** 对自有靶场 Web 服务做安全评估。**输入：** 靶场地址、授权范围和测试目标。**操作：** 启动 Compose 栈，在 Web UI 创建流程，监督 Agent 的侦察、扫描与验证命令。**输出：** 保存的工具输出、攻击路径和漏洞报告，供测试人员复核。
 
 ## 关键命令
-```bash
+```sh
 docker compose up -d
 ```
 
 ## 适合谁
-在自有实验室或客户授权范围内自动化安全评估的渗透测试与安全研究团队。
+需要在自有实验室或客户书面授权范围内自动化安全评估的渗透测试团队、安全研究员与平台工程师。
 
 ## 局限 / 注意点
-- 只允许用于明确授权的测试范围；LLM 可能误判、执行破坏性命令或生成不可靠利用步骤，容器隔离也不能替代网络分段、最小权限和人工审批。
+- 只允许用于明确授权的目标；LLM 可能误判、执行破坏性命令或生成不可靠利用步骤。
+- Docker socket 与安全工具权限风险较高，容器隔离不能替代网络分段、最小权限、命令审批和人工复核。
+- 官方明确它不是 BAS 产品；生产环境中的持续防御验证需另行设计。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-13 | 16 | 193 | 未保存 | 日期匹配来源 |
 | 2026-09-14 | 8 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-15 | 8 | 1025 | 29410 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Self-hosted|Self-hosted]]
@@ -48,19 +60,12 @@ docker compose up -d
 ## 相关日报
 - [[Daily/2026/09/2026-09-13|2026-09-13]]
 - [[Daily/2026/09/2026-09-14|2026-09-14]]
+- [[Daily/2026/10/2026-10-15|2026-10-15]]
 
 ## GitHub 原始链接
 https://github.com/vxcontrol/pentagi
 
-## 官方资料核对
-- 核对日期：2026-10-09
-- README：https://github.com/vxcontrol/pentagi/blob/HEAD/README.md
-- 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。
+## 官方资料复核（2026-10-15）
+- README：https://github.com/vxcontrol/pentagi/blob/master/README.md
+- 历史核验链接与归档提交时间保留在对应日报及索引记录中；归档提交时间不是页面抓取时间。
 
-
-## 2026-09-14 历史核验
-- GitHub Trending 原始排名：#8
-- Stars Today：未保存
-- Language / Total Stars / Forks：未保存
-- 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7f52444fb280229de8751e204240886016f5c56f/archive/repository/2026/2026-09-14/(null).json)
-- 归档提交时间：2026-09-14T00:00:43Z；该时间不是页面抓取时间。

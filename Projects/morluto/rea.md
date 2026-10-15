@@ -2,17 +2,17 @@
 type: github-project
 repo: morluto/rea
 first_seen: '2026-10-07'
-last_seen: '2026-10-14'
+last_seen: '2026-10-15'
 language: TypeScript
-total_stars: 206380
-forks: 50280
-stars_today: 54679
+total_stars: 241130
+forks: 59983
+stars_today: 41034
 github_rank: 1
-trending_count: 8
-fetched_at: '2026-10-14T08:03:30+08:00'
+trending_count: 9
+fetched_at: '2026-10-15T08:02:04+08:00'
 url: https://github.com/morluto/rea
-documentation_checked_at: '2026-10-14'
-stats_as_of: '2026-10-14'
+documentation_checked_at: '2026-10-15'
+stats_as_of: '2026-10-15'
 ---
 
 # morluto/rea
@@ -55,6 +55,7 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 | 2026-10-13 | 1 | 45327 | 155789 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 
 | 2026-10-14 | 1 | 54679 | 206380 | GitHub Today live snapshot |
+| 2026-10-15 | 1 | 41034 | 241130 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]
@@ -69,11 +70,12 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
 
 - [[Daily/2026/10/2026-10-14|2026-10-14]]
+- [[Daily/2026/10/2026-10-15|2026-10-15]]
 
 ## GitHub 原始链接
 https://github.com/morluto/rea
 
-## 官方资料复核（2026-10-14）
+## 官方资料复核（2026-10-15）
 - README：https://github.com/morluto/rea/blob/main/README.md
 - README blob SHA：`c4a89bceee4b0f0bde03bc7719088f4a7fc6b632`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
