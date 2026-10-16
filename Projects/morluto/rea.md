@@ -17,7 +17,7 @@ stats_as_of: '2026-10-16'
 
 # morluto/rea
 
-> 功能和用法按 2026-10-14 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-16 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 让 Coding Agent 调查无源码应用、Electron 程序和原生二进制，给出功能实现机制、证据与分析边界。
@@ -81,4 +81,5 @@ https://github.com/morluto/rea
 - README：https://github.com/morluto/rea/blob/main/README.md
 - README blob SHA：`c4a89bceee4b0f0bde03bc7719088f4a7fc6b632`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
 

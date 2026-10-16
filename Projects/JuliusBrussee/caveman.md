@@ -30,7 +30,7 @@ stats_as_of: '2026-10-16'
 
 # JuliusBrussee/caveman
 
-> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-16 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 通过本地代理压缩部分工具输入，并用输出 Skill 精简 Agent 回复，保留代码、命令、路径、数字和否定语义。
@@ -81,3 +81,4 @@ https://github.com/JuliusBrussee/caveman
 - README：https://github.com/JuliusBrussee/caveman/blob/main/README.md
 - README blob SHA：`ca076fdedc503792dc2b990293837f822b72baf6`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+

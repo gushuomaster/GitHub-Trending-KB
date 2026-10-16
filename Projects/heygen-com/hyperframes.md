@@ -67,7 +67,7 @@ npx skills add heygen-com/hyperframes
 https://github.com/heygen-com/hyperframes
 
 ## 官方资料核对
-- 核对日期：2026-10-08
+- 核对日期：2026-10-13
 - README：https://github.com/heygen-com/hyperframes/blob/main/README.md
 - README blob SHA：4529ffdda7076e54a94d380009d3cd5be6cff30d
 - 说明：项目卡反映核对日的当前官方资料；不声称这些能力与 2026-09-09 的历史版本完全相同。
@@ -77,3 +77,4 @@ https://github.com/heygen-com/hyperframes
 - README：https://github.com/heygen-com/hyperframes/blob/main/README.md
 - README blob SHA：4529ffdda7076e54a94d380009d3cd5be6cff30d
 - 说明：本卡的功能说明按核对日当前官方资料更新，不声称等同于历史上榜日版本。
+
