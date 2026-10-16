@@ -3,13 +3,14 @@ type: github-project
 repo: obra/superpowers
 url: https://github.com/obra/superpowers
 first_seen: '2026-09-09'
-last_seen: '2026-10-04'
-trending_count: 10
+last_seen: '2026-10-16'
+trending_count: 11
 language: Shell
-total_stars: 290633
-forks: 26006
-stars_today: 485
-github_rank: 11
+total_stars: 299875
+forks: 26781
+stars_today: 582
+github_rank: 6
+fetched_at: '2026-10-16T08:10:32+08:00'
 category:
 - AI
 - Skills
@@ -22,8 +23,8 @@ topics:
 - AI
 - Skills
 - Developer-Tools
-stats_as_of: '2026-09-24'
-documentation_checked_at: '2026-10-13'
+stats_as_of: '2026-10-16'
+documentation_checked_at: '2026-10-16'
 ---
 
 # obra/superpowers
@@ -69,6 +70,7 @@ superpowers
 | 2026-10-02 | 7 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
 | 2026-10-03 | 3 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
 | 2026-10-04 | 11 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-16 | 6 | 582 | 299875 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -84,11 +86,12 @@ superpowers
 - [[Daily/2026/10/2026-10-02|2026-10-02]]
 - [[Daily/2026/10/2026-10-03|2026-10-03]]
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
+- [[Daily/2026/10/2026-10-16|2026-10-16]]
 
 ## GitHub 原始链接
 https://github.com/obra/superpowers
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-16）
 - README：https://github.com/obra/superpowers/blob/main/README.md
 - README blob SHA：`e40ddfa8f87a374e1b9a3663b80c1aa954cf8eec`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。

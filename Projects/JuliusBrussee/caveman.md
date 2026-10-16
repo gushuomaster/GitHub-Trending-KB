@@ -3,13 +3,14 @@ type: github-project
 repo: JuliusBrussee/caveman
 url: https://github.com/JuliusBrussee/caveman
 first_seen: '2026-10-03'
-last_seen: '2026-10-04'
-trending_count: 2
-github_rank: 5
-language: null
-total_stars: null
-forks: null
-stars_today: null
+last_seen: '2026-10-16'
+trending_count: 3
+github_rank: 4
+language: Go
+total_stars: 112524
+forks: 6519
+stars_today: 433
+fetched_at: '2026-10-16T08:10:32+08:00'
 category:
 - AI
 - Developer-Tools
@@ -23,8 +24,8 @@ topics:
 - AI
 - Developer-Tools
 - Context-Engineering
-documentation_checked_at: '2026-10-13'
-stats_as_of: null
+documentation_checked_at: '2026-10-16'
+stats_as_of: '2026-10-16'
 ---
 
 # JuliusBrussee/caveman
@@ -36,7 +37,7 @@ stats_as_of: null
 
 ## 它能做什么
 - 本地 proxy 压缩部分日志、CSV、JSON 等工具输入；具体格式的压缩效果不同。
-- 提供 caveman、ultracave、megacave 三种精简表达强度。
+- 用 Say less、Read less、Auto、Blocks、Waste fixes 与 Browse 六个模块分别压缩回答、输入、模型路由和网页内容。
 - 对代码、命令、错误、路径、数字与不可逆操作警告保持完整。
 - 支持 Claude Code、Codex、Gemini、Aider、OpenCode、Pi 等多种 Agent。
 
@@ -54,8 +55,7 @@ stats_as_of: null
 
 ## 关键命令
 ```bash
-npm install -g @caveman-ai/cli
-caveman setup --install
+npx @caveman-ai/cli@latest
 caveman codex
 ```
 
@@ -64,6 +64,7 @@ caveman codex
 |---|---:|---:|---:|---|
 | 2026-10-03 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
 | 2026-10-04 | 5 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-16 | 4 | 433 | 112524 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Context-Engineering|Context-Engineering]]
@@ -71,11 +72,12 @@ caveman codex
 ## 相关日报
 - [[Daily/2026/10/2026-10-03|2026-10-03]]
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
+- [[Daily/2026/10/2026-10-16|2026-10-16]]
 
 ## GitHub 原始链接
 https://github.com/JuliusBrussee/caveman
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-16）
 - README：https://github.com/JuliusBrussee/caveman/blob/main/README.md
 - README blob SHA：`ca076fdedc503792dc2b990293837f822b72baf6`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。

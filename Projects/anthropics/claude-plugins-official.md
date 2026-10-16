@@ -2,15 +2,17 @@
 repo: "anthropics/claude-plugins-official"
 url: "https://github.com/anthropics/claude-plugins-official"
 first_seen: 2026-09-26
-last_seen: 2026-09-26
-trending_count: 1
+last_seen: '2026-10-16'
+trending_count: 2
 github_rank: 2
-stars_today: null
-total_stars: 37112
-forks: 4166
+stars_today: 307
+total_stars: 39065
+forks: 4321
 language: "Python"
-metadata_checked_at: "2026-09-28T16:09:06+08:00"
-snapshot_status: archived_backfill
+fetched_at: '2026-10-16T08:10:32+08:00'
+documentation_checked_at: '2026-10-16'
+stats_as_of: '2026-10-16'
+snapshot_status: live
 topics: ["Agent", "Skills", "Plugins"]
 status: active
 ---
@@ -42,6 +44,7 @@ Anthropic 管理的 Claude Code 插件目录，集中提供可安装的命令、
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-09-26 | 2 | 未保存 | 未保存 | 未保存 | archived_backfill |
+| 2026-10-16 | 2 | 307 | 39065 | 4321 | GitHub Today live snapshot |
 
 > 上表只保留归档可证明的日期与原始顺序；当前 Stars/Forks 仅记录在 frontmatter 的 `metadata_checked_at` 快照，不冒充历史数值。
 
@@ -50,6 +53,7 @@ Anthropic 管理的 Claude Code 插件目录，集中提供可安装的命令、
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
+- [[Daily/2026/10/2026-10-16|2026-10-16]]
 
 ## GitHub 原始链接
 https://github.com/anthropics/claude-plugins-official

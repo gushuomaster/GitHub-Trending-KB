@@ -3,18 +3,18 @@ type: github-project
 repo: NationalSecurityAgency/ghidra
 url: https://github.com/NationalSecurityAgency/ghidra
 first_seen: '2026-09-16'
-last_seen: '2026-10-15'
-trending_count: 4
+last_seen: '2026-10-16'
+trending_count: 5
 language: Java
-total_stars: 87457
-forks: 9765
-stars_today: 1008
-github_rank: 12
-fetched_at: '2026-10-15T08:02:04+08:00'
+total_stars: 88726
+forks: 9901
+stars_today: 1369
+github_rank: 9
+fetched_at: '2026-10-16T08:10:32+08:00'
 category: [Reverse Engineering, Security, Decompiler]
 topics: [Reverse Engineering, Security, Decompiler]
-documentation_checked_at: '2026-10-15'
-stats_as_of: '2026-10-15'
+documentation_checked_at: '2026-10-16'
+stats_as_of: '2026-10-16'
 ---
 
 # NationalSecurityAgency/ghidra
@@ -52,6 +52,7 @@ stats_as_of: '2026-10-15'
 | 2026-09-17 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档 |
 | 2026-09-18 | 7 | 未保存 | 未保存 | 日期匹配语言不限归档 |
 | 2026-10-15 | 12 | 1008 | 87457 | GitHub Today live snapshot |
+| 2026-10-16 | 9 | 1369 | 88726 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Reverse Engineering|Reverse Engineering]] · [[Topics/Security|Security]] · [[Topics/Decompiler|Decompiler]]
@@ -61,11 +62,12 @@ stats_as_of: '2026-10-15'
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
 - [[Daily/2026/10/2026-10-15|2026-10-15]]
+- [[Daily/2026/10/2026-10-16|2026-10-16]]
 
 ## GitHub 原始链接
 https://github.com/NationalSecurityAgency/ghidra
 
-## 官方资料核对（2026-10-15）
+## 官方资料核对（2026-10-16）
 - README：https://github.com/NationalSecurityAgency/ghidra/blob/master/README.md
 - 历史核验来源与归档提交时间保留在对应日报及索引记录中；归档提交时间不是页面抓取时间。
 

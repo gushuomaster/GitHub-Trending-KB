@@ -2,8 +2,8 @@
 type: github-project
 repo: affaan-m/ECC
 url: https://github.com/affaan-m/ECC
-language: null
-stars_today: 965
+language: JavaScript
+stars_today: 1013
 category:
 - AI
 - Agent
@@ -20,13 +20,14 @@ topics:
 - Skills
 - Developer-Tools
 first_seen: '2026-09-09'
-last_seen: '2026-10-04'
-trending_count: 7
-github_rank: 3
-documentation_checked_at: '2026-10-13'
-stats_as_of: '2026-09-19'
-total_stars: null
-forks: null
+last_seen: '2026-10-16'
+trending_count: 8
+github_rank: 10
+fetched_at: '2026-10-16T08:10:32+08:00'
+documentation_checked_at: '2026-10-16'
+stats_as_of: '2026-10-16'
+total_stars: 280363
+forks: 41699
 ---
 
 # affaan-m/ECC
@@ -68,6 +69,7 @@ npx ecc-universal@2.2.3 setup
 | 2026-09-19 | 4 | 965 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json) |
 | 2026-09-21 | 1 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json) |
 | 2026-10-04 | 3 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-16 | 10 | 1013 | 280363 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -80,11 +82,12 @@ npx ecc-universal@2.2.3 setup
 - [[Daily/2026/09/2026-09-19|2026-09-19]]
 - [[Daily/2026/09/2026-09-21|2026-09-21]]
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
+- [[Daily/2026/10/2026-10-16|2026-10-16]]
 
 ## GitHub 原始链接
 https://github.com/affaan-m/ECC
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-16）
 - README：https://github.com/affaan-m/ECC/blob/main/README.md
 - README blob SHA：`6583ca8c1320e559aa5b2f86250f2f09c1d577e9`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。

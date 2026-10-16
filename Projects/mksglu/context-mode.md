@@ -3,14 +3,14 @@ type: github-project
 repo: mksglu/context-mode
 url: https://github.com/mksglu/context-mode
 first_seen: '2026-09-09'
-last_seen: '2026-10-15'
-trending_count: 9
+last_seen: '2026-10-16'
+trending_count: 10
 language: TypeScript
-total_stars: 29096
-forks: 2044
-stars_today: 947
-github_rank: 3
-fetched_at: '2026-10-15T08:02:04+08:00'
+total_stars: 29787
+forks: 2083
+stars_today: 904
+github_rank: 8
+fetched_at: '2026-10-16T08:10:32+08:00'
 category:
 - AI
 - Agent
@@ -26,8 +26,8 @@ topics:
 - Agent
 - Context-Engineering
 - Developer-Tools
-documentation_checked_at: '2026-10-15'
-stats_as_of: '2026-10-15'
+documentation_checked_at: '2026-10-16'
+stats_as_of: '2026-10-16'
 ---
 
 # mksglu/context-mode
@@ -74,6 +74,7 @@ stats_as_of: '2026-10-15'
 
 | 2026-10-14 | 4 | 969 | 28215 | GitHub Today live snapshot |
 | 2026-10-15 | 3 | 947 | 29096 | GitHub Today live snapshot |
+| 2026-10-16 | 8 | 904 | 29787 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Context-Engineering|Context-Engineering]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -89,11 +90,12 @@ stats_as_of: '2026-10-15'
 
 - [[Daily/2026/10/2026-10-14|2026-10-14]]
 - [[Daily/2026/10/2026-10-15|2026-10-15]]
+- [[Daily/2026/10/2026-10-16|2026-10-16]]
 
 ## GitHub 原始链接
 https://github.com/mksglu/context-mode
 
-## 官方资料复核（2026-10-15）
+## 官方资料复核（2026-10-16）
 - README：https://github.com/mksglu/context-mode/blob/main/README.md
 - README blob SHA：`b796169524473691594af24995d21ca94027f7c7`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
