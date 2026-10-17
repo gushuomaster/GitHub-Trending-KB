@@ -68,6 +68,6 @@ https://github.com/cursor/plugins
 ## 官方资料核对
 - 核对日期：2026-10-17
 - README：https://github.com/cursor/plugins/blob/main/README.md
-- README blob SHA：a79e899c485afb12840d973ee68c194dad7c89be
+- README blob SHA：886849908ef8c6fb3f08dae1dc30ca69d37d11f7
 - 说明：项目卡反映核对日的当前仓库结构，不声称它与历史上榜日完全相同。
 

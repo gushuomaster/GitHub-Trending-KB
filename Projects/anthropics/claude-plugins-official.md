@@ -48,7 +48,7 @@ Anthropic 管理的 Claude Code 插件目录，集中提供可安装的命令、
 | 2026-10-16 | 2 | 307 | 39065 | 4321 | GitHub Today live snapshot |
 | 2026-10-17 | 1 | 1552 | 40523 | 4401 | GitHub Today live snapshot |
 
-> 上表只保留可证明的日期与原始顺序；2026-09-26 未保存的统计继续保持“未保存”，2026-10-16 的数值来自当天实时快照。
+> 上表只保留可证明的日期与原始顺序；2026-09-26 未保存的统计继续保持“未保存”，2026-10-16 与 2026-10-17 的数值分别来自对应日期的实时快照。
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Plugins|Plugins]]

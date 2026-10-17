@@ -64,5 +64,5 @@ python3 tools/install_portal_clis.py
 https://github.com/MadsLorentzen/ai-job-search
 
 ## 官方资料复核（2026-10-17）
-- README：https://github.com/MadsLorentzen/ai-job-search/blob/main/README.md
+- README：https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md
 
