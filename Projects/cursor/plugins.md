@@ -1,15 +1,18 @@
 ---
+stats_as_of: '2026-10-17'
+documentation_checked_at: '2026-10-17'
+fetched_at: '2026-10-17T08:08:36+08:00'
 type: github-project
 repo: "cursor/plugins"
 url: "https://github.com/cursor/plugins"
 first_seen: "2026-10-02"
-last_seen: "2026-10-03"
-trending_count: 2
-github_rank: 14
-language: null
-total_stars: null
-forks: null
-stars_today: null
+last_seen: '2026-10-17'
+trending_count: 3
+github_rank: 9
+language: "TypeScript"
+total_stars: 11941
+forks: 1161
+stars_today: 278
 category: ["AI", "Developer-Tools", "Plugins"]
 tags: ["cursor", "plugins", "skills", "mcp"]
 topics: ["AI", "Developer-Tools", "Skills"]
@@ -48,6 +51,8 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 | 2026-10-02 | 6 | 未保存 | 未保存 | 日期匹配语言不限归档 |
 | 2026-10-03 | 14 | 未保存 | 未保存 | 仓库已存日期匹配快照 |
 
+| 2026-10-17 | 9 | 278 | 11941 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]
 
@@ -55,11 +60,14 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 - [[Daily/2026/10/2026-10-02|2026-10-02]]
 - [[Daily/2026/10/2026-10-03|2026-10-03]]
 
+- [[Daily/2026/10/2026-10-17|2026-10-17]]
+
 ## GitHub 原始链接
 https://github.com/cursor/plugins
 
 ## 官方资料核对
-- 核对日期：2026-10-13
+- 核对日期：2026-10-17
 - README：https://github.com/cursor/plugins/blob/main/README.md
-- README blob SHA：106f7973f61909ab2dcaab975eae75e4b85262f0
+- README blob SHA：a79e899c485afb12840d973ee68c194dad7c89be
 - 说明：项目卡反映核对日的当前仓库结构，不声称它与历史上榜日完全相同。
+
