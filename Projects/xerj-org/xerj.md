@@ -3,18 +3,19 @@ type: github-project
 repo: xerj-org/xerj
 url: https://github.com/xerj-org/xerj
 first_seen: '2026-10-16'
-last_seen: '2026-10-17'
-trending_count: 2
+last_seen: '2026-10-18'
+trending_count: 3
 language: "Rust"
-total_stars: 6917
-forks: 352
-stars_today: 1648
+total_stars: 7782
+forks: 415
+stars_today: 1160
 github_rank: 13
-fetched_at: '2026-10-17T08:08:36+08:00'
+fetched_at: '2026-10-18T08:11:03+08:00'
 category: [Search, RAG, Agent, Developer-Tools]
 topics: [Search, RAG, Agent, Developer-Tools]
-documentation_checked_at: '2026-10-17'
-stats_as_of: '2026-10-17'
+documentation_checked_at: '2026-10-18'
+stats_as_of: '2026-10-18'
+snapshot_status: live
 ---
 
 # xerj-org/xerj
@@ -54,6 +55,7 @@ xerj search "how do we rotate the WAL segment"
 - 2026-10-16：#12 · Stars Today：715 · Total Stars：5619 · Forks：307
 
 - 2026-10-17：GitHub Today #13，Stars Today 1648，Total Stars 6917，Forks 352。
+- 2026-10-18：GitHub Today #13，Stars Today 1160，Total Stars 7782，Forks 415。
 
 ## 相关主题
 [[Topics/Search|Search]] · [[Topics/RAG|RAG]] · [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -63,10 +65,12 @@ xerj search "how do we rotate the WAL segment"
 
 - [[Daily/2026/10/2026-10-17|2026-10-17]]
 
+- [[Daily/2026/10/2026-10-18|2026-10-18]]
+
 ## GitHub 原始链接
 https://github.com/xerj-org/xerj
 
-## 官方资料复核（2026-10-17）
+## 官方资料复核（2026-10-18）
 - README：https://github.com/xerj-org/xerj/blob/main/README.md
-
+- README blob SHA：`9cc4eb5d9f155d762bfc5fcd2291ab6db2273124`
 

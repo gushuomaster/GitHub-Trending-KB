@@ -11,20 +11,22 @@ topics:
 - CLI
 - Developer Tools
 first_seen: '2026-09-17'
-last_seen: '2026-10-04'
-trending_count: 6
-github_rank: 16
-documentation_checked_at: '2026-10-13'
-stats_as_of: '2026-09-18'
-stars_today: 538
-total_stars: null
-forks: null
-language: null
+last_seen: '2026-10-18'
+trending_count: 7
+github_rank: 9
+documentation_checked_at: '2026-10-18'
+stats_as_of: '2026-10-18'
+stars_today: 179
+total_stars: 151728
+forks: 26877
+language: "TypeScript"
+fetched_at: '2026-10-18T08:11:03+08:00'
+snapshot_status: live
 ---
 
 # anthropics/claude-code
 
-> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-18 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 运行在终端、IDE 与 GitHub 工作流中的 Agentic Coding 工具，可理解代码库并通过自然语言执行修改、解释和 Git 任务。
@@ -62,6 +64,7 @@ claude
 | 2026-09-20 | 5 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json) |
 | 2026-09-21 | 7 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json) |
 | 2026-10-04 | 16 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-18 | 9 | 179 | 151728 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Coding Agent|Coding Agent]] · [[Topics/CLI|CLI]] · [[Topics/Developer Tools|Developer Tools]]
@@ -74,10 +77,13 @@ claude
 - [[Daily/2026/09/2026-09-21|2026-09-21]]
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 
+- [[Daily/2026/10/2026-10-18|2026-10-18]]
+
 ## GitHub 原始链接
 https://github.com/anthropics/claude-code
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-18）
 - README：https://github.com/anthropics/claude-code/blob/main/README.md
 - README blob SHA：`80aa75edf74a5f9e1269811b4e8b5852be91e66e`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
