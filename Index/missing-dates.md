@@ -1,6 +1,6 @@
 # GitHub Trending 缺档与质量记录
 
-截至 2026-10-17，2026-09-09 至 2026-10-17 的 Daily 日期路径连续，没有文件缺失。清单来自本次对 GitHub `main`、日期匹配语言不限归档、日报正文、项目卡历史、JSONL 和 Dashboard 的重新审核。
+截至 2026-10-18，2026-09-09 至 2026-10-18 的 Daily 日期路径连续，没有文件缺失。清单来自本次对 GitHub `main`、日期匹配语言不限归档、日报正文、项目卡历史、JSONL 和 Dashboard 的重新审核。
 
 ## 本次已修复
 
@@ -37,11 +37,12 @@
 - 2026-10-15：12 项实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；`K-Dense-AI/scientific-agent-skills` 中已撤销日报遗留的 2026-09-15 虚假上榜记录已删除，首次上榜日和计数按有效索引修正。另有 4 张未被任何有效 Daily 或 JSONL 引用的旧卡，已保留研究内容、清空未经确认的上榜元数据，并补齐规范章节和官方链接。
 - 2026-10-16：12 项实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；修正 7 张项目卡中 frontmatter 与正文不一致的资料核对日期，并纠正 `anthropics/claude-plugins-official` 的历史统计说明。
 - 2026-10-17：13 项实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；修正 3 张项目卡正文中的旧资料核对日期，更新 `cursor/plugins` 的 README blob SHA，修复 `MadsLorentzen/ai-job-search` 的无效 README 分支链接，并补全 `anthropics/claude-plugins-official` 的实时统计说明。
+- 2026-10-18：13 项实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取 13 个项目的当前官方 README，确认当天正文未降级。补齐 2026-10-04 至 2026-10-07 四份已验证历史日报缺少的现行开头声明，不改动其归档榜单、历史统计或资料核对时间。
 
 ## 当前待修复
 
 - 当前没有剩余已确认的 GitHub 内容质量待办。
-- ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前需要 207 个，因此 `Projects/rust-lang/rust.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/xerj-org/xerj.md`、`Projects/android/skills.md`、`Projects/MadsLorentzen/ai-job-search.md` 与 `Projects/hmjz100/LinkSwift.md` 暂无法按相同层级创建。GitHub 内容完整，未采用破坏规范路径的绕行结构。
+- ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前需要 209 个，因此 `Projects/MadsLorentzen/ai-job-search.md`、`Projects/android/skills.md`、`Projects/anomalyco/opencode.md`、`Projects/hmjz100/LinkSwift.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/rust-lang/rust.md`、`Projects/stablyai/orca.md` 与 `Projects/xerj-org/xerj.md` 暂无法按相同层级创建。GitHub 内容完整，未采用破坏规范路径的绕行结构。
 
 ## 下一待修复日期
 
@@ -49,8 +50,8 @@
 
 ## 说明
 
-- 2026-09-09 至 2026-10-17 日报日期路径连续，无文件缺失。
+- 2026-09-09 至 2026-10-18 日报日期路径连续，无文件缺失。
 - 归档提交时间不等于页面抓取时间，不能证明是原计划 08:00 页面。
 - 未保存的历史统计无法凭当前数值恢复，保留“未保存”不作为待修复缺陷。
-- 2026-10-17 当天 13 项实时快照和 Dashboard 保持其 08:08:36 数据；本次未替换当天榜单。
+- 2026-10-18 当天 13 项实时快照和 Dashboard 保持其 08:11:03 数据；本次未替换当天榜单。
 
