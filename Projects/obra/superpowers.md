@@ -71,7 +71,6 @@ superpowers
 | 2026-10-03 | 3 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
 | 2026-10-04 | 11 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-16 | 6 | 582 | 299875 | GitHub Today live snapshot |
-
 | 2026-10-17 | 8 | 973 | 300676 | GitHub Today live snapshot |
 
 ## 相关主题

@@ -56,7 +56,6 @@ gh skill install K-Dense-AI/scientific-agent-skills --skill scanpy
 |---|---:|---:|---:|---|
 | 2026-10-15 | 5 | 163 | 49308 | GitHub Today live snapshot |
 | 2026-10-16 | 3 | 1091 | 50444 | GitHub Today live snapshot |
-
 | 2026-10-17 | 2 | 1158 | 51485 | GitHub Today live snapshot |
 | 2026-10-18 | 5 | 878 | 52236 | GitHub Today live snapshot |
 

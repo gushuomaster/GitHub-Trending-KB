@@ -71,7 +71,6 @@ npx ecc-universal@2.2.3 setup
 | 2026-09-21 | 1 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json) |
 | 2026-10-04 | 3 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-16 | 10 | 1013 | 280363 | GitHub Today live snapshot |
-
 | 2026-10-17 | 3 | 1057 | 281489 | GitHub Today live snapshot |
 | 2026-10-18 | 3 | 1145 | 282492 | GitHub Today live snapshot |
 

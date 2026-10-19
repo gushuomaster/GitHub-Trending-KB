@@ -67,7 +67,6 @@ codex plugin add diagram-design@diagram-design
 | 2026-10-11 | 4 | 1190 | 48924 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-12 | 4 | 1083 | 50304 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-13 | 6 | 2081 | 52558 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-
 | 2026-10-14 | 5 | 1815 | 54075 | GitHub Today live snapshot |
 
 ## 相关主题

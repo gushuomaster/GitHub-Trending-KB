@@ -53,7 +53,6 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 | 2026-10-11 | 1 | 25793 | 71944 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-12 | 1 | 25599 | 103465 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-13 | 1 | 45327 | 155789 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-
 | 2026-10-14 | 1 | 54679 | 206380 | GitHub Today live snapshot |
 | 2026-10-15 | 1 | 41034 | 241130 | GitHub Today live snapshot |
 | 2026-10-16 | 1 | 32314 | 269556 | GitHub Today live snapshot |

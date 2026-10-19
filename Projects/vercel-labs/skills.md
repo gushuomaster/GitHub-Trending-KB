@@ -46,7 +46,6 @@ npx skills add vercel-labs/agent-skills --skill web-design-guidelines -g -a code
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-11 | 15 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
-
 | 2026-10-14 | 6 | 190 | 34481 | GitHub Today live snapshot |
 
 ## 相关主题

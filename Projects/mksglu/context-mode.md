@@ -71,11 +71,9 @@ stats_as_of: '2026-10-17'
 | 2026-10-04 | 13 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-11 | 5 | 178 | 26306 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-13 | 3 | 246 | 27272 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-
 | 2026-10-14 | 4 | 969 | 28215 | GitHub Today live snapshot |
 | 2026-10-15 | 3 | 947 | 29096 | GitHub Today live snapshot |
 | 2026-10-16 | 8 | 904 | 29787 | GitHub Today live snapshot |
-
 | 2026-10-17 | 5 | 449 | 30221 | GitHub Today live snapshot |
 
 ## 相关主题
