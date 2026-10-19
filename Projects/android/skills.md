@@ -3,16 +3,16 @@ type: github-project
 repo: "android/skills"
 url: "https://github.com/android/skills"
 first_seen: 2026-10-17
-last_seen: '2026-10-18'
-trending_count: 2
-github_rank: 7
-stars_today: 355
-total_stars: 8419
-forks: 555
+last_seen: '2026-10-19'
+trending_count: 3
+github_rank: 10
+stars_today: 375
+total_stars: 8760
+forks: 568
 language: "Kotlin"
-fetched_at: '2026-10-18T08:11:03+08:00'
-documentation_checked_at: '2026-10-18'
-stats_as_of: '2026-10-18'
+fetched_at: '2026-10-19T08:04:27+08:00'
+documentation_checked_at: '2026-10-19'
+stats_as_of: '2026-10-19'
 snapshot_status: live
 topics: ["Android", "Skills", "Developer-Tools"]
 status: active
@@ -22,7 +22,7 @@ status: active
 ## 一句话说明
 Android 官方维护的 Agent Skills 集合，把容易让通用编码 Agent 出错的 Android 开发任务封装成可复用、可自动触发的操作指南。
 
-> 使用方式依据仓库当前 README 核对于 2026-10-18。
+> 使用方式依据仓库当前 README 核对于 2026-10-19。
 
 ## 它能做什么
 - 通过开放的 Agent Skills 目录结构，把 Android 专项知识装入兼容的编码 Agent
@@ -54,6 +54,7 @@ Skill 只是给 Agent 的操作知识，README 明确提醒 AI 仍可能犯错�
 |---|---:|---:|---:|---:|---|
 | 2026-10-17 | 7 | 36 | 8060 | 535 | GitHub Today live snapshot |
 | 2026-10-18 | 7 | 355 | 8419 | 555 | GitHub Today live snapshot |
+| 2026-10-19 | 10 | 375 | 8760 | 568 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Android|Android]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer Tools]]
@@ -63,10 +64,12 @@ Skill 只是给 Agent 的操作知识，README 明确提醒 AI 仍可能犯错�
 
 - [[Daily/2026/10/2026-10-18|2026-10-18]]
 
+- [[Daily/2026/10/2026-10-19|2026-10-19]]
+
 ## GitHub 原始链接
 https://github.com/android/skills
 
-## 官方资料复核（2026-10-18）
+## 官方资料复核（2026-10-19）
 - README：https://github.com/android/skills/blob/main/README.md
 - README blob SHA：`dae981c8ef2dbb9f7ed75d0fb649ec4561b780a3`
 

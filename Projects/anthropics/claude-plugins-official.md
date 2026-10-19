@@ -3,16 +3,16 @@ type: github-project
 repo: "anthropics/claude-plugins-official"
 url: "https://github.com/anthropics/claude-plugins-official"
 first_seen: 2026-09-26
-last_seen: '2026-10-18'
-trending_count: 4
-github_rank: 1
-stars_today: 1397
-total_stars: 41732
-forks: 4463
+last_seen: '2026-10-19'
+trending_count: 5
+github_rank: 2
+stars_today: 1175
+total_stars: 42663
+forks: 4531
 language: "Python"
-fetched_at: '2026-10-18T08:11:03+08:00'
-documentation_checked_at: '2026-10-18'
-stats_as_of: '2026-10-18'
+fetched_at: '2026-10-19T08:04:27+08:00'
+documentation_checked_at: '2026-10-19'
+stats_as_of: '2026-10-19'
 snapshot_status: live
 topics: ["Agent", "Skills", "Plugins"]
 status: active
@@ -22,7 +22,7 @@ status: active
 ## 一句话说明
 Anthropic 管理的 Claude Code 插件目录，集中提供可安装的命令、Agent、Skills 与 MCP 集成。
 
-> 使用方式依据仓库当前 README 核对于 2026-10-18；这不代表 2026-09-26 历史上榜日的 README 版本。
+> 使用方式依据仓库当前 README 核对于 2026-10-19；这不代表 2026-09-26 历史上榜日的 README 版本。
 
 ## 它能做什么
 - 区分 Anthropic 内部插件与第三方插件
@@ -48,6 +48,7 @@ Anthropic 管理的 Claude Code 插件目录，集中提供可安装的命令、
 | 2026-10-16 | 2 | 307 | 39065 | 4321 | GitHub Today live snapshot |
 | 2026-10-17 | 1 | 1552 | 40523 | 4401 | GitHub Today live snapshot |
 | 2026-10-18 | 1 | 1397 | 41732 | 4463 | GitHub Today live snapshot |
+| 2026-10-19 | 2 | 1175 | 42663 | 4531 | GitHub Today live snapshot |
 
 > 上表只保留可证明的日期与原始顺序；2026-09-26 未保存的统计继续保持“未保存”，2026-10-16 与 2026-10-17 的数值分别来自对应日期的实时快照。
 
@@ -62,10 +63,12 @@ Anthropic 管理的 Claude Code 插件目录，集中提供可安装的命令、
 
 - [[Daily/2026/10/2026-10-18|2026-10-18]]
 
+- [[Daily/2026/10/2026-10-19|2026-10-19]]
+
 ## GitHub 原始链接
 https://github.com/anthropics/claude-plugins-official
 
-## 官方资料复核（2026-10-18）
+## 官方资料复核（2026-10-19）
 - README：https://github.com/anthropics/claude-plugins-official/blob/main/README.md
 - README blob SHA：`43104e240ff500c762adebb0c31dc4b7ff7b50dd`
 
