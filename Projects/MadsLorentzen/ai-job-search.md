@@ -3,16 +3,16 @@ type: github-project
 repo: "MadsLorentzen/ai-job-search"
 url: "https://github.com/MadsLorentzen/ai-job-search"
 first_seen: 2026-10-17
-last_seen: '2026-10-19'
-trending_count: 3
+last_seen: '2026-10-20'
+trending_count: 4
 github_rank: 1
-stars_today: 2232
-total_stars: 53086
-forks: 17355
+stars_today: 3856
+total_stars: 57168
+forks: 18176
 language: "Python"
-fetched_at: '2026-10-19T08:04:27+08:00'
-documentation_checked_at: '2026-10-19'
-stats_as_of: '2026-10-19'
+fetched_at: '2026-10-20T08:07:03+08:00'
+documentation_checked_at: '2026-10-20'
+stats_as_of: '2026-10-20'
 snapshot_status: live
 topics: ["Agent", "Career", "Productivity"]
 status: active
@@ -22,7 +22,7 @@ status: active
 ## 一句话说明
 在本机把职位筛选、匹配评估、定制简历和求职信、面试准备串成一套可重复执行的 Claude Code 求职工作流。
 
-> 使用方式依据仓库当前 README 核对于 2026-10-19。
+> 使用方式依据仓库当前 README 核对于 2026-10-20。
 
 ## 它能做什么
 - 抓取职位并根据个人资料评估匹配度，保留可追踪的申请状态
@@ -56,6 +56,8 @@ python3 tools/install_portal_clis.py
 | 2026-10-18 | 2 | 1365 | 50368 | 16929 | GitHub Today live snapshot |
 | 2026-10-19 | 1 | 2232 | 53086 | 17355 | GitHub Today live snapshot |
 
+| 2026-10-20 | 1 | 3856 | 57168 | 18176 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Career|Career]] · [[Topics/Productivity|Productivity]]
 
@@ -66,10 +68,12 @@ python3 tools/install_portal_clis.py
 
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
 
+- [[Daily/2026/10/2026-10-20|2026-10-20]]
+
 ## GitHub 原始链接
 https://github.com/MadsLorentzen/ai-job-search
 
-## 官方资料复核（2026-10-19）
+## 官方资料复核（2026-10-20）
 - README：https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md
-- README blob SHA：`c41999477105cbd924bef07412cb5eb0d6d62a9a`
+- README blob SHA：`c46aae58b9f645dc2dd31338c46c6836459c5070`
 

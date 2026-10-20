@@ -3,16 +3,16 @@ type: github-project
 repo: "Comfy-Org/ComfyUI"
 url: "https://github.com/Comfy-Org/ComfyUI"
 first_seen: '2026-10-19'
-last_seen: '2026-10-19'
-trending_count: 1
-github_rank: 13
-stars_today: 154
-total_stars: 138590
-forks: 16503
+last_seen: '2026-10-20'
+trending_count: 2
+github_rank: 4
+stars_today: 1011
+total_stars: 139696
+forks: 16582
 language: "Python"
-fetched_at: '2026-10-19T08:04:27+08:00'
-documentation_checked_at: '2026-10-19'
-stats_as_of: '2026-10-19'
+fetched_at: '2026-10-20T08:07:03+08:00'
+documentation_checked_at: '2026-10-20'
+stats_as_of: '2026-10-20'
 snapshot_status: live
 topics: ["Generative AI", "Image", "Video", "Workflow"]
 status: active
@@ -51,16 +51,20 @@ comfy install
 |---|---:|---:|---:|---:|---|
 | 2026-10-19 | 13 | 154 | 138590 | 16503 | GitHub Today live snapshot |
 
+| 2026-10-20 | 4 | 1011 | 139696 | 16582 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Generative AI|Generative AI]] · [[Topics/Image|Image]] · [[Topics/Video|Video]] · [[Topics/Workflow|Workflow]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
 
+- [[Daily/2026/10/2026-10-20|2026-10-20]]
+
 ## GitHub 原始链接
 https://github.com/Comfy-Org/ComfyUI
 
-## 官方资料复核（2026-10-19）
+## 官方资料复核（2026-10-20）
 - README：https://github.com/Comfy-Org/ComfyUI/blob/master/README.md
 - README blob SHA：`a6b57ecfe996f8adaf42436afbe753f6f8a5f62c`
 

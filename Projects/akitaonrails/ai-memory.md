@@ -3,20 +3,20 @@ type: github-project
 repo: "akitaonrails/ai-memory"
 url: "https://github.com/akitaonrails/ai-memory"
 first_seen: 2026-09-22
-last_seen: '2026-10-19'
-trending_count: 3
-github_rank: 6
-stars_today: 512
-total_stars: 10462
+last_seen: '2026-10-20'
+trending_count: 4
+github_rank: 3
+stars_today: 666
+total_stars: 11321
 language: "Rust"
 category: ["AI", "Agent", "Memory"]
 tags: ["agent", "memory", "handoff", "coding-agent", "rust"]
 topics: ["Agent", "Context Engineering", "Developer Tools"]
 status: active
-documentation_checked_at: '2026-10-19'
-forks: 749
-fetched_at: '2026-10-19T08:04:27+08:00'
-stats_as_of: '2026-10-19'
+documentation_checked_at: '2026-10-20'
+forks: 801
+fetched_at: '2026-10-20T08:07:03+08:00'
+stats_as_of: '2026-10-20'
 snapshot_status: live
 ---
 # akitaonrails/ai-memory
@@ -55,6 +55,8 @@ snapshot_status: live
 | 2026-10-18 | 6 | 178 | 9912 | GitHub Today live snapshot |
 | 2026-10-19 | 6 | 512 | 10462 | GitHub Today live snapshot |
 
+| 2026-10-20 | 3 | 666 | 11321 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Context Engineering|Context Engineering]] · [[Topics/Developer Tools|Developer Tools]]
 
@@ -65,10 +67,12 @@ snapshot_status: live
 
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
 
+- [[Daily/2026/10/2026-10-20|2026-10-20]]
+
 ## GitHub 原始链接
 https://github.com/akitaonrails/ai-memory
 
-## 官方资料复核（2026-10-19）
+## 官方资料复核（2026-10-20）
 - README：https://github.com/akitaonrails/ai-memory/blob/main/README.md
 - README blob SHA：`268c0dab16c4fc4cbb97a94137d20133ec8f3ea8`
 

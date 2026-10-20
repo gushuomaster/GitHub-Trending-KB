@@ -3,16 +3,16 @@ type: github-project
 repo: "Kruk2/jasna"
 url: "https://github.com/Kruk2/jasna"
 first_seen: '2026-10-19'
-last_seen: '2026-10-19'
-trending_count: 1
-github_rank: 12
-stars_today: 115
-total_stars: 2386
-forks: 187
+last_seen: '2026-10-20'
+trending_count: 2
+github_rank: 9
+stars_today: 498
+total_stars: 2879
+forks: 212
 language: "Python"
-fetched_at: '2026-10-19T08:04:27+08:00'
-documentation_checked_at: '2026-10-19'
-stats_as_of: '2026-10-19'
+fetched_at: '2026-10-20T08:07:03+08:00'
+documentation_checked_at: '2026-10-20'
+stats_as_of: '2026-10-20'
 snapshot_status: live
 topics: ["Video", "Restoration", "Computer Vision", "Local AI"]
 status: active
@@ -50,16 +50,20 @@ jasna --input input.mp4 --output output.mkv
 |---|---:|---:|---:|---:|---|
 | 2026-10-19 | 12 | 115 | 2386 | 187 | GitHub Today live snapshot |
 
+| 2026-10-20 | 9 | 498 | 2879 | 212 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Video|Video]] · [[Topics/Restoration|Restoration]] · [[Topics/Computer Vision|Computer Vision]] · [[Topics/Local AI|Local AI]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
 
+- [[Daily/2026/10/2026-10-20|2026-10-20]]
+
 ## GitHub 原始链接
 https://github.com/Kruk2/jasna
 
-## 官方资料复核（2026-10-19）
+## 官方资料复核（2026-10-20）
 - README：https://github.com/Kruk2/jasna/blob/main/README.md
 - README blob SHA：`2ad9f558d6ffcb14490854be9c51708d2f08c1d2`
 

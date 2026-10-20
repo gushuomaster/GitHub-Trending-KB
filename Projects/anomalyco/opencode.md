@@ -3,16 +3,16 @@ type: github-project
 repo: "anomalyco/opencode"
 url: "https://github.com/anomalyco/opencode"
 first_seen: '2026-10-18'
-last_seen: '2026-10-19'
-trending_count: 2
-github_rank: 3
-stars_today: 1414
-total_stars: 216551
-forks: 28993
+last_seen: '2026-10-20'
+trending_count: 3
+github_rank: 2
+stars_today: 1311
+total_stars: 217782
+forks: 29109
 language: "TypeScript"
-fetched_at: '2026-10-19T08:04:27+08:00'
-documentation_checked_at: '2026-10-19'
-stats_as_of: '2026-10-19'
+fetched_at: '2026-10-20T08:07:03+08:00'
+documentation_checked_at: '2026-10-20'
+stats_as_of: '2026-10-20'
 snapshot_status: live
 topics: ["Coding Agent", "CLI", "Developer Tools"]
 status: active
@@ -51,6 +51,8 @@ Build Agent 具有完整工具权限，必须审查命令、密钥和 diff；桌
 | 2026-10-18 | 11 | 438 | 215286 | 28863 | GitHub Today live snapshot |
 | 2026-10-19 | 3 | 1414 | 216551 | 28993 | GitHub Today live snapshot |
 
+| 2026-10-20 | 2 | 1311 | 217782 | 29109 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Coding Agent|Coding Agent]] · [[Topics/CLI|CLI]] · [[Topics/Developer Tools|Developer Tools]]
 
@@ -59,10 +61,12 @@ Build Agent 具有完整工具权限，必须审查命令、密钥和 diff；桌
 
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
 
+- [[Daily/2026/10/2026-10-20|2026-10-20]]
+
 ## GitHub 原始链接
 https://github.com/anomalyco/opencode
 
-## 官方资料复核（2026-10-19）
+## 官方资料复核（2026-10-20）
 - README：https://github.com/anomalyco/opencode/blob/dev/README.md
 - README blob SHA：`9dee6ddc05449c3969072dfb6ec4edb3ec59d107`
 
