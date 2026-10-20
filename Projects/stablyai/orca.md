@@ -50,7 +50,6 @@ brew install --cask stablyai/orca/orca
 |---|---:|---:|---:|---:|---|
 | 2026-10-18 | 8 | 830 | 95392 | 6109 | GitHub Today live snapshot |
 | 2026-10-19 | 7 | 1146 | 96605 | 6174 | GitHub Today live snapshot |
-
 | 2026-10-20 | 6 | 1590 | 98238 | 6265 | GitHub Today live snapshot |
 
 ## 相关主题

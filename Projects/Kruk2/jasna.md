@@ -49,7 +49,6 @@ jasna --input input.mp4 --output output.mkv
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-19 | 12 | 115 | 2386 | 187 | GitHub Today live snapshot |
-
 | 2026-10-20 | 9 | 498 | 2879 | 212 | GitHub Today live snapshot |
 
 ## 相关主题

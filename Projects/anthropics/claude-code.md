@@ -65,7 +65,6 @@ claude
 | 2026-09-21 | 7 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json) |
 | 2026-10-04 | 16 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-18 | 9 | 179 | 151728 | GitHub Today live snapshot |
-
 | 2026-10-20 | 11 | 167 | 152638 | GitHub Today live snapshot |
 
 ## 相关主题
