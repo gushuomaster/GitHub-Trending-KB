@@ -2,17 +2,17 @@
 type: github-project
 repo: "headroomlabs-ai/headroom"
 url: "https://github.com/headroomlabs-ai/headroom"
-first_seen: '2026-10-20'
-last_seen: '2026-10-20'
-trending_count: 1
-github_rank: 7
-stars_today: 310
-total_stars: 76231
-forks: 5923
+first_seen: "2026-10-20"
+last_seen: "2026-10-21"
+trending_count: 2
+github_rank: 10
+stars_today: 549
+total_stars: 76742
+forks: 5957
 language: "Python"
-fetched_at: '2026-10-20T08:07:03+08:00'
-documentation_checked_at: '2026-10-20'
-stats_as_of: '2026-10-20'
+fetched_at: "2026-10-21T08:02:49+08:00"
+documentation_checked_at: "2026-10-21"
+stats_as_of: "2026-10-21"
 snapshot_status: live
 topics: ["Context Engineering", "Agent", "MCP", "Developer Tools"]
 status: active
@@ -22,7 +22,7 @@ status: active
 ## 一句话说明
 在工具输出、日志、文件和 RAG 片段进入大模型前做本地、可逆压缩，减少 Agent 上下文和 Token 消耗。
 
-> 使用方式依据仓库当前 README 核对于 2026-10-20。
+> 使用方式依据仓库当前 README 核对于 2026-10-21。
 
 ## 它能做什么
 - 提供 Python/TypeScript 库、本地代理、Agent wrapper 和 MCP Server
@@ -53,17 +53,20 @@ headroom doctor
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-20 | 7 | 310 | 76231 | 5923 | GitHub Today live snapshot |
+| 2026-10-21 | 10 | 549 | 76742 | 5957 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Context Engineering|Context Engineering]] · [[Topics/Agent|Agent]] · [[Topics/MCP|MCP]] · [[Topics/Developer Tools|Developer Tools]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-20|2026-10-20]]
+- [[Daily/2026/10/2026-10-21|2026-10-21]]
 
 ## GitHub 原始链接
 https://github.com/headroomlabs-ai/headroom
 
-## 官方资料复核（2026-10-20）
+## 官方资料复核（2026-10-21）
 - README：https://github.com/headroomlabs-ai/headroom/blob/main/README.md
 - README blob SHA：`adacc2f21f5667a0ff5a11435b81110be3a6dfee`
+
 

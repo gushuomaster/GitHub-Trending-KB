@@ -1,20 +1,20 @@
 ---
 type: github-project
-repo: ruvnet/ruflo
-url: https://github.com/ruvnet/ruflo
-first_seen: '2026-10-16'
-last_seen: '2026-10-20'
-trending_count: 5
+repo: "ruvnet/ruflo"
+url: "https://github.com/ruvnet/ruflo"
+first_seen: "2026-10-16"
+last_seen: "2026-10-21"
+trending_count: 6
 language: "TypeScript"
-total_stars: 77172
-forks: 9103
-stars_today: 564
-github_rank: 5
-fetched_at: '2026-10-20T08:07:03+08:00'
+total_stars: 77827
+forks: 9157
+stars_today: 684
+github_rank: 6
+fetched_at: "2026-10-21T08:02:49+08:00"
 category: [AI, Agent, Multi-Agent, Developer-Tools]
 topics: [AI, Agent, Multi-Agent, Developer-Tools]
-documentation_checked_at: '2026-10-20'
-stats_as_of: '2026-10-20'
+documentation_checked_at: "2026-10-21"
+stats_as_of: "2026-10-21"
 snapshot_status: live
 ---
 
@@ -57,6 +57,7 @@ npx -y ruflo@latest mcp start
 - 2026-10-19：GitHub Today #5，Stars Today 513，Total Stars 76506，Forks 9047。
 
 - 2026-10-20：GitHub Today #5，Stars Today 564，Total Stars 77172，Forks 9103。
+- 2026-10-21：GitHub Today #6，Stars Today 684，Total Stars 77827，Forks 9157。
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -71,11 +72,13 @@ npx -y ruflo@latest mcp start
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
 
 - [[Daily/2026/10/2026-10-20|2026-10-20]]
+- [[Daily/2026/10/2026-10-21|2026-10-21]]
 
 ## GitHub 原始链接
 https://github.com/ruvnet/ruflo
 
-## 官方资料复核（2026-10-20）
+## 官方资料复核（2026-10-21）
 - README：https://github.com/ruvnet/ruflo/blob/main/README.md
-- README blob SHA：`180cf8868e2d7a5a3981fc642c0f67b1cb79aa3a`
+- README blob SHA：`f17904bd1a41b5236d64d16240f10ad806d46c9a`
+
 

@@ -1,22 +1,24 @@
 ---
 type: github-project
-repo: msitarzewski/agency-agents
-first_seen: '2026-10-06'
-last_seen: '2026-10-07'
-url: https://github.com/msitarzewski/agency-agents
-trending_count: 2
-github_rank: 10
-documentation_checked_at: '2026-10-13'
-stats_as_of: null
-stars_today: null
-total_stars: null
-forks: null
-language: null
+repo: "msitarzewski/agency-agents"
+first_seen: "2026-10-06"
+last_seen: "2026-10-21"
+url: "https://github.com/msitarzewski/agency-agents"
+trending_count: 3
+github_rank: 9
+documentation_checked_at: "2026-10-21"
+stats_as_of: "2026-10-21"
+stars_today: 562
+total_stars: 162325
+forks: 26226
+language: "Shell"
+fetched_at: "2026-10-21T08:02:49+08:00"
+snapshot_status: live
 ---
 
 # msitarzewski/agency-agents
 
-> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-21 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 按前端、设计、营销、安全等专业角色组织的 Agent 指令库，可选择角色安装进多种 Coding Agent。
@@ -43,18 +45,21 @@ language: null
 |---|---:|---:|---:|---|
 | 2026-10-06 | 12 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
 | 2026-10-07 | 10 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-21 | 9 | 562 | 162325 | GitHub Today live snapshot |
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-06|2026-10-06]]
 - [[Daily/2026/10/2026-10-07|2026-10-07]]
+- [[Daily/2026/10/2026-10-21|2026-10-21]]
 
 ## GitHub 原始链接
 https://github.com/msitarzewski/agency-agents
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-21）
 - README：https://github.com/msitarzewski/agency-agents/blob/main/README.md
-- README blob SHA：`89f77d994487257faa0f6066ee68af2d4a596fe6`
+- README blob SHA：`f4f8c2e3eef587bc3365037c0c8a8f58a26f09d4`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]]
+

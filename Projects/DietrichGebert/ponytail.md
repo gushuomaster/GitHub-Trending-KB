@@ -1,15 +1,15 @@
 ---
-repo: DietrichGebert/ponytail
-url: https://github.com/DietrichGebert/ponytail
-first_seen: '2026-10-01'
-last_seen: '2026-10-05'
-trending_count: 5
+repo: "DietrichGebert/ponytail"
+url: "https://github.com/DietrichGebert/ponytail"
+first_seen: "2026-10-01"
+last_seen: "2026-10-21"
+trending_count: 6
 github_rank: 4
-stars_today: 743
-total_stars: 149154
-forks: 8018
-language: JavaScript
-fetched_at: '2026-10-01T07:59:50+08:00'
+stars_today: 1208
+total_stars: 169603
+forks: 9223
+language: "JavaScript"
+fetched_at: "2026-10-21T08:02:49+08:00"
 category:
 - AI
 - Agent
@@ -27,13 +27,14 @@ topics:
 - Developer-Tools
 status: active
 type: github-project
-stats_as_of: '2026-10-01'
-documentation_checked_at: '2026-10-13'
+stats_as_of: "2026-10-21"
+documentation_checked_at: "2026-10-21"
+snapshot_status: live
 ---
 
 # DietrichGebert/ponytail
 
-> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-21 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 给 Coding Agent 加一套“先复用、再删减、最后才新增抽象”的工程约束，减少过度设计和无必要代码。
@@ -63,6 +64,7 @@ documentation_checked_at: '2026-10-13'
 | 2026-10-03 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
 | 2026-10-04 | 1 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-05 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
+| 2026-10-21 | 4 | 1208 | 169603 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -73,11 +75,13 @@ documentation_checked_at: '2026-10-13'
 - [[Daily/2026/10/2026-10-03|2026-10-03]]
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
+- [[Daily/2026/10/2026-10-21|2026-10-21]]
 
 ## GitHub 原始链接
 https://github.com/DietrichGebert/ponytail
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-21）
 - README：https://github.com/DietrichGebert/ponytail/blob/main/README.md
-- README blob SHA：`a9508bc7f464402bd028aab1f58cee9cf3f36603`
+- README blob SHA：`79529b3c536ff31540714deb0ebcd32f24ae6ef9`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+

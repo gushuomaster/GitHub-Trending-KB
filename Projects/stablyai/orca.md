@@ -2,17 +2,17 @@
 type: github-project
 repo: "stablyai/orca"
 url: "https://github.com/stablyai/orca"
-first_seen: '2026-10-18'
-last_seen: '2026-10-20'
-trending_count: 3
-github_rank: 6
-stars_today: 1590
-total_stars: 98238
-forks: 6265
+first_seen: "2026-10-18"
+last_seen: "2026-10-21"
+trending_count: 4
+github_rank: 3
+stars_today: 1565
+total_stars: 99706
+forks: 6317
 language: "TypeScript"
-fetched_at: '2026-10-20T08:07:03+08:00'
-documentation_checked_at: '2026-10-20'
-stats_as_of: '2026-10-20'
+fetched_at: "2026-10-21T08:02:49+08:00"
+documentation_checked_at: "2026-10-21"
+stats_as_of: "2026-10-21"
 snapshot_status: live
 topics: ["Agent", "Developer-Tools", "Git", "Productivity"]
 status: active
@@ -51,6 +51,7 @@ brew install --cask stablyai/orca/orca
 | 2026-10-18 | 8 | 830 | 95392 | 6109 | GitHub Today live snapshot |
 | 2026-10-19 | 7 | 1146 | 96605 | 6174 | GitHub Today live snapshot |
 | 2026-10-20 | 6 | 1590 | 98238 | 6265 | GitHub Today live snapshot |
+| 2026-10-21 | 3 | 1565 | 99706 | 6317 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Git|Git]] · [[Topics/Productivity|Productivity]]
@@ -61,11 +62,13 @@ brew install --cask stablyai/orca/orca
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
 
 - [[Daily/2026/10/2026-10-20|2026-10-20]]
+- [[Daily/2026/10/2026-10-21|2026-10-21]]
 
 ## GitHub 原始链接
 https://github.com/stablyai/orca
 
-## 官方资料复核（2026-10-20）
+## 官方资料复核（2026-10-21）
 - README：https://github.com/stablyai/orca/blob/main/README.md
-- README blob SHA：`f0623fff44d4a76b48b9bd2b5a44f8d1295477a2`
+- README blob SHA：`dc6b13791676eaf8b8896ba2896d34eb1139e701`
+
 
