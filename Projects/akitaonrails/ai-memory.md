@@ -49,12 +49,12 @@ snapshot_status: live
 - 记忆可能过期或相互冲突，衰减和矛盾标记不能替代人工确认关键架构事实。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-22 | 4 | 217 | 7611 | 原日报保存的当日快照；Forks 未保存 |
-| 2026-10-18 | 6 | 178 | 9912 | GitHub Today live snapshot |
-| 2026-10-19 | 6 | 512 | 10462 | GitHub Today live snapshot |
-| 2026-10-20 | 3 | 666 | 11321 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-09-22 | 4 | 217 | 7611 | 未保存 | 原日报保存的当日快照；Forks 未保存 |
+| 2026-10-18 | 6 | 178 | 9912 | 716 | GitHub Today live snapshot |
+| 2026-10-19 | 6 | 512 | 10462 | 749 | GitHub Today live snapshot |
+| 2026-10-20 | 3 | 666 | 11321 | 801 | GitHub Today live snapshot |
 | 2026-10-22 | 10 | 286 | 12315 | 871 | GitHub Today live snapshot |
 
 ## 相关主题
