@@ -3,16 +3,16 @@ type: github-project
 repo: "Graphify-Labs/graphify"
 url: "https://github.com/Graphify-Labs/graphify"
 first_seen: "2026-10-21"
-last_seen: "2026-10-21"
-trending_count: 1
-github_rank: 7
-stars_today: 802
-total_stars: 130210
-forks: 12538
+last_seen: "2026-10-22"
+trending_count: 2
+github_rank: 11
+stars_today: 1433
+total_stars: 131605
+forks: 12636
 language: "Python"
-fetched_at: "2026-10-21T08:02:49+08:00"
-documentation_checked_at: "2026-10-21"
-stats_as_of: "2026-10-21"
+fetched_at: "2026-10-22T08:05:55+08:00"
+documentation_checked_at: "2026-10-22"
+stats_as_of: "2026-10-22"
 snapshot_status: live
 topics: ["Knowledge Graph","Code Intelligence","Developer Tools","Agent"]
 status: active
@@ -22,7 +22,7 @@ status: active
 ## 一句话说明
 把代码、文档、SQL schema、配置和 PDF 转成可查询知识图谱，让 Agent 能追踪跨文件关系而不依赖向量库。
 
-> 使用方式依据仓库当前 README 核对于 2026-10-21。
+> 使用方式依据仓库当前 README 核对于 2026-10-22。
 
 ## 它能做什么
 - 用 tree-sitter 在本地解析约 40 种语言的调用、导入和继承关系
@@ -52,17 +52,18 @@ graphify install
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-21 | 7 | 802 | 130210 | 12538 | GitHub Today live snapshot |
+| 2026-10-22 | 11 | 1433 | 131605 | 12636 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Knowledge Graph|Knowledge Graph]] · [[Topics/Code Intelligence|Code Intelligence]] · [[Topics/Developer Tools|Developer Tools]] · [[Topics/Agent|Agent]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-21|2026-10-21]]
+- [[Daily/2026/10/2026-10-22|2026-10-22]]
 
 ## GitHub 原始链接
 https://github.com/Graphify-Labs/graphify
 
-## 官方资料复核（2026-10-21）
+## 官方资料复核（2026-10-22）
 - README：https://github.com/Graphify-Labs/graphify/blob/v8/README.md
-- README blob SHA：`030aa25e8895a141e88feccea579eb11c3420b83`
-
+- README blob SHA：`544af36d76762b66d8204bbd74254ba8377bda48`

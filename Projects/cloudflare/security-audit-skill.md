@@ -5,16 +5,16 @@ url: "https://github.com/cloudflare/security-audit-skill"
 category: ["Security Audit", "Agent Skill", "AppSec"]
 topics: ["Security Audit", "Agent Skill", "AppSec"]
 first_seen: "2026-09-17"
-last_seen: "2026-10-21"
-trending_count: 7
-github_rank: 2
-stars_today: 1712
-total_stars: 34141
-forks: 2133
+last_seen: "2026-10-22"
+trending_count: 8
+github_rank: 1
+stars_today: 2012
+total_stars: 36412
+forks: 2274
 language: "JavaScript"
-fetched_at: "2026-10-21T08:02:49+08:00"
-documentation_checked_at: "2026-10-21"
-stats_as_of: "2026-10-21"
+fetched_at: "2026-10-22T08:05:55+08:00"
+documentation_checked_at: "2026-10-22"
+stats_as_of: "2026-10-22"
 snapshot_status: live
 ---
 # cloudflare/security-audit-skill
@@ -50,6 +50,7 @@ snapshot_status: live
 | 2026-09-21 | 3 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
 | 2026-10-08 | 11 | 576 | 26105 | 当日实时快照 |
 | 2026-10-21 | 2 | 1712 | 34141 | GitHub Today live snapshot |
+| 2026-10-22 | 1 | 2012 | 36412 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security Audit|Security Audit]] · [[Topics/Agent Skill|Agent Skill]] · [[Topics/AppSec|AppSec]]
@@ -62,12 +63,13 @@ snapshot_status: live
 - [[Daily/2026/09/2026-09-21|2026-09-21]]
 - [[Daily/2026/10/2026-10-08|2026-10-08]]
 - [[Daily/2026/10/2026-10-21|2026-10-21]]
+- [[Daily/2026/10/2026-10-22|2026-10-22]]
 
 ## GitHub 原始链接
 https://github.com/cloudflare/security-audit-skill
 
 ## 官方资料核对
-- 核对日期：2026-10-21
+- 核对日期：2026-10-22
 - README：https://github.com/cloudflare/security-audit-skill/blob/HEAD/README.md
 - README blob SHA：`c80305c88cd5087db37f76a0d230c1fc092c864c`
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
@@ -108,4 +110,3 @@ https://github.com/cloudflare/security-audit-skill
 - Language / Total Stars / Forks / Stars Today：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json)
 - 归档提交时间：2026-09-21T00:01:57Z；该时间不是页面抓取时间。
-

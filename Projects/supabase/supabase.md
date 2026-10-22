@@ -3,10 +3,19 @@ type: github-project
 repo: "supabase/supabase"
 url: "https://github.com/supabase/supabase"
 first_seen: 2026-09-17
-last_seen: 2026-09-19
-trending_count: 2
+last_seen: "2026-10-22"
+trending_count: 3
 category: ["Postgres", "Backend", "Database"]
 topics: ["Postgres", "Backend", "Database"]
+github_rank: 7
+stars_today: 504
+total_stars: 112985
+forks: 16923
+language: "TypeScript"
+fetched_at: "2026-10-22T08:05:55+08:00"
+documentation_checked_at: "2026-10-22"
+stats_as_of: "2026-10-22"
+snapshot_status: live
 ---
 # supabase/supabase
 
@@ -36,6 +45,7 @@ topics: ["Postgres", "Backend", "Database"]
 |---|---:|---:|---:|---|
 | 2026-09-17 | 14 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-09-19 | 14 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+| 2026-10-22 | 7 | 504 | 112985 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Postgres|Postgres]] · [[Topics/Backend|Backend]] · [[Topics/Database|Database]]
@@ -44,13 +54,15 @@ topics: ["Postgres", "Backend", "Database"]
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 
 - [[Daily/2026/09/2026-09-19|2026-09-19]]
+- [[Daily/2026/10/2026-10-22|2026-10-22]]
 
 ## GitHub 原始链接
 https://github.com/supabase/supabase
 
 ## 官方资料核对
-- 核对日期：2026-10-10
+- 核对日期：2026-10-22
 - README：https://github.com/supabase/supabase/blob/HEAD/README.md
+- README blob SHA：`cb933a7ef6022e616fca4e23bde0f0d10138cf3b`
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
 
 ## 2026-09-17 历史核验

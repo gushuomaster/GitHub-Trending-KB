@@ -3,16 +3,16 @@ type: github-project
 repo: "shiyu-coder/Kronos"
 url: "https://github.com/shiyu-coder/Kronos"
 first_seen: "2026-10-20"
-last_seen: "2026-10-21"
-trending_count: 2
-github_rank: 12
-stars_today: 733
-total_stars: 42343
-forks: 7011
+last_seen: "2026-10-22"
+trending_count: 3
+github_rank: 9
+stars_today: 575
+total_stars: 42815
+forks: 7068
 language: "Python"
-fetched_at: "2026-10-21T08:02:49+08:00"
-documentation_checked_at: "2026-10-21"
-stats_as_of: "2026-10-21"
+fetched_at: "2026-10-22T08:05:55+08:00"
+documentation_checked_at: "2026-10-22"
+stats_as_of: "2026-10-22"
 snapshot_status: live
 topics: ["Quantitative Finance", "Time Series", "Foundation Model", "Forecasting"]
 status: active
@@ -22,7 +22,7 @@ status: active
 ## 一句话说明
 把 OHLCV K 线序列离散为分层 token，并用金融市场预训练模型生成未来 K 线预测，支持研究、微调和批量推理。
 
-> 使用方式依据仓库当前 README 核对于 2026-10-21。
+> 使用方式依据仓库当前 README 核对于 2026-10-22。
 
 ## 它能做什么
 - 提供针对 K 线训练的 tokenizer 与多尺寸预测模型
@@ -53,6 +53,7 @@ Kronos-small/base 最大上下文为 512，超长输入会截断；Kronos-large 
 |---|---:|---:|---:|---:|---|
 | 2026-10-20 | 12 | 363 | 41640 | 6922 | GitHub Today live snapshot |
 | 2026-10-21 | 12 | 733 | 42343 | 7011 | GitHub Today live snapshot |
+| 2026-10-22 | 9 | 575 | 42815 | 7068 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Quantitative Finance|Quantitative Finance]] · [[Topics/Time Series|Time Series]] · [[Topics/Foundation Model|Foundation Model]] · [[Topics/Forecasting|Forecasting]]
@@ -60,12 +61,11 @@ Kronos-small/base 最大上下文为 512，超长输入会截断；Kronos-large 
 ## 相关日报
 - [[Daily/2026/10/2026-10-20|2026-10-20]]
 - [[Daily/2026/10/2026-10-21|2026-10-21]]
+- [[Daily/2026/10/2026-10-22|2026-10-22]]
 
 ## GitHub 原始链接
 https://github.com/shiyu-coder/Kronos
 
-## 官方资料复核（2026-10-21）
+## 官方资料复核（2026-10-22）
 - README：https://github.com/shiyu-coder/Kronos/blob/master/README.md
 - README blob SHA：`faffa1578cf0172f6b88f5db8a9b1205668ffef1`
-
-
