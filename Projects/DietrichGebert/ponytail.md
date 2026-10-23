@@ -2,14 +2,14 @@
 repo: "DietrichGebert/ponytail"
 url: "https://github.com/DietrichGebert/ponytail"
 first_seen: "2026-10-01"
-last_seen: "2026-10-22"
-trending_count: 7
-github_rank: 5
-stars_today: 2079
-total_stars: 171585
-forks: 9340
+last_seen: "2026-10-23"
+trending_count: 8
+github_rank: 3
+stars_today: 1948
+total_stars: 173432
+forks: 9436
 language: "JavaScript"
-fetched_at: "2026-10-22T08:05:55+08:00"
+fetched_at: "2026-10-23T08:11:08+08:00"
 category:
 - AI
 - Agent
@@ -27,14 +27,14 @@ topics:
 - Developer-Tools
 status: active
 type: github-project
-stats_as_of: "2026-10-22"
-documentation_checked_at: "2026-10-22"
+stats_as_of: "2026-10-23"
+documentation_checked_at: "2026-10-23"
 snapshot_status: live
 ---
 
 # DietrichGebert/ponytail
 
-> 功能和用法按 2026-10-22 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-23 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 给 Coding Agent 加一套“先复用、再删减、最后才新增抽象”的工程约束，减少过度设计和无必要代码。
@@ -66,6 +66,7 @@ snapshot_status: live
 | 2026-10-05 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 | 2026-10-21 | 4 | 1208 | 169603 | GitHub Today live snapshot |
 | 2026-10-22 | 5 | 2079 | 171585 | GitHub Today live snapshot |
+| 2026-10-23 | 3 | 1948 | 173432 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -78,11 +79,12 @@ snapshot_status: live
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 - [[Daily/2026/10/2026-10-21|2026-10-21]]
 - [[Daily/2026/10/2026-10-22|2026-10-22]]
+- [[Daily/2026/10/2026-10-23|2026-10-23]]
 
 ## GitHub 原始链接
 https://github.com/DietrichGebert/ponytail
 
-## 官方资料复核（2026-10-22）
+## 官方资料复核（2026-10-23）
 - README：https://github.com/DietrichGebert/ponytail/blob/main/README.md
 - README blob SHA：`79529b3c536ff31540714deb0ebcd32f24ae6ef9`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
