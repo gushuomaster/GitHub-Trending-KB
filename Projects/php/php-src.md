@@ -3,16 +3,16 @@ type: github-project
 repo: "php/php-src"
 url: "https://github.com/php/php-src"
 first_seen: "2026-10-23"
-last_seen: "2026-10-23"
-trending_count: 1
-github_rank: 1
-stars_today: 287
-total_stars: 41142
-forks: 8308
+last_seen: "2026-10-24"
+trending_count: 2
+github_rank: 2
+stars_today: 716
+total_stars: 41558
+forks: 8359
 language: "C"
-fetched_at: "2026-10-23T08:11:08+08:00"
-documentation_checked_at: "2026-10-23"
-stats_as_of: "2026-10-23"
+fetched_at: "2026-10-24T08:07:20+08:00"
+documentation_checked_at: "2026-10-24"
+stats_as_of: "2026-10-24"
 snapshot_status: live
 category: ["Programming Language", "Runtime", "Web Development"]
 topics: ["PHP", "Runtime", "Developer Tools"]
@@ -52,16 +52,22 @@ PHP 核心贡献者、扩展作者、发行版维护者，以及需要在解释�
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-23 | 1 | 287 | 41142 | 8308 | GitHub Today live snapshot |
+| 2026-10-24 | 2 | 716 | 41558 | 8359 | GitHub Today live snapshot |
+
 
 ## 相关主题
 [[Topics/PHP|PHP]] · [[Topics/Runtime|Runtime]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-23|2026-10-23]]
+- [[Daily/2026/10/2026-10-24|2026-10-24]]
+
 
 ## GitHub 原始链接
 https://github.com/php/php-src
 
-## 官方资料复核（2026-10-23）
+## 官方资料复核（2026-10-24）
 - README：https://github.com/php/php-src/blob/master/README.md
 - README blob SHA：`80618f2d6f94c8520ff62a0e0d30fe733a3e9fc3`
+
+

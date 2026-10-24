@@ -5,8 +5,17 @@ url: "https://github.com/SnailSploit/Claude-Red"
 category: ["Security","Claude Skills","Red Team"]
 topics: ["Security","Claude Skills","Red Team"]
 first_seen: 2026-09-13
-last_seen: 2026-09-17
-trending_count: 4
+last_seen: "2026-10-24"
+trending_count: 5
+github_rank: 6
+stars_today: 226
+total_stars: 8466
+forks: 1100
+language: "Python"
+fetched_at: "2026-10-24T08:07:20+08:00"
+documentation_checked_at: "2026-10-24"
+stats_as_of: "2026-10-24"
+snapshot_status: live
 ---
 # SnailSploit/Claude-Red
 
@@ -42,6 +51,8 @@ git clone https://github.com/SnailSploit/claude-red ~/.claude/skills/claude-red
 | 2026-09-14 | 13 | 未保存 | 未保存 | 仓库已存快照 |
 | 2026-09-15 | 20 | 未保存 | 未保存 | 仓库已存快照 |
 | 2026-09-17 | 17 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-10-24 | 6 | 226 | 8466 | GitHub Today live snapshot |
+
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Claude Skills|Claude Skills]] · [[Topics/Red Team|Red Team]]
@@ -51,13 +62,16 @@ git clone https://github.com/SnailSploit/claude-red ~/.claude/skills/claude-red
 - [[Daily/2026/09/2026-09-14|2026-09-14]]
 - [[Daily/2026/09/2026-09-15|2026-09-15]]
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
+- [[Daily/2026/10/2026-10-24|2026-10-24]]
+
 
 ## GitHub 原始链接
 https://github.com/SnailSploit/Claude-Red
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-24
 - README：https://github.com/SnailSploit/Claude-Red/blob/HEAD/README.md
+- README blob SHA：`0858a54b75c0a29021e4ca7b7d69fbbee40c3bce`
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。
 
 
@@ -81,3 +95,5 @@ https://github.com/SnailSploit/Claude-Red
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json)
 - 归档提交时间：2026-09-17T00:22:41Z；该时间不是页面抓取时间。
+
+

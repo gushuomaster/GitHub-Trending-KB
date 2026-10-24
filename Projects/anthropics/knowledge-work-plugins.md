@@ -3,18 +3,18 @@ type: github-project
 repo: "anthropics/knowledge-work-plugins"
 url: "https://github.com/anthropics/knowledge-work-plugins"
 language: "Python"
-total_stars: 31578
-forks: 3530
-stars_today: 303
-github_rank: 2
-fetched_at: "2026-10-23T08:11:08+08:00"
+total_stars: 32199
+forks: 3572
+stars_today: 635
+github_rank: 3
+fetched_at: "2026-10-24T08:07:20+08:00"
 category: ["AI", "Agent", "Skills", "Knowledge Work"]
 tags: ["github/agent", "github/skills", "github/plugins", "github/python", "github/knowledge-work"]
 first_seen: "2026-09-17"
-last_seen: "2026-10-23"
-trending_count: 9
-documentation_checked_at: "2026-10-23"
-stats_as_of: "2026-10-23"
+last_seen: "2026-10-24"
+trending_count: 10
+documentation_checked_at: "2026-10-24"
+stats_as_of: "2026-10-24"
 snapshot_status: live
 ---
 # anthropics/knowledge-work-plugins
@@ -59,6 +59,8 @@ claude plugin install finance@knowledge-work-plugins
 | 2026-10-11 | 12 | 625 | 28810 | GitHub Today live snapshot |
 | 2026-10-21 | 11 | 267 | 30781 | GitHub Today live snapshot |
 | 2026-10-23 | 2 | 303 | 31578 | GitHub Today live snapshot |
+| 2026-10-24 | 3 | 635 | 32199 | GitHub Today live snapshot |
+
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -74,12 +76,14 @@ claude plugin install finance@knowledge-work-plugins
 - [[Daily/2026/10/2026-10-11|2026-10-11]]
 - [[Daily/2026/10/2026-10-21|2026-10-21]]
 - [[Daily/2026/10/2026-10-23|2026-10-23]]
+- [[Daily/2026/10/2026-10-24|2026-10-24]]
+
 
 ## GitHub 原始链接
 https://github.com/anthropics/knowledge-work-plugins
 
 ## 官方资料核对
-- 核对日期：2026-10-23
+- 核对日期：2026-10-24
 - README：https://github.com/anthropics/knowledge-work-plugins/blob/main/README.md
 - README blob SHA：`261e2f47e2b1701258e4bd3ec18620dc5d7c28ad`
 
@@ -112,5 +116,7 @@ https://github.com/anthropics/knowledge-work-plugins
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/aeea175a90b86aba1844727221cf2aaa8decd908/archive/repository/2026/2026-09-20/(null).json)
 - 归档提交时间：2026-09-20T00:53:39Z；该时间不是页面抓取时间。
+
+
 
 

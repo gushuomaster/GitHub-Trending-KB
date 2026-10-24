@@ -3,10 +3,19 @@ type: github-project
 repo: "OpenBMB/VoxCPM"
 url: "https://github.com/OpenBMB/VoxCPM"
 first_seen: 2026-09-15
-last_seen: 2026-09-15
-trending_count: 1
+last_seen: "2026-10-24"
+trending_count: 2
 category: ["TTS","Voice Cloning","Audio"]
 topics: ["TTS","Voice Cloning","Audio"]
+github_rank: 7
+stars_today: 150
+total_stars: 40244
+forks: 4577
+language: "Python"
+fetched_at: "2026-10-24T08:07:20+08:00"
+documentation_checked_at: "2026-10-24"
+stats_as_of: "2026-10-24"
+snapshot_status: live
 ---
 # OpenBMB/VoxCPM
 
@@ -40,17 +49,24 @@ pip install voxcpm
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-15 | 14 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-24 | 7 | 150 | 40244 | GitHub Today live snapshot |
+
 
 ## 相关主题
 [[Topics/TTS|TTS]] · [[Topics/Voice Cloning|Voice Cloning]] · [[Topics/Audio|Audio]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-15|2026-09-15]]
+- [[Daily/2026/10/2026-10-24|2026-10-24]]
+
 
 ## GitHub 原始链接
 https://github.com/OpenBMB/VoxCPM
 
 ## 官方资料核对
-- 核对日期：2026-10-09
+- 核对日期：2026-10-24
 - README：https://github.com/OpenBMB/VoxCPM/blob/HEAD/README.md
+- README blob SHA：`2d9880eda3ae1d2d1288ce0edfd4f53782792d8c`
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+
