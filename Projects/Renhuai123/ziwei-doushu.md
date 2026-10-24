@@ -66,6 +66,6 @@ https://github.com/Renhuai123/ziwei-doushu
 
 ## 官方资料复核（2026-10-24）
 - README：https://github.com/Renhuai123/ziwei-doushu/blob/main/README.md
-- README blob SHA：`0e5fc2ea97b816bdabdabdc948f4956725580199`
+- README blob SHA：`3a512f94d8a0d863873234a1e85ffcef44787454`
 - package.json blob SHA：`0a549e9fa495f43e80b8a298e1b9941e958e389e`
 
