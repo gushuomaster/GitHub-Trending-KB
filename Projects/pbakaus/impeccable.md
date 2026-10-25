@@ -2,13 +2,13 @@
 repo: pbakaus/impeccable
 url: https://github.com/pbakaus/impeccable
 first_seen: '2026-09-24'
-last_seen: '2026-10-07'
-trending_count: 7
-github_rank: 5
-stars_today: 287
-total_stars: 70270
-forks: 4268
-language: JavaScript
+last_seen: '2026-10-25'
+trending_count: 8
+github_rank: 6
+stars_today: 619
+total_stars: 86388
+forks: 5153
+language: Rust
 category:
 - AI
 - Design
@@ -24,13 +24,15 @@ topics:
 - Design
 status: active
 type: github-project
-stats_as_of: '2026-09-24'
-documentation_checked_at: '2026-10-13'
+stats_as_of: '2026-10-25'
+documentation_checked_at: '2026-10-25'
+fetched_at: '2026-10-25T08:11:52+08:00'
+snapshot_status: live
 ---
 
 # pbakaus/impeccable
 
-> 功能和用法按 2026-10-13 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-25 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 给 AI coding/design harness 使用的设计语言与 Skill，让 Agent 能系统审查、精修和简化 UI，而不是只凭模糊的“做得更好看”。
@@ -39,6 +41,7 @@ documentation_checked_at: '2026-10-13'
 - `/impeccable audit` 查找设计问题。
 - `polish` 做最终视觉清理，`distill` 去除复杂度，`critique` 做完整设计评审。
 - 可针对 header、checkout form 等具体区域运行。
+- 当前 v2 将 24 个命令集中到一个 Skill，并用 62 条确定性检测规则补充 Agent 的主观判断。
 
 ## 怎么利用
 在项目根目录执行 `npx impeccable install`，重启宿主后运行 `/impeccable init` 建立产品上下文；对页面或具体区域运行 audit、critique 和 polish，结合浏览器结果修改。
@@ -62,6 +65,7 @@ documentation_checked_at: '2026-10-13'
 | 2026-10-04 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-05 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 | 2026-10-07 | 5 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-25 | 6 | 619 | 86388 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Design|Design]]
@@ -74,11 +78,13 @@ documentation_checked_at: '2026-10-13'
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 - [[Daily/2026/10/2026-10-07|2026-10-07]]
+- [[Daily/2026/10/2026-10-25|2026-10-25]]
 
 ## GitHub 原始链接
 https://github.com/pbakaus/impeccable
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-25）
 - README：https://github.com/pbakaus/impeccable/blob/main/README.md
-- README blob SHA：`0d6c0ec686eaaafc3c1917ecbbd5bb5107771564`
+- README blob SHA：`82f74064346bda53f48e6e1c4b729427da76b569`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+

@@ -3,16 +3,16 @@ type: github-project
 repo: "luongnv89/claude-howto"
 url: "https://github.com/luongnv89/claude-howto"
 first_seen: "2026-10-23"
-last_seen: "2026-10-23"
-trending_count: 1
-github_rank: 8
-stars_today: 177
-total_stars: 43178
-forks: 5386
+last_seen: "2026-10-25"
+trending_count: 2
+github_rank: 5
+stars_today: 392
+total_stars: 44550
+forks: 5492
 language: "Python"
-fetched_at: "2026-10-23T08:11:08+08:00"
-documentation_checked_at: "2026-10-23"
-stats_as_of: "2026-10-23"
+fetched_at: "2026-10-25T08:11:52+08:00"
+documentation_checked_at: "2026-10-25"
+stats_as_of: "2026-10-25"
 snapshot_status: live
 category: ["Claude Code", "Tutorial", "Developer Tools"]
 topics: ["Claude Code", "Agent", "Skills", "Developer Tools"]
@@ -50,16 +50,19 @@ cp 01-slash-commands/optimize.md /path/to/project/.claude/commands/
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-23 | 8 | 177 | 43178 | 5386 | GitHub Today live snapshot |
+| 2026-10-25 | 5 | 392 | 44550 | 5492 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Claude-Code|Claude-Code]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-23|2026-10-23]]
+- [[Daily/2026/10/2026-10-25|2026-10-25]]
 
 ## GitHub 原始链接
 https://github.com/luongnv89/claude-howto
 
-## 官方资料复核（2026-10-23）
+## 官方资料复核（2026-10-25）
 - README：https://github.com/luongnv89/claude-howto/blob/main/README.md
 - README blob SHA：`3079bb8e772afccb7dee1f9e513c760d270ac278`
+
