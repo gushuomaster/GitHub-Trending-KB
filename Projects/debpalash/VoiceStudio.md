@@ -88,7 +88,7 @@ https://github.com/debpalash/VoiceStudio
 - 核对日期：2026-10-26
 - README：https://github.com/debpalash/VoiceStudio/blob/HEAD/README.md
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
-- README blob SHA：`f90d8accf67755c4b1f0e959c84a3a38139aa152`
+- README blob SHA：`850acecc50d3e6efe78e2ad896afe270b06f1bd9`
 
 ## 2026-09-15 历史核验
 - GitHub Trending 原始排名：#4

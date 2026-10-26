@@ -63,4 +63,4 @@ https://github.com/JetBrains/thinkrail
 
 ## 官方资料复核（2026-10-26）
 - README：https://github.com/JetBrains/thinkrail/blob/main/README.md
-- README blob SHA：`475267b95437d3453620bc95704c628dc54c9b24`
+- README blob SHA：`4752670fc227d3227e3922f14b976991f5209cb3`

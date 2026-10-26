@@ -68,4 +68,4 @@ https://github.com/TauricResearch/TradingAgents
 - 核对日期：2026-10-26
 - README：https://github.com/TauricResearch/TradingAgents/blob/HEAD/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。
-- README blob SHA：`cedcdbd9e49228938bbc8261eb84978e71e2f6f1`
+- README blob SHA：`cedcdb1e5bf56705cab3fa4b86944686cd62276c`

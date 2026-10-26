@@ -62,4 +62,4 @@ https://github.com/coollabsio/coolify
 
 ## 官方资料复核（2026-10-26）
 - README：https://github.com/coollabsio/coolify/blob/v4.x/README.md
-- README blob SHA：`de6b809814b80de379c15f1266215dd8cf3a17c7`
+- README blob SHA：`de6b80ab95c95b1348543ac616983ba99ce1566f`

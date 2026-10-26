@@ -65,4 +65,4 @@ https://github.com/AgriciDaniel/claude-seo
 
 ## 官方资料复核（2026-10-26）
 - README：https://github.com/AgriciDaniel/claude-seo/blob/main/README.md
-- README blob SHA：`70b98b54673e256a98c6a55aad230899fc057460`
+- README blob SHA：`70b98e1ad7cd3aa7228781bbd12458e1a15577ce`
