@@ -1,20 +1,20 @@
 ---
-stats_as_of: '2026-10-19'
-documentation_checked_at: '2026-10-19'
+stats_as_of: '2026-10-26'
+documentation_checked_at: '2026-10-26'
 type: github-project
 repo: "debpalash/VoiceStudio"
 url: "https://github.com/debpalash/VoiceStudio"
 category: ["Audio","Voice","Local AI"]
 topics: ["Audio","Voice","Local AI"]
 first_seen: 2026-09-14
-last_seen: '2026-10-19'
-trending_count: 13
+last_seen: '2026-10-26'
+trending_count: 14
 language: "Python"
-total_stars: 75296
-forks: 8240
-stars_today: 2082
-github_rank: 9
-fetched_at: '2026-10-19T08:04:27+08:00'
+total_stars: 86762
+forks: 9603
+stars_today: 1592
+github_rank: 3
+fetched_at: '2026-10-26T08:02:30+08:00'
 snapshot_status: live
 ---
 # debpalash/VoiceStudio
@@ -32,7 +32,7 @@ snapshot_status: live
 官方入门：安装桌面版，进入 Voice cloning，添加一段干净参考录音并输入文本；按提示下载所需模型后，在本机生成音频，也可用配音工作区把译文对齐视频。
 
 ## 实际例子
-**资料中的工作流：** 官方入门：安装桌面版，进入 Voice cloning，添加一段干净参考录音并输入文本；按提示下载所需模型后，在本机生成音频，也可用配音工作区把译文对齐视频。
+**官方工作流 → 场景：** 给一段产品演示视频制作另一种语言的配音。**输入：** 原视频、目标语言译文和一段已获授权的干净参考录音。**操作：** 在桌面版进入视频配音工作区，选择或克隆声音，让 VoiceStudio 在本机合成语音并按时间轴对齐。**输出：** 与画面时序对齐的目标语言配音视频；生成前后都可在本机检查素材，不必把音频交给托管服务。
 
 ## 适合谁
 需要在本地完成配音、声音克隆、转录或有声书制作的创作者与开发者。
@@ -56,6 +56,7 @@ snapshot_status: live
 | 2026-10-17 | 10 | 2301 | 71146 | GitHub Today live snapshot |
 | 2026-10-18 | 10 | 2125 | 73316 | GitHub Today live snapshot |
 | 2026-10-19 | 9 | 2082 | 75296 | GitHub Today live snapshot |
+| 2026-10-26 | 3 | 1592 | 86762 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Audio|Audio]] · [[Topics/Voice|Voice]] · [[Topics/Local AI|Local AI]]
@@ -78,15 +79,16 @@ snapshot_status: live
 - [[Daily/2026/10/2026-10-18|2026-10-18]]
 
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
+- [[Daily/2026/10/2026-10-26|2026-10-26]]
 
 ## GitHub 原始链接
 https://github.com/debpalash/VoiceStudio
 
 ## 官方资料核对
-- 核对日期：2026-10-19
+- 核对日期：2026-10-26
 - README：https://github.com/debpalash/VoiceStudio/blob/HEAD/README.md
 - 说明：项目卡反映核对日可得资料，不声称这些能力与历史上榜日的项目版本完全相同。
-- README blob SHA：`52869fe6735b9d0623c16c5c73febb4917972d23`
+- README blob SHA：`f90d8accf67755c4b1f0e959c84a3a38139aa152`
 
 ## 2026-09-15 历史核验
 - GitHub Trending 原始排名：#4

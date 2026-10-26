@@ -3,16 +3,16 @@ type: github-project
 repo: "makecindy/cindy"
 url: "https://github.com/makecindy/cindy"
 first_seen: "2026-10-25"
-last_seen: "2026-10-25"
-trending_count: 1
-github_rank: 10
-stars_today: 477
-total_stars: 4086
-forks: 584
+last_seen: "2026-10-26"
+trending_count: 2
+github_rank: 1
+stars_today: 675
+total_stars: 4834
+forks: 663
 language: "TypeScript"
-fetched_at: "2026-10-25T08:11:52+08:00"
-documentation_checked_at: "2026-10-25"
-stats_as_of: "2026-10-25"
+fetched_at: "2026-10-26T08:02:30+08:00"
+documentation_checked_at: "2026-10-26"
+stats_as_of: "2026-10-26"
 snapshot_status: live
 category: ["Desktop Agent", "Automation", "AI Assistant"]
 topics: ["AI Agent", "Desktop", "Automation", "MCP"]
@@ -54,17 +54,19 @@ pnpm restart:desktop:remote --region=cn
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-25 | 10 | 477 | 4086 | 584 | GitHub Today live snapshot |
+| 2026-10-26 | 1 | 675 | 4834 | 663 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI-Agent|AI-Agent]] · [[Topics/Desktop|Desktop]] · [[Topics/Automation|Automation]] · [[Topics/MCP|MCP]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-25|2026-10-25]]
+- [[Daily/2026/10/2026-10-26|2026-10-26]]
 
 ## GitHub 原始链接
 https://github.com/makecindy/cindy
 
-## 官方资料复核（2026-10-25）
+## 官方资料复核（2026-10-26）
 - README：https://github.com/makecindy/cindy/blob/main/README.md
 - 中文 README blob SHA：`4f1caabe7fe42cda7ea6f58e3c5e412221044dc1`
 - 默认 README blob SHA：`8af0739d87f29cd820be10698003cf9525647a74`
