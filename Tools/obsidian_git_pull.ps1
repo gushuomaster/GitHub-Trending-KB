@@ -115,10 +115,25 @@ try {
             Write-Log "OK: origin connected without an explicit Git proxy"
         }
     }
-    # The vault is read-only; GitHub main is the single source of truth.
-    $null = Invoke-Git -GitArgs @("reset", "--hard", "origin/$Branch")
+    # Keep the vault safe: only discard changes that Git confirms are whitespace/EOL-only.
+    $staged = Invoke-Git -GitArgs @("diff", "--cached", "--name-only")
+    if ($staged) {
+        throw "Staged changes exist; refusing to alter the vault: $staged"
+    }
+
+    $worktreeStatus = Invoke-Git -GitArgs @("status", "--porcelain", "--untracked-files=no")
+    if ($worktreeStatus) {
+        $semanticDiff = & $script:GitExe -C $VaultPath diff --ignore-space-at-eol --quiet
+        if ($LASTEXITCODE -ne 0) {
+            throw "Semantic tracked changes exist; refusing to alter the vault"
+        }
+        $null = Invoke-Git -GitArgs @("restore", "--worktree", "--")
+        Write-Log "OK: removed EOL-only tracked changes before fast-forward"
+    }
+
+    $null = Invoke-Git -GitArgs @("merge", "--ff-only", "origin/$Branch")
     $head = Invoke-Git -GitArgs @("rev-parse", "--short", "HEAD")
-    Write-Log "OK: local vault synced to origin/$Branch at $head"
+    Write-Log "OK: local vault fast-forwarded to origin/$Branch at $head"
     exit 0
 }
 catch {
