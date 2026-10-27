@@ -3,7 +3,7 @@ type: github-project
 repo: affaan-m/ECC
 url: https://github.com/affaan-m/ECC
 language: "JavaScript"
-stars_today: 1145
+stars_today: 896
 category:
 - AI
 - Agent
@@ -20,14 +20,14 @@ topics:
 - Skills
 - Developer-Tools
 first_seen: '2026-09-09'
-last_seen: '2026-10-18'
-trending_count: 10
-github_rank: 3
-fetched_at: '2026-10-18T08:11:03+08:00'
-documentation_checked_at: '2026-10-18'
-stats_as_of: '2026-10-18'
-total_stars: 282492
-forks: 41985
+last_seen: '2026-10-27'
+trending_count: 11
+github_rank: 5
+fetched_at: '2026-10-27T08:08:24+08:00'
+documentation_checked_at: '2026-10-27'
+stats_as_of: '2026-10-27'
+total_stars: 289824
+forks: 42942
 snapshot_status: live
 ---
 
@@ -73,6 +73,7 @@ npx ecc-universal@2.2.3 setup
 | 2026-10-16 | 10 | 1013 | 280363 | GitHub Today live snapshot |
 | 2026-10-17 | 3 | 1057 | 281489 | GitHub Today live snapshot |
 | 2026-10-18 | 3 | 1145 | 282492 | GitHub Today live snapshot |
+| 2026-10-27 | 5 | 896 | 289824 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -90,12 +91,14 @@ npx ecc-universal@2.2.3 setup
 - [[Daily/2026/10/2026-10-17|2026-10-17]]
 
 - [[Daily/2026/10/2026-10-18|2026-10-18]]
+- [[Daily/2026/10/2026-10-27|2026-10-27]]
 
 ## GitHub 原始链接
 https://github.com/affaan-m/ECC
 
-## 官方资料复核（2026-10-18）
+## 官方资料复核（2026-10-27）
 - README：https://github.com/affaan-m/ECC/blob/main/README.md
 - README blob SHA：`6583ca8c1320e559aa5b2f86250f2f09c1d577e9`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
 

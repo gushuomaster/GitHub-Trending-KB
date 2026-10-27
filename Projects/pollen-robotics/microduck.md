@@ -3,16 +3,16 @@ type: github-project
 repo: "pollen-robotics/microduck"
 url: "https://github.com/pollen-robotics/microduck"
 first_seen: "2026-10-25"
-last_seen: "2026-10-26"
-trending_count: 2
-github_rank: 5
-stars_today: 647
-total_stars: 11613
-forks: 1480
+last_seen: "2026-10-27"
+trending_count: 3
+github_rank: 8
+stars_today: 843
+total_stars: 12395
+forks: 1546
 language: "Rust"
-fetched_at: "2026-10-26T08:02:30+08:00"
-documentation_checked_at: "2026-10-26"
-stats_as_of: "2026-10-26"
+fetched_at: "2026-10-27T08:08:24+08:00"
+documentation_checked_at: "2026-10-27"
+stats_as_of: "2026-10-27"
 snapshot_status: live
 category: ["Robotics", "Biped Robot", "Simulation"]
 topics: ["Robotics", "Rust", "MuJoCo", "Reinforcement Learning"]
@@ -54,6 +54,7 @@ scripts/duck-sim down
 |---|---:|---:|---:|---:|---|
 | 2026-10-25 | 7 | 319 | 10975 | 1406 | GitHub Today live snapshot |
 | 2026-10-26 | 5 | 647 | 11613 | 1480 | GitHub Today live snapshot |
+| 2026-10-27 | 8 | 843 | 12395 | 1546 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Robotics|Robotics]] · [[Topics/Rust|Rust]] · [[Topics/MuJoCo|MuJoCo]] · [[Topics/Reinforcement-Learning|Reinforcement-Learning]]
@@ -61,13 +62,15 @@ scripts/duck-sim down
 ## 相关日报
 - [[Daily/2026/10/2026-10-25|2026-10-25]]
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
+- [[Daily/2026/10/2026-10-27|2026-10-27]]
 
 ## GitHub 原始链接
 https://github.com/pollen-robotics/microduck
 
-## 官方资料复核（2026-10-26）
+## 官方资料复核（2026-10-27）
 - README：https://github.com/pollen-robotics/microduck/blob/main/README.md
 - README blob SHA：`f3d1de59a5dd8d0da09650ae70495ba887d81234`
 - 仿真文档：https://github.com/pollen-robotics/microduck/blob/main/docs/robot/simulation.md
 - 仿真文档 blob SHA：`4edfeadb1ed673263b31b7440aef4de4ba7c1938`
+
 

@@ -3,8 +3,8 @@ type: github-project
 repo: Panniantong/Agent-Reach
 url: https://github.com/Panniantong/Agent-Reach
 first_seen: '2026-09-15'
-last_seen: '2026-10-06'
-trending_count: 5
+last_seen: '2026-10-27'
+trending_count: 6
 category:
 - AI Agent
 - Web Research
@@ -13,13 +13,15 @@ topics:
 - AI Agent
 - Web Research
 - CLI
-github_rank: 6
-documentation_checked_at: '2026-10-13'
-stats_as_of: null
-stars_today: null
-total_stars: null
-forks: null
-language: null
+github_rank: 10
+documentation_checked_at: '2026-10-27'
+stats_as_of: '2026-10-27'
+stars_today: 746
+total_stars: 103552
+forks: 9187
+language: "Python"
+fetched_at: '2026-10-27T08:08:24+08:00'
+snapshot_status: live
 ---
 
 # Panniantong/Agent-Reach
@@ -60,6 +62,7 @@ agent-reach doctor
 | 2026-10-04 | 6 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-05 | 6 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 | 2026-10-06 | 6 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
+| 2026-10-27 | 10 | 746 | 103552 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI Agent|AI Agent]] · [[Topics/Web Research|Web Research]] · [[Topics/CLI|CLI]]
@@ -70,11 +73,13 @@ agent-reach doctor
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 - [[Daily/2026/10/2026-10-06|2026-10-06]]
+- [[Daily/2026/10/2026-10-27|2026-10-27]]
 
 ## GitHub 原始链接
 https://github.com/Panniantong/Agent-Reach
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-27）
 - README：https://github.com/Panniantong/Agent-Reach/blob/main/README.md
-- README blob SHA：`5ef5446b64ae5a5c9931691e63566f0b3403ad2f`
+- README blob SHA：`5d355b2bd0c451a5394e6e0978fe4933c4e1f061`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+

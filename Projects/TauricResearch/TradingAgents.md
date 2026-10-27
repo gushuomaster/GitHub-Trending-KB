@@ -3,16 +3,16 @@ type: github-project
 repo: "TauricResearch/TradingAgents"
 url: "https://github.com/TauricResearch/TradingAgents"
 first_seen: 2026-09-10
-last_seen: 2026-10-26
-trending_count: 3
-github_rank: 6
-stars_today: 381
-total_stars: 114576
-forks: 22128
+last_seen: 2026-10-27
+trending_count: 4
+github_rank: 2
+stars_today: 1395
+total_stars: 116066
+forks: 22274
 language: "Python"
-fetched_at: "2026-10-26T08:02:30+08:00"
-documentation_checked_at: "2026-10-26"
-stats_as_of: "2026-10-26"
+fetched_at: "2026-10-27T08:08:24+08:00"
+documentation_checked_at: "2026-10-27"
+stats_as_of: "2026-10-27"
 snapshot_status: live
 category: ["Trading","Multi-Agent","Finance"]
 topics: ["Trading","Multi-Agent","Finance"]
@@ -52,6 +52,7 @@ tradingagents --ticker NVDA --date 2026-09-23 --analysts market,news,fundamental
 | 2026-09-10 | 7 | 367 | 未保存 | 日期匹配来源 |
 | 2026-09-15 | 11 | 未保存 | 未保存 | 日期匹配来源 |
 | 2026-10-26 | 6 | 381 | 114576 | GitHub Today live snapshot |
+| 2026-10-27 | 2 | 1395 | 116066 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Trading|Trading]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/Finance|Finance]]
@@ -60,12 +61,14 @@ tradingagents --ticker NVDA --date 2026-09-23 --analysts market,news,fundamental
 - [[Daily/2026/09/2026-09-10|2026-09-10]]
 - [[Daily/2026/09/2026-09-15|2026-09-15]]
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
+- [[Daily/2026/10/2026-10-27|2026-10-27]]
 
 ## GitHub 原始链接
 https://github.com/TauricResearch/TradingAgents
 
 ## 官方资料核对
-- 核对日期：2026-10-26
+- 核对日期：2026-10-27
 - README：https://github.com/TauricResearch/TradingAgents/blob/HEAD/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。
 - README blob SHA：`cedcdb1e5bf56705cab3fa4b86944686cd62276c`
+
