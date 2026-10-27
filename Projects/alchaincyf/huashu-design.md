@@ -36,15 +36,15 @@ status: active
 ## 实际例子
 **官方案例 → 场景：** 制作《千里江山图》讲座。**输入：** 讲座主题与作品资料。**操作：** 让 Agent 选择暗场展柜方向，把 11.9 米长卷缩略图做成每页位置条，并为内容页保留来源与可编辑文本。**输出：** 浏览器可播放的 HTML deck 和文本框可编辑的 PPTX。
 
-\`\`\`bash
+```bash
 npx skills add alchaincyf/huashu-design
-\`\`\`
+```
 
 ## 适合谁
 需要快速交付产品原型、演讲稿、发布动画或信息图，但不想在传统图形界面里从空白画布开始的产品经理、独立开发者和内容设计团队。
 
 ## 局限 / 注意点
-- 安装目录必须包含 \`references/\`、\`assets/\`、\`scripts/\`、\`demos/\`；旧版 skills CLI 可能只同步单文件，需要升级或改用 git clone。
+- 安装目录必须包含 `references/`、`assets/`、`scripts/`、`demos/`；旧版 skills CLI 可能只同步单文件，需要升级或改用 git clone。
 - 不支持图层级可编辑的 PPTX 到 Figma，也不覆盖 Framer Motion 级复杂动画、3D、物理模拟或粒子系统。完全没有品牌素材时，官方说明成品质量会明显下降。
 - 核心设计与导出链路本地运行；豆包 TTS、AI 看片等云功能是可选项，需要自备密钥并显式确认上传。
 
@@ -64,5 +64,5 @@ https://github.com/alchaincyf/huashu-design
 
 ## 官方资料复核（2026-10-27）
 - README：https://github.com/alchaincyf/huashu-design/blob/master/README.md
-- README blob SHA：\`4b093c449371d92cd03097ebf6e773ef365cf1fe\`
+- README blob SHA：`4b093c449371d92cd03097ebf6e773ef365cf1fe`
 

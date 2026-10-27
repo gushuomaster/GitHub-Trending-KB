@@ -70,7 +70,7 @@ https://github.com/makecindy/cindy
 
 ## 官方资料复核（2026-10-27）
 - README：https://github.com/makecindy/cindy/blob/main/README.md
-- 中文 README blob SHA：`4f1caabe7fe42cda7ea6f58e3c5e412221044dc1`
-- 默认 README blob SHA：`8af0739d87f29cd820be10698003cf9525647a74`
+- 中文 README blob SHA：`f47b9b5d8f06aeb28cd03032beb52e42082825c0`
+- 默认 README blob SHA：`4693f97ae5f50d0c2b5ff82936354f59c16b24e7`
 
 

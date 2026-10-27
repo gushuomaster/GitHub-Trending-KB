@@ -34,12 +34,12 @@ status: active
 把 SkillSpector 放在“下载第三方 Skill”与“加入 Agent 环境”之间。输入候选仓库、压缩包或本地 Skill 目录；先运行不调用模型的静态扫描，再按需配置模型做语义分析；最终把 SARIF 接入 CI，或把 Markdown/JSON 报告交给安全审查，只有风险可接受的 Skill 才进入安装流程。
 
 ## 实际例子
-**官方用法 → 场景：** 团队准备把 \`my-skill\` 加入 Codex。**输入：** 该 Skill 的本地目录。**操作：** 安装 CLI，以 \`--no-llm\` 扫描并导出 SARIF；将报告作为 CI 审查材料。**输出：** 含风险分数、严重级别、命中位置和修复建议的 \`report.sarif\`。
+**官方用法 → 场景：** 团队准备把 `my-skill` 加入 Codex。**输入：** 该 Skill 的本地目录。**操作：** 安装 CLI，以 `--no-llm` 扫描并导出 SARIF；将报告作为 CI 审查材料。**输出：** 含风险分数、严重级别、命中位置和修复建议的 `report.sarif`。
 
-\`\`\`bash
+```bash
 uv tool install git+https://github.com/NVIDIA/skillspector.git
 skillspector scan ./my-skill --no-llm --format sarif --output report.sarif
-\`\`\`
+```
 
 ## 适合谁
 负责 Coding Agent、MCP 或内部 Skill 市场准入的安全工程师、平台团队与需要审计第三方自动化扩展的开发者。
@@ -64,5 +64,5 @@ https://github.com/NVIDIA/SkillSpector
 
 ## 官方资料复核（2026-10-27）
 - README：https://github.com/NVIDIA/SkillSpector/blob/main/README.md
-- README blob SHA：\`fecbfb386b5c12a7e199c47a31c550fadd650095\`
+- README blob SHA：`fecbfb386b5c12a7e199c47a31c550fadd650095`
 

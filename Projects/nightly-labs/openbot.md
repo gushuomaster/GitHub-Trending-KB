@@ -36,16 +36,16 @@ status: preview
 ## 实际例子
 **官方能力对应场景 → 场景：** 把一台 Linux 主机变成随时可访问的长期 Agent 工作站。**输入：** Ubuntu 主机、邮箱登录和需要处理的项目目录。**操作：** 用官方脚本安装服务器并登录，再从桌面、iPhone 或网页连接，为不同任务建立 Agent。**输出：** 保存在该主机上的独立 Agent 工作区、持久任务队列和会话。
 
-\`\`\`bash
+```bash
 curl -fsSL https://raw.githubusercontent.com/nightly-labs/openbot/main/scripts/install-server.sh | sudo bash
 sudo openbot login
-\`\`\`
+```
 
 ## 适合谁
 需要让多个 Coding/Research Agent 长期驻留、分工并跨设备查看状态的个人开发者、自动化团队和自托管实验者。
 
 ## 局限 / 注意点
-- 官方明确标为 development preview；Agent 当前以 \`danger-full-access\` 且 \`approvalPolicy: never\` 运行，首次同意后可修改文件、执行命令、访问网络和控制浏览器，必须只运行可信任务并保持备份。
+- 官方明确标为 development preview；Agent 当前以 `danger-full-access` 且 `approvalPolicy: never` 运行，首次同意后可修改文件、执行命令、访问网络和控制浏览器，必须只运行可信任务并保持备份。
 - “本地优先”不等于离线：各模型供应商、网页和插件仍会联网。许可证为 PolyForm Noncommercial 1.0.0，商用前需核对条款；部分平台、远程桌面和登录流程还有系统限制。
 
 ## Trending 历史
@@ -64,5 +64,5 @@ https://github.com/nightly-labs/openbot
 
 ## 官方资料复核（2026-10-27）
 - README：https://github.com/nightly-labs/openbot/blob/main/README.md
-- README blob SHA：\`9333b8e7c603cf347e72b786c4fc5f50b8f381ac\`
+- README blob SHA：`9333b8e7c603cf347e72b786c4fc5f50b8f381ac`
 

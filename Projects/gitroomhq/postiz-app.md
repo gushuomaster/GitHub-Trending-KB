@@ -59,6 +59,6 @@ https://github.com/gitroomhq/postiz-app
 
 ## 官方资料复核（2026-10-27）
 - README：https://github.com/gitroomhq/postiz-app/blob/main/README.md
-- README blob SHA：\`1b21e0a0d886e6a5e536837046e35eb86cd3ad31\`
+- README blob SHA：`1b21e0a0d886e6a5e536837046e35eb86cd3ad31`
 - Quickstart：https://docs.postiz.com/general/quickstart
 
