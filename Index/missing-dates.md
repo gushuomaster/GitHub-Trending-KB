@@ -50,7 +50,8 @@
 
 ## 当前待修复
 
-- 当前没有剩余已确认的 GitHub 内容质量待办。
+- 当前没有剩余已确认且可修复的 GitHub 内容质量待办。
+- 2026-09-14 的 `tonhowtf/omniget` 官方仓库链接仍返回 404；当日榜单日期、数量与顺序已由日期匹配的语言不限归档核实，正文能力说明以公开镜像/索引交叉核对。该外部仓库可用性无法在本知识库内修复，保留原始链接用于来源追溯，并明确列为阻塞而非宣称链接通过。
 - ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前需要 236 个，因此 `Projects/AgriciDaniel/claude-seo.md`、`Projects/alchaincyf/huashu-design.md`、`Projects/android/skills.md`、`Projects/anomalyco/opencode.md`、`Projects/aws/agent-toolkit-for-aws.md`、`Projects/Comfy-Org/ComfyUI.md`、`Projects/coollabsio/coolify.md`、`Projects/fastapi/fastapi.md`、`Projects/gitroomhq/postiz-app.md`、`Projects/google-gemini/gemini-cli.md`、`Projects/Graphify-Labs/graphify.md`、`Projects/headroomlabs-ai/headroom.md`、`Projects/hmjz100/LinkSwift.md`、`Projects/jbiaojerry/ebook-treasure-chest.md`、`Projects/JetBrains/thinkrail.md`、`Projects/Kruk2/jasna.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/luongnv89/claude-howto.md`、`Projects/MadsLorentzen/ai-job-search.md`、`Projects/makecindy/cindy.md`、`Projects/Meloong-Git/PCL.md`、`Projects/mlabonne/llm-course.md`、`Projects/nightly-labs/openbot.md`、`Projects/nodejs/node.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/Nutlope/hallmark.md`、`Projects/php/php-src.md`、`Projects/pollen-robotics/microduck.md`、`Projects/Renhuai123/ziwei-doushu.md`、`Projects/rust-lang/rust.md`、`Projects/shiyu-coder/Kronos.md`、`Projects/stablyai/orca.md`、`Projects/twentyhq/twenty.md`、`Projects/vllm-project/vllm.md`、`Projects/withmarbleapp/os-taxonomy.md`、`Projects/xerj-org/xerj.md` 暂无法按相同层级创建。GitHub 内容完整，未采用破坏规范路径的绕行结构。
 
 ## 下一待修复日期
