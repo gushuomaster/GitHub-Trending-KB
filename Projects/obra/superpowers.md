@@ -3,14 +3,14 @@ type: github-project
 repo: obra/superpowers
 url: https://github.com/obra/superpowers
 first_seen: '2026-09-09'
-last_seen: '2026-10-17'
-trending_count: 12
+last_seen: '2026-10-28'
+trending_count: 13
 language: "Shell"
-total_stars: 300676
-forks: 26844
-stars_today: 973
-github_rank: 8
-fetched_at: '2026-10-17T08:08:36+08:00'
+total_stars: 306422
+forks: 27277
+stars_today: 617
+github_rank: 4
+fetched_at: '2026-10-28T08:05:36+08:00'
 category:
 - AI
 - Skills
@@ -23,13 +23,13 @@ topics:
 - AI
 - Skills
 - Developer-Tools
-stats_as_of: '2026-10-17'
-documentation_checked_at: '2026-10-17'
+stats_as_of: '2026-10-28'
+documentation_checked_at: '2026-10-28'
 ---
 
 # obra/superpowers
 
-> 功能和用法按 2026-10-17 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-28 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 一套面向 Coding Agent 的软件开发方法论，把需求澄清、设计、计划、TDD、实现、评审和验证组织成自动触发的技能流程。
@@ -72,6 +72,7 @@ superpowers
 | 2026-10-04 | 11 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-16 | 6 | 582 | 299875 | GitHub Today live snapshot |
 | 2026-10-17 | 8 | 973 | 300676 | GitHub Today live snapshot |
+| 2026-10-28 | 4 | 617 | 306422 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -90,13 +91,15 @@ superpowers
 - [[Daily/2026/10/2026-10-16|2026-10-16]]
 
 - [[Daily/2026/10/2026-10-17|2026-10-17]]
+- [[Daily/2026/10/2026-10-28|2026-10-28]]
 
 ## GitHub 原始链接
 https://github.com/obra/superpowers
 
-## 官方资料复核（2026-10-17）
+## 官方资料复核（2026-10-28）
 - README：https://github.com/obra/superpowers/blob/main/README.md
-- README blob SHA：`e40ddfa8f87a374e1b9a3663b80c1aa954cf8eec`
+- README blob SHA：`c5bb59fdaf17ba154e803c549cd71a73ef36c24b`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
 
 

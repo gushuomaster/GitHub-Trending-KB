@@ -3,16 +3,16 @@ type: github-project
 repo: "gitroomhq/postiz-app"
 url: "https://github.com/gitroomhq/postiz-app"
 first_seen: "2026-10-27"
-last_seen: "2026-10-27"
-trending_count: 1
-github_rank: 12
-stars_today: 188
-total_stars: 38431
-forks: 7455
+last_seen: "2026-10-28"
+trending_count: 2
+github_rank: 7
+stars_today: 951
+total_stars: 39347
+forks: 7513
 language: "TypeScript"
-fetched_at: "2026-10-27T08:08:24+08:00"
-documentation_checked_at: "2026-10-27"
-stats_as_of: "2026-10-27"
+fetched_at: "2026-10-28T08:05:36+08:00"
+documentation_checked_at: "2026-10-28"
+stats_as_of: "2026-10-28"
 snapshot_status: live
 category: ["Social Media", "Scheduling", "Automation"]
 topics: ["Social Media", "Content Calendar", "Self Hosting", "Automation"]
@@ -47,18 +47,21 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-27 | 12 | 188 | 38431 | 7455 | GitHub Today live snapshot |
+| 2026-10-28 | 7 | 951 | 39347 | 7513 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Social-Media|Social-Media]] · [[Topics/Content-Calendar|Content-Calendar]] · [[Topics/Self-Hosting|Self-Hosting]] · [[Topics/Automation|Automation]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-27|2026-10-27]]
+- [[Daily/2026/10/2026-10-28|2026-10-28]]
 
 ## GitHub 原始链接
 https://github.com/gitroomhq/postiz-app
 
-## 官方资料复核（2026-10-27）
+## 官方资料复核（2026-10-28）
 - README：https://github.com/gitroomhq/postiz-app/blob/main/README.md
 - README blob SHA：`1b21e0a0d886e6a5e536837046e35eb86cd3ad31`
 - Quickstart：https://docs.postiz.com/general/quickstart
+
 

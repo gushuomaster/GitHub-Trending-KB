@@ -3,16 +3,16 @@ type: github-project
 repo: "nightly-labs/openbot"
 url: "https://github.com/nightly-labs/openbot"
 first_seen: "2026-10-27"
-last_seen: "2026-10-27"
-trending_count: 1
-github_rank: 9
-stars_today: 176
-total_stars: 1457
-forks: 184
+last_seen: "2026-10-28"
+trending_count: 2
+github_rank: 3
+stars_today: 777
+total_stars: 2398
+forks: 248
 language: "TypeScript"
-fetched_at: "2026-10-27T08:08:24+08:00"
-documentation_checked_at: "2026-10-27"
-stats_as_of: "2026-10-27"
+fetched_at: "2026-10-28T08:05:36+08:00"
+documentation_checked_at: "2026-10-28"
+stats_as_of: "2026-10-28"
 snapshot_status: live
 category: ["Desktop Agent", "Agent Workspace", "Automation"]
 topics: ["AI Agent", "Desktop", "Multi-Agent", "Browser Automation"]
@@ -52,17 +52,20 @@ sudo openbot login
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-27 | 9 | 176 | 1457 | 184 | GitHub Today live snapshot |
+| 2026-10-28 | 3 | 777 | 2398 | 248 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI-Agent|AI-Agent]] · [[Topics/Desktop|Desktop]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/Browser-Automation|Browser-Automation]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-27|2026-10-27]]
+- [[Daily/2026/10/2026-10-28|2026-10-28]]
 
 ## GitHub 原始链接
 https://github.com/nightly-labs/openbot
 
-## 官方资料复核（2026-10-27）
+## 官方资料复核（2026-10-28）
 - README：https://github.com/nightly-labs/openbot/blob/main/README.md
-- README blob SHA：`9333b8e7c603cf347e72b786c4fc5f50b8f381ac`
+- README blob SHA：`c895cf81d1cc77b64996ea44301bf7cb0fabb48c`
+
 
