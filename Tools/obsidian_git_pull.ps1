@@ -13,7 +13,7 @@ function Write-Log([string]$Message) {
         Out-File -LiteralPath $LogFile -Append -Encoding utf8
 }
 
-function Invoke-Git([string[]]$GitArgs) {
+function Invoke-GitResult([string[]]$GitArgs) {
     # Windows PowerShell 5.1 can turn native stderr into an error record.
     # Check Git's process exit code instead of treating normal fetch output as a failure.
     $previousPreference = $ErrorActionPreference
@@ -25,10 +25,15 @@ function Invoke-Git([string[]]$GitArgs) {
     finally {
         $ErrorActionPreference = $previousPreference
     }
-    if ($exitCode -ne 0) {
-        throw "git $($GitArgs[0]) failed with exit code $exitCode"
+    return [pscustomobject]@{ ExitCode = $exitCode; Output = $output.Trim() }
+}
+
+function Invoke-Git([string[]]$GitArgs) {
+    $result = Invoke-GitResult -GitArgs $GitArgs
+    if ($result.ExitCode -ne 0) {
+        throw "git $($GitArgs[0]) failed with exit code $($result.ExitCode): $($result.Output)"
     }
-    return $output.Trim()
+    return $result.Output
 }
 
 function Get-WindowsSystemProxy {
@@ -68,6 +73,7 @@ function Get-ClashProxyCandidates {
     catch { return }
 }
 
+function Start-ObsidianGitSync {
 try {
     if (-not (Test-Path -LiteralPath (Join-Path $VaultPath ".git"))) {
         throw "Vault is not a Git repository: $VaultPath"
@@ -88,30 +94,32 @@ try {
         if ($systemProxy) {
             Write-Log "Configured connection failed; trying current Windows system proxy"
             try {
-                $null = Invoke-Git -GitArgs @("-c", "remote.origin.proxy=$systemProxy", "fetch", "origin", $Branch)
+                $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=$systemProxy", "fetch", "origin", $Branch)
                 $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "remote.origin.proxy", $systemProxy)
+                $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "http.sslBackend", "openssl")
                 Write-Log "OK: origin now follows the verified Windows system proxy"
                 $connected = $true
             }
-            catch { Write-Log "Current Windows system proxy did not connect" }
+            catch { Write-Log ("Current Windows system proxy did not connect: " + $_.Exception.Message) }
         }
         if (-not $connected) {
             $clashCandidates = @(Get-ClashProxyCandidates | Where-Object { $_ })
             foreach ($candidate in $clashCandidates) {
                 if ($candidate -eq $systemProxy) { continue }
                 try {
-                    $null = Invoke-Git -GitArgs @("-c", "remote.origin.proxy=$candidate", "fetch", "origin", $Branch)
+                    $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=$candidate", "fetch", "origin", $Branch)
                     $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "remote.origin.proxy", $candidate)
+                    $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "http.sslBackend", "openssl")
                     Write-Log "OK: origin now uses a verified local Clash listener"
                     $connected = $true
                     break
                 }
-                catch { }
+                catch { Write-Log ("Local proxy $candidate did not connect: " + $_.Exception.Message) }
             }
         }
         if (-not $connected) {
             Write-Log "Trying origin without a proxy (also supports Clash TUN mode)"
-            $null = Invoke-Git -GitArgs @("-c", "remote.origin.proxy=", "fetch", "origin", $Branch)
+            $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=", "fetch", "origin", $Branch)
             Write-Log "OK: origin connected without an explicit Git proxy"
         }
     }
@@ -123,11 +131,17 @@ try {
 
     $worktreeStatus = Invoke-Git -GitArgs @("status", "--porcelain", "--untracked-files=no")
     if ($worktreeStatus) {
-        $semanticDiff = & $script:GitExe -C $VaultPath diff --ignore-space-at-eol --quiet
-        if ($LASTEXITCODE -ne 0) {
+        $semanticDiff = Invoke-GitResult -GitArgs @("diff", "--ignore-space-at-eol", "--quiet")
+        if ($semanticDiff.ExitCode -gt 1) {
+            throw "git diff failed with exit code $($semanticDiff.ExitCode): $($semanticDiff.Output)"
+        }
+        if ($semanticDiff.ExitCode -eq 1) {
             throw "Semantic tracked changes exist; refusing to alter the vault"
         }
-        $null = Invoke-Git -GitArgs @("restore", "--worktree", "--")
+        $null = Invoke-Git -GitArgs @("restore", "--worktree", "--", ":/")
+        if (Invoke-Git -GitArgs @("status", "--porcelain", "--untracked-files=no")) {
+            throw "Tracked files remain dirty after EOL restore; check .gitattributes"
+        }
         Write-Log "OK: removed EOL-only tracked changes before fast-forward"
     }
 
@@ -139,4 +153,9 @@ try {
 catch {
     Write-Log ("ERROR: " + $_.Exception.Message)
     exit 1
+}
+}
+
+if ($MyInvocation.InvocationName -ne ".") {
+    Start-ObsidianGitSync
 }
