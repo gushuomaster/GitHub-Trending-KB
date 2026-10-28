@@ -2,12 +2,12 @@
 repo: pbakaus/impeccable
 url: https://github.com/pbakaus/impeccable
 first_seen: '2026-09-24'
-last_seen: '2026-10-27'
-trending_count: 10
-github_rank: 6
-stars_today: 1506
-total_stars: 89167
-forks: 5309
+last_seen: '2026-10-28'
+trending_count: 11
+github_rank: 5
+stars_today: 1449
+total_stars: 90475
+forks: 5375
 language: Rust
 category:
 - AI
@@ -24,15 +24,15 @@ topics:
 - Design
 status: active
 type: github-project
-stats_as_of: '2026-10-27'
-documentation_checked_at: '2026-10-27'
-fetched_at: '2026-10-27T08:08:24+08:00'
+stats_as_of: '2026-10-28'
+documentation_checked_at: '2026-10-28'
+fetched_at: '2026-10-28T08:05:36+08:00'
 snapshot_status: live
 ---
 
 # pbakaus/impeccable
 
-> 功能和用法按 2026-10-26 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
+> 功能和用法按 2026-10-28 当前官方资料核对，不声称等同于历史上榜日版本。历史统计未保存时保持空值，不使用当前值补写。
 
 ## 一句话说明
 给 AI coding/design harness 使用的设计语言与 Skill，让 Agent 能系统审查、精修和简化 UI，而不是只凭模糊的“做得更好看”。
@@ -68,6 +68,7 @@ snapshot_status: live
 | 2026-10-25 | 6 | 619 | 86388 | GitHub Today live snapshot |
 | 2026-10-26 | 4 | 1092 | 87666 | GitHub Today live snapshot |
 | 2026-10-27 | 6 | 1506 | 89167 | GitHub Today live snapshot |
+| 2026-10-28 | 5 | 1449 | 90475 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Design|Design]]
@@ -83,13 +84,15 @@ snapshot_status: live
 - [[Daily/2026/10/2026-10-25|2026-10-25]]
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
 - [[Daily/2026/10/2026-10-27|2026-10-27]]
+- [[Daily/2026/10/2026-10-28|2026-10-28]]
 
 ## GitHub 原始链接
 https://github.com/pbakaus/impeccable
 
-## 官方资料复核（2026-10-27）
+## 官方资料复核（2026-10-28）
 - README：https://github.com/pbakaus/impeccable/blob/main/README.md
 - README blob SHA：`32878cb1af4941e9a7525376f73c20c0142fbe00`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
 
 

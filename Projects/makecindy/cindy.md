@@ -3,16 +3,16 @@ type: github-project
 repo: "makecindy/cindy"
 url: "https://github.com/makecindy/cindy"
 first_seen: "2026-10-25"
-last_seen: "2026-10-27"
-trending_count: 3
-github_rank: 4
-stars_today: 1296
-total_stars: 6438
-forks: 786
+last_seen: "2026-10-28"
+trending_count: 4
+github_rank: 6
+stars_today: 1465
+total_stars: 7440
+forks: 885
 language: "TypeScript"
-fetched_at: "2026-10-27T08:08:24+08:00"
-documentation_checked_at: "2026-10-27"
-stats_as_of: "2026-10-27"
+fetched_at: "2026-10-28T08:05:36+08:00"
+documentation_checked_at: "2026-10-28"
+stats_as_of: "2026-10-28"
 snapshot_status: live
 category: ["Desktop Agent", "Automation", "AI Assistant"]
 topics: ["AI Agent", "Desktop", "Automation", "MCP"]
@@ -56,6 +56,7 @@ pnpm restart:desktop:remote --region=cn
 | 2026-10-25 | 10 | 477 | 4086 | 584 | GitHub Today live snapshot |
 | 2026-10-26 | 1 | 675 | 4834 | 663 | GitHub Today live snapshot |
 | 2026-10-27 | 4 | 1296 | 6438 | 786 | GitHub Today live snapshot |
+| 2026-10-28 | 6 | 1465 | 7440 | 885 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI-Agent|AI-Agent]] · [[Topics/Desktop|Desktop]] · [[Topics/Automation|Automation]] · [[Topics/MCP|MCP]]
@@ -64,13 +65,15 @@ pnpm restart:desktop:remote --region=cn
 - [[Daily/2026/10/2026-10-25|2026-10-25]]
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
 - [[Daily/2026/10/2026-10-27|2026-10-27]]
+- [[Daily/2026/10/2026-10-28|2026-10-28]]
 
 ## GitHub 原始链接
 https://github.com/makecindy/cindy
 
-## 官方资料复核（2026-10-27）
+## 官方资料复核（2026-10-28）
 - README：https://github.com/makecindy/cindy/blob/main/README.md
-- 中文 README blob SHA：`f47b9b5d8f06aeb28cd03032beb52e42082825c0`
-- 默认 README blob SHA：`4693f97ae5f50d0c2b5ff82936354f59c16b24e7`
+- 中文 README blob SHA：`9148773c3a0a24376bbdeb537ae09c6792391da9`
+- 默认 README blob SHA：`0d3c698b5d03b65ca10fdefb4d3a49a1d19bde22`
+
 
 
