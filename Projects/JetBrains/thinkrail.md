@@ -30,7 +30,7 @@ status: active
 - 支持多模型、Skills、工作流、MCP、研究、图表与预览，并从计划和提交生成发布或 PR 内容。
 
 ## 怎么利用
-在装有 Git 和模型供应商凭据的电脑上安装 ThinkRail，用 CLI 打开现有仓库。输入是仓库、功能目标和约束；ThinkRail 为任务创建独立工作区，Agent 按计划修改代码，IDE 提供差异与诊断供人工复核，最终输出隔离分支、同步后的规格以及可推送或发起 PR 的提交。
+在装有 Git 和模型供应商凭据的电脑上安装 ThinkRail，用 CLI 打开现有仓库，或在首次启动时选择 **Start a new project** 创建空 Git 仓库。输入是仓库或新项目、功能目标和约束；ThinkRail 为任务创建独立工作区，Agent 按计划修改代码，IDE 提供差异与诊断供人工复核，最终输出隔离分支、同步后的规格以及可推送或发起 PR 的提交。
 
 ## 实际例子
 **官方工作流 → 场景：** 在不污染主工作区的情况下实现一个新功能。**输入：** 本地 Git 仓库和功能说明。**操作：** 用 `thinkrail` 打开仓库，创建隔离 workspace，让 Agent 先更新共享计划和规格，再编码；开发者在 IDE 中对具体行或 diff 留评，确认后发布分支或打开 PR。**输出：** 一个可审查的 worktree 分支、与实现一致的规格记录及 PR 描述。
@@ -44,7 +44,7 @@ thinkrail ~/code/my-repo
 需要同时推进多项功能、又希望保留 IDE 诊断、Git 隔离和人工审查控制的应用开发者与工程团队。
 
 ## 局限 / 注意点
-- 需要 Git 和可用的模型供应商；桌面版 macOS 目前只支持 Apple Silicon，Linux 桌面需要 glibc 2.38+ 等依赖，Linux 包及部分旧 macOS 构建可能未签名。
+- 需要 Git 和可用的模型供应商；macOS 桌面提供 Apple Silicon / Intel DMG，Linux 桌面需要 glibc 2.38+ 等依赖。旧版 macOS DMG 或本地构建可能未签名并被 Gatekeeper 阻止，Linux 构建也未签名。
 - 产品会发送不含提示词、代码、文件或凭据的基础使用分析与错误报告；可在设置或 CLI 关闭可选分析。MCP 和 Agent 能触及代码与外部工具，仍应按最小权限配置并审查写操作。
 
 ## Trending 历史
@@ -67,6 +67,6 @@ https://github.com/JetBrains/thinkrail
 
 ## 官方资料复核（2026-10-28）
 - README：https://github.com/JetBrains/thinkrail/blob/main/README.md
-- README blob SHA：`4e1883640514ab53a17cd21c5fcd85a20dbaa13c`
+- README blob SHA：`949eedb97e553ef31931598cb8045e1da67c17cc`
 
 
