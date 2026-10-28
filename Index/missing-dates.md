@@ -1,6 +1,6 @@
 # GitHub Trending 缺档与质量记录
 
-截至 2026-10-27，2026-09-09 至 2026-10-27 的 Daily 日期路径连续，没有文件缺失。清单来自本次对 GitHub `main`、日期匹配语言不限归档、日报正文、项目卡历史、JSONL 和 Dashboard 的重新审核。
+截至 2026-10-28，2026-09-09 至 2026-10-28 的 Daily 日期路径连续，没有文件缺失。清单来自本次对 GitHub `main`、日期匹配语言不限归档、日报正文、项目卡历史、JSONL 和 Dashboard 的重新审核。
 
 ## 本次已修复
 
@@ -44,15 +44,16 @@
 - 2026-10-22：11 项 08:05:55 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；11 个项目卡记录的 README blob SHA 均与当前官方 README 一致。全量复查 44 份日报、608 条 JSONL 记录和 232 张有效日报引用的项目卡，修复 `akitaonrails/ai-memory` Trending 历史表缺少 Forks 表头及旧行对应列的问题，不改动历史来源或当日统计事实。
 - 2026-10-23：9 项 08:11:08 实时快照、日报、项目卡链接和 Dashboard 已验收；9 个项目卡记录的 README blob SHA 均与当前官方 README 一致。上午提交将 `Index/projects.jsonl` 写成不可解析的非 UTF-8 内容；本次从上一份已验证索引逐字保留 608 条历史记录，并按当天日报可复核快照追加 9 条记录，恢复为 617 条 UTF-8 JSONL，未改写历史日期、排名或统计。
 - 2026-10-24：8 项 08:07:20 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 8 个项目的当前官方 README，确认中文说明、具体能力、实例与局限未降级。全量复查 46 份日报、625 条 JSONL 记录、238 张有效日报引用的项目卡；移除 JSONL 文件末尾的额外空白记录，并将 `Renhuai123/ziwei-doushu` 的 README blob SHA 更新为当前官方版本，不改动榜单、统计或历史事实。
-- 2026-10-25：10 项 08:11:52 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 10 个项目的当前官方 README 及必要的辅助文档，记录的 blob SHA、中文说明、具体能力、实例与局限均与官方资料一致。全量复查 47 份日报、635 条 JSONL 记录、244 张有效日报引用的项目卡，未发现新的 GitHub 内容质量缺陷。
+- 2026-10-25：10 项 08:11:52 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 10 个项目的当前官方 README 及必要的辅助文档，记录的 blob SHA、中文说明、具体能力、实例与局限均与官方资料一致。本次把混写在“怎么利用 / 实例”段末的 10 条实际限制原句拆分为明确的“局限 / 注意点”，不改动快照、榜单、统计或语义。
 - 2026-10-26：11 项 08:02:30 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 11 个项目的当前官方 README。全量复查 48 份日报、646 条 JSONL 记录、247 张有效日报引用的项目卡；更新 5 张项目卡中过时的 README blob SHA，并按 `Renhuai123/ziwei-doushu` 当前 README 纠正日报和项目卡对 v3.0、v4.0 数据集规模及许可边界的说明，不改动榜单、统计或历史事实。
 - 2026-10-27：14 项 08:08:24 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 14 个项目的当前官方 README。全量复查 49 份日报、660 条 JSONL 记录、251 张有效日报引用的项目卡；修复当天日报及 4 张项目卡中误写的反斜线 Markdown 转义，移除 JSONL 文件末尾的额外空白记录，并更新 `makecindy/cindy` 当天下午已变化的中英文 README blob SHA，不改动榜单、统计或历史事实。
+- 2026-10-28：11 项 08:05:36 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 11 个项目的当前官方 README，10 个记录的 README blob SHA 未变。`JetBrains/thinkrail` 的 README 在上午采集后变化，本次同步其新建空仓库入口、macOS Intel 支持和签名边界，并更新 blob SHA；不改动榜单、快照统计或上榜历史。全量复查 50 份日报、671 条唯一 JSONL 记录和 254 张有效日报引用的项目卡。
 
 ## 当前待修复
 
 - 当前没有剩余已确认且可修复的 GitHub 内容质量待办。
 - 2026-09-14 的 `tonhowtf/omniget` 官方仓库链接仍返回 404；当日榜单日期、数量与顺序已由日期匹配的语言不限归档核实，正文能力说明以公开镜像/索引交叉核对。该外部仓库可用性无法在本知识库内修复，保留原始链接用于来源追溯，并明确列为阻塞而非宣称链接通过。
-- ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前需要 236 个，因此 `Projects/AgriciDaniel/claude-seo.md`、`Projects/alchaincyf/huashu-design.md`、`Projects/android/skills.md`、`Projects/anomalyco/opencode.md`、`Projects/aws/agent-toolkit-for-aws.md`、`Projects/Comfy-Org/ComfyUI.md`、`Projects/coollabsio/coolify.md`、`Projects/fastapi/fastapi.md`、`Projects/gitroomhq/postiz-app.md`、`Projects/google-gemini/gemini-cli.md`、`Projects/Graphify-Labs/graphify.md`、`Projects/headroomlabs-ai/headroom.md`、`Projects/hmjz100/LinkSwift.md`、`Projects/jbiaojerry/ebook-treasure-chest.md`、`Projects/JetBrains/thinkrail.md`、`Projects/Kruk2/jasna.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/luongnv89/claude-howto.md`、`Projects/MadsLorentzen/ai-job-search.md`、`Projects/makecindy/cindy.md`、`Projects/Meloong-Git/PCL.md`、`Projects/mlabonne/llm-course.md`、`Projects/nightly-labs/openbot.md`、`Projects/nodejs/node.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/Nutlope/hallmark.md`、`Projects/php/php-src.md`、`Projects/pollen-robotics/microduck.md`、`Projects/Renhuai123/ziwei-doushu.md`、`Projects/rust-lang/rust.md`、`Projects/shiyu-coder/Kronos.md`、`Projects/stablyai/orca.md`、`Projects/twentyhq/twenty.md`、`Projects/vllm-project/vllm.md`、`Projects/withmarbleapp/os-taxonomy.md`、`Projects/xerj-org/xerj.md` 暂无法按相同层级创建。GitHub 内容完整，未采用破坏规范路径的绕行结构。
+- ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前需要 238 个，因此 `Projects/AgriciDaniel/claude-seo.md`、`Projects/Comfy-Org/ComfyUI.md`、`Projects/Graphify-Labs/graphify.md`、`Projects/JetBrains/thinkrail.md`、`Projects/Kruk2/jasna.md`、`Projects/MadsLorentzen/ai-job-search.md`、`Projects/Meloong-Git/PCL.md`、`Projects/Nutlope/hallmark.md`、`Projects/Renhuai123/ziwei-doushu.md`、`Projects/alchaincyf/huashu-design.md`、`Projects/android/skills.md`、`Projects/anomalyco/opencode.md`、`Projects/aws/agent-toolkit-for-aws.md`、`Projects/coollabsio/coolify.md`、`Projects/elayadesign/ai-design-skills.md`、`Projects/fastapi/fastapi.md`、`Projects/gitroomhq/postiz-app.md`、`Projects/google-gemini/gemini-cli.md`、`Projects/headroomlabs-ai/headroom.md`、`Projects/hmjz100/LinkSwift.md`、`Projects/jbiaojerry/ebook-treasure-chest.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/luongnv89/claude-howto.md`、`Projects/makecindy/cindy.md`、`Projects/mlabonne/llm-course.md`、`Projects/nightly-labs/openbot.md`、`Projects/nodejs/node.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/php/php-src.md`、`Projects/pollen-robotics/microduck.md`、`Projects/rust-lang/rust.md`、`Projects/shiyu-coder/Kronos.md`、`Projects/stablyai/orca.md`、`Projects/togg53192-cmd/jailbreaks.md`、`Projects/twentyhq/twenty.md`、`Projects/vllm-project/vllm.md`、`Projects/withmarbleapp/os-taxonomy.md`、`Projects/xerj-org/xerj.md` 暂无法按相同层级创建。GitHub 内容完整，未采用破坏规范路径的绕行结构。
 
 ## 下一待修复日期
 
@@ -60,8 +61,8 @@
 
 ## 说明
 
-- 2026-09-09 至 2026-10-27 日报日期路径连续，无文件缺失。
+- 2026-09-09 至 2026-10-28 日报日期路径连续，无文件缺失。
 - 归档提交时间不等于页面抓取时间，不能证明是原计划 08:00 页面。
 - 未保存的历史统计无法凭当前数值恢复，保留“未保存”不作为待修复缺陷。
-- 2026-10-27 当天 14 项实时快照和 Dashboard 保持其 08:08:24 数据；本次未替换当天榜单。
+- 2026-10-28 当天 11 项实时快照和 Dashboard 保持其 08:05:36 数据；本次未替换当天榜单。
 
