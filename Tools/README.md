@@ -18,6 +18,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "D:\gs\GitHub-Trending-KB\To
 
 安装器先建立 `GitHub-Trending-KB Local Sync` 计划任务，再执行即时同步。任务注册失败会明确报错，不会静默退回容易中断的常驻循环。即时同步失败时，计划任务仍会保留并继续定时重试。可传入 `-VaultPath` 和 `-EveryMinutes`，最小间隔为 5 分钟。
 
+如需停用，运行 `Tools/uninstall_obsidian_git_pull_task.ps1`；其默认目标就是上述计划任务。
+
 查看任务和最近一次运行结果：
 
 ```powershell

@@ -13,25 +13,50 @@ function Write-Log([string]$Message) {
         Out-File -LiteralPath $LogFile -Append -Encoding utf8
 }
 
+function Quote-NativeArgument([string]$Value) {
+    if ($Value -ne '' -and $Value -notmatch '[\s"]') { return $Value }
+    $quoted = '"'
+    $slashes = 0
+    foreach ($character in $Value.ToCharArray()) {
+        if ($character -eq '\') { $slashes++; continue }
+        if ($character -eq '"') { $quoted += ('\' * ($slashes * 2 + 1)) }
+        else { $quoted += ('\' * $slashes) }
+        $quoted += $character
+        $slashes = 0
+    }
+    return $quoted + ('\' * ($slashes * 2)) + '"'
+}
+
 function Invoke-GitResult([string[]]$GitArgs) {
-    # Windows PowerShell 5.1 can turn native stderr into an error record.
-    # Check Git's process exit code instead of treating normal fetch output as a failure.
-    $previousPreference = $ErrorActionPreference
+    # Keep stdout, stderr, and the process exit code separate under PowerShell 5.1.
+    $start = New-Object System.Diagnostics.ProcessStartInfo
+    $start.FileName = $script:GitExe
+    $start.WorkingDirectory = $VaultPath
+    $start.Arguments = (($GitArgs | ForEach-Object { Quote-NativeArgument $_ }) -join ' ')
+    $start.UseShellExecute = $false
+    $start.CreateNoWindow = $true
+    $start.RedirectStandardOutput = $true
+    $start.RedirectStandardError = $true
+    $start.StandardOutputEncoding = New-Object System.Text.UTF8Encoding($false)
+    $start.StandardErrorEncoding = New-Object System.Text.UTF8Encoding($false)
+    $process = [System.Diagnostics.Process]::Start($start)
     try {
-        $ErrorActionPreference = "Continue"
-        $output = & $script:GitExe -C $VaultPath @GitArgs 2>&1 | Out-String
-        $exitCode = $LASTEXITCODE
+        $stdout = $process.StandardOutput.ReadToEndAsync()
+        $stderr = $process.StandardError.ReadToEndAsync()
+        $process.WaitForExit()
+        return [pscustomobject]@{
+            ExitCode = $process.ExitCode
+            Output = $stdout.Result.Trim()
+            Error = $stderr.Result.Trim()
+        }
     }
-    finally {
-        $ErrorActionPreference = $previousPreference
-    }
-    return [pscustomobject]@{ ExitCode = $exitCode; Output = $output.Trim() }
+    finally { $process.Dispose() }
 }
 
 function Invoke-Git([string[]]$GitArgs) {
     $result = Invoke-GitResult -GitArgs $GitArgs
     if ($result.ExitCode -ne 0) {
-        throw "git $($GitArgs[0]) failed with exit code $($result.ExitCode): $($result.Output)"
+        throw "git $($GitArgs[0]) failed with exit code $($result.ExitCode): $($result.Error) $($result.Output)"
     }
     return $result.Output
 }
@@ -133,7 +158,7 @@ try {
     if ($worktreeStatus) {
         $semanticDiff = Invoke-GitResult -GitArgs @("diff", "--ignore-space-at-eol", "--quiet")
         if ($semanticDiff.ExitCode -gt 1) {
-            throw "git diff failed with exit code $($semanticDiff.ExitCode): $($semanticDiff.Output)"
+            throw "git diff failed with exit code $($semanticDiff.ExitCode): $($semanticDiff.Error)"
         }
         if ($semanticDiff.ExitCode -eq 1) {
             throw "Semantic tracked changes exist; refusing to alter the vault"

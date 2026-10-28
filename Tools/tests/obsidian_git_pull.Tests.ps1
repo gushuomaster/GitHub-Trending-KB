@@ -33,13 +33,18 @@ try {
 
     $VaultPath = $FixtureDir
     $script:GitExe = $GitExe
+    $Quoted = Invoke-GitResult -GitArgs @('-c', 'user.name=Sync Test', 'config', '--get', 'user.name')
+    if ($Quoted.ExitCode -ne 0 -or $Quoted.Output -ne 'Sync Test') {
+        throw 'Native argument quoting failed for a value containing spaces'
+    }
     $WarningResult = Invoke-GitResult -GitArgs @('diff', '--ignore-space-at-eol', '--quiet', '--', 'Index/projects.jsonl')
     if ($WarningResult.ExitCode -ne 0) {
-        throw "EOL-only diff should exit 0: $($WarningResult.Output)"
+        throw "EOL-only diff should exit 0: $($WarningResult.Error)"
     }
-    if ($WarningResult.Output -notmatch 'CRLF') {
+    if ($WarningResult.Error -notmatch 'CRLF') {
         throw 'Expected Git warning on stderr to be captured'
     }
+    if ($WarningResult.Output) { throw 'Git warning must not be mistaken for stdout' }
 
     [IO.File]::WriteAllText((Join-Path $FixtureDir '.gitattributes'), "*.jsonl -text`n", $Utf8)
     $Status = Invoke-Git -GitArgs @('status', '--short', '--', 'Index/projects.jsonl')

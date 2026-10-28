@@ -1,5 +1,5 @@
 param(
-    [string]$TaskName = "Obsidian GitHub-Trending-KB Auto Pull"
+    [string]$TaskName = "GitHub-Trending-KB Local Sync"
 )
 
 $task = Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue
