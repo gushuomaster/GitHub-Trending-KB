@@ -2,18 +2,18 @@
 type: github-project
 repo: "hmjz100/LinkSwift"
 url: "https://github.com/hmjz100/LinkSwift"
-first_seen: 2026-10-17
-last_seen: '2026-10-17'
-trending_count: 1
-github_rank: 12
-stars_today: 538
-total_stars: 23665
-forks: 1435
+first_seen: "2026-10-17"
+last_seen: "2026-10-29"
+trending_count: 2
+github_rank: 11
+stars_today: 1616
+total_stars: 34574
+forks: 2445
 language: "JavaScript"
-fetched_at: '2026-10-17T08:08:36+08:00'
-documentation_checked_at: '2026-10-17'
-stats_as_of: '2026-10-17'
-snapshot_status: live
+fetched_at: "2026-10-29T08:08:39+08:00"
+documentation_checked_at: "2026-10-29"
+stats_as_of: "2026-10-29"
+snapshot_status: "live"
 topics: ["Userscript", "Downloads", "Cloud-Storage"]
 status: active
 ---
@@ -22,7 +22,7 @@ status: active
 ## 一句话说明
 一个浏览器用户脚本，在多个主流网盘的网页中增加文件选择、公开接口取链和下载器联动，方便下载自己有权访问的文件。
 
-> 使用方式依据仓库当前 README 核对于 2026-10-17。
+> 使用方式依据仓库当前 README 核对于 2026-10-29。
 
 ## 它能做什么
 - 支持百度、阿里、中国移动、天翼、迅雷、光雅、夸克、UC、123 云盘等多个网盘页面
@@ -46,16 +46,19 @@ README 明确说明项目使用公开接口、不提供破解限速；只能下�
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-17 | 12 | 538 | 23665 | 1435 | GitHub Today live snapshot |
+| 2026-10-29 | 11 | 1616 | 34574 | 2445 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Userscript|Userscript]] · [[Topics/Downloads|Downloads]] · [[Topics/Cloud-Storage|Cloud Storage]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-17|2026-10-17]]
+- [[Daily/2026/10/2026-10-29|2026-10-29]]
 
 ## GitHub 原始链接
 https://github.com/hmjz100/LinkSwift
 
-## 官方资料复核（2026-10-17）
+## 官方资料复核（2026-10-29）
 - README：https://github.com/hmjz100/LinkSwift/blob/main/README.md
+- README blob SHA：`e5f54f3ae10ef773ff600d4681fe2cbc5f6322a4`
 

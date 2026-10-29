@@ -3,17 +3,17 @@ type: github-project
 repo: "Nutlope/hallmark"
 url: "https://github.com/Nutlope/hallmark"
 first_seen: "2026-10-25"
-last_seen: "2026-10-28"
-trending_count: 4
-github_rank: 2
-stars_today: 2830
-total_stars: 38950
-forks: 2031
+last_seen: "2026-10-29"
+trending_count: 5
+github_rank: 6
+stars_today: 2110
+total_stars: 40673
+forks: 2111
 language: "CSS"
-fetched_at: "2026-10-28T08:05:36+08:00"
-documentation_checked_at: "2026-10-28"
-stats_as_of: "2026-10-28"
-snapshot_status: live
+fetched_at: "2026-10-29T08:08:39+08:00"
+documentation_checked_at: "2026-10-29"
+stats_as_of: "2026-10-29"
+snapshot_status: "live"
 category: ["Web Design", "Agent Skill", "Frontend"]
 topics: ["Web Design", "Agent Skill", "UI Audit", "Frontend"]
 status: active
@@ -54,6 +54,7 @@ sloplint --render
 | 2026-10-26 | 2 | 1317 | 33711 | 1761 | GitHub Today live snapshot |
 | 2026-10-27 | 1 | 2244 | 36265 | 1894 | GitHub Today live snapshot |
 | 2026-10-28 | 2 | 2830 | 38950 | 2031 | GitHub Today live snapshot |
+| 2026-10-29 | 6 | 2110 | 40673 | 2111 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Web-Design|Web-Design]] · [[Topics/Agent-Skill|Agent-Skill]] · [[Topics/UI-Audit|UI-Audit]] · [[Topics/Frontend|Frontend]]
@@ -63,13 +64,14 @@ sloplint --render
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
 - [[Daily/2026/10/2026-10-27|2026-10-27]]
 - [[Daily/2026/10/2026-10-28|2026-10-28]]
+- [[Daily/2026/10/2026-10-29|2026-10-29]]
 
 ## GitHub 原始链接
 https://github.com/Nutlope/hallmark
 
-## 官方资料复核（2026-10-28）
+## 官方资料复核（2026-10-29）
 - README：https://github.com/Nutlope/hallmark/blob/main/README.md
-- README blob SHA：`5260a52fe347609a25d7eca4a7471369c0a802a1`
+- README blob SHA：`2568bb6f51284bc3feeea6a3098d31f6743ec623`
 - Skill blob SHA：`d27771723e827baa5e2b34d01492783a42df9174`
 
 

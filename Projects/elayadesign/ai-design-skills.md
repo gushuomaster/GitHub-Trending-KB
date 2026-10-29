@@ -3,17 +3,17 @@ type: github-project
 repo: "elayadesign/ai-design-skills"
 url: "https://github.com/elayadesign/ai-design-skills"
 first_seen: "2026-10-28"
-last_seen: "2026-10-28"
-trending_count: 1
-github_rank: 1
-stars_today: 1395
-total_stars: 9268
-forks: 667
+last_seen: "2026-10-29"
+trending_count: 2
+github_rank: 2
+stars_today: 2139
+total_stars: 11092
+forks: 796
 language: "未声明"
-fetched_at: "2026-10-28T08:05:36+08:00"
-documentation_checked_at: "2026-10-28"
-stats_as_of: "2026-10-28"
-snapshot_status: live
+fetched_at: "2026-10-29T08:08:39+08:00"
+documentation_checked_at: "2026-10-29"
+stats_as_of: "2026-10-29"
+snapshot_status: "live"
 category: ["Design Skill", "Landing Page", "Agent Skill"]
 topics: ["Web Design", "Conversion", "Agent Skill", "Frontend"]
 status: active
@@ -51,17 +51,19 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-28 | 1 | 1395 | 9268 | 667 | GitHub Today live snapshot |
+| 2026-10-29 | 2 | 2139 | 11092 | 796 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Web-Design|Web-Design]] · [[Topics/Conversion|Conversion]] · [[Topics/Agent-Skill|Agent-Skill]] · [[Topics/Frontend|Frontend]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-28|2026-10-28]]
+- [[Daily/2026/10/2026-10-29|2026-10-29]]
 
 ## GitHub 原始链接
 https://github.com/elayadesign/ai-design-skills
 
-## 官方资料复核（2026-10-28）
+## 官方资料复核（2026-10-29）
 - README：https://github.com/elayadesign/ai-design-skills/blob/main/README.md
 - README blob SHA：`32677792be09e0b9fba13b10c2f94a804c488900`
 - landing-page-design Skill：https://github.com/elayadesign/ai-design-skills/blob/main/skills/landing-page-design/SKILL.md
