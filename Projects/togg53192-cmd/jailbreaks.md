@@ -1,18 +1,18 @@
 ---
-type: github-project
+type: "github-project"
 repo: "togg53192-cmd/jailbreaks"
 url: "https://github.com/togg53192-cmd/jailbreaks"
 first_seen: "2026-10-28"
-last_seen: "2026-10-29"
-trending_count: 2
+last_seen: "2026-10-30"
+trending_count: 3
 github_rank: 10
-stars_today: 1477
-total_stars: 7073
-forks: 1013
+stars_today: 1594
+total_stars: 8985
+forks: 1235
 language: "未声明"
-fetched_at: "2026-10-29T08:08:39+08:00"
-documentation_checked_at: "2026-10-29"
-stats_as_of: "2026-10-29"
+fetched_at: "2026-10-30T08:08:40+08:00"
+documentation_checked_at: "2026-10-30"
+stats_as_of: "2026-10-30"
 snapshot_status: "live"
 category: ["Prompt Security", "Research Dataset", "LLM"]
 topics: ["Prompt Injection", "Red Team", "System Prompt", "LLM Security"]
@@ -48,6 +48,7 @@ status: research
 |---|---:|---:|---:|---:|---|
 | 2026-10-28 | 11 | 902 | 5486 | 817 | GitHub Today live snapshot |
 | 2026-10-29 | 10 | 1477 | 7073 | 1013 | GitHub Today live snapshot |
+| 2026-10-30 | 10 | 1594 | 8985 | 1235 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Prompt-Injection|Prompt-Injection]] · [[Topics/Red-Team|Red-Team]] · [[Topics/System-Prompt|System-Prompt]] · [[Topics/LLM-Security|LLM-Security]]
@@ -55,11 +56,11 @@ status: research
 ## 相关日报
 - [[Daily/2026/10/2026-10-28|2026-10-28]]
 - [[Daily/2026/10/2026-10-29|2026-10-29]]
+- [[Daily/2026/10/2026-10-30|2026-10-30]]
 
 ## GitHub 原始链接
 https://github.com/togg53192-cmd/jailbreaks
 
-## 官方资料复核（2026-10-29）
+## 官方资料复核（2026-10-30）
 - README：https://github.com/togg53192-cmd/jailbreaks/blob/main/README.md
 - README blob SHA：`d3d7aa5f46bffbcf06da82b784a199381096cff3`
-

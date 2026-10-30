@@ -1,18 +1,19 @@
 ---
-type: github-project
-repo: thedotmack/claude-mem
+type: "github-project"
+repo: "thedotmack/claude-mem"
 first_seen: '2026-10-04'
-last_seen: '2026-10-09'
-language: TypeScript
-total_stars: 98450
-forks: 8634
-stars_today: 670
-github_rank: 5
-trending_count: 6
-fetched_at: '2026-10-09T08:09:00+08:00'
-url: https://github.com/thedotmack/claude-mem
-documentation_checked_at: '2026-10-13'
-stats_as_of: '2026-10-09'
+last_seen: "2026-10-30"
+language: "TypeScript"
+total_stars: 104763
+forks: 9239
+stars_today: 336
+github_rank: 8
+trending_count: 7
+fetched_at: "2026-10-30T08:08:40+08:00"
+url: "https://github.com/thedotmack/claude-mem"
+documentation_checked_at: "2026-10-30"
+stats_as_of: "2026-10-30"
+snapshot_status: "live"
 ---
 
 # thedotmack/claude-mem
@@ -52,6 +53,7 @@ npx claude-mem install
 | 2026-10-07 | 6 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
 | 2026-10-08 | 8 | 578 | 97782 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-09 | 5 | 670 | 98450 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-30 | 8 | 336 | 104763 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]
@@ -63,11 +65,12 @@ npx claude-mem install
 - [[Daily/2026/10/2026-10-07|2026-10-07]]
 - [[Daily/2026/10/2026-10-08|2026-10-08]]
 - [[Daily/2026/10/2026-10-09|2026-10-09]]
+- [[Daily/2026/10/2026-10-30|2026-10-30]]
 
 ## GitHub 原始链接
 https://github.com/thedotmack/claude-mem
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-30）
 - README：https://github.com/thedotmack/claude-mem/blob/main/README.md
-- README blob SHA：`342dbb5d7447b8375b428da9a16994f07ad7c62b`
+- README blob SHA：`9a2cfbe945c6290edae9618548aca660e940e60f`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。

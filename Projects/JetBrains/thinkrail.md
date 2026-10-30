@@ -1,18 +1,18 @@
 ---
-type: github-project
+type: "github-project"
 repo: "JetBrains/thinkrail"
 url: "https://github.com/JetBrains/thinkrail"
 first_seen: "2026-10-26"
-last_seen: "2026-10-29"
-trending_count: 4
-github_rank: 1
-stars_today: 1068
-total_stars: 5017
-forks: 259
+last_seen: "2026-10-30"
+trending_count: 5
+github_rank: 4
+stars_today: 1117
+total_stars: 5988
+forks: 323
 language: "TypeScript"
-fetched_at: "2026-10-29T08:08:39+08:00"
-documentation_checked_at: "2026-10-29"
-stats_as_of: "2026-10-29"
+fetched_at: "2026-10-30T08:08:40+08:00"
+documentation_checked_at: "2026-10-30"
+stats_as_of: "2026-10-30"
 snapshot_status: "live"
 category: ["Agentic IDE", "Coding Agent", "Developer Tools"]
 topics: ["Coding Agent", "IDE", "Git Worktree", "MCP"]
@@ -54,6 +54,7 @@ thinkrail ~/code/my-repo
 | 2026-10-27 | 3 | 1173 | 2874 | 153 | GitHub Today live snapshot |
 | 2026-10-28 | 10 | 1204 | 3967 | 211 | GitHub Today live snapshot |
 | 2026-10-29 | 1 | 1068 | 5017 | 259 | GitHub Today live snapshot |
+| 2026-10-30 | 4 | 1117 | 5988 | 323 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Coding-Agent|Coding-Agent]] · [[Topics/IDE|IDE]] · [[Topics/Git|Git]] · [[Topics/MCP|MCP]]
@@ -63,12 +64,11 @@ thinkrail ~/code/my-repo
 - [[Daily/2026/10/2026-10-27|2026-10-27]]
 - [[Daily/2026/10/2026-10-28|2026-10-28]]
 - [[Daily/2026/10/2026-10-29|2026-10-29]]
+- [[Daily/2026/10/2026-10-30|2026-10-30]]
 
 ## GitHub 原始链接
 https://github.com/JetBrains/thinkrail
 
-## 官方资料复核（2026-10-29）
+## 官方资料复核（2026-10-30）
 - README：https://github.com/JetBrains/thinkrail/blob/main/README.md
-- README blob SHA：`fff39cb4167ffa5c5e323d233a50febfcbcb535e`
-
-
+- README blob SHA：`263ab41caeb6e6278769fc708e8dcd7b4d91bbcc`

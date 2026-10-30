@@ -1,18 +1,18 @@
 ---
-type: github-project
+type: "github-project"
 repo: "HKUDS/DeepTutor"
 url: "https://github.com/HKUDS/DeepTutor"
 first_seen: "2026-10-28"
-last_seen: "2026-10-29"
-trending_count: 2
-github_rank: 4
-stars_today: 2371
-total_stars: 47934
-forks: 5947
+last_seen: "2026-10-30"
+trending_count: 3
+github_rank: 1
+stars_today: 1930
+total_stars: 50003
+forks: 6153
 language: "Python"
-fetched_at: "2026-10-29T08:08:39+08:00"
-documentation_checked_at: "2026-10-29"
-stats_as_of: "2026-10-29"
+fetched_at: "2026-10-30T08:08:40+08:00"
+documentation_checked_at: "2026-10-30"
+stats_as_of: "2026-10-30"
 snapshot_status: "live"
 category: ["Education", "Personalized Learning", "RAG"]
 topics: ["AI Tutor", "Knowledge Base", "Learning", "RAG"]
@@ -51,6 +51,7 @@ status: active
 |---|---:|---:|---:|---:|---|
 | 2026-10-28 | 9 | 1598 | 45830 | 5748 | GitHub Today live snapshot |
 | 2026-10-29 | 4 | 2371 | 47934 | 5947 | GitHub Today live snapshot |
+| 2026-10-30 | 1 | 1930 | 50003 | 6153 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI-Tutor|AI-Tutor]] · [[Topics/Knowledge-Base|Knowledge-Base]] · [[Topics/Learning|Learning]] · [[Topics/RAG|RAG]]
@@ -58,12 +59,12 @@ status: active
 ## 相关日报
 - [[Daily/2026/10/2026-10-28|2026-10-28]]
 - [[Daily/2026/10/2026-10-29|2026-10-29]]
+- [[Daily/2026/10/2026-10-30|2026-10-30]]
 
 ## GitHub 原始链接
 https://github.com/HKUDS/DeepTutor
 
-## 官方资料复核（2026-10-29）
+## 官方资料复核（2026-10-30）
 - README：https://github.com/HKUDS/DeepTutor/blob/main/README.md
 - README blob SHA：`aa5ccfc3c70844364839428d772f2a70a196adf5`
 - 用户文档：https://deeptutor.info/
-
