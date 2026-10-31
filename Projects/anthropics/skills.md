@@ -2,17 +2,20 @@
 repo: "anthropics/skills"
 url: "https://github.com/anthropics/skills"
 first_seen: 2026-09-26
-last_seen: 2026-09-26
-trending_count: 1
-github_rank: 7
-stars_today: null
-total_stars: 178711
-forks: 21141
+last_seen: "2026-10-31"
+trending_count: 2
+github_rank: 11
+stars_today: 295
+total_stars: 185300
+forks: 21895
 language: "Python"
 metadata_checked_at: "2026-09-28T16:09:06+08:00"
-snapshot_status: archived_backfill
+snapshot_status: "live"
 topics: ["Agent", "Skills", "Documents"]
 status: active
+fetched_at: "2026-10-31T08:05:14+08:00"
+documentation_checked_at: "2026-10-31"
+stats_as_of: "2026-10-31"
 ---
 # anthropics/skills
 
@@ -42,6 +45,7 @@ Anthropic 发布的 Agent Skills 示例与生产级文档技能参考库。
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-09-26 | 7 | 未保存 | 未保存 | 未保存 | archived_backfill |
+| 2026-10-31 | 11 | 295 | 185300 | 21895 | GitHub Today live snapshot |
 
 > 上表只保留归档可证明的日期与原始顺序；当前 Stars/Forks 仅记录在 frontmatter 的 `metadata_checked_at` 快照，不冒充历史数值。
 
@@ -51,5 +55,10 @@ Anthropic 发布的 Agent Skills 示例与生产级文档技能参考库。
 ## 相关日报
 - [[Daily/2026/09/2026-09-26|2026-09-26]]
 
+- [[Daily/2026/10/2026-10-31|2026-10-31]]
 ## GitHub 原始链接
 https://github.com/anthropics/skills
+
+## 官方资料复核（2026-10-31）
+- README：https://github.com/anthropics/skills/blob/main/README.md
+- README blob SHA：`eb54ee8b92f2d40b4b26569be0772be3c1e23156`

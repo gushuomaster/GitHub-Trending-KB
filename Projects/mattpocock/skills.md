@@ -2,17 +2,18 @@
 type: github-project
 repo: mattpocock/skills
 first_seen: '2026-09-26'
-last_seen: '2026-10-11'
-language: Shell
-total_stars: 284457
-forks: 23808
-stars_today: 1736
-github_rank: 6
-trending_count: 10
-fetched_at: '2026-10-11T08:02:00+08:00'
+last_seen: "2026-10-31"
+language: "Shell"
+total_stars: 307461
+forks: 25879
+stars_today: 876
+github_rank: 8
+trending_count: 11
+fetched_at: "2026-10-31T08:05:14+08:00"
 url: https://github.com/mattpocock/skills
-documentation_checked_at: '2026-10-13'
-stats_as_of: '2026-10-11'
+documentation_checked_at: "2026-10-31"
+stats_as_of: "2026-10-31"
+snapshot_status: "live"
 ---
 
 # mattpocock/skills
@@ -56,6 +57,7 @@ npx skills@latest add mattpocock/skills
 | 2026-10-09 | 4 | 1774 | 281047 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-10 | 3 | 1687 | 282648 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-11 | 6 | 1736 | 284457 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-31 | 8 | 876 | 307461 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]
@@ -72,10 +74,11 @@ npx skills@latest add mattpocock/skills
 - [[Daily/2026/10/2026-10-10|2026-10-10]]
 - [[Daily/2026/10/2026-10-11|2026-10-11]]
 
+- [[Daily/2026/10/2026-10-31|2026-10-31]]
 ## GitHub 原始链接
 https://github.com/mattpocock/skills
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-31）
 - README：https://github.com/mattpocock/skills/blob/main/README.md
 - README blob SHA：`f7038f139299985eea6c3e18398dbafb379a0010`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。

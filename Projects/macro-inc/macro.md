@@ -3,17 +3,17 @@ type: github-project
 repo: "macro-inc/macro"
 url: "https://github.com/macro-inc/macro"
 first_seen: "2026-10-29"
-last_seen: "2026-10-29"
-trending_count: 1
-github_rank: 5
-stars_today: 117
-total_stars: 5409
-forks: 517
+last_seen: "2026-10-31"
+trending_count: 2
+github_rank: 7
+stars_today: 57
+total_stars: 5862
+forks: 537
 language: "Rust"
-fetched_at: "2026-10-29T08:08:39+08:00"
-documentation_checked_at: "2026-10-29"
-stats_as_of: "2026-10-29"
-snapshot_status: live
+fetched_at: "2026-10-31T08:05:14+08:00"
+documentation_checked_at: "2026-10-31"
+stats_as_of: "2026-10-31"
+snapshot_status: "live"
 category: ["Team Workspace", "Knowledge Graph", "AI Agents"]
 topics: ["Collaboration", "Email", "CRM", "MCP"]
 status: active
@@ -51,6 +51,7 @@ claude mcp add --transport http macro https://mcp-server.macro.com/mcp
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-29 | 5 | 117 | 5409 | 517 | GitHub Today live snapshot |
+| 2026-10-31 | 7 | 57 | 5862 | 537 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Collaboration|Collaboration]] · [[Topics/Knowledge-Graph|Knowledge-Graph]] · [[Topics/CRM|CRM]] · [[Topics/MCP|MCP]]
@@ -58,9 +59,10 @@ claude mcp add --transport http macro https://mcp-server.macro.com/mcp
 ## 相关日报
 - [[Daily/2026/10/2026-10-29|2026-10-29]]
 
+- [[Daily/2026/10/2026-10-31|2026-10-31]]
 ## GitHub 原始链接
 https://github.com/macro-inc/macro
 
-## 官方资料复核（2026-10-29）
+## 官方资料复核（2026-10-31）
 - README：https://github.com/macro-inc/macro/blob/main/README.md
-- README blob SHA：`9d8cd478cef941c2024d06e62d563481902aef61`
+- README blob SHA：`42d704665cce2399b4def5aaa3eaf44225dfaaa3`

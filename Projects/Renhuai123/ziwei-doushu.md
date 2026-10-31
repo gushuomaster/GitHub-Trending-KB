@@ -5,17 +5,17 @@ url: "https://github.com/Renhuai123/ziwei-doushu"
 category: ["Traditional Calendar", "Chart Engine", "Dataset"]
 topics: ["TypeScript", "Traditional Culture", "Dataset"]
 first_seen: "2026-10-24"
-last_seen: "2026-10-26"
-trending_count: 2
-github_rank: 7
-stars_today: 199
-total_stars: 7530
-forks: 1541
+last_seen: "2026-10-31"
+trending_count: 3
+github_rank: 5
+stars_today: 1126
+total_stars: 11193
+forks: 2232
 language: "TypeScript"
-fetched_at: "2026-10-26T08:02:30+08:00"
-documentation_checked_at: "2026-10-26"
-stats_as_of: "2026-10-26"
-snapshot_status: live
+fetched_at: "2026-10-31T08:05:14+08:00"
+documentation_checked_at: "2026-10-31"
+stats_as_of: "2026-10-31"
+snapshot_status: "live"
 status: active
 ---
 # Renhuai123/ziwei-doushu
@@ -55,6 +55,7 @@ npm test
 |---|---:|---:|---:|---:|---|
 | 2026-10-24 | 5 | 546 | 6843 | 1405 | GitHub Today live snapshot |
 | 2026-10-26 | 7 | 199 | 7530 | 1541 | GitHub Today live snapshot |
+| 2026-10-31 | 5 | 1126 | 11193 | 2232 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/TypeScript|TypeScript]] · [[Topics/Traditional-Culture|Traditional-Culture]] · [[Topics/Dataset|Dataset]]
@@ -63,11 +64,11 @@ npm test
 - [[Daily/2026/10/2026-10-24|2026-10-24]]
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
 
+- [[Daily/2026/10/2026-10-31|2026-10-31]]
 ## GitHub 原始链接
 https://github.com/Renhuai123/ziwei-doushu
 
-## 官方资料复核（2026-10-26）
+## 官方资料复核（2026-10-31）
 - README：https://github.com/Renhuai123/ziwei-doushu/blob/main/README.md
-- README blob SHA：`3a512f94d8a0d863873234a1e85ffcef44787454`
+- README blob SHA：`f85adef1535e91db47a416b3da36c22e99720e3d`
 - package.json blob SHA：`0a549e9fa495f43e80b8a298e1b9941e958e389e`
-

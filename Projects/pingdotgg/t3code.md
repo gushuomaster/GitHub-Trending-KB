@@ -2,16 +2,18 @@
 type: github-project
 repo: pingdotgg/t3code
 first_seen: '2026-10-04'
-last_seen: '2026-10-06'
+last_seen: "2026-10-31"
 url: https://github.com/pingdotgg/t3code
-trending_count: 3
-github_rank: 4
-documentation_checked_at: '2026-10-13'
-stats_as_of: null
-stars_today: null
-total_stars: null
-forks: null
-language: null
+trending_count: 4
+github_rank: 9
+documentation_checked_at: "2026-10-31"
+stats_as_of: "2026-10-31"
+stars_today: 930
+total_stars: 32725
+forks: 8652
+language: "TypeScript"
+fetched_at: "2026-10-31T08:05:14+08:00"
+snapshot_status: "live"
 ---
 
 # pingdotgg/t3code
@@ -44,18 +46,20 @@ language: null
 | 2026-10-04 | 7 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-05 | 9 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 | 2026-10-06 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
+| 2026-10-31 | 9 | 930 | 32725 | GitHub Today live snapshot |
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 - [[Daily/2026/10/2026-10-06|2026-10-06]]
 
+- [[Daily/2026/10/2026-10-31|2026-10-31]]
 ## GitHub 原始链接
 https://github.com/pingdotgg/t3code
 
-## 官方资料复核（2026-10-13）
+## 官方资料复核（2026-10-31）
 - README：https://github.com/pingdotgg/t3code/blob/main/README.md
-- README blob SHA：`8aa78f81b9ad72753cde7a8d3106ef8c7a8f0697`
+- README blob SHA：`6f6dab985e154fd3b6709404d7998baabdbc8de5`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
 
 ## 相关主题

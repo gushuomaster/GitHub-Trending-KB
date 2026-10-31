@@ -3,17 +3,17 @@ type: github-project
 repo: "expo/skills"
 url: "https://github.com/expo/skills"
 first_seen: "2026-10-29"
-last_seen: "2026-10-29"
-trending_count: 1
-github_rank: 12
-stars_today: 90
-total_stars: 3564
-forks: 227
+last_seen: "2026-10-31"
+trending_count: 2
+github_rank: 6
+stars_today: 38
+total_stars: 3890
+forks: 247
 language: "Shell"
-fetched_at: "2026-10-29T08:08:39+08:00"
-documentation_checked_at: "2026-10-29"
-stats_as_of: "2026-10-29"
-snapshot_status: live
+fetched_at: "2026-10-31T08:05:14+08:00"
+documentation_checked_at: "2026-10-31"
+stats_as_of: "2026-10-31"
+snapshot_status: "live"
 category: ["Agent Skills", "Expo", "Mobile Development"]
 topics: ["Expo", "React Native", "EAS", "Coding Agent"]
 status: active
@@ -51,6 +51,7 @@ npx skills@latest add expo/skills --skill '*'
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-29 | 12 | 90 | 3564 | 227 | GitHub Today live snapshot |
+| 2026-10-31 | 6 | 38 | 3890 | 247 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Expo|Expo]] · [[Topics/React-Native|React-Native]] · [[Topics/EAS|EAS]] · [[Topics/Agent-Skill|Agent-Skill]]
@@ -58,9 +59,10 @@ npx skills@latest add expo/skills --skill '*'
 ## 相关日报
 - [[Daily/2026/10/2026-10-29|2026-10-29]]
 
+- [[Daily/2026/10/2026-10-31|2026-10-31]]
 ## GitHub 原始链接
 https://github.com/expo/skills
 
-## 官方资料复核（2026-10-29）
+## 官方资料复核（2026-10-31）
 - README：https://github.com/expo/skills/blob/main/README.md
 - README blob SHA：`ec0de77b01fedee1fc814a46fd9d88e54ce13243`
