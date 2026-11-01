@@ -1,8 +1,8 @@
 ---
 type: github-trending-dashboard
-last_updated: 2026-10-31
-latest_daily: "[[Daily/2026/10/2026-10-31|2026-10-31]]"
-latest_scan_count: 15
+last_updated: 2026-11-01
+latest_daily: "[[Daily/2026/11/2026-11-01|2026-11-01]]"
+latest_scan_count: 14
 ---
 # GitHub Trending 知识库 Dashboard
 

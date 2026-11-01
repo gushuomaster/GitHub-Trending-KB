@@ -5,16 +5,16 @@ url: "https://github.com/Renhuai123/ziwei-doushu"
 category: ["Traditional Calendar", "Chart Engine", "Dataset"]
 topics: ["TypeScript", "Traditional Culture", "Dataset"]
 first_seen: "2026-10-24"
-last_seen: "2026-10-31"
-trending_count: 3
+last_seen: "2026-11-01"
+trending_count: 4
 github_rank: 5
-stars_today: 1126
-total_stars: 11193
-forks: 2232
+stars_today: 1092
+total_stars: 12257
+forks: 2410
 language: "TypeScript"
-fetched_at: "2026-10-31T08:05:14+08:00"
-documentation_checked_at: "2026-10-31"
-stats_as_of: "2026-10-31"
+fetched_at: "2026-11-01T08:09:32+08:00"
+documentation_checked_at: "2026-11-01"
+stats_as_of: "2026-11-01"
 snapshot_status: "live"
 status: active
 ---
@@ -56,7 +56,7 @@ npm test
 | 2026-10-24 | 5 | 546 | 6843 | 1405 | GitHub Today live snapshot |
 | 2026-10-26 | 7 | 199 | 7530 | 1541 | GitHub Today live snapshot |
 | 2026-10-31 | 5 | 1126 | 11193 | 2232 | GitHub Today live snapshot |
-
+| 2026-11-01 | 5 | 1092 | 12257 | 2410 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/TypeScript|TypeScript]] · [[Topics/Traditional-Culture|Traditional-Culture]] · [[Topics/Dataset|Dataset]]
 
@@ -64,6 +64,7 @@ npm test
 - [[Daily/2026/10/2026-10-24|2026-10-24]]
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
 - [[Daily/2026/10/2026-10-31|2026-10-31]]
+- [[Daily/2026/11/2026-11-01|2026-11-01]]
 
 ## GitHub 原始链接
 https://github.com/Renhuai123/ziwei-doushu
@@ -73,3 +74,8 @@ https://github.com/Renhuai123/ziwei-doushu
 - README blob SHA：`8358fc53b3d561b222158862a6dff7231c9bf6a7`
 - 官方线上平台：https://ouranic.cn/（README 于 2026-10-31 记录由 metisziwei.com 迁移并更名为 OURANIC；旧网址自动跳转，代码、数据集与许可不变。）
 - package.json blob SHA：`0a549e9fa495f43e80b8a298e1b9941e958e389e`
+
+## 官方资料复核（2026-11-01）
+- README：https://github.com/Renhuai123/ziwei-doushu/blob/main/README.md
+- README blob SHA：`8358fc53b3d561b222158862a6dff7231c9bf6a7`
+- 本次仅增补当天榜单事实与资料复核记录，原有能力说明、案例、分类和风险说明均保留。

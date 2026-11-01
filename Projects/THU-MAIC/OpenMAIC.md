@@ -3,10 +3,19 @@ type: github-project
 repo: "THU-MAIC/OpenMAIC"
 url: "https://github.com/THU-MAIC/OpenMAIC"
 first_seen: 2026-09-11
-last_seen: 2026-09-11
-trending_count: 1
+last_seen: "2026-11-01"
+trending_count: 2
 category: ["AI","Education","Multi-Agent"]
 topics: ["AI","Education","Agent"]
+language: "TypeScript"
+total_stars: 42176
+forks: 6511
+stars_today: 116
+github_rank: 12
+fetched_at: "2026-11-01T08:09:32+08:00"
+documentation_checked_at: "2026-11-01"
+stats_as_of: "2026-11-01"
+snapshot_status: "live"
 ---
 # THU-MAIC/OpenMAIC
 
@@ -35,12 +44,13 @@ topics: ["AI","Education","Agent"]
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-11 | 13 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
-
+| 2026-11-01 | 12 | 116 | 42176 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Education|Education]] · [[Topics/Agent|Agent]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-11|2026-09-11]]
+- [[Daily/2026/11/2026-11-01|2026-11-01]]
 
 ## GitHub 原始链接
 https://github.com/THU-MAIC/OpenMAIC
@@ -49,3 +59,8 @@ https://github.com/THU-MAIC/OpenMAIC
 - 核对日期：2026-10-09
 - README：https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与 2026-09-11 的历史版本完全相同。
+
+## 官方资料复核（2026-11-01）
+- README：https://github.com/THU-MAIC/OpenMAIC/blob/main/README.md
+- README blob SHA：`47d8ba53f69f92bcedb077540a4c58cc3d1bbe37`
+- 本次仅增补当天榜单事实与资料复核记录，原有能力说明、案例、分类和风险说明均保留。

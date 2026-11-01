@@ -2,17 +2,17 @@
 type: github-project
 repo: pingdotgg/t3code
 first_seen: '2026-10-04'
-last_seen: "2026-10-31"
+last_seen: "2026-11-01"
 url: https://github.com/pingdotgg/t3code
-trending_count: 4
-github_rank: 9
-documentation_checked_at: "2026-10-31"
-stats_as_of: "2026-10-31"
-stars_today: 930
-total_stars: 32725
-forks: 8652
+trending_count: 5
+github_rank: 4
+documentation_checked_at: "2026-11-01"
+stats_as_of: "2026-11-01"
+stars_today: 1148
+total_stars: 35514
+forks: 8778
 language: "TypeScript"
-fetched_at: "2026-10-31T08:05:14+08:00"
+fetched_at: "2026-11-01T08:09:32+08:00"
 snapshot_status: "live"
 ---
 
@@ -47,13 +47,15 @@ snapshot_status: "live"
 | 2026-10-05 | 9 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 | 2026-10-06 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
 | 2026-10-31 | 9 | 930 | 32725 | GitHub Today live snapshot |
-
+| 2026-11-01 | 4 | 1148 | 35514 | GitHub Today live snapshot |
 ## 相关日报
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 - [[Daily/2026/10/2026-10-06|2026-10-06]]
 
 - [[Daily/2026/10/2026-10-31|2026-10-31]]
+- [[Daily/2026/11/2026-11-01|2026-11-01]]
+
 ## GitHub 原始链接
 https://github.com/pingdotgg/t3code
 
@@ -64,3 +66,7 @@ https://github.com/pingdotgg/t3code
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer Tools]]
+
+## 官方资料复核（2026-11-01）
+- README：https://github.com/pingdotgg/t3code/blob/main/README.md
+- 本次仅增补当天榜单事实与资料复核记录，原有能力说明、案例、分类和风险说明均保留。

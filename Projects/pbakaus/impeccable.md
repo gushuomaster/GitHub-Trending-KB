@@ -2,12 +2,12 @@
 repo: "pbakaus/impeccable"
 url: "https://github.com/pbakaus/impeccable"
 first_seen: "2026-09-24"
-last_seen: "2026-10-31"
-trending_count: 14
-github_rank: 3
-stars_today: 2300
-total_stars: 97029
-forks: 5713
+last_seen: "2026-11-01"
+trending_count: 15
+github_rank: 7
+stars_today: 1338
+total_stars: 98257
+forks: 5794
 language: "Rust"
 category:
 - AI
@@ -24,9 +24,9 @@ topics:
 - Design
 status: active
 type: "github-project"
-stats_as_of: "2026-10-31"
-documentation_checked_at: "2026-10-31"
-fetched_at: "2026-10-31T08:05:14+08:00"
+stats_as_of: "2026-11-01"
+documentation_checked_at: "2026-11-01"
+fetched_at: "2026-11-01T08:09:32+08:00"
 snapshot_status: "live"
 ---
 
@@ -72,7 +72,7 @@ snapshot_status: "live"
 | 2026-10-29 | 7 | 1472 | 92602 | GitHub Today live snapshot |
 | 2026-10-30 | 3 | 2870 | 95275 | GitHub Today live snapshot |
 | 2026-10-31 | 3 | 2300 | 97029 | GitHub Today live snapshot |
-
+| 2026-11-01 | 7 | 1338 | 98257 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Design|Design]]
 
@@ -92,6 +92,8 @@ snapshot_status: "live"
 - [[Daily/2026/10/2026-10-30|2026-10-30]]
 
 - [[Daily/2026/10/2026-10-31|2026-10-31]]
+- [[Daily/2026/11/2026-11-01|2026-11-01]]
+
 ## GitHub 原始链接
 https://github.com/pbakaus/impeccable
 
@@ -99,3 +101,8 @@ https://github.com/pbakaus/impeccable
 - README：https://github.com/pbakaus/impeccable/blob/main/README.md
 - README blob SHA：`8f27aa965cb56ab578d637e53f0392ae4e2d06db`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 官方资料复核（2026-11-01）
+- README：https://github.com/pbakaus/impeccable/blob/main/README.md
+- README blob SHA：`8f27aa965cb56ab578d637e53f0392ae4e2d06db`
+- 本次仅增补当天榜单事实与资料复核记录，原有能力说明、案例、分类和风险说明均保留。
