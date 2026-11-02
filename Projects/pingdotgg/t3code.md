@@ -48,6 +48,7 @@ snapshot_status: "live"
 | 2026-10-06 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
 | 2026-10-31 | 9 | 930 | 32725 | GitHub Today live snapshot |
 | 2026-11-01 | 4 | 1148 | 35514 | GitHub Today live snapshot |
+| 2026-11-02 | 4 | 3094 | 37923 | GitHub Today live snapshot |
 ## 相关日报
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
@@ -66,7 +67,6 @@ https://github.com/pingdotgg/t3code
 - README blob SHA：`6f6dab985e154fd3b6709404d7998baabdbc8de5`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
 
-| 2026-11-02 | 4 | 3094 | 37923 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer Tools]]
 
