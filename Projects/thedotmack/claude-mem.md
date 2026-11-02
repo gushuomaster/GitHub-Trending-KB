@@ -2,17 +2,17 @@
 type: "github-project"
 repo: "thedotmack/claude-mem"
 first_seen: '2026-10-04'
-last_seen: "2026-11-01"
+last_seen: "2026-11-02"
 language: "TypeScript"
-total_stars: 107845
-forks: 9463
-stars_today: 1723
+total_stars: 109218
+forks: 9563
+stars_today: 1526
 github_rank: 1
-trending_count: 9
-fetched_at: "2026-11-01T08:09:32+08:00"
+trending_count: 10
+fetched_at: "2026-11-02T08:06:33+08:00"
 url: "https://github.com/thedotmack/claude-mem"
-documentation_checked_at: "2026-11-01"
-stats_as_of: "2026-11-01"
+documentation_checked_at: "2026-11-02"
+stats_as_of: "2026-11-02"
 snapshot_status: "live"
 ---
 
@@ -56,6 +56,7 @@ npx claude-mem install
 | 2026-10-30 | 8 | 336 | 104763 | GitHub Today live snapshot |
 | 2026-10-31 | 1 | 1140 | 106206 | GitHub Today live snapshot |
 | 2026-11-01 | 1 | 1723 | 107845 | GitHub Today live snapshot |
+| 2026-11-02 | 1 | 1526 | 109218 | GitHub Today live snapshot |
 ## 相关主题
 - [[Topics/AI]]
 
@@ -71,6 +72,8 @@ npx claude-mem install
 - [[Daily/2026/10/2026-10-31|2026-10-31]]
 - [[Daily/2026/11/2026-11-01|2026-11-01]]
 
+- [[Daily/2026/11/2026-11-02|2026-11-02]]
+
 ## GitHub 原始链接
 https://github.com/thedotmack/claude-mem
 
@@ -83,3 +86,8 @@ https://github.com/thedotmack/claude-mem
 - README：https://github.com/thedotmack/claude-mem/blob/main/README.md
 - README blob SHA：`9a2cfbe945c6290edae9618548aca660e940e60f`
 - 本次仅增补当天榜单事实与资料复核记录，原有能力说明、案例、分类和风险说明均保留。
+
+## 官方资料复核（2026-11-02）
+- README：https://github.com/thedotmack/claude-mem/blob/main/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
+

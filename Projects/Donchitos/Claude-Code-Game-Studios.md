@@ -3,16 +3,16 @@ type: github-project
 repo: "Donchitos/Claude-Code-Game-Studios"
 url: "https://github.com/Donchitos/Claude-Code-Game-Studios"
 first_seen: "2026-10-30"
-last_seen: "2026-11-01"
-trending_count: 2
-github_rank: 3
-stars_today: 742
-total_stars: 31150
-forks: 4264
+last_seen: "2026-11-02"
+trending_count: 3
+github_rank: 8
+stars_today: 967
+total_stars: 32239
+forks: 4396
 language: "Shell"
-fetched_at: "2026-11-01T08:09:32+08:00"
-documentation_checked_at: "2026-11-01"
-stats_as_of: "2026-11-01"
+fetched_at: "2026-11-02T08:06:33+08:00"
+documentation_checked_at: "2026-11-02"
+stats_as_of: "2026-11-02"
 snapshot_status: "live"
 category: ["Game Development", "Claude Code", "Agent Workflow"]
 topics: ["Game-Development", "Claude-Code", "Multi-Agent", "QA"]
@@ -55,12 +55,15 @@ claude
 |---|---:|---:|---:|---:|---|
 | 2026-10-30 | 11 | 353 | 29152 | 4042 | GitHub Today live snapshot |
 | 2026-11-01 | 3 | 742 | 31150 | 4264 | GitHub Today live snapshot |
+| 2026-11-02 | 8 | 967 | 32239 | 4396 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Game-Development|Game-Development]] · [[Topics/Claude-Code|Claude-Code]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/QA|QA]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-30|2026-10-30]]
 - [[Daily/2026/11/2026-11-01|2026-11-01]]
+
+- [[Daily/2026/11/2026-11-02|2026-11-02]]
 
 ## GitHub 原始链接
 https://github.com/Donchitos/Claude-Code-Game-Studios
@@ -73,3 +76,8 @@ https://github.com/Donchitos/Claude-Code-Game-Studios
 - README：https://github.com/Donchitos/Claude-Code-Game-Studios/blob/main/README.md
 - README blob SHA：`d73112eae0042d010d867ea850142e66ffc37f71`
 - 本次仅增补当天榜单事实与资料复核记录，原有能力说明、案例、分类和风险说明均保留。
+
+## 官方资料复核（2026-11-02）
+- README：https://github.com/Donchitos/Claude-Code-Game-Studios/blob/main/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
+

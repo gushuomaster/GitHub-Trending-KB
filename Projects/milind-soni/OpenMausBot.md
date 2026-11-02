@@ -3,16 +3,16 @@ type: github-project
 repo: "milind-soni/OpenMausBot"
 url: "https://github.com/milind-soni/OpenMausBot"
 first_seen: "2026-10-30"
-last_seen: "2026-11-01"
-trending_count: 3
-github_rank: 6
-stars_today: 1303
-total_stars: 9591
-forks: 1326
+last_seen: "2026-11-02"
+trending_count: 4
+github_rank: 5
+stars_today: 922
+total_stars: 10500
+forks: 1457
 language: "TypeScript"
-fetched_at: "2026-11-01T08:09:32+08:00"
-documentation_checked_at: "2026-11-01"
-stats_as_of: "2026-11-01"
+fetched_at: "2026-11-02T08:06:33+08:00"
+documentation_checked_at: "2026-11-02"
+stats_as_of: "2026-11-02"
 snapshot_status: "live"
 category: ["Multi-Agent", "Desktop Automation", "Agent Workspace"]
 topics: ["AI-Agent", "Multi-Agent", "Computer-Use", "MCP"]
@@ -54,6 +54,7 @@ openmausbot run "Room Lead" "Rehearse the launch of https://example.com" --expor
 | 2026-10-30 | 5 | 1199 | 7457 | 1112 | GitHub Today live snapshot |
 | 2026-10-31 | 2 | 895 | 8610 | 1198 | GitHub Today live snapshot |
 | 2026-11-01 | 6 | 1303 | 9591 | 1326 | GitHub Today live snapshot |
+| 2026-11-02 | 5 | 922 | 10500 | 1457 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AI-Agent|AI-Agent]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/Computer-Use|Computer-Use]] · [[Topics/MCP|MCP]]
 
@@ -62,6 +63,8 @@ openmausbot run "Room Lead" "Rehearse the launch of https://example.com" --expor
 
 - [[Daily/2026/10/2026-10-31|2026-10-31]]
 - [[Daily/2026/11/2026-11-01|2026-11-01]]
+
+- [[Daily/2026/11/2026-11-02|2026-11-02]]
 
 ## GitHub 原始链接
 https://github.com/milind-soni/OpenMausBot
@@ -74,3 +77,8 @@ https://github.com/milind-soni/OpenMausBot
 - README：https://github.com/milind-soni/OpenMausBot/blob/main/README.md
 - README blob SHA：`50140729a8a27690fad4c327d019b3858e25affc`
 - 本次仅增补当天榜单事实与资料复核记录，原有能力说明、案例、分类和风险说明均保留。
+
+## 官方资料复核（2026-11-02）
+- README：https://github.com/milind-soni/OpenMausBot/blob/main/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
+

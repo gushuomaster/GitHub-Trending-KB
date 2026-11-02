@@ -3,16 +3,16 @@ type: github-project
 repo: "CopilotKit/OpenBot"
 url: "https://github.com/CopilotKit/OpenBot"
 first_seen: "2026-10-30"
-last_seen: "2026-10-31"
-trending_count: 2
-github_rank: 4
-stars_today: 706
-total_stars: 8768
-forks: 1107
+last_seen: "2026-11-02"
+trending_count: 3
+github_rank: 13
+stars_today: 175
+total_stars: 9507
+forks: 1189
 language: "TypeScript"
-fetched_at: "2026-10-31T08:05:14+08:00"
-documentation_checked_at: "2026-10-31"
-stats_as_of: "2026-10-31"
+fetched_at: "2026-11-02T08:06:33+08:00"
+documentation_checked_at: "2026-11-02"
+stats_as_of: "2026-11-02"
 snapshot_status: "live"
 category: ["Agent Platform", "Self-Hosted", "Governance"]
 topics: ["AG-UI", "AI-Agent", "Audit", "Computer-Use"]
@@ -55,6 +55,7 @@ bash scripts/start.sh
 | 2026-10-30 | 9 | 247 | 8128 | 1046 | GitHub Today live snapshot |
 | 2026-10-31 | 4 | 706 | 8768 | 1107 | GitHub Today live snapshot |
 
+| 2026-11-02 | 13 | 175 | 9507 | 1189 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AG-UI|AG-UI]] · [[Topics/AI-Agent|AI-Agent]] · [[Topics/Audit|Audit]] · [[Topics/Computer-Use|Computer-Use]]
 
@@ -62,9 +63,16 @@ bash scripts/start.sh
 - [[Daily/2026/10/2026-10-30|2026-10-30]]
 
 - [[Daily/2026/10/2026-10-31|2026-10-31]]
+- [[Daily/2026/11/2026-11-02|2026-11-02]]
+
 ## GitHub 原始链接
 https://github.com/CopilotKit/OpenBot
 
 ## 官方资料复核（2026-10-31）
 - README：https://github.com/CopilotKit/OpenBot/blob/main/README.md
 - README blob SHA：`42d7323b612d71aec347d32c763edbd659f90648`
+
+## 官方资料复核（2026-11-02）
+- README：https://github.com/CopilotKit/OpenBot/blob/main/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
+

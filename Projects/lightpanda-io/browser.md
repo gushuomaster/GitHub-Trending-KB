@@ -3,16 +3,16 @@ type: "github-project"
 repo: "lightpanda-io/browser"
 url: "https://github.com/lightpanda-io/browser"
 first_seen: "2026-10-31"
-last_seen: "2026-11-01"
-trending_count: 2
-github_rank: 9
-stars_today: 929
-total_stars: 39233
-forks: 1906
+last_seen: "2026-11-02"
+trending_count: 3
+github_rank: 2
+stars_today: 825
+total_stars: 40095
+forks: 1960
 language: "Zig"
-fetched_at: "2026-11-01T08:09:32+08:00"
-documentation_checked_at: "2026-11-01"
-stats_as_of: "2026-11-01"
+fetched_at: "2026-11-02T08:06:33+08:00"
+documentation_checked_at: "2026-11-02"
+stats_as_of: "2026-11-02"
 snapshot_status: "live"
 category: ["Headless Browser", "Web Automation", "Agent Infrastructure"]
 topics: ["Browser Automation", "CDP", "MCP", "Zig"]
@@ -53,12 +53,15 @@ Lightpanda 是为 AI Agent、爬取和浏览器自动化从头构建的无界面
 |---|---:|---:|---:|---:|---|
 | 2026-10-31 | 15 | 626 | 38346 | 1871 | GitHub Today live snapshot |
 | 2026-11-01 | 9 | 929 | 39233 | 1906 | GitHub Today live snapshot |
+| 2026-11-02 | 2 | 825 | 40095 | 1960 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Browser-Automation|Browser-Automation]] · [[Topics/AI-Agent|AI-Agent]] · [[Topics/MCP|MCP]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-31|2026-10-31]]
 - [[Daily/2026/11/2026-11-01|2026-11-01]]
+
+- [[Daily/2026/11/2026-11-02|2026-11-02]]
 
 ## GitHub 原始链接
 https://github.com/lightpanda-io/browser
@@ -72,3 +75,8 @@ https://github.com/lightpanda-io/browser
 - README：https://github.com/lightpanda-io/browser/blob/main/README.md
 - README blob SHA：`65634d76d0f406d634d0245caeff2c91ff584f6f`
 - 本次仅增补当天榜单事实与资料复核记录，原有能力说明、案例、分类和风险说明均保留。
+
+## 官方资料复核（2026-11-02）
+- README：https://github.com/lightpanda-io/browser/blob/main/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
+
