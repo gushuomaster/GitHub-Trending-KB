@@ -70,5 +70,6 @@ https://github.com/anomalyco/hex
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/anomalyco/hex/blob/dev/README.md
+- README blob SHA：`cf2d10ea58e3f4e2dd3b1bc9f49d20377d6e9576`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 

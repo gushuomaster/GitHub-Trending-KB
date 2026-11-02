@@ -25,7 +25,7 @@ status: research
 
 ## 它能做什么
 - 按模型家族整理系统提示、persona、`AGENTS.md`、工作区策略、Grok 配置和 Ollama Modelfile。
-- 覆盖 25+ 个目标、31 份可直接读取的完整文件，并标明适用的指令入口。
+- 覆盖 26+ 个目标、32 份可直接读取的完整文件，并标明适用的指令入口。
 - 提供按系统提示、项目级 `AGENTS.md`、全局工作区策略和 Ollama 配置使用的格式说明。
 - 通过独立版本文件保留提示变化，便于比较模型或宿主更新后的行为差异。
 
@@ -72,5 +72,7 @@ https://github.com/togg53192-cmd/jailbreaks
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/togg53192-cmd/jailbreaks/blob/main/README.md
+- README blob SHA：`fb5e9c045523f7ddcc8a8567802e9831929facf9`
+- README 已增至 32 份提示、26+ 个目标，并补入 Gemini 3.1 Pro 等索引项；研究和安全边界保持不变。
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
 

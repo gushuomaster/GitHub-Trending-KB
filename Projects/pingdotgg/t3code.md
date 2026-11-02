@@ -24,7 +24,7 @@ snapshot_status: "live"
 为本机 Coding Agent 提供桌面、网页和手机控制界面，可继续使用已登录的 Claude Code、Codex 等工具。
 
 ## 它能做什么
-- 统一操作 Claude Code、Codex、Cursor、Grok Build、OpenCode 和 Antigravity。
+- 统一操作 Claude Code、Codex、Cursor、Grok Build、OpenCode、Antigravity 和 fx。
 - 提供 Electron 桌面端、本地 Web 服务和 iOS/Android 远程入口。
 - 支持后台服务、多个账户与项目设置，具体权限由所接入工具及 T3 配置共同决定。
 
@@ -76,5 +76,7 @@ https://github.com/pingdotgg/t3code
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/pingdotgg/t3code/blob/main/README.md
+- README blob SHA：`1f63f3609ae0dd709256623cf34f6fab8168d2f2`
+- 当前 README 已将 fx 列为受支持 Provider，并要求先安装 fx、在服务所在机器运行 `fx login`。
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
 

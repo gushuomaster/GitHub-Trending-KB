@@ -78,5 +78,7 @@ https://github.com/lightpanda-io/browser
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/lightpanda-io/browser/blob/main/README.md
+- README blob SHA：`65634d76d0f406d634d0245caeff2c91ff584f6f`
+- Linux 发布二进制当前要求 x86_64 glibc 2.35、arm64 glibc 2.38；MCP `run` 既可接收脚本文本，也可运行 `save` 写入的脚本路径。
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
 

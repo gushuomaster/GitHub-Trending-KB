@@ -70,5 +70,6 @@ https://github.com/kornia/kornia
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/kornia/kornia/blob/main/README.md
+- README blob SHA：`47ce0f17e04ae5be4c4ffa8d6b03d30c439d1195`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 

@@ -65,5 +65,6 @@ https://github.com/hyprwm/Hyprland
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/hyprwm/Hyprland/blob/main/README.md
+- README blob SHA：`886fc163dcfc38735ac28c33dac0e4c66d4ce125`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 

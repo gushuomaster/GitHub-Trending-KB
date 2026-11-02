@@ -21,11 +21,11 @@ status: beta
 # CopilotKit/OpenBot
 
 ## 一句话说明
-在自己的基础设施中部署一组可治理的 AI 同事，让每个 Agent 拥有独立浏览器、文件和工具，并让所有动作先经过策略判断、再执行并留下审计记录。
+在自己的基础设施中部署一组可治理的 AI 同事，让每位使用者获得带浏览器和文件的隔离电脑、并可按需给特定 Bot 单独隔离；所有动作先经过策略判断、再执行并留下审计记录。
 
 ## 它能做什么
 - 接入任何讲 AG-UI 协议的 Agent，包括 LangGraph、Mastra、CrewAI、Pydantic AI、Google ADK 或自写实现。
-- 为每个 Bot 提供隔离的 Chromium、登录状态和工作空间，并允许用户观察、接管后再交还控制。
+- 默认按使用者提供隔离的 Chromium、登录状态和工作空间；需要更强边界时，可为特定 Bot 启用独立容器，并允许用户观察、接管后再交还控制。
 - 通过统一网关评估电脑、文件、MCP 与组件操作，执行允许/拒绝策略并写入 PostgreSQL 审计记录。
 - 在自托管界面管理 coworkers、频道、策略、审计和配置，模型与数据保留在自己的环境中。
 
@@ -74,5 +74,7 @@ https://github.com/CopilotKit/OpenBot
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/CopilotKit/OpenBot/blob/main/README.md
+- README blob SHA：`e13cddd3b7f9ca94b7fc032ec42884cea7555777`
+- 当前 README 明确隔离电脑默认按使用者分配，标记为 Isolated 的 Bot 才获得单独容器；活动记录显示在会话下方列表。
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
 

@@ -85,5 +85,6 @@ https://github.com/Renhuai123/ziwei-doushu
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/Renhuai123/ziwei-doushu/blob/main/README.md
+- README blob SHA：`8358fc53b3d561b222158862a6dff7231c9bf6a7`
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
 

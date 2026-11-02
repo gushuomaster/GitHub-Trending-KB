@@ -50,6 +50,7 @@ GitHub-Trending-KB/
 - 中文简介
 - 主要功能 / 特点
 - **怎么利用 / 实例**
+- **局限 / 注意点**
 - Language / Total Stars / Forks / Stars Today
 - GitHub 链接
 - 项目知识卡链接

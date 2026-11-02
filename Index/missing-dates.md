@@ -1,6 +1,6 @@
 # GitHub Trending 缺档与质量记录
 
-截至 2026-10-31，2026-09-09 至 2026-10-31 的 Daily 日期路径连续，没有文件缺失。清单来自本次对 GitHub `main`、日期匹配语言不限归档、日报正文、项目卡历史、JSONL 和 Dashboard 的重新审核。
+截至 2026-11-02，2026-09-09 至 2026-11-02 的 Daily 日期路径连续，没有文件缺失。清单来自本次对 GitHub `main`、日期匹配语言不限归档、日报正文、项目卡历史、JSONL、Dashboard 和 Library 实际目录的重新审核。
 
 ## 本次已修复
 
@@ -51,12 +51,15 @@
 - 2026-10-29：14 项 08:08:39 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 14 个项目的当前官方 README，项目卡记录的 README blob SHA 均与当前官方版本一致。全量复查 51 份日报、685 条唯一 JSONL 记录和 257 张有效日报引用的项目卡，未发现新的 GitHub 内容质量缺陷。
 - 2026-10-30：11 项 08:08:40 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 11 个项目的当前官方 README，项目卡记录的 README blob SHA 均与当前官方版本一致。全量复查 52 份日报、696 条唯一 JSONL 记录和 260 张有效日报引用的项目卡，未发现新的 GitHub 内容质量缺陷。
 - 2026-10-31：15 项 08:05:14 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；重新读取全部 15 个项目的当前官方 README。`Renhuai123/ziwei-doushu` 的 README 在上午采集后迁移并更名线上平台，已更新项目卡中的 OURANIC 地址、README blob SHA 与来源说明，不改动榜单、快照统计、代码、数据集或许可事实。全量复查 53 份日报、711 条唯一 JSONL 记录和 261 张有效日报引用的项目卡。
+- 2026-11-01：14 项 08:09:32 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 3 张项目卡、更新 11 张。榜单严格保留同次 Any / Any / Today 页面原始顺序，未用后续页面数据覆盖快照。
+- 2026-11-02：17 项 08:06:33 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 8 张项目卡、更新 9 张，并修正 `pingdotgg/t3code` 当天历史行位置。本次重新读取全部 17 个项目的当前官方 README，为 17 张卡补入可复核 blob SHA；按官方变化更新 `pingdotgg/t3code` 的 fx Provider、`togg53192-cmd/jailbreaks` 的 32 份提示/26+ 目标、`CopilotKit/OpenBot` 的按使用者隔离边界，并记录 Lightpanda 平台要求与 Claude Mem 版本变化，不改动 08:06:33 榜单、排名或统计。全量复查 55 份日报、742 条唯一 JSONL 记录和 272 张有效日报引用的项目卡。
+- 规范文件：`README.md` 与 `Templates/Daily.md` 已补入日报必须记录“局限 / 注意点”的明确要求，避免新日报沿用缺少限制栏位的旧模板。
 
 ## 当前待修复
 
 - 当前没有剩余已确认且可修复的 GitHub 内容质量待办。
 - 2026-09-14 的 `tonhowtf/omniget` 官方仓库链接仍返回 404；当日榜单日期、数量与顺序已由日期匹配的语言不限归档核实，正文能力说明以公开镜像/索引交叉核对。该外部仓库可用性无法在本知识库内修复，保留原始链接用于来源追溯，并明确列为阻塞而非宣称链接通过。
-- ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前需要 245 个，因此 `Projects/AgriciDaniel/claude-seo.md`、`Projects/Comfy-Org/ComfyUI.md`、`Projects/CopilotKit/OpenBot.md`、`Projects/Donchitos/Claude-Code-Game-Studios.md`、`Projects/Graphify-Labs/graphify.md`、`Projects/JetBrains/thinkrail.md`、`Projects/Kruk2/jasna.md`、`Projects/MadsLorentzen/ai-job-search.md`、`Projects/Meloong-Git/PCL.md`、`Projects/Nutlope/hallmark.md`、`Projects/Renhuai123/ziwei-doushu.md`、`Projects/alchaincyf/huashu-design.md`、`Projects/android/skills.md`、`Projects/anomalyco/opencode.md`、`Projects/aws/agent-toolkit-for-aws.md`、`Projects/coollabsio/coolify.md`、`Projects/elayadesign/ai-design-skills.md`、`Projects/expo/skills.md`、`Projects/fastapi/fastapi.md`、`Projects/gitroomhq/postiz-app.md`、`Projects/google-gemini/gemini-cli.md`、`Projects/headroomlabs-ai/headroom.md`、`Projects/hmjz100/LinkSwift.md`、`Projects/jbiaojerry/ebook-treasure-chest.md`、`Projects/lightpanda-io/browser.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/luongnv89/claude-howto.md`、`Projects/macro-inc/macro.md`、`Projects/makecindy/cindy.md`、`Projects/milind-soni/OpenMausBot.md`、`Projects/mlabonne/llm-course.md`、`Projects/nightly-labs/openbot.md`、`Projects/nodejs/node.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/php/php-src.md`、`Projects/pollen-robotics/microduck.md`、`Projects/rust-lang/rust.md`、`Projects/shiyu-coder/Kronos.md`、`Projects/stablyai/orca.md`、`Projects/togg53192-cmd/jailbreaks.md`、`Projects/twentyhq/twenty.md`、`Projects/vllm-project/vllm.md`、`Projects/withmarbleapp/os-taxonomy.md`、`Projects/xerj-org/xerj.md`、`Projects/xiaolai/the-craft-of-selfteaching.md` 暂无法按相同层级创建。GitHub 内容完整，未采用破坏规范路径的绕行结构。
+- ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前需要 255 个 owner 目录，因此以下 56 张项目卡暂无法按相同层级创建：`Projects/AgriciDaniel/claude-seo.md`、`Projects/Comfy-Org/ComfyUI.md`、`Projects/CopilotKit/OpenBot.md`、`Projects/Donchitos/Claude-Code-Game-Studios.md`、`Projects/FlashML-org/FreeToken.md`、`Projects/Graphify-Labs/graphify.md`、`Projects/JetBrains/thinkrail.md`、`Projects/Kruk2/jasna.md`、`Projects/MadsLorentzen/ai-job-search.md`、`Projects/Meloong-Git/PCL.md`、`Projects/Nutlope/hallmark.md`、`Projects/Orkas-AI/Orkas.md`、`Projects/Renhuai123/ziwei-doushu.md`、`Projects/alchaincyf/huashu-design.md`、`Projects/android/skills.md`、`Projects/anomalyco/hex.md`、`Projects/anomalyco/opencode.md`、`Projects/aws/agent-toolkit-for-aws.md`、`Projects/beenuar/AiSOC.md`、`Projects/bregman-arie/devops-exercises.md`、`Projects/cjpais/Handy.md`、`Projects/coollabsio/coolify.md`、`Projects/elayadesign/ai-design-skills.md`、`Projects/expo/skills.md`、`Projects/fastapi/fastapi.md`、`Projects/gitroomhq/postiz-app.md`、`Projects/google-gemini/gemini-cli.md`、`Projects/headroomlabs-ai/headroom.md`、`Projects/hmjz100/LinkSwift.md`、`Projects/hyprwm/Hyprland.md`、`Projects/jbiaojerry/ebook-treasure-chest.md`、`Projects/kornia/kornia.md`、`Projects/lightpanda-io/browser.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/luongnv89/claude-howto.md`、`Projects/macro-inc/macro.md`、`Projects/makecindy/cindy.md`、`Projects/milind-soni/OpenMausBot.md`、`Projects/mlabonne/llm-course.md`、`Projects/nightly-labs/openbot.md`、`Projects/nodejs/node.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/patchy631/ai-engineering-hub.md`、`Projects/php/php-src.md`、`Projects/pollen-robotics/microduck.md`、`Projects/public-apis/public-apis.md`、`Projects/rust-lang/rust.md`、`Projects/shiyu-coder/Kronos.md`、`Projects/stablyai/orca.md`、`Projects/togg53192-cmd/jailbreaks.md`、`Projects/twentyhq/twenty.md`、`Projects/vllm-project/vllm.md`、`Projects/vorssaint/vorssaint-utils.md`、`Projects/withmarbleapp/os-taxonomy.md`、`Projects/xerj-org/xerj.md`、`Projects/xiaolai/the-craft-of-selfteaching.md`。GitHub 内容完整，未采用破坏规范路径的绕行结构。
 
 ## 下一待修复日期
 
@@ -64,8 +67,8 @@
 
 ## 说明
 
-- 2026-09-09 至 2026-10-31 日报日期路径连续，无文件缺失。
+- 2026-09-09 至 2026-11-02 日报日期路径连续，无文件缺失。
 - 归档提交时间不等于页面抓取时间，不能证明是原计划 08:00 页面。
 - 未保存的历史统计无法凭当前数值恢复，保留“未保存”不作为待修复缺陷。
-- 2026-10-31 当天 15 项实时快照和 Dashboard 保持其 08:05:14 数据；本次未替换当天榜单。
+- 2026-11-02 当天 17 项实时快照和 Dashboard 保持其 08:06:33 数据；本次未替换当天榜单。
 

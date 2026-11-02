@@ -71,5 +71,6 @@ https://github.com/patchy631/ai-engineering-hub
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/patchy631/ai-engineering-hub/blob/main/README.md
+- README blob SHA：`6c65ab12125814c5233f873c4c1af2765ff87d51`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 

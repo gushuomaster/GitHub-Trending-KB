@@ -75,5 +75,6 @@ https://github.com/shiyu-coder/Kronos
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/shiyu-coder/Kronos/blob/master/README.md
+- README blob SHA：`faffa1578cf0172f6b88f5db8a9b1205668ffef1`
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
 

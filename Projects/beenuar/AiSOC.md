@@ -71,5 +71,6 @@ https://github.com/beenuar/AiSOC
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/beenuar/AiSOC/blob/main/README.md
+- README blob SHA：`e970f942ae1dbcfc7dfe25f397a6faa4fd1386a4`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 

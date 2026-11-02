@@ -65,5 +65,6 @@ https://github.com/public-apis/public-apis
 
 ## 官方资料复核（2026-11-02）
 - README：https://github.com/public-apis/public-apis/blob/master/README.md
+- README blob SHA：`fcdbfadf6a98c3c6d2601fe2b6f543f2f4101c4c`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 
