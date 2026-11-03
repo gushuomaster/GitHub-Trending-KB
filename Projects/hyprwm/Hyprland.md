@@ -3,16 +3,16 @@ type: "github-project"
 repo: "hyprwm/Hyprland"
 url: "https://github.com/hyprwm/Hyprland"
 first_seen: "2026-11-02"
-last_seen: "2026-11-02"
-trending_count: 1
-github_rank: 17
-stars_today: 38
-total_stars: 39358
-forks: 2129
+last_seen: "2026-11-03"
+trending_count: 2
+github_rank: 4
+stars_today: 509
+total_stars: 39914
+forks: 2154
 language: "C++"
-fetched_at: "2026-11-02T08:06:33+08:00"
-documentation_checked_at: "2026-11-02"
-stats_as_of: "2026-11-02"
+fetched_at: "2026-11-03T08:10:36+08:00"
+documentation_checked_at: "2026-11-03"
+stats_as_of: "2026-11-03"
 snapshot_status: "live"
 category: ["Wayland Compositor","Linux Desktop"]
 topics: ["Wayland","Tiling","IPC","Plugins"]
@@ -53,12 +53,14 @@ status: active
 
 ## 最近变化
 - 2026-11-02：首次建立项目卡并按官方 README 核对主要能力、用法与限制。
+| 2026-11-03 | 4 | 509 | 39914 | GitHub Today live snapshot |
 
 ## 相关主题
 "[[Topics/Wayland|Wayland]]" · "[[Topics/Tiling|Tiling]]" · "[[Topics/IPC|IPC]]" · "[[Topics/Plugins|Plugins]]"
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-02|2026-11-02]]
+- [[Daily/2026/11/2026-11-03|2026-11-03]]
 
 ## GitHub 原始链接
 https://github.com/hyprwm/Hyprland
@@ -68,3 +70,6 @@ https://github.com/hyprwm/Hyprland
 - README blob SHA：`886fc163dcfc38735ac28c33dac0e4c66d4ce125`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 
+## 官方资料复核（2026-11-03）
+- README：https://github.com/hyprwm/Hyprland/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。

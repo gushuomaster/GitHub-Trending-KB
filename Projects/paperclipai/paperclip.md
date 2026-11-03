@@ -2,14 +2,14 @@
 repo: "paperclipai/paperclip"
 url: "https://github.com/paperclipai/paperclip"
 first_seen: 2026-09-26
-last_seen: 2026-09-30
-trending_count: 5
-github_rank: 4
-stars_today: 2458
-total_stars: 94432
-forks: 16048
-language: TypeScript
-fetched_at: "2026-09-30T08:04:00+08:00"
+last_seen: "2026-11-03"
+trending_count: 6
+github_rank: 13
+stars_today: 412
+total_stars: 110381
+forks: 18274
+language: "TypeScript"
+fetched_at: "2026-11-03T08:10:36+08:00"
 category: ["AI", "Agent", "Orchestration"]
 tags: ["agent", "orchestration", "governance", "budget", "multi-agent"]
 topics: ["AI", "Agent"]
@@ -54,6 +54,7 @@ bash install.sh
 ## 历史归档补记
 - 2026-09-26：GitHub Trending #1；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
 - 2026-09-27：GitHub Trending #1；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
+| 2026-11-03 | 13 | 412 | 110381 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]]
@@ -64,6 +65,11 @@ bash install.sh
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
+- [[Daily/2026/11/2026-11-03|2026-11-03]]
 
 ## GitHub 原始链接
 https://github.com/paperclipai/paperclip
+
+## 官方资料复核（2026-11-03）
+- README：https://github.com/paperclipai/paperclip/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。

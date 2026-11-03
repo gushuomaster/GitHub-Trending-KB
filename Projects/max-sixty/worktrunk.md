@@ -3,8 +3,8 @@ type: github-project
 repo: "max-sixty/worktrunk"
 url: "https://github.com/max-sixty/worktrunk"
 first_seen: 2026-09-13
-last_seen: 2026-09-13
-trending_count: 1
+last_seen: "2026-11-03"
+trending_count: 2
 category: ["Git","Developer Tools","AI Agent"]
 topics: ["Git","Developer Tools","AI Agent"]
 ---
@@ -41,12 +41,14 @@ wt list --full
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-13 | 15 | 137 | 未保存 | 日期匹配来源 |
+| 2026-11-03 | 12 | 77 | 10024 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Git|Git]] · [[Topics/Developer Tools|Developer Tools]] · [[Topics/AI Agent|AI Agent]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-13|2026-09-13]]
+- [[Daily/2026/11/2026-11-03|2026-11-03]]
 
 ## GitHub 原始链接
 https://github.com/max-sixty/worktrunk
@@ -55,3 +57,7 @@ https://github.com/max-sixty/worktrunk
 - 核对日期：2026-10-09
 - README：https://github.com/max-sixty/worktrunk/blob/HEAD/README.md
 - 说明：项目卡反映核对日的当前官方资料，不声称这些能力与历史上榜日的项目版本完全相同。
+
+## 官方资料复核（2026-11-03）
+- README：https://github.com/max-sixty/worktrunk/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。

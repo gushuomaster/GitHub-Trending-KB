@@ -5,8 +5,8 @@ url: "https://github.com/JustVugg/colibri"
 category: ["AI","Local-LLM","Inference"]
 topics: ["AI","Local-LLM"]
 first_seen: 2026-09-11
-last_seen: 2026-09-18
-trending_count: 6
+last_seen: "2026-11-03"
+trending_count: 7
 ---
 # JustVugg/colibri
 
@@ -39,6 +39,7 @@ trending_count: 6
 | 2026-09-16 | 2 | 2035 | 未保存 | 仓库已存快照 |
 | 2026-09-17 | 3 | 2026 | 未保存 | 仓库已存快照 |
 | 2026-09-18 | 15 | 872 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-11-03 | 10 | 675 | 46518 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Local-LLM|Local-LLM]]
@@ -50,6 +51,7 @@ trending_count: 6
 - [[Daily/2026/09/2026-09-16|2026-09-16]]
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
+- [[Daily/2026/11/2026-11-03|2026-11-03]]
 
 ## GitHub 原始链接
 https://github.com/JustVugg/colibri
@@ -94,3 +96,7 @@ https://github.com/JustVugg/colibri
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
 - 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。
+
+## 官方资料复核（2026-11-03）
+- README：https://github.com/JustVugg/colibri/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。

@@ -3,16 +3,16 @@ type: "github-project"
 repo: "FlashML-org/FreeToken"
 url: "https://github.com/FlashML-org/FreeToken"
 first_seen: "2026-11-02"
-last_seen: "2026-11-02"
-trending_count: 1
-github_rank: 16
-stars_today: 242
-total_stars: 15384
-forks: 1549
+last_seen: "2026-11-03"
+trending_count: 2
+github_rank: 6
+stars_today: 653
+total_stars: 16043
+forks: 1582
 language: "Python"
-fetched_at: "2026-11-02T08:06:33+08:00"
-documentation_checked_at: "2026-11-02"
-stats_as_of: "2026-11-02"
+fetched_at: "2026-11-03T08:10:36+08:00"
+documentation_checked_at: "2026-11-03"
+stats_as_of: "2026-11-03"
 snapshot_status: "live"
 category: ["Model Serving","Edge AI"]
 topics: ["MoE","Inference","Local AI","GPU"]
@@ -58,12 +58,14 @@ uv pip install "freetoken[accel]"
 
 ## 最近变化
 - 2026-11-02：首次建立项目卡并按官方 README 核对主要能力、用法与限制。
+| 2026-11-03 | 6 | 653 | 16043 | GitHub Today live snapshot |
 
 ## 相关主题
 "[[Topics/MoE|MoE]]" · "[[Topics/Inference|Inference]]" · "[[Topics/Local-AI|Local AI]]" · "[[Topics/GPU|GPU]]"
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-02|2026-11-02]]
+- [[Daily/2026/11/2026-11-03|2026-11-03]]
 
 ## GitHub 原始链接
 https://github.com/FlashML-org/FreeToken
@@ -73,3 +75,6 @@ https://github.com/FlashML-org/FreeToken
 - README blob SHA：`e72a5cd0d62ecb564e1b7f8ac9b194c8fd9d8a84`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 
+## 官方资料复核（2026-11-03）
+- README：https://github.com/FlashML-org/FreeToken/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。

@@ -3,16 +3,16 @@ type: "github-project"
 repo: "kornia/kornia"
 url: "https://github.com/kornia/kornia"
 first_seen: "2026-11-02"
-last_seen: "2026-11-02"
-trending_count: 1
+last_seen: "2026-11-03"
+trending_count: 2
 github_rank: 9
-stars_today: 101
-total_stars: 11775
-forks: 1465
+stars_today: 412
+total_stars: 12125
+forks: 1487
 language: "Python"
-fetched_at: "2026-11-02T08:06:33+08:00"
-documentation_checked_at: "2026-11-02"
-stats_as_of: "2026-11-02"
+fetched_at: "2026-11-03T08:10:36+08:00"
+documentation_checked_at: "2026-11-03"
+stats_as_of: "2026-11-03"
 snapshot_status: "live"
 category: ["Computer Vision","PyTorch Library"]
 topics: ["Spatial AI","Differentiable Programming","Geometry"]
@@ -58,12 +58,14 @@ pip install kornia
 
 ## 最近变化
 - 2026-11-02：首次建立项目卡并按官方 README 核对主要能力、用法与限制。
+| 2026-11-03 | 9 | 412 | 12125 | GitHub Today live snapshot |
 
 ## 相关主题
 "[[Topics/Spatial-AI|Spatial AI]]" · "[[Topics/Differentiable-Programming|Differentiable Programming]]" · "[[Topics/Geometry|Geometry]]"
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-02|2026-11-02]]
+- [[Daily/2026/11/2026-11-03|2026-11-03]]
 
 ## GitHub 原始链接
 https://github.com/kornia/kornia
@@ -73,3 +75,6 @@ https://github.com/kornia/kornia
 - README blob SHA：`47ce0f17e04ae5be4c4ffa8d6b03d30c439d1195`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
 
+## 官方资料复核（2026-11-03）
+- README：https://github.com/kornia/kornia/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。

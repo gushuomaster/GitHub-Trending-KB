@@ -2,17 +2,17 @@
 type: github-project
 repo: pingdotgg/t3code
 first_seen: '2026-10-04'
-last_seen: "2026-11-02"
+last_seen: "2026-11-03"
 url: https://github.com/pingdotgg/t3code
-trending_count: 6
-github_rank: 4
-documentation_checked_at: "2026-11-02"
-stats_as_of: "2026-11-02"
-stars_today: 3094
-total_stars: 37923
-forks: 8910
+trending_count: 7
+github_rank: 7
+documentation_checked_at: "2026-11-03"
+stats_as_of: "2026-11-03"
+stars_today: 3229
+total_stars: 41850
+forks: 9090
 language: "TypeScript"
-fetched_at: "2026-11-02T08:06:33+08:00"
+fetched_at: "2026-11-03T08:10:36+08:00"
 snapshot_status: "live"
 ---
 
@@ -58,6 +58,7 @@ snapshot_status: "live"
 - [[Daily/2026/11/2026-11-01|2026-11-01]]
 
 - [[Daily/2026/11/2026-11-02|2026-11-02]]
+- [[Daily/2026/11/2026-11-03|2026-11-03]]
 
 ## GitHub 原始链接
 https://github.com/pingdotgg/t3code
@@ -66,6 +67,7 @@ https://github.com/pingdotgg/t3code
 - README：https://github.com/pingdotgg/t3code/blob/main/README.md
 - README blob SHA：`6f6dab985e154fd3b6709404d7998baabdbc8de5`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+| 2026-11-03 | 7 | 3229 | 41850 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer Tools]]
@@ -80,3 +82,6 @@ https://github.com/pingdotgg/t3code
 - 当前 README 已将 fx 列为受支持 Provider，并要求先安装 fx、在服务所在机器运行 `fx login`。
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
 
+## 官方资料复核（2026-11-03）
+- README：https://github.com/pingdotgg/t3code/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
