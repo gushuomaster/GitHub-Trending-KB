@@ -3,16 +3,16 @@ type: github-project
 repo: "shiyu-coder/Kronos"
 url: "https://github.com/shiyu-coder/Kronos"
 first_seen: "2026-10-20"
-last_seen: "2026-11-03"
-trending_count: 5
-github_rank: 8
-stars_today: 857
-total_stars: 46007
-forks: 7585
+last_seen: "2026-11-04"
+trending_count: 6
+github_rank: 12
+stars_today: 503
+total_stars: 46504
+forks: 7661
 language: "Python"
-fetched_at: "2026-11-03T08:10:36+08:00"
-documentation_checked_at: "2026-11-03"
-stats_as_of: "2026-11-03"
+fetched_at: "2026-11-04T08:08:38+08:00"
+documentation_checked_at: "2026-11-04"
+stats_as_of: "2026-11-04"
 snapshot_status: "live"
 topics: ["Quantitative Finance", "Time Series", "Foundation Model", "Forecasting"]
 status: active
@@ -54,6 +54,7 @@ Kronos-small/base 最大上下文为 512，超长输入会截断；Kronos-large 
 | 2026-10-20 | 12 | 363 | 41640 | 6922 | GitHub Today live snapshot |
 | 2026-10-21 | 12 | 733 | 42343 | 7011 | GitHub Today live snapshot |
 | 2026-10-22 | 9 | 575 | 42815 | 7068 | GitHub Today live snapshot |
+| 2026-11-04 | 12 | 503 | 46504 | 7661 | GitHub Today live snapshot |
 
 | 2026-11-02 | 3 | 630 | 45357 | 7498 | GitHub Today live snapshot |
 | 2026-11-03 | 8 | 857 | 46007 | GitHub Today live snapshot |
@@ -68,6 +69,7 @@ Kronos-small/base 最大上下文为 512，超长输入会截断；Kronos-large 
 
 - [[Daily/2026/11/2026-11-02|2026-11-02]]
 - [[Daily/2026/11/2026-11-03|2026-11-03]]
+- [[Daily/2026/11/2026-11-04|2026-11-04]]
 
 ## GitHub 原始链接
 https://github.com/shiyu-coder/Kronos
@@ -84,3 +86,8 @@ https://github.com/shiyu-coder/Kronos
 ## 官方资料复核（2026-11-03）
 - README：https://github.com/shiyu-coder/Kronos/blob/HEAD/README.md
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
+
+## 官方资料复核（2026-11-04）
+- README：https://github.com/shiyu-coder/Kronos/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
+

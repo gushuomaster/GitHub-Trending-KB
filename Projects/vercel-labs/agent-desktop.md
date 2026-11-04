@@ -2,17 +2,17 @@
 type: "github-project"
 repo: "vercel-labs/agent-desktop"
 first_seen: "2026-11-03"
-last_seen: "2026-11-03"
+last_seen: "2026-11-04"
 language: "Rust"
-total_stars: 9585
-forks: 649
-stars_today: 2275
-github_rank: 1
-trending_count: 1
-fetched_at: "2026-11-03T08:10:36+08:00"
+total_stars: 12676
+forks: 872
+stars_today: 3791
+github_rank: 2
+trending_count: 2
+fetched_at: "2026-11-04T08:08:38+08:00"
 url: "https://github.com/vercel-labs/agent-desktop"
-documentation_checked_at: "2026-11-03"
-stats_as_of: "2026-11-03"
+documentation_checked_at: "2026-11-04"
+stats_as_of: "2026-11-04"
 snapshot_status: "live"
 ---
 
@@ -49,6 +49,7 @@ ref 只属于生成它的快照，界面变化后可能返回 `STALE_REF`；多�
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-11-03 | 1 | 2275 | 9585 | GitHub Today live snapshot |
+| 2026-11-04 | 2 | 3791 | 12676 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]
@@ -56,6 +57,7 @@ ref 只属于生成它的快照，界面变化后可能返回 `STALE_REF`；多�
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-03|2026-11-03]]
+- [[Daily/2026/11/2026-11-04|2026-11-04]]
 
 ## GitHub 原始链接
 https://github.com/vercel-labs/agent-desktop
@@ -63,3 +65,8 @@ https://github.com/vercel-labs/agent-desktop
 ## 官方资料复核（2026-11-03）
 - README：https://github.com/vercel-labs/agent-desktop/blob/main/README.md
 - 复核了官方安装、Quick Start、命令分组、平台支持与 FFI 说明。
+
+## 官方资料复核（2026-11-04）
+- README：https://github.com/vercel-labs/agent-desktop/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
+

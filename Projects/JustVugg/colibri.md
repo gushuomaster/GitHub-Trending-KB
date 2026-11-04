@@ -5,8 +5,17 @@ url: "https://github.com/JustVugg/colibri"
 category: ["AI","Local-LLM","Inference"]
 topics: ["AI","Local-LLM"]
 first_seen: 2026-09-11
-last_seen: "2026-11-03"
-trending_count: 7
+last_seen: "2026-11-04"
+trending_count: 8
+language: "C"
+total_stars: 47237
+forks: 5463
+stars_today: 802
+github_rank: 4
+fetched_at: "2026-11-04T08:08:38+08:00"
+documentation_checked_at: "2026-11-04"
+stats_as_of: "2026-11-04"
+snapshot_status: "live"
 ---
 # JustVugg/colibri
 
@@ -17,6 +26,7 @@ trending_count: 7
 - 按需从磁盘加载被路由选中的专家，而不是把全部专家常驻内存
 - 以零第三方依赖的 C 引擎降低运行时复杂度
 - 支持量化权重、CPU 推理和对 MoE 路由的统计观察
+- 当前 README 补充：可把热专家放在 CUDA/Vulkan GPU、温专家放在 RAM、冷专家从 NVMe 流式读取，并直接读取受支持的 GGUF。
 
 ## 怎么利用
 可推导用法：准备项目支持的量化 MoE 模型和高速 SSD，编译 colibri 后输入 prompt；引擎只加载每层选中的专家并输出生成文本与性能统计。
@@ -40,6 +50,7 @@ trending_count: 7
 | 2026-09-17 | 3 | 2026 | 未保存 | 仓库已存快照 |
 | 2026-09-18 | 15 | 872 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
 | 2026-11-03 | 10 | 675 | 46518 | GitHub Today live snapshot |
+| 2026-11-04 | 4 | 802 | 47237 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Local-LLM|Local-LLM]]
@@ -52,6 +63,7 @@ trending_count: 7
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
 - [[Daily/2026/11/2026-11-03|2026-11-03]]
+- [[Daily/2026/11/2026-11-04|2026-11-04]]
 
 ## GitHub 原始链接
 https://github.com/JustVugg/colibri
@@ -100,3 +112,8 @@ https://github.com/JustVugg/colibri
 ## 官方资料复核（2026-11-03）
 - README：https://github.com/JustVugg/colibri/blob/HEAD/README.md
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
+
+## 官方资料复核（2026-11-04）
+- README：https://github.com/JustVugg/colibri/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
+

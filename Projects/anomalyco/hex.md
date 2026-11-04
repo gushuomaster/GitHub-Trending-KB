@@ -3,16 +3,16 @@ type: "github-project"
 repo: "anomalyco/hex"
 url: "https://github.com/anomalyco/hex"
 first_seen: "2026-11-02"
-last_seen: "2026-11-02"
-trending_count: 1
-github_rank: 12
-stars_today: 1179
-total_stars: 3239
-forks: 189
+last_seen: "2026-11-04"
+trending_count: 2
+github_rank: 10
+stars_today: 410
+total_stars: 4566
+forks: 256
 language: "Rust"
-fetched_at: "2026-11-02T08:06:33+08:00"
-documentation_checked_at: "2026-11-02"
-stats_as_of: "2026-11-02"
+fetched_at: "2026-11-04T08:08:38+08:00"
+documentation_checked_at: "2026-11-04"
+stats_as_of: "2026-11-04"
 snapshot_status: "live"
 category: ["Speech-to-Text","Desktop App"]
 topics: ["Offline AI","Voice","Productivity"]
@@ -55,6 +55,7 @@ brew install --cask anomalyco/tap/hex
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-02 | 12 | 1179 | 3239 | 189 | GitHub Today live snapshot |
+| 2026-11-04 | 10 | 410 | 4566 | 256 | GitHub Today live snapshot |
 
 ## 最近变化
 - 2026-11-02：首次建立项目卡并按官方 README 核对主要能力、用法与限制。
@@ -64,6 +65,7 @@ brew install --cask anomalyco/tap/hex
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-02|2026-11-02]]
+- [[Daily/2026/11/2026-11-04|2026-11-04]]
 
 ## GitHub 原始链接
 https://github.com/anomalyco/hex
@@ -72,4 +74,8 @@ https://github.com/anomalyco/hex
 - README：https://github.com/anomalyco/hex/blob/dev/README.md
 - README blob SHA：`cf2d10ea58e3f4e2dd3b1bc9f49d20377d6e9576`
 - 榜单数据来自同一次 GitHub Trending Any / Any / Today 页面采集；主要语言未展示时明确记为“未声明”。
+
+## 官方资料复核（2026-11-04）
+- README：https://github.com/anomalyco/hex/blob/HEAD/README.md
+- 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 
