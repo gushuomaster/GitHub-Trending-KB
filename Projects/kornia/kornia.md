@@ -55,10 +55,10 @@ pip install kornia
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-02 | 9 | 101 | 11775 | 1465 | GitHub Today live snapshot |
+| 2026-11-03 | 9 | 412 | 12125 | 1487 | GitHub Today live snapshot |
 
 ## 最近变化
 - 2026-11-02：首次建立项目卡并按官方 README 核对主要能力、用法与限制。
-| 2026-11-03 | 9 | 412 | 12125 | GitHub Today live snapshot |
 
 ## 相关主题
 "[[Topics/Spatial-AI|Spatial AI]]" · "[[Topics/Differentiable-Programming|Differentiable Programming]]" · "[[Topics/Geometry|Geometry]]"

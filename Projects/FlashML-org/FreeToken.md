@@ -55,10 +55,10 @@ uv pip install "freetoken[accel]"
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-02 | 16 | 242 | 15384 | 1549 | GitHub Today live snapshot |
+| 2026-11-03 | 6 | 653 | 16043 | 1582 | GitHub Today live snapshot |
 
 ## 最近变化
 - 2026-11-02：首次建立项目卡并按官方 README 核对主要能力、用法与限制。
-| 2026-11-03 | 6 | 653 | 16043 | GitHub Today live snapshot |
 
 ## 相关主题
 "[[Topics/MoE|MoE]]" · "[[Topics/Inference|Inference]]" · "[[Topics/Local-AI|Local AI]]" · "[[Topics/GPU|GPU]]"

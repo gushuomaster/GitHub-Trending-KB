@@ -67,5 +67,6 @@ https://github.com/p-e-w/heretic
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/p-e-w/heretic/blob/HEAD/README.md
+- README blob SHA：`cf7209e1cc55171521712a1d0da2009b6deffb64`
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 

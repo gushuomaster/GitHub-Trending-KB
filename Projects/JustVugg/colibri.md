@@ -115,5 +115,6 @@ https://github.com/JustVugg/colibri
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/JustVugg/colibri/blob/HEAD/README.md
+- README blob SHA：`5d64389b7cd299fd8d38e5cf10db96a5c2ea202c`
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 

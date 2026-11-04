@@ -77,5 +77,7 @@ https://github.com/anomalyco/hex
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/anomalyco/hex/blob/HEAD/README.md
+- README blob SHA：`b5a85f670d4494d1c00045da77083e2dc209b4fb`
+- 当日下午的 README 变化随代理检测和模型下载修复更新；公开安装方式及本地听写能力边界未改变。
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 

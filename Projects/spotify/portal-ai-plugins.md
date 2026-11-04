@@ -65,5 +65,6 @@ https://github.com/spotify/portal-ai-plugins
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/spotify/portal-ai-plugins/blob/HEAD/README.md
+- README blob SHA：`7738a6591fb86aed30c700497637839faa92b71b`
 - 榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 

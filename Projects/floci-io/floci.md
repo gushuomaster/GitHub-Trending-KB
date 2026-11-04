@@ -67,5 +67,6 @@ https://github.com/floci-io/floci
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/floci-io/floci/blob/HEAD/README.md
+- README blob SHA：`637c2ba2ef52c286d873b70de6ef68b917ed1f91`
 - 榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 

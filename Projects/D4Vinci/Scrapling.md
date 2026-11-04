@@ -68,5 +68,6 @@ https://github.com/D4Vinci/Scrapling
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/D4Vinci/Scrapling/blob/HEAD/README.md
+- README blob SHA：`26cc7aa2c13dfb31b77a1a650c7dc565bbcc4d21`
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 

@@ -50,10 +50,10 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-02 | 17 | 38 | 39358 | 2129 | GitHub Today live snapshot |
+| 2026-11-03 | 4 | 509 | 39914 | 2154 | GitHub Today live snapshot |
 
 ## 最近变化
 - 2026-11-02：首次建立项目卡并按官方 README 核对主要能力、用法与限制。
-| 2026-11-03 | 4 | 509 | 39914 | GitHub Today live snapshot |
 
 ## 相关主题
 "[[Topics/Wayland|Wayland]]" · "[[Topics/Tiling|Tiling]]" · "[[Topics/IPC|IPC]]" · "[[Topics/Plugins|Plugins]]"

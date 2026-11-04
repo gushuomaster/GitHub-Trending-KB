@@ -26,6 +26,7 @@ snapshot_status: "live"
 - 以带快照标识的 ref 执行点击、输入、选择、滚动、拖拽和键盘操作，并返回结构化 JSON。
 - 管理应用、窗口、通知、剪贴板、等待、会话与 trace；也提供 C FFI 供进程内调用。
 - 为 Coding Agent 输出与二进制版本匹配的内置 skills 文档。
+- 通过 `agent-desktop mcp` 把各命令作为 stdio MCP 工具暴露给支持 MCP 的 Agent 宿主。
 
 ## 怎么利用
 先安装 CLI，对目标应用取得交互元素快照；从返回的 ref 中选择目标并执行动作，随后重新快照验证结果。输入是应用/窗口和动作参数，处理过程走系统无障碍接口，输出是统一 JSON envelope 与更新后的 UI 状态。
@@ -43,7 +44,7 @@ agent-desktop click @s8f3k2p9:e8
 需要让本地 AI Agent 操作桌面应用、又希望保留可审计结构化动作结果的 Agent 工程师和自动化测试人员。
 
 ## 局限 / 注意点
-ref 只属于生成它的快照，界面变化后可能返回 `STALE_REF`；多窗口需显式指定 window id。Linux 依赖 AT-SPI，鼠标能力还受 X11/Wayland 与桌面环境限制；Windows、macOS 和 Linux 的支持项并不完全相同。
+项目本身没有内置模型，观察—动作—验证循环由上层 Agent 实现。ref 只属于生成它的快照，界面变化后可能返回 `STALE_REF`；多窗口需显式指定 window id。Linux 依赖 AT-SPI，鼠标能力还受 X11/Wayland 与桌面环境限制；Windows、macOS 和 Linux 的支持项并不完全相同。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
@@ -68,5 +69,7 @@ https://github.com/vercel-labs/agent-desktop
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/vercel-labs/agent-desktop/blob/HEAD/README.md
+- README blob SHA：`42ac024da8f804375e3dd0dbea488bd0fe1c2978`
+- 本次复核确认官方 README 新增 `agent-desktop mcp`：它以 stdio 暴露命令，工具名与命令对应；同时明确项目本身不含模型。
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 

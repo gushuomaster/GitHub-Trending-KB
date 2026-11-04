@@ -93,5 +93,6 @@ https://github.com/Donchitos/Claude-Code-Game-Studios
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/Donchitos/Claude-Code-Game-Studios/blob/HEAD/README.md
+- README blob SHA：`d73112eae0042d010d867ea850142e66ffc37f71`
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 

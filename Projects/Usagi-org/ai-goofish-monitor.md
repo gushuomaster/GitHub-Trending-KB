@@ -67,5 +67,6 @@ https://github.com/Usagi-org/ai-goofish-monitor
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/Usagi-org/ai-goofish-monitor/blob/HEAD/README.md
+- README blob SHA：`af6de028699cfc73afdc66a342a54353d8280eec`
 - 榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 

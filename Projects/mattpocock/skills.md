@@ -101,5 +101,6 @@ https://github.com/mattpocock/skills
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/mattpocock/skills/blob/HEAD/README.md
+- README blob SHA：`f7038f139299985eea6c3e18398dbafb379a0010`
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 

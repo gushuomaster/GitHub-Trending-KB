@@ -75,5 +75,6 @@ https://github.com/max-sixty/worktrunk
 
 ## 官方资料复核（2026-11-04）
 - README：https://github.com/max-sixty/worktrunk/blob/HEAD/README.md
+- README blob SHA：`7dc9e151754e4d5acf1add7d5aa99e69e481b56b`
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
 
