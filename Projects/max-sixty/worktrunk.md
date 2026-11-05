@@ -3,18 +3,18 @@ type: github-project
 repo: "max-sixty/worktrunk"
 url: "https://github.com/max-sixty/worktrunk"
 first_seen: 2026-09-13
-last_seen: "2026-11-04"
-trending_count: 3
+last_seen: "2026-11-05"
+trending_count: 4
 category: ["Git","Developer Tools","AI Agent"]
 topics: ["Git","Developer Tools","AI Agent"]
 language: "Rust"
-total_stars: 10468
-forks: 375
-stars_today: 438
-github_rank: 3
-fetched_at: "2026-11-04T08:08:38+08:00"
-documentation_checked_at: "2026-11-04"
-stats_as_of: "2026-11-04"
+total_stars: 11169
+forks: 418
+stars_today: 531
+github_rank: 2
+fetched_at: "2026-11-05T14:04:38+08:00"
+documentation_checked_at: "2026-11-05"
+stats_as_of: "2026-11-05"
 snapshot_status: "live"
 ---
 # max-sixty/worktrunk
@@ -52,6 +52,7 @@ wt list --full
 | 2026-09-13 | 15 | 137 | 未保存 | 日期匹配来源 |
 | 2026-11-03 | 12 | 77 | 10024 | GitHub Today live snapshot |
 | 2026-11-04 | 3 | 438 | 10468 | GitHub Today live snapshot |
+| 2026-11-05 | 2 | 531 | 11169 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Git|Git]] · [[Topics/Developer Tools|Developer Tools]] · [[Topics/AI Agent|AI Agent]]
@@ -60,6 +61,7 @@ wt list --full
 - [[Daily/2026/09/2026-09-13|2026-09-13]]
 - [[Daily/2026/11/2026-11-03|2026-11-03]]
 - [[Daily/2026/11/2026-11-04|2026-11-04]]
+- [[Daily/2026/11/2026-11-05|2026-11-05]]
 
 ## GitHub 原始链接
 https://github.com/max-sixty/worktrunk
@@ -77,4 +79,9 @@ https://github.com/max-sixty/worktrunk
 - README：https://github.com/max-sixty/worktrunk/blob/HEAD/README.md
 - README blob SHA：`7dc9e151754e4d5acf1add7d5aa99e69e481b56b`
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
+
+## 官方资料复核（2026-11-05）
+- README：https://github.com/max-sixty/worktrunk/blob/HEAD/README.md
+- README blob SHA：`7dc9e151754e4d5acf1add7d5aa99e69e481b56b`
+- 本次仅合并当天榜单事实与复核记录，既有具体能力、示例、局限和历史均保留。
 

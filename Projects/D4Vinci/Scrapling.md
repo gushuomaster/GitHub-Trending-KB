@@ -2,17 +2,17 @@
 type: "github-project"
 repo: "D4Vinci/Scrapling"
 first_seen: "2026-11-03"
-last_seen: "2026-11-04"
+last_seen: "2026-11-05"
 language: "Python"
-total_stars: 94787
-forks: 9940
-stars_today: 1658
-github_rank: 11
-trending_count: 2
-fetched_at: "2026-11-04T08:08:38+08:00"
+total_stars: 96907
+forks: 10158
+stars_today: 2005
+github_rank: 14
+trending_count: 3
+fetched_at: "2026-11-05T14:04:38+08:00"
 url: "https://github.com/D4Vinci/Scrapling"
-documentation_checked_at: "2026-11-04"
-stats_as_of: "2026-11-04"
+documentation_checked_at: "2026-11-05"
+stats_as_of: "2026-11-05"
 snapshot_status: "live"
 ---
 
@@ -50,6 +50,7 @@ Python 需 3.10+；基础 `pip install scrapling` 只含解析器，Fetcher/Spid
 |---|---:|---:|---:|---|
 | 2026-11-03 | 3 | 706 | 92816 | GitHub Today live snapshot |
 | 2026-11-04 | 11 | 1658 | 94787 | GitHub Today live snapshot |
+| 2026-11-05 | 14 | 2005 | 96907 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/Web-Scraping]]
@@ -58,6 +59,7 @@ Python 需 3.10+；基础 `pip install scrapling` 只含解析器，Fetcher/Spid
 ## 相关日报
 - [[Daily/2026/11/2026-11-03|2026-11-03]]
 - [[Daily/2026/11/2026-11-04|2026-11-04]]
+- [[Daily/2026/11/2026-11-05|2026-11-05]]
 
 ## GitHub 原始链接
 https://github.com/D4Vinci/Scrapling
@@ -70,4 +72,9 @@ https://github.com/D4Vinci/Scrapling
 - README：https://github.com/D4Vinci/Scrapling/blob/HEAD/README.md
 - README blob SHA：`26cc7aa2c13dfb31b77a1a650c7dc565bbcc4d21`
 - 本次按当前官方 README 复核；仅合并当天榜单事实、必要能力补充与复核记录，原有说明、案例、分类、标签、风险与历史均保留。
+
+## 官方资料复核（2026-11-05）
+- README：https://github.com/D4Vinci/Scrapling/blob/HEAD/README.md
+- README blob SHA：`bf5a1eff0137552b0696859e17973e4bbf319406`
+- 本次复核当前 README；既有抓取、解析、Spider、MCP 能力与具体示例仍有效，仅合并当天事实和复核版本。
 

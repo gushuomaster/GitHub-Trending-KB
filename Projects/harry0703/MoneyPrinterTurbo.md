@@ -2,14 +2,17 @@
 repo: "harry0703/MoneyPrinterTurbo"
 url: "https://github.com/harry0703/MoneyPrinterTurbo"
 first_seen: 2026-10-01
-last_seen: 2026-10-01
-trending_count: 1
-github_rank: 6
-stars_today: 431
-total_stars: 127543
-forks: 19953
+last_seen: "2026-11-05"
+trending_count: 2
+github_rank: 9
+stars_today: 617
+total_stars: 139230
+forks: 22214
 language: Python
-fetched_at: "2026-10-01T07:59:50+08:00"
+fetched_at: "2026-11-05T14:04:38+08:00"
+documentation_checked_at: "2026-11-05"
+stats_as_of: "2026-11-05"
+snapshot_status: "live"
 category: ["AI", "Video", "Automation"]
 tags: ["short-video", "tts", "subtitles", "ffmpeg", "workflow"]
 topics: ["AI", "Video-AI"]
@@ -45,12 +48,19 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars |
 |---|---:|---:|---:|
 | 2026-10-01 | 6 | +431 | 127543 |
+| 2026-11-05 | 9 | 617 | 139230 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Video-AI|Video-AI]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-01|2026-10-01]]
+- [[Daily/2026/11/2026-11-05|2026-11-05]]
 
 ## GitHub 原始链接
 https://github.com/harry0703/MoneyPrinterTurbo
+
+## 官方资料复核（2026-11-05）
+- README：https://github.com/harry0703/MoneyPrinterTurbo/blob/HEAD/README.md
+- README blob SHA：`bd36fa40ea714426acfdef9aa01750c05b1aaa94`
+- 复核了多入口、模型/TTS/素材接入、视频合成和部署说明；原有具体案例与风险说明保留。

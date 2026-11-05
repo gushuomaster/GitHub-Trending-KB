@@ -1,6 +1,6 @@
 # GitHub Trending 缺档与质量记录
 
-截至 2026-11-04，2026-09-09 至 2026-11-04 的 Daily 日期路径连续，没有文件缺失。清单来自本次对 GitHub `main`、日期匹配语言不限归档、日报正文、项目卡历史、JSONL、Dashboard 和 Library 实际目录的重新审核。
+截至 2026-11-05，2026-09-09 至 2026-11-05 的 Daily 日期路径连续，没有文件缺失。清单来自本次对 GitHub `main`、日期匹配语言不限归档、日报正文、项目卡历史、JSONL、Dashboard 和 Library 实际目录的重新审核。
 
 ## 本次已修复
 
@@ -55,6 +55,7 @@
 - 2026-11-02：17 项 08:06:33 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 8 张项目卡、更新 9 张，并修正 `pingdotgg/t3code` 当天历史行位置。本次重新读取全部 17 个项目的当前官方 README，为 17 张卡补入可复核 blob SHA；按官方变化更新 `pingdotgg/t3code` 的 fx Provider、`togg53192-cmd/jailbreaks` 的 32 份提示/26+ 目标、`CopilotKit/OpenBot` 的按使用者隔离边界，并记录 Lightpanda 平台要求与 Claude Mem 版本变化，不改动 08:06:33 榜单、排名或统计。全量复查 55 份日报、742 条唯一 JSONL 记录和 272 张有效日报引用的项目卡。
 - 2026-11-03：15 项 08:10:36 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 4 张项目卡、更新 11 张。榜单严格保留同次 Any / Any / Today 页面原始顺序，未用后续页面覆盖当天快照。
 - 2026-11-04：13 项 08:08:38 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 3 张项目卡、更新 10 张。本次重新读取全部 13 个项目的当前官方 README，为 13 张卡补入可复核 blob SHA；按官方下午变化补充 `vercel-labs/agent-desktop` 的 stdio MCP 与“本身不含模型”边界，并记录 Claude Mem 15.9.0、Hex 模型下载修复，不改动早晨快照。移除 JSONL 文件末尾的额外空白记录，并把 8 张项目卡中被空行或其他章节截断的 Trending 历史行恢复到对应表格内；日期、排名和历史统计均未改写。全量复查 57 份日报、770 条唯一 JSONL 记录和 279 张有效日报引用的项目卡。
+- 2026-11-05：16 项 14:04:38 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 7 张项目卡、更新 9 张。榜单严格保留同次 Any / Any / Today 页面原始顺序；逐项目重新读取当前官方 README，记录可复核 blob SHA，并按当前资料补充具体能力、用法、实例和实际局限。全量复查 58 份日报、786 条唯一 JSONL 记录和 286 张有效日报引用的项目卡。
 - 规范文件：`README.md` 与 `Templates/Daily.md` 已补入日报必须记录“局限 / 注意点”的明确要求，避免新日报沿用缺少限制栏位的旧模板。
 
 ## 当前待修复
@@ -62,7 +63,7 @@
 - 当前没有剩余已确认且可修复的 GitHub 内容质量待办。
 - 2026-09-14 的 `tonhowtf/omniget` 官方仓库链接仍返回 404；当日榜单日期、数量与顺序已由日期匹配的语言不限归档核实，正文能力说明以公开镜像/索引交叉核对。该外部仓库可用性无法在本知识库内修复，保留原始链接用于来源追溯，并明确列为阻塞而非宣称链接通过。
 - Library 创建 owner 目录时明确返回 `A folder can contain at most 200 subfolders.`；`Projects` 已达到这一上限，不能再创建第 201 个直属 owner 子目录。
-- ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前有 261 个 owner 目录，因此以下 62 张项目卡暂无法按相同层级创建：`Projects/AgriciDaniel/claude-seo.md`、`Projects/Comfy-Org/ComfyUI.md`、`Projects/CopilotKit/OpenBot.md`、`Projects/D4Vinci/Scrapling.md`、`Projects/Donchitos/Claude-Code-Game-Studios.md`、`Projects/FlashML-org/FreeToken.md`、`Projects/Graphify-Labs/graphify.md`、`Projects/JetBrains/thinkrail.md`、`Projects/Kruk2/jasna.md`、`Projects/MadsLorentzen/ai-job-search.md`、`Projects/Meloong-Git/PCL.md`、`Projects/Nutlope/hallmark.md`、`Projects/Orkas-AI/Orkas.md`、`Projects/Renhuai123/ziwei-doushu.md`、`Projects/Usagi-org/ai-goofish-monitor.md`、`Projects/alchaincyf/huashu-design.md`、`Projects/android/skills.md`、`Projects/anomalyco/hex.md`、`Projects/anomalyco/opencode.md`、`Projects/aws/agent-toolkit-for-aws.md`、`Projects/beenuar/AiSOC.md`、`Projects/bregman-arie/devops-exercises.md`、`Projects/cjpais/Handy.md`、`Projects/coollabsio/coolify.md`、`Projects/elayadesign/ai-design-skills.md`、`Projects/expo/skills.md`、`Projects/fastapi/fastapi.md`、`Projects/floci-io/floci.md`、`Projects/gitroomhq/postiz-app.md`、`Projects/google-gemini/gemini-cli.md`、`Projects/headroomlabs-ai/headroom.md`、`Projects/hmjz100/LinkSwift.md`、`Projects/hyprwm/Hyprland.md`、`Projects/jbiaojerry/ebook-treasure-chest.md`、`Projects/karpathy/nanochat.md`、`Projects/kornia/kornia.md`、`Projects/lightpanda-io/browser.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/luongnv89/claude-howto.md`、`Projects/macro-inc/macro.md`、`Projects/makecindy/cindy.md`、`Projects/milind-soni/OpenMausBot.md`、`Projects/mlabonne/llm-course.md`、`Projects/nightly-labs/openbot.md`、`Projects/nodejs/node.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/p-e-w/heretic.md`、`Projects/patchy631/ai-engineering-hub.md`、`Projects/php/php-src.md`、`Projects/pollen-robotics/microduck.md`、`Projects/public-apis/public-apis.md`、`Projects/rust-lang/rust.md`、`Projects/shiyu-coder/Kronos.md`、`Projects/spotify/portal-ai-plugins.md`、`Projects/stablyai/orca.md`、`Projects/togg53192-cmd/jailbreaks.md`、`Projects/twentyhq/twenty.md`、`Projects/vllm-project/vllm.md`、`Projects/vorssaint/vorssaint-utils.md`、`Projects/withmarbleapp/os-taxonomy.md`、`Projects/xerj-org/xerj.md`、`Projects/xiaolai/the-craft-of-selfteaching.md`。GitHub 内容完整，未采用破坏规范路径的绕行结构。
+- ChatGPT Library 的 `Projects` 目录已有 200 个直属 owner 子目录；GitHub 规范结构当前有 267 个 owner 目录，因此以下 69 张项目卡暂无法按相同层级创建：`Projects/AgriciDaniel/claude-seo.md`、`Projects/Comfy-Org/ComfyUI.md`、`Projects/CopilotKit/OpenBot.md`、`Projects/D4Vinci/Scrapling.md`、`Projects/Donchitos/Claude-Code-Game-Studios.md`、`Projects/FareedKhan-dev/kimi-k3-in-c.md`、`Projects/FlashML-org/FreeToken.md`、`Projects/Graphify-Labs/graphify.md`、`Projects/JetBrains/thinkrail.md`、`Projects/JiaFeiMiao-K-Cat/DiscImageStudio.md`、`Projects/Kruk2/jasna.md`、`Projects/MadsLorentzen/ai-job-search.md`、`Projects/Meloong-Git/PCL.md`、`Projects/MichaelCade/90DaysOfDevOps.md`、`Projects/NVIDIA/auto-ontology.md`、`Projects/Nutlope/hallmark.md`、`Projects/Orkas-AI/Orkas.md`、`Projects/Renhuai123/ziwei-doushu.md`、`Projects/The-PR-Agent/pr-agent.md`、`Projects/Thysrael/Horizon.md`、`Projects/Usagi-org/ai-goofish-monitor.md`、`Projects/alchaincyf/huashu-design.md`、`Projects/android/skills.md`、`Projects/anomalyco/hex.md`、`Projects/anomalyco/opencode.md`、`Projects/aws/agent-toolkit-for-aws.md`、`Projects/beenuar/AiSOC.md`、`Projects/bregman-arie/devops-exercises.md`、`Projects/cjpais/Handy.md`、`Projects/coollabsio/coolify.md`、`Projects/elayadesign/ai-design-skills.md`、`Projects/expo/skills.md`、`Projects/fastapi/fastapi.md`、`Projects/floci-io/floci.md`、`Projects/gitroomhq/postiz-app.md`、`Projects/google-gemini/gemini-cli.md`、`Projects/headroomlabs-ai/headroom.md`、`Projects/hmjz100/LinkSwift.md`、`Projects/hyprwm/Hyprland.md`、`Projects/jbiaojerry/ebook-treasure-chest.md`、`Projects/karpathy/nanochat.md`、`Projects/kornia/kornia.md`、`Projects/lightpanda-io/browser.md`、`Projects/lightseekorg/tokenspeed.md`、`Projects/luongnv89/claude-howto.md`、`Projects/macro-inc/macro.md`、`Projects/makecindy/cindy.md`、`Projects/milind-soni/OpenMausBot.md`、`Projects/mlabonne/llm-course.md`、`Projects/nightly-labs/openbot.md`、`Projects/nodejs/node.md`、`Projects/ntdevlabs/tiny11builder.md`、`Projects/p-e-w/heretic.md`、`Projects/patchy631/ai-engineering-hub.md`、`Projects/php/php-src.md`、`Projects/pollen-robotics/microduck.md`、`Projects/public-apis/public-apis.md`、`Projects/rust-lang/rust.md`、`Projects/scenario-labs/skills.md`、`Projects/shiyu-coder/Kronos.md`、`Projects/spotify/portal-ai-plugins.md`、`Projects/stablyai/orca.md`、`Projects/togg53192-cmd/jailbreaks.md`、`Projects/twentyhq/twenty.md`、`Projects/vllm-project/vllm.md`、`Projects/vorssaint/vorssaint-utils.md`、`Projects/withmarbleapp/os-taxonomy.md`、`Projects/xerj-org/xerj.md`、`Projects/xiaolai/the-craft-of-selfteaching.md`。GitHub 内容完整，未采用破坏规范路径的绕行结构。
 
 ## 下一待修复日期
 
@@ -70,8 +71,8 @@
 
 ## 说明
 
-- 2026-09-09 至 2026-11-04 日报日期路径连续，无文件缺失。
+- 2026-09-09 至 2026-11-05 日报日期路径连续，无文件缺失。
 - 归档提交时间不等于页面抓取时间，不能证明是原计划 08:00 页面。
 - 未保存的历史统计无法凭当前数值恢复，保留“未保存”不作为待修复缺陷。
-- 2026-11-04 当天 13 项实时快照和 Dashboard 保持其 08:08:38 数据；本次未替换当天榜单。
+- 2026-11-05 当天 16 项实时快照和 Dashboard 保持其 14:04:38 数据；本次未用后续页面覆盖。
 
