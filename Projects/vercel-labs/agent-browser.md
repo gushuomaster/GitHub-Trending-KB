@@ -14,8 +14,9 @@ fetched_at: "2026-11-06T08:10:55+08:00"
 documentation_checked_at: "2026-11-06"
 stats_as_of: "2026-11-06"
 snapshot_status: "live"
-category: ["Developer Tools"]
-topics: ["GitHub Trending"]
+category: ["AI", "Browser Automation", "Developer Tools"]
+tags: ["browser-automation", "accessibility-tree", "cdp", "agent"]
+topics: ["Browser-Automation", "AI-Agent", "Testing"]
 ---
 # vercel-labs/agent-browser
 
@@ -52,7 +53,9 @@ agent-browser click @e1
 | 2026-11-06 | 10 | 150 | 45863 | 3147 | GitHub Today live snapshot |
 
 ## 相关主题
-- [[Topics/GitHub-Trending|GitHub Trending]]
+- [[Topics/Browser-Automation|Browser Automation]]
+- [[Topics/AI-Agent|AI Agent]]
+- [[Topics/Testing|Testing]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-06|2026-11-06]]

@@ -14,8 +14,9 @@ fetched_at: "2026-11-06T08:10:55+08:00"
 documentation_checked_at: "2026-11-06"
 stats_as_of: "2026-11-06"
 snapshot_status: "live"
-category: ["Developer Tools"]
-topics: ["GitHub Trending"]
+category: ["AI", "Agent Skills", "Creative Tools"]
+tags: ["agent-skills", "web-design", "image-generation", "knowledge-retrieval"]
+topics: ["Agent-Skills", "Web-Design", "Content-Creation"]
 ---
 # ConardLi/garden-skills
 
@@ -50,7 +51,9 @@ npx skills add ConardLi/garden-skills -s web-design-engineer
 | 2026-11-06 | 12 | 175 | 14114 | 1647 | GitHub Today live snapshot |
 
 ## 相关主题
-- [[Topics/GitHub-Trending|GitHub Trending]]
+- [[Topics/Agent-Skills|Agent Skills]]
+- [[Topics/Web-Design|Web Design]]
+- [[Topics/Content-Creation|Content Creation]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-06|2026-11-06]]

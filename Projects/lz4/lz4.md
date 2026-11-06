@@ -14,8 +14,9 @@ fetched_at: "2026-11-06T08:10:55+08:00"
 documentation_checked_at: "2026-11-06"
 stats_as_of: "2026-11-06"
 snapshot_status: "live"
-category: ["Developer Tools"]
-topics: ["GitHub Trending"]
+category: ["Compression", "Systems"]
+tags: ["lossless-compression", "streaming", "c-library", "cli"]
+topics: ["Compression", "Lossless-Compression", "Systems-Programming"]
 ---
 # lz4/lz4
 
@@ -51,7 +52,9 @@ lz4 -d input.log.lz4 output.log
 | 2026-11-06 | 8 | 23 | 12370 | 1633 | GitHub Today live snapshot |
 
 ## 相关主题
-- [[Topics/GitHub-Trending|GitHub Trending]]
+- [[Topics/Compression|Compression]]
+- [[Topics/Lossless-Compression|Lossless Compression]]
+- [[Topics/Systems-Programming|Systems Programming]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-06|2026-11-06]]
