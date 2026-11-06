@@ -3,16 +3,16 @@ type: github-project
 repo: "JiaFeiMiao-K-Cat/DiscImageStudio"
 url: "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio"
 first_seen: "2026-11-05"
-last_seen: "2026-11-05"
-trending_count: 1
+last_seen: "2026-11-06"
+trending_count: 2
 language: "C#"
-total_stars: 6793
-forks: 242
-stars_today: 1778
-github_rank: 12
-fetched_at: "2026-11-05T14:04:38+08:00"
-documentation_checked_at: "2026-11-05"
-stats_as_of: "2026-11-05"
+total_stars: 7254
+forks: 260
+stars_today: 984
+github_rank: 15
+fetched_at: "2026-11-06T08:10:55+08:00"
+documentation_checked_at: "2026-11-06"
+stats_as_of: "2026-11-06"
 snapshot_status: "live"
 category: ["Media", "Optical Disc"]
 topics: ["CD", "DVD", "Blu-ray"]
@@ -44,12 +44,14 @@ GUI 要求 Windows 10 2004+ 与 .NET 10；直接刻录仍属实验功能。效�
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-05 | 12 | 1778 | 6793 | 242 | GitHub Today live snapshot |
+| 2026-11-06 | 15 | 984 | 7254 | 260 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/CD|CD]] · [[Topics/DVD|DVD]] · [[Topics/Blu-ray|Blu-ray]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-05|2026-11-05]]
+- [[Daily/2026/11/2026-11-06|2026-11-06]]
 
 ## GitHub 原始链接
 https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio
@@ -58,3 +60,8 @@ https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio
 - README：https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/blob/HEAD/README.md
 - README blob SHA：`a1f7ba7de87c40d1bc1c920d401aa46f43c27ead`
 - Trending 页面未显示项目描述；未用当前 README 文案伪造该页面字段。
+
+## 官方资料复核（2026-11-06）
+- README：https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio/blob/HEAD/README.md
+- README blob SHA：`a1f7ba7de87c40d1bc1c920d401aa46f43c27ead`
+- 本次只合并当天榜单事实与资料复核记录，原有详细说明、案例、分类、标签、风险和历史均保留。

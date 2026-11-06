@@ -3,16 +3,16 @@ type: github-project
 repo: "scenario-labs/skills"
 url: "https://github.com/scenario-labs/skills"
 first_seen: "2026-11-05"
-last_seen: "2026-11-05"
-trending_count: 1
+last_seen: "2026-11-06"
+trending_count: 2
 language: "Python"
-total_stars: 2582
-forks: 251
-stars_today: 224
-github_rank: 16
-fetched_at: "2026-11-05T14:04:38+08:00"
-documentation_checked_at: "2026-11-05"
-stats_as_of: "2026-11-05"
+total_stars: 3040
+forks: 267
+stars_today: 667
+github_rank: 11
+fetched_at: "2026-11-06T08:10:55+08:00"
+documentation_checked_at: "2026-11-06"
+stats_as_of: "2026-11-06"
 snapshot_status: "live"
 category: ["AI", "Creative Tools", "Agent Skills"]
 topics: ["Agent Skills", "3D", "Game Development"]
@@ -47,12 +47,14 @@ Scenario 核心技能依赖其 MCP、账号和可能的付费调用；专家技�
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-05 | 16 | 224 | 2582 | 251 | GitHub Today live snapshot |
+| 2026-11-06 | 11 | 667 | 3040 | 267 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent-Skills|Agent Skills]] · [[Topics/3D|3D]] · [[Topics/Game-Development|Game Development]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-05|2026-11-05]]
+- [[Daily/2026/11/2026-11-06|2026-11-06]]
 
 ## GitHub 原始链接
 https://github.com/scenario-labs/skills
@@ -61,3 +63,8 @@ https://github.com/scenario-labs/skills
 - README：https://github.com/scenario-labs/skills/blob/HEAD/README.md
 - README blob SHA：`902a2bddea3ffd714ec43a815062584d5a02d593`
 - 当前资料只代表核对日版本；榜单统计来自同一次 GitHub Trending 页面采集。
+
+## 官方资料复核（2026-11-06）
+- README：https://github.com/scenario-labs/skills/blob/HEAD/README.md
+- README blob SHA：`902a2bddea3ffd714ec43a815062584d5a02d593`
+- 本次只合并当天榜单事实与资料复核记录，原有详细说明、案例、分类、标签、风险和历史均保留。

@@ -1,18 +1,18 @@
 ---
-type: "github-project"
+type: github-project
 repo: "Usagi-org/ai-goofish-monitor"
 url: "https://github.com/Usagi-org/ai-goofish-monitor"
 first_seen: "2026-11-04"
-last_seen: "2026-11-04"
-trending_count: 1
-github_rank: 9
-stars_today: 228
-total_stars: 16341
-forks: 2841
+last_seen: "2026-11-06"
+trending_count: 2
+github_rank: 4
+stars_today: 240
+total_stars: 17511
+forks: 2941
 language: "Python"
-fetched_at: "2026-11-04T08:08:38+08:00"
-documentation_checked_at: "2026-11-04"
-stats_as_of: "2026-11-04"
+fetched_at: "2026-11-06T08:10:55+08:00"
+documentation_checked_at: "2026-11-06"
+stats_as_of: "2026-11-06"
 snapshot_status: "live"
 category: ["Monitoring","AI Automation"]
 tags: ["playwright","xianyu","multimodal","notification"]
@@ -53,6 +53,7 @@ docker compose up -d
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-04 | 9 | 228 | 16341 | 2841 | GitHub Today live snapshot |
+| 2026-11-06 | 4 | 240 | 17511 | 2941 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/Monitoring]]
@@ -61,6 +62,7 @@ docker compose up -d
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-04|2026-11-04]]
+- [[Daily/2026/11/2026-11-06|2026-11-06]]
 
 ## GitHub 原始链接
 https://github.com/Usagi-org/ai-goofish-monitor
@@ -70,3 +72,7 @@ https://github.com/Usagi-org/ai-goofish-monitor
 - README blob SHA：`af6de028699cfc73afdc66a342a54353d8280eec`
 - 榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 
+## 官方资料复核（2026-11-06）
+- README：https://github.com/Usagi-org/ai-goofish-monitor/blob/HEAD/README.md
+- README blob SHA：`af6de028699cfc73afdc66a342a54353d8280eec`
+- 本次只合并当天榜单事实与资料复核记录，原有详细说明、案例、分类、标签、风险和历史均保留。

@@ -1,19 +1,19 @@
 ---
 type: github-project
-repo: garrytan/gstack
-first_seen: '2026-10-05'
-last_seen: '2026-11-05'
-url: https://github.com/garrytan/gstack
-trending_count: 2
-github_rank: 10
-documentation_checked_at: '2026-11-05'
-stats_as_of: '2026-11-05'
-stars_today: 290
-total_stars: 139475
-forks: 20647
-language: 'TypeScript'
-fetched_at: '2026-11-05T14:04:38+08:00'
-snapshot_status: 'live'
+repo: "garrytan/gstack"
+first_seen: "2026-10-05"
+last_seen: "2026-11-06"
+url: "https://github.com/garrytan/gstack"
+trending_count: 3
+github_rank: 3
+documentation_checked_at: "2026-11-06"
+stats_as_of: "2026-11-06"
+stars_today: 612
+total_stars: 139928
+forks: 20693
+language: "TypeScript"
+fetched_at: "2026-11-06T08:10:55+08:00"
+snapshot_status: "live"
 ---
 
 # garrytan/gstack
@@ -46,10 +46,12 @@ macOS 和 Linux 为完整支持，Windows 与部分宿主只保证较低支持�
 |---|---:|---:|---:|---|
 | 2026-10-05 | 14 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 | 2026-11-05 | 10 | 290 | 139475 | GitHub Today live snapshot |
+| 2026-11-06 | 3 | 612 | 139928 | 20693 | GitHub Today live snapshot |
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-05|2026-10-05]]
 - [[Daily/2026/11/2026-11-05|2026-11-05]]
+- [[Daily/2026/11/2026-11-06|2026-11-06]]
 
 ## GitHub 原始链接
 https://github.com/garrytan/gstack
@@ -66,3 +68,8 @@ https://github.com/garrytan/gstack
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]]
+
+## 官方资料复核（2026-11-06）
+- README：https://github.com/garrytan/gstack/blob/HEAD/README.md
+- README blob SHA：`47e3e4ee9d0dc04ceb4cddf57d92da07dd719004`
+- 本次只合并当天榜单事实与资料复核记录，原有详细说明、案例、分类、标签、风险和历史均保留。

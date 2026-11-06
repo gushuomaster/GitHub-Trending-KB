@@ -1,18 +1,18 @@
 ---
-type: "github-project"
+type: github-project
 repo: "vercel-labs/agent-desktop"
 first_seen: "2026-11-03"
-last_seen: "2026-11-05"
+last_seen: "2026-11-06"
 language: "Rust"
-total_stars: 15624
-forks: 1087
-stars_today: 2470
+total_stars: 16808
+forks: 1186
+stars_today: 2173
 github_rank: 6
-trending_count: 3
-fetched_at: "2026-11-05T14:04:38+08:00"
+trending_count: 4
+fetched_at: "2026-11-06T08:10:55+08:00"
 url: "https://github.com/vercel-labs/agent-desktop"
-documentation_checked_at: "2026-11-05"
-stats_as_of: "2026-11-05"
+documentation_checked_at: "2026-11-06"
+stats_as_of: "2026-11-06"
 snapshot_status: "live"
 ---
 
@@ -53,6 +53,7 @@ ref 绑定具体快照，UI 变化后可能返回 `STALE_REF` 或目标歧义，
 | 2026-11-03 | 1 | 2275 | 9585 | GitHub Today live snapshot |
 | 2026-11-04 | 2 | 3791 | 12676 | GitHub Today live snapshot |
 | 2026-11-05 | 6 | 2470 | 15624 | GitHub Today live snapshot |
+| 2026-11-06 | 6 | 2173 | 16808 | 1186 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]
@@ -62,6 +63,7 @@ ref 绑定具体快照，UI 变化后可能返回 `STALE_REF` 或目标歧义，
 - [[Daily/2026/11/2026-11-03|2026-11-03]]
 - [[Daily/2026/11/2026-11-04|2026-11-04]]
 - [[Daily/2026/11/2026-11-05|2026-11-05]]
+- [[Daily/2026/11/2026-11-06|2026-11-06]]
 
 ## GitHub 原始链接
 https://github.com/vercel-labs/agent-desktop
@@ -81,3 +83,7 @@ https://github.com/vercel-labs/agent-desktop
 - README blob SHA：`32dee9630df91348cb7202f5e4329b30b5237e3c`
 - 当前 README 明确 refs 的快照作用域、平台最低版本及隐私边界；相应局限已补入正文，原有能力和历史保留。
 
+## 官方资料复核（2026-11-06）
+- README：https://github.com/vercel-labs/agent-desktop/blob/HEAD/README.md
+- README blob SHA：`32dee9630df91348cb7202f5e4329b30b5237e3c`
+- 本次只合并当天榜单事实与资料复核记录，原有详细说明、案例、分类、标签、风险和历史均保留。

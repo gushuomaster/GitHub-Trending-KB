@@ -3,16 +3,16 @@ type: github-project
 repo: "NVIDIA/auto-ontology"
 url: "https://github.com/NVIDIA/auto-ontology"
 first_seen: "2026-11-05"
-last_seen: "2026-11-05"
-trending_count: 1
+last_seen: "2026-11-06"
+trending_count: 2
 language: "Python"
-total_stars: 5626
-forks: 445
-stars_today: 2050
+total_stars: 7274
+forks: 576
+stars_today: 2679
 github_rank: 1
-fetched_at: "2026-11-05T14:04:38+08:00"
-documentation_checked_at: "2026-11-05"
-stats_as_of: "2026-11-05"
+fetched_at: "2026-11-06T08:10:55+08:00"
+documentation_checked_at: "2026-11-06"
+stats_as_of: "2026-11-06"
 snapshot_status: "live"
 category: ["AI", "Data", "Knowledge Graph"]
 topics: ["Ontology", "Text-to-SQL", "MCP"]
@@ -44,12 +44,14 @@ topics: ["Ontology", "Text-to-SQL", "MCP"]
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-05 | 1 | 2050 | 5626 | 445 | GitHub Today live snapshot |
+| 2026-11-06 | 1 | 2679 | 7274 | 576 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Ontology|Ontology]] · [[Topics/Text-to-SQL|Text-to-SQL]] · [[Topics/MCP|MCP]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-05|2026-11-05]]
+- [[Daily/2026/11/2026-11-06|2026-11-06]]
 
 ## GitHub 原始链接
 https://github.com/NVIDIA/auto-ontology
@@ -58,3 +60,8 @@ https://github.com/NVIDIA/auto-ontology
 - README：https://github.com/NVIDIA/auto-ontology/blob/HEAD/README.md
 - README blob SHA：`464a6484b4dc36cd2120578bc6b6e7dcfe236b23`
 - 当前资料只代表核对日版本；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-06）
+- README：https://github.com/NVIDIA/auto-ontology/blob/HEAD/README.md
+- README blob SHA：`464a6484b4dc36cd2120578bc6b6e7dcfe236b23`
+- 本次只合并当天榜单事实与资料复核记录，原有详细说明、案例、分类、标签、风险和历史均保留。

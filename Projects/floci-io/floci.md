@@ -1,18 +1,18 @@
 ---
-type: "github-project"
+type: github-project
 repo: "floci-io/floci"
 url: "https://github.com/floci-io/floci"
 first_seen: "2026-11-04"
-last_seen: "2026-11-05"
-trending_count: 2
-github_rank: 4
-stars_today: 1090
-total_stars: 29788
-forks: 3290
+last_seen: "2026-11-06"
+trending_count: 3
+github_rank: 14
+stars_today: 779
+total_stars: 30386
+forks: 3330
 language: "Java"
-fetched_at: "2026-11-05T14:04:38+08:00"
-documentation_checked_at: "2026-11-05"
-stats_as_of: "2026-11-05"
+fetched_at: "2026-11-06T08:10:55+08:00"
+documentation_checked_at: "2026-11-06"
+stats_as_of: "2026-11-06"
 snapshot_status: "live"
 category: ["Cloud Emulator","Testing"]
 tags: ["aws","local-development","ci","emulator"]
@@ -54,6 +54,7 @@ aws dynamodb list-tables
 |---|---:|---:|---:|---:|---|
 | 2026-11-04 | 8 | 482 | 28746 | 3202 | GitHub Today live snapshot |
 | 2026-11-05 | 4 | 1090 | 29788 | 3290 | GitHub Today live snapshot |
+| 2026-11-06 | 14 | 779 | 30386 | 3330 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/Cloud-Emulation]]
@@ -63,6 +64,7 @@ aws dynamodb list-tables
 ## 相关日报
 - [[Daily/2026/11/2026-11-04|2026-11-04]]
 - [[Daily/2026/11/2026-11-05|2026-11-05]]
+- [[Daily/2026/11/2026-11-06|2026-11-06]]
 
 ## GitHub 原始链接
 https://github.com/floci-io/floci
@@ -77,3 +79,7 @@ https://github.com/floci-io/floci
 - README blob SHA：`637c2ba2ef52c286d873b70de6ef68b917ed1f91`
 - README 与前一日核对版本一致；本次只追加当天快照事实，未改写合格正文。
 
+## 官方资料复核（2026-11-06）
+- README：https://github.com/floci-io/floci/blob/HEAD/README.md
+- README blob SHA：`637c2ba2ef52c286d873b70de6ef68b917ed1f91`
+- 本次只合并当天榜单事实与资料复核记录，原有详细说明、案例、分类、标签、风险和历史均保留。
