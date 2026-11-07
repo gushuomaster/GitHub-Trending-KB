@@ -2,17 +2,20 @@
 repo: "microsoft/vscode"
 url: "https://github.com/microsoft/vscode"
 first_seen: 2026-09-27
-last_seen: 2026-09-27
-trending_count: 1
-github_rank: 9
-stars_today: null
-total_stars: 193199
-forks: 43749
+last_seen: "2026-11-07"
+trending_count: 2
+github_rank: 11
+stars_today: 301
+total_stars: 195020
+forks: 44424
 language: "TypeScript"
 metadata_checked_at: "2026-09-28T16:09:06+08:00"
-snapshot_status: archived_backfill
+snapshot_status: "live"
 topics: ["Developer-Tools", "Editor"]
 status: active
+fetched_at: "2026-11-07T08:04:42+08:00"
+documentation_checked_at: "2026-11-07"
+stats_as_of: "2026-11-07"
 ---
 # microsoft/vscode
 
@@ -44,12 +47,19 @@ Code‑OSS 不等同于微软分发版 VS Code；大型仓库构建成本高，A
 | 2026-09-27 | 9 | 未保存 | 未保存 | 未保存 | archived_backfill |
 
 > 上表只保留归档可证明的日期与原始顺序；当前 Stars/Forks 仅记录在 frontmatter 的 `metadata_checked_at` 快照，不冒充历史数值。
+| 2026-11-07 | 11 | 301 | 195020 | 44424 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Editor|Editor]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
+- [[Daily/2026/11/2026-11-07|2026-11-07]]
 
 ## GitHub 原始链接
 https://github.com/microsoft/vscode
+
+## 官方资料复核（2026-11-07）
+- README：https://github.com/microsoft/vscode/blob/HEAD/README.md
+- README blob SHA：`b7770cecdd10433d6e7f072a3e2adf2f41bbedc2`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。

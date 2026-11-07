@@ -3,18 +3,19 @@ type: github-project
 repo: rust-lang/rust
 url: https://github.com/rust-lang/rust
 first_seen: '2026-10-15'
-last_seen: '2026-10-15'
-trending_count: 1
-language: Rust
-total_stars: 120011
-forks: 18700
-stars_today: 207
-github_rank: 9
-fetched_at: '2026-10-15T08:02:04+08:00'
+last_seen: "2026-11-07"
+trending_count: 2
+language: "Rust"
+total_stars: 121437
+forks: 17365
+stars_today: 192
+github_rank: 5
+fetched_at: "2026-11-07T08:04:42+08:00"
 category: [Programming-Language, Systems, Developer-Tools]
 topics: [Rust, Systems, Developer-Tools]
-documentation_checked_at: '2026-10-15'
-stats_as_of: '2026-10-15'
+documentation_checked_at: "2026-11-07"
+stats_as_of: "2026-11-07"
+snapshot_status: "live"
 ---
 
 # rust-lang/rust
@@ -49,12 +50,14 @@ cargo run
 
 ## Trending 历史
 - 2026-10-15：#9 · Stars Today：207 · Total Stars：120011 · Forks：18700
+- 2026-11-07：#5 · Stars Today：192 · Total Stars：121437 · Forks：17365
 
 ## 相关主题
 [[Topics/Rust|Rust]] · [[Topics/Systems|Systems]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-15|2026-10-15]]
+- [[Daily/2026/11/2026-11-07|2026-11-07]]
 
 ## GitHub 原始链接
 https://github.com/rust-lang/rust
@@ -63,3 +66,7 @@ https://github.com/rust-lang/rust
 - README：https://github.com/rust-lang/rust/blob/master/README.md
 - 官方入门：https://www.rust-lang.org/learn/get-started
 
+## 官方资料复核（2026-11-07）
+- README：https://github.com/rust-lang/rust/blob/HEAD/README.md
+- README blob SHA：`ed35016eb3a238614741e5922a06b9bf83f9780e`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。

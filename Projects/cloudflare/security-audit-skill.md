@@ -5,17 +5,17 @@ url: "https://github.com/cloudflare/security-audit-skill"
 category: ["Security Audit", "Agent Skill", "AppSec"]
 topics: ["Security Audit", "Agent Skill", "AppSec"]
 first_seen: "2026-09-17"
-last_seen: "2026-10-26"
-trending_count: 12
-github_rank: 10
-stars_today: 2878
-total_stars: 46836
-forks: 2903
+last_seen: "2026-11-07"
+trending_count: 13
+github_rank: 16
+stars_today: 2548
+total_stars: 63941
+forks: 4142
 language: "JavaScript"
-fetched_at: "2026-10-26T08:02:30+08:00"
-documentation_checked_at: "2026-10-26"
-stats_as_of: "2026-10-26"
-snapshot_status: live
+fetched_at: "2026-11-07T08:04:42+08:00"
+documentation_checked_at: "2026-11-07"
+stats_as_of: "2026-11-07"
+snapshot_status: "live"
 ---
 # cloudflare/security-audit-skill
 
@@ -59,7 +59,7 @@ npx skills add https://github.com/cloudflare/security-audit-skill --skill securi
 | 2026-10-24 | 1 | 2716 | 42100 | GitHub Today live snapshot |
 | 2026-10-25 | 1 | 2264 | 44517 | GitHub Today live snapshot |
 | 2026-10-26 | 10 | 2878 | 46836 | GitHub Today live snapshot |
-
+| 2026-11-07 | 16 | 2548 | 63941 | GitHub Today live snapshot（Forks: 4142） |
 
 ## 相关主题
 [[Topics/Security Audit|Security Audit]] · [[Topics/Agent Skill|Agent Skill]] · [[Topics/AppSec|AppSec]]
@@ -77,7 +77,7 @@ npx skills add https://github.com/cloudflare/security-audit-skill --skill securi
 - [[Daily/2026/10/2026-10-24|2026-10-24]]
 - [[Daily/2026/10/2026-10-25|2026-10-25]]
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
-
+- [[Daily/2026/11/2026-11-07|2026-11-07]]
 
 ## GitHub 原始链接
 https://github.com/cloudflare/security-audit-skill
@@ -125,5 +125,7 @@ https://github.com/cloudflare/security-audit-skill
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json)
 - 归档提交时间：2026-09-21T00:01:57Z；该时间不是页面抓取时间。
 
-
-
+## 官方资料复核（2026-11-07）
+- README：https://github.com/cloudflare/security-audit-skill/blob/HEAD/README.md
+- README blob SHA：`c80305c88cd5087db37f76a0d230c1fc092c864c`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
