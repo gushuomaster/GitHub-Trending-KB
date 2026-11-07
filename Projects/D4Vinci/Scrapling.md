@@ -46,11 +46,11 @@ with FetcherSession(impersonate="chrome") as s:
 Python 需 3.10+；基础 `pip install scrapling` 只含解析器，Fetcher/Spider 还要安装 `fetchers` 扩展和浏览器依赖。隐身或挑战处理不保证成功，抓取仍必须遵守网站条款、访问频率、robots 与数据授权要求。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-11-03 | 3 | 706 | 92816 | GitHub Today live snapshot |
-| 2026-11-04 | 11 | 1658 | 94787 | GitHub Today live snapshot |
-| 2026-11-05 | 14 | 2005 | 96907 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-11-03 | 3 | 706 | 92816 | 9777 | GitHub Today live snapshot |
+| 2026-11-04 | 11 | 1658 | 94787 | 9940 | GitHub Today live snapshot |
+| 2026-11-05 | 14 | 2005 | 96907 | 10158 | GitHub Today live snapshot |
 | 2026-11-06 | 5 | 1655 | 97941 | 10255 | GitHub Today live snapshot |
 
 ## 相关主题

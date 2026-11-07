@@ -45,25 +45,25 @@ npx skills@latest add mattpocock/skills
 技能是工作流约束而不是自动正确性保证；同时安装多个分发方式可能造成重复技能。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-26 | 5 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c05e32586dec23f91d75df4f0909a1727cebd8fc/archive/repository/2026/2026-09-26/(null).json) |
-| 2026-10-01 | 9 | 876 | 272981 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-02 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
-| 2026-10-03 | 6 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
-| 2026-10-04 | 12 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
-| 2026-10-07 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
-| 2026-10-08 | 2 | 1403 | 279738 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-09 | 4 | 1774 | 281047 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-10 | 3 | 1687 | 282648 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-11 | 6 | 1736 | 284457 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-31 | 8 | 876 | 307461 | GitHub Today live snapshot |
-| 2026-11-01 | 2 | 883 | 308358 | GitHub Today live snapshot |
-| 2026-11-03 | 11 | 858 | 310210 | GitHub Today live snapshot |
-| 2026-11-04 | 5 | 1164 | 311423 | GitHub Today live snapshot |
-| 2026-11-05 | 3 | 1379 | 313662 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-09-26 | 5 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c05e32586dec23f91d75df4f0909a1727cebd8fc/archive/repository/2026/2026-09-26/(null).json) |
+| 2026-10-01 | 9 | 876 | 272981 | 22960 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-02 | 2 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
+| 2026-10-03 | 6 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
+| 2026-10-04 | 12 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-07 | 2 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-08 | 2 | 1403 | 279738 | 23449 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-09 | 4 | 1774 | 281047 | 23557 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-10 | 3 | 1687 | 282648 | 23679 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-11 | 6 | 1736 | 284457 | 23808 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-31 | 8 | 876 | 307461 | 25879 | GitHub Today live snapshot |
+| 2026-11-01 | 2 | 883 | 308358 | 25944 | GitHub Today live snapshot |
+| 2026-11-03 | 11 | 858 | 310210 | 26094 | GitHub Today live snapshot |
+| 2026-11-04 | 5 | 1164 | 311423 | 26169 | GitHub Today live snapshot |
+| 2026-11-05 | 3 | 1379 | 313662 | 26302 | GitHub Today live snapshot |
 | 2026-11-06 | 2 | 2071 | 315182 | 26393 | GitHub Today live snapshot |
-| 2026-11-07 | 15 | 2070 | 316690 | GitHub Today live snapshot（Forks: 26490） |
+| 2026-11-07 | 15 | 2070 | 316690 | 26490 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]

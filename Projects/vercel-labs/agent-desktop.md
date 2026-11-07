@@ -48,11 +48,11 @@ ref 绑定具体快照，UI 变化后可能返回 `STALE_REF` 或目标歧义，
 项目本身没有内置模型，观察—动作—验证循环由上层 Agent 实现。ref 只属于生成它的快照，界面变化后可能返回 `STALE_REF`；多窗口需显式指定 window id。Linux 依赖 AT-SPI，鼠标能力还受 X11/Wayland 与桌面环境限制；Windows、macOS 和 Linux 的支持项并不完全相同。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-11-03 | 1 | 2275 | 9585 | GitHub Today live snapshot |
-| 2026-11-04 | 2 | 3791 | 12676 | GitHub Today live snapshot |
-| 2026-11-05 | 6 | 2470 | 15624 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-11-03 | 1 | 2275 | 9585 | 649 | GitHub Today live snapshot |
+| 2026-11-04 | 2 | 3791 | 12676 | 872 | GitHub Today live snapshot |
+| 2026-11-05 | 6 | 2470 | 15624 | 1087 | GitHub Today live snapshot |
 | 2026-11-06 | 6 | 2173 | 16808 | 1186 | GitHub Today live snapshot |
 
 ## 相关主题

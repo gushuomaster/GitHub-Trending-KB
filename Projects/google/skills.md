@@ -47,11 +47,11 @@ npx skills add google/skills
 Skills 是指导材料，不会授予真实云端权限，也不替代配额、费用、组织政策与变更审批。仓库目录很大且持续更新，应只安装需要的技能，并在执行基础设施命令前审查版本、项目和 IAM 作用域。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-03 | 11 | 未保存 | 未保存 | 日期匹配语言不限归档 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-10-03 | 11 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档 |
 | 2026-11-06 | 9 | 211 | 22359 | 1891 | GitHub Today live snapshot |
-| 2026-11-07 | 10 | 534 | 22823 | GitHub Today live snapshot（Forks: 1919） |
+| 2026-11-07 | 10 | 534 | 22823 | 1919 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Cloud|Cloud]]

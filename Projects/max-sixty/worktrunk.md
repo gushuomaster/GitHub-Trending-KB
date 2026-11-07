@@ -47,12 +47,12 @@ wt list --full
 - 它简化但不会消除 Git 分支、合并冲突和磁盘占用；删除或 prune 前仍要确认未提交改动，hooks 也会执行本地命令，需先审查配置。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-13 | 15 | 137 | 未保存 | 日期匹配来源 |
-| 2026-11-03 | 12 | 77 | 10024 | GitHub Today live snapshot |
-| 2026-11-04 | 3 | 438 | 10468 | GitHub Today live snapshot |
-| 2026-11-05 | 2 | 531 | 11169 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-09-13 | 15 | 137 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-11-03 | 12 | 77 | 10024 | 360 | GitHub Today live snapshot |
+| 2026-11-04 | 3 | 438 | 10468 | 375 | GitHub Today live snapshot |
+| 2026-11-05 | 2 | 531 | 11169 | 418 | GitHub Today live snapshot |
 | 2026-11-06 | 7 | 546 | 11501 | 437 | GitHub Today live snapshot |
 
 ## 相关主题

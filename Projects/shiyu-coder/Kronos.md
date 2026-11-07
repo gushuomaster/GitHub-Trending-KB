@@ -55,7 +55,7 @@ Kronos-small/base 最大上下文为 512，超长输入会截断；Kronos-large 
 | 2026-10-21 | 12 | 733 | 42343 | 7011 | GitHub Today live snapshot |
 | 2026-10-22 | 9 | 575 | 42815 | 7068 | GitHub Today live snapshot |
 | 2026-11-02 | 3 | 630 | 45357 | 7498 | GitHub Today live snapshot |
-| 2026-11-03 | 8 | 857 | 46007 | GitHub Today live snapshot |
+| 2026-11-03 | 8 | 857 | 46007 | 7585 | GitHub Today live snapshot |
 | 2026-11-04 | 12 | 503 | 46504 | 7661 | GitHub Today live snapshot |
 
 ## 相关主题

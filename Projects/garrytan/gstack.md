@@ -42,10 +42,10 @@ snapshot_status: "live"
 macOS 和 Linux 为完整支持，Windows 与部分宿主只保证较低支持等级；需要 Git、Bun，Windows 还需 Node，安全工具可能要求本机工具链。Windows Smart App Control 会拦截本机构建的未签名二进制。角色流程不能保证结果，浏览器、修复、发布和真实账户操作权限必须限制并人工复核。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-05 | 14 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
-| 2026-11-05 | 10 | 290 | 139475 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-10-05 | 14 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
+| 2026-11-05 | 10 | 290 | 139475 | 20647 | GitHub Today live snapshot |
 | 2026-11-06 | 3 | 612 | 139928 | 20693 | GitHub Today live snapshot |
 
 ## 相关日报
