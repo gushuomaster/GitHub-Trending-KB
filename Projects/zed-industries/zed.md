@@ -3,16 +3,16 @@ type: github-project
 repo: "zed-industries/zed"
 url: "https://github.com/zed-industries/zed"
 first_seen: "2026-11-07"
-last_seen: "2026-11-07"
-trending_count: 1
+last_seen: "2026-11-08"
+trending_count: 2
 language: "Rust"
-total_stars: 93607
-forks: 11499
-stars_today: 306
-github_rank: 1
-fetched_at: "2026-11-07T08:04:42+08:00"
-documentation_checked_at: "2026-11-07"
-stats_as_of: "2026-11-07"
+total_stars: 94262
+forks: 11550
+stars_today: 1114
+github_rank: 13
+fetched_at: "2026-11-08T08:02:37+08:00"
+documentation_checked_at: "2026-11-08"
+stats_as_of: "2026-11-08"
 snapshot_status: "live"
 category: ["Editor", "Collaboration", "Rust"]
 topics: ["Editor", "Collaboration", "Rust"]
@@ -48,12 +48,14 @@ README 明确当前不提供 Web 版本；源码主要采用 GPL-3.0-or-later，
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-07 | 1 | 306 | 93607 | 11499 | GitHub Today live snapshot |
+| 2026-11-08 | 13 | 1114 | 94262 | 11550 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Editor|Editor]] · [[Topics/Collaboration|Collaboration]] · [[Topics/Rust|Rust]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-07|2026-11-07]]
+- [[Daily/2026/11/2026-11-08|2026-11-08]]
 
 ## GitHub 原始链接
 https://github.com/zed-industries/zed
@@ -62,3 +64,9 @@ https://github.com/zed-industries/zed
 - README：https://github.com/zed-industries/zed/blob/HEAD/README.md
 - README blob SHA：`9f641fb3841909e9e1f6dbfb947f953c0a0c5ebf`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-08）
+- README：https://github.com/zed-industries/zed/blob/HEAD/README.md
+- README blob SHA：`9f641fb3841909e9e1f6dbfb947f953c0a0c5ebf`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+

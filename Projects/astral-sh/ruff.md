@@ -3,16 +3,16 @@ type: github-project
 repo: "astral-sh/ruff"
 url: "https://github.com/astral-sh/ruff"
 first_seen: "2026-11-07"
-last_seen: "2026-11-07"
-trending_count: 1
+last_seen: "2026-11-08"
+trending_count: 2
 language: "Rust"
-total_stars: 50685
-forks: 2611
-stars_today: 169
-github_rank: 17
-fetched_at: "2026-11-07T08:04:42+08:00"
-documentation_checked_at: "2026-11-07"
-stats_as_of: "2026-11-07"
+total_stars: 50968
+forks: 2629
+stars_today: 350
+github_rank: 10
+fetched_at: "2026-11-08T08:02:37+08:00"
+documentation_checked_at: "2026-11-08"
+stats_as_of: "2026-11-08"
 snapshot_status: "live"
 category: ["Python", "Linter", "Formatter"]
 topics: ["Python", "Linter", "Formatter"]
@@ -49,12 +49,14 @@ uvx ruff@0.17.4 format
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-07 | 17 | 169 | 50685 | 2611 | GitHub Today live snapshot |
+| 2026-11-08 | 10 | 350 | 50968 | 2629 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Python|Python]] · [[Topics/Linter|Linter]] · [[Topics/Formatter|Formatter]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-07|2026-11-07]]
+- [[Daily/2026/11/2026-11-08|2026-11-08]]
 
 ## GitHub 原始链接
 https://github.com/astral-sh/ruff
@@ -63,3 +65,9 @@ https://github.com/astral-sh/ruff
 - README：https://github.com/astral-sh/ruff/blob/HEAD/README.md
 - README blob SHA：`694b1321ae912e5ec1f9ac42d5f8f7b3197ae6b4`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-08）
+- README：https://github.com/astral-sh/ruff/blob/HEAD/README.md
+- README blob SHA：`694b1321ae912e5ec1f9ac42d5f8f7b3197ae6b4`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+

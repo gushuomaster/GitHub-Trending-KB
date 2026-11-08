@@ -5,16 +5,16 @@ url: "https://github.com/cloudflare/security-audit-skill"
 category: ["Security Audit", "Agent Skill", "AppSec"]
 topics: ["Security Audit", "Agent Skill", "AppSec"]
 first_seen: "2026-09-17"
-last_seen: "2026-11-07"
-trending_count: 13
-github_rank: 16
-stars_today: 2548
-total_stars: 63941
-forks: 4142
+last_seen: "2026-11-08"
+trending_count: 14
+github_rank: 2
+stars_today: 2085
+total_stars: 65684
+forks: 4263
 language: "JavaScript"
-fetched_at: "2026-11-07T08:04:42+08:00"
-documentation_checked_at: "2026-11-07"
-stats_as_of: "2026-11-07"
+fetched_at: "2026-11-08T08:02:37+08:00"
+documentation_checked_at: "2026-11-08"
+stats_as_of: "2026-11-08"
 snapshot_status: "live"
 ---
 # cloudflare/security-audit-skill
@@ -60,6 +60,7 @@ npx skills add https://github.com/cloudflare/security-audit-skill --skill securi
 | 2026-10-25 | 1 | 2264 | 44517 | GitHub Today live snapshot |
 | 2026-10-26 | 10 | 2878 | 46836 | GitHub Today live snapshot |
 | 2026-11-07 | 16 | 2548 | 63941 | GitHub Today live snapshot（Forks: 4142） |
+| 2026-11-08 | 2 | 2085 | 65684 | GitHub Today live snapshot（Forks: 4263） |
 
 ## 相关主题
 [[Topics/Security Audit|Security Audit]] · [[Topics/Agent Skill|Agent Skill]] · [[Topics/AppSec|AppSec]]
@@ -78,6 +79,7 @@ npx skills add https://github.com/cloudflare/security-audit-skill --skill securi
 - [[Daily/2026/10/2026-10-25|2026-10-25]]
 - [[Daily/2026/10/2026-10-26|2026-10-26]]
 - [[Daily/2026/11/2026-11-07|2026-11-07]]
+- [[Daily/2026/11/2026-11-08|2026-11-08]]
 
 ## GitHub 原始链接
 https://github.com/cloudflare/security-audit-skill
@@ -129,3 +131,9 @@ https://github.com/cloudflare/security-audit-skill
 - README：https://github.com/cloudflare/security-audit-skill/blob/HEAD/README.md
 - README blob SHA：`c80305c88cd5087db37f76a0d230c1fc092c864c`
 - 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+
+## 官方资料复核（2026-11-08）
+- README：https://github.com/cloudflare/security-audit-skill/blob/HEAD/README.md
+- README blob SHA：`c80305c88cd5087db37f76a0d230c1fc092c864c`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+

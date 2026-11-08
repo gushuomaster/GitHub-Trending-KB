@@ -3,19 +3,19 @@ type: github-project
 repo: "google/skills"
 url: "https://github.com/google/skills"
 first_seen: "2026-10-03"
-last_seen: "2026-11-07"
-trending_count: 3
-github_rank: 10
+last_seen: "2026-11-08"
+trending_count: 4
+github_rank: 3
 language: "Python"
-total_stars: 22823
-forks: 1919
-stars_today: 534
+total_stars: 23382
+forks: 1953
+stars_today: 443
 category: ["AI", "Skills", "Google-Cloud"]
 tags: ["agent-skills", "google-cloud", "gemini", "gke"]
 topics: ["AI", "Skills", "Cloud"]
-fetched_at: "2026-11-07T08:04:42+08:00"
-documentation_checked_at: "2026-11-07"
-stats_as_of: "2026-11-07"
+fetched_at: "2026-11-08T08:02:37+08:00"
+documentation_checked_at: "2026-11-08"
+stats_as_of: "2026-11-08"
 snapshot_status: "live"
 ---
 # google/skills
@@ -52,6 +52,7 @@ Skills 是指导材料，不会授予真实云端权限，也不替代配额、�
 | 2026-10-03 | 11 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档 |
 | 2026-11-06 | 9 | 211 | 22359 | 1891 | GitHub Today live snapshot |
 | 2026-11-07 | 10 | 534 | 22823 | 1919 | GitHub Today live snapshot |
+| 2026-11-08 | 3 | 443 | 23382 | 1953 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Cloud|Cloud]]
@@ -60,6 +61,7 @@ Skills 是指导材料，不会授予真实云端权限，也不替代配额、�
 - [[Daily/2026/10/2026-10-03|2026-10-03]]
 - [[Daily/2026/11/2026-11-06|2026-11-06]]
 - [[Daily/2026/11/2026-11-07|2026-11-07]]
+- [[Daily/2026/11/2026-11-08|2026-11-08]]
 
 ## GitHub 原始链接
 https://github.com/google/skills
@@ -79,3 +81,9 @@ https://github.com/google/skills
 - README：https://github.com/google/skills/blob/HEAD/README.md
 - README blob SHA：`ddd29c3a8732ef8f2debb3e381173f0cce80451c`
 - 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+
+## 官方资料复核（2026-11-08）
+- README：https://github.com/google/skills/blob/HEAD/README.md
+- README blob SHA：`ddd29c3a8732ef8f2debb3e381173f0cce80451c`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+

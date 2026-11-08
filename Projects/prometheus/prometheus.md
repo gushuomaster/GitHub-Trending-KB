@@ -3,16 +3,16 @@ type: github-project
 repo: "prometheus/prometheus"
 url: "https://github.com/prometheus/prometheus"
 first_seen: "2026-11-07"
-last_seen: "2026-11-07"
-trending_count: 1
+last_seen: "2026-11-08"
+trending_count: 2
 language: "Go"
-total_stars: 67177
-forks: 10988
-stars_today: 148
-github_rank: 9
-fetched_at: "2026-11-07T08:04:42+08:00"
-documentation_checked_at: "2026-11-07"
-stats_as_of: "2026-11-07"
+total_stars: 67442
+forks: 11002
+stars_today: 322
+github_rank: 7
+fetched_at: "2026-11-08T08:02:37+08:00"
+documentation_checked_at: "2026-11-08"
+stats_as_of: "2026-11-08"
 snapshot_status: "live"
 category: ["Monitoring", "Time Series", "PromQL"]
 topics: ["Monitoring", "Time Series", "PromQL"]
@@ -48,12 +48,14 @@ docker run -p 9090:9090 prom/prometheus
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-07 | 9 | 148 | 67177 | 10988 | GitHub Today live snapshot |
+| 2026-11-08 | 7 | 322 | 67442 | 11002 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Monitoring|Monitoring]] · [[Topics/Time Series|Time Series]] · [[Topics/PromQL|PromQL]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-07|2026-11-07]]
+- [[Daily/2026/11/2026-11-08|2026-11-08]]
 
 ## GitHub 原始链接
 https://github.com/prometheus/prometheus
@@ -62,3 +64,9 @@ https://github.com/prometheus/prometheus
 - README：https://github.com/prometheus/prometheus/blob/HEAD/README.md
 - README blob SHA：`a3aca0783c2aa0ee679234c86e74fc934da08f9d`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-08）
+- README：https://github.com/prometheus/prometheus/blob/HEAD/README.md
+- README blob SHA：`a3aca0783c2aa0ee679234c86e74fc934da08f9d`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+

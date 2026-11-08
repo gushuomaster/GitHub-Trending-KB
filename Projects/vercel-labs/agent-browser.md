@@ -3,16 +3,16 @@ type: github-project
 repo: "vercel-labs/agent-browser"
 url: "https://github.com/vercel-labs/agent-browser"
 first_seen: "2026-11-06"
-last_seen: "2026-11-06"
-trending_count: 1
+last_seen: "2026-11-08"
+trending_count: 2
 language: "Rust"
-total_stars: 45863
-forks: 3147
-stars_today: 150
-github_rank: 10
-fetched_at: "2026-11-06T08:10:55+08:00"
-documentation_checked_at: "2026-11-06"
-stats_as_of: "2026-11-06"
+total_stars: 46808
+forks: 3208
+stars_today: 190
+github_rank: 1
+fetched_at: "2026-11-08T08:02:37+08:00"
+documentation_checked_at: "2026-11-08"
+stats_as_of: "2026-11-08"
 snapshot_status: "live"
 category: ["AI", "Browser Automation", "Developer Tools"]
 tags: ["browser-automation", "accessibility-tree", "cdp", "agent"]
@@ -51,6 +51,7 @@ agent-browser click @e1
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-06 | 10 | 150 | 45863 | 3147 | GitHub Today live snapshot |
+| 2026-11-08 | 1 | 190 | 46808 | 3208 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/Browser-Automation|Browser Automation]]
@@ -59,6 +60,7 @@ agent-browser click @e1
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-06|2026-11-06]]
+- [[Daily/2026/11/2026-11-08|2026-11-08]]
 
 ## GitHub 原始链接
 https://github.com/vercel-labs/agent-browser
@@ -67,3 +69,9 @@ https://github.com/vercel-labs/agent-browser
 - README：https://github.com/vercel-labs/agent-browser/blob/HEAD/README.md
 - README blob SHA：`53f71fd42a568994479edfa5063c58ca0b5dad8d`
 - 榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-08）
+- README：https://github.com/vercel-labs/agent-browser/blob/HEAD/README.md
+- README blob SHA：`53f71fd42a568994479edfa5063c58ca0b5dad8d`
+- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+
