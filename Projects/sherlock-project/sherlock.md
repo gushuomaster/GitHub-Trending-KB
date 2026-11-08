@@ -60,6 +60,7 @@ sherlock user123
 https://github.com/sherlock-project/sherlock
 
 ## 官方资料复核（2026-11-08）
-- 官方 README 页面：https://github.com/sherlock-project/sherlock#readme（仓库内容接口本次未返回 blob SHA；已用官方仓库页面复核安装与用法）
+- 官方 README：https://github.com/sherlock-project/sherlock/blob/master/docs/README.md
+- README blob SHA：`ddad6e0214cfa14bfabab0d67bf52293f5d2990e`
 - 内容依据当前官方资料；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 

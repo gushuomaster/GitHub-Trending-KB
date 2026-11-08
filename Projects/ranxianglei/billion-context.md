@@ -43,7 +43,7 @@ bili codex
 运行长时 Coding Agent 会话、关心上下文窗口和输入 token 成本的开发者。
 
 ## 局限 / 注意点
-代理会接触模型请求和响应，部署前必须审查本地端口、证书/MITM 模式和密钥路径；压缩摘要可能遗漏细节，官方性能与成本结论来自项目自报实验，关键证据仍需解压核验。
+代理会接触模型请求和响应，部署前必须审查本地端口、证书/MITM 模式和密钥路径。`bili plugin install codex` 只写入 MCP 工具配置，不会自行启动代理，也不能把代理环境注入父进程；如需压缩 Codex 模型流量，应先启动 bili 并自行配置 `HTTPS_PROXY`，或使用 `bili codex` 的完整零配置启动路径。压缩摘要可能遗漏细节，官方性能与成本结论来自项目自报实验，关键证据仍需解压核验。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
@@ -61,6 +61,6 @@ https://github.com/ranxianglei/billion-context
 
 ## 官方资料复核（2026-11-08）
 - README：https://github.com/ranxianglei/billion-context/blob/HEAD/README.md
-- README blob SHA：`b120f199e2ad5bf76f97817953a16f1c482909dc`
-- 内容依据当前官方资料；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+- README blob SHA：`33913fda5a034ab9e59f5ad2f2cd051aa2094c3b`
+- 当天下午再次读取当前官方 README，并补入 Codex 启动器与仅安装 MCP 工具两条路径的实际差异；榜单统计仍来自早晨同一次 GitHub Trending Any / Any / Today 页面采集。
 

@@ -87,6 +87,6 @@ https://github.com/milind-soni/OpenMausBot
 
 ## 官方资料复核（2026-11-08）
 - README：https://github.com/milind-soni/OpenMausBot/blob/HEAD/README.md
-- README blob SHA：`ee7a12dac2c97db2ac8333cb00d3b07b983f1fd2`
-- 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+- README blob SHA：`9524adb9892b6b525be23cd6b095e0c67b1ce2fd`
+- 当天下午再次读取当前官方 README；桌面应用、Agent CLI、团队配置、审批边界和平台限制的说明仍成立，仅更新资料证据，既有能力、案例、分类、风险和历史内容均保留。
 

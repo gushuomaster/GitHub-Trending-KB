@@ -60,6 +60,6 @@ https://github.com/mbillow/localthings
 
 ## 官方资料复核（2026-11-08）
 - README：https://github.com/mbillow/localthings/blob/HEAD/README.md
-- README blob SHA：`9b5453f911f10e8efcae71c2e29a7135d8abb40c`
-- 内容依据当前官方资料；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+- README blob SHA：`50cad8f7d4a0c0e31ccbf5789c60b988b22113ad`
+- 当天下午再次读取当前官方 README（项目版本已更新至 0.37.0）；局域网控制、首次联网、设备范围、轮询与单连接限制仍成立，榜单统计继续保留早晨同一次 GitHub Trending Any / Any / Today 页面采集。
 
