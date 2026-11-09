@@ -1,4 +1,7 @@
 $ErrorActionPreference = 'Stop'
+$OriginalLocalAppData = $env:LOCALAPPDATA
+$TestLocalAppData = Join-Path ([IO.Path]::GetTempPath()) ("GitHub-Trending-KB-tests-" + [guid]::NewGuid().ToString('N'))
+$env:LOCALAPPDATA = $TestLocalAppData
 $PullScript = Join-Path (Split-Path $PSScriptRoot -Parent) 'obsidian_git_pull.ps1'
 . $PullScript
 
@@ -125,12 +128,22 @@ try {
     Write-Host 'PASS: full network rediscovery regression tests'
 }
 finally {
-    $ResolvedRoot = [IO.Path]::GetFullPath($Root).TrimEnd('\') + '\'
+    $ResolvedRoot = [IO.Path]::GetFullPath($TestLocalAppData).TrimEnd('\') + '\'
     $ResolvedFixture = [IO.Path]::GetFullPath($FixtureDir)
     if (-not $ResolvedFixture.StartsWith($ResolvedRoot, [StringComparison]::OrdinalIgnoreCase)) {
         throw "Refusing to remove unexpected fixture path: $ResolvedFixture"
     }
-    if (Test-Path -LiteralPath $ResolvedFixture) {
-        Remove-Item -LiteralPath $ResolvedFixture -Recurse -Force
+    $ResolvedTempRoot = [IO.Path]::GetFullPath([IO.Path]::GetTempPath()).TrimEnd('\') + '\'
+    $ResolvedTestRoot = [IO.Path]::GetFullPath($TestLocalAppData)
+    if (-not $ResolvedTestRoot.StartsWith($ResolvedTempRoot, [StringComparison]::OrdinalIgnoreCase)) {
+        throw "Refusing to remove unexpected test root: $ResolvedTestRoot"
+    }
+    try {
+        if (Test-Path -LiteralPath $ResolvedTestRoot) {
+            Remove-Item -LiteralPath $ResolvedTestRoot -Recurse -Force
+        }
+    }
+    finally {
+        $env:LOCALAPPDATA = $OriginalLocalAppData
     }
 }
