@@ -1,6 +1,8 @@
 param(
     [string]$VaultPath = "D:\gs\GitHub-Trending-KB",
-    [string]$Branch = "main"
+    [string]$Branch = "main",
+    [ValidateRange(1, 10)][int]$MaxAttempts = 3,
+    [ValidateRange(0, 86400)][int]$RetryDelaySeconds = 600
 )
 
 $ErrorActionPreference = "Stop"
@@ -98,7 +100,7 @@ function Get-ClashProxyCandidates {
     catch { return }
 }
 
-function Start-ObsidianGitSync {
+function Invoke-ObsidianGitSyncAttempt {
 try {
     if (-not (Test-Path -LiteralPath (Join-Path $VaultPath ".git"))) {
         throw "Vault is not a Git repository: $VaultPath"
@@ -109,7 +111,6 @@ try {
         throw "origin does not point to the expected GitHub-Trending-KB repository"
     }
 
-    Write-Log "Starting sync for $VaultPath"
     try {
         $null = Invoke-Git -GitArgs @("fetch", "origin", $Branch)
     }
@@ -173,14 +174,63 @@ try {
     $null = Invoke-Git -GitArgs @("merge", "--ff-only", "origin/$Branch")
     $head = Invoke-Git -GitArgs @("rev-parse", "--short", "HEAD")
     Write-Log "OK: local vault fast-forwarded to origin/$Branch at $head"
-    exit 0
+    return $true
 }
 catch {
-    Write-Log ("ERROR: " + $_.Exception.Message)
-    exit 1
+    Write-Log ("Attempt failed: " + $_.Exception.Message)
+    return $false
 }
 }
 
+function Start-ObsidianGitSync {
+    param(
+        [int]$AttemptLimit = $MaxAttempts,
+        [int]$DelaySeconds = $RetryDelaySeconds,
+        [scriptblock]$AttemptAction,
+        [scriptblock]$DelayAction
+    )
+
+    if ($AttemptLimit -lt 1) { throw "AttemptLimit must be at least 1." }
+    if ($DelaySeconds -lt 0) { throw "DelaySeconds cannot be negative." }
+    if (-not $AttemptAction) { $AttemptAction = { Invoke-ObsidianGitSyncAttempt } }
+    if (-not $DelayAction) { $DelayAction = { param($Seconds) Start-Sleep -Seconds $Seconds } }
+
+    $mutex = New-Object System.Threading.Mutex($false, "Local\GitHubTrendingKBLocalSync")
+    $ownsMutex = $false
+    try {
+        try { $ownsMutex = $mutex.WaitOne(0) }
+        catch [System.Threading.AbandonedMutexException] { $ownsMutex = $true }
+        if (-not $ownsMutex) {
+            Write-Log "Another sync instance is already running; this trigger is ignored"
+            return $true
+        }
+
+        Write-Log "Starting sync run for $VaultPath; max attempts=$AttemptLimit"
+        for ($attempt = 1; $attempt -le $AttemptLimit; $attempt++) {
+            Write-Log "Attempt $attempt of $AttemptLimit"
+            $succeeded = $false
+            try { $succeeded = [bool](& $AttemptAction) }
+            catch { Write-Log ("Attempt failed: " + $_.Exception.Message) }
+            if ($succeeded) {
+                Write-Log "Sync run completed successfully on attempt $attempt"
+                return $true
+            }
+            if ($attempt -lt $AttemptLimit) {
+                Write-Log "Waiting $DelaySeconds seconds before retry"
+                & $DelayAction $DelaySeconds
+            }
+        }
+
+        Write-Log "ERROR: sync run failed after $AttemptLimit attempts"
+        return $false
+    }
+    finally {
+        if ($ownsMutex) { $mutex.ReleaseMutex() }
+        $mutex.Dispose()
+    }
+}
+
 if ($MyInvocation.InvocationName -ne ".") {
-    Start-ObsidianGitSync
+    if (Start-ObsidianGitSync) { exit 0 }
+    exit 1
 }

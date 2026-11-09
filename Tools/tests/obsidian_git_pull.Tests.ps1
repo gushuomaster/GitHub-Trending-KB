@@ -53,7 +53,76 @@ try {
     [IO.File]::WriteAllText($Jsonl, "{`"id`":3}`r`n{`"id`":2}`n", $Utf8)
     $Changed = Invoke-GitResult -GitArgs @('diff', '--ignore-space-at-eol', '--quiet', '--', 'Index/projects.jsonl')
     if ($Changed.ExitCode -ne 1) { throw 'Semantic edits must still be detected' }
+
+    $AttemptCount = 0
+    $Waits = @()
+    $Succeeded = Start-ObsidianGitSync -AttemptLimit 3 -DelaySeconds 600 `
+        -AttemptAction { $script:AttemptCount++; return $true } `
+        -DelayAction { param($Seconds) $script:Waits += $Seconds }
+    if (-not $Succeeded -or $AttemptCount -ne 1 -or $Waits.Count -ne 0) {
+        throw 'A successful first attempt must not retry or wait'
+    }
+
+    $AttemptCount = 0
+    $Waits = @()
+    $Succeeded = Start-ObsidianGitSync -AttemptLimit 3 -DelaySeconds 600 `
+        -AttemptAction { $script:AttemptCount++; return ($script:AttemptCount -eq 3) } `
+        -DelayAction { param($Seconds) $script:Waits += $Seconds }
+    if (-not $Succeeded -or $AttemptCount -ne 3) {
+        throw 'A third-attempt success must run the complete attempt action three times'
+    }
+    if ($Waits.Count -ne 2 -or $Waits[0] -ne 600 -or $Waits[1] -ne 600) {
+        throw 'Retries must wait exactly twice using the configured delay'
+    }
+
+    $AttemptCount = 0
+    $Waits = @()
+    $Succeeded = Start-ObsidianGitSync -AttemptLimit 3 -DelaySeconds 600 `
+        -AttemptAction { $script:AttemptCount++; return $false } `
+        -DelayAction { param($Seconds) $script:Waits += $Seconds }
+    if ($Succeeded -or $AttemptCount -ne 3 -or $Waits.Count -ne 2) {
+        throw 'An exhausted run must fail after exactly three attempts and two waits'
+    }
+
+    # Exercise the real attempt body with deterministic Git/network doubles. The
+    # first two attempts fail every fetch path; the third succeeds immediately.
+    $RemoteChecks = 0
+    $SystemProxyChecks = 0
+    $ClashChecks = 0
+    function Invoke-Git([string[]]$GitArgs) {
+        if ($GitArgs[0] -eq 'remote') {
+            $script:RemoteChecks++
+            return 'https://github.com/gushuomaster/GitHub-Trending-KB.git'
+        }
+        $IsFetch = $GitArgs[0] -eq 'fetch' -or $GitArgs -contains 'fetch'
+        if ($IsFetch -and $script:RemoteChecks -lt 3) { throw 'simulated network unavailable' }
+        if ($GitArgs[0] -eq 'rev-parse') { return 'abc1234' }
+        return ''
+    }
+    function Get-WindowsSystemProxy {
+        $script:SystemProxyChecks++
+        return $null
+    }
+    function Get-ClashProxyCandidates {
+        $script:ClashChecks++
+        return
+    }
+
+    $Waits = @()
+    $Succeeded = Start-ObsidianGitSync -AttemptLimit 3 -DelaySeconds 600 `
+        -DelayAction { param($Seconds) $script:Waits += $Seconds }
+    if (-not $Succeeded -or $RemoteChecks -ne 3) {
+        throw 'Each retry must execute the complete sync attempt from origin validation'
+    }
+    if ($SystemProxyChecks -ne 2 -or $ClashChecks -ne 2) {
+        throw 'Each failed attempt must rerun Windows and Clash proxy discovery'
+    }
+    if ($Waits.Count -ne 2) {
+        throw 'Network recovery must retain exactly two injected retry waits'
+    }
     Write-Host 'PASS: Git warning, EOL attribute, and semantic-change regression tests'
+    Write-Host 'PASS: retry controller regression tests'
+    Write-Host 'PASS: full network rediscovery regression tests'
 }
 finally {
     $ResolvedRoot = [IO.Path]::GetFullPath($Root).TrimEnd('\') + '\'
