@@ -46,7 +46,6 @@ Anthropic 发布的 Agent Skills 示例与生产级文档技能参考库。
 |---|---:|---:|---:|---:|---|
 | 2026-09-26 | 7 | 未保存 | 未保存 | 未保存 | archived_backfill |
 | 2026-10-31 | 11 | 295 | 185300 | 21895 | GitHub Today live snapshot |
-
 | 2026-11-08 | 5 | 390 | 188771 | 22249 | GitHub Today live snapshot |
 | 2026-11-09 | 7 | 792 | 189605 | 22346 | GitHub Today live snapshot |
 > 上表只保留归档可证明的日期与原始顺序；当前 Stars/Forks 仅记录在 frontmatter 的 `metadata_checked_at` 快照，不冒充历史数值。

@@ -49,7 +49,6 @@ sherlock user123
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-08 | 8 | 1766 | 100411 | 11863 | GitHub Today live snapshot |
-
 | 2026-11-09 | 1 | 2373 | 103407 | 12120 | GitHub Today live snapshot |
 
 ## 相关主题
@@ -69,7 +68,7 @@ https://github.com/sherlock-project/sherlock
 - 内容依据当前官方资料；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 
 ## 官方资料复核（2026-11-09）
-- README：https://github.com/sherlock-project/sherlock/blob/HEAD/README.md
+- 官方 README：https://github.com/sherlock-project/sherlock/blob/master/docs/README.md
 - README blob SHA：`ddad6e0214cfa14bfabab0d67bf52293f5d2990e`
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
 

@@ -49,7 +49,6 @@ npm install -D @astryxdesign/cli
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-08 | 6 | 96 | 14488 | 1184 | GitHub Today live snapshot |
-
 | 2026-11-09 | 6 | 875 | 16663 | 1317 | GitHub Today live snapshot |
 
 ## 相关主题
