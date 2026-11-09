@@ -3,16 +3,16 @@ type: github-project
 repo: "ranxianglei/billion-context"
 url: "https://github.com/ranxianglei/billion-context"
 first_seen: "2026-11-08"
-last_seen: "2026-11-08"
-trending_count: 1
+last_seen: "2026-11-09"
+trending_count: 2
 language: "TypeScript"
-total_stars: 4595
-forks: 369
-stars_today: 191
-github_rank: 14
-fetched_at: "2026-11-08T08:02:37+08:00"
-documentation_checked_at: "2026-11-08"
-stats_as_of: "2026-11-08"
+total_stars: 5122
+forks: 404
+stars_today: 460
+github_rank: 9
+fetched_at: "2026-11-09T08:02:59+08:00"
+documentation_checked_at: "2026-11-09"
+stats_as_of: "2026-11-09"
 snapshot_status: "live"
 category: ["AI Agent","Context Compression","Proxy"]
 topics: ["Context-Management","Coding-Agent","Token"]
@@ -50,11 +50,15 @@ bili codex
 |---|---:|---:|---:|---:|---|
 | 2026-11-08 | 14 | 191 | 4595 | 369 | GitHub Today live snapshot |
 
+| 2026-11-09 | 9 | 460 | 5122 | 404 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Context-Management|Context-Management]] · [[Topics/Coding-Agent|Coding-Agent]] · [[Topics/Token|Token]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-08|2026-11-08]]
+
+- [[Daily/2026/11/2026-11-09|2026-11-09]]
 
 ## GitHub 原始链接
 https://github.com/ranxianglei/billion-context
@@ -63,4 +67,9 @@ https://github.com/ranxianglei/billion-context
 - README：https://github.com/ranxianglei/billion-context/blob/HEAD/README.md
 - README blob SHA：`33913fda5a034ab9e59f5ad2f2cd051aa2094c3b`
 - 当天下午再次读取当前官方 README，并补入 Codex 启动器与仅安装 MCP 工具两条路径的实际差异；榜单统计仍来自早晨同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-09）
+- README：https://github.com/ranxianglei/billion-context/blob/HEAD/README.md
+- README blob SHA：`3d7e3296b09ff196c2b496cdcdff4aa1506abac6`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
 

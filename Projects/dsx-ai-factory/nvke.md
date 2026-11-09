@@ -3,16 +3,16 @@ type: github-project
 repo: "dsx-ai-factory/nvke"
 url: "https://github.com/dsx-ai-factory/nvke"
 first_seen: "2026-11-08"
-last_seen: "2026-11-08"
-trending_count: 1
+last_seen: "2026-11-09"
+trending_count: 2
 language: "Go"
-total_stars: 547
-forks: 88
-stars_today: 123
-github_rank: 15
-fetched_at: "2026-11-08T08:02:37+08:00"
-documentation_checked_at: "2026-11-08"
-stats_as_of: "2026-11-08"
+total_stars: 834
+forks: 110
+stars_today: 345
+github_rank: 2
+fetched_at: "2026-11-09T08:02:59+08:00"
+documentation_checked_at: "2026-11-09"
+stats_as_of: "2026-11-09"
 snapshot_status: "live"
 category: ["Kubernetes","GPU Infrastructure","Management Plane"]
 topics: ["Kubernetes","GPU","Bare-Metal"]
@@ -50,11 +50,15 @@ cd nvke && make build
 |---|---:|---:|---:|---:|---|
 | 2026-11-08 | 15 | 123 | 547 | 88 | GitHub Today live snapshot |
 
+| 2026-11-09 | 2 | 345 | 834 | 110 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Kubernetes|Kubernetes]] · [[Topics/GPU|GPU]] · [[Topics/Bare-Metal|Bare-Metal]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-08|2026-11-08]]
+
+- [[Daily/2026/11/2026-11-09|2026-11-09]]
 
 ## GitHub 原始链接
 https://github.com/dsx-ai-factory/nvke
@@ -63,4 +67,9 @@ https://github.com/dsx-ai-factory/nvke
 - README：https://github.com/dsx-ai-factory/nvke/blob/HEAD/README.md
 - README blob SHA：`bf2b943794d352ab8ac6a6c23a637e12215aed44`
 - 内容依据当前官方资料；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-09）
+- README：https://github.com/dsx-ai-factory/nvke/blob/HEAD/README.md
+- README blob SHA：`bf2b943794d352ab8ac6a6c23a637e12215aed44`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
 

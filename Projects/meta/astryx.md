@@ -3,16 +3,16 @@ type: github-project
 repo: "meta/astryx"
 url: "https://github.com/meta/astryx"
 first_seen: "2026-11-08"
-last_seen: "2026-11-08"
-trending_count: 1
+last_seen: "2026-11-09"
+trending_count: 2
 language: "TypeScript"
-total_stars: 14488
-forks: 1184
-stars_today: 96
+total_stars: 16663
+forks: 1317
+stars_today: 875
 github_rank: 6
-fetched_at: "2026-11-08T08:02:37+08:00"
-documentation_checked_at: "2026-11-08"
-stats_as_of: "2026-11-08"
+fetched_at: "2026-11-09T08:02:59+08:00"
+documentation_checked_at: "2026-11-09"
+stats_as_of: "2026-11-09"
 snapshot_status: "live"
 category: ["Design System","React","Accessibility"]
 topics: ["Design-System","React","Accessibility"]
@@ -50,11 +50,15 @@ npm install -D @astryxdesign/cli
 |---|---:|---:|---:|---:|---|
 | 2026-11-08 | 6 | 96 | 14488 | 1184 | GitHub Today live snapshot |
 
+| 2026-11-09 | 6 | 875 | 16663 | 1317 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Design-System|Design-System]] · [[Topics/React|React]] · [[Topics/Accessibility|Accessibility]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-08|2026-11-08]]
+
+- [[Daily/2026/11/2026-11-09|2026-11-09]]
 
 ## GitHub 原始链接
 https://github.com/meta/astryx
@@ -63,4 +67,9 @@ https://github.com/meta/astryx
 - README：https://github.com/meta/astryx/blob/HEAD/README.md
 - README blob SHA：`29b89543395d69bd2a5385a9e768ec9bd9015f73`
 - 内容依据当前官方资料；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-09）
+- README：https://github.com/meta/astryx/blob/HEAD/README.md
+- README blob SHA：`29b89543395d69bd2a5385a9e768ec9bd9015f73`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
 
