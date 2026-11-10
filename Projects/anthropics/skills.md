@@ -22,7 +22,7 @@ stats_as_of: "2026-11-10"
 ## 一句话说明
 Anthropic 发布的 Agent Skills 示例与生产级文档技能参考库。
 
-> 使用方式依据仓库当前 README 核对于 2026-09-28；这不代表历史上榜当日的 README 版本。
+> 使用方式依据仓库当前 README 与随附许可证文件核对于 2026-11-10；这不代表历史上榜当日的 README 版本。
 
 ## 它能做什么
 - 以 SKILL.md、脚本和资源封装可重复任务
@@ -39,7 +39,7 @@ Anthropic 发布的 Agent Skills 示例与生产级文档技能参考库。
 设计 Agent Skills、研究复杂生产技能结构或需要文档自动化的开发者。
 
 ## 局限 / 注意点
-部分复杂文档技能为 source-available 而非 Apache 开源；示例需要按宿主、依赖与权限重新验证。
+仓库同时包含示例技能和较完整的文档处理技能；当前随附的各技能许可证文件为 Apache 2.0，但示例仍需按宿主、依赖与权限重新验证，不能直接视为已完成生产部署。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |

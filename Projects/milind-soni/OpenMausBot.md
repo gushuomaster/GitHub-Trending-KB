@@ -57,7 +57,6 @@ openmausbot run "Room Lead" "Rehearse the launch of https://example.com" --expor
 | 2026-11-02 | 5 | 922 | 10500 | 1457 | GitHub Today live snapshot |
 | 2026-11-08 | 9 | 1955 | 16948 | 2399 | GitHub Today live snapshot |
 | 2026-11-09 | 3 | 1439 | 18217 | 2532 | GitHub Today live snapshot |
-
 | 2026-11-10 | 11 | 1587 | 19644 | 2692 | GitHub Today live snapshot |
 
 ## 相关主题

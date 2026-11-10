@@ -50,7 +50,6 @@ npm install -D @astryxdesign/cli
 |---|---:|---:|---:|---:|---|
 | 2026-11-08 | 6 | 96 | 14488 | 1184 | GitHub Today live snapshot |
 | 2026-11-09 | 6 | 875 | 16663 | 1317 | GitHub Today live snapshot |
-
 | 2026-11-10 | 2 | 3278 | 19962 | 1522 | GitHub Today live snapshot |
 
 ## 相关主题
