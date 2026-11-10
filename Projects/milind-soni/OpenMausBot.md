@@ -3,16 +3,16 @@ type: github-project
 repo: "milind-soni/OpenMausBot"
 url: "https://github.com/milind-soni/OpenMausBot"
 first_seen: "2026-10-30"
-last_seen: "2026-11-09"
-trending_count: 6
-github_rank: 3
-stars_today: 1439
-total_stars: 18217
-forks: 2532
+last_seen: "2026-11-10"
+trending_count: 7
+github_rank: 11
+stars_today: 1587
+total_stars: 19644
+forks: 2692
 language: "TypeScript"
-fetched_at: "2026-11-09T08:02:59+08:00"
-documentation_checked_at: "2026-11-09"
-stats_as_of: "2026-11-09"
+fetched_at: "2026-11-10T08:05:10+08:00"
+documentation_checked_at: "2026-11-10"
+stats_as_of: "2026-11-10"
 snapshot_status: "live"
 category: ["Multi-Agent", "Desktop Automation", "Agent Workspace"]
 topics: ["AI-Agent", "Multi-Agent", "Computer-Use", "MCP"]
@@ -58,6 +58,8 @@ openmausbot run "Room Lead" "Rehearse the launch of https://example.com" --expor
 | 2026-11-08 | 9 | 1955 | 16948 | 2399 | GitHub Today live snapshot |
 | 2026-11-09 | 3 | 1439 | 18217 | 2532 | GitHub Today live snapshot |
 
+| 2026-11-10 | 11 | 1587 | 19644 | 2692 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/AI-Agent|AI-Agent]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/Computer-Use|Computer-Use]] · [[Topics/MCP|MCP]]
 
@@ -71,6 +73,8 @@ openmausbot run "Room Lead" "Rehearse the launch of https://example.com" --expor
 - [[Daily/2026/11/2026-11-08|2026-11-08]]
 
 - [[Daily/2026/11/2026-11-09|2026-11-09]]
+
+- [[Daily/2026/11/2026-11-10|2026-11-10]]
 
 ## GitHub 原始链接
 https://github.com/milind-soni/OpenMausBot
@@ -95,6 +99,11 @@ https://github.com/milind-soni/OpenMausBot
 - 当天下午再次读取当前官方 README；桌面应用、Agent CLI、团队配置、审批边界和平台限制的说明仍成立，仅更新资料证据，既有能力、案例、分类、风险和历史内容均保留。
 
 ## 官方资料复核（2026-11-09）
+- README：https://github.com/milind-soni/OpenMausBot/blob/HEAD/README.md
+- README blob SHA：`ab96963faab0faf95623676109aca3933d06dccf`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+
+## 官方资料复核（2026-11-10）
 - README：https://github.com/milind-soni/OpenMausBot/blob/HEAD/README.md
 - README blob SHA：`ab96963faab0faf95623676109aca3933d06dccf`
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。

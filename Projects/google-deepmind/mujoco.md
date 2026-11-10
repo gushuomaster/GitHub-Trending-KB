@@ -3,16 +3,16 @@ type: github-project
 repo: "google-deepmind/mujoco"
 url: "https://github.com/google-deepmind/mujoco"
 first_seen: "2026-11-09"
-last_seen: "2026-11-09"
-trending_count: 1
+last_seen: "2026-11-10"
+trending_count: 2
 language: "C++"
-total_stars: 16392
-forks: 1952
-stars_today: 41
-github_rank: 8
-fetched_at: "2026-11-09T08:02:59+08:00"
-documentation_checked_at: "2026-11-09"
-stats_as_of: "2026-11-09"
+total_stars: 16892
+forks: 1991
+stars_today: 574
+github_rank: 4
+fetched_at: "2026-11-10T08:05:10+08:00"
+documentation_checked_at: "2026-11-10"
+stats_as_of: "2026-11-10"
 snapshot_status: "live"
 category: ["Physics Simulation","Robotics","Machine Learning"]
 topics: ["Simulation","Robotics","Biomechanics","MJX"]
@@ -50,11 +50,15 @@ Python 绑定要求 Python 3.11+；WebAssembly 版本比原生 C 慢。main 分�
 |---|---:|---:|---:|---:|---|
 | 2026-11-09 | 8 | 41 | 16392 | 1952 | GitHub Today live snapshot |
 
+| 2026-11-10 | 4 | 574 | 16892 | 1991 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Simulation|Simulation]] · [[Topics/Robotics|Robotics]] · [[Topics/Biomechanics|Biomechanics]] · [[Topics/MJX|MJX]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-09|2026-11-09]]
+
+- [[Daily/2026/11/2026-11-10|2026-11-10]]
 
 ## GitHub 原始链接
 https://github.com/google-deepmind/mujoco
@@ -63,3 +67,9 @@ https://github.com/google-deepmind/mujoco
 - README：https://github.com/google-deepmind/mujoco/blob/HEAD/README.md
 - README blob SHA：`c6fb8355165ddd1477109a96d3aace4e6f9cd17b`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-10）
+- README：https://github.com/google-deepmind/mujoco/blob/HEAD/README.md
+- README blob SHA：`c6fb8355165ddd1477109a96d3aace4e6f9cd17b`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+
