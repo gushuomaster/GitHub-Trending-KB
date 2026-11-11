@@ -20,6 +20,8 @@ Assert-Matches 'New-ScheduledTaskTrigger\s+-Once[\s\S]*?-RepetitionInterval\s+\(
 Assert-DoesNotMatch 'RepetitionDuration' 'Repetition must be indefinite'
 Assert-DoesNotMatch 'New-ScheduledTaskTrigger\s+-AtLogOn' 'AtLogOn triggers are denied to standard users and must not be used'
 Assert-Matches 'Repetition\.Interval' 'Installer must verify the registered repetition'
+Assert-Matches '\$ImmediateArgs\s*=\s*@\([^)]*''-Force''' 'The install-time sync must bypass the once-per-day skip'
+Assert-DoesNotMatch '\$Arguments\s*=.*-Force' 'The hourly task must not bypass the once-per-day skip'
 Assert-Matches 'New-ScheduledTaskSettingsSet\s+-StartWhenAvailable' 'StartWhenAvailable must be enabled'
 Assert-Matches '-ExecutionTimeLimit\s+\(New-TimeSpan\s+-Minutes\s+45\)' 'Execution limit must be 45 minutes'
 Assert-Matches '-MultipleInstances\s+IgnoreNew' 'Overlapping task instances must be ignored'

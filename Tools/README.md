@@ -4,7 +4,10 @@ Vault 默认位于 `D:\gs\GitHub-Trending-KB`，是 GitHub `origin/main` 的**�
 
 ## 运行契约
 
-- Windows 计划任务**每小时**运行一次独立的同步进程；错过的运行（睡眠、关机、崩溃）在系统可用后补跑。安装时也会立即同步一次。云端每天约 08:15 推送日报、约 14:30 推送审计修正，都会在一小时内到达本地。
+- Windows 计划任务**每小时**触发一次独立的同步进程；错过的运行（睡眠、关机、崩溃）在系统可用后补跑。安装时也会立即同步一次。
+- **每天成功一次即停**：某次同步成功、且本地已有今天的日报 `Daily/yyyy/MM/yyyy-MM-dd.md` 后，当天剩余的整点运行直接退出，不联网也不写日志；次日自动恢复。云端约 08:15 推送日报，所以通常 09:05 前后完成当天的同步。今天的日报到达之前（包括云端当天没有发布），会继续每小时检查一次。
+  - 代价：当天下午约 14:30 推送的审计修正要等到第二天才会同步。需要立即获取时，手动运行并加上 `-Force`。
+  - 判断依据是 `status.json` 里的 `reportDate`。
 - 每次运行最多尝试 3 次，失败后等待 5 分钟再试，任一尝试成功即停止。配置类错误（不是 Git 仓库、`origin` 指向别处）不重试。
 - 同步方式：`git fetch origin main`，然后把本地镜像到 `origin/main`。
 - **本地独有的状态不会阻塞同步**，先备份、再以远端为准覆盖：
@@ -45,12 +48,14 @@ Get-Content -LiteralPath "$env:LOCALAPPDATA\GitHub-Trending-KB\status.json" -Enc
 Get-Content -LiteralPath "$env:LOCALAPPDATA\GitHub-Trending-KB\sync.log" -Encoding UTF8 -Tail 20
 ```
 
-注意：系统在任务运行中途异常关机时，`LastTaskResult` 可能仍显示 0。请以 `status.json` 为准。
+注意：系统在任务运行中途异常关机时，`LastTaskResult` 可能仍显示 0。请以 `status.json` 为准。当天完成后，任务仍会每小时显示一次运行，这些运行只读一下 `status.json` 就退出了。
 
 ## 手动同步
 
+`-Force` 会忽略"今天已完成"的标记，立即同步：
+
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File "D:\gs\GitHub-Trending-KB\Tools\obsidian_git_pull.ps1"
+powershell -NoProfile -ExecutionPolicy Bypass -File "D:\gs\GitHub-Trending-KB\Tools\obsidian_git_pull.ps1" -Force
 ```
 
 ## 找回被覆盖的本地内容

@@ -266,13 +266,35 @@ try {
     Assert-True (Invoke-Sync) 'A stale lock must be cleared'
     Assert-Mirrored $Expected 'Stale lock'
 
-    # 8. A foreign origin is fatal and not retried.
+    # 8. Once today's daily report is present, later runs today do nothing.
+    $Expected = Publish-Cloud 'Daily/2026-11-17.md' "older report`n"
+    Assert-True (Invoke-Sync) 'Sync without today''s report must succeed'
+    $Status = Get-Content -LiteralPath $StatusFile -Raw -Encoding UTF8 | ConvertFrom-Json
+    Assert-True (-not $Status.reportDate) 'A sync without today''s report must not mark the day as done'
+    $TodayPath = 'Daily/{0:yyyy}/{0:MM}/{0:yyyy-MM-dd}.md' -f (Get-Date)
+    $Expected = Publish-Cloud $TodayPath "today`n"
+    Assert-True (Invoke-Sync) 'Sync with today''s report must succeed'
+    Assert-Mirrored $Expected 'Today''s report'
+    $Status = Get-Content -LiteralPath $StatusFile -Raw -Encoding UTF8 | ConvertFrom-Json
+    Assert-True ($Status.reportDate -eq (Get-Date -Format 'yyyy-MM-dd')) 'Arrival of today''s report must mark the day as done'
+    $Audit = Publish-Cloud 'Daily/audit.md' "afternoon audit`n"
+    Assert-True (Invoke-Sync) 'A skipped run must report success'
+    Assert-Mirrored $Expected 'Skipped run must not touch the vault'
+    Assert-True (Start-ObsidianGitSync -AttemptLimit 1 -DelaySeconds 0 -DelayAction { } -IgnoreDoneToday) 'Forced sync must succeed'
+    Assert-Mirrored $Audit 'Forced sync must update after the day is done'
+    $Status.reportDate = '2000-01-01'
+    [IO.File]::WriteAllText($StatusFile, ($Status | ConvertTo-Json), $Utf8)
+    $Tomorrow = Publish-Cloud 'Daily/next.md' "next day`n"
+    Assert-True (Invoke-Sync) 'A new day must sync again'
+    Assert-Mirrored $Tomorrow 'A done marker from an earlier day must not skip'
+
+    # 9. A foreign origin is fatal and not retried.
     function Invoke-Git([string[]]$GitArgs) {
         if ($GitArgs[0] -eq 'remote') { return 'https://github.com/someone-else/repo.git' }
         throw 'must not run other git commands'
     }
     $Waits = @()
-    Assert-True (-not (Start-ObsidianGitSync -AttemptLimit 3 -DelaySeconds 600 -DelayAction { param($Seconds) $script:Waits += $Seconds })) 'Foreign origin must fail'
+    Assert-True (-not (Start-ObsidianGitSync -AttemptLimit 3 -DelaySeconds 600 -IgnoreDoneToday -DelayAction { param($Seconds) $script:Waits += $Seconds })) 'Foreign origin must fail'
     Assert-True ($Waits.Count -eq 0) 'Foreign origin must not be retried'
     Write-Host 'PASS: end-to-end mirror self-healing tests'
 }

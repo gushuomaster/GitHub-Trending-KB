@@ -2,7 +2,11 @@
     [string]$VaultPath = "D:\gs\GitHub-Trending-KB",
     [string]$Branch = "main",
     [ValidateRange(1, 10)][int]$MaxAttempts = 3,
-    [ValidateRange(0, 86400)][int]$RetryDelaySeconds = 300
+    [ValidateRange(0, 86400)][int]$RetryDelaySeconds = 300,
+    # Once a sync succeeds and today's daily report is present locally, the remaining
+    # hourly runs of the day exit immediately. -Force syncs regardless.
+    [string]$DailyReportPattern = "Daily/{0:yyyy}/{0:MM}/{0:yyyy-MM-dd}.md",
+    [switch]$Force
 )
 
 # The vault is a read-only mirror of GitHub origin/$Branch. Anything that exists
@@ -282,6 +286,12 @@ function Save-LocalStateBackup([object]$State, [string]$Target) {
     $script:BackupNotice = $dir
 }
 
+function Test-TodayReportPresent {
+    $path = $DailyReportPattern -f (Get-Date)
+    $result = Invoke-GitResult -GitArgs @("cat-file", "-e", "HEAD:$path")
+    if ($result.ExitCode -eq 0) { $script:ReportDate = Get-Date -Format 'yyyy-MM-dd' }
+}
+
 function Invoke-ObsidianGitSyncAttempt {
     # Returns $true on success, $false for a retryable failure, 'Fatal' when retrying cannot help.
     try {
@@ -305,6 +315,7 @@ function Invoke-ObsidianGitSyncAttempt {
         $upToDate = $state.Branch -eq $Branch -and $state.Head -eq $target -and -not $state.Semantic -and -not $state.WhitespaceOnly
         if ($upToDate) {
             $script:LastHead = $target.Substring(0, 7)
+            Test-TodayReportPresent
             return $true
         }
 
@@ -324,6 +335,7 @@ function Invoke-ObsidianGitSyncAttempt {
         $script:LastHead = $target.Substring(0, 7)
         $note = if ($state.WhitespaceOnly) { "; discarded whitespace-only local edits" } else { "" }
         Write-Log "OK: local vault mirrored to origin/$Branch at $($script:LastHead) (was $($state.Head.Substring(0, 7)))$note"
+        Test-TodayReportPresent
         return $true
     }
     catch {
@@ -350,6 +362,8 @@ function Write-SyncStatus([string]$Result, [string]$Message, [string]$LastFailur
             head = $script:LastHead
             message = $Message
             lastFailureNotice = $LastFailureNotice
+            # Date whose daily report was confirmed present; later runs that day are skipped.
+            reportDate = $script:ReportDate
         }
         New-Item -ItemType Directory -Path $AppDir -Force | Out-Null
         [IO.File]::WriteAllText($StatusFile, ($status | ConvertTo-Json), (New-Object System.Text.UTF8Encoding($false)))
@@ -376,7 +390,8 @@ function Start-ObsidianGitSync {
         [int]$AttemptLimit = $MaxAttempts,
         [int]$DelaySeconds = $RetryDelaySeconds,
         [scriptblock]$AttemptAction,
-        [scriptblock]$DelayAction
+        [scriptblock]$DelayAction,
+        [switch]$IgnoreDoneToday = $Force
     )
 
     if ($AttemptLimit -lt 1) { throw "AttemptLimit must be at least 1." }
@@ -394,10 +409,17 @@ function Start-ObsidianGitSync {
             return $true
         }
 
+        $previous = Read-SyncStatus
+        $today = Get-Date -Format 'yyyy-MM-dd'
+        if (-not $IgnoreDoneToday -and $previous -and $previous.result -eq 'ok' -and [string]$previous.reportDate -eq $today) {
+            # Today's update already landed; stay silent until tomorrow's first run.
+            return $true
+        }
+
         Invoke-LogRotation
         $script:BackupNotice = $null
         $script:LastHead = $null
-        $previous = Read-SyncStatus
+        $script:ReportDate = $null
         $previousNotice = if ($previous -and $previous.lastFailureNotice) { [string]$previous.lastFailureNotice } else { "" }
 
         for ($attempt = 1; $attempt -le $AttemptLimit; $attempt++) {
@@ -410,6 +432,9 @@ function Start-ObsidianGitSync {
             }
             if ($outcome -eq $true) {
                 if ($attempt -gt 1) { Write-Log "Sync run completed successfully on attempt $attempt" }
+                if ($script:ReportDate -and [string]$previous.reportDate -ne $script:ReportDate) {
+                    Write-Log "OK: today's report ($($script:ReportDate)) is in the local vault; remaining runs today are skipped"
+                }
                 Write-SyncStatus -Result "ok" -Message "attempt $attempt" -LastFailureNotice ""
                 if ($script:BackupNotice) {
                     Show-SyncNotification "GitHub-Trending-KB 已同步" "本地独有的改动已备份后以 GitHub 为准覆盖：$($script:BackupNotice)"
