@@ -2,17 +2,17 @@
 type: github-project
 repo: "mattpocock/skills"
 first_seen: "2026-09-26"
-last_seen: "2026-11-08"
+last_seen: "2026-11-11"
 language: "Shell"
-total_stars: 317686
-forks: 26578
-stars_today: 1100
-github_rank: 4
-trending_count: 18
-fetched_at: "2026-11-08T08:02:37+08:00"
+total_stars: 320882
+forks: 26908
+stars_today: 1225
+github_rank: 12
+trending_count: 19
+fetched_at: "2026-11-11T08:11:35+08:00"
 url: "https://github.com/mattpocock/skills"
-documentation_checked_at: "2026-11-08"
-stats_as_of: "2026-11-08"
+documentation_checked_at: "2026-11-11"
+stats_as_of: "2026-11-11"
 snapshot_status: "live"
 ---
 
@@ -65,6 +65,7 @@ npx skills@latest add mattpocock/skills
 | 2026-11-06 | 2 | 2071 | 315182 | 26393 | GitHub Today live snapshot |
 | 2026-11-07 | 15 | 2070 | 316690 | 26490 | GitHub Today live snapshot |
 | 2026-11-08 | 4 | 1100 | 317686 | 26578 | GitHub Today live snapshot |
+| 2026-11-11 | 12 | 1225 | 320882 | 26908 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]
@@ -89,6 +90,8 @@ npx skills@latest add mattpocock/skills
 - [[Daily/2026/11/2026-11-06|2026-11-06]]
 - [[Daily/2026/11/2026-11-07|2026-11-07]]
 - [[Daily/2026/11/2026-11-08|2026-11-08]]
+
+- [[Daily/2026/11/2026-11-11|2026-11-11]]
 
 ## GitHub 原始链接
 https://github.com/mattpocock/skills
@@ -131,4 +134,9 @@ https://github.com/mattpocock/skills
 - README：https://github.com/mattpocock/skills/blob/HEAD/README.md
 - README blob SHA：`f7038f139299985eea6c3e18398dbafb379a0010`
 - 本次仅合并当天榜单事实与资料复核记录；既有能力、案例、分类、风险和历史内容均保留。
+
+## 官方资料复核（2026-11-11）
+- README：https://github.com/mattpocock/skills/blob/HEAD/README.md
+- README blob SHA：`f7038f139299985eea6c3e18398dbafb379a0010`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
 

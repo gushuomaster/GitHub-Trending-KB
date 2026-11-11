@@ -3,16 +3,16 @@ type: github-project
 repo: "homeassistant-ai/ha-mcp"
 url: "https://github.com/homeassistant-ai/ha-mcp"
 first_seen: "2026-11-10"
-last_seen: "2026-11-10"
-trending_count: 1
+last_seen: "2026-11-11"
+trending_count: 2
 language: "Python"
-total_stars: 5946
-forks: 293
-stars_today: 31
-github_rank: 10
-fetched_at: "2026-11-10T08:05:10+08:00"
-documentation_checked_at: "2026-11-10"
-stats_as_of: "2026-11-10"
+total_stars: 6630
+forks: 429
+stars_today: 790
+github_rank: 7
+fetched_at: "2026-11-11T08:11:35+08:00"
+documentation_checked_at: "2026-11-11"
+stats_as_of: "2026-11-11"
 snapshot_status: "live"
 category: ["Home Assistant","MCP","Smart Home"]
 topics: ["Home-Assistant","MCP","Automation"]
@@ -44,12 +44,15 @@ HA-MCP 把 Home Assistant 的设备、自动化、脚本、仪表盘和诊断能
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-10 | 10 | 31 | 5946 | 293 | GitHub Today live snapshot |
+| 2026-11-11 | 7 | 790 | 6630 | 429 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Home-Assistant|Home-Assistant]] · [[Topics/MCP|MCP]] · [[Topics/Automation|Automation]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-10|2026-11-10]]
+
+- [[Daily/2026/11/2026-11-11|2026-11-11]]
 
 ## GitHub 原始链接
 https://github.com/homeassistant-ai/ha-mcp
@@ -58,3 +61,9 @@ https://github.com/homeassistant-ai/ha-mcp
 - README：https://github.com/homeassistant-ai/ha-mcp/blob/HEAD/README.md
 - README blob SHA：`42ab0533b36614b91cc67d5d3691e3782c429125`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-11）
+- README：https://github.com/homeassistant-ai/ha-mcp/blob/HEAD/README.md
+- README blob SHA：`42ab0533b36614b91cc67d5d3691e3782c429125`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+

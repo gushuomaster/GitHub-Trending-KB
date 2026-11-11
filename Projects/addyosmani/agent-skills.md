@@ -11,16 +11,17 @@ topics:
 - Agent Skills
 - Software Engineering
 first_seen: '2026-09-16'
-last_seen: '2026-10-10'
-trending_count: 10
-language: JavaScript
-total_stars: 103972
-forks: 10868
-stars_today: 436
-github_rank: 8
-fetched_at: '2026-10-10T08:02:00+08:00'
-documentation_checked_at: '2026-10-13'
-stats_as_of: '2026-10-10'
+last_seen: "2026-11-11"
+trending_count: 11
+language: "JavaScript"
+total_stars: 115138
+forks: 12094
+stars_today: 465
+github_rank: 3
+fetched_at: "2026-11-11T08:11:35+08:00"
+documentation_checked_at: "2026-11-11"
+stats_as_of: "2026-11-11"
+snapshot_status: "live"
 ---
 
 # addyosmani/agent-skills
@@ -66,6 +67,7 @@ npx skills add addyosmani/agent-skills --list
 | 2026-10-05 | 12 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
 | 2026-10-08 | 6 | 677 | 102870 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 | 2026-10-10 | 8 | 436 | 103972 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-11-11 | 3 | 465 | 115138 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI Agent|AI Agent]] · [[Topics/Agent Skills|Agent Skills]] · [[Topics/Software Engineering|Software Engineering]]
@@ -82,6 +84,8 @@ npx skills add addyosmani/agent-skills --list
 - [[Daily/2026/10/2026-10-08|2026-10-08]]
 - [[Daily/2026/10/2026-10-10|2026-10-10]]
 
+- [[Daily/2026/11/2026-11-11|2026-11-11]]
+
 ## GitHub 原始链接
 https://github.com/addyosmani/agent-skills
 
@@ -89,3 +93,9 @@ https://github.com/addyosmani/agent-skills
 - README：https://github.com/addyosmani/agent-skills/blob/main/README.md
 - README blob SHA：`fd5d76fdd774c0d7437e8b59cd1f884a5ece9a25`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
+
+## 官方资料复核（2026-11-11）
+- README：https://github.com/addyosmani/agent-skills/blob/HEAD/README.md
+- README blob SHA：`7f610b8ca80ff9bc7ba7f95f3209430c3481891d`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+

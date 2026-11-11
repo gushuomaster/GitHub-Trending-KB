@@ -3,16 +3,16 @@ type: github-project
 repo: "sherlock-project/sherlock"
 url: "https://github.com/sherlock-project/sherlock"
 first_seen: "2026-11-08"
-last_seen: "2026-11-10"
-trending_count: 3
+last_seen: "2026-11-11"
+trending_count: 4
 language: "Python"
-total_stars: 106971
-forks: 12375
-stars_today: 4267
-github_rank: 3
-fetched_at: "2026-11-10T08:05:10+08:00"
-documentation_checked_at: "2026-11-10"
-stats_as_of: "2026-11-10"
+total_stars: 108935
+forks: 12655
+stars_today: 2393
+github_rank: 9
+fetched_at: "2026-11-11T08:11:35+08:00"
+documentation_checked_at: "2026-11-11"
+stats_as_of: "2026-11-11"
 snapshot_status: "live"
 category: ["OSINT","Username Search","CLI"]
 topics: ["OSINT","Username","Investigation"]
@@ -51,6 +51,7 @@ sherlock user123
 | 2026-11-08 | 8 | 1766 | 100411 | 11863 | GitHub Today live snapshot |
 | 2026-11-09 | 1 | 2373 | 103407 | 12120 | GitHub Today live snapshot |
 | 2026-11-10 | 3 | 4267 | 106971 | 12375 | GitHub Today live snapshot |
+| 2026-11-11 | 9 | 2393 | 108935 | 12655 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/OSINT|OSINT]] · [[Topics/Username|Username]] · [[Topics/Investigation|Investigation]]
@@ -61,6 +62,8 @@ sherlock user123
 - [[Daily/2026/11/2026-11-09|2026-11-09]]
 
 - [[Daily/2026/11/2026-11-10|2026-11-10]]
+
+- [[Daily/2026/11/2026-11-11|2026-11-11]]
 
 ## GitHub 原始链接
 https://github.com/sherlock-project/sherlock
@@ -76,6 +79,11 @@ https://github.com/sherlock-project/sherlock
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
 
 ## 官方资料复核（2026-11-10）
+- README：https://github.com/sherlock-project/sherlock/blob/HEAD/docs/README.md
+- README blob SHA：`ddad6e0214cfa14bfabab0d67bf52293f5d2990e`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+
+## 官方资料复核（2026-11-11）
 - README：https://github.com/sherlock-project/sherlock/blob/HEAD/docs/README.md
 - README blob SHA：`ddad6e0214cfa14bfabab0d67bf52293f5d2990e`
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。

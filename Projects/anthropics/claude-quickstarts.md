@@ -3,16 +3,16 @@ type: github-project
 repo: "anthropics/claude-quickstarts"
 url: "https://github.com/anthropics/claude-quickstarts"
 first_seen: "2026-11-09"
-last_seen: "2026-11-10"
-trending_count: 2
+last_seen: "2026-11-11"
+trending_count: 3
 language: "Python"
-total_stars: 20001
-forks: 3310
-stars_today: 551
-github_rank: 5
-fetched_at: "2026-11-10T08:05:10+08:00"
-documentation_checked_at: "2026-11-10"
-stats_as_of: "2026-11-10"
+total_stars: 20480
+forks: 3468
+stars_today: 531
+github_rank: 4
+fetched_at: "2026-11-11T08:11:35+08:00"
+documentation_checked_at: "2026-11-11"
+stats_as_of: "2026-11-11"
 snapshot_status: "live"
 category: ["Claude API","Examples","Agent Applications"]
 topics: ["Claude","API","Computer-Use","Managed-Agents"]
@@ -51,6 +51,7 @@ cd claude-quickstarts/customer-support-agent
 |---|---:|---:|---:|---:|---|
 | 2026-11-09 | 4 | 32 | 19402 | 3281 | GitHub Today live snapshot |
 | 2026-11-10 | 5 | 551 | 20001 | 3310 | GitHub Today live snapshot |
+| 2026-11-11 | 4 | 531 | 20480 | 3468 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Claude|Claude]] · [[Topics/API|API]] · [[Topics/Computer-Use|Computer-Use]] · [[Topics/Managed-Agents|Managed-Agents]]
@@ -59,6 +60,8 @@ cd claude-quickstarts/customer-support-agent
 - [[Daily/2026/11/2026-11-09|2026-11-09]]
 
 - [[Daily/2026/11/2026-11-10|2026-11-10]]
+
+- [[Daily/2026/11/2026-11-11|2026-11-11]]
 
 ## GitHub 原始链接
 https://github.com/anthropics/claude-quickstarts
@@ -69,6 +72,11 @@ https://github.com/anthropics/claude-quickstarts
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 
 ## 官方资料复核（2026-11-10）
+- README：https://github.com/anthropics/claude-quickstarts/blob/HEAD/README.md
+- README blob SHA：`2697536d46ea6ef6bd1cdd9bdedb463d358c7139`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+
+## 官方资料复核（2026-11-11）
 - README：https://github.com/anthropics/claude-quickstarts/blob/HEAD/README.md
 - README blob SHA：`2697536d46ea6ef6bd1cdd9bdedb463d358c7139`
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
