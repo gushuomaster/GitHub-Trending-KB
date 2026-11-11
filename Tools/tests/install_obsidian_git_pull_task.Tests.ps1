@@ -10,10 +10,16 @@ function Assert-DoesNotMatch([string]$Pattern, [string]$Message) {
     if ($Source -match $Pattern) { throw $Message }
 }
 
-Assert-Matches '\[string\]\$DailyAt\s*=\s*"09:30"' 'Default trigger must be daily at 09:30'
-Assert-Matches 'New-ScheduledTaskTrigger\s+-Daily\s+-At' 'Installer must create a daily trigger'
-Assert-DoesNotMatch 'New-ScheduledTaskTrigger\s+-Once' 'Installer must not create a repeating interval trigger'
-Assert-DoesNotMatch 'RepetitionInterval' 'Installer must not configure scheduler-level repetitions'
+$Bytes = [IO.File]::ReadAllBytes($Installer)
+$HasBom = $Bytes.Length -ge 3 -and $Bytes[0] -eq 0xEF -and $Bytes[1] -eq 0xBB -and $Bytes[2] -eq 0xBF
+$IsAscii = -not ($Bytes | Where-Object { $_ -gt 0x7F } | Select-Object -First 1)
+if (-not ($HasBom -or $IsAscii)) { throw 'Installer contains non-ASCII legacy task names and must be saved as UTF-8 with BOM' }
+
+Assert-Matches '\[int\]\$IntervalMinutes\s*=\s*60' 'Default trigger must repeat every 60 minutes'
+Assert-Matches 'New-ScheduledTaskTrigger\s+-Once[\s\S]*?-RepetitionInterval\s+\(New-TimeSpan\s+-Minutes\s+\$IntervalMinutes\)' 'Installer must create an hourly repeating trigger'
+Assert-DoesNotMatch 'RepetitionDuration' 'Repetition must be indefinite'
+Assert-DoesNotMatch 'New-ScheduledTaskTrigger\s+-AtLogOn' 'AtLogOn triggers are denied to standard users and must not be used'
+Assert-Matches 'Repetition\.Interval' 'Installer must verify the registered repetition'
 Assert-Matches 'New-ScheduledTaskSettingsSet\s+-StartWhenAvailable' 'StartWhenAvailable must be enabled'
 Assert-Matches '-ExecutionTimeLimit\s+\(New-TimeSpan\s+-Minutes\s+45\)' 'Execution limit must be 45 minutes'
 Assert-Matches '-MultipleInstances\s+IgnoreNew' 'Overlapping task instances must be ignored'

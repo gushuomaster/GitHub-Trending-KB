@@ -1,18 +1,37 @@
-param(
+﻿param(
     [string]$VaultPath = "D:\gs\GitHub-Trending-KB",
     [string]$Branch = "main",
     [ValidateRange(1, 10)][int]$MaxAttempts = 3,
-    [ValidateRange(0, 86400)][int]$RetryDelaySeconds = 600
+    [ValidateRange(0, 86400)][int]$RetryDelaySeconds = 300
 )
+
+# The vault is a read-only mirror of GitHub origin/$Branch. Anything that exists
+# only locally (commits, tracked edits, a different branch, untracked files in the
+# way of incoming files) is backed up first and then replaced by the remote state.
 
 $ErrorActionPreference = "Stop"
 $AppDir = Join-Path $env:LOCALAPPDATA "GitHub-Trending-KB"
 $LogFile = Join-Path $AppDir "sync.log"
+$StatusFile = Join-Path $AppDir "status.json"
+$BackupRoot = Join-Path $AppDir "backups"
+$MaxLogBytes = 1MB
+$StaleLockMinutes = 10
+$FailureNotifyHours = 12
+$script:BackupNotice = $null
 
 function Write-Log([string]$Message) {
     New-Item -ItemType Directory -Path $AppDir -Force | Out-Null
     "[$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')] $Message" |
         Out-File -LiteralPath $LogFile -Append -Encoding utf8
+}
+
+function Invoke-LogRotation {
+    try {
+        if ((Test-Path -LiteralPath $LogFile) -and (Get-Item -LiteralPath $LogFile).Length -gt $MaxLogBytes) {
+            Move-Item -LiteralPath $LogFile -Destination ($LogFile + ".1") -Force
+        }
+    }
+    catch { return }
 }
 
 function Quote-NativeArgument([string]$Value) {
@@ -100,86 +119,256 @@ function Get-ClashProxyCandidates {
     catch { return }
 }
 
-function Invoke-ObsidianGitSyncAttempt {
-try {
-    if (-not (Test-Path -LiteralPath (Join-Path $VaultPath ".git"))) {
-        throw "Vault is not a Git repository: $VaultPath"
-    }
-    $script:GitExe = (Get-Command git -ErrorAction Stop).Source
-    $remote = Invoke-Git -GitArgs @("remote", "get-url", "origin")
-    if ($remote -notmatch '(?i)^(?:https://(?:[^/@]+@)?github\.com/|git@github\.com:|ssh://git@github\.com/)gushuomaster/GitHub-Trending-KB(?:\.git)?/?$') {
-        throw "origin does not point to the expected GitHub-Trending-KB repository"
-    }
-
+function Invoke-OriginFetch {
     try {
         $null = Invoke-Git -GitArgs @("fetch", "origin", $Branch)
+        return
+    }
+    catch { Write-Log ("Configured connection failed: " + $_.Exception.Message) }
+
+    $systemProxy = Get-WindowsSystemProxy
+    if ($systemProxy) {
+        try {
+            $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=$systemProxy", "fetch", "origin", $Branch)
+            $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "remote.origin.proxy", $systemProxy)
+            $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "http.sslBackend", "openssl")
+            Write-Log "OK: origin now follows the verified Windows system proxy"
+            return
+        }
+        catch { Write-Log ("Current Windows system proxy did not connect: " + $_.Exception.Message) }
+    }
+    foreach ($candidate in @(Get-ClashProxyCandidates | Where-Object { $_ })) {
+        if ($candidate -eq $systemProxy) { continue }
+        try {
+            $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=$candidate", "fetch", "origin", $Branch)
+            $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "remote.origin.proxy", $candidate)
+            $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "http.sslBackend", "openssl")
+            Write-Log "OK: origin now uses a verified local Clash listener"
+            return
+        }
+        catch { Write-Log ("Local proxy $candidate did not connect: " + $_.Exception.Message) }
+    }
+    Write-Log "Trying origin without a proxy (also supports Clash TUN mode)"
+    $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=", "fetch", "origin", $Branch)
+    Write-Log "OK: origin connected without an explicit Git proxy"
+}
+
+function Get-GitDir {
+    return (Join-Path $VaultPath ".git")
+}
+
+function Clear-StaleGitLocks {
+    # A crash or forced shutdown during a Git command leaves *.lock files that block
+    # every later run. Only locks older than the threshold are treated as abandoned.
+    $gitDir = Get-GitDir
+    $candidates = @(
+        (Join-Path $gitDir "index.lock"),
+        (Join-Path $gitDir "HEAD.lock"),
+        (Join-Path $gitDir "ORIG_HEAD.lock"),
+        (Join-Path $gitDir "FETCH_HEAD.lock"),
+        (Join-Path $gitDir "packed-refs.lock"),
+        (Join-Path $gitDir "config.lock"),
+        (Join-Path $gitDir "refs\heads\$Branch.lock"),
+        (Join-Path $gitDir "refs\remotes\origin\$Branch.lock")
+    )
+    $cutoff = (Get-Date).AddMinutes(-$StaleLockMinutes)
+    foreach ($lock in $candidates) {
+        if (-not (Test-Path -LiteralPath $lock)) { continue }
+        $item = Get-Item -LiteralPath $lock -Force
+        if ($item.LastWriteTime -lt $cutoff) {
+            Remove-Item -LiteralPath $lock -Force
+            Write-Log "OK: removed stale Git lock $($item.Name) from $($item.LastWriteTime.ToString('yyyy-MM-dd HH:mm:ss'))"
+        }
+    }
+}
+
+function Clear-InterruptedGitOperations {
+    # Leftover rebase/cherry-pick/revert state; the mirror reset discards it after backup.
+    $gitDir = Get-GitDir
+    $rebaseDirs = @("rebase-merge", "rebase-apply") | ForEach-Object { Join-Path $gitDir $_ } |
+        Where-Object { Test-Path -LiteralPath $_ }
+    if ($rebaseDirs) {
+        $null = Invoke-GitResult -GitArgs @("rebase", "--quit")
+        foreach ($dir in $rebaseDirs) {
+            # A crash can leave a state directory too incomplete for `rebase --quit`.
+            if (Test-Path -LiteralPath $dir) { Remove-Item -LiteralPath $dir -Recurse -Force }
+        }
+        Write-Log "OK: cleared an interrupted rebase"
+    }
+    if (Test-Path -LiteralPath (Join-Path $gitDir "sequencer")) {
+        $null = Invoke-GitResult -GitArgs @("cherry-pick", "--quit")
+        $null = Invoke-GitResult -GitArgs @("revert", "--quit")
+        $sequencer = Join-Path $gitDir "sequencer"
+        if (Test-Path -LiteralPath $sequencer) { Remove-Item -LiteralPath $sequencer -Recurse -Force }
+        Write-Log "OK: cleared an interrupted cherry-pick/revert"
+    }
+}
+
+function Get-LocalState([string]$Target) {
+    $branchResult = Invoke-GitResult -GitArgs @("symbolic-ref", "-q", "--short", "HEAD")
+    $currentBranch = if ($branchResult.ExitCode -eq 0) { $branchResult.Output } else { "" }
+    $head = Invoke-Git -GitArgs @("rev-parse", "HEAD")
+    $ahead = [int](Invoke-Git -GitArgs @("rev-list", "--count", "$Target..HEAD"))
+
+    # Whitespace-only edits (EOL conversion, or Obsidian's properties editor adding a
+    # blank line after frontmatter when a note is merely viewed) are discarded silently.
+    $semantic = $false
+    $whitespaceOnly = $false
+    if (Invoke-Git -GitArgs @("status", "--porcelain", "--untracked-files=no")) {
+        $diff = Invoke-GitResult -GitArgs @("diff", "HEAD", "--ignore-all-space", "--ignore-blank-lines", "--quiet")
+        if ($diff.ExitCode -gt 1) { throw "git diff failed with exit code $($diff.ExitCode): $($diff.Error)" }
+        if ($diff.ExitCode -eq 1) { $semantic = $true } else { $whitespaceOnly = $true }
+    }
+
+    # Untracked files that an incoming commit would overwrite.
+    $blocking = @()
+    if ($head -ne $Target) {
+        $added = Invoke-Git -GitArgs @("-c", "core.quotepath=false", "diff", "--name-only", "--no-renames", "--diff-filter=A", "HEAD", $Target)
+        foreach ($path in @($added -split "`n" | Where-Object { $_ })) {
+            $path = $path.Trim()
+            if (Test-Path -LiteralPath (Join-Path $VaultPath $path) -PathType Leaf) { $blocking += $path }
+        }
+    }
+
+    return [pscustomobject]@{
+        Branch = $currentBranch
+        Head = $head
+        Ahead = $ahead
+        Semantic = $semantic
+        WhitespaceOnly = $whitespaceOnly
+        BlockingUntracked = $blocking
+    }
+}
+
+function Save-LocalStateBackup([object]$State, [string]$Target) {
+    $stamp = Get-Date -Format "yyyyMMdd-HHmmss"
+    $dir = Join-Path $BackupRoot $stamp
+    New-Item -ItemType Directory -Path $dir -Force | Out-Null
+    $utf8 = New-Object System.Text.UTF8Encoding($false)
+    $notes = @(
+        "time=$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')",
+        "branch=$($State.Branch)",
+        "head=$($State.Head)",
+        "origin/$Branch=$Target",
+        "unpushed_commits=$($State.Ahead)",
+        "tracked_changes=$($State.Semantic)",
+        "untracked_in_the_way=$($State.BlockingUntracked -join ', ')"
+    )
+
+    if ($State.Ahead -gt 0 -or $State.Branch -ne $Branch) {
+        $null = Invoke-Git -GitArgs @("update-ref", "refs/sync-backup/$stamp/head", $State.Head)
+        $notes += "ref=refs/sync-backup/$stamp/head"
+        if ($State.Ahead -gt 0) {
+            $patch = Invoke-Git -GitArgs @("format-patch", "--stdout", "$Target..$($State.Head)")
+            [IO.File]::WriteAllText((Join-Path $dir "unpushed-commits.patch"), $patch + "`n", $utf8)
+        }
+    }
+    if ($State.Semantic) {
+        $stash = Invoke-Git -GitArgs @("-c", "user.name=GitHub-Trending-KB Sync", "-c", "user.email=sync@localhost", "stash", "create", "sync backup $stamp")
+        if ($stash) {
+            $null = Invoke-Git -GitArgs @("update-ref", "refs/sync-backup/$stamp/worktree", $stash)
+            $notes += "ref=refs/sync-backup/$stamp/worktree"
+        }
+        $diff = Invoke-Git -GitArgs @("diff", "HEAD", "--binary")
+        [IO.File]::WriteAllText((Join-Path $dir "tracked-changes.patch"), $diff + "`n", $utf8)
+    }
+    foreach ($path in $State.BlockingUntracked) {
+        $destination = Join-Path (Join-Path $dir "untracked") $path
+        New-Item -ItemType Directory -Path (Split-Path $destination -Parent) -Force | Out-Null
+        Copy-Item -LiteralPath (Join-Path $VaultPath $path) -Destination $destination -Force
+    }
+    [IO.File]::WriteAllText((Join-Path $dir "README.txt"), ($notes -join "`r`n") + "`r`n", $utf8)
+    Write-Log "BACKUP: local-only state saved to $dir ($($notes[3..6] -join '; '))"
+    $script:BackupNotice = $dir
+}
+
+function Invoke-ObsidianGitSyncAttempt {
+    # Returns $true on success, $false for a retryable failure, 'Fatal' when retrying cannot help.
+    try {
+        if (-not (Test-Path -LiteralPath (Join-Path $VaultPath ".git"))) {
+            Write-Log "Attempt failed: Vault is not a Git repository: $VaultPath"
+            return 'Fatal'
+        }
+        $script:GitExe = (Get-Command git -ErrorAction Stop).Source
+        $remote = Invoke-Git -GitArgs @("remote", "get-url", "origin")
+        if ($remote -notmatch '(?i)^(?:https://(?:[^/@]+@)?github\.com/|git@github\.com:|ssh://git@github\.com/)gushuomaster/GitHub-Trending-KB(?:\.git)?/?$') {
+            Write-Log "Attempt failed: origin does not point to the expected GitHub-Trending-KB repository"
+            return 'Fatal'
+        }
+
+        Clear-StaleGitLocks
+        Invoke-OriginFetch
+        Clear-InterruptedGitOperations
+
+        $target = Invoke-Git -GitArgs @("rev-parse", "origin/$Branch")
+        $state = Get-LocalState -Target $target
+        $upToDate = $state.Branch -eq $Branch -and $state.Head -eq $target -and -not $state.Semantic -and -not $state.WhitespaceOnly
+        if ($upToDate) {
+            $script:LastHead = $target.Substring(0, 7)
+            return $true
+        }
+
+        if ($state.Ahead -gt 0 -or $state.Semantic -or $state.Branch -ne $Branch -or $state.BlockingUntracked.Count -gt 0) {
+            Save-LocalStateBackup -State $state -Target $target
+        }
+        if ($state.Branch -ne $Branch) {
+            $null = Invoke-Git -GitArgs @("checkout", "-f", "-B", $Branch, "origin/$Branch")
+        }
+        $null = Invoke-Git -GitArgs @("reset", "--hard", "origin/$Branch")
+
+        $head = Invoke-Git -GitArgs @("rev-parse", "HEAD")
+        if ($head -ne $target) { throw "HEAD is $head after reset, expected $target" }
+        if (Invoke-Git -GitArgs @("status", "--porcelain", "--untracked-files=no")) {
+            throw "Tracked files remain dirty after reset; check .gitattributes"
+        }
+        $script:LastHead = $target.Substring(0, 7)
+        $note = if ($state.WhitespaceOnly) { "; discarded whitespace-only local edits" } else { "" }
+        Write-Log "OK: local vault mirrored to origin/$Branch at $($script:LastHead) (was $($state.Head.Substring(0, 7)))$note"
+        return $true
     }
     catch {
-        $connected = $false
-        $systemProxy = Get-WindowsSystemProxy
-        if ($systemProxy) {
-            Write-Log "Configured connection failed; trying current Windows system proxy"
-            try {
-                $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=$systemProxy", "fetch", "origin", $Branch)
-                $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "remote.origin.proxy", $systemProxy)
-                $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "http.sslBackend", "openssl")
-                Write-Log "OK: origin now follows the verified Windows system proxy"
-                $connected = $true
-            }
-            catch { Write-Log ("Current Windows system proxy did not connect: " + $_.Exception.Message) }
-        }
-        if (-not $connected) {
-            $clashCandidates = @(Get-ClashProxyCandidates | Where-Object { $_ })
-            foreach ($candidate in $clashCandidates) {
-                if ($candidate -eq $systemProxy) { continue }
-                try {
-                    $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=$candidate", "fetch", "origin", $Branch)
-                    $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "remote.origin.proxy", $candidate)
-                    $null = Invoke-Git -GitArgs @("config", "--local", "--replace-all", "http.sslBackend", "openssl")
-                    Write-Log "OK: origin now uses a verified local Clash listener"
-                    $connected = $true
-                    break
-                }
-                catch { Write-Log ("Local proxy $candidate did not connect: " + $_.Exception.Message) }
-            }
-        }
-        if (-not $connected) {
-            Write-Log "Trying origin without a proxy (also supports Clash TUN mode)"
-            $null = Invoke-Git -GitArgs @("-c", "http.sslBackend=openssl", "-c", "remote.origin.proxy=", "fetch", "origin", $Branch)
-            Write-Log "OK: origin connected without an explicit Git proxy"
-        }
+        Write-Log ("Attempt failed: " + $_.Exception.Message)
+        return $false
     }
-    # Keep the vault safe: only discard changes that Git confirms are whitespace/EOL-only.
-    $staged = Invoke-Git -GitArgs @("diff", "--cached", "--name-only")
-    if ($staged) {
-        throw "Staged changes exist; refusing to alter the vault: $staged"
-    }
-
-    $worktreeStatus = Invoke-Git -GitArgs @("status", "--porcelain", "--untracked-files=no")
-    if ($worktreeStatus) {
-        $semanticDiff = Invoke-GitResult -GitArgs @("diff", "--ignore-space-at-eol", "--quiet")
-        if ($semanticDiff.ExitCode -gt 1) {
-            throw "git diff failed with exit code $($semanticDiff.ExitCode): $($semanticDiff.Error)"
-        }
-        if ($semanticDiff.ExitCode -eq 1) {
-            throw "Semantic tracked changes exist; refusing to alter the vault"
-        }
-        $null = Invoke-Git -GitArgs @("restore", "--worktree", "--", ":/")
-        if (Invoke-Git -GitArgs @("status", "--porcelain", "--untracked-files=no")) {
-            throw "Tracked files remain dirty after EOL restore; check .gitattributes"
-        }
-        Write-Log "OK: removed EOL-only tracked changes before fast-forward"
-    }
-
-    $null = Invoke-Git -GitArgs @("merge", "--ff-only", "origin/$Branch")
-    $head = Invoke-Git -GitArgs @("rev-parse", "--short", "HEAD")
-    Write-Log "OK: local vault fast-forwarded to origin/$Branch at $head"
-    return $true
 }
-catch {
-    Write-Log ("Attempt failed: " + $_.Exception.Message)
-    return $false
+
+function Read-SyncStatus {
+    try {
+        if (Test-Path -LiteralPath $StatusFile) {
+            return (Get-Content -LiteralPath $StatusFile -Raw -Encoding UTF8 | ConvertFrom-Json)
+        }
+    }
+    catch { }
+    return $null
 }
+
+function Write-SyncStatus([string]$Result, [string]$Message, [string]$LastFailureNotice) {
+    try {
+        $status = [ordered]@{
+            time = (Get-Date -Format 'yyyy-MM-dd HH:mm:ss')
+            result = $Result
+            head = $script:LastHead
+            message = $Message
+            lastFailureNotice = $LastFailureNotice
+        }
+        New-Item -ItemType Directory -Path $AppDir -Force | Out-Null
+        [IO.File]::WriteAllText($StatusFile, ($status | ConvertTo-Json), (New-Object System.Text.UTF8Encoding($false)))
+    }
+    catch { Write-Log ("Could not write status file: " + $_.Exception.Message) }
+}
+
+function Show-SyncNotification([string]$Title, [string]$Body) {
+    try {
+        $null = [Windows.UI.Notifications.ToastNotificationManager, Windows.UI.Notifications, ContentType = WindowsRuntime]
+        $null = [Windows.Data.Xml.Dom.XmlDocument, Windows.Data.Xml.Dom.XmlDocument, ContentType = WindowsRuntime]
+        $xml = New-Object Windows.Data.Xml.Dom.XmlDocument
+        $xml.LoadXml(("<toast><visual><binding template='ToastGeneric'><text>{0}</text><text>{1}</text></binding></visual></toast>" -f
+            [Security.SecurityElement]::Escape($Title), [Security.SecurityElement]::Escape($Body)))
+        $appId = '{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\WindowsPowerShell\v1.0\powershell.exe'
+        [Windows.UI.Notifications.ToastNotificationManager]::CreateToastNotifier($appId).Show(
+            (New-Object Windows.UI.Notifications.ToastNotification $xml))
+    }
+    catch { Write-Log ("Notification failed: " + $_.Exception.Message) }
 }
 
 function Start-ObsidianGitSync {
@@ -205,23 +394,46 @@ function Start-ObsidianGitSync {
             return $true
         }
 
-        Write-Log "Starting sync run for $VaultPath; max attempts=$AttemptLimit"
+        Invoke-LogRotation
+        $script:BackupNotice = $null
+        $script:LastHead = $null
+        $previous = Read-SyncStatus
+        $previousNotice = if ($previous -and $previous.lastFailureNotice) { [string]$previous.lastFailureNotice } else { "" }
+
         for ($attempt = 1; $attempt -le $AttemptLimit; $attempt++) {
-            Write-Log "Attempt $attempt of $AttemptLimit"
-            $succeeded = $false
-            try { $succeeded = [bool](& $AttemptAction) }
+            $outcome = $false
+            try { $outcome = @(& $AttemptAction)[-1] }
             catch { Write-Log ("Attempt failed: " + $_.Exception.Message) }
-            if ($succeeded) {
-                Write-Log "Sync run completed successfully on attempt $attempt"
+            if ($outcome -is [string] -and $outcome -eq 'Fatal') {
+                Write-Log "ERROR: sync stopped on attempt $attempt; the error is not retryable"
+                break
+            }
+            if ($outcome -eq $true) {
+                if ($attempt -gt 1) { Write-Log "Sync run completed successfully on attempt $attempt" }
+                Write-SyncStatus -Result "ok" -Message "attempt $attempt" -LastFailureNotice ""
+                if ($script:BackupNotice) {
+                    Show-SyncNotification "GitHub-Trending-KB 已同步" "本地独有的改动已备份后以 GitHub 为准覆盖：$($script:BackupNotice)"
+                }
                 return $true
             }
             if ($attempt -lt $AttemptLimit) {
-                Write-Log "Waiting $DelaySeconds seconds before retry"
+                Write-Log "Attempt $attempt of $AttemptLimit failed; waiting $DelaySeconds seconds before retry"
                 & $DelayAction $DelaySeconds
             }
         }
 
-        Write-Log "ERROR: sync run failed after $AttemptLimit attempts"
+        Write-Log "ERROR: sync run failed; local vault left unchanged until the next hourly run"
+        $notice = $previousNotice
+        $due = $true
+        if ($previousNotice) {
+            try { $due = ((Get-Date) - [datetime]::ParseExact($previousNotice, 'yyyy-MM-dd HH:mm:ss', $null)).TotalHours -ge $FailureNotifyHours }
+            catch { $due = $true }
+        }
+        if ($due) {
+            Show-SyncNotification "GitHub-Trending-KB 同步失败" "本地知识图谱未能从 GitHub 更新，详情见 $LogFile"
+            $notice = Get-Date -Format 'yyyy-MM-dd HH:mm:ss'
+        }
+        Write-SyncStatus -Result "failed" -Message "see sync.log" -LastFailureNotice $notice
         return $false
     }
     finally {

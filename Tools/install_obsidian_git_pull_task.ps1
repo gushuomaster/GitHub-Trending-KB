@@ -1,12 +1,13 @@
-param(
+﻿param(
     [string]$VaultPath = "D:\gs\GitHub-Trending-KB",
-    [string]$DailyAt = "09:30",
+    [ValidateRange(15, 720)][int]$IntervalMinutes = 60,
     [string]$TaskName = "GitHub-Trending-KB Local Sync"
 )
 
+# Hourly repetition is the supervision mechanism: a run lost to sleep, a crash, or a
+# proxy that is not up yet is retried within the hour. AtLogOn triggers are not used
+# because Task Scheduler denies them to a standard user (see sync-failure-analysis).
 $ErrorActionPreference = "Stop"
-try { $DailyTime = [datetime]::ParseExact($DailyAt, "HH:mm", [Globalization.CultureInfo]::InvariantCulture) }
-catch { throw "DailyAt must use 24-hour HH:mm format." }
 
 $Source = Join-Path $PSScriptRoot "obsidian_git_pull.ps1"
 if (-not (Test-Path -LiteralPath $Source)) { throw "Sync script not found: $Source" }
@@ -35,14 +36,23 @@ $Arguments = '-NoProfile -NonInteractive -WindowStyle Hidden -ExecutionPolicy By
 try {
     Copy-Item -LiteralPath $Source -Destination $Installed -Force
     $Action = New-ScheduledTaskAction -Execute $PowerShell -Argument $Arguments
-    $DailyTrigger = New-ScheduledTaskTrigger -Daily -At $DailyTime
+    $RepeatTrigger = New-ScheduledTaskTrigger -Once -At (Get-Date).Date.AddMinutes(5) `
+        -RepetitionInterval (New-TimeSpan -Minutes $IntervalMinutes)
     $Settings = New-ScheduledTaskSettingsSet -StartWhenAvailable `
         -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
         -ExecutionTimeLimit (New-TimeSpan -Minutes 45) -MultipleInstances IgnoreNew
     Register-ScheduledTask -TaskName $TaskName -Action $Action `
-        -Trigger $DailyTrigger -Settings $Settings `
-        -Description "Sync GitHub-Trending-KB origin/main to the read-only Obsidian vault" `
+        -Trigger $RepeatTrigger -Settings $Settings `
+        -Description "Mirror GitHub-Trending-KB origin/main into the read-only Obsidian vault every $IntervalMinutes minutes" `
         -Force -ErrorAction Stop | Out-Null
+    $Registered = Get-ScheduledTask -TaskName $TaskName -ErrorAction Stop
+    $Interval = $Registered.Triggers[0].Repetition.Interval
+    if (-not $Interval -or [Xml.XmlConvert]::ToTimeSpan($Interval).TotalMinutes -ne $IntervalMinutes) {
+        throw "Registered trigger repetition is '$Interval', expected every $IntervalMinutes minutes."
+    }
+    if ($Registered.Triggers[0].Repetition.Duration) {
+        throw "Registered trigger repetition must be indefinite, got '$($Registered.Triggers[0].Repetition.Duration)'."
+    }
 }
 catch {
     $ConfigurationError = $_.Exception.Message
@@ -71,8 +81,8 @@ Remove-ItemProperty -Path $RunKey -Name $RunName -ErrorAction SilentlyContinue
 
 & $PowerShell @ImmediateArgs
 if ($LASTEXITCODE -ne 0) {
-    Write-Warning "Daily task is installed, but the immediate three-attempt sync failed. Inspect $AppDir\sync.log"
+    Write-Warning "Hourly task is installed, but the immediate sync failed. Inspect $AppDir\sync.log"
     exit 1
 }
-Write-Host "Local sync installed via Task Scheduler (daily at $DailyAt; three attempts per run)"
+Write-Host "Local sync installed via Task Scheduler (every $IntervalMinutes minutes; up to three attempts per run)"
 Write-Host "Local vault is synced. Log: $AppDir\sync.log"
