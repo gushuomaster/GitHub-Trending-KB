@@ -57,16 +57,16 @@ snapshot_status: live
 它是行为约束而非静态证明，不能保证所有简化都正确；严格等级可能压制确有价值的扩展性设计，仍需人类结合长期需求审查。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-01 | 5 | 743 | 149154 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-02 | 1 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
-| 2026-10-03 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
-| 2026-10-04 | 1 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
-| 2026-10-05 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
-| 2026-10-21 | 4 | 1208 | 169603 | GitHub Today live snapshot |
-| 2026-10-22 | 5 | 2079 | 171585 | GitHub Today live snapshot |
-| 2026-10-23 | 3 | 1948 | 173432 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-10-01 | 5 | 743 | 149154 | 8018 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-02 | 1 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
+| 2026-10-03 | 4 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
+| 2026-10-04 | 1 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-05 | 4 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
+| 2026-10-21 | 4 | 1208 | 169603 | 9223 | GitHub Today live snapshot |
+| 2026-10-22 | 5 | 2079 | 171585 | 9340 | GitHub Today live snapshot |
+| 2026-10-23 | 3 | 1948 | 173432 | 9436 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]

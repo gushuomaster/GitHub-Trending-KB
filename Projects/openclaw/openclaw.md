@@ -43,9 +43,9 @@ status: active
 主会话工具默认可能直接在宿主机运行；外部消息必须视为不可信输入，连接其他用户或公开 Gateway 前应配置配对、沙箱、网络暴露和最小权限。多渠道还各自涉及账号和平台条款。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-10-01 | 7 | +136 | 390984 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-10-01 | 7 | +136 | 390984 | 82221 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]]

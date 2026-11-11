@@ -50,15 +50,15 @@ cli-hub install blender
 需要目标软件源码、可调用 API 或现成 harness；生成结果的覆盖度受软件架构影响，不能用单元测试替代真实软件中的 E2E 验证。桌面软件的授权、插件兼容性与运行环境仍需单独处理。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-24 | 10 | 41 | 49876 | 仓库已存快照 |
-| 2026-09-25 | 8 | 未保存 | 未保存 | 日期匹配语言不限归档；旧卡中的 415/50267 不作为历史快照值 |
-| 2026-10-15 | 6 | 103 | 52471 | GitHub Today live snapshot |
-| 2026-10-17 | 4 | 281 | 53485 | GitHub Today live snapshot |
-| 2026-10-18 | 4 | 574 | 54049 | GitHub Today live snapshot |
-| 2026-10-19 | 8 | 589 | 54578 | GitHub Today live snapshot |
-| 2026-10-20 | 10 | 606 | 55221 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-24 | 10 | 41 | 49876 | 4599 | 仓库已存快照 |
+| 2026-09-25 | 8 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档；旧卡中的 415/50267 不作为历史快照值 |
+| 2026-10-15 | 6 | 103 | 52471 | 4773 | GitHub Today live snapshot |
+| 2026-10-17 | 4 | 281 | 53485 | 4845 | GitHub Today live snapshot |
+| 2026-10-18 | 4 | 574 | 54049 | 4904 | GitHub Today live snapshot |
+| 2026-10-19 | 8 | 589 | 54578 | 4946 | GitHub Today live snapshot |
+| 2026-10-20 | 10 | 606 | 55221 | 4985 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Automation|Automation]]

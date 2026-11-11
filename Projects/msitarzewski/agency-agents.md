@@ -41,11 +41,11 @@ snapshot_status: live
 主要是角色和工作流定义，不能保证自动形成可协作的完整团队；批量安装会增加选择成本和角色冲突，模型、工具权限与执行能力由宿主提供。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-06 | 12 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
-| 2026-10-07 | 10 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
-| 2026-10-21 | 9 | 562 | 162325 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-10-06 | 12 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
+| 2026-10-07 | 10 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-21 | 9 | 562 | 162325 | 26226 | GitHub Today live snapshot |
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-06|2026-10-06]]

@@ -48,11 +48,11 @@ curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy
 它是一套行为准则，不能保证模型判断正确；对显然的一行修复也机械执行完整流程可能降低效率。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-09 | 8 | 未保存 | 未保存 | 归档顺序；统计来自原有快照或未保存 |
-| 2026-10-11 | 13 | 278 | 218256 | GitHub Today live snapshot |
-| 2026-10-27 | 14 | 638 | 224634 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-09 | 8 | 未保存 | 未保存 | 未保存 | 归档顺序；统计来自原有快照或未保存 |
+| 2026-10-11 | 13 | 278 | 218256 | 21980 | GitHub Today live snapshot |
+| 2026-10-27 | 14 | 638 | 224634 | 22470 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 

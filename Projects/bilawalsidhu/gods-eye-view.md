@@ -38,15 +38,15 @@ topics: ["OSINT","Visualization","Geospatial"]
 - 依赖多个公开数据源，更新延迟、覆盖范围和 fallback 会影响结论；公开位置数据也涉及隐私、授权和使用边界，不能当作权威情报系统。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-11 | 2 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-12 | 2 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-13 | 1 | 2265 | 未保存 | 日期匹配来源 |
-| 2026-09-14 | 3 | 2898 | 未保存 | 日期匹配来源 |
-| 2026-10-12 | 5 | 886 | 51643 | GitHub Today live snapshot |
-| 2026-10-13 | 2 | 1895 | 53623 | GitHub Today live snapshot |
-| 2026-10-14 | 2 | 1961 | 55341 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-11 | 2 | 未保存 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-12 | 2 | 未保存 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-13 | 1 | 2265 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-14 | 3 | 2898 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-12 | 5 | 886 | 51643 | 10373 | GitHub Today live snapshot |
+| 2026-10-13 | 2 | 1895 | 53623 | 10601 | GitHub Today live snapshot |
+| 2026-10-14 | 2 | 1961 | 55341 | 10823 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/OSINT|OSINT]] · [[Topics/Visualization|Visualization]] · [[Topics/Geospatial|Geospatial]]

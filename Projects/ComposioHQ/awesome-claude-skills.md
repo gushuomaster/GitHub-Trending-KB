@@ -41,9 +41,9 @@ status: active
 这是社区清单而非安全审计或质量保证；仓库中的第三方 Skill、脚本、外链和权限应逐个检查。连接外部应用会扩大数据与操作权限，生产使用需最小授权和审计。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-10-01 | 8 | +123 | 76119 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-10-01 | 8 | +123 | 76119 | 8879 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]]

@@ -61,20 +61,20 @@ npx ecc-universal@2.2.3 setup
 ```
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-09 | 4 | 1427 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/65c9872b096ffb485055f7f8af63b7f68a5853f9/archive/repository/2026/2026-09-09/(null).json) |
-| 2026-09-10 | 13 | 1151 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json) |
-| 2026-09-17 | 21 | 1046 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json) |
-| 2026-09-18 | 13 | 1173 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json) |
-| 2026-09-19 | 4 | 965 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json) |
-| 2026-09-21 | 1 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json) |
-| 2026-10-04 | 3 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
-| 2026-10-16 | 10 | 1013 | 280363 | GitHub Today live snapshot |
-| 2026-10-17 | 3 | 1057 | 281489 | GitHub Today live snapshot |
-| 2026-10-18 | 3 | 1145 | 282492 | GitHub Today live snapshot |
-| 2026-10-27 | 5 | 896 | 289824 | GitHub Today live snapshot |
-| 2026-10-28 | 8 | 1165 | 290860 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-09 | 4 | 1427 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/65c9872b096ffb485055f7f8af63b7f68a5853f9/archive/repository/2026/2026-09-09/(null).json) |
+| 2026-09-10 | 13 | 1151 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json) |
+| 2026-09-17 | 21 | 1046 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/d3548164a40d3c186f33b9a0356e6e30aa857f2b/archive/repository/2026/2026-09-17/(null).json) |
+| 2026-09-18 | 13 | 1173 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json) |
+| 2026-09-19 | 4 | 965 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/50dbf9e6ba9fec94c2305ac03448b8ddd7e15988/archive/repository/2026/2026-09-19/(null).json) |
+| 2026-09-21 | 1 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c43e789b1b3914b81dcd4289a4af180b19cc8403/archive/repository/2026/2026-09-21/(null).json) |
+| 2026-10-04 | 3 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-16 | 10 | 1013 | 280363 | 41699 | GitHub Today live snapshot |
+| 2026-10-17 | 3 | 1057 | 281489 | 41849 | GitHub Today live snapshot |
+| 2026-10-18 | 3 | 1145 | 282492 | 41985 | GitHub Today live snapshot |
+| 2026-10-27 | 5 | 896 | 289824 | 42942 | GitHub Today live snapshot |
+| 2026-10-28 | 8 | 1165 | 290860 | 43074 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]

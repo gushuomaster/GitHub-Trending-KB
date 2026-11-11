@@ -46,10 +46,10 @@ pip install voxcpm
 - 2B 模型和实时推理需要 CUDA 12、较新 PyTorch 与足够显存；声音克隆必须取得本人同意，并防范冒用、欺诈和未经授权的音色传播。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-15 | 14 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-10-24 | 7 | 150 | 40244 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-15 | 14 | 未保存 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-24 | 7 | 150 | 40244 | 4577 | GitHub Today live snapshot |
 
 
 ## 相关主题

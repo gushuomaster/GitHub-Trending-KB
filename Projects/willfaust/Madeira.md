@@ -43,10 +43,10 @@ git clone --recurse-submodules https://github.com/willfaust/Madeira.git
 官方明确它是研究项目而非产品；存在单游戏兼容、低帧率、崩溃和破坏性变更。无法通过 App Store 分发；免费 Apple ID 签名每 7 天需重装，且分发衍生作品受 GPL-3.0-or-later 约束。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-28 | 9 | +83 | 889 |
-| 2026-09-30 | 12 | +81 | 1089 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-28 | 9 | +83 | 889 | 155 |
+| 2026-09-30 | 12 | +81 | 1089 | 188 |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]]

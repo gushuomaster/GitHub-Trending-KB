@@ -37,11 +37,11 @@ topics: ["Agent Framework", "Generative UI", "TypeScript"]
 - 框架仍快速迭代，API 和应用结构可能变化；共享 Action 需要严格设计鉴权、输入校验和副作用审批，否则 UI 与 Agent 会同时扩大业务写权限。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-21 | 2 | 未保存 | 未保存 | 日期匹配归档；当日统计未保存 |
-| 2026-09-22 | 1 | 607 | 5877 | 仓库已存快照 |
-| 2026-09-24 | 4 | 135 | 6491 | 仓库已存快照 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-21 | 2 | 未保存 | 未保存 | 未保存 | 日期匹配归档；当日统计未保存 |
+| 2026-09-22 | 1 | 607 | 5877 | 未保存 | 仓库已存快照 |
+| 2026-09-24 | 4 | 135 | 6491 | 581 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/Agent Framework|Agent Framework]] · [[Topics/Generative UI|Generative UI]] · [[Topics/TypeScript|TypeScript]]

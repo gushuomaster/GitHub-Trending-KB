@@ -39,10 +39,10 @@ status: active
 项目明确标为 Alpha / Work in Progress，README 也说明尚无独立装配指南；10.5 GHz 高功率射频、20 km 版本的 GaN 功放和高压电源具有安全与监管风险。制造、发射和户外测试前必须由合格工程师审查，并取得当地频谱许可；硬件采用 CERN-OHL-P，软件/固件采用 MIT。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-29 | 4 | +158 | 25751 |
-| 2026-10-01 | 16 | +263 | 26412 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-29 | 4 | +158 | 25751 | 5885 |
+| 2026-10-01 | 16 | +263 | 26412 | 5970 |
 
 ## 相关主题
 [[Topics/Hardware|Hardware]] · [[Topics/Signal-Processing|Signal-Processing]]

@@ -55,19 +55,19 @@ codex plugin add diagram-design@diagram-design
 ```
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-09 | 2 | 710 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/65c9872b096ffb485055f7f8af63b7f68a5853f9/archive/repository/2026/2026-09-09/(null).json) |
-| 2026-09-10 | 6 | 2286 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json) |
-| 2026-09-11 | 8 | 2249 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/1920ac964597c62bab2a311888de53a13e8798ad/archive/repository/2026/2026-09-11/(null).json) |
-| 2026-10-07 | 12 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
-| 2026-10-08 | 5 | 825 | 45073 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-09 | 2 | 1160 | 46302 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-10 | 4 | 1739 | 47837 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-11 | 4 | 1190 | 48924 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-12 | 4 | 1083 | 50304 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-13 | 6 | 2081 | 52558 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-14 | 5 | 1815 | 54075 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-09 | 2 | 710 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/65c9872b096ffb485055f7f8af63b7f68a5853f9/archive/repository/2026/2026-09-09/(null).json) |
+| 2026-09-10 | 6 | 2286 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/186fd83e5bf5c5918ad47061fb0276a99cf23ab6/archive/repository/2026/2026-09-10/(null).json) |
+| 2026-09-11 | 8 | 2249 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/1920ac964597c62bab2a311888de53a13e8798ad/archive/repository/2026/2026-09-11/(null).json) |
+| 2026-10-07 | 12 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-08 | 5 | 825 | 45073 | 2895 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-09 | 2 | 1160 | 46302 | 2947 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-10 | 4 | 1739 | 47837 | 3033 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-11 | 4 | 1190 | 48924 | 3091 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-12 | 4 | 1083 | 50304 | 3197 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-13 | 6 | 2081 | 52558 | 3323 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-14 | 5 | 1815 | 54075 | 3430 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]

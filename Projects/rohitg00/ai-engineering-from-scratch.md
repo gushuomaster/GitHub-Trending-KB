@@ -46,11 +46,11 @@ python3 phases/00-setup-and-tooling/01-dev-environment/code/verify.py --route be
 课程体量约 342 小时，不能把浏览内容当成完成；不同实验需要 Python、Node 或特定 Agent host，跳过先修知识会明显增加理解成本。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-25 | 1 | +310 | 56384 |
-| 2026-09-28 | 4 | +790 | 59792 |
-| 2026-09-30 | 10 | +786 | 61329 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-25 | 1 | +310 | 56384 | 未保存 |
+| 2026-09-28 | 4 | +790 | 59792 | 10284 |
+| 2026-09-30 | 10 | +786 | 61329 | 10528 |
 
 
 ## 历史归档补记

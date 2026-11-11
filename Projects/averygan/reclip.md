@@ -42,9 +42,9 @@ status: active
 站点支持依赖 yt-dlp，平台改版可能导致临时失效；项目没有用户、权限、队列隔离等团队级能力。仅应下载自己拥有、获授权或法律和平台条款允许的内容，不能用来规避 DRM、付费或版权限制。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-30 | 8 | +113 | 10078 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-30 | 8 | +113 | 10078 | 1536 |
 
 ## 相关主题
 [[Topics/Video-AI|Video-AI]]

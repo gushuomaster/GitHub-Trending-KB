@@ -41,10 +41,10 @@ status: active
 本地开源模式主要面向文本型 PDF；扫描件和图片理解需要 Cloud。检索本身仍依赖 LLM 推理，会产生 API 成本、延迟和模型错误；官方 benchmark 不能代替在自己的文档和问题集上做引用正确性评测。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-30 | 11 | +835 | 37330 |
-| 2026-10-01 | 17 | +1097 | 38110 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-30 | 11 | +835 | 37330 | 3262 |
+| 2026-10-01 | 17 | +1097 | 38110 | 3305 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/RAG|RAG]]

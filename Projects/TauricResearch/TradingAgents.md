@@ -47,12 +47,12 @@ tradingagents --ticker NVDA --date 2026-09-23 --analysts market,news,fundamental
 - 历史日期虽尽量使用时点数据，但新闻和社交来源会随时间变化，非美国公司基本面也可能无法证明历史发布时间；回测不能保证实盘表现，任何交易都需独立风控。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-10 | 7 | 367 | 未保存 | 日期匹配来源 |
-| 2026-09-15 | 11 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-10-26 | 6 | 381 | 114576 | GitHub Today live snapshot |
-| 2026-10-27 | 2 | 1395 | 116066 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-10 | 7 | 367 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-15 | 11 | 未保存 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-26 | 6 | 381 | 114576 | 22128 | GitHub Today live snapshot |
+| 2026-10-27 | 2 | 1395 | 116066 | 22274 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Trading|Trading]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/Finance|Finance]]

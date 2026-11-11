@@ -42,10 +42,10 @@ status: active
 安装桌面端不会自动安装 MCP 可执行文件；100 多种数据源的能力和驱动成熟度不完全一致。MCP 的 Full access 可执行高风险写入，生产库应使用独立只读账号、连接白名单和备份；Docker/Web 部署还要妥善保护登录密码与持久化密钥。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-30 | 5 | +232 | 21968 |
-| 2026-10-01 | 15 | +1138 | 23161 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-30 | 5 | +232 | 21968 | 2086 |
+| 2026-10-01 | 15 | +1138 | 23161 | 2149 |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/AI|AI]]

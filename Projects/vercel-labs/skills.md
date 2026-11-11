@@ -43,10 +43,10 @@ npx skills add vercel-labs/agent-skills --skill web-design-guidelines -g -a code
 - CLI 负责获取和放置文件，不代表 Skill 已经过安全或质量审核；安装第三方仓库前仍需检查版本、脚本、权限和供应链来源。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-11 | 15 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
-| 2026-10-14 | 6 | 190 | 34481 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-11 | 15 | 未保存 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-10-14 | 6 | 190 | 34481 | 2952 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]

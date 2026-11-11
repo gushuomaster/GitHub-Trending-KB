@@ -41,9 +41,9 @@ status: active
 仓库定位是参考实现，不是所有服务器的生产目录；部分旧服务器已归档或被官方第三方实现替代。Filesystem、Git 等工具必须限制路径和写权限，第三方服务器也不等于官方审核。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-10-01 | 12 | +50 | 90805 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-10-01 | 12 | +50 | 90805 | 11724 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/MCP|MCP]]

@@ -48,18 +48,18 @@ claude plugin install finance@knowledge-work-plugins
 插件是通用起点，必须按企业术语和流程定制；连接器会访问外部业务系统，应遵循最小权限并复核输出。它主要面向 Claude Cowork/Claude Code，不能把官方目录等同为所有插件均适合未经审计直接启用。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-17 | 7 | 未保存 | 未保存 | 仓库已存快照 |
-| 2026-09-18 | 8 | 287 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-19 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
-| 2026-09-20 | 13 | 280 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
-| 2026-10-09 | 7 | 392 | 27526 | 当日实时快照 |
-| 2026-10-10 | 6 | 709 | 28239 | GitHub Today live snapshot |
-| 2026-10-11 | 12 | 625 | 28810 | GitHub Today live snapshot |
-| 2026-10-21 | 11 | 267 | 30781 | GitHub Today live snapshot |
-| 2026-10-23 | 2 | 303 | 31578 | GitHub Today live snapshot |
-| 2026-10-24 | 3 | 635 | 32199 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-17 | 7 | 未保存 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-18 | 8 | 287 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-19 | 10 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+| 2026-09-20 | 13 | 280 | 未保存 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
+| 2026-10-09 | 7 | 392 | 27526 | 3197 | 当日实时快照 |
+| 2026-10-10 | 6 | 709 | 28239 | 3243 | GitHub Today live snapshot |
+| 2026-10-11 | 12 | 625 | 28810 | 3277 | GitHub Today live snapshot |
+| 2026-10-21 | 11 | 267 | 30781 | 3463 | GitHub Today live snapshot |
+| 2026-10-23 | 2 | 303 | 31578 | 3530 | GitHub Today live snapshot |
+| 2026-10-24 | 3 | 635 | 32199 | 3572 | GitHub Today live snapshot |
 
 
 ## 相关主题

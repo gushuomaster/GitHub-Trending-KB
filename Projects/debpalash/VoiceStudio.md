@@ -41,23 +41,23 @@ snapshot_status: live
 - 模型下载占用较多磁盘，CPU 可用但较慢，Intel Mac 需要远程后端；克隆他人声音必须取得同意，并处理授权、冒用与生成内容标识。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-14 | 12 | 未保存 | 未保存 | 仓库已存快照 |
-| 2026-09-15 | 4 | 未保存 | 未保存 | 仓库已存快照 |
-| 2026-09-16 | 4 | 2081 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-28 | 3 | 3086 | 40985 | 仓库已存快照 |
-| 2026-09-29 | 1 | 3221 | 43987 | 仓库已存快照 |
-| 2026-09-30 | 1 | 4758 | 48048 | 仓库已存快照 |
-| 2026-10-01 | 2 | 3483 | 50401 | 仓库已存快照 |
-| 2026-10-14 | 3 | 1748 | 63197 | GitHub Today live snapshot |
-| 2026-10-15 | 2 | 3538 | 66275 | GitHub Today live snapshot |
-| 2026-10-16 | 5 | 3024 | 69044 | GitHub Today live snapshot |
-| 2026-10-17 | 10 | 2301 | 71146 | GitHub Today live snapshot |
-| 2026-10-18 | 10 | 2125 | 73316 | GitHub Today live snapshot |
-| 2026-10-19 | 9 | 2082 | 75296 | GitHub Today live snapshot |
-| 2026-10-26 | 3 | 1592 | 86762 | GitHub Today live snapshot |
-| 2026-10-27 | 11 | 2297 | 89187 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-14 | 12 | 未保存 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-15 | 4 | 未保存 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-16 | 4 | 2081 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-28 | 3 | 3086 | 40985 | 4864 | 仓库已存快照 |
+| 2026-09-29 | 1 | 3221 | 43987 | 5090 | 仓库已存快照 |
+| 2026-09-30 | 1 | 4758 | 48048 | 5388 | 仓库已存快照 |
+| 2026-10-01 | 2 | 3483 | 50401 | 5594 | 仓库已存快照 |
+| 2026-10-14 | 3 | 1748 | 63197 | 7032 | GitHub Today live snapshot |
+| 2026-10-15 | 2 | 3538 | 66275 | 7312 | GitHub Today live snapshot |
+| 2026-10-16 | 5 | 3024 | 69044 | 7558 | GitHub Today live snapshot |
+| 2026-10-17 | 10 | 2301 | 71146 | 7780 | GitHub Today live snapshot |
+| 2026-10-18 | 10 | 2125 | 73316 | 8023 | GitHub Today live snapshot |
+| 2026-10-19 | 9 | 2082 | 75296 | 8240 | GitHub Today live snapshot |
+| 2026-10-26 | 3 | 1592 | 86762 | 9603 | GitHub Today live snapshot |
+| 2026-10-27 | 11 | 2297 | 89187 | 9842 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Audio|Audio]] · [[Topics/Voice|Voice]] · [[Topics/Local AI|Local AI]]

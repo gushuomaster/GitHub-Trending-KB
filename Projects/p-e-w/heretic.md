@@ -45,10 +45,10 @@ heretic Qwen/Qwen3-4B-Instruct-2507
 默认会抑制拒答，这可能同时削弱安全边界；修改后的模型应只在明确授权、隔离且有评测的环境使用。需要能在本地加载目标模型的显存/内存，4B 示例在 RTX 3090 也约需 30–40 分钟；1.x 配置与 2.x 不兼容，上传模型还涉及许可证和分发责任。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-11-03 | 15 | 420 | 38090 | GitHub Today live snapshot |
-| 2026-11-04 | 6 | 701 | 38768 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-11-03 | 15 | 420 | 38090 | 4323 | GitHub Today live snapshot |
+| 2026-11-04 | 6 | 701 | 38768 | 4380 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]

@@ -44,18 +44,18 @@ npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --
 需要合法获得分析目标；原生分析可能依赖 Hopper/Ghidra，结论仍需结合证据验证。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-07 | 8 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
-| 2026-10-08 | 1 | 4655 | 15841 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-09 | 3 | 7738 | 25948 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-10 | 1 | 14927 | 45391 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-11 | 1 | 25793 | 71944 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-12 | 1 | 25599 | 103465 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-13 | 1 | 45327 | 155789 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-14 | 1 | 54679 | 206380 | GitHub Today live snapshot |
-| 2026-10-15 | 1 | 41034 | 241130 | GitHub Today live snapshot |
-| 2026-10-16 | 1 | 32314 | 269556 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-10-07 | 8 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-08 | 1 | 4655 | 15841 | 1662 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-09 | 3 | 7738 | 25948 | 2915 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-10 | 1 | 14927 | 45391 | 7197 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-11 | 1 | 25793 | 71944 | 15101 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-12 | 1 | 25599 | 103465 | 22680 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-13 | 1 | 45327 | 155789 | 35890 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-14 | 1 | 54679 | 206380 | 50280 | GitHub Today live snapshot |
+| 2026-10-15 | 1 | 41034 | 241130 | 59983 | GitHub Today live snapshot |
+| 2026-10-16 | 1 | 32314 | 269556 | 67576 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]

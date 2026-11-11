@@ -56,23 +56,23 @@ snapshot_status: "live"
 设计判断仍带主观性；init 会写入 PRODUCT.md，视觉系统另记入 DESIGN.md，需避免把视觉偏好当成产品事实。带 hooks 的宿主可能需要确认项目 hook 信任。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-24 | 12 | 287 | 70270 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/169c712cc03b9441bbaea434526a0492147a090d/archive/repository/2026/2026-09-24/(null).json) |
-| 2026-09-26 | 15 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c05e32586dec23f91d75df4f0909a1727cebd8fc/archive/repository/2026/2026-09-26/(null).json) |
-| 2026-10-02 | 14 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
-| 2026-10-03 | 5 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
-| 2026-10-04 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
-| 2026-10-05 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
-| 2026-10-07 | 5 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
-| 2026-10-25 | 6 | 619 | 86388 | GitHub Today live snapshot |
-| 2026-10-26 | 4 | 1092 | 87666 | GitHub Today live snapshot |
-| 2026-10-27 | 6 | 1506 | 89167 | GitHub Today live snapshot |
-| 2026-10-28 | 5 | 1449 | 90475 | GitHub Today live snapshot |
-| 2026-10-29 | 7 | 1472 | 92602 | GitHub Today live snapshot |
-| 2026-10-30 | 3 | 2870 | 95275 | GitHub Today live snapshot |
-| 2026-10-31 | 3 | 2300 | 97029 | GitHub Today live snapshot |
-| 2026-11-01 | 7 | 1338 | 98257 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-24 | 12 | 287 | 70270 | 4268 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/169c712cc03b9441bbaea434526a0492147a090d/archive/repository/2026/2026-09-24/(null).json) |
+| 2026-09-26 | 15 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/c05e32586dec23f91d75df4f0909a1727cebd8fc/archive/repository/2026/2026-09-26/(null).json) |
+| 2026-10-02 | 14 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
+| 2026-10-03 | 5 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
+| 2026-10-04 | 2 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-05 | 2 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
+| 2026-10-07 | 5 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-25 | 6 | 619 | 86388 | 5153 | GitHub Today live snapshot |
+| 2026-10-26 | 4 | 1092 | 87666 | 5242 | GitHub Today live snapshot |
+| 2026-10-27 | 6 | 1506 | 89167 | 5309 | GitHub Today live snapshot |
+| 2026-10-28 | 5 | 1449 | 90475 | 5375 | GitHub Today live snapshot |
+| 2026-10-29 | 7 | 1472 | 92602 | 5477 | GitHub Today live snapshot |
+| 2026-10-30 | 3 | 2870 | 95275 | 5616 | GitHub Today live snapshot |
+| 2026-10-31 | 3 | 2300 | 97029 | 5713 | GitHub Today live snapshot |
+| 2026-11-01 | 7 | 1338 | 98257 | 5794 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Design|Design]]
 

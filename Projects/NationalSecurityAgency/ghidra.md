@@ -46,13 +46,13 @@ stats_as_of: '2026-10-16'
 必须检查项目安全公告，升级时不要覆盖旧安装目录；未知二进制应在隔离环境中处理。反编译结果不是原始源码，需结合汇编与运行证据验证；逆向第三方软件还需确认授权和适用法律。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-16 | 8 | 未保存 | 未保存 | 日期匹配语言不限归档 |
-| 2026-09-17 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档 |
-| 2026-09-18 | 7 | 未保存 | 未保存 | 日期匹配语言不限归档 |
-| 2026-10-15 | 12 | 1008 | 87457 | GitHub Today live snapshot |
-| 2026-10-16 | 9 | 1369 | 88726 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-16 | 8 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档 |
+| 2026-09-17 | 10 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档 |
+| 2026-09-18 | 7 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档 |
+| 2026-10-15 | 12 | 1008 | 87457 | 9765 | GitHub Today live snapshot |
+| 2026-10-16 | 9 | 1369 | 88726 | 9901 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Reverse Engineering|Reverse Engineering]] · [[Topics/Security|Security]] · [[Topics/Decompiler|Decompiler]]

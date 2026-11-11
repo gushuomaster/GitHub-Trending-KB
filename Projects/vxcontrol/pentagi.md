@@ -48,11 +48,11 @@ docker compose up -d
 - 官方明确它不是 BAS 产品；生产环境中的持续防御验证需另行设计。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-13 | 16 | 193 | 未保存 | 日期匹配来源 |
-| 2026-09-14 | 8 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-10-15 | 8 | 1025 | 29410 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-13 | 16 | 193 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-14 | 8 | 未保存 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-15 | 8 | 1025 | 29410 | 4419 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Self-hosted|Self-hosted]]

@@ -43,11 +43,11 @@ pip install "transformers[torch]"
 - 不同模型仍有独立许可证、显存和依赖要求；从 Hub 加载远程代码或超大权重前必须审查来源，最新源码分支也可能不稳定。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-14 | 19 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-09-15 | 15 | 未保存 | 未保存 | 日期匹配来源 |
-| 2026-10-11 | 11 | 96 | 167242 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-14 | 19 | 未保存 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-09-15 | 15 | 未保存 | 未保存 | 未保存 | 日期匹配来源 |
+| 2026-10-11 | 11 | 96 | 167242 | 34797 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Machine Learning|Machine Learning]] · [[Topics/Transformers|Transformers]] · [[Topics/Python|Python]]
 

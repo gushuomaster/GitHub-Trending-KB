@@ -41,10 +41,10 @@ snapshot_status: "live"
 - 课程事实取决于模型和解析质量，发布前必须由教师核对；自托管涉及模型密钥、文档上传和渲染服务，需及时安装安全更新。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-11 | 13 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
-| 2026-11-01 | 12 | 116 | 42176 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-11 | 13 | 未保存 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-11-01 | 12 | 116 | 42176 | 6511 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Education|Education]] · [[Topics/Agent|Agent]]
 

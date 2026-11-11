@@ -62,19 +62,19 @@ stats_as_of: '2026-10-17'
 ```
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-09 | 13 | 651 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/65c9872b096ffb485055f7f8af63b7f68a5853f9/archive/repository/2026/2026-09-09/(null).json) |
-| 2026-10-01 | 4 | 90 | 24479 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-02 | 8 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
-| 2026-10-03 | 10 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
-| 2026-10-04 | 13 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
-| 2026-10-11 | 5 | 178 | 26306 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-13 | 3 | 246 | 27272 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-14 | 4 | 969 | 28215 | GitHub Today live snapshot |
-| 2026-10-15 | 3 | 947 | 29096 | GitHub Today live snapshot |
-| 2026-10-16 | 8 | 904 | 29787 | GitHub Today live snapshot |
-| 2026-10-17 | 5 | 449 | 30221 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-09 | 13 | 651 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/65c9872b096ffb485055f7f8af63b7f68a5853f9/archive/repository/2026/2026-09-09/(null).json) |
+| 2026-10-01 | 4 | 90 | 24479 | 1769 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-02 | 8 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/95a8b5931135f4aef4bbc15dbb13ca4dc9319407/archive/repository/2026/2026-10-02/(null).json) |
+| 2026-10-03 | 10 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
+| 2026-10-04 | 13 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-11 | 5 | 178 | 26306 | 1891 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-13 | 3 | 246 | 27272 | 1942 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-14 | 4 | 969 | 28215 | 1991 | GitHub Today live snapshot |
+| 2026-10-15 | 3 | 947 | 29096 | 2044 | GitHub Today live snapshot |
+| 2026-10-16 | 8 | 904 | 29787 | 2083 | GitHub Today live snapshot |
+| 2026-10-17 | 5 | 449 | 30221 | 2125 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Context-Engineering|Context-Engineering]] · [[Topics/Developer-Tools|Developer-Tools]]

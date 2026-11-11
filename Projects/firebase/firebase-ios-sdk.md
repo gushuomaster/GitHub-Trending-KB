@@ -41,10 +41,10 @@ documentation_checked_at: "2026-10-13"
 各 Firebase 产品有独立计费、隐私披露和平台最低版本要求；README 明确说明 CocoaPods 将于 2026 年 10 月停止发布新版本，应优先规划 Swift Package Manager。使用未发布分支会承担兼容风险。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-10-01 | 11 | +8 | 6761 |
-| 2026-10-02 | 4 | 未保存 | 未保存 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-10-01 | 11 | +8 | 6761 | 1800 |
+| 2026-10-02 | 4 | 未保存 | 未保存 | 未保存 |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]]

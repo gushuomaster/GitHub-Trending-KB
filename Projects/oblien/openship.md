@@ -42,9 +42,9 @@ status: active
 桌面端关闭后控制面不在线，也不能接收 webhook；团队和 push-to-deploy 需要公网常驻服务器。Compose 模式会挂载 Docker socket，拥有近似宿主 root 的能力，只能部署在可信主机；项目文档仍在补全，多节点、负载均衡 UI 和部分高级能力尚在路线图中。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-30 | 7 | +437 | 13807 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-30 | 7 | +437 | 13807 | 1235 |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]]

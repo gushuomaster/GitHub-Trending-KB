@@ -52,12 +52,12 @@ gh skill install K-Dense-AI/scientific-agent-skills --skill scanpy
 - 历史记录提到 2026-09-14 安全扫描更新及基因组内容、工作流图工具；这些是当时资料摘要，不代表持续有效的版本承诺。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-15 | 5 | 163 | 49308 | GitHub Today live snapshot |
-| 2026-10-16 | 3 | 1091 | 50444 | GitHub Today live snapshot |
-| 2026-10-17 | 2 | 1158 | 51485 | GitHub Today live snapshot |
-| 2026-10-18 | 5 | 878 | 52236 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-10-15 | 5 | 163 | 49308 | 4420 | GitHub Today live snapshot |
+| 2026-10-16 | 3 | 1091 | 50444 | 4487 | GitHub Today live snapshot |
+| 2026-10-17 | 2 | 1158 | 51485 | 4560 | GitHub Today live snapshot |
+| 2026-10-18 | 5 | 878 | 52236 | 4625 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Scientific Computing|Scientific Computing]]

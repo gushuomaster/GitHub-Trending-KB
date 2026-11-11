@@ -39,9 +39,9 @@ status: active
 它是 2022 年起与 NewPipe 分离的 hard fork，不会自动同步 NewPipe 修复；第三方服务接口变化可能导致功能失效。登录 cookie 属于敏感凭据，应只启用必要场景。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-28 | 5 | +242 | 6704 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-28 | 5 | +242 | 6704 | 225 |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]]

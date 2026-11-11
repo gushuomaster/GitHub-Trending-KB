@@ -47,12 +47,12 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 仓库内容和插件目录会快速变化；第三方连接通常需要额外账号、凭据与授权。进入官方市场集合不代表每个插件都由 Cursor 编写或适合直接信任，安装前仍应逐项审查代码、网络访问和密钥范围。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-02 | 6 | 未保存 | 未保存 | 日期匹配语言不限归档 |
-| 2026-10-03 | 14 | 未保存 | 未保存 | 仓库已存日期匹配快照 |
-| 2026-10-17 | 9 | 278 | 11941 | GitHub Today live snapshot |
-| 2026-10-19 | 4 | 350 | 12733 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-10-02 | 6 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档 |
+| 2026-10-03 | 14 | 未保存 | 未保存 | 未保存 | 仓库已存日期匹配快照 |
+| 2026-10-17 | 9 | 278 | 11941 | 1161 | GitHub Today live snapshot |
+| 2026-10-19 | 4 | 350 | 12733 | 1254 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]

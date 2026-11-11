@@ -44,12 +44,12 @@ bash install.sh
 它是控制面，不是 Agent 框架、聊天机器人或代码评审器；官方安装器要求 Node.js 24.11+。首次部署应审查安装脚本、权限、密钥范围和预算策略。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-28 | 1 | +2401 | 90900 | GitHub Today live snapshot |
-| 2026-09-29 | 2 | +3197 | 92744 | GitHub Today live snapshot |
-| 2026-09-30 | 4 | +2458 | 94432 | GitHub Today live snapshot |
-| 2026-11-03 | 13 | 412 | 110381 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-28 | 1 | +2401 | 90900 | 15741 | GitHub Today live snapshot |
+| 2026-09-29 | 2 | +3197 | 92744 | 15883 | GitHub Today live snapshot |
+| 2026-09-30 | 4 | +2458 | 94432 | 16048 | GitHub Today live snapshot |
+| 2026-11-03 | 13 | 412 | 110381 | 18274 | GitHub Today live snapshot |
 
 
 ## 历史归档补记

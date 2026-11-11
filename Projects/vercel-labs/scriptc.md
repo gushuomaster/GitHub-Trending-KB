@@ -45,9 +45,9 @@ scriptc build hello.ts -o hello
 项目仍属实验性，静态支持范围不等同完整 Node；编译器要求 Node.js 24+，链接或 WASM 构建还可能需要平台 SDK、linker 或 Zig。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-28 | 6 | +102 | 5515 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-28 | 6 | +102 | 5515 | 143 |
 
 ## 相关主题
 [[Topics/Developer-Tools|Developer-Tools]]

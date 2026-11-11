@@ -42,10 +42,10 @@ status: active
 教材假定读者已经上过编程语言课程并熟悉汇编；示例和课程结构围绕 C 与 Linux，不是跨平台语言大全。完整 PDF 构建需要体积较大的 TeX Live 环境，贡献前应先讨论重大改动并确保代码与文档构建通过。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-09-29 | 5 | +195 | 2495 |
-| 2026-09-30 | 9 | +572 | 3089 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-09-29 | 5 | +195 | 2495 | 236 |
+| 2026-09-30 | 9 | +572 | 3089 | 275 |
 
 ## 相关主题
 [[Topics/Education|Education]] · [[Topics/Systems-Programming|Systems-Programming]]

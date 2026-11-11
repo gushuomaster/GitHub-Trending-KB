@@ -47,10 +47,10 @@ specify init my-project --integration codex
 - 需要 Python 3.11+、uv 与受支持的 Agent 集成。完整流程会增加文件和步骤，小修复应选择独立 bug 工作流；社区 catalog 不代表 GitHub 审计，模板不能替代需求判断，未得到 verified/converged 的结果不能视为完成。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-12 | 15 | 985 | 未保存 | 语言不限归档；统计见说明 |
-| 2026-11-05 | 7 | 808 | 147460 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-12 | 15 | 985 | 未保存 | 未保存 | 语言不限归档；统计见说明 |
+| 2026-11-05 | 7 | 808 | 147460 | 13232 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]

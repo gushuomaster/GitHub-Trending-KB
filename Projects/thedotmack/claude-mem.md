@@ -45,21 +45,21 @@ npx claude-mem install
 会引入持久化记忆和模型/托管提供方选择，需要关注隐私、成本和错误记忆传播。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-04 | 8 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
-| 2026-10-05 | 13 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
-| 2026-10-06 | 2 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
-| 2026-10-07 | 6 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
-| 2026-10-08 | 8 | 578 | 97782 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-09 | 5 | 670 | 98450 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-30 | 8 | 336 | 104763 | GitHub Today live snapshot |
-| 2026-10-31 | 1 | 1140 | 106206 | GitHub Today live snapshot |
-| 2026-11-01 | 1 | 1723 | 107845 | GitHub Today live snapshot |
-| 2026-11-02 | 1 | 1526 | 109218 | GitHub Today live snapshot |
-| 2026-11-03 | 2 | 1803 | 110725 | GitHub Today live snapshot |
-| 2026-11-04 | 1 | 1139 | 111872 | GitHub Today live snapshot |
-| 2026-11-05 | 5 | 1172 | 113051 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-10-04 | 8 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-05 | 13 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
+| 2026-10-06 | 2 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
+| 2026-10-07 | 6 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-08 | 8 | 578 | 97782 | 8607 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-09 | 5 | 670 | 98450 | 8634 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-30 | 8 | 336 | 104763 | 9239 | GitHub Today live snapshot |
+| 2026-10-31 | 1 | 1140 | 106206 | 9350 | GitHub Today live snapshot |
+| 2026-11-01 | 1 | 1723 | 107845 | 9463 | GitHub Today live snapshot |
+| 2026-11-02 | 1 | 1526 | 109218 | 9563 | GitHub Today live snapshot |
+| 2026-11-03 | 2 | 1803 | 110725 | 9653 | GitHub Today live snapshot |
+| 2026-11-04 | 1 | 1139 | 111872 | 9735 | GitHub Today live snapshot |
+| 2026-11-05 | 5 | 1172 | 113051 | 9815 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]

@@ -45,10 +45,10 @@ documentation_checked_at: "2026-10-13"
 静态解析不能完整还原反射、动态调用、运行时配置或生成代码；首次索引占用磁盘和时间，敏感源码虽保持本地，也应审查 MCP 暴露范围和 Agent 权限。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars |
-|---|---:|---:|---:|
-| 2026-10-01 | 14 | +118 | 72584 |
-| 2026-10-03 | 13 | 未保存 | 未保存 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks |
+| --- | ---: | ---: | ---: | ---: |
+| 2026-10-01 | 14 | +118 | 72584 | 4664 |
+| 2026-10-03 | 13 | 未保存 | 未保存 | 未保存 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]

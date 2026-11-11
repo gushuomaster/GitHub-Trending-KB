@@ -45,22 +45,22 @@ npx skills add https://github.com/cloudflare/security-audit-skill --skill securi
 - 自动审计仍会漏报或误报，不能替代威胁建模、SAST/DAST 与专业人工审计；完整流程还依赖隔离子 Agent、Node.js 校验器和宿主沙箱。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-17 | 2 | 1434 | 未保存 | 仓库已存快照 |
-| 2026-09-18 | 2 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-19 | 1 | 3019 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
-| 2026-09-20 | 1 | 3162 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
-| 2026-09-21 | 3 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
-| 2026-10-08 | 11 | 576 | 26105 | 当日实时快照 |
-| 2026-10-21 | 2 | 1712 | 34141 | GitHub Today live snapshot |
-| 2026-10-22 | 1 | 2012 | 36412 | GitHub Today live snapshot |
-| 2026-10-23 | 4 | 2979 | 39528 | GitHub Today live snapshot |
-| 2026-10-24 | 1 | 2716 | 42100 | GitHub Today live snapshot |
-| 2026-10-25 | 1 | 2264 | 44517 | GitHub Today live snapshot |
-| 2026-10-26 | 10 | 2878 | 46836 | GitHub Today live snapshot |
-| 2026-11-07 | 16 | 2548 | 63941 | GitHub Today live snapshot（Forks: 4142） |
-| 2026-11-08 | 2 | 2085 | 65684 | GitHub Today live snapshot（Forks: 4263） |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-17 | 2 | 1434 | 未保存 | 未保存 | 仓库已存快照 |
+| 2026-09-18 | 2 | 未保存 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-19 | 1 | 3019 | 未保存 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
+| 2026-09-20 | 1 | 3162 | 未保存 | 未保存 | 日期匹配语言不限归档；Stars Today 来自原日报 |
+| 2026-09-21 | 3 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
+| 2026-10-08 | 11 | 576 | 26105 | 1569 | 当日实时快照 |
+| 2026-10-21 | 2 | 1712 | 34141 | 2133 | GitHub Today live snapshot |
+| 2026-10-22 | 1 | 2012 | 36412 | 2274 | GitHub Today live snapshot |
+| 2026-10-23 | 4 | 2979 | 39528 | 2461 | GitHub Today live snapshot |
+| 2026-10-24 | 1 | 2716 | 42100 | 2630 | GitHub Today live snapshot |
+| 2026-10-25 | 1 | 2264 | 44517 | 2767 | GitHub Today live snapshot |
+| 2026-10-26 | 10 | 2878 | 46836 | 2903 | GitHub Today live snapshot |
+| 2026-11-07 | 16 | 2548 | 63941 | 4142 | GitHub Today live snapshot（Forks: 4142） |
+| 2026-11-08 | 2 | 2085 | 65684 | 4263 | GitHub Today live snapshot（Forks: 4263） |
 
 ## 相关主题
 [[Topics/Security Audit|Security Audit]] · [[Topics/Agent Skill|Agent Skill]] · [[Topics/AppSec|AppSec]]

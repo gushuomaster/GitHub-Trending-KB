@@ -40,15 +40,15 @@ stats_as_of: '2026-10-12'
 项目仍在兼容性建设中，并非所有游戏/系统调用都支持；不提供固件、密钥或版权软件。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-06 | 5 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
-| 2026-10-07 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
-| 2026-10-08 | 3 | 2716 | 10857 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-09 | 1 | 4669 | 15634 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-10 | 2 | 5868 | 22226 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-11 | 2 | 5805 | 26766 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
-| 2026-10-12 | 2 | 3952 | 30057 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-10-06 | 5 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
+| 2026-10-07 | 4 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/7a58ec2d6aa31e161897e8b78805a6c3df276209/archive/repository/2026/2026-10-07/(null).json) |
+| 2026-10-08 | 3 | 2716 | 10857 | 826 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-09 | 1 | 4669 | 15634 | 1234 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-10 | 2 | 5868 | 22226 | 1811 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-11 | 2 | 5805 | 26766 | 2241 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
+| 2026-10-12 | 2 | 3952 | 30057 | 2581 | [仓库已存对应日期快照](https://github.com/trending?since=daily) |
 
 ## 相关主题
 - [[Topics/AI]]

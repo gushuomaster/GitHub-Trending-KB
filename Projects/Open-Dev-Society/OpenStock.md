@@ -37,12 +37,12 @@ topics: ["Finance", "Market Data", "Web Application"]
 - 它不是券商，数据可能受提供商规则影响而延迟；Finnhub、TradingView 等外部服务决定覆盖范围，AGPL-3.0 对修改、分发或网络部署有开源义务，内容不构成投资建议。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-20 | 6 | 477 | 未保存 | 日期匹配归档；Stars Today 来自原日报 |
-| 2026-09-21 | 10 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
-| 2026-09-22 | 3 | 843 | 17591 | 仓库已存快照 |
-| 2026-09-24 | 7 | 379 | 18756 | 仓库已存快照 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-20 | 6 | 477 | 未保存 | 未保存 | 日期匹配归档；Stars Today 来自原日报 |
+| 2026-09-21 | 10 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档；当日统计未保存 |
+| 2026-09-22 | 3 | 843 | 17591 | 未保存 | 仓库已存快照 |
+| 2026-09-24 | 7 | 379 | 18756 | 2283 | 仓库已存快照 |
 
 ## 相关主题
 [[Topics/Finance|Finance]] · [[Topics/Market Data|Market Data]] · [[Topics/Web Application|Web Application]]

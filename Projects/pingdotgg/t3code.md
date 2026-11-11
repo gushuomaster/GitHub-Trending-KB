@@ -41,15 +41,15 @@ snapshot_status: "live"
 项目仍处于早期，README 明确提示存在 bug；它不附送模型订阅，也不能替代底层 Agent 的安装和认证。远程连接与工具执行权限需要单独配置。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-10-04 | 7 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
-| 2026-10-05 | 9 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
-| 2026-10-06 | 4 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
-| 2026-10-31 | 9 | 930 | 32725 | GitHub Today live snapshot |
-| 2026-11-01 | 4 | 1148 | 35514 | GitHub Today live snapshot |
-| 2026-11-02 | 4 | 3094 | 37923 | GitHub Today live snapshot |
-| 2026-11-03 | 7 | 3229 | 41850 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-10-04 | 7 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
+| 2026-10-05 | 9 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/25d857f152fee80260225fdeb6dc0460fb61c5b8/archive/repository/2026/2026-10-05/(null).json) |
+| 2026-10-06 | 4 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fb3bb70ad58f298d2e18bd46d2c445de3b27cc42/archive/repository/2026/2026-10-06/(null).json) |
+| 2026-10-31 | 9 | 930 | 32725 | 8652 | GitHub Today live snapshot |
+| 2026-11-01 | 4 | 1148 | 35514 | 8778 | GitHub Today live snapshot |
+| 2026-11-02 | 4 | 3094 | 37923 | 8910 | GitHub Today live snapshot |
+| 2026-11-03 | 7 | 3229 | 41850 | 9090 | GitHub Today live snapshot |
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-04|2026-10-04]]

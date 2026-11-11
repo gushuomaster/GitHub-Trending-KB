@@ -45,9 +45,9 @@ python -m scripts.chat_cli
 官方主要 speedrun 目标需要昂贵的 8×H100 资源；CPU/MPS 示例会大幅缩小模型，效果有限。仓库是研究与教学代码，不是直接替代成熟生产推理服务；训练数据、成本、数值精度和生成内容仍需独立评估。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-11-03 | 14 | 321 | 59876 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-11-03 | 14 | 321 | 59876 | 8414 | GitHub Today live snapshot |
 
 ## 相关主题
 - [[Topics/AI]]

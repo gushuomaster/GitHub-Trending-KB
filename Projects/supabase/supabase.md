@@ -41,12 +41,12 @@ snapshot_status: live
 - 它不是 Firebase 的一一映射；自托管需要维护 Postgres、网关、认证、实时和存储等多个服务，错误的 RLS、密钥暴露或迁移策略可能导致数据泄露与停机。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-17 | 14 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-| 2026-09-19 | 14 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
-| 2026-10-22 | 7 | 504 | 112985 | GitHub Today live snapshot |
-| 2026-10-23 | 6 | 693 | 113473 | GitHub Today live snapshot |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+| --- | ---: | ---: | ---: | ---: | --- |
+| 2026-09-17 | 14 | 未保存 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-09-19 | 14 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档；原日报未保存该项目统计 |
+| 2026-10-22 | 7 | 504 | 112985 | 16923 | GitHub Today live snapshot |
+| 2026-10-23 | 6 | 693 | 113473 | 16999 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Postgres|Postgres]] · [[Topics/Backend|Backend]] · [[Topics/Database|Database]]
