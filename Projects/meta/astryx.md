@@ -3,16 +3,16 @@ type: github-project
 repo: "meta/astryx"
 url: "https://github.com/meta/astryx"
 first_seen: "2026-11-08"
-last_seen: "2026-11-11"
-trending_count: 4
+last_seen: "2026-11-12"
+trending_count: 5
 language: "TypeScript"
-total_stars: 22738
-forks: 1815
-stars_today: 3108
+total_stars: 24924
+forks: 1949
+stars_today: 2776
 github_rank: 1
-fetched_at: "2026-11-11T08:11:35+08:00"
-documentation_checked_at: "2026-11-11"
-stats_as_of: "2026-11-11"
+fetched_at: "2026-11-12T08:08:27+08:00"
+documentation_checked_at: "2026-11-12"
+stats_as_of: "2026-11-12"
 snapshot_status: "live"
 category: ["Design System","React","Accessibility"]
 topics: ["Design-System","React","Accessibility"]
@@ -52,6 +52,7 @@ npm install -D @astryxdesign/cli
 | 2026-11-09 | 6 | 875 | 16663 | 1317 | GitHub Today live snapshot |
 | 2026-11-10 | 2 | 3278 | 19962 | 1522 | GitHub Today live snapshot |
 | 2026-11-11 | 1 | 3108 | 22738 | 1815 | GitHub Today live snapshot |
+| 2026-11-12 | 1 | 2776 | 24924 | 1949 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Design-System|Design-System]] · [[Topics/React|React]] · [[Topics/Accessibility|Accessibility]]
@@ -64,6 +65,8 @@ npm install -D @astryxdesign/cli
 - [[Daily/2026/11/2026-11-10|2026-11-10]]
 
 - [[Daily/2026/11/2026-11-11|2026-11-11]]
+
+- [[Daily/2026/11/2026-11-12|2026-11-12]]
 
 ## GitHub 原始链接
 https://github.com/meta/astryx
@@ -88,3 +91,7 @@ https://github.com/meta/astryx
 - README blob SHA：`29b89543395d69bd2a5385a9e768ec9bd9015f73`
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
 
+## 官方资料复核（2026-11-12）
+- README：https://github.com/meta/astryx/blob/HEAD/README.md
+- README blob SHA：`29b89543395d69bd2a5385a9e768ec9bd9015f73`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。

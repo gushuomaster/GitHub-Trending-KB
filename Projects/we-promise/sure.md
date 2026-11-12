@@ -3,16 +3,16 @@ type: github-project
 repo: "we-promise/sure"
 url: "https://github.com/we-promise/sure"
 first_seen: "2026-11-11"
-last_seen: "2026-11-11"
-trending_count: 1
+last_seen: "2026-11-12"
+trending_count: 2
 language: "Ruby"
-total_stars: 11914
-forks: 888
-stars_today: 159
-github_rank: 6
-fetched_at: "2026-11-11T08:11:35+08:00"
-documentation_checked_at: "2026-11-11"
-stats_as_of: "2026-11-11"
+total_stars: 12938
+forks: 958
+stars_today: 1078
+github_rank: 7
+fetched_at: "2026-11-12T08:08:27+08:00"
+documentation_checked_at: "2026-11-12"
+stats_as_of: "2026-11-12"
 snapshot_status: "live"
 category: ["Personal Finance","Self-Hosted","Rails"]
 topics: ["Personal-Finance","Self-Hosted","MCP"]
@@ -51,12 +51,15 @@ bin/dev
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-11 | 6 | 159 | 11914 | 888 | GitHub Today live snapshot |
+| 2026-11-12 | 7 | 1078 | 12938 | 958 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Personal-Finance|Personal-Finance]] · [[Topics/Self-Hosted|Self-Hosted]] · [[Topics/MCP|MCP]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-11|2026-11-11]]
+
+- [[Daily/2026/11/2026-11-12|2026-11-12]]
 
 ## GitHub 原始链接
 https://github.com/we-promise/sure
@@ -68,3 +71,7 @@ https://github.com/we-promise/sure
 - Docker 指南：https://github.com/we-promise/sure/blob/HEAD/docs/hosting/docker.md
 - 榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 
+## 官方资料复核（2026-11-12）
+- README：https://github.com/we-promise/sure/blob/HEAD/README.md
+- README blob SHA：`35f5c2e0681b8ef1c55545a5846535e8198ce4c8`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
