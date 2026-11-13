@@ -3,16 +3,16 @@ type: github-project
 repo: "we-promise/sure"
 url: "https://github.com/we-promise/sure"
 first_seen: "2026-11-11"
-last_seen: "2026-11-12"
-trending_count: 2
+last_seen: "2026-11-13"
+trending_count: 3
 language: "Ruby"
-total_stars: 12938
-forks: 958
-stars_today: 1078
-github_rank: 7
-fetched_at: "2026-11-12T08:08:27+08:00"
-documentation_checked_at: "2026-11-12"
-stats_as_of: "2026-11-12"
+total_stars: 13892
+forks: 1038
+stars_today: 967
+github_rank: 5
+fetched_at: "2026-11-13T08:07:57+08:00"
+documentation_checked_at: "2026-11-13"
+stats_as_of: "2026-11-13"
 snapshot_status: "live"
 category: ["Personal Finance","Self-Hosted","Rails"]
 topics: ["Personal-Finance","Self-Hosted","MCP"]
@@ -52,6 +52,7 @@ bin/dev
 |---|---:|---:|---:|---:|---|
 | 2026-11-11 | 6 | 159 | 11914 | 888 | GitHub Today live snapshot |
 | 2026-11-12 | 7 | 1078 | 12938 | 958 | GitHub Today live snapshot |
+| 2026-11-13 | 5 | 967 | 13892 | 1038 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Personal-Finance|Personal-Finance]] · [[Topics/Self-Hosted|Self-Hosted]] · [[Topics/MCP|MCP]]
@@ -60,6 +61,8 @@ bin/dev
 - [[Daily/2026/11/2026-11-11|2026-11-11]]
 
 - [[Daily/2026/11/2026-11-12|2026-11-12]]
+
+- [[Daily/2026/11/2026-11-13|2026-11-13]]
 
 ## GitHub 原始链接
 https://github.com/we-promise/sure
@@ -72,6 +75,11 @@ https://github.com/we-promise/sure
 - 榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 
 ## 官方资料复核（2026-11-12）
+- README：https://github.com/we-promise/sure/blob/HEAD/README.md
+- README blob SHA：`35f5c2e0681b8ef1c55545a5846535e8198ce4c8`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+
+## 官方资料复核（2026-11-13）
 - README：https://github.com/we-promise/sure/blob/HEAD/README.md
 - README blob SHA：`35f5c2e0681b8ef1c55545a5846535e8198ce4c8`
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。

@@ -1,16 +1,19 @@
 ---
+snapshot_status: "live"
+stats_as_of: "2026-11-13"
+documentation_checked_at: "2026-11-13"
 type: github-project
 repo: "Alishahryar1/free-claude-code"
 url: "https://github.com/Alishahryar1/free-claude-code"
 first_seen: "2026-10-13"
-last_seen: "2026-10-13"
-trending_count: 1
+last_seen: "2026-11-13"
+trending_count: 2
 language: "Python"
-total_stars: 59087
-forks: 9309
-stars_today: 626
-github_rank: 9
-fetched_at: "2026-10-13T08:05:00+08:00"
+total_stars: 69273
+forks: 10755
+stars_today: 415
+github_rank: 12
+fetched_at: "2026-11-13T08:07:57+08:00"
 category: ["AI", "Developer-Tools", "Coding-Agent"]
 tags: ["github/ai", "github/coding-agent", "github/proxy"]
 topics: ["AI", "Developer-Tools", "Coding-Agent"]
@@ -48,12 +51,15 @@ README 宣称的 provider 数量、免费额度与“1.3B+ tokens”由各 provi
 
 ## Trending 历史
 - 2026-10-13：#9 · Stars Today：626 · Total Stars：59087 · Forks：9309
+- 2026-11-13：#12 · Stars Today：415 · Total Stars：69273 · Forks：10755
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Coding-Agent|Coding-Agent]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-13|2026-10-13]]
+
+- [[Daily/2026/11/2026-11-13|2026-11-13]]
 
 ## GitHub 原始链接
 https://github.com/Alishahryar1/free-claude-code
@@ -62,3 +68,7 @@ https://github.com/Alishahryar1/free-claude-code
 - 核对日期：2026-10-13
 - README：https://github.com/Alishahryar1/free-claude-code/blob/main/README.md
 
+## 官方资料复核（2026-11-13）
+- README：https://github.com/Alishahryar1/free-claude-code/blob/HEAD/README.md
+- README blob SHA：`306bc21514c7ed9cc46c0997d915369eac48e21a`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。

@@ -3,16 +3,16 @@ type: github-project
 repo: "CopilotKit/OpenBot"
 url: "https://github.com/CopilotKit/OpenBot"
 first_seen: "2026-10-30"
-last_seen: "2026-11-02"
-trending_count: 3
-github_rank: 13
-stars_today: 175
-total_stars: 9507
-forks: 1189
+last_seen: "2026-11-13"
+trending_count: 4
+github_rank: 11
+stars_today: 298
+total_stars: 11586
+forks: 1432
 language: "TypeScript"
-fetched_at: "2026-11-02T08:06:33+08:00"
-documentation_checked_at: "2026-11-02"
-stats_as_of: "2026-11-02"
+fetched_at: "2026-11-13T08:07:57+08:00"
+documentation_checked_at: "2026-11-13"
+stats_as_of: "2026-11-13"
 snapshot_status: "live"
 category: ["Agent Platform", "Self-Hosted", "Governance"]
 topics: ["AG-UI", "AI-Agent", "Audit", "Computer-Use"]
@@ -55,6 +55,7 @@ bash scripts/start.sh
 | 2026-10-30 | 9 | 247 | 8128 | 1046 | GitHub Today live snapshot |
 | 2026-10-31 | 4 | 706 | 8768 | 1107 | GitHub Today live snapshot |
 | 2026-11-02 | 13 | 175 | 9507 | 1189 | GitHub Today live snapshot |
+| 2026-11-13 | 11 | 298 | 11586 | 1432 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AG-UI|AG-UI]] · [[Topics/AI-Agent|AI-Agent]] · [[Topics/Audit|Audit]] · [[Topics/Computer-Use|Computer-Use]]
@@ -64,6 +65,8 @@ bash scripts/start.sh
 
 - [[Daily/2026/10/2026-10-31|2026-10-31]]
 - [[Daily/2026/11/2026-11-02|2026-11-02]]
+
+- [[Daily/2026/11/2026-11-13|2026-11-13]]
 
 ## GitHub 原始链接
 https://github.com/CopilotKit/OpenBot
@@ -78,3 +81,7 @@ https://github.com/CopilotKit/OpenBot
 - 当前 README 明确隔离电脑默认按使用者分配，标记为 Isolated 的 Bot 才获得单独容器；活动记录显示在会话下方列表。
 - 本次按当前官方 README 复核；仅增补当天榜单事实和复核记录，原有能力说明、案例、分类、标签、风险说明与历史均保留。
 
+## 官方资料复核（2026-11-13）
+- README：https://github.com/CopilotKit/OpenBot/blob/HEAD/README.md
+- README blob SHA：`2089d7b5c93654ce28606de145a5386a9e48bc18`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。

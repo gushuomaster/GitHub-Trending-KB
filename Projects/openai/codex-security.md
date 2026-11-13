@@ -3,16 +3,16 @@ type: github-project
 repo: "openai/codex-security"
 url: "https://github.com/openai/codex-security"
 first_seen: "2026-11-12"
-last_seen: "2026-11-12"
-trending_count: 1
+last_seen: "2026-11-13"
+trending_count: 2
 language: "TypeScript"
-total_stars: 11697
-forks: 937
-stars_today: 52
-github_rank: 9
-fetched_at: "2026-11-12T08:08:27+08:00"
-documentation_checked_at: "2026-11-12"
-stats_as_of: "2026-11-12"
+total_stars: 12400
+forks: 976
+stars_today: 643
+github_rank: 2
+fetched_at: "2026-11-13T08:07:57+08:00"
+documentation_checked_at: "2026-11-13"
+stats_as_of: "2026-11-13"
 snapshot_status: "live"
 category: ["Security","Static Analysis","Developer Tools"]
 topics: ["Security","Code-Analysis","CI"]
@@ -51,12 +51,15 @@ CLI 要求 Node.js 22.13+（22.x）或 24/26，以及 Python 3.10+；自动化�
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-12 | 9 | 52 | 11697 | 937 | GitHub Today live snapshot |
+| 2026-11-13 | 2 | 643 | 12400 | 976 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Code-Analysis|Code-Analysis]] · [[Topics/CI|CI]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-12|2026-11-12]]
+
+- [[Daily/2026/11/2026-11-13|2026-11-13]]
 
 ## GitHub 原始链接
 https://github.com/openai/codex-security
@@ -65,3 +68,8 @@ https://github.com/openai/codex-security
 - README：https://github.com/openai/codex-security/blob/HEAD/README.md
 - README blob SHA：`c30adfcdb1b8c61c6051d14f6fad8fe1ea90d81a`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-13）
+- README：https://github.com/openai/codex-security/blob/HEAD/README.md
+- README blob SHA：`c30adfcdb1b8c61c6051d14f6fad8fe1ea90d81a`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。

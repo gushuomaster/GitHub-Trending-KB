@@ -5,17 +5,17 @@ url: "https://github.com/nodejs/node"
 category: ["JavaScript Runtime", "Server Development", "Developer Tools"]
 topics: ["Node.js", "JavaScript", "Runtime"]
 first_seen: "2026-10-24"
-last_seen: "2026-10-24"
-trending_count: 1
+last_seen: "2026-11-13"
+trending_count: 2
 github_rank: 8
-stars_today: 66
-total_stars: 122854
-forks: 39831
+stars_today: 62
+total_stars: 123594
+forks: 38055
 language: "JavaScript"
-fetched_at: "2026-10-24T08:07:20+08:00"
-documentation_checked_at: "2026-10-24"
-stats_as_of: "2026-10-24"
-snapshot_status: live
+fetched_at: "2026-11-13T08:07:57+08:00"
+documentation_checked_at: "2026-11-13"
+stats_as_of: "2026-11-13"
+snapshot_status: "live"
 status: active
 ---
 # nodejs/node
@@ -54,12 +54,15 @@ make -j4 test
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-10-24 | 8 | 66 | 122854 | 39831 | GitHub Today live snapshot |
+| 2026-11-13 | 8 | 62 | 123594 | 38055 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Node.js|Node.js]] · [[Topics/JavaScript|JavaScript]] · [[Topics/Runtime|Runtime]]
 
 ## 相关日报
 - [[Daily/2026/10/2026-10-24|2026-10-24]]
+
+- [[Daily/2026/11/2026-11-13|2026-11-13]]
 
 ## GitHub 原始链接
 https://github.com/nodejs/node
@@ -69,3 +72,7 @@ https://github.com/nodejs/node
 - README blob SHA：`ff4d05e1cd9b29072f15eedde1ce10234a6d2b31`
 - BUILDING.md blob SHA：`8c7407b962742c5945936f497b6f540492f35d81`
 
+## 官方资料复核（2026-11-13）
+- README：https://github.com/nodejs/node/blob/HEAD/README.md
+- README blob SHA：`3b7d93827ae99ff451a4ff9016dbd254cd5776b8`
+- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
