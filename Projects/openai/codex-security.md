@@ -45,7 +45,7 @@ cs scan .
 需要对应用代码做可复核漏洞调查、在 CI 输出 SARIF，或批量维护安全发现的安全工程师和开发团队。
 
 ## 局限 / 注意点
-CLI 要求 Node.js 22.13+（22.x）或 24/26，以及 Python 3.10+；自动化扫描需要 OpenAI/Codex API 凭据并可能产生费用。部分受保护的安全请求还要求 Trusted Access for Cyber。
+CLI 要求 Node.js 22.13+（22.x）或 24/26，以及 Python 3.10+；自动化扫描需要 OpenAI/Codex API 凭据并可能产生费用。部分受保护的安全请求还要求 Trusted Access for Cyber。CLI dry run 与 SDK `preflight()` 只验证配置，不启动 Deep Scan worker，也不在生成的权限下执行命令，因此不能证明文件系统、凭据存储或网络隔离已经生效。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
@@ -72,4 +72,6 @@ https://github.com/openai/codex-security
 ## 官方资料复核（2026-11-13）
 - README：https://github.com/openai/codex-security/blob/HEAD/README.md
 - README blob SHA：`c30adfcdb1b8c61c6051d14f6fad8fe1ea90d81a`
-- 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+- Deep Scan 配置文档：https://github.com/openai/codex-security/blob/HEAD/docs/project-configuration.md
+- 配置文档 blob SHA：`d614334f5bc10bd9fdbe3739806c99a122ca5be8`；对应提交：`f26b669b56a4423abd773c81f6c6c9c2ebadc42a`
+- 本次按当前官方资料补充 preflight 不能证明 worker 沙箱隔离的边界；既有能力、案例、分类、风险说明与较早历史均保留。

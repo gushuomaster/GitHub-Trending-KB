@@ -23,15 +23,15 @@ topics: ["Apple-Watch","iOS","Customization"]
 HermesEnabler 2 通过 iPhone 侧载应用并在 Apple Watch 上执行引导，使非 Hermès 版本设备也能启用 Hermès 表盘。
 
 ## 它能做什么
-- 提供 Release IPA，可通过 Sideloadly 侧载到 iPhone。
+- 提供 Release IPA，可在 macOS 通过 Sideloadly、在 Windows 通过 WatchBridge 侧载。
 - 从 iPhone 的 Watch 应用把 HermesEnabler2 安装到 Apple Watch，并在手表端完成启用。
 - 允许开发者用 Xcode 选择自己的 Apple Watch 直接构建运行。
 
 ## 怎么利用
-输入兼容 watchOS 的 Apple Watch、iPhone 和 IPA；使用固定 Bundle ID 与 Apple ID 侧载，随后从 Watch 应用安装并在手表端按引导执行，输出可用的 Hermès 表盘配置。
+输入兼容 watchOS 的 Apple Watch、配对 iPhone 与包含 iPhone host/Watch app 的原始 IPA；macOS 用 Sideloadly 或 Xcode，Windows 用 WatchBridge 经 USB 配对并请求 Developer Mode，再签名安装。随后在手表端按引导执行，输出可用的 Hermès 表盘配置。
 
 ## 实际例子
-**官方 IPA 流程 →** 下载 Release IPA，在 Sideloadly 关闭自动 Bundle ID 后安装；到“Watch → 我的手表 → App”安装 HermesEnabler2，并在手表中完成步骤。
+**官方 macOS IPA 流程 →** 下载 Release IPA，在 Sideloadly 关闭自动 Bundle ID、设置固定 Bundle ID 后安装，分别在 iPhone 与 Apple Watch 开启 Developer Mode；到“Watch → 我的手表 → App”安装 HermesEnabler2，并在手表中完成步骤。Windows 用户可按官方新增流程改用 WatchBridge。
 
 ## 关键命令
 ```bash
@@ -43,7 +43,7 @@ HermesEnabler 2 通过 iPhone 侧载应用并在 Apple Watch 上执行引导，�
 希望在明确兼容版本内测试 Hermès 表盘、并能承担侧载和恢复风险的 Apple Watch 高级用户或 iOS/watchOS 开发者。
 
 ## 局限 / 注意点
-仅支持 watchOS 27.0 至 27.3 beta 1；更新时必须保持同一 Bundle ID 和 Apple ID。删除应用前要通过应用恢复 MobileGestalt 备份，否则可能丢失可恢复状态；项目明确要求自行承担风险。
+仅支持 watchOS 27.0 至 27.3 beta 1。Sideloadly 0.72 已有签名时移除内嵌 Watch app 的已知报告，出现该情况应改用 Xcode；免费 Apple Personal Team 的描述文件 7 天过期，App Groups entitlement 可能需要付费开发者团队。更新必须保持同一 Bundle ID 与 Apple ID，删除应用前须通过应用恢复 MobileGestalt 备份。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
@@ -61,5 +61,5 @@ https://github.com/pookjw/HermesEnabler
 
 ## 官方资料复核（2026-11-13）
 - README：https://github.com/pookjw/HermesEnabler/blob/HEAD/README.md
-- README blob SHA：`9097b66aa2f1e7695ee48cdfff0ce6d7543fc61a`
-- 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+- README blob SHA：`e0ae90f902d619356ae3227b317dc33276492657`
+- 早晨快照后官方 README 新增 macOS/Windows 分流、Developer Mode、Sideloadly 0.72、免费签名与 App Groups 限制；榜单统计仍保留 08:07:57 的同次 GitHub Trending 快照。

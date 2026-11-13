@@ -25,7 +25,7 @@ TensorFold 是用 Zig 编写的本地大模型推理引擎，直接读取模型�
 ## 它能做什么
 - 直接读取模型检查点，在 Metal 或 CUDA 内核上完成分词和推理。
 - 提供 OpenAI 与 Anthropic 兼容 API，可按硬件容量并发处理和排队请求。
-- 支持模型拉取/发现、上下文压缩、精确解码和本地 Web 界面。
+- 支持模型拉取/发现、上下文压缩、精确解码、本地 Web 界面，以及总连接数和来源地址级接入限制。
 - 无需 Python 或 MLX，发行版可直接运行本地目录或 Hugging Face 缓存。
 
 ## 怎么利用
@@ -45,7 +45,7 @@ tensorfold serve mlx-community/Qwen3.5-2B-MLX-4bit --name local-model --context 
 希望在 Apple Silicon 或 NVIDIA GPU 上部署本地兼容 API，并愿意按硬件容量调优模型、上下文与并发的推理工程师。
 
 ## 局限 / 注意点
-macOS 路径要求 Apple Silicon；Linux CUDA 发行版要求 glibc 2.28+、NVIDIA R580+ 驱动与 CUDA 13 运行条件。模型权重有各自许可证，显存/内存决定上下文与并发；Living Weights 等能力仍属实验性。
+macOS 路径要求 Apple Silicon；Linux CUDA 发行版要求 glibc 2.28+、NVIDIA R580+ 驱动与 CUDA 13 运行条件。服务默认最多 128 个开放连接，按来源地址的份额限制在连接量达到四分之三后生效；反向代理或 Docker 网关需显式配置 trusted-proxy。模型权重许可、显存/内存仍决定上下文与并发，Living Weights 等能力仍属实验性。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
@@ -63,5 +63,5 @@ https://github.com/ashhart/TensorFold
 
 ## 官方资料复核（2026-11-13）
 - README：https://github.com/ashhart/TensorFold/blob/HEAD/README.md
-- README blob SHA：`33840f0b8dce50de1bd3dc5fd4f80caaf6d57b4f`
-- 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+- README blob SHA：`8075402b929ab2861307f6d809a35c5126eeb9b8`
+- 早晨快照后官方 README 新增 `--max-connections`、`--max-connections-per-address` 与 `--trusted-proxy` 的接入限制说明；榜单统计仍保留 08:07:57 的同次 GitHub Trending 快照。
