@@ -3,16 +3,16 @@ type: github-project
 repo: "openai/codex-security"
 url: "https://github.com/openai/codex-security"
 first_seen: "2026-11-12"
-last_seen: "2026-11-13"
-trending_count: 2
+last_seen: "2026-11-14"
+trending_count: 3
 language: "TypeScript"
-total_stars: 12400
-forks: 976
-stars_today: 643
-github_rank: 2
-fetched_at: "2026-11-13T08:07:57+08:00"
-documentation_checked_at: "2026-11-13"
-stats_as_of: "2026-11-13"
+total_stars: 13122
+forks: 1023
+stars_today: 751
+github_rank: 3
+fetched_at: "2026-11-14T08:06:26+08:00"
+documentation_checked_at: "2026-11-14"
+stats_as_of: "2026-11-14"
 snapshot_status: "live"
 category: ["Security","Static Analysis","Developer Tools"]
 topics: ["Security","Code-Analysis","CI"]
@@ -52,6 +52,7 @@ CLI 要求 Node.js 22.13+（22.x）或 24/26，以及 Python 3.10+；自动化�
 |---|---:|---:|---:|---:|---|
 | 2026-11-12 | 9 | 52 | 11697 | 937 | GitHub Today live snapshot |
 | 2026-11-13 | 2 | 643 | 12400 | 976 | GitHub Today live snapshot |
+| 2026-11-14 | 3 | 751 | 13122 | 1023 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Code-Analysis|Code-Analysis]] · [[Topics/CI|CI]]
@@ -60,6 +61,8 @@ CLI 要求 Node.js 22.13+（22.x）或 24/26，以及 Python 3.10+；自动化�
 - [[Daily/2026/11/2026-11-12|2026-11-12]]
 
 - [[Daily/2026/11/2026-11-13|2026-11-13]]
+
+- [[Daily/2026/11/2026-11-14|2026-11-14]]
 
 ## GitHub 原始链接
 https://github.com/openai/codex-security
@@ -75,3 +78,8 @@ https://github.com/openai/codex-security
 - Deep Scan 配置文档：https://github.com/openai/codex-security/blob/HEAD/docs/project-configuration.md
 - 配置文档 blob SHA：`d614334f5bc10bd9fdbe3739806c99a122ca5be8`；对应提交：`f26b669b56a4423abd773c81f6c6c9c2ebadc42a`
 - 本次按当前官方资料补充 preflight 不能证明 worker 沙箱隔离的边界；既有能力、案例、分类、风险说明与较早历史均保留。
+
+## 官方资料复核（2026-11-14）
+- README：https://github.com/openai/codex-security/blob/HEAD/README.md
+- README blob SHA：`c30adfcdb1b8c61c6051d14f6fad8fe1ea90d81a`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、主题、风险与较早历史均保留。

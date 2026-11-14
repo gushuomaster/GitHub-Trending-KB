@@ -3,16 +3,16 @@ type: github-project
 repo: "ZhuLinsen/daily_stock_analysis"
 url: "https://github.com/ZhuLinsen/daily_stock_analysis"
 first_seen: "2026-11-10"
-last_seen: "2026-11-12"
-trending_count: 2
+last_seen: "2026-11-14"
+trending_count: 3
 language: "Python"
-total_stars: 70203
-forks: 56835
-stars_today: 278
-github_rank: 2
-fetched_at: "2026-11-12T08:08:27+08:00"
-documentation_checked_at: "2026-11-12"
-stats_as_of: "2026-11-12"
+total_stars: 71574
+forks: 57276
+stars_today: 256
+github_rank: 4
+fetched_at: "2026-11-14T08:06:26+08:00"
+documentation_checked_at: "2026-11-14"
+stats_as_of: "2026-11-14"
 snapshot_status: "live"
 category: ["Stock Analysis","LLM","Automation"]
 topics: ["Quant","Stock-Analysis","LLM","Automation"]
@@ -53,6 +53,7 @@ python main.py --stocks 600519,hk00700,AAPL
 |---|---:|---:|---:|---:|---|
 | 2026-11-10 | 9 | 506 | 68816 | 56382 | GitHub Today live snapshot |
 | 2026-11-12 | 2 | 278 | 70203 | 56835 | GitHub Today live snapshot |
+| 2026-11-14 | 4 | 256 | 71574 | 57276 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Quant|Quant]] · [[Topics/Stock-Analysis|Stock-Analysis]] · [[Topics/LLM|LLM]] · [[Topics/Automation|Automation]]
@@ -61,6 +62,8 @@ python main.py --stocks 600519,hk00700,AAPL
 - [[Daily/2026/11/2026-11-10|2026-11-10]]
 
 - [[Daily/2026/11/2026-11-12|2026-11-12]]
+
+- [[Daily/2026/11/2026-11-14|2026-11-14]]
 
 ## GitHub 原始链接
 https://github.com/ZhuLinsen/daily_stock_analysis
@@ -74,3 +77,8 @@ https://github.com/ZhuLinsen/daily_stock_analysis
 - README：https://github.com/ZhuLinsen/daily_stock_analysis/blob/HEAD/README.md
 - README blob SHA：`cb130e7bd387db4fbd26949ee9f995b95c347134`
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+
+## 官方资料复核（2026-11-14）
+- README：https://github.com/ZhuLinsen/daily_stock_analysis/blob/HEAD/README.md
+- README blob SHA：`80e2a4befc6a72568278fa90050be6ed88b8b7b6`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、主题、风险与较早历史均保留。

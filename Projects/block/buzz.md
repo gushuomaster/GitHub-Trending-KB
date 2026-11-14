@@ -1,18 +1,22 @@
 ---
 repo: "block/buzz"
 url: "https://github.com/block/buzz"
-first_seen: 2026-09-27
-last_seen: 2026-09-27
-trending_count: 1
+first_seen: "2026-09-27"
+last_seen: "2026-11-14"
+trending_count: 2
 github_rank: 8
-stars_today: null
-total_stars: 35148
-forks: 4623
+stars_today: 97
+total_stars: 37295
+forks: 4940
 language: "Rust"
 metadata_checked_at: "2026-09-28T16:09:06+08:00"
-snapshot_status: archived_backfill
+snapshot_status: "live"
 topics: ["Agent", "Collaboration", "Self-Hosted"]
 status: active
+type: github-project
+fetched_at: "2026-11-14T08:06:26+08:00"
+documentation_checked_at: "2026-11-14"
+stats_as_of: "2026-11-14"
 ---
 # block/buzz
 
@@ -42,6 +46,7 @@ status: active
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-09-27 | 8 | 未保存 | 未保存 | 未保存 | archived_backfill |
+| 2026-11-14 | 8 | 97 | 37295 | 4940 | GitHub Today live snapshot |
 
 > 上表只保留归档可证明的日期与原始顺序；当前 Stars/Forks 仅记录在 frontmatter 的 `metadata_checked_at` 快照，不冒充历史数值。
 
@@ -51,5 +56,13 @@ status: active
 ## 相关日报
 - [[Daily/2026/09/2026-09-27|2026-09-27]]
 
+- [[Daily/2026/11/2026-11-14|2026-11-14]]
+
 ## GitHub 原始链接
 https://github.com/block/buzz
+
+## 官方资料复核（2026-11-14）
+- README：https://github.com/block/buzz/blob/HEAD/README.md
+- README blob SHA：`de9636ece386b9b3c0492b062a85ddfa69e53124`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、主题、风险与较早历史均保留。
+- 当前仓库为仍受支持的 Buzz 0.X；Buzz 1.0 位于 `block/buzz-app`，其插件 API 仍为预览。
