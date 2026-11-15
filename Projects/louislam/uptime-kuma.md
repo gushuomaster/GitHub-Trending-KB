@@ -3,16 +3,16 @@ type: github-project
 repo: "louislam/uptime-kuma"
 url: "https://github.com/louislam/uptime-kuma"
 first_seen: "2026-11-14"
-last_seen: "2026-11-14"
-trending_count: 1
+last_seen: "2026-11-15"
+trending_count: 2
 language: "JavaScript"
-total_stars: 93850
-forks: 8721
-stars_today: 71
-github_rank: 7
-fetched_at: "2026-11-14T08:06:26+08:00"
-documentation_checked_at: "2026-11-14"
-stats_as_of: "2026-11-14"
+total_stars: 94228
+forks: 8818
+stars_today: 430
+github_rank: 11
+fetched_at: "2026-11-15T08:07:59+08:00"
+documentation_checked_at: "2026-11-15"
+stats_as_of: "2026-11-15"
 snapshot_status: "live"
 category: ["Monitoring","Self-Hosted","DevOps"]
 topics: ["Monitoring","Self-Hosted","DevOps"]
@@ -49,6 +49,7 @@ Docker 数据目录不支持 NFS，必须使用本地目录或卷；默认监听
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-14 | 7 | 71 | 93850 | 8721 | GitHub Today live snapshot |
+| 2026-11-15 | 11 | 430 | 94228 | 8818 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Monitoring|Monitoring]] · [[Topics/Self-Hosted|Self-Hosted]] · [[Topics/DevOps|DevOps]]
@@ -56,6 +57,7 @@ Docker 数据目录不支持 NFS，必须使用本地目录或卷；默认监听
 ## 相关日报
 - [[Daily/2026/11/2026-11-14|2026-11-14]]
 
+- [[Daily/2026/11/2026-11-15|2026-11-15]]
 ## GitHub 原始链接
 https://github.com/louislam/uptime-kuma
 
@@ -63,3 +65,8 @@ https://github.com/louislam/uptime-kuma
 - README：https://github.com/louislam/uptime-kuma/blob/HEAD/README.md
 - README blob SHA：`eb23a1b7e8d53bf2d92daa69c62d420d7ddce447`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-15）
+- README：https://github.com/louislam/uptime-kuma/blob/HEAD/README.md
+- README blob SHA：`eb23a1b7e8d53bf2d92daa69c62d420d7ddce447`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。

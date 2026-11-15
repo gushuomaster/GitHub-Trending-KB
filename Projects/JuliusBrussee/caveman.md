@@ -1,16 +1,16 @@
 ---
 type: github-project
-repo: JuliusBrussee/caveman
-url: https://github.com/JuliusBrussee/caveman
-first_seen: '2026-10-03'
-last_seen: '2026-10-16'
-trending_count: 3
-github_rank: 4
-language: Go
-total_stars: 112524
-forks: 6519
-stars_today: 433
-fetched_at: '2026-10-16T08:10:32+08:00'
+repo: "JuliusBrussee/caveman"
+url: "https://github.com/JuliusBrussee/caveman"
+first_seen: "2026-10-03"
+last_seen: "2026-11-15"
+trending_count: 4
+github_rank: 10
+language: "Go"
+total_stars: 120058
+forks: 7002
+stars_today: 227
+fetched_at: "2026-11-15T08:07:59+08:00"
 category:
 - AI
 - Developer-Tools
@@ -24,8 +24,9 @@ topics:
 - AI
 - Developer-Tools
 - Context-Engineering
-documentation_checked_at: '2026-10-16'
-stats_as_of: '2026-10-16'
+documentation_checked_at: "2026-11-15"
+stats_as_of: "2026-11-15"
+snapshot_status: "live"
 ---
 
 # JuliusBrussee/caveman
@@ -65,6 +66,7 @@ caveman codex
 | 2026-10-03 | 2 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/2c94a658b36f43039d6e2d707f4bc9f4746da107/archive/repository/2026/2026-10-03/(null).json) |
 | 2026-10-04 | 5 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/fe5095909e994262e6bf167a48b8035f8d07bb3b/archive/repository/2026/2026-10-04/(null).json) |
 | 2026-10-16 | 4 | 433 | 112524 | 6519 | GitHub Today live snapshot |
+| 2026-11-15 | 10 | 227 | 120058 | 7002 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Context-Engineering|Context-Engineering]]
@@ -74,6 +76,7 @@ caveman codex
 - [[Daily/2026/10/2026-10-04|2026-10-04]]
 - [[Daily/2026/10/2026-10-16|2026-10-16]]
 
+- [[Daily/2026/11/2026-11-15|2026-11-15]]
 ## GitHub 原始链接
 https://github.com/JuliusBrussee/caveman
 
@@ -82,3 +85,7 @@ https://github.com/JuliusBrussee/caveman
 - README blob SHA：`ca076fdedc503792dc2b990293837f822b72baf6`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
 
+## 官方资料复核（2026-11-15）
+- README：https://github.com/JuliusBrussee/caveman/blob/HEAD/README.md
+- README blob SHA：`33aec59284cd74f97be651840950476333c44025`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。

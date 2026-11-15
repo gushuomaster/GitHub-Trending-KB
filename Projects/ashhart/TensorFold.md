@@ -3,16 +3,16 @@ type: github-project
 repo: "ashhart/TensorFold"
 url: "https://github.com/ashhart/TensorFold"
 first_seen: "2026-11-13"
-last_seen: "2026-11-13"
-trending_count: 1
+last_seen: "2026-11-15"
+trending_count: 2
 language: "Zig"
-total_stars: 1931
-forks: 391
-stars_today: 54
-github_rank: 7
-fetched_at: "2026-11-13T08:07:57+08:00"
-documentation_checked_at: "2026-11-13"
-stats_as_of: "2026-11-13"
+total_stars: 2155
+forks: 497
+stars_today: 37
+github_rank: 9
+fetched_at: "2026-11-15T08:07:59+08:00"
+documentation_checked_at: "2026-11-15"
+stats_as_of: "2026-11-15"
 snapshot_status: "live"
 category: ["LLM Inference","Zig","GPU"]
 topics: ["LLM-Inference","Metal","CUDA"]
@@ -51,6 +51,7 @@ macOS 路径要求 Apple Silicon；Linux CUDA 发行版要求 glibc 2.28+、NVID
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-13 | 7 | 54 | 1931 | 391 | GitHub Today live snapshot |
+| 2026-11-15 | 9 | 37 | 2155 | 497 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/LLM-Inference|LLM-Inference]] · [[Topics/Metal|Metal]] · [[Topics/CUDA|CUDA]]
@@ -58,6 +59,7 @@ macOS 路径要求 Apple Silicon；Linux CUDA 发行版要求 glibc 2.28+、NVID
 ## 相关日报
 - [[Daily/2026/11/2026-11-13|2026-11-13]]
 
+- [[Daily/2026/11/2026-11-15|2026-11-15]]
 ## GitHub 原始链接
 https://github.com/ashhart/TensorFold
 
@@ -65,3 +67,8 @@ https://github.com/ashhart/TensorFold
 - README：https://github.com/ashhart/TensorFold/blob/HEAD/README.md
 - README blob SHA：`8075402b929ab2861307f6d809a35c5126eeb9b8`
 - 早晨快照后官方 README 新增 `--max-connections`、`--max-connections-per-address` 与 `--trusted-proxy` 的接入限制说明；榜单统计仍保留 08:07:57 的同次 GitHub Trending 快照。
+
+## 官方资料复核（2026-11-15）
+- README：https://github.com/ashhart/TensorFold/blob/HEAD/README.md
+- README blob SHA：`88c2620a437f64f20a4cc4fb135d7ad125a96e4a`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。

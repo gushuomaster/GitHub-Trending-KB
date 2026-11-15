@@ -3,16 +3,16 @@ type: github-project
 repo: "Likely7/Veyra-NRVideo"
 url: "https://github.com/Likely7/Veyra-NRVideo"
 first_seen: "2026-11-14"
-last_seen: "2026-11-14"
-trending_count: 1
+last_seen: "2026-11-15"
+trending_count: 2
 language: "C++"
-total_stars: 1615
-forks: 71
-stars_today: 256
-github_rank: 11
-fetched_at: "2026-11-14T08:06:26+08:00"
-documentation_checked_at: "2026-11-14"
-stats_as_of: "2026-11-14"
+total_stars: 2230
+forks: 176
+stars_today: 420
+github_rank: 14
+fetched_at: "2026-11-15T08:07:59+08:00"
+documentation_checked_at: "2026-11-15"
+stats_as_of: "2026-11-15"
 snapshot_status: "live"
 category: ["Video Enhancement","GPU","Windows"]
 topics: ["Video","GPU","Frame-Generation"]
@@ -50,6 +50,7 @@ veyra_qml_ui.exe
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-14 | 11 | 256 | 1615 | 71 | GitHub Today live snapshot |
+| 2026-11-15 | 14 | 420 | 2230 | 176 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Video|Video]] · [[Topics/GPU|GPU]] · [[Topics/Frame-Generation|Frame-Generation]]
@@ -57,6 +58,7 @@ veyra_qml_ui.exe
 ## 相关日报
 - [[Daily/2026/11/2026-11-14|2026-11-14]]
 
+- [[Daily/2026/11/2026-11-15|2026-11-15]]
 ## GitHub 原始链接
 https://github.com/Likely7/Veyra-NRVideo
 
@@ -64,3 +66,8 @@ https://github.com/Likely7/Veyra-NRVideo
 - README：https://github.com/Likely7/Veyra-NRVideo/blob/HEAD/README.md
 - README blob SHA：`e15c24374e1817005ed58d2485ba3a6230eec8e6`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-15）
+- README：https://github.com/Likely7/Veyra-NRVideo/blob/HEAD/README.md
+- README blob SHA：`e15c24374e1817005ed58d2485ba3a6230eec8e6`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。

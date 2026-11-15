@@ -1,19 +1,23 @@
 ---
 repo: "dream-num/univer"
 url: "https://github.com/dream-num/univer"
-first_seen: 2026-09-23
-last_seen: 2026-09-30
-trending_count: 8
-github_rank: 13
-stars_today: 696
-total_stars: 21840
-forks: 1842
-language: TypeScript
-fetched_at: "2026-09-30T08:04:00+08:00"
+first_seen: "2026-09-23"
+last_seen: "2026-11-15"
+trending_count: 9
+github_rank: 7
+stars_today: 495
+total_stars: 24479
+forks: 2225
+language: "TypeScript"
+fetched_at: "2026-11-15T08:07:59+08:00"
 category: ["Developer Tools", "Office", "AI"]
 tags: ["office", "spreadsheet", "docs", "slides", "pdf", "typescript", "agent"]
 topics: ["Developer-Tools", "Agent"]
 status: active
+type: github-project
+documentation_checked_at: "2026-11-15"
+stats_as_of: "2026-11-15"
+snapshot_status: "live"
 ---
 # dream-num/univer
 
@@ -51,6 +55,7 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 | 2026-09-28 | 8 | +895 | 20812 | 1767 |
 | 2026-09-29 | 8 | +1099 | 21235 | 1801 |
 | 2026-09-30 | 13 | +696 | 21840 | 1842 |
+| 2026-11-15 | 7 | 495 | 24479 | 2225 |
 
 
 ## 历史归档补记
@@ -71,5 +76,11 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 - [[Daily/2026/09/2026-09-29|2026-09-29]]
 - [[Daily/2026/09/2026-09-30|2026-09-30]]
 
+- [[Daily/2026/11/2026-11-15|2026-11-15]]
 ## GitHub 原始链接
 https://github.com/dream-num/univer
+
+## 官方资料复核（2026-11-15）
+- README：https://github.com/dream-num/univer/blob/HEAD/README.md
+- README blob SHA：`ea0b74e1ed93f291abb2c12d878fd9af8f9ae824`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。

@@ -3,16 +3,16 @@ type: github-project
 repo: "tradermonty/claude-trading-skills"
 url: "https://github.com/tradermonty/claude-trading-skills"
 first_seen: "2026-11-14"
-last_seen: "2026-11-14"
-trending_count: 1
+last_seen: "2026-11-15"
+trending_count: 2
 language: "Python"
-total_stars: 4152
-forks: 862
-stars_today: 69
-github_rank: 9
-fetched_at: "2026-11-14T08:06:26+08:00"
-documentation_checked_at: "2026-11-14"
-stats_as_of: "2026-11-14"
+total_stars: 4790
+forks: 993
+stars_today: 553
+github_rank: 3
+fetched_at: "2026-11-15T08:07:59+08:00"
+documentation_checked_at: "2026-11-15"
+stats_as_of: "2026-11-15"
 snapshot_status: "live"
 category: ["Trading Research","Claude Skills","Risk Management"]
 topics: ["Trading","Claude-Skills","Backtesting"]
@@ -50,6 +50,7 @@ cp -R claude-trading-skills/backtest-expert ~/.claude/skills/
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-14 | 9 | 69 | 4152 | 862 | GitHub Today live snapshot |
+| 2026-11-15 | 3 | 553 | 4790 | 993 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Trading|Trading]] · [[Topics/Claude-Skills|Claude-Skills]] · [[Topics/Backtesting|Backtesting]]
@@ -57,6 +58,7 @@ cp -R claude-trading-skills/backtest-expert ~/.claude/skills/
 ## 相关日报
 - [[Daily/2026/11/2026-11-14|2026-11-14]]
 
+- [[Daily/2026/11/2026-11-15|2026-11-15]]
 ## GitHub 原始链接
 https://github.com/tradermonty/claude-trading-skills
 
@@ -64,3 +66,8 @@ https://github.com/tradermonty/claude-trading-skills
 - README：https://github.com/tradermonty/claude-trading-skills/blob/HEAD/README.md
 - README blob SHA：`028aa127c04c0848b4df1bd4765d7e0f9bea2465`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-15）
+- README：https://github.com/tradermonty/claude-trading-skills/blob/HEAD/README.md
+- README blob SHA：`94fdbef125f84f43ce338ecd715c4ccec1ba66a1`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。

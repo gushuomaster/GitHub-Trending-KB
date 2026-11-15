@@ -3,16 +3,16 @@ type: github-project
 repo: "GoogleChrome/modern-web-guidance-src"
 url: "https://github.com/GoogleChrome/modern-web-guidance-src"
 first_seen: "2026-11-12"
-last_seen: "2026-11-14"
-trending_count: 3
+last_seen: "2026-11-15"
+trending_count: 4
 language: "TypeScript"
-total_stars: 4816
-forks: 269
-stars_today: 1925
+total_stars: 6018
+forks: 402
+stars_today: 1231
 github_rank: 2
-fetched_at: "2026-11-14T08:06:26+08:00"
-documentation_checked_at: "2026-11-14"
-stats_as_of: "2026-11-14"
+fetched_at: "2026-11-15T08:07:59+08:00"
+documentation_checked_at: "2026-11-15"
+stats_as_of: "2026-11-15"
 snapshot_status: "live"
 category: ["Web Platform","Agent Skills","Frontend"]
 topics: ["Web-Platform","Frontend","AI-Agent"]
@@ -51,6 +51,7 @@ npx modern-web-guidance@latest search "animate a dialog modal backdrop"
 | 2026-11-12 | 3 | 159 | 1727 | 139 | GitHub Today live snapshot |
 | 2026-11-13 | 1 | 739 | 2875 | 194 | GitHub Today live snapshot |
 | 2026-11-14 | 2 | 1925 | 4816 | 269 | GitHub Today live snapshot |
+| 2026-11-15 | 2 | 1231 | 6018 | 402 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Web-Platform|Web-Platform]] · [[Topics/Frontend|Frontend]] · [[Topics/AI-Agent|AI-Agent]]
@@ -62,6 +63,7 @@ npx modern-web-guidance@latest search "animate a dialog modal backdrop"
 
 - [[Daily/2026/11/2026-11-14|2026-11-14]]
 
+- [[Daily/2026/11/2026-11-15|2026-11-15]]
 ## GitHub 原始链接
 https://github.com/GoogleChrome/modern-web-guidance-src
 
@@ -79,3 +81,8 @@ https://github.com/GoogleChrome/modern-web-guidance-src
 - README：https://github.com/GoogleChrome/modern-web-guidance-src/blob/HEAD/README.md
 - README blob SHA：`0ccd772b5e62eea09b54b454f0bd75a33b511503`
 - 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、主题、风险与较早历史均保留。
+
+## 官方资料复核（2026-11-15）
+- README：https://github.com/GoogleChrome/modern-web-guidance-src/blob/HEAD/README.md
+- README blob SHA：`0ccd772b5e62eea09b54b454f0bd75a33b511503`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。

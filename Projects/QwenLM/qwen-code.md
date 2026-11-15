@@ -3,16 +3,16 @@ type: github-project
 repo: "QwenLM/qwen-code"
 url: "https://github.com/QwenLM/qwen-code"
 first_seen: "2026-11-13"
-last_seen: "2026-11-13"
-trending_count: 1
+last_seen: "2026-11-15"
+trending_count: 2
 language: "TypeScript"
-total_stars: 29792
-forks: 3392
-stars_today: 151
+total_stars: 30327
+forks: 3500
+stars_today: 64
 github_rank: 6
-fetched_at: "2026-11-13T08:07:57+08:00"
-documentation_checked_at: "2026-11-13"
-stats_as_of: "2026-11-13"
+fetched_at: "2026-11-15T08:07:59+08:00"
+documentation_checked_at: "2026-11-15"
+stats_as_of: "2026-11-15"
 snapshot_status: "live"
 category: ["AI Agent","Coding Agent","Developer Tools"]
 topics: ["AI-Agent","Coding-Agent","MCP"]
@@ -51,6 +51,7 @@ qwen
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-13 | 6 | 151 | 29792 | 3392 | GitHub Today live snapshot |
+| 2026-11-15 | 6 | 64 | 30327 | 3500 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI-Agent|AI-Agent]] · [[Topics/Coding-Agent|Coding-Agent]] · [[Topics/MCP|MCP]]
@@ -58,6 +59,7 @@ qwen
 ## 相关日报
 - [[Daily/2026/11/2026-11-13|2026-11-13]]
 
+- [[Daily/2026/11/2026-11-15|2026-11-15]]
 ## GitHub 原始链接
 https://github.com/QwenLM/qwen-code
 
@@ -65,3 +67,8 @@ https://github.com/QwenLM/qwen-code
 - README：https://github.com/QwenLM/qwen-code/blob/HEAD/README.md
 - README blob SHA：`83b7e8673c2b2c4a5c12bd4bd408a0f95ee685e2`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-15）
+- README：https://github.com/QwenLM/qwen-code/blob/HEAD/README.md
+- README blob SHA：`6b162b1f191c50fc8862a7084e17c379927c0bf2`
+- 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。
