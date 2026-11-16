@@ -3,16 +3,16 @@ type: github-project
 repo: "ChromeDevTools/chrome-devtools-mcp"
 url: "https://github.com/ChromeDevTools/chrome-devtools-mcp"
 first_seen: "2026-11-14"
-last_seen: "2026-11-15"
-trending_count: 2
+last_seen: "2026-11-16"
+trending_count: 3
 language: "TypeScript"
-total_stars: 56286
-forks: 4759
-stars_today: 664
-github_rank: 4
-fetched_at: "2026-11-15T08:07:59+08:00"
-documentation_checked_at: "2026-11-15"
-stats_as_of: "2026-11-15"
+total_stars: 56903
+forks: 4812
+stars_today: 717
+github_rank: 5
+fetched_at: "2026-11-16T08:10:30+08:00"
+documentation_checked_at: "2026-11-16"
+stats_as_of: "2026-11-16"
 snapshot_status: "live"
 category: ["Browser Automation","MCP","Developer Tools"]
 topics: ["Chrome-DevTools","MCP","Performance"]
@@ -49,6 +49,7 @@ MCP 客户端可读取、调试并修改浏览器中的任何数据，不能在�
 |---|---:|---:|---:|---:|---|
 | 2026-11-14 | 12 | 67 | 55444 | 4602 | GitHub Today live snapshot |
 | 2026-11-15 | 4 | 664 | 56286 | 4759 | GitHub Today live snapshot |
+| 2026-11-16 | 5 | 717 | 56903 | 4812 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Chrome-DevTools|Chrome-DevTools]] · [[Topics/MCP|MCP]] · [[Topics/Performance|Performance]]
@@ -57,6 +58,8 @@ MCP 客户端可读取、调试并修改浏览器中的任何数据，不能在�
 - [[Daily/2026/11/2026-11-14|2026-11-14]]
 
 - [[Daily/2026/11/2026-11-15|2026-11-15]]
+- [[Daily/2026/11/2026-11-16|2026-11-16]]
+
 ## GitHub 原始链接
 https://github.com/ChromeDevTools/chrome-devtools-mcp
 
@@ -69,3 +72,7 @@ https://github.com/ChromeDevTools/chrome-devtools-mcp
 - README：https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/HEAD/README.md
 - README blob SHA：`2dca1a052a314a7c2635fb9da68c96221441e380`
 - 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。
+
+## 官方资料复核（2026-11-16）
+- README：https://github.com/ChromeDevTools/chrome-devtools-mcp/blob/HEAD/README.md
+- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。

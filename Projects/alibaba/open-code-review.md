@@ -5,16 +5,16 @@ url: "https://github.com/alibaba/open-code-review"
 category: ["Code Review","AI Agent","Developer Tools"]
 topics: ["Code Review","AI Agent","Developer Tools"]
 first_seen: "2026-09-14"
-last_seen: "2026-11-15"
-trending_count: 9
+last_seen: "2026-11-16"
+trending_count: 10
 language: "Go"
-total_stars: 51418
-forks: 3907
-stars_today: 893
-github_rank: 5
-fetched_at: "2026-11-15T08:07:59+08:00"
-documentation_checked_at: "2026-11-15"
-stats_as_of: "2026-11-15"
+total_stars: 52053
+forks: 4107
+stars_today: 691
+github_rank: 6
+fetched_at: "2026-11-16T08:10:30+08:00"
+documentation_checked_at: "2026-11-16"
+stats_as_of: "2026-11-16"
 snapshot_status: "live"
 ---
 # alibaba/open-code-review
@@ -52,6 +52,7 @@ snapshot_status: "live"
 | 2026-10-10 | 5 | 326 | 45185 | 3260 | GitHub Today live snapshot |
 | 2026-11-14 | 1 | 215 | 50592 | 3762 | GitHub Today live snapshot |
 | 2026-11-15 | 5 | 893 | 51418 | 3907 | GitHub Today live snapshot |
+| 2026-11-16 | 6 | 691 | 52053 | 4107 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Code Review|Code Review]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Developer Tools|Developer Tools]]
@@ -68,6 +69,8 @@ snapshot_status: "live"
 - [[Daily/2026/11/2026-11-14|2026-11-14]]
 
 - [[Daily/2026/11/2026-11-15|2026-11-15]]
+- [[Daily/2026/11/2026-11-16|2026-11-16]]
+
 ## GitHub 原始链接
 https://github.com/alibaba/open-code-review
 
@@ -121,3 +124,7 @@ https://github.com/alibaba/open-code-review
 - README：https://github.com/alibaba/open-code-review/blob/HEAD/README.md
 - README blob SHA：`3dcedfdf9db2d9736e25a459f9408a93dd823b2c`
 - 本次按当前官方资料复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与较早历史均保留。
+
+## 官方资料复核（2026-11-16）
+- README：https://github.com/alibaba/open-code-review/blob/HEAD/README.md
+- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。

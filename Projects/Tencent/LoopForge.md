@@ -3,16 +3,16 @@ type: github-project
 repo: "Tencent/LoopForge"
 url: "https://github.com/Tencent/LoopForge"
 first_seen: "2026-11-15"
-last_seen: "2026-11-15"
-trending_count: 1
+last_seen: "2026-11-16"
+trending_count: 2
 language: "Go"
-total_stars: 894
-forks: 211
-stars_today: 33
-github_rank: 13
-fetched_at: "2026-11-15T08:07:59+08:00"
-documentation_checked_at: "2026-11-15"
-stats_as_of: "2026-11-15"
+total_stars: 1462
+forks: 264
+stars_today: 423
+github_rank: 7
+fetched_at: "2026-11-16T08:10:30+08:00"
+documentation_checked_at: "2026-11-16"
+stats_as_of: "2026-11-16"
 snapshot_status: "live"
 category: ["Coding Agent","Workflow","Self-Hosted"]
 topics: ["Coding-Agent","SOP","Self-Hosted"]
@@ -51,12 +51,14 @@ cd LoopForge
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-15 | 13 | 33 | 894 | 211 | GitHub Today live snapshot |
+| 2026-11-16 | 7 | 423 | 1462 | 264 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Coding-Agent|Coding-Agent]] · [[Topics/SOP|SOP]] · [[Topics/Self-Hosted|Self-Hosted]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-15|2026-11-15]]
+- [[Daily/2026/11/2026-11-16|2026-11-16]]
 
 ## GitHub 原始链接
 https://github.com/Tencent/LoopForge
@@ -65,3 +67,7 @@ https://github.com/Tencent/LoopForge
 - README：https://github.com/Tencent/LoopForge/blob/HEAD/README.md
 - README blob SHA：`8141eec354b8852ef67a908ef2547232a2e4bf9d`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-16）
+- README：https://github.com/Tencent/LoopForge/blob/HEAD/README.md
+- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
