@@ -63,4 +63,5 @@ https://github.com/ggml-org/ggml
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/ggml-org/ggml/blob/HEAD/README.md
+- README blob SHA：`3178f3a5c3e837f4b402c6b0aa5cd587ccc5c152`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。

@@ -62,4 +62,5 @@ https://github.com/google-labs-code/stitch-skills
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/google-labs-code/stitch-skills/blob/HEAD/README.md
+- README blob SHA：`baecaabfa0fc08d596e3d5921479321eaacac02a`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。

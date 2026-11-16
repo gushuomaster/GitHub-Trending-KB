@@ -90,4 +90,5 @@ https://github.com/dream-num/univer
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/dream-num/univer/blob/HEAD/README.md
+- README blob SHA：`3244196198837cd4b1a8d4eb0d3350273af9a260`
 - 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。

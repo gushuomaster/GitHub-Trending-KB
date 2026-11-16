@@ -62,4 +62,5 @@ https://github.com/NVIDIA/SkillEvaluator
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/NVIDIA/SkillEvaluator/blob/HEAD/README.md
+- README blob SHA：`1698fcfac815b2b844ad0723ea81465e71f991ab`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。

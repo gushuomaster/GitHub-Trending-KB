@@ -62,4 +62,5 @@ https://github.com/elementalsouls/Claude-BugHunter
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/elementalsouls/Claude-BugHunter/blob/HEAD/README.md
+- README blob SHA：`4182889da32bba8e37c28e1d5bec4231bf5046db`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。

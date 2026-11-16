@@ -77,4 +77,5 @@ https://github.com/backnotprop/plannotator
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/backnotprop/plannotator/blob/HEAD/README.md
+- README blob SHA：`176d573c6cdb23fd608023b2966a6f1e1baefc55`
 - 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。

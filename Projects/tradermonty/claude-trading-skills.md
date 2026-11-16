@@ -77,4 +77,5 @@ https://github.com/tradermonty/claude-trading-skills
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/tradermonty/claude-trading-skills/blob/HEAD/README.md
+- README blob SHA：`a3c2d91c57fb18cbe5cdb5b2aaca5e34f44b63b8`
 - 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
