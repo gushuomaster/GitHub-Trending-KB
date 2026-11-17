@@ -26,19 +26,19 @@ snapshot_status: "live"
 - 读取 Git diff 或扫描完整文件，并按行生成结构化审查意见
 - 让 Agent 搜索代码库、读取上下文和关联变更
 - 内置空指针、线程安全、XSS、SQL 注入等多语言规则
-- 保存审查会话并支持 Claude Code、Codex、Cursor 等宿主
+- 保存审查会话并支持 Claude Code、Codex、Cursor 等宿主；Agent Skills 可选 native 或 delegation 两种审查模式
 
 ## 怎么利用
-官方流程：配置 OpenAI/Anthropic 兼容模型端点，在仓库运行 `ocr review` 审查当前 diff；工具先保证变更覆盖，再让 Agent 读取相关文件，输出可定位到行的 findings。
+官方 Agent Skills 流程：运行 `npx skills add alibaba/open-code-review`，无单独 OCR 模型密钥时选择 delegation 模式，由当前 Coding Agent 按 OCR 的文件选择、规则解析、覆盖要求和结构化报告约束审查 diff；若已配置 OCR Provider，则选择 native 模式运行完整原生管线。两种模式都输出可定位到行的 findings。
 
 ## 实际例子
-**资料中的工作流：** 官方流程：配置 OpenAI/Anthropic 兼容模型端点，在仓库运行 `ocr review` 审查当前 diff；工具先保证变更覆盖，再让 Agent 读取相关文件，输出可定位到行的 findings。
+**官方 Agent Skills 工作流：** 在待审仓库安装技能并选择 delegation 模式，当前 Coding Agent 读取 diff 与关联文件，按 OCR 的覆盖和报告规则生成行级 findings；需要 OCR 专用 Provider 与完整原生管线时再切换 native 模式。
 
 ## 适合谁
 希望在本地、PR 或 CI 中增加行级 AI Review 的研发团队。
 
 ## 局限 / 注意点
-- 官方基准明确以更高 precision 换取较低 recall，仍会漏报；大 changeset 的分组、token 预算、模型费用和误报必须通过 CI 规则、测试与人工评审共同控制。
+- Agent Skills 模式要求 Git 2.41+ 和 `ocr` CLI；delegation 不需要单独 OCR Provider，但仍使用宿主 Agent 的认证、额度与费用，且不运行完整 native 管线。官方基准明确以更高 precision 换取较低 recall，仍会漏报；大 changeset 仍需 CI、测试与人工评审兜底。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
@@ -133,5 +133,5 @@ https://github.com/alibaba/open-code-review
 
 ## 官方资料复核（2026-11-17）
 - README：https://github.com/alibaba/open-code-review/blob/HEAD/README.md
-- README blob SHA：`3dcedfdf9db2d9736e25a459f9408a93dd823b2c`
-- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
+- README blob SHA：`a5669f6323926276435f61c44fca26ba6b3df906`
+- 午后 README 新增 Agent Skills 安装以及 native/delegation 模式边界；本次补充当前工作流与限制，保留既有历史、分类、主题与风险说明。

@@ -23,9 +23,9 @@ topics: ["Agent-Skills", "Research", "Social-Media"]
 `/last30days` 是让 Coding Agent 检索最近 30 天讨论与市场信号的技能，把 Reddit、X、YouTube、Hacker News、Polymarket、GitHub 等来源并行汇总成有依据的简报。
 
 ## 它能做什么
-- 并行搜索社区帖子、评论、视频转录、预测市场和代码活动，并保留时间窗口。
+- 并行搜索社区帖子、评论、视频转录、预测市场和代码活动；公司主题还会读取近期美国专利申请与官方招聘页。
 - 按点赞、投票、评论和真实资金赔率等人群信号排序，再由 Agent 综合结论。
-- 支持 Claude Code 插件和 Agent Skills 安装；零配置可先用 Reddit、HN、Polymarket、GitHub，其他来源可逐步补充密钥。
+- 支持 Claude Code 插件和 Agent Skills 安装；Reddit、HN、Polymarket、GitHub 以及公司专利/招聘页可零配置使用，其他来源可逐步补充密钥。
 
 ## 怎么利用
 官方示例：运行 `/last30days Peter Steinberger`；技能检索其最近一个月的 X、Reddit、YouTube 和 GitHub 动态，输出会前可读的近期活动、争议点与引用来源。
@@ -60,5 +60,5 @@ https://github.com/mvanhorn/last30days-skill
 
 ## 官方资料复核（2026-11-17）
 - README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md
-- README blob SHA：`e626a4d973cd38672deb63f5e4b4d4f59629e088`
-- 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+- README blob SHA：`8bbc95b4d33646473266edae86a6c8e61ba4aadd`
+- 午后 README 增加公司专利、招聘页与对应 Secret Signals 说明；本次只更新持续维护项目卡和来源证据，不改动早晨榜单快照。

@@ -23,7 +23,7 @@ topics: ["Agent-Evaluation", "Agent-Skills", "Testing"]
 NVIDIA SkillEvaluator 用分层质量门、重复检测和有无技能对照实验，判断一个 Agent Skill 是否结构合格、安全，并且真的改善任务结果。
 
 ## 它能做什么
-- Tier 1 检查技能结构、兼容性、静态质量与安全问题，可在不调用 LLM 时运行基础校验。
+- Tier 1 检查技能结构、静态质量与安全问题，并用 `harness-check` 验证 Codex、Claude Code、OpenCode、Hermes、OpenClaw 与 Copilot CLI 是否会实际加载该技能；可在不调用 LLM 时运行。
 - Tier 2 通过嵌入与对话模型检测技能内部和技能目录之间的语义重叠。
 - Tier 3 在 Agent 沙箱中执行有技能/无技能对照，生成或读取评测集并比较行为与任务结果。
 - 提供 CLI、GitHub/GitLab CI 初始化和可安装的 SkillEvaluator Agent Skill，输出机器可读报告。
@@ -69,5 +69,5 @@ https://github.com/NVIDIA/SkillEvaluator
 
 ## 官方资料复核（2026-11-17）
 - README：https://github.com/NVIDIA/SkillEvaluator/blob/HEAD/README.md
-- README blob SHA：`b5f71e8e970cbd894f390bf8eb68508d3ab332eb`
-- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
+- README blob SHA：`f897128a1f12005b8f6e44fa208b485efb4491dc`
+- 午后 README 新增独立 `harness-check` 入口及六种 Agent 宿主的加载兼容性示例；既有分层评测、案例、风险和历史均保留。
