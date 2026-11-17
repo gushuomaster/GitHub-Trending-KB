@@ -3,16 +3,16 @@ type: github-project
 repo: "ag-ui-protocol/ag-ui"
 url: "https://github.com/ag-ui-protocol/ag-ui"
 first_seen: "2026-11-15"
-last_seen: "2026-11-16"
-trending_count: 2
+last_seen: "2026-11-17"
+trending_count: 3
 language: "TypeScript"
-total_stars: 17840
-forks: 1818
-stars_today: 355
-github_rank: 2
-fetched_at: "2026-11-16T08:10:30+08:00"
-documentation_checked_at: "2026-11-16"
-stats_as_of: "2026-11-16"
+total_stars: 18941
+forks: 1962
+stars_today: 791
+github_rank: 1
+fetched_at: "2026-11-17T08:06:19+08:00"
+documentation_checked_at: "2026-11-17"
+stats_as_of: "2026-11-17"
 snapshot_status: "live"
 category: ["Agent Protocol","Frontend","Interoperability"]
 topics: ["AG-UI","Agent","Protocol"]
@@ -50,6 +50,7 @@ AG-UI 只规定交互事件与连接方式，不负责模型能力、业务权�
 |---|---:|---:|---:|---:|---|
 | 2026-11-15 | 8 | 9 | 17354 | 1666 | GitHub Today live snapshot |
 | 2026-11-16 | 2 | 355 | 17840 | 1818 | GitHub Today live snapshot |
+| 2026-11-17 | 1 | 791 | 18941 | 1962 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AG-UI|AG-UI]] · [[Topics/Agent|Agent]] · [[Topics/Protocol|Protocol]]
@@ -57,6 +58,7 @@ AG-UI 只规定交互事件与连接方式，不负责模型能力、业务权�
 ## 相关日报
 - [[Daily/2026/11/2026-11-15|2026-11-15]]
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
+- [[Daily/2026/11/2026-11-17|2026-11-17]]
 
 ## GitHub 原始链接
 https://github.com/ag-ui-protocol/ag-ui
@@ -68,4 +70,9 @@ https://github.com/ag-ui-protocol/ag-ui
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/ag-ui-protocol/ag-ui/blob/HEAD/README.md
+- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
+
+## 官方资料复核（2026-11-17）
+- README：https://github.com/ag-ui-protocol/ag-ui/blob/HEAD/README.md
+- README blob SHA：`511991757bea32ccb96348a311469f0fd345c88b`
 - 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。

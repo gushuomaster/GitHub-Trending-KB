@@ -3,16 +3,16 @@ type: github-project
 repo: "backnotprop/plannotator"
 url: "https://github.com/backnotprop/plannotator"
 first_seen: "2026-11-14"
-last_seen: "2026-11-16"
-trending_count: 3
+last_seen: "2026-11-17"
+trending_count: 4
 language: "TypeScript"
-total_stars: 11821
-forks: 1082
-stars_today: 866
-github_rank: 4
-fetched_at: "2026-11-16T08:10:30+08:00"
-documentation_checked_at: "2026-11-16"
-stats_as_of: "2026-11-16"
+total_stars: 12539
+forks: 1228
+stars_today: 696
+github_rank: 2
+fetched_at: "2026-11-17T08:06:19+08:00"
+documentation_checked_at: "2026-11-17"
+stats_as_of: "2026-11-17"
 snapshot_status: "live"
 category: ["Agent Review","Code Review","Developer Tools"]
 topics: ["AI-Agent","Code-Review","Annotation"]
@@ -52,6 +52,7 @@ plannotator review
 | 2026-11-14 | 6 | 108 | 10443 | 784 | GitHub Today live snapshot |
 | 2026-11-15 | 1 | 408 | 11105 | 923 | GitHub Today live snapshot |
 | 2026-11-16 | 4 | 866 | 11821 | 1082 | GitHub Today live snapshot |
+| 2026-11-17 | 2 | 696 | 12539 | 1228 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI-Agent|AI-Agent]] · [[Topics/Code-Review|Code-Review]] · [[Topics/Annotation|Annotation]]
@@ -61,6 +62,7 @@ plannotator review
 
 - [[Daily/2026/11/2026-11-15|2026-11-15]]
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
+- [[Daily/2026/11/2026-11-17|2026-11-17]]
 
 ## GitHub 原始链接
 https://github.com/backnotprop/plannotator
@@ -78,4 +80,9 @@ https://github.com/backnotprop/plannotator
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/backnotprop/plannotator/blob/HEAD/README.md
 - README blob SHA：`176d573c6cdb23fd608023b2966a6f1e1baefc55`
+- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
+
+## 官方资料复核（2026-11-17）
+- README：https://github.com/backnotprop/plannotator/blob/HEAD/README.md
+- README blob SHA：`34bbdf47dbf2ba9367c5c8a660085071e167b595`
 - 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。

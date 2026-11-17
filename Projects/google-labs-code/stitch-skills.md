@@ -3,16 +3,16 @@ type: github-project
 repo: "google-labs-code/stitch-skills"
 url: "https://github.com/google-labs-code/stitch-skills"
 first_seen: "2026-11-16"
-last_seen: "2026-11-16"
-trending_count: 1
+last_seen: "2026-11-17"
+trending_count: 2
 language: "TypeScript"
-total_stars: 9280
-forks: 1125
-stars_today: 247
-github_rank: 3
-fetched_at: "2026-11-16T08:10:30+08:00"
-documentation_checked_at: "2026-11-16"
-stats_as_of: "2026-11-16"
+total_stars: 9729
+forks: 1240
+stars_today: 529
+github_rank: 7
+fetched_at: "2026-11-17T08:06:19+08:00"
+documentation_checked_at: "2026-11-17"
+stats_as_of: "2026-11-17"
 snapshot_status: "live"
 category: ["Agent Skills", "UI Design", "Frontend"]
 topics: ["Agent-Skills", "UI-Design", "Frontend"]
@@ -50,12 +50,14 @@ npx skills add google-labs-code/stitch-skills
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-16 | 3 | 247 | 9280 | 1125 | GitHub Today live snapshot |
+| 2026-11-17 | 7 | 529 | 9729 | 1240 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/UI-Design|UI-Design]] · [[Topics/Frontend|Frontend]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
+- [[Daily/2026/11/2026-11-17|2026-11-17]]
 
 ## GitHub 原始链接
 https://github.com/google-labs-code/stitch-skills
@@ -64,3 +66,8 @@ https://github.com/google-labs-code/stitch-skills
 - README：https://github.com/google-labs-code/stitch-skills/blob/HEAD/README.md
 - README blob SHA：`baecaabfa0fc08d596e3d5921479321eaacac02a`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-17）
+- README：https://github.com/google-labs-code/stitch-skills/blob/HEAD/README.md
+- README blob SHA：`baecaabfa0fc08d596e3d5921479321eaacac02a`
+- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。

@@ -3,16 +3,16 @@ type: github-project
 repo: "NVIDIA/SkillEvaluator"
 url: "https://github.com/NVIDIA/SkillEvaluator"
 first_seen: "2026-11-16"
-last_seen: "2026-11-16"
-trending_count: 1
+last_seen: "2026-11-17"
+trending_count: 2
 language: "Python"
-total_stars: 1657
-forks: 227
-stars_today: 122
-github_rank: 12
-fetched_at: "2026-11-16T08:10:30+08:00"
-documentation_checked_at: "2026-11-16"
-stats_as_of: "2026-11-16"
+total_stars: 2670
+forks: 358
+stars_today: 873
+github_rank: 9
+fetched_at: "2026-11-17T08:06:19+08:00"
+documentation_checked_at: "2026-11-17"
+stats_as_of: "2026-11-17"
 snapshot_status: "live"
 category: ["Agent Evaluation", "Agent Skills", "Quality"]
 topics: ["Agent-Evaluation", "Agent-Skills", "Testing"]
@@ -50,12 +50,14 @@ Tier 1 的静态得分不能证明技能能改善 Agent，发布证据仍是不�
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-16 | 12 | 122 | 1657 | 227 | GitHub Today live snapshot |
+| 2026-11-17 | 9 | 873 | 2670 | 358 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent-Evaluation|Agent-Evaluation]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Testing|Testing]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
+- [[Daily/2026/11/2026-11-17|2026-11-17]]
 
 ## GitHub 原始链接
 https://github.com/NVIDIA/SkillEvaluator
@@ -64,3 +66,8 @@ https://github.com/NVIDIA/SkillEvaluator
 - README：https://github.com/NVIDIA/SkillEvaluator/blob/HEAD/README.md
 - README blob SHA：`1698fcfac815b2b844ad0723ea81465e71f991ab`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-17）
+- README：https://github.com/NVIDIA/SkillEvaluator/blob/HEAD/README.md
+- README blob SHA：`b5f71e8e970cbd894f390bf8eb68508d3ab332eb`
+- 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
