@@ -34,6 +34,8 @@ snapshot_status: "live"
 ## 实际例子
 **官方 Agent Skills 工作流：** 在待审仓库安装技能并选择 delegation 模式，当前 Coding Agent 读取 diff 与关联文件，按 OCR 的覆盖和报告规则生成行级 findings；需要 OCR 专用 Provider 与完整原生管线时再切换 native 模式。
 
+**官方 CLI 场景：** 在功能分支运行 `ocr review --from main`；`--to` 默认取 `HEAD`，因此会审查当前分支从 `main` 分叉后产生的变化，并输出可定位到行的 findings。
+
 ## 适合谁
 希望在本地、PR 或 CI 中增加行级 AI Review 的研发团队。
 
@@ -141,6 +143,6 @@ https://github.com/alibaba/open-code-review
 
 ## 官方资料复核（2026-11-18）
 - README：https://github.com/alibaba/open-code-review/blob/HEAD/README.md
-- README blob SHA：`a5669f6323926276435f61c44fca26ba6b3df906`
-- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+- README blob SHA：`8728015fc50b50da660a793da84694df9652aa80`
+- README 在早晨复核后补充了“当前分支相对 main”审查命令；本次把 `ocr review --from main` 的 `HEAD` 默认边界并入实例，保留既有说明、案例、分类、主题、风险与历史。
 

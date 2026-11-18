@@ -68,7 +68,7 @@
 - 2026-11-15：15 项 08:07:59 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 3 张项目卡、更新 12 张。重新读取全部 15 个项目的当前官方 README，项目卡记录的 README blob SHA 均与当前版本一致；按官方部署边界纠正 `Tencent/LoopForge` 默认 Docker socket、受信团队、项目数据可见性和注册开放范围的说明，不改动早晨榜单、排名、统计或 `fetched_at`。全量复查 68 份日报、915 条唯一 JSONL 记录和 331 张有效日报引用的项目卡。
 - 2026-11-16：12 项 08:10:30 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 4 张项目卡、更新 8 张。重新读取全部 12 个项目的当前官方 README，补齐或更新 7 张项目卡的 README blob SHA；正文中的中文说明、具体能力、实例与局限均与当前官方资料一致，不改动早晨榜单、排名、统计或 `fetched_at`。全量复查 69 份日报、927 条唯一 JSONL 记录和 335 张有效日报引用的项目卡。
 - 2026-11-17：14 项 08:06:19 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 6 张项目卡、更新 8 张。重新读取全部 14 个项目的当前官方 README，11 个项目卡记录的 README blob SHA 未变；午后更新 `mvanhorn/last30days-skill` 的公司专利/招聘信号、`NVIDIA/SkillEvaluator` 的 `harness-check` 宿主兼容性检查，以及 `alibaba/open-code-review` 的 native/delegation Agent Skills 工作流和限制，并同步 3 张卡的当前 blob SHA。不改动早晨榜单、排名、统计或 `fetched_at`。全量复查 70 份日报、941 条唯一 JSONL 记录和 341 张有效日报引用的项目卡。
-- 2026-11-18：15 项 08:04:14 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 1 张项目卡、更新 14 张。重新读取全部 15 个项目的当前官方 README；补充 Plannotator 安装器网络边界、ECC 当前能力规模与 Cursor 插件目录的第三方集成边界，并为新项目 MiniMind 建立完整知识卡。榜单严格保留同次 Any / Any / Today 页面原始顺序。全量复查 71 份日报、956 条唯一 JSONL 记录和 342 张有效日报引用的项目卡。
+- 2026-11-18：15 项 08:04:14 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 1 张项目卡、更新 14 张。重新读取全部 15 个项目的当前官方 README；补充 Plannotator 安装器网络边界、ECC 当前能力规模与 Cursor 插件目录的第三方集成边界，并为新项目 MiniMind 建立完整知识卡。晚间复核发现 `alibaba/open-code-review` 与 `google-labs-code/stitch-skills` 的 README 已变化，分别补入“当前分支相对 main”的审查命令和 `site-md` 生成 `SITE.md` 的能力；同时修复 `dream-num/univer` 当天历史行多出说明列的问题。榜单严格保留同次 Any / Any / Today 页面原始顺序。全量复查 71 份日报、956 条唯一 JSONL 记录和 342 张有效日报引用的项目卡。
 - 规范文件：`README.md` 与 `Templates/Daily.md` 已补入日报必须记录“局限 / 注意点”的明确要求，避免新日报沿用缺少限制栏位的旧模板。
 
 ## 当前待修复
