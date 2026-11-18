@@ -3,16 +3,16 @@ type: github-project
 repo: "sveltejs/svelte"
 url: "https://github.com/sveltejs/svelte"
 first_seen: "2026-11-17"
-last_seen: "2026-11-17"
-trending_count: 1
+last_seen: "2026-11-18"
+trending_count: 2
 language: "JavaScript"
-total_stars: 88975
-forks: 6093
-stars_today: 115
-github_rank: 13
-fetched_at: "2026-11-17T08:06:19+08:00"
-documentation_checked_at: "2026-11-17"
-stats_as_of: "2026-11-17"
+total_stars: 89582
+forks: 6251
+stars_today: 477
+github_rank: 12
+fetched_at: "2026-11-18T08:04:14+08:00"
+documentation_checked_at: "2026-11-18"
+stats_as_of: "2026-11-18"
 snapshot_status: "live"
 category: ["Web Framework", "Frontend", "Compiler"]
 topics: ["Svelte", "Frontend", "Web"]
@@ -48,12 +48,15 @@ Svelte 仓库本身主要提供 UI 编译器；完整路由、数据加载和部
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-17 | 13 | 115 | 88975 | 6093 | GitHub Today live snapshot |
+| 2026-11-18 | 12 | 477 | 89582 | 6251 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Svelte|Svelte]] · [[Topics/Frontend|Frontend]] · [[Topics/Web|Web]]
 
 ## 相关日报
+
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
+- [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 ## GitHub 原始链接
 https://github.com/sveltejs/svelte
@@ -62,3 +65,9 @@ https://github.com/sveltejs/svelte
 - README：https://github.com/sveltejs/svelte/blob/HEAD/README.md
 - README blob SHA：`7ea71647521ae850fd0933665f94760806ac5b29`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-18）
+- README：https://github.com/sveltejs/svelte/blob/HEAD/README.md
+- README blob SHA：`7ea71647521ae850fd0933665f94760806ac5b29`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+

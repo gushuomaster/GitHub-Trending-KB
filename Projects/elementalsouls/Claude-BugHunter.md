@@ -3,16 +3,16 @@ type: github-project
 repo: "elementalsouls/Claude-BugHunter"
 url: "https://github.com/elementalsouls/Claude-BugHunter"
 first_seen: "2026-11-16"
-last_seen: "2026-11-16"
-trending_count: 1
+last_seen: "2026-11-18"
+trending_count: 2
 language: "Python"
-total_stars: 6417
-forks: 967
-stars_today: 98
-github_rank: 9
-fetched_at: "2026-11-16T08:10:30+08:00"
-documentation_checked_at: "2026-11-16"
-stats_as_of: "2026-11-16"
+total_stars: 9228
+forks: 1357
+stars_today: 1005
+github_rank: 1
+fetched_at: "2026-11-18T08:04:14+08:00"
+documentation_checked_at: "2026-11-18"
+stats_as_of: "2026-11-18"
 snapshot_status: "live"
 category: ["Security", "Agent Skills", "Red Team"]
 topics: ["Security", "Agent-Skills", "Red-Team"]
@@ -50,12 +50,15 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-16 | 9 | 98 | 6417 | 967 | GitHub Today live snapshot |
+| 2026-11-18 | 1 | 1005 | 9228 | 1357 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Red-Team|Red-Team]]
 
 ## 相关日报
+
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
+- [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 ## GitHub 原始链接
 https://github.com/elementalsouls/Claude-BugHunter
@@ -64,3 +67,9 @@ https://github.com/elementalsouls/Claude-BugHunter
 - README：https://github.com/elementalsouls/Claude-BugHunter/blob/HEAD/README.md
 - README blob SHA：`4182889da32bba8e37c28e1d5bec4231bf5046db`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-18）
+- README：https://github.com/elementalsouls/Claude-BugHunter/blob/HEAD/README.md
+- README blob SHA：`4182889da32bba8e37c28e1d5bec4231bf5046db`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+

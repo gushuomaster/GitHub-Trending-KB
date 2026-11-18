@@ -3,16 +3,16 @@ type: github-project
 repo: "mvanhorn/last30days-skill"
 url: "https://github.com/mvanhorn/last30days-skill"
 first_seen: "2026-11-17"
-last_seen: "2026-11-17"
-trending_count: 1
+last_seen: "2026-11-18"
+trending_count: 2
 language: "Python"
-total_stars: 68106
-forks: 6035
-stars_today: 135
-github_rank: 8
-fetched_at: "2026-11-17T08:06:19+08:00"
-documentation_checked_at: "2026-11-17"
-stats_as_of: "2026-11-17"
+total_stars: 69030
+forks: 6145
+stars_today: 696
+github_rank: 2
+fetched_at: "2026-11-18T08:04:14+08:00"
+documentation_checked_at: "2026-11-18"
+stats_as_of: "2026-11-18"
 snapshot_status: "live"
 category: ["Agent Skills", "Research", "Social Search"]
 topics: ["Agent-Skills", "Research", "Social-Media"]
@@ -48,12 +48,15 @@ npx skills add mvanhorn/last30days-skill -g
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-17 | 8 | 135 | 68106 | 6035 | GitHub Today live snapshot |
+| 2026-11-18 | 2 | 696 | 69030 | 6145 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Research|Research]] · [[Topics/Social-Media|Social-Media]]
 
 ## 相关日报
+
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
+- [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 ## GitHub 原始链接
 https://github.com/mvanhorn/last30days-skill
@@ -62,3 +65,9 @@ https://github.com/mvanhorn/last30days-skill
 - README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md
 - README blob SHA：`8bbc95b4d33646473266edae86a6c8e61ba4aadd`
 - 午后 README 增加公司专利、招聘页与对应 Secret Signals 说明；本次只更新持续维护项目卡和来源证据，不改动早晨榜单快照。
+
+## 官方资料复核（2026-11-18）
+- README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md
+- README blob SHA：`ee3f7f3b0f64f9ca996e579bfd2aa2383bace11b`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+

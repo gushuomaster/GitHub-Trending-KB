@@ -3,16 +3,16 @@ type: github-project
 repo: "backnotprop/plannotator"
 url: "https://github.com/backnotprop/plannotator"
 first_seen: "2026-11-14"
-last_seen: "2026-11-17"
-trending_count: 4
+last_seen: "2026-11-18"
+trending_count: 5
 language: "TypeScript"
-total_stars: 12539
-forks: 1228
-stars_today: 696
-github_rank: 2
-fetched_at: "2026-11-17T08:06:19+08:00"
-documentation_checked_at: "2026-11-17"
-stats_as_of: "2026-11-17"
+total_stars: 13057
+forks: 1313
+stars_today: 691
+github_rank: 11
+fetched_at: "2026-11-18T08:04:14+08:00"
+documentation_checked_at: "2026-11-18"
+stats_as_of: "2026-11-18"
 snapshot_status: "live"
 category: ["Agent Review","Code Review","Developer Tools"]
 topics: ["AI-Agent","Code-Review","Annotation"]
@@ -44,7 +44,7 @@ plannotator review
 同时使用一个或多个 Coding Agent、希望在修改执行前审阅计划和差异并留下可追溯反馈的开发者与团队。
 
 ## 局限 / 注意点
-本地数据默认不外发，但 URL 抓取、远程 PR/MR、Ask AI 和分享功能会产生网络传输；远程模式监听 `0.0.0.0` 且无登录，不能暴露给不受信网络。普通安装脚本的供应链验证默认不是强制开启。
+本地数据默认不外发，但 URL 抓取、远程 PR/MR、Ask AI 和分享功能会产生网络传输；远程模式监听 `0.0.0.0` 且无登录，不能暴露给不受信网络。普通安装脚本的供应链验证默认不是强制开启。安装器还会从 GitHub Releases 下载二进制；完整安装可能访问 GitHub 获取版本与 Agent 文件，并访问 npm 获取 Pi、额外 Skills 或托管终端运行时，固定版本只会跳过 GitHub API 的版本解析，并不会阻止这些下载。
 
 ## Trending 历史
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
@@ -53,16 +53,19 @@ plannotator review
 | 2026-11-15 | 1 | 408 | 11105 | 923 | GitHub Today live snapshot |
 | 2026-11-16 | 4 | 866 | 11821 | 1082 | GitHub Today live snapshot |
 | 2026-11-17 | 2 | 696 | 12539 | 1228 | GitHub Today live snapshot |
+| 2026-11-18 | 11 | 691 | 13057 | 1313 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI-Agent|AI-Agent]] · [[Topics/Code-Review|Code-Review]] · [[Topics/Annotation|Annotation]]
 
 ## 相关日报
+
 - [[Daily/2026/11/2026-11-14|2026-11-14]]
 
 - [[Daily/2026/11/2026-11-15|2026-11-15]]
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
+- [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 ## GitHub 原始链接
 https://github.com/backnotprop/plannotator
@@ -86,3 +89,9 @@ https://github.com/backnotprop/plannotator
 - README：https://github.com/backnotprop/plannotator/blob/HEAD/README.md
 - README blob SHA：`34bbdf47dbf2ba9367c5c8a660085071e167b595`
 - 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
+
+## 官方资料复核（2026-11-18）
+- README：https://github.com/backnotprop/plannotator/blob/HEAD/README.md
+- README blob SHA：`b8de95afdf52a703d9013c6ee51bbb5d22f44b18`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+

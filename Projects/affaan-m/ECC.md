@@ -3,7 +3,7 @@ type: github-project
 repo: affaan-m/ECC
 url: https://github.com/affaan-m/ECC
 language: "JavaScript"
-stars_today: 1165
+stars_today: 883
 category:
 - AI
 - Agent
@@ -19,16 +19,16 @@ topics:
 - Agent
 - Skills
 - Developer-Tools
-first_seen: '2026-09-09'
-last_seen: '2026-10-28'
-trending_count: 12
-github_rank: 8
-fetched_at: '2026-10-28T08:05:36+08:00'
-documentation_checked_at: '2026-10-28'
-stats_as_of: '2026-10-28'
-total_stars: 290860
-forks: 43074
-snapshot_status: live
+first_seen: "2026-09-09"
+last_seen: "2026-11-18"
+trending_count: 13
+github_rank: 13
+fetched_at: "2026-11-18T08:04:14+08:00"
+documentation_checked_at: "2026-11-18"
+stats_as_of: "2026-11-18"
+total_stars: 305483
+forks: 44979
+snapshot_status: "live"
 ---
 
 # affaan-m/ECC
@@ -42,6 +42,7 @@ snapshot_status: live
 - 提供 Skills、Rules、Hooks、Commands 和专用 Agent 组成的工作流。
 - 支持计划→测试→实现→评审→验证→记忆的工程循环。
 - 提供安装状态、doctor、repair 与 uninstall 管理，支持多种 Agent 宿主。
+- 当前 README 列出 72 个专用 Agent、327 个按需 Skills 和 98 个兼容命令，并用 skills-first 安装面覆盖多种宿主；部分高级适配器仍需走各自的受管安装路径。
 
 ## 怎么利用
 用引导安装器选择所需组件，先在隔离项目运行 doctor；从计划或 TDD 等单一工作流开始，验证 hooks 和命令后再逐步扩大启用范围。
@@ -75,11 +76,13 @@ npx ecc-universal@2.2.3 setup
 | 2026-10-18 | 3 | 1145 | 282492 | 41985 | GitHub Today live snapshot |
 | 2026-10-27 | 5 | 896 | 289824 | 42942 | GitHub Today live snapshot |
 | 2026-10-28 | 8 | 1165 | 290860 | 43074 | GitHub Today live snapshot |
+| 2026-11-18 | 13 | 883 | 305483 | 44979 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
+
 - [[Daily/2026/09/2026-09-09|2026-09-09]]
 - [[Daily/2026/09/2026-09-10|2026-09-10]]
 - [[Daily/2026/09/2026-09-17|2026-09-17]]
@@ -94,6 +97,7 @@ npx ecc-universal@2.2.3 setup
 - [[Daily/2026/10/2026-10-18|2026-10-18]]
 - [[Daily/2026/10/2026-10-27|2026-10-27]]
 - [[Daily/2026/10/2026-10-28|2026-10-28]]
+- [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 ## GitHub 原始链接
 https://github.com/affaan-m/ECC
@@ -103,5 +107,8 @@ https://github.com/affaan-m/ECC
 - README blob SHA：`6583ca8c1320e559aa5b2f86250f2f09c1d577e9`
 - 可推导用法是依据已声明能力具体化的应用场景，不是额外官方功能承诺。
 
-
+## 官方资料复核（2026-11-18）
+- README：https://github.com/affaan-m/ECC/blob/HEAD/README.md
+- README blob SHA：`12cec5467b2fe979aff27960641a251024517a71`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 

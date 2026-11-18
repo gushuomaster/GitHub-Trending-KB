@@ -1,22 +1,22 @@
 ---
-stats_as_of: '2026-10-19'
-documentation_checked_at: '2026-10-19'
-fetched_at: '2026-10-19T08:04:27+08:00'
+stats_as_of: "2026-11-18"
+documentation_checked_at: "2026-11-18"
+fetched_at: "2026-11-18T08:04:14+08:00"
 type: github-project
 repo: "cursor/plugins"
 url: "https://github.com/cursor/plugins"
 first_seen: "2026-10-02"
-last_seen: '2026-10-19'
-trending_count: 4
-github_rank: 4
+last_seen: "2026-11-18"
+trending_count: 5
+github_rank: 8
 language: "TypeScript"
-total_stars: 12733
-forks: 1254
-stars_today: 350
+total_stars: 16887
+forks: 1829
+stars_today: 201
 category: ["AI", "Developer-Tools", "Plugins"]
 tags: ["cursor", "plugins", "skills", "mcp"]
 topics: ["AI", "Developer-Tools", "Skills"]
-snapshot_status: live
+snapshot_status: "live"
 ---
 # cursor/plugins
 
@@ -28,6 +28,8 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 - 每个插件通过自己的 `.cursor-plugin/plugin.json` 描述名称、版本和组成。
 - 允许插件携带 Skills、Rules、`mcp.json`、README、变更记录和许可证。
 - 提供 create-plugin、cursor-sdk、orchestrate、GitHub、Google Drive、Playwright 等不同类型的插件条目。
+
+当前目录还收录大量第三方业务集成；其中部分插件可修改广告、财务、消息、订单或设备状态，使用前必须逐项确认账号权限和变更预览。
 
 ## 怎么利用
 先从仓库目录选择所需插件，阅读全文和 manifest，确认它会加载哪些 Skill、规则、MCP 服务以及需要哪些外部权限；再通过 Cursor 插件市场安装。输入是目标工作流与授权信息，处理过程是插件把这些能力注册进 Cursor，输出是在 Agent 会话中可调用的对应工具或流程。
@@ -53,17 +55,20 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 | 2026-10-03 | 14 | 未保存 | 未保存 | 未保存 | 仓库已存日期匹配快照 |
 | 2026-10-17 | 9 | 278 | 11941 | 1161 | GitHub Today live snapshot |
 | 2026-10-19 | 4 | 350 | 12733 | 1254 | GitHub Today live snapshot |
+| 2026-11-18 | 8 | 201 | 16887 | 1829 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]
 
 ## 相关日报
+
 - [[Daily/2026/10/2026-10-02|2026-10-02]]
 - [[Daily/2026/10/2026-10-03|2026-10-03]]
 
 - [[Daily/2026/10/2026-10-17|2026-10-17]]
 
 - [[Daily/2026/10/2026-10-19|2026-10-19]]
+- [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 ## GitHub 原始链接
 https://github.com/cursor/plugins
@@ -73,4 +78,9 @@ https://github.com/cursor/plugins
 - README：https://github.com/cursor/plugins/blob/main/README.md
 - README blob SHA：886849908ef8c6fb3f08dae1dc30ca69d37d11f7
 - 说明：项目卡反映核对日的当前仓库结构，不声称它与历史上榜日完全相同。
+
+## 官方资料复核（2026-11-18）
+- README：https://github.com/cursor/plugins/blob/HEAD/README.md
+- README blob SHA：`ee488e42344cc6ec6bfed86ace1fb64d7f9eae9e`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 

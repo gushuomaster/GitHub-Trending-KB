@@ -2,21 +2,21 @@
 repo: "dream-num/univer"
 url: "https://github.com/dream-num/univer"
 first_seen: "2026-09-23"
-last_seen: "2026-11-17"
-trending_count: 11
-github_rank: 3
-stars_today: 1828
-total_stars: 27762
-forks: 2524
+last_seen: "2026-11-18"
+trending_count: 12
+github_rank: 5
+stars_today: 1774
+total_stars: 28887
+forks: 2616
 language: "TypeScript"
-fetched_at: "2026-11-17T08:06:19+08:00"
+fetched_at: "2026-11-18T08:04:14+08:00"
 category: ["Developer Tools", "Office", "AI"]
 tags: ["office", "spreadsheet", "docs", "slides", "pdf", "typescript", "agent"]
 topics: ["Developer-Tools", "Agent"]
 status: active
 type: github-project
-documentation_checked_at: "2026-11-17"
-stats_as_of: "2026-11-17"
+documentation_checked_at: "2026-11-18"
+stats_as_of: "2026-11-18"
 snapshot_status: "live"
 ---
 # dream-num/univer
@@ -58,6 +58,7 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 | 2026-11-15 | 7 | 495 | 24479 | 2225 |
 | 2026-11-16 | 1 | 988 | 25597 | 2339 |
 | 2026-11-17 | 3 | 1828 | 27762 | 2524 |
+| 2026-11-18 | 5 | 1774 | 28887 | 2616 | GitHub Today live snapshot |
 
 ## 历史归档补记
 - 2026-09-25：GitHub Trending #3；来源为语言不限归档，Stars Today、当日总 Stars 与 Forks 未保存。
@@ -68,6 +69,7 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Agent|Agent]]
 
 ## 相关日报
+
 - [[Daily/2026/09/2026-09-23|2026-09-23]]
 - [[Daily/2026/09/2026-09-24|2026-09-24]]
 - [[Daily/2026/09/2026-09-25|2026-09-25]]
@@ -80,6 +82,7 @@ Sheets 是当前最成熟的表面；协作、导入导出、图表、透视表�
 - [[Daily/2026/11/2026-11-15|2026-11-15]]
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
+- [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 ## GitHub 原始链接
 https://github.com/dream-num/univer
@@ -98,3 +101,9 @@ https://github.com/dream-num/univer
 - README：https://github.com/dream-num/univer/blob/HEAD/README.md
 - README blob SHA：`3244196198837cd4b1a8d4eb0d3350273af9a260`
 - 本次按当前官方 README 复核并合并当天榜单事实；既有说明、案例、分类、主题、风险与历史内容均保留。
+
+## 官方资料复核（2026-11-18）
+- README：https://github.com/dream-num/univer/blob/HEAD/README.md
+- README blob SHA：`3244196198837cd4b1a8d4eb0d3350273af9a260`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+

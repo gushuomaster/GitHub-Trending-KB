@@ -5,16 +5,16 @@ url: "https://github.com/alibaba/open-code-review"
 category: ["Code Review","AI Agent","Developer Tools"]
 topics: ["Code Review","AI Agent","Developer Tools"]
 first_seen: "2026-09-14"
-last_seen: "2026-11-17"
-trending_count: 11
+last_seen: "2026-11-18"
+trending_count: 12
 language: "Go"
-total_stars: 52918
-forks: 4294
-stars_today: 951
-github_rank: 10
-fetched_at: "2026-11-17T08:06:19+08:00"
-documentation_checked_at: "2026-11-17"
-stats_as_of: "2026-11-17"
+total_stars: 53710
+forks: 4429
+stars_today: 763
+github_rank: 3
+fetched_at: "2026-11-18T08:04:14+08:00"
+documentation_checked_at: "2026-11-18"
+stats_as_of: "2026-11-18"
 snapshot_status: "live"
 ---
 # alibaba/open-code-review
@@ -54,11 +54,13 @@ snapshot_status: "live"
 | 2026-11-15 | 5 | 893 | 51418 | 3907 | GitHub Today live snapshot |
 | 2026-11-16 | 6 | 691 | 52053 | 4107 | GitHub Today live snapshot |
 | 2026-11-17 | 10 | 951 | 52918 | 4294 | GitHub Today live snapshot |
+| 2026-11-18 | 3 | 763 | 53710 | 4429 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Code Review|Code Review]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Developer Tools|Developer Tools]]
 
 ## 相关日报
+
 - [[Daily/2026/09/2026-09-14|2026-09-14]]
 - [[Daily/2026/09/2026-09-15|2026-09-15]]
 - [[Daily/2026/09/2026-09-16|2026-09-16]]
@@ -72,6 +74,7 @@ snapshot_status: "live"
 - [[Daily/2026/11/2026-11-15|2026-11-15]]
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
+- [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 ## GitHub 原始链接
 https://github.com/alibaba/open-code-review
@@ -135,3 +138,9 @@ https://github.com/alibaba/open-code-review
 - README：https://github.com/alibaba/open-code-review/blob/HEAD/README.md
 - README blob SHA：`a5669f6323926276435f61c44fca26ba6b3df906`
 - 午后 README 新增 Agent Skills 安装以及 native/delegation 模式边界；本次补充当前工作流与限制，保留既有历史、分类、主题与风险说明。
+
+## 官方资料复核（2026-11-18）
+- README：https://github.com/alibaba/open-code-review/blob/HEAD/README.md
+- README blob SHA：`a5669f6323926276435f61c44fca26ba6b3df906`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+
