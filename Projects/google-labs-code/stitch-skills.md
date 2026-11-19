@@ -3,16 +3,16 @@ type: github-project
 repo: "google-labs-code/stitch-skills"
 url: "https://github.com/google-labs-code/stitch-skills"
 first_seen: "2026-11-16"
-last_seen: "2026-11-18"
-trending_count: 3
+last_seen: "2026-11-19"
+trending_count: 4
 language: "TypeScript"
-total_stars: 10088
-forks: 1328
-stars_today: 350
-github_rank: 7
-fetched_at: "2026-11-18T08:04:14+08:00"
-documentation_checked_at: "2026-11-18"
-stats_as_of: "2026-11-18"
+total_stars: 10392
+forks: 1367
+stars_today: 365
+github_rank: 9
+fetched_at: "2026-11-19T08:11:32+08:00"
+documentation_checked_at: "2026-11-19"
+stats_as_of: "2026-11-19"
 snapshot_status: "live"
 category: ["Agent Skills", "UI Design", "Frontend"]
 topics: ["Agent-Skills", "UI-Design", "Frontend"]
@@ -52,7 +52,7 @@ npx skills add google-labs-code/stitch-skills
 | 2026-11-16 | 3 | 247 | 9280 | 1125 | GitHub Today live snapshot |
 | 2026-11-17 | 7 | 529 | 9729 | 1240 | GitHub Today live snapshot |
 | 2026-11-18 | 7 | 350 | 10088 | 1328 | GitHub Today live snapshot |
-
+| 2026-11-19 | 9 | 365 | 10392 | 1367 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/UI-Design|UI-Design]] · [[Topics/Frontend|Frontend]]
 
@@ -61,6 +61,8 @@ npx skills add google-labs-code/stitch-skills
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
 - [[Daily/2026/11/2026-11-18|2026-11-18]]
+
+- [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 ## GitHub 原始链接
 https://github.com/google-labs-code/stitch-skills
@@ -80,3 +82,7 @@ https://github.com/google-labs-code/stitch-skills
 - README blob SHA：`e04cc601676a772474a023ba30e7064e6cf23dab`
 - README 在早晨复核后新增 `site-md` 技能；本次补入其把项目需求整理为 `SITE.md` 的具体能力，保留既有说明、案例、分类、主题、风险与历史。
 
+## 官方资料复核（2026-11-19）
+- README：https://github.com/google-labs-code/stitch-skills/blob/HEAD/README.md
+- README blob SHA：`e04cc601676a772474a023ba30e7064e6cf23dab`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。

@@ -3,16 +3,16 @@ type: github-project
 repo: "DeanChensj/jiangshan-map"
 url: "https://github.com/DeanChensj/jiangshan-map"
 first_seen: "2026-11-17"
-last_seen: "2026-11-17"
-trending_count: 1
+last_seen: "2026-11-19"
+trending_count: 2
 language: "JavaScript"
-total_stars: 6684
-forks: 788
-stars_today: 288
-github_rank: 6
-fetched_at: "2026-11-17T08:06:19+08:00"
-documentation_checked_at: "2026-11-17"
-stats_as_of: "2026-11-17"
+total_stars: 7918
+forks: 968
+stars_today: 218
+github_rank: 16
+fetched_at: "2026-11-19T08:11:32+08:00"
+documentation_checked_at: "2026-11-19"
+stats_as_of: "2026-11-19"
 snapshot_status: "live"
 category: ["Historical GIS", "Education", "Visualization"]
 topics: ["History", "GIS", "Visualization"]
@@ -50,12 +50,14 @@ python3 -m http.server 8000
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-17 | 6 | 288 | 6684 | 788 | GitHub Today live snapshot |
-
+| 2026-11-19 | 16 | 218 | 7918 | 968 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/History|History]] · [[Topics/GIS|GIS]] · [[Topics/Visualization|Visualization]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
+
+- [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 ## GitHub 原始链接
 https://github.com/DeanChensj/jiangshan-map
@@ -64,3 +66,8 @@ https://github.com/DeanChensj/jiangshan-map
 - README：https://github.com/DeanChensj/jiangshan-map/blob/HEAD/README.md
 - README blob SHA：`829772a299f298891803d8dff0cd16366597b0e5`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
+
+## 官方资料复核（2026-11-19）
+- README：https://github.com/DeanChensj/jiangshan-map/blob/HEAD/README.md
+- README blob SHA：`1f951cd050b5377cf5f041ced86f249054c808f5`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。

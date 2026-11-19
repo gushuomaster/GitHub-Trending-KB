@@ -3,7 +3,7 @@ type: github-project
 repo: affaan-m/ECC
 url: https://github.com/affaan-m/ECC
 language: "JavaScript"
-stars_today: 883
+stars_today: 1108
 category:
 - AI
 - Agent
@@ -20,14 +20,14 @@ topics:
 - Skills
 - Developer-Tools
 first_seen: "2026-09-09"
-last_seen: "2026-11-18"
-trending_count: 13
-github_rank: 13
-fetched_at: "2026-11-18T08:04:14+08:00"
-documentation_checked_at: "2026-11-18"
-stats_as_of: "2026-11-18"
-total_stars: 305483
-forks: 44979
+last_seen: "2026-11-19"
+trending_count: 14
+github_rank: 15
+fetched_at: "2026-11-19T08:11:32+08:00"
+documentation_checked_at: "2026-11-19"
+stats_as_of: "2026-11-19"
+total_stars: 306483
+forks: 45117
 snapshot_status: "live"
 ---
 
@@ -77,7 +77,7 @@ npx ecc-universal@2.2.3 setup
 | 2026-10-27 | 5 | 896 | 289824 | 42942 | GitHub Today live snapshot |
 | 2026-10-28 | 8 | 1165 | 290860 | 43074 | GitHub Today live snapshot |
 | 2026-11-18 | 13 | 883 | 305483 | 44979 | GitHub Today live snapshot |
-
+| 2026-11-19 | 15 | 1108 | 306483 | 45117 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Agent|Agent]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -99,6 +99,8 @@ npx ecc-universal@2.2.3 setup
 - [[Daily/2026/10/2026-10-28|2026-10-28]]
 - [[Daily/2026/11/2026-11-18|2026-11-18]]
 
+- [[Daily/2026/11/2026-11-19|2026-11-19]]
+
 ## GitHub 原始链接
 https://github.com/affaan-m/ECC
 
@@ -112,3 +114,7 @@ https://github.com/affaan-m/ECC
 - README blob SHA：`12cec5467b2fe979aff27960641a251024517a71`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 
+## 官方资料复核（2026-11-19）
+- README：https://github.com/affaan-m/ECC/blob/HEAD/README.md
+- README blob SHA：`12cec5467b2fe979aff27960641a251024517a71`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。

@@ -3,16 +3,16 @@ type: github-project
 repo: "NVIDIA/SkillEvaluator"
 url: "https://github.com/NVIDIA/SkillEvaluator"
 first_seen: "2026-11-16"
-last_seen: "2026-11-17"
-trending_count: 2
+last_seen: "2026-11-19"
+trending_count: 3
 language: "Python"
-total_stars: 2670
-forks: 358
-stars_today: 873
-github_rank: 9
-fetched_at: "2026-11-17T08:06:19+08:00"
-documentation_checked_at: "2026-11-17"
-stats_as_of: "2026-11-17"
+total_stars: 3707
+forks: 516
+stars_today: 312
+github_rank: 5
+fetched_at: "2026-11-19T08:11:32+08:00"
+documentation_checked_at: "2026-11-19"
+stats_as_of: "2026-11-19"
 snapshot_status: "live"
 category: ["Agent Evaluation", "Agent Skills", "Quality"]
 topics: ["Agent-Evaluation", "Agent-Skills", "Testing"]
@@ -51,13 +51,15 @@ Tier 1 的静态得分不能证明技能能改善 Agent，发布证据仍是不�
 |---|---:|---:|---:|---:|---|
 | 2026-11-16 | 12 | 122 | 1657 | 227 | GitHub Today live snapshot |
 | 2026-11-17 | 9 | 873 | 2670 | 358 | GitHub Today live snapshot |
-
+| 2026-11-19 | 5 | 312 | 3707 | 516 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Agent-Evaluation|Agent-Evaluation]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Testing|Testing]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
+
+- [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 ## GitHub 原始链接
 https://github.com/NVIDIA/SkillEvaluator
@@ -71,3 +73,8 @@ https://github.com/NVIDIA/SkillEvaluator
 - README：https://github.com/NVIDIA/SkillEvaluator/blob/HEAD/README.md
 - README blob SHA：`f897128a1f12005b8f6e44fa208b485efb4491dc`
 - 午后 README 新增独立 `harness-check` 入口及六种 Agent 宿主的加载兼容性示例；既有分层评测、案例、风险和历史均保留。
+
+## 官方资料复核（2026-11-19）
+- README：https://github.com/NVIDIA/SkillEvaluator/blob/HEAD/README.md
+- README blob SHA：`00ccbe42b38ef21fe811796aa92476a682b90050`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。

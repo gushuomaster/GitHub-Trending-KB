@@ -3,16 +3,16 @@ type: github-project
 repo: "google-research/paper-orchestra"
 url: "https://github.com/google-research/paper-orchestra"
 first_seen: "2026-11-17"
-last_seen: "2026-11-18"
-trending_count: 2
+last_seen: "2026-11-19"
+trending_count: 3
 language: "Python"
-total_stars: 2960
-forks: 411
-stars_today: 1072
-github_rank: 15
-fetched_at: "2026-11-18T08:04:14+08:00"
-documentation_checked_at: "2026-11-18"
-stats_as_of: "2026-11-18"
+total_stars: 4259
+forks: 531
+stars_today: 1524
+github_rank: 8
+fetched_at: "2026-11-19T08:11:32+08:00"
+documentation_checked_at: "2026-11-19"
+stats_as_of: "2026-11-19"
 snapshot_status: "live"
 category: ["Research Automation", "Multi-Agent", "LaTeX"]
 topics: ["Research", "Multi-Agent", "LaTeX"]
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 |---|---:|---:|---:|---:|---|
 | 2026-11-17 | 11 | 313 | 1475 | 236 | GitHub Today live snapshot |
 | 2026-11-18 | 15 | 1072 | 2960 | 411 | GitHub Today live snapshot |
-
+| 2026-11-19 | 8 | 1524 | 4259 | 531 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Research|Research]] · [[Topics/Multi-Agent|Multi-Agent]] · [[Topics/LaTeX|LaTeX]]
 
@@ -59,6 +59,8 @@ pip install -r requirements.txt
 
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
 - [[Daily/2026/11/2026-11-18|2026-11-18]]
+
+- [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 ## GitHub 原始链接
 https://github.com/google-research/paper-orchestra
@@ -73,3 +75,7 @@ https://github.com/google-research/paper-orchestra
 - README blob SHA：`c79a45651aaf5f9ff5b9ec977c69ffd0c3e02095`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 
+## 官方资料复核（2026-11-19）
+- README：https://github.com/google-research/paper-orchestra/blob/HEAD/README.md
+- README blob SHA：`c79a45651aaf5f9ff5b9ec977c69ffd0c3e02095`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。

@@ -3,16 +3,16 @@ type: github-project
 repo: "getarcaneapp/arcane"
 url: "https://github.com/getarcaneapp/arcane"
 first_seen: "2026-11-17"
-last_seen: "2026-11-18"
-trending_count: 2
+last_seen: "2026-11-19"
+trending_count: 3
 language: "Go"
-total_stars: 9307
-forks: 513
-stars_today: 618
-github_rank: 6
-fetched_at: "2026-11-18T08:04:14+08:00"
-documentation_checked_at: "2026-11-18"
-stats_as_of: "2026-11-18"
+total_stars: 9788
+forks: 561
+stars_today: 547
+github_rank: 4
+fetched_at: "2026-11-19T08:11:32+08:00"
+documentation_checked_at: "2026-11-19"
+stats_as_of: "2026-11-19"
 snapshot_status: "live"
 category: ["Docker Management", "DevOps", "Self-Hosted"]
 topics: ["Docker", "DevOps", "Self-Hosted"]
@@ -50,7 +50,7 @@ docker compose up -d
 |---|---:|---:|---:|---:|---|
 | 2026-11-17 | 5 | 46 | 8699 | 403 | GitHub Today live snapshot |
 | 2026-11-18 | 6 | 618 | 9307 | 513 | GitHub Today live snapshot |
-
+| 2026-11-19 | 4 | 547 | 9788 | 561 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Docker|Docker]] · [[Topics/DevOps|DevOps]] · [[Topics/Self-Hosted|Self-Hosted]]
 
@@ -58,6 +58,8 @@ docker compose up -d
 
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
 - [[Daily/2026/11/2026-11-18|2026-11-18]]
+
+- [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 ## GitHub 原始链接
 https://github.com/getarcaneapp/arcane
@@ -72,3 +74,7 @@ https://github.com/getarcaneapp/arcane
 - README blob SHA：`94063cc0583ae7b52e1d376c702a9fce852f6284`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 
+## 官方资料复核（2026-11-19）
+- README：https://github.com/getarcaneapp/arcane/blob/HEAD/README.md
+- README blob SHA：`94063cc0583ae7b52e1d376c702a9fce852f6284`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。

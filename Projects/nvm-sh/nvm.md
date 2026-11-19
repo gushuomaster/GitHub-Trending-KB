@@ -3,19 +3,19 @@ snapshot_status: "live"
 type: github-project
 repo: nvm-sh/nvm
 url: https://github.com/nvm-sh/nvm
-first_seen: '2026-10-15'
-last_seen: "2026-11-13"
-trending_count: 2
+first_seen: "2026-10-15"
+last_seen: "2026-11-19"
+trending_count: 3
 language: "Shell"
-total_stars: 96006
-forks: 10758
-stars_today: 63
-github_rank: 3
-fetched_at: "2026-11-13T08:07:57+08:00"
+total_stars: 96153
+forks: 10782
+stars_today: 237
+github_rank: 6
+fetched_at: "2026-11-19T08:11:32+08:00"
 category: [Node.js, Developer-Tools, Version-Management]
 topics: [Node.js, Developer-Tools]
-documentation_checked_at: "2026-11-13"
-stats_as_of: "2026-11-13"
+documentation_checked_at: "2026-11-19"
+stats_as_of: "2026-11-19"
 ---
 
 # nvm-sh/nvm
@@ -52,6 +52,7 @@ nvm 面向 POSIX 兼容 Shell；原生 Windows 不受支持，Windows 用户通�
 - 2026-10-15：#4 · Stars Today：52 · Total Stars：95446 · Forks：10517
 - 2026-11-13：#3 · Stars Today：63 · Total Stars：96006 · Forks：10758
 
+- 2026-11-19：GitHub Rank 6；Stars Today 237；Total Stars 96153；Forks 10782；GitHub Today live snapshot。
 ## 相关主题
 [[Topics/Node.js|Node.js]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -59,6 +60,8 @@ nvm 面向 POSIX 兼容 Shell；原生 Windows 不受支持，Windows 用户通�
 - [[Daily/2026/10/2026-10-15|2026-10-15]]
 
 - [[Daily/2026/11/2026-11-13|2026-11-13]]
+
+- [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 ## GitHub 原始链接
 https://github.com/nvm-sh/nvm
@@ -70,3 +73,8 @@ https://github.com/nvm-sh/nvm
 - README：https://github.com/nvm-sh/nvm/blob/HEAD/README.md
 - README blob SHA：`765e99c89ef60010f156659c8026fd06f3e6e17f`
 - 本次按当前官方资料复核，仅合并当天榜单事实、历史和证据；既有能力、案例、分类、风险说明与较早历史均保留。
+
+## 官方资料复核（2026-11-19）
+- README：https://github.com/nvm-sh/nvm/blob/HEAD/README.md
+- README blob SHA：`54945dfaf836989a43a1ec4bc20f82321bb51577`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。

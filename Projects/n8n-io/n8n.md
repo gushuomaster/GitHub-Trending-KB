@@ -1,17 +1,25 @@
 ---
+stars_today: 325
+forks: 61570
+total_stars: 211063
+language: "TypeScript"
+github_rank: 17
+fetched_at: "2026-11-19T08:11:32+08:00"
+documentation_checked_at: "2026-11-19"
+stats_as_of: "2026-11-19"
 type: github-project
 repo: "n8n-io/n8n"
 url: "https://github.com/n8n-io/n8n"
-first_seen: 2026-09-18
-last_seen: 2026-09-18
-trending_count: 1
+first_seen: "2026-09-18"
+last_seen: "2026-11-19"
+trending_count: 2
 category: ["Workflow Automation", "AI Agent", "Integration"]
 topics: ["Workflow Automation", "AI Agent", "Integration"]
 ---
 # n8n-io/n8n
 
 ## 一句话说明
-可自托管或使用云服务的可视化工作流与 AI Agent 平台，把 1500 多种集成、代码节点、审批和可观测性连接起来。
+可自托管或使用云服务的可视化工作流与 AI Agent 平台，把 400+ 种集成、代码节点、审批和可观测性连接起来。
 
 ## 它能做什么
 - 在可视化画布中编排触发器、条件、循环和多步骤业务流程
@@ -38,15 +46,17 @@ docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n
 - 其源码采用 Sustainable Use / Enterprise 许可而非普通宽松开源许可；自托管者需要维护数据库、凭据、备份、扩展节点和升级，工作流误配也可能对外部系统产生真实写操作。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-18 | 20 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
-
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-09-18 | 20 | 未保存 | 未保存 | 未保存 | 日期匹配归档；可核实统计仅保留原日报证据 |
+| 2026-11-19 | 17 | 325 | 211063 | 61570 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Workflow Automation|Workflow Automation]] · [[Topics/AI Agent|AI Agent]] · [[Topics/Integration|Integration]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-18|2026-09-18]]
+
+- [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 ## GitHub 原始链接
 https://github.com/n8n-io/n8n
@@ -62,3 +72,8 @@ https://github.com/n8n-io/n8n
 - Language / Total Stars / Forks：未保存
 - 来源：[日期匹配的语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/339673fe562fde501a85aaa2f71a287bdb97a440/archive/repository/2026/2026-09-18/(null).json)
 - 归档提交时间：2026-09-18T04:12:31Z；该时间不是页面抓取时间。
+
+## 官方资料复核（2026-11-19）
+- README：https://github.com/n8n-io/n8n/blob/HEAD/README.md
+- README blob SHA：`2d2053d58750e70ca43f946ab75a6ec5d532f87c`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
