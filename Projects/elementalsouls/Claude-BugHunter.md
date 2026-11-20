@@ -3,16 +3,16 @@ type: github-project
 repo: "elementalsouls/Claude-BugHunter"
 url: "https://github.com/elementalsouls/Claude-BugHunter"
 first_seen: "2026-11-16"
-last_seen: "2026-11-18"
-trending_count: 2
+last_seen: "2026-11-20"
+trending_count: 3
 language: "Python"
-total_stars: 9228
-forks: 1357
-stars_today: 1005
+total_stars: 12494
+forks: 1588
+stars_today: 1349
 github_rank: 1
-fetched_at: "2026-11-18T08:04:14+08:00"
-documentation_checked_at: "2026-11-18"
-stats_as_of: "2026-11-18"
+fetched_at: "2026-11-20T08:09:53+08:00"
+documentation_checked_at: "2026-11-20"
+stats_as_of: "2026-11-20"
 snapshot_status: "live"
 category: ["Security", "Agent Skills", "Red Team"]
 topics: ["Security", "Agent-Skills", "Red-Team"]
@@ -23,7 +23,7 @@ topics: ["Security", "Agent-Skills", "Red-Team"]
 Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Skills 套件，把方法论、漏洞类别知识、验证门和报告流程装入 Claude Code 等 Agent。
 
 ## 它能做什么
-- 当前 README 汇集 83 个技能、15 个斜杠命令和来自 681 份公开报告的模式，覆盖 24 类核心漏洞。
+- 当前 README 汇集 82 个技能、15 个斜杠命令和来自 681 份公开报告的模式，覆盖 24 类核心漏洞。
 - 用 Think、Web 应用 Hunting、企业边界与交付四层组织侦察、验证、严重度判断和证据整理。
 - 支持 Claude Code、Codex CLI、OpenCode、Hermes 与 Antigravity，并可选接入 Burp MCP。
 - 提供 engagement 文件夹脚手架、`cbh` CLI、VRT 映射、PII 脱敏和报告模板。
@@ -51,7 +51,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 |---|---:|---:|---:|---:|---|
 | 2026-11-16 | 9 | 98 | 6417 | 967 | GitHub Today live snapshot |
 | 2026-11-18 | 1 | 1005 | 9228 | 1357 | GitHub Today live snapshot |
-
+| 2026-11-20 | 1 | 1349 | 12494 | 1588 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Red-Team|Red-Team]]
 
@@ -59,6 +59,8 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
 - [[Daily/2026/11/2026-11-18|2026-11-18]]
+
+- [[Daily/2026/11/2026-11-20|2026-11-20]]
 
 ## GitHub 原始链接
 https://github.com/elementalsouls/Claude-BugHunter
@@ -73,3 +75,7 @@ https://github.com/elementalsouls/Claude-BugHunter
 - README blob SHA：`4182889da32bba8e37c28e1d5bec4231bf5046db`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 
+## 官方资料复核（2026-11-20）
+- README：https://github.com/elementalsouls/Claude-BugHunter/blob/HEAD/README.md
+- README blob SHA：`cd07caf4e92730b808891539a9397f1489f039d6`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。

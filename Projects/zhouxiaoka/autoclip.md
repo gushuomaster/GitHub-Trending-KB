@@ -1,19 +1,22 @@
 ---
+forks: 1937
+fetched_at: "2026-11-20T08:09:53+08:00"
+stats_as_of: "2026-11-20"
 type: github-project
 repo: "zhouxiaoka/autoclip"
 url: "https://github.com/zhouxiaoka/autoclip"
-first_seen: 2026-09-22
-last_seen: 2026-09-22
-trending_count: 1
-github_rank: 9
-stars_today: 266
-total_stars: 8169
+first_seen: "2026-09-22"
+last_seen: "2026-11-20"
+trending_count: 2
+github_rank: 16
+stars_today: 126
+total_stars: 11198
 language: "Python"
 category: ["AI", "Video", "Creative Tools"]
 tags: ["video-ai", "clipping", "highlights", "python", "creator-tools"]
 topics: ["Video AI", "Content Creation", "Automation"]
 status: active
-documentation_checked_at: 2026-10-10
+documentation_checked_at: "2026-11-20"
 ---
 # zhouxiaoka/autoclip
 
@@ -49,12 +52,19 @@ documentation_checked_at: 2026-10-10
 | 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
 |---|---:|---:|---:|---|
 | 2026-09-22 | 9 | 266 | 8169 | 原日报保存的当日快照；Forks 未保存 |
-
+| 2026-11-20 | 16 | 126 | 11198 | 1937 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]
 
 ## 相关日报
 - [[Daily/2026/09/2026-09-22|2026-09-22]]
 
+- [[Daily/2026/11/2026-11-20|2026-11-20]]
+
 ## GitHub 原始链接
 https://github.com/zhouxiaoka/autoclip
+
+## 官方资料复核（2026-11-20）
+- README：https://github.com/zhouxiaoka/autoclip/blob/HEAD/README.md
+- README blob SHA：`ce3835ea3720322b545edfffce85a193196b353c`
+- 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
