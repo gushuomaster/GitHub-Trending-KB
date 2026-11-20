@@ -49,9 +49,9 @@ documentation_checked_at: "2026-11-20"
 - 下载、二创与发布素材前必须取得版权或其他合法授权。
 
 ## Trending 历史
-| 日期 | GitHub Rank | Stars Today | Total Stars | 证据说明 |
-|---|---:|---:|---:|---|
-| 2026-09-22 | 9 | 266 | 8169 | 原日报保存的当日快照；Forks 未保存 |
+| 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
+|---|---:|---:|---:|---:|---|
+| 2026-09-22 | 9 | 266 | 8169 | 未保存 | 原日报保存的当日快照 |
 | 2026-11-20 | 16 | 126 | 11198 | 1937 | GitHub Today live snapshot |
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]
