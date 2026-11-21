@@ -3,16 +3,16 @@ type: github-project
 repo: "mvanhorn/last30days-skill"
 url: "https://github.com/mvanhorn/last30days-skill"
 first_seen: "2026-11-17"
-last_seen: "2026-11-20"
-trending_count: 4
+last_seen: "2026-11-21"
+trending_count: 5
 language: "Python"
-total_stars: 70782
-forks: 6308
-stars_today: 954
+total_stars: 71434
+forks: 6343
+stars_today: 681
 github_rank: 10
-fetched_at: "2026-11-20T08:09:53+08:00"
-documentation_checked_at: "2026-11-20"
-stats_as_of: "2026-11-20"
+fetched_at: "2026-11-21T08:10:09+08:00"
+documentation_checked_at: "2026-11-21"
+stats_as_of: "2026-11-21"
 snapshot_status: "live"
 category: ["Agent Skills", "Research", "Social Search"]
 topics: ["Agent-Skills", "Research", "Social-Media"]
@@ -51,6 +51,8 @@ npx skills add mvanhorn/last30days-skill -g
 | 2026-11-18 | 2 | 696 | 69030 | 6145 | GitHub Today live snapshot |
 | 2026-11-19 | 3 | 1059 | 69979 | 6241 | GitHub Today live snapshot |
 | 2026-11-20 | 10 | 954 | 70782 | 6308 | GitHub Today live snapshot |
+| 2026-11-21 | 10 | 681 | 71434 | 6343 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Research|Research]] · [[Topics/Social-Media|Social-Media]]
 
@@ -62,13 +64,14 @@ npx skills add mvanhorn/last30days-skill -g
 - [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
+- [[Daily/2026/11/2026-11-21|2026-11-21]]
 
 ## GitHub 原始链接
 https://github.com/mvanhorn/last30days-skill
 
 ## 官方资料复核（2026-11-17）
 - README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md
-- README blob SHA：`8bbc95b4d33646473266edae86a6c8e61ba4aadd`
+- README blob SHA：`ee3f7f3b0f64f9ca996e579bfd2aa2383bace11b`
 - 午后 README 增加公司专利、招聘页与对应 Secret Signals 说明；本次只更新持续维护项目卡和来源证据，不改动早晨榜单快照。
 
 ## 官方资料复核（2026-11-18）
@@ -85,3 +88,6 @@ https://github.com/mvanhorn/last30days-skill
 - README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md
 - README blob SHA：`ee3f7f3b0f64f9ca996e579bfd2aa2383bace11b`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+
+## 最近变化
+- 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`ee3f7f3b0f64f9ca996e579bfd2aa2383bace11b`。

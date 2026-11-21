@@ -3,14 +3,14 @@ type: "github-project"
 repo: "obra/superpowers"
 url: "https://github.com/obra/superpowers"
 first_seen: "2026-09-09"
-last_seen: "2026-11-20"
-trending_count: 20
+last_seen: "2026-11-21"
+trending_count: 21
 language: "Shell"
-total_stars: 322061
-forks: 28628
-stars_today: 2028
+total_stars: 322825
+forks: 28667
+stars_today: 890
 github_rank: 2
-fetched_at: "2026-11-20T08:09:53+08:00"
+fetched_at: "2026-11-21T08:10:09+08:00"
 category:
 - AI
 - Skills
@@ -23,8 +23,8 @@ topics:
 - AI
 - Skills
 - Developer-Tools
-stats_as_of: "2026-11-20"
-documentation_checked_at: "2026-11-20"
+stats_as_of: "2026-11-21"
+documentation_checked_at: "2026-11-21"
 snapshot_status: "live"
 ---
 
@@ -81,6 +81,8 @@ superpowers
 | 2026-11-18 | 9 | 1917 | 319308 | 28476 | GitHub Today live snapshot |
 | 2026-11-19 | 14 | 822 | 321306 | 28553 | GitHub Today live snapshot |
 | 2026-11-20 | 2 | 2028 | 322061 | 28628 | GitHub Today live snapshot |
+| 2026-11-21 | 2 | 890 | 322825 | 28667 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -110,6 +112,7 @@ superpowers
 - [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
+- [[Daily/2026/11/2026-11-21|2026-11-21]]
 
 ## GitHub 原始链接
 https://github.com/obra/superpowers

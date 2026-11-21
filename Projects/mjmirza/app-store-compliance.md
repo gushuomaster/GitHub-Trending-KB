@@ -3,16 +3,16 @@ type: github-project
 repo: "mjmirza/app-store-compliance"
 url: "https://github.com/mjmirza/app-store-compliance"
 first_seen: "2026-11-20"
-last_seen: "2026-11-20"
-trending_count: 1
+last_seen: "2026-11-21"
+trending_count: 2
 language: "Shell"
-total_stars: 1824
-forks: 126
-stars_today: 377
+total_stars: 2722
+forks: 173
+stars_today: 869
 github_rank: 12
-fetched_at: "2026-11-20T08:09:53+08:00"
-documentation_checked_at: "2026-11-20"
-stats_as_of: "2026-11-20"
+fetched_at: "2026-11-21T08:10:09+08:00"
+documentation_checked_at: "2026-11-21"
+stats_as_of: "2026-11-21"
 snapshot_status: "live"
 category: ["Mobile", "Compliance"]
 topics: ["Mobile", "Compliance", "Developer-Tools"]
@@ -49,12 +49,14 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-11-20 | 12 | 377 | 1824 | 126 | GitHub Today live snapshot |
+| 2026-11-21 | 12 | 869 | 2722 | 173 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Mobile|Mobile]] · [[Topics/Compliance|Compliance]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
+- [[Daily/2026/11/2026-11-21|2026-11-21]]
 
 ## GitHub 原始链接
 https://github.com/mjmirza/app-store-compliance

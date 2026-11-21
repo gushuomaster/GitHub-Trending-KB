@@ -3,16 +3,16 @@ type: github-project
 repo: "nginx/nginx"
 url: "https://github.com/nginx/nginx"
 first_seen: "2026-11-20"
-last_seen: "2026-11-20"
-trending_count: 1
+last_seen: "2026-11-21"
+trending_count: 2
 language: "C"
-total_stars: 32323
-forks: 8414
-stars_today: 73
+total_stars: 32560
+forks: 8390
+stars_today: 246
 github_rank: 7
-fetched_at: "2026-11-20T08:09:53+08:00"
-documentation_checked_at: "2026-11-20"
-stats_as_of: "2026-11-20"
+fetched_at: "2026-11-21T08:10:09+08:00"
+documentation_checked_at: "2026-11-21"
+stats_as_of: "2026-11-21"
 snapshot_status: "live"
 category: ["Web-Server", "Networking"]
 topics: ["Web-Server", "Networking", "Infrastructure"]
@@ -49,12 +49,14 @@ nginx -s reload
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-11-20 | 7 | 73 | 32323 | 8414 | GitHub Today live snapshot |
+| 2026-11-21 | 7 | 246 | 32560 | 8390 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Web-Server|Web-Server]] · [[Topics/Networking|Networking]] · [[Topics/Infrastructure|Infrastructure]]
 
 ## 相关日报
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
+- [[Daily/2026/11/2026-11-21|2026-11-21]]
 
 ## GitHub 原始链接
 https://github.com/nginx/nginx

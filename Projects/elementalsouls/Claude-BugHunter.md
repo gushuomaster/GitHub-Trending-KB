@@ -3,16 +3,16 @@ type: github-project
 repo: "elementalsouls/Claude-BugHunter"
 url: "https://github.com/elementalsouls/Claude-BugHunter"
 first_seen: "2026-11-16"
-last_seen: "2026-11-20"
-trending_count: 3
+last_seen: "2026-11-21"
+trending_count: 4
 language: "Python"
-total_stars: 12494
-forks: 1588
-stars_today: 1349
+total_stars: 14221
+forks: 1697
+stars_today: 1622
 github_rank: 1
-fetched_at: "2026-11-20T08:09:53+08:00"
-documentation_checked_at: "2026-11-20"
-stats_as_of: "2026-11-20"
+fetched_at: "2026-11-21T08:10:09+08:00"
+documentation_checked_at: "2026-11-21"
+stats_as_of: "2026-11-21"
 snapshot_status: "live"
 category: ["Security", "Agent Skills", "Red Team"]
 topics: ["Security", "Agent-Skills", "Red-Team"]
@@ -52,6 +52,8 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 | 2026-11-16 | 9 | 98 | 6417 | 967 | GitHub Today live snapshot |
 | 2026-11-18 | 1 | 1005 | 9228 | 1357 | GitHub Today live snapshot |
 | 2026-11-20 | 1 | 1349 | 12494 | 1588 | GitHub Today live snapshot |
+| 2026-11-21 | 1 | 1622 | 14221 | 1697 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Red-Team|Red-Team]]
 
@@ -61,21 +63,25 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 - [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
+- [[Daily/2026/11/2026-11-21|2026-11-21]]
 
 ## GitHub 原始链接
 https://github.com/elementalsouls/Claude-BugHunter
 
 ## 官方资料复核（2026-11-16）
 - README：https://github.com/elementalsouls/Claude-BugHunter/blob/HEAD/README.md
-- README blob SHA：`4182889da32bba8e37c28e1d5bec4231bf5046db`
+- README blob SHA：`cd07caf4e92730b808891539a9397f1489f039d6`
 - 内容依据当前官方 README；榜单统计来自同一次 GitHub Trending Any / Any / Today 页面采集。
 
 ## 官方资料复核（2026-11-18）
 - README：https://github.com/elementalsouls/Claude-BugHunter/blob/HEAD/README.md
-- README blob SHA：`4182889da32bba8e37c28e1d5bec4231bf5046db`
+- README blob SHA：`cd07caf4e92730b808891539a9397f1489f039d6`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 
 ## 官方资料复核（2026-11-20）
 - README：https://github.com/elementalsouls/Claude-BugHunter/blob/HEAD/README.md
 - README blob SHA：`cd07caf4e92730b808891539a9397f1489f039d6`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+
+## 最近变化
+- 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`cd07caf4e92730b808891539a9397f1489f039d6`。

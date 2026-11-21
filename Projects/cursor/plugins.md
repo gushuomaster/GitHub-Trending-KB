@@ -1,18 +1,18 @@
 ---
-stats_as_of: "2026-11-20"
-documentation_checked_at: "2026-11-20"
-fetched_at: "2026-11-20T08:09:53+08:00"
+stats_as_of: "2026-11-21"
+documentation_checked_at: "2026-11-21"
+fetched_at: "2026-11-21T08:10:09+08:00"
 type: github-project
 repo: "cursor/plugins"
 url: "https://github.com/cursor/plugins"
 first_seen: "2026-10-02"
-last_seen: "2026-11-20"
-trending_count: 7
+last_seen: "2026-11-21"
+trending_count: 8
 github_rank: 5
 language: "TypeScript"
-total_stars: 17549
-forks: 1930
-stars_today: 384
+total_stars: 17839
+forks: 1957
+stars_today: 299
 category: ["AI", "Developer-Tools", "Plugins"]
 tags: ["cursor", "plugins", "skills", "mcp"]
 topics: ["AI", "Developer-Tools", "Skills"]
@@ -58,6 +58,8 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 | 2026-11-18 | 8 | 201 | 16887 | 1829 | GitHub Today live snapshot |
 | 2026-11-19 | 1 | 314 | 17185 | 1894 | GitHub Today live snapshot |
 | 2026-11-20 | 5 | 384 | 17549 | 1930 | GitHub Today live snapshot |
+| 2026-11-21 | 5 | 299 | 17839 | 1957 | GitHub Today live snapshot |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]
 
@@ -74,6 +76,7 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 - [[Daily/2026/11/2026-11-19|2026-11-19]]
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
+- [[Daily/2026/11/2026-11-21|2026-11-21]]
 
 ## GitHub 原始链接
 https://github.com/cursor/plugins
@@ -86,15 +89,18 @@ https://github.com/cursor/plugins
 
 ## 官方资料复核（2026-11-18）
 - README：https://github.com/cursor/plugins/blob/HEAD/README.md
-- README blob SHA：`ee488e42344cc6ec6bfed86ace1fb64d7f9eae9e`
+- README blob SHA：`e3e669db8de95e7e9e9ce8aba04fbcf0c7bfdd58`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 
 ## 官方资料复核（2026-11-19）
 - README：https://github.com/cursor/plugins/blob/HEAD/README.md
-- README blob SHA：`2758dd8e9457ec7a2394fe645bce66132439c35d`
+- README blob SHA：`e3e669db8de95e7e9e9ce8aba04fbcf0c7bfdd58`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
 
 ## 官方资料复核（2026-11-20）
 - README：https://github.com/cursor/plugins/blob/HEAD/README.md
-- README blob SHA：`b7e392f613ea7bbb04422d379680c3abeea3b65e`
+- README blob SHA：`e3e669db8de95e7e9e9ce8aba04fbcf0c7bfdd58`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+
+## 最近变化
+- 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`e3e669db8de95e7e9e9ce8aba04fbcf0c7bfdd58`。
