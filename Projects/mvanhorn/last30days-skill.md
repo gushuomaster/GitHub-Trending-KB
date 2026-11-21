@@ -31,7 +31,7 @@ topics: ["Agent-Skills", "Research", "Social-Media"]
 官方示例：运行 `/last30days Peter Steinberger`；技能检索其最近一个月的 X、Reddit、YouTube 和 GitHub 动态，输出会前可读的近期活动、争议点与引用来源。
 
 ## 实际例子
-**官方资料中的工作流 →** 官方示例：运行 `/last30days Peter Steinberger`；技能检索其最近一个月的 X、Reddit、YouTube 和 GitHub 动态，输出会前可读的近期活动、争议点与引用来源。
+**官方示例 → 场景 → 输入 → 操作 → 输出：** 为与 Peter Steinberger 的会面做准备，输入 `/last30days Peter Steinberger`；技能检索最近一个月的 X、Reddit、YouTube 和 GitHub 动态，输出会前可读的近期活动、争议点与原始引用链接。
 
 ## 关键命令
 ```bash

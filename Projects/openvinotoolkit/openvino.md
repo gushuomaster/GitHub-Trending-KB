@@ -32,7 +32,7 @@ OpenVINO 是推理优化与部署工具包，把多种训练框架模型转换�
 场景：部署 PyTorch 图像模型。用 OpenVINO 转换模型，创建 Core 并 `compile_model(..., "CPU")`，输入张量后得到推理结果。
 
 ## 实际例子
-**场景 →** 场景：部署 PyTorch 图像模型。用 OpenVINO 转换模型，创建 Core 并 `compile_model(..., "CPU")`，输入张量后得到推理结果。
+**官方 Python 最小流程 → 场景 → 输入 → 操作 → 输出：** 把已训练的 PyTorch 图像模型部署到 Intel CPU。输入模型和示例张量，用 `ov.convert_model` 转换，再通过 `ov.Core().compile_model(model, "CPU")` 编译并传入待预测张量，输出优化后的推理结果。
 
 ## 关键命令
 ```python

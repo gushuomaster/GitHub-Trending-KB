@@ -71,7 +71,7 @@
 - 2026-11-18：15 项 08:04:14 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 1 张项目卡、更新 14 张。重新读取全部 15 个项目的当前官方 README；补充 Plannotator 安装器网络边界、ECC 当前能力规模与 Cursor 插件目录的第三方集成边界，并为新项目 MiniMind 建立完整知识卡。晚间复核发现 `alibaba/open-code-review` 与 `google-labs-code/stitch-skills` 的 README 已变化，分别补入“当前分支相对 main”的审查命令和 `site-md` 生成 `SITE.md` 的能力；同时修复 `dream-num/univer` 当天历史行多出说明列的问题。榜单严格保留同次 Any / Any / Today 页面原始顺序。全量复查 71 份日报、956 条唯一 JSONL 记录和 342 张有效日报引用的项目卡。
 - 2026-11-19：19 项 08:11:32 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 6 张项目卡、更新 13 张。重新读取全部 19 个项目的当前官方 README；榜单严格保留同次 Any / Any / Today 页面原始顺序，其中 `punkpeye/awesome-mcp-servers` 的主要语言由页面明确记为“未声明”。
 - 2026-11-20：16 项 08:09:53 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；新增 6 张项目卡、更新 10 张。重新读取全部 16 个项目的当前官方 README；榜单严格保留同次 Any / Any / Today 页面原始顺序。
-- 2026-11-21：16 项 08:10:09 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；更新 16 张项目卡。重新读取全部 16 个项目的当前官方 README；榜单严格保留同次 Any / Any / Today 页面原始顺序。
+- 2026-11-21：16 项 08:10:09 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；更新 16 张项目卡。重新读取全部 16 个项目的当前官方 README，下午复核确认记录的 blob SHA 均未变化；去除 OpenVINO 与 last30days 日报及项目卡中重复拼接的实例，并恢复 AutoClip 限制说明的正常行文，不改动榜单、排名、统计或 `fetched_at`。
 - 规范文件：`README.md` 与 `Templates/Daily.md` 已补入日报必须记录“局限 / 注意点”的明确要求，避免新日报沿用缺少限制栏位的旧模板。
 
 ## 当前待修复
