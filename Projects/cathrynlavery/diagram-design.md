@@ -3,14 +3,14 @@ type: github-project
 repo: cathrynlavery/diagram-design
 url: https://github.com/cathrynlavery/diagram-design
 first_seen: "2026-09-09"
-last_seen: "2026-11-21"
-trending_count: 13
+last_seen: "2026-11-22"
+trending_count: 14
 language: "HTML"
-total_stars: 69269
-forks: 4652
-stars_today: 636
+total_stars: 69789
+forks: 4685
+stars_today: 583
 github_rank: 9
-fetched_at: "2026-11-21T08:10:09+08:00"
+fetched_at: "2026-11-22T08:03:06+08:00"
 category:
 - AI
 - Developer-Tools
@@ -20,8 +20,8 @@ tags:
 topics:
 - AI
 - Developer-Tools
-documentation_checked_at: "2026-11-21"
-stats_as_of: "2026-11-21"
+documentation_checked_at: "2026-11-22"
+stats_as_of: "2026-11-22"
 snapshot_status: "live"
 ---
 
@@ -56,6 +56,7 @@ codex plugin add diagram-design@diagram-design
 ```
 
 ## Trending 历史
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-09-09 | 2 | 710 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/65c9872b096ffb485055f7f8af63b7f68a5853f9/archive/repository/2026/2026-09-09/(null).json) |
@@ -71,11 +72,13 @@ codex plugin add diagram-design@diagram-design
 | 2026-10-14 | 5 | 1815 | 54075 | 3430 | GitHub Today live snapshot |
 | 2026-11-20 | 9 | 271 | 68620 | 4616 | GitHub Today live snapshot |
 | 2026-11-21 | 9 | 636 | 69269 | 4652 | GitHub Today live snapshot |
+| 2026-11-22 | 9 | 583 | 69789 | 4685 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
+
 - [[Daily/2026/09/2026-09-09|2026-09-09]]
 - [[Daily/2026/09/2026-09-10|2026-09-10]]
 - [[Daily/2026/09/2026-09-11|2026-09-11]]
@@ -91,6 +94,7 @@ codex plugin add diagram-design@diagram-design
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
+- [[Daily/2026/11/2026-11-22|2026-11-22]]
 
 ## GitHub 原始链接
 https://github.com/cathrynlavery/diagram-design

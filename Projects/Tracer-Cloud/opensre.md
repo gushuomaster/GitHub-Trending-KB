@@ -3,16 +3,16 @@ type: github-project
 repo: "Tracer-Cloud/opensre"
 url: "https://github.com/Tracer-Cloud/opensre"
 first_seen: "2026-11-20"
-last_seen: "2026-11-21"
-trending_count: 2
+last_seen: "2026-11-22"
+trending_count: 3
 language: "Python"
-total_stars: 13598
-forks: 1926
-stars_today: 466
+total_stars: 13982
+forks: 1943
+stars_today: 450
 github_rank: 13
-fetched_at: "2026-11-21T08:10:09+08:00"
-documentation_checked_at: "2026-11-21"
-stats_as_of: "2026-11-21"
+fetched_at: "2026-11-22T08:03:06+08:00"
+documentation_checked_at: "2026-11-22"
+stats_as_of: "2026-11-22"
 snapshot_status: "live"
 category: ["DevOps", "CI-CD"]
 topics: ["DevOps", "CI-CD", "AI-Agent"]
@@ -20,18 +20,23 @@ topics: ["DevOps", "CI-CD", "AI-Agent"]
 # Tracer-Cloud/opensre
 
 ## 一句话说明
-OpenSRE 是面向 CI/CD 可靠性的 CLI Agent，读取失败流水线和日志、追查根因、测试假设，并推送修复供工程师审查。
+
+OpenSRE 是可自托管、可使用自有模型的可靠性 Agent：既能调查失败的 CI/CD 流水线并提交待审修复，也能关联日志、指标、追踪、部署记录和基础设施状态处理生产事故。
 
 ## 它能做什么
-- 区分代码失败与 CI 基础设施噪声并生成根因解释。
-- 支持交互式 REPL、Headless CLI、会话恢复与成本查看。
-- 可接 GitHub 等集成，并部署托管网关、AMI 或自托管容器。
+
+- 读取失败检查、CI 日志、近期提交与部署，区分代码缺陷和流水线基础设施噪声，并把修复推到 PR 分支供人审查。
+- 连接 60+ 类观测、云、Kubernetes、数据库、事件管理和代码托管工具，把日志、指标、Trace、Pod 状态与部署历史放进同一调查。
+- 提供交互式 Shell、Headless CLI 与 Python API，可恢复会话、查看成本，并将结果发送到 Slack、PagerDuty 或 Telegram。
+- 支持 OpenSRE Cloud 网关、AWS AMI/systemd 和自托管容器，并可选择 OpenAI、Anthropic、Ollama、Gemini、Bedrock 等模型提供方。
 
 ## 怎么利用
-场景：流水线 checkout-api 失败。安装并运行 `opensre ask "why is checkout-api slow?"`，Agent 读取授权范围内的代码和运行信息，验证假设并输出根因、建议或待审查修复。
+
+**官方 Headless CLI 场景 →** 先在仓库目录安装并登录 OpenSRE，再运行 `opensre ask "why is checkout-api slow?"`。输入是问题以及已授权的代码、CI 和观测集成；Agent 抓取相关检查、日志、指标与部署，测试假设并输出带证据的根因、建议，必要时生成待审查修复。
 
 ## 实际例子
-**场景 → 输入 → 操作 → 输出：** 场景：流水线 checkout-api 失败。安装并运行 `opensre ask "why is checkout-api slow?"`，Agent 读取授权范围内的代码和运行信息，验证假设并输出根因、建议或待审查修复。
+
+**官方 CI/CD 工作流 → 场景：** 某个 PR 检查失败且重跑仍不稳定。**输入：** 失败运行、代码差异和已授权 GitHub 集成。**操作：** OpenSRE 读取失败检查与日志，判断是代码错误还是 CI 噪声，复现实验并把修复推到 PR 分支。**输出：** 带证据的调查结论以及由工程师最终审查的修复提交。
 
 ## 关键命令
 ```bash
@@ -43,20 +48,25 @@ opensre ask "why is checkout-api slow?"
 需要缩短 CI 故障定位和修复时间的开发、SRE 与平台团队。
 
 ## 局限 / 注意点
-当前为 Public Alpha，API 与集成可能变化；交互 Shell 需要活跃账号，安装器抓取 main 最新构建。代码、日志与模型提供方权限必须审查，产品分析和 Sentry 默认 opt-out。
+
+当前仍是 Public Alpha，API 与集成会变化；交互 Shell 需要活跃账号，安装脚本默认拉取 `main` 的最新构建。调查生产事故或自动推送修复会接触代码、日志、云资源和消息渠道，必须按连接器配置最小权限、审批与脱敏；自托管并不自动保证模型调用留在内网，仍要核对所选 Provider、遥测与数据保留设置。
 
 ## Trending 历史
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-11-20 | 13 | 38 | 13113 | 1903 | GitHub Today live snapshot |
 | 2026-11-21 | 13 | 466 | 13598 | 1926 | GitHub Today live snapshot |
+| 2026-11-22 | 13 | 450 | 13982 | 1943 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/DevOps|DevOps]] · [[Topics/CI-CD|CI-CD]] · [[Topics/AI-Agent|AI-Agent]]
 
 ## 相关日报
+
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
+- [[Daily/2026/11/2026-11-22|2026-11-22]]
 
 ## GitHub 原始链接
 https://github.com/Tracer-Cloud/opensre
@@ -65,3 +75,9 @@ https://github.com/Tracer-Cloud/opensre
 - README：https://github.com/Tracer-Cloud/opensre/blob/HEAD/README.md
 - README blob SHA：`111b126f0bfcc3df0d9ed20e4561c70d7eca695b`
 - 说明：项目卡反映核对日的当前官方资料与当天实时榜单事实。
+
+
+## 官方资料复核（2026-11-22）
+- README：https://github.com/Tracer-Cloud/opensre/blob/HEAD/README.md
+- README blob SHA：`28e036d1d7eafa9412eca60ff92ae776e88e38b2`
+- 当前 README 已扩展到 CI/CD 与生产事故调查、60+ 集成、自有模型和 Python API；本次据此补充能力、用法与权限边界，不倒写历史日报。

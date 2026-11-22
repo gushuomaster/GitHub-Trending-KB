@@ -3,16 +3,16 @@ type: github-project
 repo: "google-labs-code/stitch-skills"
 url: "https://github.com/google-labs-code/stitch-skills"
 first_seen: "2026-11-16"
-last_seen: "2026-11-21"
-trending_count: 6
+last_seen: "2026-11-22"
+trending_count: 7
 language: "TypeScript"
-total_stars: 11026
-forks: 1406
-stars_today: 315
+total_stars: 11414
+forks: 1439
+stars_today: 326
 github_rank: 11
-fetched_at: "2026-11-21T08:10:09+08:00"
-documentation_checked_at: "2026-11-21"
-stats_as_of: "2026-11-21"
+fetched_at: "2026-11-22T08:03:06+08:00"
+documentation_checked_at: "2026-11-22"
+stats_as_of: "2026-11-22"
 snapshot_status: "live"
 category: ["Agent Skills", "UI Design", "Frontend"]
 topics: ["Agent-Skills", "UI-Design", "Frontend"]
@@ -47,6 +47,7 @@ npx skills add google-labs-code/stitch-skills
 技能遵循 Agent Skills 标准，可安装到 Codex、Claude Code、Cursor；OpenCode 需按说明手工适配。各技能依赖 Stitch MCP、相应环境变量与凭据，选择性安装时必须补齐依赖；项目明确不是 Google 官方支持产品，也不属于 Google 开源漏洞奖励范围。
 
 ## Trending 历史
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-16 | 3 | 247 | 9280 | 1125 | GitHub Today live snapshot |
@@ -55,11 +56,13 @@ npx skills add google-labs-code/stitch-skills
 | 2026-11-19 | 9 | 365 | 10392 | 1367 | GitHub Today live snapshot |
 | 2026-11-20 | 11 | 302 | 10712 | 1387 | GitHub Today live snapshot |
 | 2026-11-21 | 11 | 315 | 11026 | 1406 | GitHub Today live snapshot |
+| 2026-11-22 | 11 | 326 | 11414 | 1439 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/UI-Design|UI-Design]] · [[Topics/Frontend|Frontend]]
 
 ## 相关日报
+
 
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
@@ -69,6 +72,7 @@ npx skills add google-labs-code/stitch-skills
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
+- [[Daily/2026/11/2026-11-22|2026-11-22]]
 
 ## GitHub 原始链接
 https://github.com/google-labs-code/stitch-skills

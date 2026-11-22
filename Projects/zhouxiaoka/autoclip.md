@@ -1,22 +1,22 @@
 ---
-forks: 2011
-fetched_at: "2026-11-21T08:10:09+08:00"
-stats_as_of: "2026-11-21"
+forks: 2072
+fetched_at: "2026-11-22T08:03:06+08:00"
+stats_as_of: "2026-11-22"
 type: github-project
 repo: "zhouxiaoka/autoclip"
 url: "https://github.com/zhouxiaoka/autoclip"
 first_seen: "2026-09-22"
-last_seen: "2026-11-21"
-trending_count: 3
+last_seen: "2026-11-22"
+trending_count: 4
 github_rank: 16
-stars_today: 979
-total_stars: 12167
+stars_today: 683
+total_stars: 12836
 language: "Python"
 category: ["AI", "Video", "Creative Tools"]
 tags: ["video-ai", "clipping", "highlights", "python", "creator-tools"]
 topics: ["Video AI", "Content Creation", "Automation"]
 status: active
-documentation_checked_at: "2026-11-21"
+documentation_checked_at: "2026-11-22"
 snapshot_status: "live"
 ---
 # zhouxiaoka/autoclip
@@ -50,20 +50,24 @@ snapshot_status: "live"
 - 下载、二创与发布素材前必须取得版权或其他合法授权。
 
 ## Trending 历史
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 |---|---:|---:|---:|---:|---|
 | 2026-09-22 | 9 | 266 | 8169 | 未保存 | 原日报保存的当日快照 |
 | 2026-11-20 | 16 | 126 | 11198 | 1937 | GitHub Today live snapshot |
 | 2026-11-21 | 16 | 979 | 12167 | 2011 | GitHub Today live snapshot |
+| 2026-11-22 | 16 | 683 | 12836 | 2072 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]
 
 ## 相关日报
+
 - [[Daily/2026/09/2026-09-22|2026-09-22]]
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
+- [[Daily/2026/11/2026-11-22|2026-11-22]]
 
 ## GitHub 原始链接
 https://github.com/zhouxiaoka/autoclip

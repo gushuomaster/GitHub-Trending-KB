@@ -3,14 +3,14 @@ type: "github-project"
 repo: "obra/superpowers"
 url: "https://github.com/obra/superpowers"
 first_seen: "2026-09-09"
-last_seen: "2026-11-21"
-trending_count: 21
+last_seen: "2026-11-22"
+trending_count: 22
 language: "Shell"
-total_stars: 322825
-forks: 28667
-stars_today: 890
+total_stars: 323710
+forks: 28713
+stars_today: 883
 github_rank: 2
-fetched_at: "2026-11-21T08:10:09+08:00"
+fetched_at: "2026-11-22T08:03:06+08:00"
 category:
 - AI
 - Skills
@@ -23,8 +23,8 @@ topics:
 - AI
 - Skills
 - Developer-Tools
-stats_as_of: "2026-11-21"
-documentation_checked_at: "2026-11-21"
+stats_as_of: "2026-11-22"
+documentation_checked_at: "2026-11-22"
 snapshot_status: "live"
 ---
 
@@ -59,6 +59,7 @@ superpowers
 ```
 
 ## Trending 历史
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-09-09 | 7 | 未保存 | 未保存 | 未保存 | [日期匹配语言不限归档](https://github.com/antonkomarev/github-trending-archive/blob/65c9872b096ffb485055f7f8af63b7f68a5853f9/archive/repository/2026/2026-09-09/(null).json) |
@@ -82,11 +83,13 @@ superpowers
 | 2026-11-19 | 14 | 822 | 321306 | 28553 | GitHub Today live snapshot |
 | 2026-11-20 | 2 | 2028 | 322061 | 28628 | GitHub Today live snapshot |
 | 2026-11-21 | 2 | 890 | 322825 | 28667 | GitHub Today live snapshot |
+| 2026-11-22 | 2 | 883 | 323710 | 28713 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
+
 
 - [[Daily/2026/09/2026-09-09|2026-09-09]]
 - [[Daily/2026/09/2026-09-10|2026-09-10]]
@@ -113,6 +116,7 @@ superpowers
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
+- [[Daily/2026/11/2026-11-22|2026-11-22]]
 
 ## GitHub 原始链接
 https://github.com/obra/superpowers

@@ -3,16 +3,16 @@ type: github-project
 repo: "jingyaogong/minimind"
 url: "https://github.com/jingyaogong/minimind"
 first_seen: "2026-11-18"
-last_seen: "2026-11-21"
-trending_count: 3
+last_seen: "2026-11-22"
+trending_count: 4
 language: "Python"
-total_stars: 67676
-forks: 8858
-stars_today: 847
+total_stars: 68141
+forks: 8904
+stars_today: 488
 github_rank: 4
-fetched_at: "2026-11-21T08:10:09+08:00"
-documentation_checked_at: "2026-11-21"
-stats_as_of: "2026-11-21"
+fetched_at: "2026-11-22T08:03:06+08:00"
+documentation_checked_at: "2026-11-22"
+stats_as_of: "2026-11-22"
 snapshot_status: "live"
 category: ["LLM Training", "Education", "Small Language Model"]
 topics: ["LLM", "Training", "PyTorch"]
@@ -49,20 +49,24 @@ python train_full_sft.py
 “2 小时”并非完整训练链路的固定保证：README 将其说明为单张 NVIDIA 3090 上 SFT 一轮的实测量级，mini 组合还包含约 1.21 小时预训练。64M 模型的事实知识和泛化明显有限；Tool Call 数据主要覆盖约 10 个模拟工具，尚不能证明广泛泛化，而且当前同时开启工具调用与显式思考时并不稳定。旧模型也可能因架构更新无法直接加载。
 
 ## Trending 历史
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-18 | 14 | 192 | 65940 | 8655 | GitHub Today live snapshot |
 | 2026-11-20 | 4 | 238 | 66841 | 8781 | GitHub Today live snapshot |
 | 2026-11-21 | 4 | 847 | 67676 | 8858 | GitHub Today live snapshot |
+| 2026-11-22 | 4 | 488 | 68141 | 8904 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/LLM|LLM]] · [[Topics/Training|Training]] · [[Topics/PyTorch|PyTorch]]
 
 ## 相关日报
+
 - [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
+- [[Daily/2026/11/2026-11-22|2026-11-22]]
 
 ## GitHub 原始链接
 https://github.com/jingyaogong/minimind
