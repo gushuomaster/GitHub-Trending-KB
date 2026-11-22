@@ -20,12 +20,13 @@ topics: ["Mobile", "Compliance", "Developer-Tools"]
 # mjmirza/app-store-compliance
 
 ## 一句话说明
-app-store-compliance 是面向 iOS 与 Android 上架前检查的开放手册和自动化 guard，把常见拒审模式、隐私声明和法规期限转成可执行诊断。
+app-store-compliance 是面向 iOS 与 Android 上架前检查的开放手册和自动化 guard，把版本化规则包、代码扫描、人工就绪声明和法规期限转成可执行诊断。
 
 ## 它能做什么
-- 整理 117 类拒审模式、对应指南和修复建议。
-- 扫描 Xcode、Android 或 Expo 项目并按严重度输出文件与行号。
-- 检查隐私清单、Data Safety、演示账号及 95 个法规或平台期限。
+- 用版本化 JSON 维护 Apple、Google 与 Web 规则、检测信号和修复建议；v2.5.0 会在规则来源超过 60 天未核实时提示 `Rule pack STALE`。
+- 扫描 Xcode、Android 或 Expo 项目并按严重度输出文件与行号，覆盖隐私清单、权限、Data Safety、提交命令和预权限弹窗等风险。
+- 通过 `.app-review-readiness.json` 记录演示账号、协议、商店声明等代码扫描无法证明的人工检查；已记录失败或不可读文件可阻止发布。
+- 当前 `data/regulatory-deadlines.json` 保存 111 条期限记录，并跟踪 Google Play trader status、EU AI Act 等持续变化。
 
 ## 怎么利用
 官方只读检查：克隆仓库后运行 `app-store-compliance-guard.sh "/path/to/your/app"`；脚本扫描项目并输出 `BLOCKED`、`CLEAR` 或 `NOT CHECKED`，开发者按每条 `fix.` 建议修改后再次执行。
@@ -43,7 +44,7 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 准备提交 iOS、Android 或 Expo 应用的移动开发者、发布负责人和合规审查人员。
 
 ## 局限 / 注意点
-规则会随 Apple、Google 与各地法律变化，扫描通过不等于一定过审或法律合规；安装到 Agent 工具会写入 Hook/Skill，Codex 还需在 `/hooks` 明确批准。
+`CLEAR` 只表示代码里没有已检出的 critical 风险，不代表审核通过或法律合规；账号状态、协议、商店表单和真实后端仍需人工确认。规则会变化，出现 `Rule pack STALE` 时应先更新再扫描；安装到 Agent 工具会写入 Hook/Skill，Codex 还需在 `/hooks` 明确批准。
 
 ## Trending 历史
 
@@ -69,3 +70,9 @@ https://github.com/mjmirza/app-store-compliance
 - README：https://github.com/mjmirza/app-store-compliance/blob/HEAD/README.md
 - README blob SHA：`63bdbd6b0bb7f11ff538727833e211e7c7135d7d`
 - 说明：项目卡反映核对日的当前官方资料与当天实时榜单事实。
+
+## 官方资料复核（2026-11-22）
+- README：https://github.com/mjmirza/app-store-compliance/blob/HEAD/README.md
+- README blob SHA：`12fd5ee6d940cd292f8d53adda7f7ff7584cfa5d`
+- 规则包：`data/rejection-patterns.json` v2.5.0，核对日期 2026-11-21；法规数据库 v2.5.0，核对日期 2026-11-22，共 111 条记录。
+- 午后 README 增加规则包新鲜度、`.app-review-readiness.json` 人工就绪声明和预权限 Allow 检查，并补入 Google Play trader status 与 EU AI Act 的最新期限说明；本次不改动早晨榜单、排名、统计或 `fetched_at`。

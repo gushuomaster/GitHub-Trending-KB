@@ -25,6 +25,8 @@ topics: ["Agent-Skills", "Research", "Social-Media"]
 ## 它能做什么
 - 并行搜索社区帖子、评论、视频转录、预测市场和代码活动；公司主题还会读取近期美国专利申请与官方招聘页。
 - 按点赞、投票、评论和真实资金赔率等人群信号排序，再由 Agent 综合结论。
+- v4.6.0 在没有 ScrapeCreators Key 时可通过网页发现与 `yt-dlp` 回退检索 TikTok，并尽力覆盖 Instagram；同时优先为最终保留的短视频补评论与转录信号。
+- 把完成的简报保存到本地研究库，可生成 HTML 索引与 Atom feed，并用离线确定性索引检索过往研究。
 - 支持 Claude Code 插件和 Agent Skills 安装；Reddit、HN、Polymarket、GitHub 以及公司专利/招聘页可零配置使用，其他来源可逐步补充密钥。
 
 ## 怎么利用
@@ -42,7 +44,7 @@ npx skills add mvanhorn/last30days-skill -g
 需要快速了解人物、公司、产品或技术话题近期社区讨论的研究、销售和产品人员。
 
 ## 局限 / 注意点
-不同平台需要 API Key、浏览器会话或附加 CLI，并受配额、登录、平台条款和索引覆盖影响；互动量不等同于事实，综合摘要仍需回看原始来源。
+TikTok/Instagram 的无 Key 回退依赖本机 `yt-dlp`，结果更少且没有评论；X、LinkedIn 等来源仍可能需要 API Key、浏览器会话或附加 CLI，并受配额、登录、平台条款和索引覆盖影响。互动量不等同于事实，综合摘要仍需回看原始来源；研究库发布是显式 opt-in，公开前需检查内容与引用。
 
 ## Trending 历史
 
@@ -95,3 +97,4 @@ https://github.com/mvanhorn/last30days-skill
 
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`ee3f7f3b0f64f9ca996e579bfd2aa2383bace11b`。
+- 资料核对（2026-11-22）：README 已更新至 v4.6.0 流程，补充无 Key 的 TikTok/Instagram 回退、本地研究库与离线检索边界；README blob SHA：`6fcd597e58c5025abc86f49b12472bbbcaa0c38d`。
