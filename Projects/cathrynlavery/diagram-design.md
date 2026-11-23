@@ -33,7 +33,7 @@ snapshot_status: "live"
 让 Coding Agent 把系统关系、流程和数据结构绘成可直接打开的 HTML＋SVG 图，并按品牌样式控制版式。
 
 ## 它能做什么
-- 提供架构、流程、时序、状态、ER、Sankey、甘特等 45 种图型（核对日 README），并可按品牌定制。
+- 提供架构、流程、时序、状态、ER、Sankey、甘特和 Git graph 等 52 种图型（核对日 README），并可按品牌定制。
 - 每种图型提供浅色、深色和完整编辑风格的静态变体。
 - 可重绘 Mermaid、draw.io 或 Excalidraw，并按尺寸和细节要求输出。
 
@@ -115,3 +115,4 @@ https://github.com/cathrynlavery/diagram-design
 
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`0095129f4a907e05558f18276d8f11cd70076dba`。
+- 资料核对（2026-11-23）：README 已扩展为 52 种图型并加入 Git graph（分支、合并与发布标签）；README blob SHA：`a915c06e10a6be5f1ef6c3c9ec833bb6c014b3ee`。

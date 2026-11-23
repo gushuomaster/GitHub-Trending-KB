@@ -87,5 +87,5 @@ https://github.com/jingyaogong/minimind
 
 ## 官方资料复核（2026-11-23）
 - README：https://github.com/jingyaogong/minimind/blob/HEAD/README.md
-- README blob SHA：`d75169c010f200c50707b0e99eb242a2d7d10bc3`
-- 当前 README 继续明确 64M Dense、198M-A64M MoE、Agentic RL 的多轮 Tool-Use 训练和生成后端解耦；现有正文边界仍准确，更新可复核版本证据。
+- README blob SHA：`4855c40573426b85162b32f0652c427f8f237440`
+- 当前 README 继续明确 64M Dense、198M-A64M MoE、Agentic RL 的多轮 Tool-Use 训练和生成后端解耦，并补充无 CUDA 时可选择 CPU 或 MPS（训练速度和兼容性差异很大）；现有正文边界仍准确，更新可复核版本证据。

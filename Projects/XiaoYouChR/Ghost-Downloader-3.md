@@ -76,3 +76,4 @@ https://github.com/XiaoYouChR/Ghost-Downloader-3
 
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`ed41411ade84757e41ba1bb5ccf64d24af61d3b0`。
+- 资料核对（2026-11-23）：重新读取当前官方 README；下载协议、CLI 用法、平台要求与 AVX 边界未变，更新可复核版本证据；README blob SHA：`145a74e39835c776da130477039d2401e06f0dc9`。

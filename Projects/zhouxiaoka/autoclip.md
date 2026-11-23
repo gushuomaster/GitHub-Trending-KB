@@ -51,6 +51,7 @@ autoclip outputs PROJECT_ID --export-kits
 - 高光选择具有主观性，转写、说话人识别和镜头分析错误会直接影响成片。
 - 云端分析可能发送字幕、文本、选定帧或音频，必须先核对隐私政策和敏感内容边界。
 - 本地渲染需要 FFmpeg、磁盘和算力；云模型还会产生费用。
+- 桌面安装包当前没有代码签名或 Apple 公证，可能触发 SmartScreen、Gatekeeper 或杀毒软件提示；可用 Release 附带的 `build-provenance.json` 核对 SHA-256，或改用 Docker / 源码运行。
 - 下载、二创与发布素材前必须取得版权或其他合法授权。
 
 ## Trending 历史
@@ -87,5 +88,5 @@ https://github.com/zhouxiaoka/autoclip
 
 ## 官方资料复核（2026-11-23）
 - README：https://github.com/zhouxiaoka/autoclip/blob/HEAD/README.md
-- README blob SHA：`e2a8467921dfe28710cef355b26e9325e1b22f3a`
-- 当前 README 明确 CLI/MCP 与桌面共用一键出片链路，并将 MCP 新入口写为 `start_quick_output` / `get_quick_output_status`；补入官方最小 CLI 命令并更新版本证据。
+- README blob SHA：`a92b520b22d36decd5106f22edccfbbb0a0e32e2`
+- 当前 README 明确 CLI/MCP 与桌面共用一键出片链路，并将 MCP 新入口写为 `start_quick_output` / `get_quick_output_status`；补入官方最小 CLI 命令、未签名安装包与 SHA-256 来源核验边界，并更新版本证据。

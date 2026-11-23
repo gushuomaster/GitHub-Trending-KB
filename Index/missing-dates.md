@@ -4,7 +4,7 @@
 
 ## 本次已修复
 
-- 2026-11-23：16 项 08:10:31 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已完成候选验收；更新 16 张既有项目卡。重新读取全部 16 个项目的当前官方 README；按当前资料更新 app-store-compliance 的 124 个拒审模式与 112 条期限、AutoClip 的 CLI/MCP 入口，并记录 MiniMind、last30days 等 README 版本变化。历史 2026-09-09 至 2026-11-22 共 75 份日报仅检查，未改动。
+- 2026-11-23：16 项 08:10:31 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已完成候选验收；更新 16 张既有项目卡。重新读取全部 16 个项目的当前官方 README；按当前资料更新 app-store-compliance 的 124 个拒审模式与 112 条期限、AutoClip 的 CLI/MCP 入口及未签名安装包核验边界，并将 diagram-design 的当前图型数量更新为 52；同时记录 MiniMind、Ghost Downloader、last30days 等 README 版本变化。历史 2026-09-09 至 2026-11-22 共 75 份日报仅检查，未改动。
 
 - 2026-11-22：16 项 08:03:06 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已验收；更新 16 张项目卡。下午重新读取全部 16 个项目的当前官方 README：保留上午已补充的 OpenSRE 生产事故调查、60+ 集成、自有模型和 Python API；另按 v4.6.0 更新 last30days 的无 Key 短视频回退与本地研究库边界，并按 app-store-compliance v2.5.0 更新规则包新鲜度、人工就绪声明和 111 条法规期限记录。未改动榜单、排名、统计、`fetched_at` 或历史日期正文。
 
