@@ -1,18 +1,18 @@
 ---
-stats_as_of: "2026-11-22"
-documentation_checked_at: "2026-11-22"
-fetched_at: "2026-11-22T08:03:06+08:00"
+stats_as_of: "2026-11-23"
+documentation_checked_at: "2026-11-23"
+fetched_at: "2026-11-23T08:10:31+08:00"
 type: github-project
 repo: "cursor/plugins"
 url: "https://github.com/cursor/plugins"
 first_seen: "2026-10-02"
-last_seen: "2026-11-22"
-trending_count: 9
+last_seen: "2026-11-23"
+trending_count: 10
 github_rank: 5
 language: "TypeScript"
-total_stars: 18099
-forks: 1976
-stars_today: 260
+total_stars: 18431
+forks: 2005
+stars_today: 294
 category: ["AI", "Developer-Tools", "Plugins"]
 tags: ["cursor", "plugins", "skills", "mcp"]
 topics: ["AI", "Developer-Tools", "Skills"]
@@ -50,6 +50,7 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 
 ## Trending 历史
 
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-10-02 | 6 | 未保存 | 未保存 | 未保存 | 日期匹配语言不限归档 |
@@ -61,11 +62,13 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 | 2026-11-20 | 5 | 384 | 17549 | 1930 | GitHub Today live snapshot |
 | 2026-11-21 | 5 | 299 | 17839 | 1957 | GitHub Today live snapshot |
 | 2026-11-22 | 5 | 260 | 18099 | 1976 | GitHub Today live snapshot |
+| 2026-11-23 | 5 | 294 | 18431 | 2005 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]
 
 ## 相关日报
+
 
 
 - [[Daily/2026/10/2026-10-02|2026-10-02]]
@@ -81,6 +84,7 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
+- [[Daily/2026/11/2026-11-23|2026-11-23]]
 
 ## GitHub 原始链接
 https://github.com/cursor/plugins

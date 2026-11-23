@@ -3,16 +3,16 @@ type: github-project
 repo: "Tracer-Cloud/opensre"
 url: "https://github.com/Tracer-Cloud/opensre"
 first_seen: "2026-11-20"
-last_seen: "2026-11-22"
-trending_count: 3
+last_seen: "2026-11-23"
+trending_count: 4
 language: "Python"
-total_stars: 13982
-forks: 1943
-stars_today: 450
+total_stars: 14403
+forks: 1965
+stars_today: 399
 github_rank: 13
-fetched_at: "2026-11-22T08:03:06+08:00"
-documentation_checked_at: "2026-11-22"
-stats_as_of: "2026-11-22"
+fetched_at: "2026-11-23T08:10:31+08:00"
+documentation_checked_at: "2026-11-23"
+stats_as_of: "2026-11-23"
 snapshot_status: "live"
 category: ["DevOps", "CI-CD"]
 topics: ["DevOps", "CI-CD", "AI-Agent"]
@@ -53,20 +53,24 @@ opensre ask "why is checkout-api slow?"
 
 ## Trending 历史
 
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-11-20 | 13 | 38 | 13113 | 1903 | GitHub Today live snapshot |
 | 2026-11-21 | 13 | 466 | 13598 | 1926 | GitHub Today live snapshot |
 | 2026-11-22 | 13 | 450 | 13982 | 1943 | GitHub Today live snapshot |
+| 2026-11-23 | 13 | 399 | 14403 | 1965 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/DevOps|DevOps]] · [[Topics/CI-CD|CI-CD]] · [[Topics/AI-Agent|AI-Agent]]
 
 ## 相关日报
 
+
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
+- [[Daily/2026/11/2026-11-23|2026-11-23]]
 
 ## GitHub 原始链接
 https://github.com/Tracer-Cloud/opensre

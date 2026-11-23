@@ -1,22 +1,22 @@
 ---
-forks: 2072
-fetched_at: "2026-11-22T08:03:06+08:00"
-stats_as_of: "2026-11-22"
+forks: 2124
+fetched_at: "2026-11-23T08:10:31+08:00"
+stats_as_of: "2026-11-23"
 type: github-project
 repo: "zhouxiaoka/autoclip"
 url: "https://github.com/zhouxiaoka/autoclip"
 first_seen: "2026-09-22"
-last_seen: "2026-11-22"
-trending_count: 4
+last_seen: "2026-11-23"
+trending_count: 5
 github_rank: 16
-stars_today: 683
-total_stars: 12836
+stars_today: 641
+total_stars: 13414
 language: "Python"
 category: ["AI", "Video", "Creative Tools"]
 tags: ["video-ai", "clipping", "highlights", "python", "creator-tools"]
 topics: ["Video AI", "Content Creation", "Automation"]
 status: active
-documentation_checked_at: "2026-11-22"
+documentation_checked_at: "2026-11-23"
 snapshot_status: "live"
 ---
 # zhouxiaoka/autoclip
@@ -38,7 +38,11 @@ snapshot_status: "live"
 **官方典型工作流 → 输入 → 操作 → 输出：** 输入一段带字幕的访谈或播客链接，选择 Douyin 与 TikTok；AutoClip 分析谈话内容，提出最多 10 个带评分的高光，生成竖屏字幕视频、封面、标题、描述和标签；创作者在时间线修正人名与剪辑点后导出 ZIP 发布包。
 
 ## 关键命令
-桌面用户可直接安装 Release；自托管或开发环境需要 Python 3.10+ 与 FFmpeg，也可使用项目提供的 Docker 流程。命令参数以 README 当前版本为准。
+```bash
+autoclip --version
+autoclip produce talk.mp4 --srt talk.srt --platform douyin --portrait-style podcast --json
+autoclip outputs PROJECT_ID --export-kits
+```
 
 ## 适合谁
 需要把访谈、播客、直播或课程批量拆成多平台短视频的内容创作者、视频编辑和社交媒体运营团队。
@@ -51,23 +55,27 @@ snapshot_status: "live"
 
 ## Trending 历史
 
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 |---|---:|---:|---:|---:|---|
 | 2026-09-22 | 9 | 266 | 8169 | 未保存 | 原日报保存的当日快照 |
 | 2026-11-20 | 16 | 126 | 11198 | 1937 | GitHub Today live snapshot |
 | 2026-11-21 | 16 | 979 | 12167 | 2011 | GitHub Today live snapshot |
 | 2026-11-22 | 16 | 683 | 12836 | 2072 | GitHub Today live snapshot |
+| 2026-11-23 | 16 | 641 | 13414 | 2124 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]
 
 ## 相关日报
 
+
 - [[Daily/2026/09/2026-09-22|2026-09-22]]
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
+- [[Daily/2026/11/2026-11-23|2026-11-23]]
 
 ## GitHub 原始链接
 https://github.com/zhouxiaoka/autoclip
@@ -76,3 +84,8 @@ https://github.com/zhouxiaoka/autoclip
 - README：https://github.com/zhouxiaoka/autoclip/blob/HEAD/README.md
 - README blob SHA：`ce3835ea3720322b545edfffce85a193196b353c`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+
+## 官方资料复核（2026-11-23）
+- README：https://github.com/zhouxiaoka/autoclip/blob/HEAD/README.md
+- README blob SHA：`e2a8467921dfe28710cef355b26e9325e1b22f3a`
+- 当前 README 明确 CLI/MCP 与桌面共用一键出片链路，并将 MCP 新入口写为 `start_quick_output` / `get_quick_output_status`；补入官方最小 CLI 命令并更新版本证据。

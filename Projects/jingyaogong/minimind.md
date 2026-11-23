@@ -3,16 +3,16 @@ type: github-project
 repo: "jingyaogong/minimind"
 url: "https://github.com/jingyaogong/minimind"
 first_seen: "2026-11-18"
-last_seen: "2026-11-22"
-trending_count: 4
+last_seen: "2026-11-23"
+trending_count: 5
 language: "Python"
-total_stars: 68141
-forks: 8904
-stars_today: 488
+total_stars: 68632
+forks: 8974
+stars_today: 473
 github_rank: 4
-fetched_at: "2026-11-22T08:03:06+08:00"
-documentation_checked_at: "2026-11-22"
-stats_as_of: "2026-11-22"
+fetched_at: "2026-11-23T08:10:31+08:00"
+documentation_checked_at: "2026-11-23"
+stats_as_of: "2026-11-23"
 snapshot_status: "live"
 category: ["LLM Training", "Education", "Small Language Model"]
 topics: ["LLM", "Training", "PyTorch"]
@@ -50,23 +50,27 @@ python train_full_sft.py
 
 ## Trending 历史
 
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-18 | 14 | 192 | 65940 | 8655 | GitHub Today live snapshot |
 | 2026-11-20 | 4 | 238 | 66841 | 8781 | GitHub Today live snapshot |
 | 2026-11-21 | 4 | 847 | 67676 | 8858 | GitHub Today live snapshot |
 | 2026-11-22 | 4 | 488 | 68141 | 8904 | GitHub Today live snapshot |
+| 2026-11-23 | 4 | 473 | 68632 | 8974 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/LLM|LLM]] · [[Topics/Training|Training]] · [[Topics/PyTorch|PyTorch]]
 
 ## 相关日报
 
+
 - [[Daily/2026/11/2026-11-18|2026-11-18]]
 
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
+- [[Daily/2026/11/2026-11-23|2026-11-23]]
 
 ## GitHub 原始链接
 https://github.com/jingyaogong/minimind
@@ -80,3 +84,8 @@ https://github.com/jingyaogong/minimind
 - README：https://github.com/jingyaogong/minimind/blob/HEAD/README.md
 - README blob SHA：`1b11a450c0e50ba81f7072103020c859cb90ac0e`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+
+## 官方资料复核（2026-11-23）
+- README：https://github.com/jingyaogong/minimind/blob/HEAD/README.md
+- README blob SHA：`d75169c010f200c50707b0e99eb242a2d7d10bc3`
+- 当前 README 继续明确 64M Dense、198M-A64M MoE、Agentic RL 的多轮 Tool-Use 训练和生成后端解耦；现有正文边界仍准确，更新可复核版本证据。

@@ -3,16 +3,16 @@ type: github-project
 repo: "XiaoYouChR/Ghost-Downloader-3"
 url: "https://github.com/XiaoYouChR/Ghost-Downloader-3"
 first_seen: "2026-11-20"
-last_seen: "2026-11-22"
-trending_count: 3
+last_seen: "2026-11-23"
+trending_count: 4
 language: "Python"
-total_stars: 14430
-forks: 876
-stars_today: 779
+total_stars: 15116
+forks: 909
+stars_today: 701
 github_rank: 15
-fetched_at: "2026-11-22T08:03:06+08:00"
-documentation_checked_at: "2026-11-22"
-stats_as_of: "2026-11-22"
+fetched_at: "2026-11-23T08:10:31+08:00"
+documentation_checked_at: "2026-11-23"
+stats_as_of: "2026-11-23"
 snapshot_status: "live"
 category: ["Downloader", "Media"]
 topics: ["Downloader", "Media", "Desktop"]
@@ -47,20 +47,24 @@ ghd add "https://example.com/a.torrent" --select 0,3 -o ./downloads
 
 ## Trending 历史
 
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-11-20 | 15 | 341 | 12682 | 790 | GitHub Today live snapshot |
 | 2026-11-21 | 15 | 1082 | 13681 | 838 | GitHub Today live snapshot |
 | 2026-11-22 | 15 | 779 | 14430 | 876 | GitHub Today live snapshot |
+| 2026-11-23 | 15 | 701 | 15116 | 909 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Downloader|Downloader]] · [[Topics/Media|Media]] · [[Topics/Desktop|Desktop]]
 
 ## 相关日报
 
+
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
+- [[Daily/2026/11/2026-11-23|2026-11-23]]
 
 ## GitHub 原始链接
 https://github.com/XiaoYouChR/Ghost-Downloader-3

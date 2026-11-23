@@ -3,16 +3,16 @@ type: github-project
 repo: "mjmirza/app-store-compliance"
 url: "https://github.com/mjmirza/app-store-compliance"
 first_seen: "2026-11-20"
-last_seen: "2026-11-22"
-trending_count: 3
+last_seen: "2026-11-23"
+trending_count: 4
 language: "Shell"
-total_stars: 3388
-forks: 213
-stars_today: 720
+total_stars: 3963
+forks: 236
+stars_today: 621
 github_rank: 12
-fetched_at: "2026-11-22T08:03:06+08:00"
-documentation_checked_at: "2026-11-22"
-stats_as_of: "2026-11-22"
+fetched_at: "2026-11-23T08:10:31+08:00"
+documentation_checked_at: "2026-11-23"
+stats_as_of: "2026-11-23"
 snapshot_status: "live"
 category: ["Mobile", "Compliance"]
 topics: ["Mobile", "Compliance", "Developer-Tools"]
@@ -26,7 +26,7 @@ app-store-compliance 是面向 iOS 与 Android 上架前检查的开放手册和
 - 用版本化 JSON 维护 Apple、Google 与 Web 规则、检测信号和修复建议；v2.5.0 会在规则来源超过 60 天未核实时提示 `Rule pack STALE`。
 - 扫描 Xcode、Android 或 Expo 项目并按严重度输出文件与行号，覆盖隐私清单、权限、Data Safety、提交命令和预权限弹窗等风险。
 - 通过 `.app-review-readiness.json` 记录演示账号、协议、商店声明等代码扫描无法证明的人工检查；已记录失败或不可读文件可阻止发布。
-- 当前 `data/regulatory-deadlines.json` 保存 111 条期限记录，并跟踪 Google Play trader status、EU AI Act 等持续变化。
+- 当前项目元数据声明 124 个拒审模式，`data/regulatory-deadlines.json` 跟踪 112 条期限记录，并跟踪 Google Play trader status、EU AI Act 等持续变化。
 
 ## 怎么利用
 官方只读检查：克隆仓库后运行 `app-store-compliance-guard.sh "/path/to/your/app"`；脚本扫描项目并输出 `BLOCKED`、`CLEAR` 或 `NOT CHECKED`，开发者按每条 `fix.` 建议修改后再次执行。
@@ -48,20 +48,24 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 
 ## Trending 历史
 
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 证据说明 |
 | --- | ---: | ---: | ---: | ---: | --- |
 | 2026-11-20 | 12 | 377 | 1824 | 126 | GitHub Today live snapshot |
 | 2026-11-21 | 12 | 869 | 2722 | 173 | GitHub Today live snapshot |
 | 2026-11-22 | 12 | 720 | 3388 | 213 | GitHub Today live snapshot |
+| 2026-11-23 | 12 | 621 | 3963 | 236 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Mobile|Mobile]] · [[Topics/Compliance|Compliance]] · [[Topics/Developer-Tools|Developer-Tools]]
 
 ## 相关日报
 
+
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
+- [[Daily/2026/11/2026-11-23|2026-11-23]]
 
 ## GitHub 原始链接
 https://github.com/mjmirza/app-store-compliance
@@ -76,3 +80,8 @@ https://github.com/mjmirza/app-store-compliance
 - README blob SHA：`12fd5ee6d940cd292f8d53adda7f7ff7584cfa5d`
 - 规则包：`data/rejection-patterns.json` v2.5.0，核对日期 2026-11-21；法规数据库 v2.5.0，核对日期 2026-11-22，共 111 条记录。
 - 午后 README 增加规则包新鲜度、`.app-review-readiness.json` 人工就绪声明和预权限 Allow 检查，并补入 Google Play trader status 与 EU AI Act 的最新期限说明；本次不改动早晨榜单、排名、统计或 `fetched_at`。
+
+## 官方资料复核（2026-11-23）
+- README：https://github.com/mjmirza/app-store-compliance/blob/HEAD/README.md
+- README blob SHA：`7056ca8c29caaf88345c06e84c09a3e4a6311c92`
+- 当前 GitHub 项目元数据已更新为 124 个拒审模式、112 条法规期限；README 仍明确 `CLEAR` 不保证审核通过、规则超过 60 天会提示 `Rule pack STALE`，据此同步项目卡数量与版本证据。

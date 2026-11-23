@@ -3,16 +3,16 @@ type: github-project
 repo: "mvanhorn/last30days-skill"
 url: "https://github.com/mvanhorn/last30days-skill"
 first_seen: "2026-11-17"
-last_seen: "2026-11-22"
-trending_count: 6
+last_seen: "2026-11-23"
+trending_count: 7
 language: "Python"
-total_stars: 71989
-forks: 6373
-stars_today: 560
+total_stars: 72697
+forks: 6424
+stars_today: 668
 github_rank: 10
-fetched_at: "2026-11-22T08:03:06+08:00"
-documentation_checked_at: "2026-11-22"
-stats_as_of: "2026-11-22"
+fetched_at: "2026-11-23T08:10:31+08:00"
+documentation_checked_at: "2026-11-23"
+stats_as_of: "2026-11-23"
 snapshot_status: "live"
 category: ["Agent Skills", "Research", "Social Search"]
 topics: ["Agent-Skills", "Research", "Social-Media"]
@@ -48,6 +48,7 @@ TikTok/Instagram 的无 Key 回退依赖本机 `yt-dlp`，结果更少且没有�
 
 ## Trending 历史
 
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-17 | 8 | 135 | 68106 | 6035 | GitHub Today live snapshot |
@@ -56,11 +57,13 @@ TikTok/Instagram 的无 Key 回退依赖本机 `yt-dlp`，结果更少且没有�
 | 2026-11-20 | 10 | 954 | 70782 | 6308 | GitHub Today live snapshot |
 | 2026-11-21 | 10 | 681 | 71434 | 6343 | GitHub Today live snapshot |
 | 2026-11-22 | 10 | 560 | 71989 | 6373 | GitHub Today live snapshot |
+| 2026-11-23 | 10 | 668 | 72697 | 6424 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Research|Research]] · [[Topics/Social-Media|Social-Media]]
 
 ## 相关日报
+
 
 
 - [[Daily/2026/11/2026-11-17|2026-11-17]]
@@ -71,6 +74,7 @@ TikTok/Instagram 的无 Key 回退依赖本机 `yt-dlp`，结果更少且没有�
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
+- [[Daily/2026/11/2026-11-23|2026-11-23]]
 
 ## GitHub 原始链接
 https://github.com/mvanhorn/last30days-skill
@@ -98,3 +102,8 @@ https://github.com/mvanhorn/last30days-skill
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`ee3f7f3b0f64f9ca996e579bfd2aa2383bace11b`。
 - 资料核对（2026-11-22）：README 已更新至 v4.6.0 流程，补充无 Key 的 TikTok/Instagram 回退、本地研究库与离线检索边界；README blob SHA：`6fcd597e58c5025abc86f49b12472bbbcaa0c38d`。
+
+## 官方资料复核（2026-11-23）
+- README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md
+- README blob SHA：`8c3c3e5d82c6159d7cbd6b9611c665416b761f37`
+- 当前 README 继续提供 TikTok/Instagram 的无 Key `yt-dlp` 回退及本地研究库/Atom feed；现有正文已覆盖这些边界，更新可复核版本证据。

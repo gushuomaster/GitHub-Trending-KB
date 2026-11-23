@@ -3,16 +3,16 @@ type: github-project
 repo: "elementalsouls/Claude-BugHunter"
 url: "https://github.com/elementalsouls/Claude-BugHunter"
 first_seen: "2026-11-16"
-last_seen: "2026-11-22"
-trending_count: 5
+last_seen: "2026-11-23"
+trending_count: 6
 language: "Python"
-total_stars: 16023
-forks: 1827
-stars_today: 1803
+total_stars: 17762
+forks: 1965
+stars_today: 1716
 github_rank: 1
-fetched_at: "2026-11-22T08:03:06+08:00"
-documentation_checked_at: "2026-11-22"
-stats_as_of: "2026-11-22"
+fetched_at: "2026-11-23T08:10:31+08:00"
+documentation_checked_at: "2026-11-23"
+stats_as_of: "2026-11-23"
 snapshot_status: "live"
 category: ["Security", "Agent Skills", "Red Team"]
 topics: ["Security", "Agent-Skills", "Red-Team"]
@@ -48,6 +48,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 
 ## Trending 历史
 
+
 | 日期 | GitHub Rank | Stars Today | Total Stars | Forks | 快照 |
 |---|---:|---:|---:|---:|---|
 | 2026-11-16 | 9 | 98 | 6417 | 967 | GitHub Today live snapshot |
@@ -55,11 +56,13 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 | 2026-11-20 | 1 | 1349 | 12494 | 1588 | GitHub Today live snapshot |
 | 2026-11-21 | 1 | 1622 | 14221 | 1697 | GitHub Today live snapshot |
 | 2026-11-22 | 1 | 1803 | 16023 | 1827 | GitHub Today live snapshot |
+| 2026-11-23 | 1 | 1716 | 17762 | 1965 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Red-Team|Red-Team]]
 
 ## 相关日报
+
 
 
 - [[Daily/2026/11/2026-11-16|2026-11-16]]
@@ -68,6 +71,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 - [[Daily/2026/11/2026-11-20|2026-11-20]]
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
+- [[Daily/2026/11/2026-11-23|2026-11-23]]
 
 ## GitHub 原始链接
 https://github.com/elementalsouls/Claude-BugHunter
