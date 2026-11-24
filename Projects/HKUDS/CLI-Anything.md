@@ -3,19 +3,19 @@ type: github-project
 repo: HKUDS/CLI-Anything
 url: https://github.com/HKUDS/CLI-Anything
 first_seen: "2026-09-24"
-last_seen: "2026-11-23"
-trending_count: 12
+last_seen: "2026-11-24"
+trending_count: 13
 github_rank: 3
-stars_today: 699
-total_stars: 62770
-forks: 5695
+stars_today: 790
+total_stars: 63608
+forks: 5776
 language: "Python"
-fetched_at: "2026-11-23T08:10:31+08:00"
+fetched_at: "2026-11-24T08:07:17+08:00"
 category: [AI, Agent, Developer Tools]
 tags: [cli, agent-native, automation, python]
 topics: [Agent, Developer-Tools, Automation]
-documentation_checked_at: "2026-11-23"
-stats_as_of: "2026-11-23"
+documentation_checked_at: "2026-11-24"
+stats_as_of: "2026-11-24"
 status: active
 snapshot_status: "live"
 ---
@@ -66,6 +66,7 @@ cli-hub install blender
 | 2026-11-21 | 3 | 773 | 61368 | 5560 | GitHub Today live snapshot |
 | 2026-11-22 | 3 | 769 | 62067 | 5629 | GitHub Today live snapshot |
 | 2026-11-23 | 3 | 699 | 62770 | 5695 | GitHub Today live snapshot |
+| 2026-11-24 | 3 | 790 | 63608 | 5776 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Automation|Automation]]
@@ -91,6 +92,7 @@ cli-hub install blender
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
+- [[Daily/2026/11/2026-11-24|2026-11-24]]
 
 ## GitHub 原始链接
 https://github.com/HKUDS/CLI-Anything
@@ -108,3 +110,6 @@ https://github.com/HKUDS/CLI-Anything
 - README：https://github.com/HKUDS/CLI-Anything/blob/HEAD/README.md
 - README blob SHA：`8a78b5420911eff5e7cc219bf1ecb2a12b562874`
 - 本次按当前官方 README 复核并合并当天榜单事实；保留既有说明、案例、分类、主题、风险与较早历史。
+
+## 最近变化
+- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`8a78b5420911eff5e7cc219bf1ecb2a12b562874`。

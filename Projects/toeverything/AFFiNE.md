@@ -3,16 +3,16 @@ type: github-project
 repo: "toeverything/AFFiNE"
 url: "https://github.com/toeverything/AFFiNE"
 first_seen: "2026-11-20"
-last_seen: "2026-11-23"
-trending_count: 4
+last_seen: "2026-11-24"
+trending_count: 5
 language: "TypeScript"
-total_stars: 76810
-forks: 5622
-stars_today: 542
+total_stars: 77378
+forks: 5663
+stars_today: 595
 github_rank: 14
-fetched_at: "2026-11-23T08:10:31+08:00"
-documentation_checked_at: "2026-11-23"
-stats_as_of: "2026-11-23"
+fetched_at: "2026-11-24T08:07:17+08:00"
+documentation_checked_at: "2026-11-24"
+stats_as_of: "2026-11-24"
 snapshot_status: "live"
 category: ["Knowledge-Base", "Collaboration"]
 topics: ["Knowledge-Base", "Collaboration", "Local-First"]
@@ -51,6 +51,7 @@ AFFiNE 是 local-first 的开源知识库与协作画布，把文档、白板、
 | 2026-11-21 | 14 | 676 | 75787 | 5581 | GitHub Today live snapshot |
 | 2026-11-22 | 14 | 574 | 76283 | 5593 | GitHub Today live snapshot |
 | 2026-11-23 | 14 | 542 | 76810 | 5622 | GitHub Today live snapshot |
+| 2026-11-24 | 14 | 595 | 77378 | 5663 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Knowledge-Base|Knowledge-Base]] · [[Topics/Collaboration|Collaboration]] · [[Topics/Local-First|Local-First]]
@@ -62,6 +63,7 @@ AFFiNE 是 local-first 的开源知识库与协作画布，把文档、白板、
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
+- [[Daily/2026/11/2026-11-24|2026-11-24]]
 
 ## GitHub 原始链接
 https://github.com/toeverything/AFFiNE
@@ -70,3 +72,6 @@ https://github.com/toeverything/AFFiNE
 - README：https://github.com/toeverything/AFFiNE/blob/HEAD/README.md
 - README blob SHA：`537c3615ba5e354c277a30a3b8cd21faf1ab3503`
 - 说明：项目卡反映核对日的当前官方资料与当天实时榜单事实。
+
+## 最近变化
+- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`537c3615ba5e354c277a30a3b8cd21faf1ab3503`。

@@ -1,22 +1,22 @@
 ---
-forks: 2124
-fetched_at: "2026-11-23T08:10:31+08:00"
-stats_as_of: "2026-11-23"
+forks: 2205
+fetched_at: "2026-11-24T08:07:17+08:00"
+stats_as_of: "2026-11-24"
 type: github-project
 repo: "zhouxiaoka/autoclip"
 url: "https://github.com/zhouxiaoka/autoclip"
 first_seen: "2026-09-22"
-last_seen: "2026-11-23"
-trending_count: 5
+last_seen: "2026-11-24"
+trending_count: 6
 github_rank: 16
-stars_today: 641
-total_stars: 13414
+stars_today: 907
+total_stars: 14370
 language: "Python"
 category: ["AI", "Video", "Creative Tools"]
 tags: ["video-ai", "clipping", "highlights", "python", "creator-tools"]
 topics: ["Video AI", "Content Creation", "Automation"]
 status: active
-documentation_checked_at: "2026-11-23"
+documentation_checked_at: "2026-11-24"
 snapshot_status: "live"
 ---
 # zhouxiaoka/autoclip
@@ -64,6 +64,7 @@ autoclip outputs PROJECT_ID --export-kits
 | 2026-11-21 | 16 | 979 | 12167 | 2011 | GitHub Today live snapshot |
 | 2026-11-22 | 16 | 683 | 12836 | 2072 | GitHub Today live snapshot |
 | 2026-11-23 | 16 | 641 | 13414 | 2124 | GitHub Today live snapshot |
+| 2026-11-24 | 16 | 907 | 14370 | 2205 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]
@@ -77,6 +78,7 @@ autoclip outputs PROJECT_ID --export-kits
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
+- [[Daily/2026/11/2026-11-24|2026-11-24]]
 
 ## GitHub 原始链接
 https://github.com/zhouxiaoka/autoclip
@@ -90,3 +92,6 @@ https://github.com/zhouxiaoka/autoclip
 - README：https://github.com/zhouxiaoka/autoclip/blob/HEAD/README.md
 - README blob SHA：`a92b520b22d36decd5106f22edccfbbb0a0e32e2`
 - 当前 README 明确 CLI/MCP 与桌面共用一键出片链路，并将 MCP 新入口写为 `start_quick_output` / `get_quick_output_status`；补入官方最小 CLI 命令、未签名安装包与 SHA-256 来源核验边界，并更新版本证据。
+
+## 最近变化
+- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7f6333fa7b0fc637972f3ff556c6bc883e070e32`。

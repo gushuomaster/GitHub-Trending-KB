@@ -3,16 +3,16 @@ type: github-project
 repo: "mjmirza/app-store-compliance"
 url: "https://github.com/mjmirza/app-store-compliance"
 first_seen: "2026-11-20"
-last_seen: "2026-11-23"
-trending_count: 4
+last_seen: "2026-11-24"
+trending_count: 5
 language: "Shell"
-total_stars: 3963
-forks: 236
-stars_today: 621
+total_stars: 4947
+forks: 314
+stars_today: 761
 github_rank: 12
-fetched_at: "2026-11-23T08:10:31+08:00"
-documentation_checked_at: "2026-11-23"
-stats_as_of: "2026-11-23"
+fetched_at: "2026-11-24T08:07:17+08:00"
+documentation_checked_at: "2026-11-24"
+stats_as_of: "2026-11-24"
 snapshot_status: "live"
 category: ["Mobile", "Compliance"]
 topics: ["Mobile", "Compliance", "Developer-Tools"]
@@ -55,6 +55,7 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 | 2026-11-21 | 12 | 869 | 2722 | 173 | GitHub Today live snapshot |
 | 2026-11-22 | 12 | 720 | 3388 | 213 | GitHub Today live snapshot |
 | 2026-11-23 | 12 | 621 | 3963 | 236 | GitHub Today live snapshot |
+| 2026-11-24 | 12 | 761 | 4947 | 314 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Mobile|Mobile]] · [[Topics/Compliance|Compliance]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -66,6 +67,7 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
+- [[Daily/2026/11/2026-11-24|2026-11-24]]
 
 ## GitHub 原始链接
 https://github.com/mjmirza/app-store-compliance
@@ -85,3 +87,6 @@ https://github.com/mjmirza/app-store-compliance
 - README：https://github.com/mjmirza/app-store-compliance/blob/HEAD/README.md
 - README blob SHA：`7056ca8c29caaf88345c06e84c09a3e4a6311c92`
 - 当前 GitHub 项目元数据已更新为 124 个拒审模式、112 条法规期限；README 仍明确 `CLEAR` 不保证审核通过、规则超过 60 天会提示 `Rule pack STALE`，据此同步项目卡数量与版本证据。
+
+## 最近变化
+- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7056ca8c29caaf88345c06e84c09a3e4a6311c92`。

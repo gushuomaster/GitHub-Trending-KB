@@ -3,14 +3,14 @@ type: github-project
 repo: cathrynlavery/diagram-design
 url: https://github.com/cathrynlavery/diagram-design
 first_seen: "2026-09-09"
-last_seen: "2026-11-23"
-trending_count: 15
+last_seen: "2026-11-24"
+trending_count: 16
 language: "HTML"
-total_stars: 70284
-forks: 4715
-stars_today: 518
+total_stars: 70950
+forks: 4746
+stars_today: 620
 github_rank: 9
-fetched_at: "2026-11-23T08:10:31+08:00"
+fetched_at: "2026-11-24T08:07:17+08:00"
 category:
 - AI
 - Developer-Tools
@@ -20,8 +20,8 @@ tags:
 topics:
 - AI
 - Developer-Tools
-documentation_checked_at: "2026-11-23"
-stats_as_of: "2026-11-23"
+documentation_checked_at: "2026-11-24"
+stats_as_of: "2026-11-24"
 snapshot_status: "live"
 ---
 
@@ -75,6 +75,7 @@ codex plugin add diagram-design@diagram-design
 | 2026-11-21 | 9 | 636 | 69269 | 4652 | GitHub Today live snapshot |
 | 2026-11-22 | 9 | 583 | 69789 | 4685 | GitHub Today live snapshot |
 | 2026-11-23 | 9 | 518 | 70284 | 4715 | GitHub Today live snapshot |
+| 2026-11-24 | 9 | 620 | 70950 | 4746 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -99,6 +100,7 @@ codex plugin add diagram-design@diagram-design
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
+- [[Daily/2026/11/2026-11-24|2026-11-24]]
 
 ## GitHub 原始链接
 https://github.com/cathrynlavery/diagram-design
@@ -116,3 +118,5 @@ https://github.com/cathrynlavery/diagram-design
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`0095129f4a907e05558f18276d8f11cd70076dba`。
 - 资料核对（2026-11-23）：README 已扩展为 52 种图型并加入 Git graph（分支、合并与发布标签）；README blob SHA：`a915c06e10a6be5f1ef6c3c9ec833bb6c014b3ee`。
+- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`8053dd152bfa075e9bd0e9866232609578c68d15`。
+

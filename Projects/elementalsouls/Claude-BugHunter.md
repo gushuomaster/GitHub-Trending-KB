@@ -3,16 +3,16 @@ type: github-project
 repo: "elementalsouls/Claude-BugHunter"
 url: "https://github.com/elementalsouls/Claude-BugHunter"
 first_seen: "2026-11-16"
-last_seen: "2026-11-23"
-trending_count: 6
+last_seen: "2026-11-24"
+trending_count: 7
 language: "Python"
-total_stars: 17762
-forks: 1965
-stars_today: 1716
+total_stars: 19724
+forks: 2096
+stars_today: 2029
 github_rank: 1
-fetched_at: "2026-11-23T08:10:31+08:00"
-documentation_checked_at: "2026-11-23"
-stats_as_of: "2026-11-23"
+fetched_at: "2026-11-24T08:07:17+08:00"
+documentation_checked_at: "2026-11-24"
+stats_as_of: "2026-11-24"
 snapshot_status: "live"
 category: ["Security", "Agent Skills", "Red Team"]
 topics: ["Security", "Agent-Skills", "Red-Team"]
@@ -23,7 +23,7 @@ topics: ["Security", "Agent-Skills", "Red-Team"]
 Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Skills 套件，把方法论、漏洞类别知识、验证门和报告流程装入 Claude Code 等 Agent。
 
 ## 它能做什么
-- 当前 README 汇集 82 个技能、15 个斜杠命令和来自 681 份公开报告的模式，覆盖 24 类核心漏洞。
+- 当前 README 汇集 83 个技能、15 个斜杠命令和来自 681 份公开报告的模式，其中 433 个模式已有逐项引用与审计证据，覆盖 24 类核心漏洞。
 - 用 Think、Web 应用 Hunting、企业边界与交付四层组织侦察、验证、严重度判断和证据整理。
 - 支持 Claude Code、Codex CLI、OpenCode、Hermes 与 Antigravity，并可选接入 Burp MCP。
 - 提供 engagement 文件夹脚手架、`cbh` CLI、VRT 映射、PII 脱敏和报告模板。
@@ -57,6 +57,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 | 2026-11-21 | 1 | 1622 | 14221 | 1697 | GitHub Today live snapshot |
 | 2026-11-22 | 1 | 1803 | 16023 | 1827 | GitHub Today live snapshot |
 | 2026-11-23 | 1 | 1716 | 17762 | 1965 | GitHub Today live snapshot |
+| 2026-11-24 | 1 | 2029 | 19724 | 2096 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Red-Team|Red-Team]]
@@ -72,6 +73,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
+- [[Daily/2026/11/2026-11-24|2026-11-24]]
 
 ## GitHub 原始链接
 https://github.com/elementalsouls/Claude-BugHunter
@@ -93,3 +95,5 @@ https://github.com/elementalsouls/Claude-BugHunter
 
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`cd07caf4e92730b808891539a9397f1489f039d6`。
+- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`639fe09bd36341e29e4321ca91bb045bfa6f162e`。
+

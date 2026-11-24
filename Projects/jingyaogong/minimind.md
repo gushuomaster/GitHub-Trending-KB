@@ -3,16 +3,16 @@ type: github-project
 repo: "jingyaogong/minimind"
 url: "https://github.com/jingyaogong/minimind"
 first_seen: "2026-11-18"
-last_seen: "2026-11-23"
-trending_count: 5
+last_seen: "2026-11-24"
+trending_count: 6
 language: "Python"
-total_stars: 68632
-forks: 8974
-stars_today: 473
+total_stars: 69439
+forks: 9063
+stars_today: 828
 github_rank: 4
-fetched_at: "2026-11-23T08:10:31+08:00"
-documentation_checked_at: "2026-11-23"
-stats_as_of: "2026-11-23"
+fetched_at: "2026-11-24T08:07:17+08:00"
+documentation_checked_at: "2026-11-24"
+stats_as_of: "2026-11-24"
 snapshot_status: "live"
 category: ["LLM Training", "Education", "Small Language Model"]
 topics: ["LLM", "Training", "PyTorch"]
@@ -58,6 +58,7 @@ python train_full_sft.py
 | 2026-11-21 | 4 | 847 | 67676 | 8858 | GitHub Today live snapshot |
 | 2026-11-22 | 4 | 488 | 68141 | 8904 | GitHub Today live snapshot |
 | 2026-11-23 | 4 | 473 | 68632 | 8974 | GitHub Today live snapshot |
+| 2026-11-24 | 4 | 828 | 69439 | 9063 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/LLM|LLM]] · [[Topics/Training|Training]] · [[Topics/PyTorch|PyTorch]]
@@ -71,6 +72,7 @@ python train_full_sft.py
 - [[Daily/2026/11/2026-11-21|2026-11-21]]
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
+- [[Daily/2026/11/2026-11-24|2026-11-24]]
 
 ## GitHub 原始链接
 https://github.com/jingyaogong/minimind
@@ -89,3 +91,6 @@ https://github.com/jingyaogong/minimind
 - README：https://github.com/jingyaogong/minimind/blob/HEAD/README.md
 - README blob SHA：`4855c40573426b85162b32f0652c427f8f237440`
 - 当前 README 继续明确 64M Dense、198M-A64M MoE、Agentic RL 的多轮 Tool-Use 训练和生成后端解耦，并补充无 CUDA 时可选择 CPU 或 MPS（训练速度和兼容性差异很大）；现有正文边界仍准确，更新可复核版本证据。
+
+## 最近变化
+- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`4855c40573426b85162b32f0652c427f8f237440`。
