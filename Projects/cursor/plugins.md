@@ -27,7 +27,7 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 - 在根级 `.cursor-plugin/marketplace.json` 集中登记市场内的插件。
 - 每个插件通过自己的 `.cursor-plugin/plugin.json` 描述名称、版本和组成。
 - 允许插件携带 Skills、Rules、`mcp.json`、README、变更记录和许可证。
-- 提供 create-plugin、cursor-sdk、orchestrate、GitHub、Google Drive、Playwright 等不同类型的插件条目。
+- 提供 create-plugin、cursor-sdk、orchestrate、GitHub、Google Drive、Playwright，以及新增的 FreshBooks、Campfire 等插件条目。
 
 当前目录还收录大量第三方业务集成；其中部分插件可修改广告、财务、消息、订单或设备状态，使用前必须逐项确认账号权限和变更预览。
 
@@ -114,5 +114,5 @@ https://github.com/cursor/plugins
 
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`e3e669db8de95e7e9e9ce8aba04fbcf0c7bfdd58`。
-- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`e3e669db8de95e7e9e9ce8aba04fbcf0c7bfdd58`。
+- 资料核对（2026-11-24）：当前市场目录新增 FreshBooks 与 Campfire；二者均以托管 MCP/OAuth 接入财务数据，继续适用逐插件审查账号、网络和变更权限的边界。README blob SHA：`28aed68198b3cb587705b65218a09b512a8c1889`。
 

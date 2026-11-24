@@ -23,10 +23,10 @@ topics: ["Security", "Agent-Skills", "Red-Team"]
 Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Skills 套件，把方法论、漏洞类别知识、验证门和报告流程装入 Claude Code 等 Agent。
 
 ## 它能做什么
-- 当前 README 汇集 83 个技能、15 个斜杠命令和来自 681 份公开报告的模式，其中 433 个模式已有逐项引用与审计证据，覆盖 24 类核心漏洞。
+- 当前 README 汇集 84 个技能、15 个斜杠命令和来自 681 份公开报告的模式，其中 433 个模式已有逐项引用与审计证据，覆盖 24 类核心漏洞。
 - 用 Think、Web 应用 Hunting、企业边界与交付四层组织侦察、验证、严重度判断和证据整理。
 - 支持 Claude Code、Codex CLI、OpenCode、Hermes 与 Antigravity，并可选接入 Burp MCP。
-- 提供 engagement 文件夹脚手架、`cbh` CLI、VRT 映射、PII 脱敏和报告模板。
+- 提供 engagement 文件夹脚手架、`cbh scope import`、确定性证据捕获、可选的跨任务记忆与只保存通用计数的攻击指标。
 
 ## 怎么利用
 **官方授权测试流程 →** 在 Claude Code 安装插件后，描述一个明确在范围内的目标并要求执行 recon；相关技能自动加载，按方法论枚举攻击面、验证发现、通过 7-Question Gate，最后输出带证据与严重度映射的报告草稿。
@@ -44,7 +44,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 有明确授权范围、需要把漏洞研究方法、验证、证据和报告标准化的 Bug Bounty 研究员、渗透测试员与红队成员。
 
 ## 局限 / 注意点
-只能用于自有资产、书面授权的渗透测试、漏洞奖励范围或训练环境；项目不覆盖二进制利用、内核 pwn 和浏览器内部攻击，也不提供未授权批量攻击或恶意软件能力。模型平台自身的网络安全防护仍可能拒绝部分操作；内容与代码还采用不同许可证，复用时需核对署名要求。
+只能用于自有资产、书面授权的渗透测试、漏洞奖励范围或训练环境；项目不覆盖二进制利用、内核 pwn 和浏览器内部攻击，也不提供未授权批量攻击或恶意软件能力。默认运行不会跨 engagement 保存目标标识数据，但显式启用 `--use-memory` 后会写入本地 ledger，仍需按敏感测试资料保护。模型平台自身的网络安全防护仍可能拒绝部分操作；内容与代码还采用不同许可证，复用时需核对署名要求。
 
 ## Trending 历史
 
@@ -95,5 +95,5 @@ https://github.com/elementalsouls/Claude-BugHunter
 
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`cd07caf4e92730b808891539a9397f1489f039d6`。
-- 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`639fe09bd36341e29e4321ca91bb045bfa6f162e`。
+- 资料核对（2026-11-24）：README 已增至 84 个技能；补入 `exploit-completion`、`cbh scope import`、确定性证据捕获，以及默认不跨 engagement 保存目标标识数据的边界。README blob SHA：`1ce4a56268c3b5bc505dfd42d86cbbafc68e2800`。
 
