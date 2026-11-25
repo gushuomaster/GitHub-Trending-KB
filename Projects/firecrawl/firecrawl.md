@@ -3,16 +3,16 @@ type: github-project
 repo: "firecrawl/firecrawl"
 url: "https://github.com/firecrawl/firecrawl"
 first_seen: "2026-11-20"
-last_seen: "2026-11-24"
-trending_count: 5
+last_seen: "2026-11-25"
+trending_count: 6
 language: "TypeScript"
-total_stars: 207898
-forks: 10865
-stars_today: 924
+total_stars: 208914
+forks: 10916
+stars_today: 991
 github_rank: 6
-fetched_at: "2026-11-24T08:07:17+08:00"
-documentation_checked_at: "2026-11-24"
-stats_as_of: "2026-11-24"
+fetched_at: "2026-11-25T08:07:48+08:00"
+documentation_checked_at: "2026-11-25"
+stats_as_of: "2026-11-25"
 snapshot_status: "live"
 category: ["Web-Scraping", "AI"]
 topics: ["Web-Scraping", "AI", "Developer-Tools"]
@@ -55,6 +55,7 @@ Local 默认在单页本地失败时回退到 Cloud，需设 `FIRECRAWL_CLOUD=of
 | 2026-11-22 | 6 | 1006 | 206170 | 10777 | GitHub Today live snapshot |
 | 2026-11-23 | 6 | 915 | 207012 | 10816 | GitHub Today live snapshot |
 | 2026-11-24 | 6 | 924 | 207898 | 10865 | GitHub Today live snapshot |
+| 2026-11-25 | 6 | 991 | 208914 | 10916 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Web-Scraping|Web-Scraping]] · [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -67,6 +68,7 @@ Local 默认在单页本地失败时回退到 Cloud，需设 `FIRECRAWL_CLOUD=of
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
+- [[Daily/2026/11/2026-11-25|2026-11-25]]
 
 ## GitHub 原始链接
 https://github.com/firecrawl/firecrawl
@@ -78,3 +80,5 @@ https://github.com/firecrawl/firecrawl
 
 ## 最近变化
 - 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`eaecfed6c8a76b16b4e8bcd5d499a473ece1cb11`。
+- 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`eaecfed6c8a76b16b4e8bcd5d499a473ece1cb11`。
+

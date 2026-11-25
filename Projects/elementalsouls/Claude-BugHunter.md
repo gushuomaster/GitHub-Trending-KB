@@ -3,16 +3,16 @@ type: github-project
 repo: "elementalsouls/Claude-BugHunter"
 url: "https://github.com/elementalsouls/Claude-BugHunter"
 first_seen: "2026-11-16"
-last_seen: "2026-11-24"
-trending_count: 7
+last_seen: "2026-11-25"
+trending_count: 8
 language: "Python"
-total_stars: 19724
-forks: 2096
-stars_today: 2029
+total_stars: 21439
+forks: 2229
+stars_today: 1826
 github_rank: 1
-fetched_at: "2026-11-24T08:07:17+08:00"
-documentation_checked_at: "2026-11-24"
-stats_as_of: "2026-11-24"
+fetched_at: "2026-11-25T08:07:48+08:00"
+documentation_checked_at: "2026-11-25"
+stats_as_of: "2026-11-25"
 snapshot_status: "live"
 category: ["Security", "Agent Skills", "Red Team"]
 topics: ["Security", "Agent-Skills", "Red-Team"]
@@ -58,6 +58,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 | 2026-11-22 | 1 | 1803 | 16023 | 1827 | GitHub Today live snapshot |
 | 2026-11-23 | 1 | 1716 | 17762 | 1965 | GitHub Today live snapshot |
 | 2026-11-24 | 1 | 2029 | 19724 | 2096 | GitHub Today live snapshot |
+| 2026-11-25 | 1 | 1826 | 21439 | 2229 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Red-Team|Red-Team]]
@@ -74,6 +75,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
+- [[Daily/2026/11/2026-11-25|2026-11-25]]
 
 ## GitHub 原始链接
 https://github.com/elementalsouls/Claude-BugHunter
@@ -96,4 +98,5 @@ https://github.com/elementalsouls/Claude-BugHunter
 ## 最近变化
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`cd07caf4e92730b808891539a9397f1489f039d6`。
 - 资料核对（2026-11-24）：README 已增至 84 个技能；补入 `exploit-completion`、`cbh scope import`、确定性证据捕获，以及默认不跨 engagement 保存目标标识数据的边界。README blob SHA：`1ce4a56268c3b5bc505dfd42d86cbbafc68e2800`。
+- 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`1ce4a56268c3b5bc505dfd42d86cbbafc68e2800`。
 

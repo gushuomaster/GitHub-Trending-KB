@@ -3,16 +3,16 @@ type: github-project
 repo: "mvanhorn/last30days-skill"
 url: "https://github.com/mvanhorn/last30days-skill"
 first_seen: "2026-11-17"
-last_seen: "2026-11-24"
-trending_count: 8
+last_seen: "2026-11-25"
+trending_count: 9
 language: "Python"
-total_stars: 73424
-forks: 6479
-stars_today: 797
+total_stars: 74188
+forks: 6540
+stars_today: 703
 github_rank: 10
-fetched_at: "2026-11-24T08:07:17+08:00"
-documentation_checked_at: "2026-11-24"
-stats_as_of: "2026-11-24"
+fetched_at: "2026-11-25T08:07:48+08:00"
+documentation_checked_at: "2026-11-25"
+stats_as_of: "2026-11-25"
 snapshot_status: "live"
 category: ["Agent Skills", "Research", "Social Search"]
 topics: ["Agent-Skills", "Research", "Social-Media"]
@@ -59,6 +59,7 @@ TikTok/Instagram 的无 Key 回退依赖本机 `yt-dlp`，结果更少且没有�
 | 2026-11-22 | 10 | 560 | 71989 | 6373 | GitHub Today live snapshot |
 | 2026-11-23 | 10 | 668 | 72697 | 6424 | GitHub Today live snapshot |
 | 2026-11-24 | 10 | 797 | 73424 | 6479 | GitHub Today live snapshot |
+| 2026-11-25 | 10 | 703 | 74188 | 6540 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Research|Research]] · [[Topics/Social-Media|Social-Media]]
@@ -77,6 +78,7 @@ TikTok/Instagram 的无 Key 回退依赖本机 `yt-dlp`，结果更少且没有�
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
+- [[Daily/2026/11/2026-11-25|2026-11-25]]
 
 ## GitHub 原始链接
 https://github.com/mvanhorn/last30days-skill
@@ -105,6 +107,7 @@ https://github.com/mvanhorn/last30days-skill
 - 资料核对（2026-11-21）：重新读取当前官方 README；README blob SHA：`ee3f7f3b0f64f9ca996e579bfd2aa2383bace11b`。
 - 资料核对（2026-11-22）：README 已更新至 v4.6.0 流程，补充无 Key 的 TikTok/Instagram 回退、本地研究库与离线检索边界；README blob SHA：`6fcd597e58c5025abc86f49b12472bbbcaa0c38d`。
 - 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`8c3c3e5d82c6159d7cbd6b9611c665416b761f37`。
+- 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`60c4bc407e64a99f18f8a52d5994855e6a7b0538`。
 
 ## 官方资料复核（2026-11-23）
 - README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md

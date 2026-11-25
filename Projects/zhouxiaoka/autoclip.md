@@ -1,22 +1,22 @@
 ---
-forks: 2205
-fetched_at: "2026-11-24T08:07:17+08:00"
-stats_as_of: "2026-11-24"
+forks: 2266
+fetched_at: "2026-11-25T08:07:48+08:00"
+stats_as_of: "2026-11-25"
 type: github-project
 repo: "zhouxiaoka/autoclip"
 url: "https://github.com/zhouxiaoka/autoclip"
 first_seen: "2026-09-22"
-last_seen: "2026-11-24"
-trending_count: 6
+last_seen: "2026-11-25"
+trending_count: 7
 github_rank: 16
-stars_today: 907
-total_stars: 14370
+stars_today: 980
+total_stars: 15311
 language: "Python"
 category: ["AI", "Video", "Creative Tools"]
 tags: ["video-ai", "clipping", "highlights", "python", "creator-tools"]
 topics: ["Video AI", "Content Creation", "Automation"]
 status: active
-documentation_checked_at: "2026-11-24"
+documentation_checked_at: "2026-11-25"
 snapshot_status: "live"
 ---
 # zhouxiaoka/autoclip
@@ -65,6 +65,7 @@ autoclip outputs PROJECT_ID --export-kits
 | 2026-11-22 | 16 | 683 | 12836 | 2072 | GitHub Today live snapshot |
 | 2026-11-23 | 16 | 641 | 13414 | 2124 | GitHub Today live snapshot |
 | 2026-11-24 | 16 | 907 | 14370 | 2205 | GitHub Today live snapshot |
+| 2026-11-25 | 16 | 980 | 15311 | 2266 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]
@@ -79,6 +80,7 @@ autoclip outputs PROJECT_ID --export-kits
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
+- [[Daily/2026/11/2026-11-25|2026-11-25]]
 
 ## GitHub 原始链接
 https://github.com/zhouxiaoka/autoclip
@@ -95,3 +97,5 @@ https://github.com/zhouxiaoka/autoclip
 
 ## 最近变化
 - 资料核对（2026-11-24）：README 已更新至 v1.6 直播回放流程，补入 6 类回放来源、OBS 自动捕获、Twitch 导入、游戏高光和 13 种界面语言；README blob SHA：`e0e43bb4a8e4a272fc32aef8e4eb92df60516828`。
+- 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`cf1c3d9452ad77768b0d10529ae85d70e5f3bbb0`。
+

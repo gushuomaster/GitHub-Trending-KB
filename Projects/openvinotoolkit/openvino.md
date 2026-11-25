@@ -1,18 +1,18 @@
 ---
-stats_as_of: "2026-11-24"
-documentation_checked_at: "2026-11-24"
-fetched_at: "2026-11-24T08:07:17+08:00"
+stats_as_of: "2026-11-25"
+documentation_checked_at: "2026-11-25"
+fetched_at: "2026-11-25T08:07:48+08:00"
 type: github-project
 repo: "openvinotoolkit/openvino"
 url: "https://github.com/openvinotoolkit/openvino"
 first_seen: "2026-11-19"
-last_seen: "2026-11-24"
-trending_count: 6
+last_seen: "2026-11-25"
+trending_count: 7
 github_rank: 8
 language: "C++"
-total_stars: 12277
-forks: 3679
-stars_today: 184
+total_stars: 12459
+forks: 3693
+stars_today: 185
 category: ["AI", "Inference"]
 tags: ["ai", "inference"]
 topics: ["AI", "Inference", "Developer-Tools"]
@@ -58,6 +58,7 @@ compiled = ov.Core().compile_model(model, "CPU")
 | 2026-11-22 | 8 | 200 | 11928 | 3651 | GitHub Today live snapshot |
 | 2026-11-23 | 8 | 158 | 12089 | 3657 | GitHub Today live snapshot |
 | 2026-11-24 | 8 | 184 | 12277 | 3679 | GitHub Today live snapshot |
+| 2026-11-25 | 8 | 185 | 12459 | 3693 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Inference|Inference]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -72,6 +73,7 @@ compiled = ov.Core().compile_model(model, "CPU")
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
+- [[Daily/2026/11/2026-11-25|2026-11-25]]
 
 ## GitHub 原始链接
 https://github.com/openvinotoolkit/openvino
@@ -88,3 +90,5 @@ https://github.com/openvinotoolkit/openvino
 
 ## 最近变化
 - 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7fa8d27f1e8f8e7d675aebc7a0a7c718c5b26d32`。
+- 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7fa8d27f1e8f8e7d675aebc7a0a7c718c5b26d32`。
+

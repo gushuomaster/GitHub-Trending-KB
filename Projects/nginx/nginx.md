@@ -3,16 +3,16 @@ type: github-project
 repo: "nginx/nginx"
 url: "https://github.com/nginx/nginx"
 first_seen: "2026-11-20"
-last_seen: "2026-11-24"
-trending_count: 5
+last_seen: "2026-11-25"
+trending_count: 6
 language: "C"
-total_stars: 33048
-forks: 8395
-stars_today: 174
+total_stars: 33216
+forks: 8394
+stars_today: 158
 github_rank: 7
-fetched_at: "2026-11-24T08:07:17+08:00"
-documentation_checked_at: "2026-11-24"
-stats_as_of: "2026-11-24"
+fetched_at: "2026-11-25T08:07:48+08:00"
+documentation_checked_at: "2026-11-25"
+stats_as_of: "2026-11-25"
 snapshot_status: "live"
 category: ["Web-Server", "Networking"]
 topics: ["Web-Server", "Networking", "Infrastructure"]
@@ -55,6 +55,7 @@ nginx -s reload
 | 2026-11-22 | 7 | 189 | 32726 | 8374 | GitHub Today live snapshot |
 | 2026-11-23 | 7 | 163 | 32881 | 8381 | GitHub Today live snapshot |
 | 2026-11-24 | 7 | 174 | 33048 | 8395 | GitHub Today live snapshot |
+| 2026-11-25 | 7 | 158 | 33216 | 8394 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Web-Server|Web-Server]] · [[Topics/Networking|Networking]] · [[Topics/Infrastructure|Infrastructure]]
@@ -67,6 +68,7 @@ nginx -s reload
 - [[Daily/2026/11/2026-11-22|2026-11-22]]
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
+- [[Daily/2026/11/2026-11-25|2026-11-25]]
 
 ## GitHub 原始链接
 https://github.com/nginx/nginx
@@ -78,3 +80,5 @@ https://github.com/nginx/nginx
 
 ## 最近变化
 - 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`d6761842c97dc151ae951f86e9738e0300f9db05`。
+- 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`d6761842c97dc151ae951f86e9738e0300f9db05`。
+
