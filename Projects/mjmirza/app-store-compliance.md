@@ -3,16 +3,16 @@ type: github-project
 repo: "mjmirza/app-store-compliance"
 url: "https://github.com/mjmirza/app-store-compliance"
 first_seen: "2026-11-20"
-last_seen: "2026-11-25"
-trending_count: 6
+last_seen: "2026-11-26"
+trending_count: 7
 language: "Shell"
-total_stars: 5843
-forks: 378
-stars_today: 928
+total_stars: 6464
+forks: 418
+stars_today: 858
 github_rank: 12
-fetched_at: "2026-11-25T08:07:48+08:00"
-documentation_checked_at: "2026-11-25"
-stats_as_of: "2026-11-25"
+fetched_at: "2026-11-26T08:08:24+08:00"
+documentation_checked_at: "2026-11-26"
+stats_as_of: "2026-11-26"
 snapshot_status: "live"
 category: ["Mobile", "Compliance"]
 topics: ["Mobile", "Compliance", "Developer-Tools"]
@@ -26,7 +26,7 @@ app-store-compliance 是面向 iOS 与 Android 上架前检查的开放手册和
 - 用版本化 JSON 维护 Apple、Google 与 Web 规则、检测信号和修复建议；v2.5.0 会在规则来源超过 60 天未核实时提示 `Rule pack STALE`。
 - 扫描 Xcode、Android 或 Expo 项目并按严重度输出文件与行号，覆盖隐私清单、权限、Data Safety、提交命令和预权限弹窗等风险。
 - 通过 `.app-review-readiness.json` 记录演示账号、协议、商店声明等代码扫描无法证明的人工检查；已记录失败或不可读文件可阻止发布。
-- 当前项目元数据声明 124 个拒审模式，`data/regulatory-deadlines.json` 跟踪 112 条期限记录，并跟踪 Google Play trader status、EU AI Act 等持续变化。
+- 当前项目元数据声明 124 个拒审模式，`data/regulatory-deadlines.json` 跟踪 114 条期限记录，并跟踪 Google Play trader status、EU AI Act 等持续变化。
 
 ## 怎么利用
 官方只读检查：克隆仓库后运行 `app-store-compliance-guard.sh "/path/to/your/app"`；脚本扫描项目并输出 `BLOCKED`、`CLEAR` 或 `NOT CHECKED`，开发者按每条 `fix.` 建议修改后再次执行。
@@ -57,6 +57,7 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 | 2026-11-23 | 12 | 621 | 3963 | 236 | GitHub Today live snapshot |
 | 2026-11-24 | 12 | 761 | 4947 | 314 | GitHub Today live snapshot |
 | 2026-11-25 | 12 | 928 | 5843 | 378 | GitHub Today live snapshot |
+| 2026-11-26 | 12 | 858 |
 
 ## 相关主题
 [[Topics/Mobile|Mobile]] · [[Topics/Compliance|Compliance]] · [[Topics/Developer-Tools|Developer-Tools]]
@@ -70,6 +71,7 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 - [[Daily/2026/11/2026-11-23|2026-11-23]]
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
+- [[Daily/2026/11/2026-11-26|2026-11-26]]
 
 ## GitHub 原始链接
 https://github.com/mjmirza/app-store-compliance
@@ -93,4 +95,5 @@ https://github.com/mjmirza/app-store-compliance
 ## 最近变化
 - 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7056ca8c29caaf88345c06e84c09a3e4a6311c92`。
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7056ca8c29caaf88345c06e84c09a3e4a6311c92`。
+- 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7056ca8c29caaf88345c06e84c09a3e4a6311c92`。
 
