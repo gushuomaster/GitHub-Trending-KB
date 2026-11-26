@@ -60,7 +60,7 @@ python train_full_sft.py
 | 2026-11-23 | 4 | 473 | 68632 | 8974 | GitHub Today live snapshot |
 | 2026-11-24 | 4 | 828 | 69439 | 9063 | GitHub Today live snapshot |
 | 2026-11-25 | 4 | 727 | 70166 | 9131 | GitHub Today live snapshot |
-| 2026-11-26 | 4 | 826 |
+| 2026-11-26 | 4 | 826 | 70,931 | 9,220 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/LLM|LLM]] · [[Topics/Training|Training]] · [[Topics/PyTorch|PyTorch]]

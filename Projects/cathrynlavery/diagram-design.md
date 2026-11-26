@@ -77,7 +77,7 @@ codex plugin add diagram-design@diagram-design
 | 2026-11-23 | 9 | 518 | 70284 | 4715 | GitHub Today live snapshot |
 | 2026-11-24 | 9 | 620 | 70950 | 4746 | GitHub Today live snapshot |
 | 2026-11-25 | 9 | 802 | 72001 | 4806 | GitHub Today live snapshot |
-| 2026-11-26 | 9 | 1,141 |
+| 2026-11-26 | 9 | 1,141 | 73,007 | 4,857 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]

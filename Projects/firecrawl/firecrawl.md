@@ -56,7 +56,7 @@ Local 默认在单页本地失败时回退到 Cloud，需设 `FIRECRAWL_CLOUD=of
 | 2026-11-23 | 6 | 915 | 207012 | 10816 | GitHub Today live snapshot |
 | 2026-11-24 | 6 | 924 | 207898 | 10865 | GitHub Today live snapshot |
 | 2026-11-25 | 6 | 991 | 208914 | 10916 | GitHub Today live snapshot |
-| 2026-11-26 | 6 | 1,135 |
+| 2026-11-26 | 6 | 1,135 | 210,011 | 10,986 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Web-Scraping|Web-Scraping]] · [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]]

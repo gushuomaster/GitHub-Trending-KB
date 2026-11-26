@@ -59,7 +59,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 | 2026-11-23 | 1 | 1716 | 17762 | 1965 | GitHub Today live snapshot |
 | 2026-11-24 | 1 | 2029 | 19724 | 2096 | GitHub Today live snapshot |
 | 2026-11-25 | 1 | 1826 | 21439 | 2229 | GitHub Today live snapshot |
-| 2026-11-26 | 1 | 1,652 |
+| 2026-11-26 | 1 | 1,652 | 22,968 | 2,348 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Red-Team|Red-Team]]

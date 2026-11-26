@@ -88,7 +88,7 @@ superpowers
 | 2026-11-23 | 2 | 788 | 324151 | 28758 | GitHub Today live snapshot |
 | 2026-11-24 | 2 | 840 | 325040 | 28832 | GitHub Today live snapshot |
 | 2026-11-25 | 2 | 1003 | 325782 | 28906 | GitHub Today live snapshot |
-| 2026-11-26 | 2 | 903 |
+| 2026-11-26 | 2 | 903 | 326,595 | 28,981 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]

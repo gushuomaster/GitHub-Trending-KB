@@ -59,7 +59,7 @@ compiled = ov.Core().compile_model(model, "CPU")
 | 2026-11-23 | 8 | 158 | 12089 | 3657 | GitHub Today live snapshot |
 | 2026-11-24 | 8 | 184 | 12277 | 3679 | GitHub Today live snapshot |
 | 2026-11-25 | 8 | 185 | 12459 | 3693 | GitHub Today live snapshot |
-| 2026-11-26 | 8 | 191 |
+| 2026-11-26 | 8 | 191 | 12,650 | 3,714 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Inference|Inference]] · [[Topics/Developer-Tools|Developer-Tools]]
