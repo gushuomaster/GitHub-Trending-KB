@@ -66,7 +66,7 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 | 2026-11-24 | 5 | 397 | 18795 | 2042 | GitHub Today live snapshot |
 | 2026-11-25 | 5 | 360 | 19196 | 2077 | GitHub Today live snapshot |
 | 2026-11-26 | 5 | 416 | 19,524 | 2,106 | GitHub Today live snapshot |
-| 2026-11-27 | 5 | 270 |
+| 2026-11-27 | 5 | 270 | 19,782 | 2,141 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]

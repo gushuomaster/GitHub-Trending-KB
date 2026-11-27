@@ -58,7 +58,7 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 | 2026-11-24 | 12 | 761 | 4947 | 314 | GitHub Today live snapshot |
 | 2026-11-25 | 12 | 928 | 5843 | 378 | GitHub Today live snapshot |
 | 2026-11-26 | 12 | 858 | 6,464 | 418 | GitHub Today live snapshot |
-| 2026-11-27 | 12 | 562 |
+| 2026-11-27 | 12 | 562 | 7,020 | 468 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Mobile|Mobile]] · [[Topics/Compliance|Compliance]] · [[Topics/Developer-Tools|Developer-Tools]]

@@ -54,7 +54,7 @@ AFFiNE 是 local-first 的开源知识库与协作画布，把文档、白板、
 | 2026-11-24 | 14 | 595 | 77378 | 5663 | GitHub Today live snapshot |
 | 2026-11-25 | 14 | 584 | 77979 | 5697 | GitHub Today live snapshot |
 | 2026-11-26 | 14 | 574 | 78,482 | 5,720 | GitHub Today live snapshot |
-| 2026-11-27 | 14 | 525 |
+| 2026-11-27 | 14 | 525 | 78,966 | 5,755 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Knowledge-Base|Knowledge-Base]] · [[Topics/Collaboration|Collaboration]] · [[Topics/Local-First|Local-First]]

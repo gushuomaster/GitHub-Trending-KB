@@ -66,7 +66,7 @@ autoclip outputs PROJECT_ID --export-kits
 | 2026-11-24 | 16 | 907 | 14370 | 2205 | GitHub Today live snapshot |
 | 2026-11-25 | 16 | 980 | 15311 | 2266 | GitHub Today live snapshot |
 | 2026-11-26 | 16 | 880 | 16,133 | 2,329 | GitHub Today live snapshot |
-| 2026-11-27 | 16 | 774 |
+| 2026-11-27 | 16 | 774 | 16,925 | 2,382 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]

@@ -4,7 +4,7 @@
 
 ## 本次已修复
 
-- 2026-11-27：16 项 08:10:28 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已完成候选验收；更新 16 张既有项目卡。重新读取全部 16 个项目的当前官方 README；补充 last30days 的无主题 discovery，按数据文件核实 app-store-compliance 为 126 个模式与 117 条期限，并将 AutoClip 更新为 local-first、离线模型与 MCP 工作流。历史 2026-09-09 至 2026-11-26 共 79 份日报仅检查，未改动。
+- 2026-11-27：16 项 08:10:28 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已完成候选验收；更新 16 张既有项目卡。重新读取全部 16 个项目的当前官方 README；补充 last30days 的无主题 discovery，按数据文件核实 app-store-compliance 为 126 个模式与 117 条期限，并将 AutoClip 更新为 local-first、离线模型与 MCP 工作流。下午全量复查补齐 16 张项目卡当日 Trending 历史行缺失的 Total Stars、Forks 与快照证据列，并按 Claude-BugHunter 午后 README 新增 Opus 5 自动切换到 Opus 4.8 的平台边界；未改动榜单顺序、排名、统计或 `fetched_at`。历史 2026-09-09 至 2026-11-26 共 79 份日报仅检查，未改动。
 
 - 2026-11-26：16 项 08:08:24 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已完成候选验收；更新 16 张既有项目卡。重新读取全部 16 个项目的当前官方 README；按当前资料将 Claude-BugHunter 更新为 85 个技能与 16 个命令，补充 last30days 的扩展来源与 JSON 输出边界，并补充 Ghost Downloader 的 TLS 指纹、Android 直播录制和插件 API 状态。下午全量复查补齐 16 张项目卡当日 Trending 历史行缺失的 Total Stars、Forks 与快照证据列，并移除 JSONL 末尾空白记录；未改动榜单顺序、排名、统计或 `fetched_at`。历史 2026-09-09 至 2026-11-25 共 78 份日报仅检查，未改动。
 

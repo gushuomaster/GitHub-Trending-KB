@@ -58,7 +58,7 @@ ghd add "https://example.com/a.torrent" --select 0,3 -o ./downloads
 | 2026-11-24 | 15 | 1087 | 16290 | 977 | GitHub Today live snapshot |
 | 2026-11-25 | 15 | 1092 | 17304 | 1050 | GitHub Today live snapshot |
 | 2026-11-26 | 15 | 951 | 18,223 | 1,086 | GitHub Today live snapshot |
-| 2026-11-27 | 15 | 889 |
+| 2026-11-27 | 15 | 889 | 19,094 | 1,151 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Downloader|Downloader]] · [[Topics/Media|Media]] · [[Topics/Desktop|Desktop]]

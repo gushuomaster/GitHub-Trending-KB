@@ -69,7 +69,7 @@ cli-hub install blender
 | 2026-11-24 | 3 | 790 | 63608 | 5776 | GitHub Today live snapshot |
 | 2026-11-25 | 3 | 1074 | 64734 | 5904 | GitHub Today live snapshot |
 | 2026-11-26 | 3 | 1,106 | 65,661 | 5,974 | GitHub Today live snapshot |
-| 2026-11-27 | 3 | 746 |
+| 2026-11-27 | 3 | 746 | 66,349 | 6,036 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Agent|Agent]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Automation|Automation]]

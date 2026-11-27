@@ -44,7 +44,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 有明确授权范围、需要把漏洞研究方法、验证、证据和报告标准化的 Bug Bounty 研究员、渗透测试员与红队成员。
 
 ## 局限 / 注意点
-只能用于自有资产、书面授权的渗透测试、漏洞奖励范围或训练环境；项目不覆盖二进制利用、内核 pwn 和浏览器内部攻击，也不提供未授权批量攻击或恶意软件能力。默认运行不会跨 engagement 保存目标标识数据，但显式启用 `--use-memory` 后会写入本地 ledger，仍需按敏感测试资料保护。模型平台自身的网络安全防护仍可能拒绝部分操作；内容与代码还采用不同许可证，复用时需核对署名要求。
+只能用于自有资产、书面授权的渗透测试、漏洞奖励范围或训练环境；项目不覆盖二进制利用、内核 pwn 和浏览器内部攻击，也不提供未授权批量攻击或恶意软件能力。默认运行不会跨 engagement 保存目标标识数据，但显式启用 `--use-memory` 后会写入本地 ledger，仍需按敏感测试资料保护。模型平台自身的网络安全防护仍可能拒绝部分操作；官方 README 还说明 Claude Opus 5 对 exploit generation、二进制漏洞扫描和渗透测试等较高风险请求可能自动切换到 Opus 4.8，这与技能本身无关，授权工作需留意会话中的模型切换提示或按平台设置处理。内容与代码还采用不同许可证，复用时需核对署名要求。
 
 ## Trending 历史
 
@@ -60,7 +60,7 @@ Claude-BugHunter 是面向已授权漏洞挖掘和外部红队工作的 Agent Sk
 | 2026-11-24 | 1 | 2029 | 19724 | 2096 | GitHub Today live snapshot |
 | 2026-11-25 | 1 | 1826 | 21439 | 2229 | GitHub Today live snapshot |
 | 2026-11-26 | 1 | 1,652 | 22,968 | 2,348 | GitHub Today live snapshot |
-| 2026-11-27 | 1 | 1,597 |
+| 2026-11-27 | 1 | 1,597 | 24,551 | 2,501 | GitHub Today live snapshot |
 
 ## 相关主题
 [[Topics/Security|Security]] · [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Red-Team|Red-Team]]
@@ -104,4 +104,4 @@ https://github.com/elementalsouls/Claude-BugHunter
 - 资料核对（2026-11-24）：README 已增至 84 个技能；补入 `exploit-completion`、`cbh scope import`、确定性证据捕获，以及默认不跨 engagement 保存目标标识数据的边界。README blob SHA：`1ce4a56268c3b5bc505dfd42d86cbbafc68e2800`。
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`1ce4a56268c3b5bc505dfd42d86cbbafc68e2800`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`f5c32600baa3e9f56cd4a8bae45d01b8d8978c96`。
-- 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`f5c32600baa3e9f56cd4a8bae45d01b8d8978c96`。
+- 资料核对（2026-11-27）：午后 README 新增 Opus 5 在部分较高风险网络安全请求中自动切换到 Opus 4.8 的平台边界说明，已补入局限；README blob SHA：`ea486ccf7a43c897f2724b835cb1e2d8b6d72c97`。
