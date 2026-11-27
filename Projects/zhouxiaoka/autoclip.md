@@ -1,35 +1,34 @@
 ---
-forks: 2329
-fetched_at: "2026-11-26T08:08:24+08:00"
-stats_as_of: "2026-11-26"
+forks: 2382
+fetched_at: "2026-11-27T08:10:28+08:00"
+stats_as_of: "2026-11-27"
 type: github-project
 repo: "zhouxiaoka/autoclip"
 url: "https://github.com/zhouxiaoka/autoclip"
 first_seen: "2026-09-22"
-last_seen: "2026-11-26"
-trending_count: 8
+last_seen: "2026-11-27"
+trending_count: 9
 github_rank: 16
-stars_today: 880
-total_stars: 16133
+stars_today: 774
+total_stars: 16925
 language: "Python"
 category: ["AI", "Video", "Creative Tools"]
 tags: ["video-ai", "clipping", "highlights", "python", "creator-tools"]
 topics: ["Video AI", "Content Creation", "Automation"]
 status: active
-documentation_checked_at: "2026-11-26"
+documentation_checked_at: "2026-11-27"
 snapshot_status: "live"
 ---
 # zhouxiaoka/autoclip
 
 ## 一句话说明
-把视频、链接或直播回放自动转成适合抖音、小红书、TikTok、Reels、Shorts、Bilibili 与 YouTube 的短片、封面和发布文案。
+AutoClip 是 local-first 的开源 OpusClip 替代方案，把播客、访谈、课程和游戏直播回放自动转成短片、字幕、封面与发布文案，并提供 CLI 和 MCP 让 Agent 直接调用。
 
 ## 它能做什么
-- 从视频链接、本地文件或 OBS、Twitch、YouTube、Kick、Discord 等直播回放完成导入、转写、内容分析和本地渲染。
-- 按目标平台的画幅和时长生成最多 10 个带评分的候选片段。
-- 生成字幕、说话人跟踪、标题、描述、标签、封面与 ZIP 发布包。
-- v1.6 支持 OBS WebSocket 自动捕获、Twitch VOD 异步导入、8 秒以上游戏高光检测，以及桌面端、CLI 和 MCP 入口。
-- 让用户在时间线中调整片段、字幕和样式后再导出。
+- 从视频链接、本地文件或 OBS、Twitch、YouTube、Kick、Discord 等直播回放完成导入、转写、内容分析和本地剪切渲染。
+- 按目标平台的画幅和时长生成最多 10 个带评分的候选片段，并提供智能重构画面、字幕和说话人跟踪。
+- 生成标题、描述、标签、封面与 ZIP 发布包，也可在时间线中人工调整片段、字幕和样式。
+- 通过桌面端、CLI、MCP 与 Agent Skill 接入工作流；可使用云模型，也可组合 Ollama/LM Studio 与 Whisper/SenseVoice 保持完全离线。
 
 ## 怎么利用
 在桌面端粘贴视频链接、提交本地文件或切换到 Live Replay 连接 OBS/导入直播录像，也可通过 CLI/MCP 提交素材；系统转写语音、分析主题或游戏高光、重排为平台画幅，再在本地渲染短片并生成发布文案。用户在导出前复核版权、字幕、裁切与节奏。
@@ -67,6 +66,7 @@ autoclip outputs PROJECT_ID --export-kits
 | 2026-11-24 | 16 | 907 | 14370 | 2205 | GitHub Today live snapshot |
 | 2026-11-25 | 16 | 980 | 15311 | 2266 | GitHub Today live snapshot |
 | 2026-11-26 | 16 | 880 | 16,133 | 2,329 | GitHub Today live snapshot |
+| 2026-11-27 | 16 | 774 |
 
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]
@@ -83,6 +83,7 @@ autoclip outputs PROJECT_ID --export-kits
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
+- [[Daily/2026/11/2026-11-27|2026-11-27]]
 
 ## GitHub 原始链接
 https://github.com/zhouxiaoka/autoclip
@@ -101,4 +102,4 @@ https://github.com/zhouxiaoka/autoclip
 - 资料核对（2026-11-24）：README 已更新至 v1.6 直播回放流程，补入 6 类回放来源、OBS 自动捕获、Twitch 导入、游戏高光和 13 种界面语言；README blob SHA：`e0e43bb4a8e4a272fc32aef8e4eb92df60516828`。
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`cf1c3d9452ad77768b0d10529ae85d70e5f3bbb0`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`cf1c3d9452ad77768b0d10529ae85d70e5f3bbb0`。
-
+- 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`0c346c00657e35f5e8db151a448c1ce94ccd0673`。

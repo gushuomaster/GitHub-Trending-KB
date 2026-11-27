@@ -3,16 +3,16 @@ type: github-project
 repo: "jingyaogong/minimind"
 url: "https://github.com/jingyaogong/minimind"
 first_seen: "2026-11-18"
-last_seen: "2026-11-26"
-trending_count: 8
+last_seen: "2026-11-27"
+trending_count: 9
 language: "Python"
-total_stars: 70931
-forks: 9220
-stars_today: 826
+total_stars: 71616
+forks: 9298
+stars_today: 702
 github_rank: 4
-fetched_at: "2026-11-26T08:08:24+08:00"
-documentation_checked_at: "2026-11-26"
-stats_as_of: "2026-11-26"
+fetched_at: "2026-11-27T08:10:28+08:00"
+documentation_checked_at: "2026-11-27"
+stats_as_of: "2026-11-27"
 snapshot_status: "live"
 category: ["LLM Training", "Education", "Small Language Model"]
 topics: ["LLM", "Training", "PyTorch"]
@@ -61,6 +61,7 @@ python train_full_sft.py
 | 2026-11-24 | 4 | 828 | 69439 | 9063 | GitHub Today live snapshot |
 | 2026-11-25 | 4 | 727 | 70166 | 9131 | GitHub Today live snapshot |
 | 2026-11-26 | 4 | 826 | 70,931 | 9,220 | GitHub Today live snapshot |
+| 2026-11-27 | 4 | 702 |
 
 ## 相关主题
 [[Topics/LLM|LLM]] · [[Topics/Training|Training]] · [[Topics/PyTorch|PyTorch]]
@@ -77,6 +78,7 @@ python train_full_sft.py
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
+- [[Daily/2026/11/2026-11-27|2026-11-27]]
 
 ## GitHub 原始链接
 https://github.com/jingyaogong/minimind
@@ -100,4 +102,4 @@ https://github.com/jingyaogong/minimind
 - 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`4855c40573426b85162b32f0652c427f8f237440`。
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`4855c40573426b85162b32f0652c427f8f237440`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`4855c40573426b85162b32f0652c427f8f237440`。
-
+- 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`4855c40573426b85162b32f0652c427f8f237440`。

@@ -3,16 +3,16 @@ type: github-project
 repo: "XiaoYouChR/Ghost-Downloader-3"
 url: "https://github.com/XiaoYouChR/Ghost-Downloader-3"
 first_seen: "2026-11-20"
-last_seen: "2026-11-26"
-trending_count: 7
+last_seen: "2026-11-27"
+trending_count: 8
 language: "Python"
-total_stars: 18223
-forks: 1086
-stars_today: 951
+total_stars: 19094
+forks: 1151
+stars_today: 889
 github_rank: 15
-fetched_at: "2026-11-26T08:08:24+08:00"
-documentation_checked_at: "2026-11-26"
-stats_as_of: "2026-11-26"
+fetched_at: "2026-11-27T08:10:28+08:00"
+documentation_checked_at: "2026-11-27"
+stats_as_of: "2026-11-27"
 snapshot_status: "live"
 category: ["Downloader", "Media"]
 topics: ["Downloader", "Media", "Desktop"]
@@ -58,6 +58,7 @@ ghd add "https://example.com/a.torrent" --select 0,3 -o ./downloads
 | 2026-11-24 | 15 | 1087 | 16290 | 977 | GitHub Today live snapshot |
 | 2026-11-25 | 15 | 1092 | 17304 | 1050 | GitHub Today live snapshot |
 | 2026-11-26 | 15 | 951 | 18,223 | 1,086 | GitHub Today live snapshot |
+| 2026-11-27 | 15 | 889 |
 
 ## 相关主题
 [[Topics/Downloader|Downloader]] · [[Topics/Media|Media]] · [[Topics/Desktop|Desktop]]
@@ -72,6 +73,7 @@ ghd add "https://example.com/a.torrent" --select 0,3 -o ./downloads
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
+- [[Daily/2026/11/2026-11-27|2026-11-27]]
 
 ## GitHub 原始链接
 https://github.com/XiaoYouChR/Ghost-Downloader-3
@@ -87,4 +89,4 @@ https://github.com/XiaoYouChR/Ghost-Downloader-3
 - 资料核对（2026-11-24）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`392b405c0aa7e609ab4a7b3f16a228e3d7a66aab`。
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`392b405c0aa7e609ab4a7b3f16a228e3d7a66aab`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7186be16eaef4bb43a0ba712004886c6465ab60a`。
-
+- 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`258c8d09a25b20a0dd7862d3c4238b6d8ecb9e66`。

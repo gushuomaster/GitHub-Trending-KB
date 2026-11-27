@@ -1,18 +1,18 @@
 ---
-stats_as_of: "2026-11-26"
-documentation_checked_at: "2026-11-26"
-fetched_at: "2026-11-26T08:08:24+08:00"
+stats_as_of: "2026-11-27"
+documentation_checked_at: "2026-11-27"
+fetched_at: "2026-11-27T08:10:28+08:00"
 type: github-project
 repo: "cursor/plugins"
 url: "https://github.com/cursor/plugins"
 first_seen: "2026-10-02"
-last_seen: "2026-11-26"
-trending_count: 13
+last_seen: "2026-11-27"
+trending_count: 14
 github_rank: 5
 language: "TypeScript"
-total_stars: 19524
-forks: 2106
-stars_today: 416
+total_stars: 19782
+forks: 2141
+stars_today: 270
 category: ["AI", "Developer-Tools", "Plugins"]
 tags: ["cursor", "plugins", "skills", "mcp"]
 topics: ["AI", "Developer-Tools", "Skills"]
@@ -66,6 +66,7 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 | 2026-11-24 | 5 | 397 | 18795 | 2042 | GitHub Today live snapshot |
 | 2026-11-25 | 5 | 360 | 19196 | 2077 | GitHub Today live snapshot |
 | 2026-11-26 | 5 | 416 | 19,524 | 2,106 | GitHub Today live snapshot |
+| 2026-11-27 | 5 | 270 |
 
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]
@@ -91,6 +92,7 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 - [[Daily/2026/11/2026-11-24|2026-11-24]]
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
+- [[Daily/2026/11/2026-11-27|2026-11-27]]
 
 ## GitHub 原始链接
 https://github.com/cursor/plugins
@@ -121,4 +123,4 @@ https://github.com/cursor/plugins
 - 资料核对（2026-11-24）：当前市场目录新增 FreshBooks 与 Campfire；二者均以托管 MCP/OAuth 接入财务数据，继续适用逐插件审查账号、网络和变更权限的边界。README blob SHA：`28aed68198b3cb587705b65218a09b512a8c1889`。
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`c36b556df55731603d5b7ae31b08a65974bf55f0`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`c36b556df55731603d5b7ae31b08a65974bf55f0`。
-
+- 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`8447d807c64f80e90c39a68dbb12e0489dc43b86`。
