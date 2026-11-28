@@ -4,7 +4,7 @@
 
 ## 本次已修复
 
-- 2026-11-28：16 项实时快照、日报、项目卡链接、JSONL 与 Dashboard 已按同一次 GitHub Trending Any / Any / Today 页面采集完成并通过质量门槛。
+- 2026-11-28：16 项 08:07:15 实时快照、日报、项目卡链接、JSONL 与 Dashboard 已按同一次 GitHub Trending Any / Any / Today 页面采集完成并通过质量门槛；本次全量复查修复 Dashboard 正文仍指向 2026-11-27 日报、今日项目查询仍筛选 2026-11-27 的两处滞后引用，未改动榜单顺序、排名、统计或 `fetched_at`。重新读取当天全部 16 个项目的当前官方 README，项目卡记录的 README blob SHA 均与当前版本一致；全量复查 81 份日报、1,119 条唯一 JSONL 记录和 358 张项目卡。
 
 - 2026-11-27：16 项 08:10:28 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已完成候选验收；更新 16 张既有项目卡。重新读取全部 16 个项目的当前官方 README；补充 last30days 的无主题 discovery，按数据文件核实 app-store-compliance 为 126 个模式与 117 条期限，并将 AutoClip 更新为 local-first、离线模型与 MCP 工作流。下午全量复查补齐 16 张项目卡当日 Trending 历史行缺失的 Total Stars、Forks 与快照证据列，并按 Claude-BugHunter 午后 README 新增 Opus 5 自动切换到 Opus 4.8 的平台边界；未改动榜单顺序、排名、统计或 `fetched_at`。历史 2026-09-09 至 2026-11-26 共 79 份日报仅检查，未改动。
 
