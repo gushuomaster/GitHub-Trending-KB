@@ -3,16 +3,16 @@ type: github-project
 repo: "XiaoYouChR/Ghost-Downloader-3"
 url: "https://github.com/XiaoYouChR/Ghost-Downloader-3"
 first_seen: "2026-11-20"
-last_seen: "2026-11-27"
-trending_count: 8
+last_seen: "2026-11-28"
+trending_count: 9
 language: "Python"
-total_stars: 19094
-forks: 1151
-stars_today: 889
+total_stars: 19836
+forks: 1257
+stars_today: 836
 github_rank: 15
-fetched_at: "2026-11-27T08:10:28+08:00"
-documentation_checked_at: "2026-11-27"
-stats_as_of: "2026-11-27"
+fetched_at: "2026-11-28T08:07:15+08:00"
+documentation_checked_at: "2026-11-28"
+stats_as_of: "2026-11-28"
 snapshot_status: "live"
 category: ["Downloader", "Media"]
 topics: ["Downloader", "Media", "Desktop"]
@@ -60,6 +60,8 @@ ghd add "https://example.com/a.torrent" --select 0,3 -o ./downloads
 | 2026-11-26 | 15 | 951 | 18,223 | 1,086 | GitHub Today live snapshot |
 | 2026-11-27 | 15 | 889 | 19,094 | 1,151 | GitHub Today live snapshot |
 
+| 2026-11-28 | 15 | 836 | 19836 | 1257 | 仓库实时快照（GitHub Trending Any / Any / Today；采集时间 2026-11-28T08:07:15+08:00） |
+
 ## 相关主题
 [[Topics/Downloader|Downloader]] · [[Topics/Media|Media]] · [[Topics/Desktop|Desktop]]
 
@@ -74,6 +76,8 @@ ghd add "https://example.com/a.torrent" --select 0,3 -o ./downloads
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
 - [[Daily/2026/11/2026-11-27|2026-11-27]]
+
+- [[Daily/2026/11/2026-11-28|2026-11-28]]
 
 ## GitHub 原始链接
 https://github.com/XiaoYouChR/Ghost-Downloader-3
@@ -90,3 +94,9 @@ https://github.com/XiaoYouChR/Ghost-Downloader-3
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`392b405c0aa7e609ab4a7b3f16a228e3d7a66aab`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7186be16eaef4bb43a0ba712004886c6465ab60a`。
 - 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`258c8d09a25b20a0dd7862d3c4238b6d8ecb9e66`。
+
+
+## 官方资料复核（2026-11-28）
+- README：https://github.com/XiaoYouChR/Ghost-Downloader-3/blob/HEAD/README.md
+- README blob SHA：`258c8d09a25b20a0dd7862d3c4238b6d8ecb9e66`
+- 重新读取当前官方 README；正文能力、用法、实例和局限与官方材料核对，本次保留既有详细说明并仅合并当天榜单事实。

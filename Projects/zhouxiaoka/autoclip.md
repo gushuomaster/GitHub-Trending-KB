@@ -1,22 +1,22 @@
 ---
-forks: 2382
-fetched_at: "2026-11-27T08:10:28+08:00"
-stats_as_of: "2026-11-27"
+forks: 2494
+fetched_at: "2026-11-28T08:07:15+08:00"
+stats_as_of: "2026-11-28"
 type: github-project
 repo: "zhouxiaoka/autoclip"
 url: "https://github.com/zhouxiaoka/autoclip"
 first_seen: "2026-09-22"
-last_seen: "2026-11-27"
-trending_count: 9
+last_seen: "2026-11-28"
+trending_count: 10
 github_rank: 16
-stars_today: 774
-total_stars: 16925
+stars_today: 718
+total_stars: 17578
 language: "Python"
 category: ["AI", "Video", "Creative Tools"]
 tags: ["video-ai", "clipping", "highlights", "python", "creator-tools"]
 topics: ["Video AI", "Content Creation", "Automation"]
 status: active
-documentation_checked_at: "2026-11-27"
+documentation_checked_at: "2026-11-28"
 snapshot_status: "live"
 ---
 # zhouxiaoka/autoclip
@@ -68,6 +68,8 @@ autoclip outputs PROJECT_ID --export-kits
 | 2026-11-26 | 16 | 880 | 16,133 | 2,329 | GitHub Today live snapshot |
 | 2026-11-27 | 16 | 774 | 16,925 | 2,382 | GitHub Today live snapshot |
 
+| 2026-11-28 | 16 | 718 | 17578 | 2494 | 仓库实时快照（GitHub Trending Any / Any / Today；采集时间 2026-11-28T08:07:15+08:00） |
+
 ## 相关主题
 [[Topics/Video AI|Video AI]] · [[Topics/Content Creation|Content Creation]] · [[Topics/Automation|Automation]]
 
@@ -84,6 +86,8 @@ autoclip outputs PROJECT_ID --export-kits
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
 - [[Daily/2026/11/2026-11-27|2026-11-27]]
+
+- [[Daily/2026/11/2026-11-28|2026-11-28]]
 
 ## GitHub 原始链接
 https://github.com/zhouxiaoka/autoclip
@@ -103,3 +107,9 @@ https://github.com/zhouxiaoka/autoclip
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`cf1c3d9452ad77768b0d10529ae85d70e5f3bbb0`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`cf1c3d9452ad77768b0d10529ae85d70e5f3bbb0`。
 - 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`0c346c00657e35f5e8db151a448c1ce94ccd0673`。
+
+
+## 官方资料复核（2026-11-28）
+- README：https://github.com/zhouxiaoka/autoclip/blob/HEAD/README.md
+- README blob SHA：`0c346c00657e35f5e8db151a448c1ce94ccd0673`
+- 重新读取当前官方 README；正文能力、用法、实例和局限与官方材料核对，本次保留既有详细说明并仅合并当天榜单事实。

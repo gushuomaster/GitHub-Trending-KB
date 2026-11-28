@@ -3,16 +3,16 @@ type: github-project
 repo: "mjmirza/app-store-compliance"
 url: "https://github.com/mjmirza/app-store-compliance"
 first_seen: "2026-11-20"
-last_seen: "2026-11-27"
-trending_count: 8
+last_seen: "2026-11-28"
+trending_count: 9
 language: "Shell"
-total_stars: 7020
-forks: 468
-stars_today: 562
+total_stars: 7893
+forks: 596
+stars_today: 530
 github_rank: 12
-fetched_at: "2026-11-27T08:10:28+08:00"
-documentation_checked_at: "2026-11-27"
-stats_as_of: "2026-11-27"
+fetched_at: "2026-11-28T08:07:15+08:00"
+documentation_checked_at: "2026-11-28"
+stats_as_of: "2026-11-28"
 snapshot_status: "live"
 category: ["Mobile", "Compliance"]
 topics: ["Mobile", "Compliance", "Developer-Tools"]
@@ -60,6 +60,8 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 | 2026-11-26 | 12 | 858 | 6,464 | 418 | GitHub Today live snapshot |
 | 2026-11-27 | 12 | 562 | 7,020 | 468 | GitHub Today live snapshot |
 
+| 2026-11-28 | 12 | 530 | 7893 | 596 | 仓库实时快照（GitHub Trending Any / Any / Today；采集时间 2026-11-28T08:07:15+08:00） |
+
 ## 相关主题
 [[Topics/Mobile|Mobile]] · [[Topics/Compliance|Compliance]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -74,6 +76,8 @@ bash ~/repositories/app-store-compliance/agent-os/hooks/app-store-compliance-gua
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
 - [[Daily/2026/11/2026-11-27|2026-11-27]]
+
+- [[Daily/2026/11/2026-11-28|2026-11-28]]
 
 ## GitHub 原始链接
 https://github.com/mjmirza/app-store-compliance
@@ -99,3 +103,9 @@ https://github.com/mjmirza/app-store-compliance
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7056ca8c29caaf88345c06e84c09a3e4a6311c92`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`7056ca8c29caaf88345c06e84c09a3e4a6311c92`。
 - 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`d35d62a49db3b3755ba22c53a60817e87f2452db`。
+
+
+## 官方资料复核（2026-11-28）
+- README：https://github.com/mjmirza/app-store-compliance/blob/HEAD/README.md
+- README blob SHA：`d35d62a49db3b3755ba22c53a60817e87f2452db`
+- 重新读取当前官方 README；正文能力、用法、实例和局限与官方材料核对，本次保留既有详细说明并仅合并当天榜单事实。

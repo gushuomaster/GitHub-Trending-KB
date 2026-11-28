@@ -1,18 +1,18 @@
 ---
-stats_as_of: "2026-11-27"
-documentation_checked_at: "2026-11-27"
-fetched_at: "2026-11-27T08:10:28+08:00"
+stats_as_of: "2026-11-28"
+documentation_checked_at: "2026-11-28"
+fetched_at: "2026-11-28T08:07:15+08:00"
 type: github-project
 repo: "cursor/plugins"
 url: "https://github.com/cursor/plugins"
 first_seen: "2026-10-02"
-last_seen: "2026-11-27"
-trending_count: 14
+last_seen: "2026-11-28"
+trending_count: 15
 github_rank: 5
 language: "TypeScript"
-total_stars: 19782
-forks: 2141
-stars_today: 270
+total_stars: 20011
+forks: 2238
+stars_today: 243
 category: ["AI", "Developer-Tools", "Plugins"]
 tags: ["cursor", "plugins", "skills", "mcp"]
 topics: ["AI", "Developer-Tools", "Skills"]
@@ -68,6 +68,8 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 | 2026-11-26 | 5 | 416 | 19,524 | 2,106 | GitHub Today live snapshot |
 | 2026-11-27 | 5 | 270 | 19,782 | 2,141 | GitHub Today live snapshot |
 
+| 2026-11-28 | 5 | 243 | 20011 | 2238 | 仓库实时快照（GitHub Trending Any / Any / Today；采集时间 2026-11-28T08:07:15+08:00） |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Developer-Tools|Developer-Tools]] · [[Topics/Skills|Skills]]
 
@@ -93,6 +95,8 @@ Cursor 官方插件集合与市场清单，用统一 manifest 打包 Skills、Ru
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
 - [[Daily/2026/11/2026-11-27|2026-11-27]]
+
+- [[Daily/2026/11/2026-11-28|2026-11-28]]
 
 ## GitHub 原始链接
 https://github.com/cursor/plugins
@@ -124,3 +128,9 @@ https://github.com/cursor/plugins
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`c36b556df55731603d5b7ae31b08a65974bf55f0`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`c36b556df55731603d5b7ae31b08a65974bf55f0`。
 - 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`8447d807c64f80e90c39a68dbb12e0489dc43b86`。
+
+
+## 官方资料复核（2026-11-28）
+- README：https://github.com/cursor/plugins/blob/HEAD/README.md
+- README blob SHA：`8447d807c64f80e90c39a68dbb12e0489dc43b86`
+- 重新读取当前官方 README；正文能力、用法、实例和局限与官方材料核对，本次保留既有详细说明并仅合并当天榜单事实。

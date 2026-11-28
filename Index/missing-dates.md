@@ -1,8 +1,10 @@
 # GitHub Trending 缺档与质量记录
 
-截至 2026-11-27，2026-09-09 至 2026-11-26 的 79 份历史 Daily 日期路径连续，没有文件缺失；基本完整性、项目卡链接、JSONL 唯一性与 Dashboard 查询均已复核。清单来自本次对 GitHub `main` 的重新审核；本次未修改昨天及更早日期。
+截至 2026-11-28，2026-09-09 至 2026-11-27 的 80 份历史 Daily 日期路径连续，没有文件缺失；基本完整性、项目卡链接、JSONL 唯一性与 Dashboard 查询均已复核。清单来自本次对 GitHub `main` 的重新审核；本次未修改昨天及更早日期。
 
 ## 本次已修复
+
+- 2026-11-28：16 项实时快照、日报、项目卡链接、JSONL 与 Dashboard 已按同一次 GitHub Trending Any / Any / Today 页面采集完成并通过质量门槛。
 
 - 2026-11-27：16 项 08:10:28 实时快照、日报、项目卡链接、JSONL 和 Dashboard 已完成候选验收；更新 16 张既有项目卡。重新读取全部 16 个项目的当前官方 README；补充 last30days 的无主题 discovery，按数据文件核实 app-store-compliance 为 126 个模式与 117 条期限，并将 AutoClip 更新为 local-first、离线模型与 MCP 工作流。下午全量复查补齐 16 张项目卡当日 Trending 历史行缺失的 Total Stars、Forks 与快照证据列，并按 Claude-BugHunter 午后 README 新增 Opus 5 自动切换到 Opus 4.8 的平台边界；未改动榜单顺序、排名、统计或 `fetched_at`。历史 2026-09-09 至 2026-11-26 共 79 份日报仅检查，未改动。
 

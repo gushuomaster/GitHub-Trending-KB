@@ -3,16 +3,16 @@ type: github-project
 repo: "mvanhorn/last30days-skill"
 url: "https://github.com/mvanhorn/last30days-skill"
 first_seen: "2026-11-17"
-last_seen: "2026-11-27"
-trending_count: 11
+last_seen: "2026-11-28"
+trending_count: 12
 language: "Python"
-total_stars: 75741
-forks: 6678
-stars_today: 759
+total_stars: 76354
+forks: 6796
+stars_today: 675
 github_rank: 10
-fetched_at: "2026-11-27T08:10:28+08:00"
-documentation_checked_at: "2026-11-27"
-stats_as_of: "2026-11-27"
+fetched_at: "2026-11-28T08:07:15+08:00"
+documentation_checked_at: "2026-11-28"
+stats_as_of: "2026-11-28"
 snapshot_status: "live"
 category: ["Agent Skills", "Research", "Social Search"]
 topics: ["Agent-Skills", "Research", "Social-Media"]
@@ -63,6 +63,8 @@ TikTok/Instagram 的无 Key 回退依赖本机 `yt-dlp`，结果更少且没有�
 | 2026-11-26 | 10 | 945 | 75,092 | 6,618 | GitHub Today live snapshot |
 | 2026-11-27 | 10 | 759 | 75,741 | 6,678 | GitHub Today live snapshot |
 
+| 2026-11-28 | 10 | 675 | 76354 | 6796 | 仓库实时快照（GitHub Trending Any / Any / Today；采集时间 2026-11-28T08:07:15+08:00） |
+
 ## 相关主题
 [[Topics/Agent-Skills|Agent-Skills]] · [[Topics/Research|Research]] · [[Topics/Social-Media|Social-Media]]
 
@@ -83,6 +85,8 @@ TikTok/Instagram 的无 Key 回退依赖本机 `yt-dlp`，结果更少且没有�
 - [[Daily/2026/11/2026-11-25|2026-11-25]]
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
 - [[Daily/2026/11/2026-11-27|2026-11-27]]
+
+- [[Daily/2026/11/2026-11-28|2026-11-28]]
 
 ## GitHub 原始链接
 https://github.com/mvanhorn/last30days-skill
@@ -119,3 +123,9 @@ https://github.com/mvanhorn/last30days-skill
 - README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md
 - README blob SHA：`8c3c3e5d82c6159d7cbd6b9611c665416b761f37`
 - 当前 README 继续提供 TikTok/Instagram 的无 Key `yt-dlp` 回退及本地研究库/Atom feed；现有正文已覆盖这些边界，更新可复核版本证据。
+
+
+## 官方资料复核（2026-11-28）
+- README：https://github.com/mvanhorn/last30days-skill/blob/HEAD/README.md
+- README blob SHA：`aa8f48f89de2787778df09ac48b792f1dd4e169d`
+- 重新读取当前官方 README；正文能力、用法、实例和局限与官方材料核对，本次保留既有详细说明并仅合并当天榜单事实。

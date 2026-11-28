@@ -3,14 +3,14 @@ type: "github-project"
 repo: "obra/superpowers"
 url: "https://github.com/obra/superpowers"
 first_seen: "2026-09-09"
-last_seen: "2026-11-27"
-trending_count: 27
+last_seen: "2026-11-28"
+trending_count: 28
 language: "Shell"
-total_stars: 327476
-forks: 29052
-stars_today: 854
+total_stars: 328294
+forks: 29178
+stars_today: 922
 github_rank: 2
-fetched_at: "2026-11-27T08:10:28+08:00"
+fetched_at: "2026-11-28T08:07:15+08:00"
 category:
 - AI
 - Skills
@@ -23,8 +23,8 @@ topics:
 - AI
 - Skills
 - Developer-Tools
-stats_as_of: "2026-11-27"
-documentation_checked_at: "2026-11-27"
+stats_as_of: "2026-11-28"
+documentation_checked_at: "2026-11-28"
 snapshot_status: "live"
 ---
 
@@ -91,6 +91,8 @@ superpowers
 | 2026-11-26 | 2 | 903 | 326,595 | 28,981 | GitHub Today live snapshot |
 | 2026-11-27 | 2 | 854 | 327,476 | 29,052 | GitHub Today live snapshot |
 
+| 2026-11-28 | 2 | 922 | 328294 | 29178 | 仓库实时快照（GitHub Trending Any / Any / Today；采集时间 2026-11-28T08:07:15+08:00） |
+
 ## 相关主题
 [[Topics/AI|AI]] · [[Topics/Skills|Skills]] · [[Topics/Developer-Tools|Developer-Tools]]
 
@@ -130,6 +132,8 @@ superpowers
 - [[Daily/2026/11/2026-11-26|2026-11-26]]
 - [[Daily/2026/11/2026-11-27|2026-11-27]]
 
+- [[Daily/2026/11/2026-11-28|2026-11-28]]
+
 ## GitHub 原始链接
 https://github.com/obra/superpowers
 
@@ -163,3 +167,9 @@ https://github.com/obra/superpowers
 - 资料核对（2026-11-25）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`c5bb59fdaf17ba154e803c549cd71a73ef36c24b`。
 - 资料核对（2026-11-26）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`c5bb59fdaf17ba154e803c549cd71a73ef36c24b`。
 - 资料核对（2026-11-27）：重新读取当前官方 README，能力、用法与限制已与正文核对；README blob SHA：`c5bb59fdaf17ba154e803c549cd71a73ef36c24b`。
+
+
+## 官方资料复核（2026-11-28）
+- README：https://github.com/obra/superpowers/blob/HEAD/README.md
+- README blob SHA：`c5bb59fdaf17ba154e803c549cd71a73ef36c24b`
+- 重新读取当前官方 README；正文能力、用法、实例和局限与官方材料核对，本次保留既有详细说明并仅合并当天榜单事实。
